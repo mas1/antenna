@@ -1,0 +1,188 @@
+[
+ {
+  "short_id": "3nf17z",
+  "created_at": "2026-10-01T16:28:19.423-05:00",
+  "title": "Deeper dive into the Ubiquiti USW Flex Mini",
+  "url": "https://kloenk.eu/posts/unifree/usw-flex-mini/",
+  "score": 1,
+  "flags": 0,
+  "comment_count": 0,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "7tehdt3cnw6kir6o",
+  "user_is_author": false,
+  "tags": [
+   "hardware"
+  ],
+  "short_id_url": "https://lobste.rs/s/3nf17z",
+  "comments_url": "https://lobste.rs/s/3nf17z/deeper_dive_into_ubiquiti_usw_flex_mini"
+ },
+ {
+  "short_id": "yknfii",
+  "created_at": "2026-09-30T21:14:34.589-05:00",
+  "title": "A brief history of the Bloomberg Terminal",
+  "url": "https://spectrum.ieee.org/bloomberg-terminal",
+  "score": 13,
+  "flags": 0,
+  "comment_count": 0,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "kaycebasques",
+  "user_is_author": false,
+  "tags": [
+   "finance",
+   "hardware",
+   "historical"
+  ],
+  "short_id_url": "https://lobste.rs/s/yknfii",
+  "comments_url": "https://lobste.rs/s/yknfii/brief_history_bloomberg_terminal"
+ },
+ {
+  "short_id": "oevyhw",
+  "created_at": "2026-09-30T09:28:23.283-05:00",
+  "title": "Q2 2026 Backblaze Drive Stats: Hard Drive Failure Rates",
+  "url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/",
+  "score": 27,
+  "flags": 0,
+  "comment_count": 2,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "hoistbypetard",
+  "user_is_author": false,
+  "tags": [
+   "hardware"
+  ],
+  "short_id_url": "https://lobste.rs/s/oevyhw",
+  "comments_url": "https://lobste.rs/s/oevyhw/q2_2026_backblaze_drive_stats_hard_drive"
+ },
+ {
+  "short_id": "qjnmeg",
+  "created_at": "2026-09-30T07:00:03.617-05:00",
+  "title": "A no-cost audio upgrade for my workstation",
+  "url": "https://mit.teil.space/rane-sl3.html",
+  "score": 15,
+  "flags": 0,
+  "comment_count": 2,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "FedericoSchonborn",
+  "user_is_author": false,
+  "tags": [
+   "hardware",
+   "nix"
+  ],
+  "short_id_url": "https://lobste.rs/s/qjnmeg",
+  "comments_url": "https://lobste.rs/s/qjnmeg/no_cost_audio_upgrade_for_my_workstation"
+ },
+ {
+  "short_id": "zyzrlh",
+  "created_at": "2026-09-30T00:05:56.191-05:00",
+  "title": "Dirty Optimization Secrets (C for Playdate)",
+  "url": "https://devforum.play.date/t/dirty-optimization-secrets-c-for-playdate/23011",
+  "score": 30,
+  "flags": 0,
+  "comment_count": 1,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "strugee",
+  "user_is_author": false,
+  "tags": [
+   "hardware"
+  ],
+  "short_id_url": "https://lobste.rs/s/zyzrlh",
+  "comments_url": "https://lobste.rs/s/zyzrlh/dirty_optimization_secrets_c_for"
+ },
+ {
+  "short_id": "werm2e",
+  "created_at": "2026-09-29T17:13:56.802-05:00",
+  "title": "ESPARGOS - ESP-SDR: Raw IQ Capture with Espressif's ESP32 Chips",
+  "url": "https://espargos.net/espsdr/",
+  "score": 9,
+  "flags": 0,
+  "comment_count": 4,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "projectgus",
+  "user_is_author": false,
+  "tags": [
+   "hardware"
+  ],
+  "short_id_url": "https://lobste.rs/s/werm2e",
+  "comments_url": "https://lobste.rs/s/werm2e/espargos_esp_sdr_raw_iq_capture_with"
+ },
+ {
+  "short_id": "8aztzt",
+  "created_at": "2026-09-28T06:43:38.827-05:00",
+  "title": "GPU Glossary",
+  "url": "https://modal.com/gpu-glossary",
+  "score": 2,
+  "flags": 0,
+  "comment_count": 0,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "mattyw",
+  "user_is_author": false,
+  "tags": [
+   "hardware"
+  ],
+  "short_id_url": "https://lobste.rs/s/8aztzt",
+  "comments_url": "https://lobste.rs/s/8aztzt/gpu_glossary"
+ },
+ {
+  "short_id": "pfzhxp",
+  "created_at": "2026-09-27T22:27:24.858-05:00",
+  "title": "Replacing the old battery on rechargeable bike lights",
+  "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+  "score": 28,
+  "flags": 1,
+  "comment_count": 7,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "carlana",
+  "user_is_author": false,
+  "tags": [
+   "hardware"
+  ],
+  "short_id_url": "https://lobste.rs/s/pfzhxp",
+  "comments_url": "https://lobste.rs/s/pfzhxp/replacing_old_battery_on_rechargeable"
+ },
+ {
+  "short_id": "5soxba",
+  "created_at": "2026-09-26T14:01:50.552-05:00",
+  "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
+  "url": "http://www.righto.com/2026/09/8087-tangent-cordic.html",
+  "score": 17,
+  "flags": 0,
+  "comment_count": 2,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "calvin",
+  "user_is_author": false,
+  "tags": [
+   "hardware",
+   "historical",
+   "reversing"
+  ],
+  "short_id_url": "https://lobste.rs/s/5soxba",
+  "comments_url": "https://lobste.rs/s/5soxba/reverse_engineering_vintage_intel_8087_s"
+ },
+ {
+  "short_id": "duu1z0",
+  "created_at": "2026-09-26T13:44:00.363-05:00",
+  "title": "The lost atomic update on LoongArch LA664",
+  "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+  "score": 6,
+  "flags": 0,
+  "comment_count": 0,
+  "description": "",
+  "description_plain": "",
+  "submitter_user": "classichasclass",
+  "user_is_author": false,
+  "tags": [
+   "hardware",
+   "vibecoding"
+  ],
+  "short_id_url": "https://lobste.rs/s/duu1z0",
+  "comments_url": "https://lobste.rs/s/duu1z0/lost_atomic_update_on_loongarch_la664"
+ }
+]

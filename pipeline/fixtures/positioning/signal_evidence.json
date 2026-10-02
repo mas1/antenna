@@ -1,0 +1,137 @@
+[
+  {
+    "signal": "repeat_founder_prior_success",
+    "finding": "VC-backed founders with a prior success have ~30% chance of success in the next venture vs ~18% for first-timers and ~20% for previously-failed founders (US VC-backed cos, 1986-2003; success = IPO or IPO filing).",
+    "source": "Gompers, Kovner, Lerner, Scharfstein, 'Performance Persistence in Entrepreneurship', JFE 2010",
+    "source_url": "https://www.newyorkfed.org/medialibrary/media/research/economists/kovner/performance_persistence.pdf",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary PDF",
+    "suggested_prior_weight": 0.9
+  },
+  {
+    "signal": "same_industry_experience_3y_plus",
+    "finding": "Founders with 3+ years prior experience in the same 2-digit industry reach top-0.1% growth outcomes at about twice the rate of founders with none; closer industry match is better. Mean founder age of the top 1-in-1000 growth firms is 45.0 (2.7M founders, US Census data).",
+    "source": "Azoulay, Jones, Kim, Miranda, 'Age and High-Growth Entrepreneurship', AER: Insights 2020",
+    "source_url": "https://www.nber.org/system/files/working_papers/w24489/w24489.pdf",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary PDF",
+    "suggested_prior_weight": 1.0
+  },
+  {
+    "signal": "cofounders_shared_prior_employer",
+    "finding": "Among multi-founder US unicorns, 57.8% (796 companies) have at least two founders who worked at the same company before founding; shared university accounts for 33.3%. Implies co-departure clusters from one employer are a formation signal.",
+    "source": "Ilya Strebulaev, 'The Making of a Unicorn Founder Is Changing' (Stanford Venture Capital Initiative data)",
+    "source_url": "https://ilyastrebulaev.substack.com/p/the-making-of-a-unicorn-founder-is",
+    "evidence_grade": "B",
+    "how_verified": "fetched",
+    "suggested_prior_weight": 0.9
+  },
+  {
+    "signal": "alumni_of_high_spawn_employer",
+    "finding": "Employer pedigree effects are real but period-specific: PayPal's unicorn-founder odds ratio fell from 12.0 (pre-2016) to 1.7 (post-2016); Google's share of unicorn founders rose from 4.4% to 9.1%; MIT's odds ratio rose 1.9 to 6.3; OpenAI went from zero to 1.8%. Pedigree tables must be time-decayed and refreshed.",
+    "source": "Ilya Strebulaev, 'The Making of a Unicorn Founder Is Changing'",
+    "source_url": "https://ilyastrebulaev.substack.com/p/the-making-of-a-unicorn-founder-is",
+    "evidence_grade": "B",
+    "how_verified": "fetched",
+    "suggested_prior_weight": 0.8
+  },
+  {
+    "signal": "spawned_from_vc_backed_parent",
+    "finding": "The most prolific spawners of VC-backed startups are companies that were themselves VC-backed and located in startup hubs; spawning rises as the parent's growth slows. Supports weighting SpaceX/Tesla/Anduril/Palantir-type employers over legacy primes.",
+    "source": "Gompers, Lerner, Scharfstein, 'Entrepreneurial Spawning', Journal of Finance 2005",
+    "source_url": "https://www.nber.org/papers/w9816",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": 0.7
+  },
+  {
+    "signal": "team_information_over_traction_at_seed",
+    "finding": "In a randomized field experiment (about 17,000 emails to 4,500 AngelList investors), investors responded strongly to founding-team information and not to traction or lead-investor identity; team-based investing was judged a rational strategy.",
+    "source": "Bernstein, Korteweg, Laws, 'Attracting Early-Stage Investors', Journal of Finance 2017",
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.12470",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": 0.8
+  },
+  {
+    "signal": "sbir_phase1_award",
+    "finding": "A DOE SBIR Phase I grant (~$150k) approximately doubles a firm's probability of subsequently receiving VC, with large positive effects on patenting and commercialization; regression discontinuity on 7,436 firms, 1983-2013. Effects strongest for financially constrained (young) firms.",
+    "source": "Sabrina Howell, 'Financing Innovation: Evidence from R&D Grants', AER 2017",
+    "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2687457",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": 1.0
+  },
+  {
+    "signal": "first_patent_grant",
+    "finding": "Startups that win their first patent via lenient-examiner assignment show ~55% higher employment growth and ~80% higher sales growth over five years, a 47% higher likelihood of raising VC, and more than double the odds of IPO.",
+    "source": "Farre-Mensa, Hegde, Ljungqvist, 'What Is a Patent Worth? Evidence from the U.S. Patent Lottery', Journal of Finance 2020",
+    "source_url": "https://www.nber.org/papers/w23268",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": 0.8
+  },
+  {
+    "signal": "github_open_source_engagement",
+    "finding": "Early-stage startups that engage with open-source communities on GitHub are substantially more likely to raise funding (matched diff-in-diff); effect is larger for novel technologies and weaker when GitHub is used only internally or in crowded markets.",
+    "source": "Conti, Peukert, Roche, 'Beefing IT Up for Your Investor?', Organization Science 2025",
+    "source_url": "https://ideas.repec.org/a/inm/ororsc/v36y2025i4p1551-1573.html",
+    "evidence_grade": "A",
+    "how_verified": "fetched abstract",
+    "suggested_prior_weight": 0.5
+  },
+  {
+    "signal": "github_star_velocity",
+    "finding": "Practitioner evidence: Redpoint analysis of 80 dev-tool companies found median stars of 2,850 at seed and 4,980 at Series A; Runa ROSS Index ranks startups by relative star growth from the 1,000-star mark. Counter-evidence: CMU StarScout found ~4.5M suspected fake stars across ~22.9k repos (3.1M / 15.8k after filtering). Star counts must be de-botted and are weak for hardware companies.",
+    "source": "Runa Capital ROSS Index; He et al., arXiv:2412.13459",
+    "source_url": "https://arxiv.org/pdf/2412.13459",
+    "evidence_grade": "C",
+    "how_verified": "search-layer summaries",
+    "suggested_prior_weight": 0.3
+  },
+  {
+    "signal": "web_mentions_velocity",
+    "finding": "Adding open-web mentions (news and other pages) to structured ecosystem data gave a substantial lift in predicting whether a seed/angel-funded startup raises a Series A within a year.",
+    "source": "Sharchilev et al., 'Web-based Startup Success Prediction', CIKM 2018",
+    "source_url": "https://dl.acm.org/doi/10.1145/3269206.3272011",
+    "evidence_grade": "B",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": 0.5
+  },
+  {
+    "signal": "academic_founder_only",
+    "finding": "Academic startups raise as much money and patent as much as non-academic ones but have a lower likelihood and hazard of exit (IPO/M&A); 'superstar' academics do better. Research pedigree should score highest when paired with an operator co-founder.",
+    "source": "Roche, Conti, Rothaermel, 'Different founders, different venture outcomes', Research Policy 2020",
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0048733320301402",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": 0.5
+  },
+  {
+    "signal": "headcount_growth",
+    "finding": "Used by every vendor (Harmonic, Specter, Dealroom Signal, CB Insights Mosaic momentum) but no rigorous public study of its predictive power was found in this research pass. Treat as a lagging confirmation signal: it shows up after capital, not before.",
+    "source": "vendor documentation only",
+    "source_url": "https://www.cbinsights.com/mosaic-health/",
+    "evidence_grade": "D",
+    "how_verified": "absence of evidence noted",
+    "suggested_prior_weight": 0.3
+  },
+  {
+    "signal": "ml_screening_vs_humans",
+    "finding": "An XGBoost screen trained on 77,279 European early-stage companies beat the median VC by 25% and the average VC by 29% in a 111-investor benchmark on identical one-pagers. Screening is automatable; selection of outliers is not shown to be.",
+    "source": "Retterath, 'Human Versus Computer', SSRN 2020",
+    "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3706119",
+    "evidence_grade": "B",
+    "how_verified": "search-layer summary of primary abstract",
+    "suggested_prior_weight": null
+  },
+  {
+    "signal": "backward_similarity_trap",
+    "finding": "VCs that adopt data technologies get better at screening startups similar to past ones and double their investments in the top quartile of backward-similarity, while becoming less likely to back the rare breakthrough companies. Design implication: score novelty explicitly and never rank on similarity-to-past-winners alone.",
+    "source": "Bonelli, 'Data-driven Investors', Review of Financial Studies 2026",
+    "source_url": "https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaf078/8285007",
+    "evidence_grade": "A",
+    "how_verified": "search-layer summary of primary abstract (SSRN page returned 403)",
+    "suggested_prior_weight": null
+  }
+]

@@ -1,0 +1,373 @@
+{
+ "_fixture_note": "Parsed from GET https://github.com/trending?since=weekly (HTML, 661829 bytes, no auth) fetched 2026-10-01 ~23:55 UTC with the regex parser in docs/sources/github.md. raw_article_sample is the first <article class=\"Box-row\"> block verbatim.",
+ "url": "https://github.com/trending?since=weekly",
+ "items": [
+  {
+   "repo": "paperclipai/paperclip",
+   "description": "The open-source app everyone uses to manage agents at work",
+   "language": "TypeScript",
+   "stars": 95837,
+   "forks": 16248,
+   "stars_in_period": 14335,
+   "period": "this week",
+   "built_by": [
+    "cryppadotta",
+    "Paperclip-Paperclip",
+    "devinfoley",
+    "claude",
+    "nickyleach"
+   ]
+  },
+  {
+   "repo": "vectorize-io/hindsight",
+   "description": "Hindsight: Agent Memory That Learns",
+   "language": "Python",
+   "stars": 44302,
+   "forks": 5856,
+   "stars_in_period": 17403,
+   "period": "this week",
+   "built_by": [
+    "nicoloboschi",
+    "benfrank241",
+    "claude",
+    "r266-tech",
+    "cdbartholomew"
+   ]
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "language": "Python",
+   "stars": 51367,
+   "forks": 5711,
+   "stars_in_period": 16114,
+   "period": "this week",
+   "built_by": [
+    "debpalash",
+    "claude",
+    "kevin9327",
+    "jaketame",
+    "velixio"
+   ]
+  },
+  {
+   "repo": "rohitg00/ai-engineering-from-scratch",
+   "description": "Learn it. Build it. Ship it for others.",
+   "language": "Python",
+   "stars": 62433,
+   "forks": 10680,
+   "stars_in_period": 6469,
+   "period": "this week",
+   "built_by": [
+    "rohitg00",
+    "apps/github-actions",
+    "abhinav-m22",
+    "thereisnotime",
+    "claude"
+   ]
+  },
+  {
+   "repo": "anthropics/financial-services",
+   "description": null,
+   "language": "Python",
+   "stars": 38471,
+   "forks": 5535,
+   "stars_in_period": 1270,
+   "period": "this week",
+   "built_by": [
+    "mihilmy",
+    "cxyback",
+    "manar-ant",
+    "tobinsouth",
+    "viveknair"
+   ]
+  },
+  {
+   "repo": "vercel/next.js",
+   "description": "The React Framework",
+   "language": "JavaScript",
+   "stars": 142991,
+   "forks": 33559,
+   "stars_in_period": 624,
+   "period": "this week",
+   "built_by": [
+    "ijjk",
+    "timneutkens",
+    "sokra",
+    "vercel-release-bot",
+    "huozhi"
+   ]
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "description": "The design language that makes your AI harness better at design.",
+   "language": "JavaScript",
+   "stars": 73656,
+   "forks": 4437,
+   "stars_in_period": 2704,
+   "period": "this week",
+   "built_by": [
+    "pbakaus",
+    "claude",
+    "apps/github-actions",
+    "abdulwahabone",
+    "cursoragent"
+   ]
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars": 51233,
+   "forks": 4672,
+   "stars_in_period": 1055,
+   "period": "this week",
+   "built_by": [
+    "yuh-yang",
+    "claude",
+    "AiMiDi",
+    "omerarslan0",
+    "hito0512"
+   ]
+  },
+  {
+   "repo": "alirezarezvani/claude-skills",
+   "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+   "language": "Python",
+   "stars": 27180,
+   "forks": 3838,
+   "stars_in_period": 743,
+   "period": "this week",
+   "built_by": [
+    "alirezarezvani",
+    "claude",
+    "olgasafonova",
+    "fernandezbaptiste",
+    "ikala-shawn"
+   ]
+  },
+  {
+   "repo": "davila7/claude-code-templates",
+   "description": "CLI tool for configuring and monitoring Claude Code",
+   "language": "Python",
+   "stars": 32275,
+   "forks": 3666,
+   "stars_in_period": 601,
+   "period": "this week",
+   "built_by": [
+    "davila7",
+    "claude",
+    "apps/github-actions",
+    "apps/claude",
+    "apps/dependabot"
+   ]
+  },
+  {
+   "repo": "TencentCloud/Octop",
+   "description": "A smarter, self-hosted AI assistant \u2014 multi-user, multi-agent.",
+   "language": "Python",
+   "stars": 6238,
+   "forks": 785,
+   "stars_in_period": 1360,
+   "period": "this week",
+   "built_by": [
+    "jubaoliang-tencent",
+    "cursoragent",
+    "jubaoliang",
+    "liukewia",
+    "huangcheng"
+   ]
+  },
+  {
+   "repo": "agent-substrate/substrate",
+   "description": "Agent Substrate: the core system",
+   "language": "Go",
+   "stars": 4103,
+   "forks": 490,
+   "stars_in_period": 365,
+   "period": "this week",
+   "built_by": [
+    "BenTheElder",
+    "juli4n",
+    "HavenXia",
+    "thockin",
+    "zoez7"
+   ]
+  },
+  {
+   "repo": "tile-ai/tilelang",
+   "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+   "language": "Python",
+   "stars": 8095,
+   "forks": 814,
+   "stars_in_period": 481,
+   "period": "this week",
+   "built_by": [
+    "LeiWang1999",
+    "chengyupku",
+    "SiriusNEO",
+    "Rachmanino",
+    "xwhzz"
+   ]
+  },
+  {
+   "repo": "anthropics/claude-code-action",
+   "description": null,
+   "language": "TypeScript",
+   "stars": 9328,
+   "forks": 2182,
+   "stars_in_period": 376,
+   "period": "this week",
+   "built_by": [
+    "actions-user",
+    "ashwin-ant",
+    "claude",
+    "ltawfik",
+    "apps/claude"
+   ]
+  },
+  {
+   "repo": "dream-num/univer",
+   "description": "The Office Harness for AI Agents \u2014 Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "language": "TypeScript",
+   "stars": 22240,
+   "forks": 1869,
+   "stars_in_period": 5267,
+   "period": "this week",
+   "built_by": [
+    "jikkai",
+    "DR-Univer",
+    "wzhudev",
+    "Dushusir",
+    "wpxp123456"
+   ]
+  },
+  {
+   "repo": "FxEmbed/FxEmbed",
+   "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+   "language": "TypeScript",
+   "stars": 5630,
+   "forks": 269,
+   "stars_in_period": 369,
+   "period": "this week",
+   "built_by": [
+    "apps/renovate",
+    "dangeredwolf",
+    "cursoragent",
+    "Wazbat",
+    "apps/coderabbitai"
+   ]
+  },
+  {
+   "repo": "flutter/flutter",
+   "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+   "language": "Dart",
+   "stars": 179213,
+   "forks": 32737,
+   "stars_in_period": 147,
+   "period": "this week",
+   "built_by": [
+    "skia-flutter-autoroll",
+    "engine-flutter-autoroll",
+    "abarth",
+    "Hixie",
+    "jason-simmons"
+   ]
+  },
+  {
+   "repo": "androoAGI/starnet",
+   "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+   "language": "JavaScript",
+   "stars": 878,
+   "forks": 148,
+   "stars_in_period": 592,
+   "period": "this week",
+   "built_by": [
+    "androoAGI",
+    "claude"
+   ]
+  }
+ ],
+ "verilog_monthly": [
+  {
+   "repo": "YosysHQ/picorv32",
+   "description": "PicoRV32 - A Size-Optimized RISC-V CPU",
+   "language": "Verilog",
+   "stars": 4387,
+   "forks": 1019,
+   "stars_in_period": 26,
+   "period": "this month",
+   "built_by": [
+    "cliffordwolf",
+    "wallclimber21",
+    "thoughtpolice",
+    "ldoolitt",
+    "olofk"
+   ]
+  },
+  {
+   "repo": "The-OpenROAD-Project/OpenROAD-flow-scripts",
+   "description": "OpenROAD's scripts implementing an RTL-to-GDS Flow. Documentation at https://openroad-flow-scripts.readthedocs.io/en/latest/",
+   "language": "Verilog",
+   "stars": 755,
+   "forks": 531,
+   "stars_in_period": 30,
+   "period": "this month",
+   "built_by": [
+    "maliberty",
+    "vvbandeira",
+    "oharboe",
+    "eder-matheus",
+    "ravi-varadarajan"
+   ]
+  },
+  {
+   "repo": "TinyTapeout/ttsky-verilog-template",
+   "description": "Submission template for Tiny Tapeout SKY130 (ChipFoundry) shuttles - Verilog HDL Projects",
+   "language": "Verilog",
+   "stars": 57,
+   "forks": 497,
+   "stars_in_period": 6,
+   "period": "this month",
+   "built_by": [
+    "urish",
+    "mattvenn",
+    "stevej",
+    "tommythorn",
+    "rishabhrkaushik"
+   ]
+  },
+  {
+   "repo": "The-OpenROAD-Project/OpenROAD",
+   "description": "OpenROAD's unified application implementing an RTL-to-GDS Flow. Documentation at https://openroad.readthedocs.io/en/latest/",
+   "language": "Verilog",
+   "stars": 3144,
+   "forks": 1025,
+   "stars_in_period": 100,
+   "period": "this month",
+   "built_by": [
+    "maliberty",
+    "eder-matheus",
+    "gadfort",
+    "jjcherry56",
+    "osamahammad21"
+   ]
+  },
+  {
+   "repo": "OpenPOWERFoundation/a2o",
+   "description": "The A2O core was a follow-on to A2I, written in Verilog, and supported a lower thread count than A2I, but higher performance per thread, using out-of-order execution (register renaming, reservation stations, completion buffer) and a store queue. It is now being updated for compliancy and integration into open projects.",
+   "language": "Verilog",
+   "stars": 59,
+   "forks": 13,
+   "stars_in_period": 2,
+   "period": "this month",
+   "built_by": [
+    "openpowerwtf",
+    "openpower-cores",
+    "flaviens",
+    "rolypolytoy"
+   ]
+  }
+ ],
+ "raw_article_sample": "<article class=\"Box-row\">\n  <div class=\"float-right d-flex\">\n\n      <div data-view-component=\"true\" class=\"BtnGroup d-flex\">\n        <a href=\"/login?return_to=%2Fpaperclipai%2Fpaperclip\" rel=\"nofollow\" data-hydro-click=\"{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1170821064,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:null}}\" data-hydro-click-hmac=\"1c1984787fc38e9f707ea19a78ca2645bbe39fb5e8539e7daf554331a4458c0d\" aria-label=\"You must be signed in to star a repository\" data-view-component=\"true\" class=\"tooltipped tooltipped-sw btn-sm btn\">    <svg aria-hidden=\"true\" data-component=\"Octicon\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-star v-align-text-bottom d-none d-md-inline-block mr-2 tmp-mr-2\">\n    <path d=\"M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z\"></path>\n</svg><svg aria-hidden=\"true\" data-component=\"Octicon\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-star mr-0 tmp-mr-0 v-align-text-bottom d-inline-block d-md-none\">\n    <path d=\"M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z\"></path>\n</svg>\n        <span data-view-component=\"true\" class=\"d-none d-md-inline\">\n          Star\n</span>\n</a></div>\n  </div>\n\n  <h2 class=\"h3 lh-condensed\">\n    <a data-hydro-click=\"{&quot;event_type&quot;:&quot;explore.click&quot;,&quot;payload&quot;:{&quot;click_context&quot;:&quot;TRENDING_REPOSITORIES_PAGE&quot;,&quot;click_target&quot;:&quot;REPOSITORY&quot;,&quot;click_visual_representation&quot;:&quot;REPOSITORY_NAME_HEADING&quot;,&quot;actor_id&quot;:null,&quot;record_id&quot;:1170821064,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:null}}\" data-hydro-click-hmac=\"1a6ce4f0074c545eba7c5047f2e78d0dc28379bcee69d17e8c50443958c5821a\" href=\"/paperclipai/paperclip\" data-view-component=\"true\" class=\"Link\"><svg aria-hidden=\"true\" data-component=\"Octicon\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-repo mr-1 tmp-mr-1 color-fg-muted\">\n    <path d=\"M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z\"></path>\n</svg>\n\n      <span data-view-component=\"true\" class=\"text-normal\">\n        paperclipai /\n</span>\n      paperclip</a>  </h2>\n\n    <p class=\"col-9 color-fg-muted my-1 tmp-pr-4\">\n      The open-source app everyone uses to manage agents at work\n    </p>\n\n  <div class=\"f6 color-fg-muted mt-2\">\n      <span class=\"tmp-mr-3 d-inline-block ml-0 tmp-ml-0\">\n  <span class=\"repo-language-color\" style=\"background-color: #3178c6\"></span>\n  <span itemprop=\"programmingLanguage\">TypeScript</span>\n</span>\n\n\n      <a href=\"/paperclipai/paperclip/stargazers\" data-view-component=\"true\" class=\"tmp-mr-3 Link Link--muted d-inline-block\"><svg aria-label=\"star\" role=\"img\" data-component=\"Octicon\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-star\">\n    <path d=\"M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z\"></path>\n</svg>\n        95,837</a>\n      <a href=\"/paperclipai/paperclip/forks\" data-view-component=\"true\" class=\"tmp-mr-3 Link Link--muted d-inline-block\"><svg aria-label=\"fork\" role=\"img\" data-component=\"Octicon\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-repo-forked\">\n    <path d=\"M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z\"></path>\n</svg>\n        16,248</a>\n      <span data-view-component=\"true\" class=\"tmp-mr-3 d-inline-block\">\n        Built by\n\n          <a class=\"d-inline-block\" data-hydro-click=\"{&quot;event_type&quot;:&quot;explore.click&quot;,&quot;payload&quot;:{&quot;click_context&quot;:&quot;TRENDING_REPOSITORIES_PAGE&quot;,&quot;click_target&quot;:&quot;CONTRIBUTING_DEVELOPER&quot;,&quot;click_visual_representation&quot;:&quot;DEVELOPER_AVATAR&quot;,&quot;actor_id&quot;:null,&quot;record_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:186657166}}\" data-hydro-click-hmac=\"9cea9fba2c901b5ea945882ed8b40745b26b5ad6ce8104bb5ae03d20f6737601\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/cryppadotta/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"/cryppadotta\"><img class=\"avatar mb-1 avatar-user\" src=\"https://avatars.githubusercontent.com/u/34892728?s=40&amp;v=4\" width=\"20\" height=\"20\" alt=\"@cryppadotta\" /></a>\n          <a class=\"d-inline-block\" data-hydro-click=\"{&quot;event_type&quot;:&quot;explore.click&quot;,&quot;payload&quot;:{&quot;click_context&quot;:&quot;TRENDING_REPOSITORIES_PAGE&quot;,&quot;click_target&quot;:&quot;CONTRIBUTING_DEVELOPER&quot;,&quot;click_visual_representation&quot;:&quot;DEVELOPER_AVATAR&quot;,&quot;actor_id&quot;:null,&quot;record_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:186657166}}\" data-hydro-click-hmac=\"9cea9fba2c901b5ea945882ed8b40745b26b5ad6ce8104bb5ae03d20f6737601\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Paperclip-Paperclip/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"/Paperclip-Paperclip\"><img class=\"avatar mb-1 avatar-user\" src=\"https://avatars.githubusercontent.com/u/271391591?s=40&amp;v=4\" width=\"20\" height=\"20\" alt=\"@Paperclip-Paperclip\" /></a>\n          <a class=\"d-inline-block\" data-hydro-click=\"{&quot;event_type&quot;:&quot;explore.click&quot;,&quot;payload&quot;:{&quot;click_context&quot;:&quot;TRENDING_REPOSITORIES_PAGE&quot;,&quot;click_target&quot;:&quot;CONTRIBUTING_DEVELOPER&quot;,&quot;click_visual_representation&quot;:&quot;DEVELOPER_AVATAR&quot;,&quot;actor_id&quot;:null,&quot;record_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:186657166}}\" data-hydro-click-hmac=\"9cea9fba2c901b5ea945882ed8b40745b26b5ad6ce8104bb5ae03d20f6737601\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/devinfoley/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"/devinfoley\"><img class=\"avatar mb-1 avatar-user\" src=\"https://avatars.githubusercontent.com/u/139239?s=40&amp;v=4\" width=\"20\" height=\"20\" alt=\"@devinfoley\" /></a>\n          <a class=\"d-inline-block\" data-hydro-click=\"{&quot;event_type&quot;:&quot;explore.click&quot;,&quot;payload&quot;:{&quot;click_context&quot;:&quot;TRENDING_REPOSITORIES_PAGE&quot;,&quot;click_target&quot;:&quot;CONTRIBUTING_DEVELOPER&quot;,&quot;click_visual_representation&quot;:&quot;DEVELOPER_AVATAR&quot;,&quot;actor_id&quot;:null,&quot;record_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:186657166}}\" data-hydro-click-hmac=\"9cea9fba2c901b5ea945882ed8b40745b26b5ad6ce8104bb5ae03d20f6737601\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/claude/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"/claude\"><img class=\"avatar mb-1 avatar-user\" src=\"https://avatars.githubusercontent.com/u/81847?s=40&amp;v=4\" width=\"20\" height=\"20\" alt=\"@claude\" /></a>\n          <a class=\"d-inline-block\" data-hydro-click=\"{&quot;event_type&quot;:&quot;explore.click&quot;,&quot;payload&quot;:{&quot;click_context&quot;:&quot;TRENDING_REPOSITORIES_PAGE&quot;,&quot;click_target&quot;:&quot;CONTRIBUTING_DEVELOPER&quot;,&quot;click_visual_representation&quot;:&quot;DEVELOPER_AVATAR&quot;,&quot;actor_id&quot;:null,&quot;record_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/trending?since=weekly&quot;,&quot;user_id&quot;:186657166}}\" data-hydro-click-hmac=\"9cea9fba2c901b5ea945882ed8b40745b26b5ad6ce8104bb5ae03d20f6737601\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/nickyleach/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"/nickyleach\"><img class=\"avatar mb-1 avatar-user\" src=\"https://avatars.githubusercontent.com/u/331803?s=40&amp;v=4\" width=\"20\" height=\"20\" alt=\"@nickyleach\" /></a>\n</span>\n      <span data-view-component=\"true\" class=\"d-inline-block float-sm-right\">\n        <svg aria-hidden=\"true\" data-component=\"Octicon\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-star\">\n    <path d=\"M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z\"></path>\n</svg>\n        14,335 stars this week\n</span>  </div>\n</article>"
+}

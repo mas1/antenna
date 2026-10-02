@@ -1,0 +1,4531 @@
+{
+ "count": 291,
+ "results": [
+  {
+   "score": 9.411441,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "ACD47F7E-7D53-CCBF-8C09-A0F8F5900000",
+    "Id": "{ACD47F7E-7D53-CCBF-8C09-A0F8F5900000}",
+    "Name": "Summary of Second Pre-submittal Closed Meeting and follow up meetings between U.S. Nuclear Regulatory Commission and Westinghouse Electric Company on future submittal of Topical Report WCAP-19027 (EPID: L-2026-LRM-0050)",
+    "AccessionNumber": "ML26271A091",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Lenning E"
+    ],
+    "AuthorAffiliation": [
+     "NRC/NRR/DDLP/DLP2/ORTRB"
+    ],
+    "AddresseeName": [
+     "Marcano D"
+    ],
+    "AddresseeAffiliation": [
+     "NRC/NRR/DDLP/DLP2/ORTRB"
+    ],
+    "CaseReferenceNumber": [
+     "EPID L-2026-LRM-0050"
+    ],
+    "Comment": "KXL5 <! COA !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Summary of Second Pre-submittal Closed Meeting and follow up meetings between U.S. Nuclear Regulatory Commission and Westinghouse Electric Company on future submittal of Topical Report WCAP-19027 (EPID: L-2026-LRM-0050)",
+    "DocumentTitleEquals": "Summary of Second Pre-submittal Closed Meeting and follow up meetings between U.S. Nuclear Regulatory Commission and Westinghouse Electric Company on future submittal of Topical Report WCAP-19027 (EPID: L-2026-LRM-0050)",
+    "DocumentTitleWord": "Summary of Second Pre-submittal Closed Meeting and follow up meetings between U.S. Nuclear Regulatory Commission and Westinghouse Electric Company on future submittal of Topical Report WCAP-19027 (EPID: L-2026-LRM-0050)",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 16:26",
+    "DocumentDate": "2026-09-30",
+    "DocumentType": [
+     "Meeting Summary",
+     "Memoranda"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902038"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "SUNSI Review Complete",
+     "NRC-001",
+     "AOA1",
+     "JEF1",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26271A091.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "167844",
+    "AccessionNumberLower": "ml26271a091",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.386388,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "7D24C283-13FC-C1EF-AC89-A0F888100002",
+    "Id": "{7D24C283-13FC-C1EF-AC89-A0F888100002}",
+    "Name": "260402-REP_Affidavit_2390_signed",
+    "AccessionNumber": "ML26274A395",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Mitchell M"
+    ],
+    "AuthorAffiliation": [
+     "Valar Atomics"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/OAR/DDLP/DARL/ARLB2"
+    ],
+    "CaseReferenceNumber": [],
+    "Comment": null,
+    "ContactPerson": null,
+    "DocumentTitle": "260402-REP_Affidavit_2390_signed",
+    "DocumentTitleEquals": "260402-REP_Affidavit_2390_signed",
+    "DocumentTitleWord": "260402-REP_Affidavit_2390_signed",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 15:12",
+    "DocumentDate": "2026-03-29",
+    "DocumentType": [
+     "Legal-Affidavit"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902185"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "SUNSI Review Complete",
+     "AOA1",
+     "jef1",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [
+     "ML26274A387"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26274A395.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "81312",
+    "AccessionNumberLower": "ml26274a395",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.362121,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "E20A47A4-A8CF-CC2E-8513-A0F888100000",
+    "Id": "{E20A47A4-A8CF-CC2E-8513-A0F888100000}",
+    "Name": "260402-REP_Cover_Letter_signed",
+    "AccessionNumber": "ML26274A394",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Mitchell M"
+    ],
+    "AuthorAffiliation": [
+     "Valar Atomics"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/OAR/DDLP/DARL/ARLB2"
+    ],
+    "CaseReferenceNumber": [],
+    "Comment": null,
+    "ContactPerson": null,
+    "DocumentTitle": "260402-REP_Cover_Letter_signed",
+    "DocumentTitleEquals": "260402-REP_Cover_Letter_signed",
+    "DocumentTitleWord": "260402-REP_Cover_Letter_signed",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 15:12",
+    "DocumentDate": "2026-03-28",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902185"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "SUNSI Review Complete",
+     "AOA1",
+     "jef1",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [
+     "ML26274A387"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26274A394.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "78926",
+    "AccessionNumberLower": "ml26274a394",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.353661,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "1F8EBB9F-9DEE-4035-B7CD-A10F2EE6081F",
+    "Id": "{1F8EBB9F-9DEE-4035-B7CD-A10F2EE6081F}",
+    "Name": "Notice of Meeting with ARC Clean Technology, Inc. 10/08/2026",
+    "AccessionNumber": "ML26274A408",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "NRC"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [],
+    "CaseReferenceNumber": [
+     "PMNS 20260750"
+    ],
+    "Comment": "PMNS 20260750",
+    "ContactPerson": null,
+    "DocumentTitle": "Notice of Meeting with ARC Clean Technology, Inc. 10/08/2026",
+    "DocumentTitleEquals": "Notice of Meeting with ARC Clean Technology, Inc. 10/08/2026",
+    "DocumentTitleWord": "Notice of Meeting with ARC Clean Technology, Inc. 10/08/2026",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 14:37",
+    "DocumentDate": "2026-10-01",
+    "DocumentType": [
+     "Meeting Notice",
+     "Meeting Agenda"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902103"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "Non-CUI",
+     "Public Meeting Notice/Agenda - SUNSI Review Complete",
+     "NRC-001",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26274A408.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "98230",
+    "AccessionNumberLower": "ml26274a408",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.433733,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "F51D1FDF-D22C-C852-859A-A0E86AC00000",
+    "Id": "{F51D1FDF-D22C-C852-859A-A0E86AC00000}",
+    "Name": "Preapplication Readiness Assessment Plan - Aalo Holdings, Inc. Early Site Permit",
+    "AccessionNumber": "ML26265A272",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Hernandez  J H"
+    ],
+    "AuthorAffiliation": [
+     "NRC/OAR/DDLP/DARL/ARLB4"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [],
+    "CaseReferenceNumber": [
+     "EPID L-2026-LRM-0135"
+    ],
+    "Comment": "pxt1 <! JEH5 !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Preapplication Readiness Assessment Plan - Aalo Holdings, Inc. Early Site Permit",
+    "DocumentTitleEquals": "Preapplication Readiness Assessment Plan - Aalo Holdings, Inc. Early Site Permit",
+    "DocumentTitleWord": "Preapplication Readiness Assessment Plan - Aalo Holdings, Inc. Early Site Permit",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 08:20",
+    "DocumentDate": "2026-09-30",
+    "DocumentType": [
+     "- No Document Type Applies"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902180"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "SUNSI Review Complete",
+     "AOA1",
+     "dnd",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A272.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "134702",
+    "AccessionNumberLower": "ml26265a272",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.386388,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "5F107467-DA7A-CBA2-8E95-A0CFA6600000",
+    "Id": "{5F107467-DA7A-CBA2-8E95-A0CFA6600000}",
+    "Name": "Email - Aalo ESP Readiness Assessment Plan",
+    "AccessionNumber": "ML26265A273",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Hernandez  J H"
+    ],
+    "AuthorAffiliation": [
+     "NRC/OAR/DDLP/DARL/ARLB4"
+    ],
+    "AddresseeName": [
+     "Chandran P"
+    ],
+    "AddresseeAffiliation": [
+     "Aalo Holdings, Inc"
+    ],
+    "CaseReferenceNumber": [],
+    "Comment": "pxt1 <! JEH5 !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Email - Aalo ESP Readiness Assessment Plan",
+    "DocumentTitleEquals": "Email - Aalo ESP Readiness Assessment Plan",
+    "DocumentTitleWord": "Email - Aalo ESP Readiness Assessment Plan",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 08:20",
+    "DocumentDate": "2026-09-30",
+    "DocumentType": [
+     "E-Mail"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902180"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "SUNSI Review Complete",
+     "AOA1",
+     "dnd",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A273.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "94917",
+    "AccessionNumberLower": "ml26265a273",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.386388,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "B7BD6EFE-EA10-CA17-8361-A0D063F00001",
+    "Id": "{B7BD6EFE-EA10-CA17-8361-A0D063F00001}",
+    "Name": "AMPERA, Inc., Request for Fee Waiver - Part 53/57 Licensing",
+    "AccessionNumber": "ML26266A278",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Hamer M J"
+    ],
+    "AuthorAffiliation": [
+     "AMPERA, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR",
+     "NRC/OCFO",
+     "NRC/Document Control Desk"
+    ],
+    "CaseReferenceNumber": [
+     "WP-26-09-002"
+    ],
+    "Comment": "A001EIE-Submittal",
+    "ContactPerson": null,
+    "DocumentTitle": "AMPERA, Inc., Request for Fee Waiver - Part 53/57 Licensing",
+    "DocumentTitleEquals": "AMPERA, Inc., Request for Fee Waiver - Part 53/57 Licensing",
+    "DocumentTitleWord": "AMPERA, Inc., Request for Fee Waiver - Part 53/57 Licensing",
+    "DateAdded": "2026-10-01",
+    "DateAddedTimestamp": "2026-10-01 08:20",
+    "DocumentDate": "2026-09-17",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902171"
+    ],
+    "DistributionListCodes": "CFO-01",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "EIEAutoPop",
+     "ODS",
+     "jef1",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26266A278.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "97932",
+    "AccessionNumberLower": "ml26266a278",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.320495,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "4DEEED76-AB2A-C7FB-85EF-A0F245E00000",
+    "Id": "{4DEEED76-AB2A-C7FB-85EF-A0F245E00000}",
+    "Name": "NRC Form 897 Withholding Proprietary Information from Public Disclosure Westinghouse Electric Company Transmittal of Presentation Slides to Support Second Pre-submittal Meeting on Topical Report WCAP-19027",
+    "AccessionNumber": "ML26271A189",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Marcano D",
+     "Patton R"
+    ],
+    "AuthorAffiliation": [
+     "NRC/NRR/DDLP/DLP2/ORTRB",
+     "NRC/NRR/DDTP/DRSS/NEBA"
+    ],
+    "AddresseeName": [
+     "Ewing J"
+    ],
+    "AddresseeAffiliation": [
+     "Westinghouse Electric Co"
+    ],
+    "CaseReferenceNumber": [
+     "EPID L-2026-LRM-0050",
+     "WCAP-19027"
+    ],
+    "Comment": "KXL5, COA <! COA !>",
+    "ContactPerson": null,
+    "DocumentTitle": "NRC Form 897 Withholding Proprietary Information from Public Disclosure Westinghouse Electric Company Transmittal of Presentation Slides to Support Second Pre-submittal Meeting on Topical Report WCAP-19027",
+    "DocumentTitleEquals": "NRC Form 897 Withholding Proprietary Information from Public Disclosure Westinghouse Electric Company Transmittal of Presentation Slides to Support Second Pre-submittal Meeting on Topical Report WCAP-19027",
+    "DocumentTitleWord": "NRC Form 897 Withholding Proprietary Information from Public Disclosure Westinghouse Electric Company Transmittal of Presentation Slides to Support Second Pre-submittal Meeting on Topical Report WCAP-19027",
+    "DateAdded": "2026-09-30",
+    "DateAddedTimestamp": "2026-09-30 12:05",
+    "DocumentDate": "2026-09-30",
+    "DocumentType": [
+     "Topical Report Evaluation"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902038"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "jef1",
+     "dnd",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26271A189.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "1187795",
+    "AccessionNumberLower": "ml26271a189",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 8.060859,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "29AA45CF-E7B8-C86C-AC84-A0E9C6700000",
+    "Id": "{29AA45CF-E7B8-C86C-AC84-A0E9C6700000}",
+    "Name": "Update to Radiant's Regulatory Engagement Plan",
+    "AccessionNumber": "ML26271A258",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Baranwal R"
+    ],
+    "AuthorAffiliation": [
+     "Radiant Industries, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NMSS",
+     "NRC/NRR",
+     "NRC/Document Control Desk"
+    ],
+    "CaseReferenceNumber": [
+     "DOC-0C17, Rev 3"
+    ],
+    "Comment": "NMSS01EIE-Submittal",
+    "ContactPerson": null,
+    "DocumentTitle": "Update to Radiant's Regulatory Engagement Plan",
+    "DocumentTitleEquals": "Update to Radiant's Regulatory Engagement Plan",
+    "DocumentTitleWord": "Update to Radiant's Regulatory Engagement Plan",
+    "DateAdded": "2026-09-30",
+    "DateAddedTimestamp": "2026-09-30 11:19",
+    "DocumentDate": "2026-09-27",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902106",
+     "07007045",
+     "07109412"
+    ],
+    "DistributionListCodes": "D138",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "EIEAutoPop",
+     "jef1",
+     "OARC20260930mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26271A257",
+    "PackagesFiledIn": [
+     "ML26271A257"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26271A258.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "108092",
+    "AccessionNumberLower": "ml26271a258",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 8.018453,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "AB134D25-AF2F-CE21-8B9E-A0E9C6900000",
+    "Id": "{AB134D25-AF2F-CE21-8B9E-A0E9C6900000}",
+    "Name": "Enclosure 1: Affidavit for Proprietary Withholding (Non-proprietary)",
+    "AccessionNumber": "ML26271A259",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Baranwal R"
+    ],
+    "AuthorAffiliation": [
+     "Radiant Industries, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NMSS",
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "DOC-0C17, Rev 3"
+    ],
+    "Comment": "EIE-Submittal",
+    "ContactPerson": null,
+    "DocumentTitle": "Enclosure 1: Affidavit for Proprietary Withholding (Non-proprietary)",
+    "DocumentTitleEquals": "Enclosure 1: Affidavit for Proprietary Withholding (Non-proprietary)",
+    "DocumentTitleWord": "Enclosure 1: Affidavit for Proprietary Withholding (Non-proprietary)",
+    "DateAdded": "2026-09-30",
+    "DateAddedTimestamp": "2026-09-30 11:19",
+    "DocumentDate": "2026-09-27",
+    "DocumentType": [
+     "Legal-Affidavit"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902106",
+     "07007045",
+     "07109412"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "EIEAutoPop",
+     "jef1",
+     "OARC20260930mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26271A257",
+    "PackagesFiledIn": [
+     "ML26271A257"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2627/ML26271A259.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "83973",
+    "AccessionNumberLower": "ml26271a259",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.362121,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "6C9E5257-C18A-C5F5-ACBD-A0CA77D00001",
+    "Id": "{6C9E5257-C18A-C5F5-ACBD-A0CA77D00001}",
+    "Name": "Resumption of X-Energy, LLC, XENITHtm Microreactor Licensing Topical Report Reviews",
+    "AccessionNumber": "ML26265A317",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Dudek M I"
+    ],
+    "AuthorAffiliation": [
+     "X-Energy, LLC"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR",
+     "NRC/Document Control Desk"
+    ],
+    "CaseReferenceNumber": [
+     "XE-2026-05"
+    ],
+    "Comment": "D143EIE-Submittal",
+    "ContactPerson": null,
+    "DocumentTitle": "Resumption of X-Energy, LLC, XENITHtm Microreactor Licensing Topical Report Reviews",
+    "DocumentTitleEquals": "Resumption of X-Energy, LLC, XENITHtm Microreactor Licensing Topical Report Reviews",
+    "DocumentTitleWord": "Resumption of X-Energy, LLC, XENITHtm Microreactor Licensing Topical Report Reviews",
+    "DateAdded": "2026-09-30",
+    "DateAddedTimestamp": "2026-09-30 08:13",
+    "DocumentDate": "2026-09-22",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902118"
+    ],
+    "DistributionListCodes": "T010",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "EIEAutoPop",
+     "AWS4",
+     "dnd",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A317.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "191425",
+    "AccessionNumberLower": "ml26265a317",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 8.574653,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "3BF922A8-38AB-CD65-A577-A0C970200001",
+    "Id": "{3BF922A8-38AB-CD65-A577-A0C970200001}",
+    "Name": "Duke Energy Carolinas, LLC (Duke Energy) - Cultural Resource Letters for the Duke Energy Belews Creek, NC Site in Support of an Early Site Permit Application",
+    "AccessionNumber": "ML26265A067",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Nader R K"
+    ],
+    "AuthorAffiliation": [
+     "Duke Energy Carolinas, LLC"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR",
+     "NRC/Document Control Desk"
+    ],
+    "CaseReferenceNumber": [
+     "RA-26-0218"
+    ],
+    "Comment": "A169EIE-Submittal",
+    "ContactPerson": null,
+    "DocumentTitle": "Duke Energy Carolinas, LLC (Duke Energy) - Cultural Resource Letters for the Duke Energy Belews Creek, NC Site in Support of an Early Site Permit Application",
+    "DocumentTitleEquals": "Duke Energy Carolinas, LLC (Duke Energy) - Cultural Resource Letters for the Duke Energy Belews Creek, NC Site in Support of an Early Site Permit Application",
+    "DocumentTitleWord": "Duke Energy Carolinas, LLC (Duke Energy) - Cultural Resource Letters for the Duke Energy Belews Creek, NC Site in Support of an Early Site Permit Application",
+    "DateAdded": "2026-09-30",
+    "DateAddedTimestamp": "2026-09-30 08:13",
+    "DocumentDate": "2026-09-22",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "05200055",
+     "99902121"
+    ],
+    "DistributionListCodes": "YG01",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "EIEAutoPop",
+     "AOA1",
+     "dnd",
+     "utsPARS"
+    ],
+    "PackageNumber": null,
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A067.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "18277413",
+    "AccessionNumberLower": "ml26265a067",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.446894,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "A2BEC7A4-4D3C-C4D9-8606-A0CAD5C00000",
+    "Id": "{A2BEC7A4-4D3C-C4D9-8606-A0CAD5C00000}",
+    "Name": "Blue Energy Global, Inc. - Submittal of Exemption Request from Activities Defined as Construction in 10 CFR 50.10(a)(1)",
+    "AccessionNumber": "ML26265A351",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Fong C J"
+    ],
+    "AuthorAffiliation": [
+     "Blue Energy Global, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/Document Control Desk",
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5002"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy Global, Inc. - Submittal of Exemption Request from Activities Defined as Construction in 10 CFR 50.10(a)(1)",
+    "DocumentTitleEquals": "Blue Energy Global, Inc. - Submittal of Exemption Request from Activities Defined as Construction in 10 CFR 50.10(a)(1)",
+    "DocumentTitleWord": "Blue Energy Global, Inc. - Submittal of Exemption Request from Activities Defined as Construction in 10 CFR 50.10(a)(1)",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 12:03",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": "D141",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AOA1",
+     "dnd",
+     "OARC20260929mmn-changed release date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A352",
+    "PackagesFiledIn": [
+     "ML26265A352"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A351.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "150210",
+    "AccessionNumberLower": "ml26265a351",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.411309,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "3D3BC9C8-4722-4251-AA5C-2EBC9495B78D",
+    "Id": "{3D3BC9C8-4722-4251-AA5C-2EBC9495B78D}",
+    "Name": "Blue Energy Global, Inc. - Enclosure 2: Exemption Request from Activities Construction Defined as Construction in 10 CFR 50.10(a)(1), Revision 0",
+    "AccessionNumber": "ML26265A353",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy Global, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5004"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy Global, Inc. - Enclosure 2: Exemption Request from Activities Construction Defined as Construction in 10 CFR 50.10(a)(1), Revision 0",
+    "DocumentTitleEquals": "Blue Energy Global, Inc. - Enclosure 2: Exemption Request from Activities Construction Defined as Construction in 10 CFR 50.10(a)(1), Revision 0",
+    "DocumentTitleWord": "Blue Energy Global, Inc. - Enclosure 2: Exemption Request from Activities Construction Defined as Construction in 10 CFR 50.10(a)(1), Revision 0",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 12:03",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Exemption from NRC Requirements"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AOA1",
+     "dnd",
+     "OARC20260929mmn-changed release date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A352",
+    "PackagesFiledIn": [
+     "ML26265A352"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A353.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "3950791",
+    "AccessionNumberLower": "ml26265a353",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.386388,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "E9865EE5-1436-CC9C-84B3-A0D003400000",
+    "Id": "{E9865EE5-1436-CC9C-84B3-A0D003400000}",
+    "Name": "Blue Energy Global, Inc. - Enclosure 3: Affidavit",
+    "AccessionNumber": "ML26266A259",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Fong C J"
+    ],
+    "AuthorAffiliation": [
+     "Blue Energy Global, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5003"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy Global, Inc. - Enclosure 3: Affidavit",
+    "DocumentTitleEquals": "Blue Energy Global, Inc. - Enclosure 3: Affidavit",
+    "DocumentTitleWord": "Blue Energy Global, Inc. - Enclosure 3: Affidavit",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 12:03",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Legal-Affidavit"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AOA1",
+     "dnd",
+     "OARC20260929mmn-changed release date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A352",
+    "PackagesFiledIn": [
+     "ML26265A352"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26266A259.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "360260",
+    "AccessionNumberLower": "ml26266a259",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.362121,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "A3149CF0-29F3-C5FB-84C6-A0D008B00000",
+    "Id": "{A3149CF0-29F3-C5FB-84C6-A0D008B00000}",
+    "Name": "Blue Energy, Enclosure 3, Blue Energy Affidavit and Request for Withholding from Public Disclosure",
+    "AccessionNumber": "ML26266A266",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Fong C J"
+    ],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5005"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 3, Blue Energy Affidavit and Request for Withholding from Public Disclosure",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 3, Blue Energy Affidavit and Request for Withholding from Public Disclosure",
+    "DocumentTitleWord": "Blue Energy, Enclosure 3, Blue Energy Affidavit and Request for Withholding from Public Disclosure",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 12:03",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Legal-Affidavit"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "jef1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A366",
+    "PackagesFiledIn": [
+     "ML26265A366"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26266A266.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "313722",
+    "AccessionNumberLower": "ml26266a266",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.446894,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "821DDD6E-E33D-4878-B4AF-20004A626662",
+    "Id": "{821DDD6E-E33D-4878-B4AF-20004A626662}",
+    "Name": "Blue Energy, Enclosure 2, NP Fire Protection Exemption Request",
+    "AccessionNumber": "ML26265A367",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5005"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 2, NP Fire Protection Exemption Request",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 2, NP Fire Protection Exemption Request",
+    "DocumentTitleWord": "Blue Energy, Enclosure 2, NP Fire Protection Exemption Request",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 11:23",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Fire Protection Plan"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "Non-Public Pending Review",
+     "AWS4",
+     "jef1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A366",
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A367.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "2118622",
+    "AccessionNumberLower": "ml26265a367",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.38548,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "D1E54710-EE76-CCEF-874E-A0CAE2200000",
+    "Id": "{D1E54710-EE76-CCEF-874E-A0CAE2200000}",
+    "Name": "Blue Energy, Submittal of Exemption Request to Allow Installation of Select Fire-Protection-Related Structures, Systems, and Components",
+    "AccessionNumber": "ML26265A365",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Fong C J"
+    ],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/Document Control Desk",
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5004"
+    ],
+    "Comment": "D141<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Submittal of Exemption Request to Allow Installation of Select Fire-Protection-Related Structures, Systems, and Components",
+    "DocumentTitleEquals": "Blue Energy, Submittal of Exemption Request to Allow Installation of Select Fire-Protection-Related Structures, Systems, and Components",
+    "DocumentTitleWord": "Blue Energy, Submittal of Exemption Request to Allow Installation of Select Fire-Protection-Related Structures, Systems, and Components",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 11:23",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": "A006",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "jef1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A366",
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A365.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "128891",
+    "AccessionNumberLower": "ml26265a365",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.461909,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "3C478112-C3DE-CC97-857A-A0D00C200000",
+    "Id": "{3C478112-C3DE-CC97-857A-A0D00C200000}",
+    "Name": "Blue Energy, Enclosure 8, Affidavit and Request for Withholding from Public Disclosure (10 CFR 2.390)",
+    "AccessionNumber": "ML26266A268",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Fong C J"
+    ],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5001",
+     "BE-POV-LCNRG-LET-5000"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 8, Affidavit and Request for Withholding from Public Disclosure (10 CFR 2.390)",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 8, Affidavit and Request for Withholding from Public Disclosure (10 CFR 2.390)",
+    "DocumentTitleWord": "Blue Energy, Enclosure 8, Affidavit and Request for Withholding from Public Disclosure (10 CFR 2.390)",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Legal-Affidavit"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "JEF1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26266A268.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "299966",
+    "AccessionNumberLower": "ml26266a268",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.446894,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "3E16AAF0-2ECF-4CBD-8BBE-43B2CB577AF7",
+    "Id": "{3E16AAF0-2ECF-4CBD-8BBE-43B2CB577AF7}",
+    "Name": "Blue Energy, Enclosure 10, Exemption Request to Allow Installation of Permanent In-Ground Support Structures Required for Safe Reactor Building Shaft Excavation",
+    "AccessionNumber": "ML26265A377",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5006-NP",
+     "BE-POV-LCNRG-LET-5000"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 10, Exemption Request to Allow Installation of Permanent In-Ground Support Structures Required for Safe Reactor Building Shaft Excavation",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 10, Exemption Request to Allow Installation of Permanent In-Ground Support Structures Required for Safe Reactor Building Shaft Excavation",
+    "DocumentTitleWord": "Blue Energy, Enclosure 10, Exemption Request to Allow Installation of Permanent In-Ground Support Structures Required for Safe Reactor Building Shaft Excavation",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Drawing",
+     "Graphics incl Charts and Tables",
+     "Report, Miscellaneous"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "JEF1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A377.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "6050734",
+    "AccessionNumberLower": "ml26265a377",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.433733,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "610061BC-2B0F-C09C-8E09-A0CAF6D00000",
+    "Id": "{610061BC-2B0F-C09C-8E09-A0CAF6D00000}",
+    "Name": "Blue Energy, Enclosure 3, Blue Energy Center - Port of Victoria Limited Work Authorization Environmental Report",
+    "AccessionNumber": "ML26265A373",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5000"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 3, Blue Energy Center - Port of Victoria Limited Work Authorization Environmental Report",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 3, Blue Energy Center - Port of Victoria Limited Work Authorization Environmental Report",
+    "DocumentTitleWord": "Blue Energy, Enclosure 3, Blue Energy Center - Port of Victoria Limited Work Authorization Environmental Report",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Environmental Report",
+     "Map",
+     "Photograph"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "jef1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A373.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "30044229",
+    "AccessionNumberLower": "ml26265a373",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.411441,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "9909E074-0FAE-430D-BCD7-46802752D1E9",
+    "Id": "{9909E074-0FAE-430D-BCD7-46802752D1E9}",
+    "Name": "Blue Energy, Enclosure 9, Limited Work Authorization Request and General and Financial Information",
+    "AccessionNumber": "ML26265A376",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5001",
+     "BE-POV-LCNRG-LET-5000"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 9, Limited Work Authorization Request and General and Financial Information",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 9, Limited Work Authorization Request and General and Financial Information",
+    "DocumentTitleWord": "Blue Energy, Enclosure 9, Limited Work Authorization Request and General and Financial Information",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Limited Work Authorization (LWA) Request"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "JEF1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A376.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "2118973",
+    "AccessionNumberLower": "ml26265a376",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.411309,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "560EF9BD-8C0C-C885-884F-A0CAF1900001",
+    "Id": "{560EF9BD-8C0C-C885-884F-A0CAF1900001}",
+    "Name": "Blue Energy, Submittal of Construction Permit Application Part 1: Limited Work, Authorization Application and Exemptions in Support of the Blue Energy, Center - Port of Victoria Nuclear Unit 1",
+    "AccessionNumber": "ML26265A370",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Fong C J"
+    ],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/Document Control Desk",
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5000"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Submittal of Construction Permit Application Part 1: Limited Work, Authorization Application and Exemptions in Support of the Blue Energy, Center - Port of Victoria Nuclear Unit 1",
+    "DocumentTitleEquals": "Blue Energy, Submittal of Construction Permit Application Part 1: Limited Work, Authorization Application and Exemptions in Support of the Blue Energy, Center - Port of Victoria Nuclear Unit 1",
+    "DocumentTitleWord": "Blue Energy, Submittal of Construction Permit Application Part 1: Limited Work, Authorization Application and Exemptions in Support of the Blue Energy, Center - Port of Victoria Nuclear Unit 1",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": "D141",
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "jef1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A370.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "156158",
+    "AccessionNumberLower": "ml26265a370",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.362121,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "EF26876A-355F-4E2F-917D-BADDD0A4526C",
+    "Id": "{EF26876A-355F-4E2F-917D-BADDD0A4526C}",
+    "Name": "Blue Energy, Enclosure 6, Quality Assurance Program Description",
+    "AccessionNumber": "ML26265A374",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5002"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 6, Quality Assurance Program Description",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 6, Quality Assurance Program Description",
+    "DocumentTitleWord": "Blue Energy, Enclosure 6, Quality Assurance Program Description",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Quality Assurance Program"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "JEF1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A374.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "1966992",
+    "AccessionNumberLower": "ml26265a374",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.353661,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "C608EC20-C2CF-C1A1-84BB-A0CAF6900000",
+    "Id": "{C608EC20-C2CF-C1A1-84BB-A0CAF6900000}",
+    "Name": "Blue Energy, Enclosure 2, Blue Energy Center - Port of Victoria Nuclear Unit 1: Preliminary Safety Analysis Report",
+    "AccessionNumber": "ML26265A372",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5000",
+     "BE-POV-LCNRG-LIC-5009"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 2, Blue Energy Center - Port of Victoria Nuclear Unit 1: Preliminary Safety Analysis Report",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 2, Blue Energy Center - Port of Victoria Nuclear Unit 1: Preliminary Safety Analysis Report",
+    "DocumentTitleWord": "Blue Energy, Enclosure 2, Blue Energy Center - Port of Victoria Nuclear Unit 1: Preliminary Safety Analysis Report",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Drawing",
+     "Graphics incl Charts and Tables",
+     "Map",
+     "Preliminary Safety Analysis Report (PSAR)"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "jef1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A372.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "57329549",
+    "AccessionNumberLower": "ml26265a372",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.320495,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "198F1F9A-8C95-4ED4-A172-4453B05FFD8C",
+    "Id": "{198F1F9A-8C95-4ED4-A172-4453B05FFD8C}",
+    "Name": "Blue Energy, Enclosure 12, Redress Plan",
+    "AccessionNumber": "ML26265A379",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LIC-5003-NP",
+     "BE-POV-LCNRG-LET-5000"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 12, Redress Plan",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 12, Redress Plan",
+    "DocumentTitleWord": "Blue Energy, Enclosure 12, Redress Plan",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Report, Miscellaneous"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "JEF1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A379.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "2003611",
+    "AccessionNumberLower": "ml26265a379",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.298581,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "4B2E5AAC-8F69-4A7C-8CE5-DA2F9C2C871F",
+    "Id": "{4B2E5AAC-8F69-4A7C-8CE5-DA2F9C2C871F}",
+    "Name": "Blue Energy, Enclosure 11, Exemption Request for Alt Financial Qualifications",
+    "AccessionNumber": "ML26265A378",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Blue Energy"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [
+     "BE-POV-LCNRG-LET-5000",
+     "BE-POV-LCNRG-LIC-5007-NP"
+    ],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "Blue Energy, Enclosure 11, Exemption Request for Alt Financial Qualifications",
+    "DocumentTitleEquals": "Blue Energy, Enclosure 11, Exemption Request for Alt Financial Qualifications",
+    "DocumentTitleWord": "Blue Energy, Enclosure 11, Exemption Request for Alt Financial Qualifications",
+    "DateAdded": "2026-09-29",
+    "DateAddedTimestamp": "2026-09-29 08:04",
+    "DocumentDate": "2026-09-15",
+    "DocumentType": [
+     "Report, Miscellaneous"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902137"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "AWS4",
+     "JEF1",
+     "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26265A371",
+    "PackagesFiledIn": [
+     "ML26265A371"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26265A378.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "2038113",
+    "AccessionNumberLower": "ml26265a378",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.461909,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "922E15AB-537D-CCCE-8592-A0E939800000",
+    "Id": "{922E15AB-537D-CCCE-8592-A0E939800000}",
+    "Name": "Cover Letter U. S. NRC Regulatory Audit Plan for Westinghouse Topical Report WCAP-17642 Supplement 1 (EPID L-2026-TOP-0012)",
+    "AccessionNumber": "ML26251A371",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Lenning E"
+    ],
+    "AuthorAffiliation": [
+     "NRC/NRR/DDLP/DLP2/ORTRB"
+    ],
+    "AddresseeName": [
+     "Ewing J"
+    ],
+    "AddresseeAffiliation": [
+     "Westinghouse Electric Co"
+    ],
+    "CaseReferenceNumber": [
+     "EPID L-2026-TOP-0012",
+     "20260908-02313"
+    ],
+    "Comment": "JXM11",
+    "ContactPerson": null,
+    "DocumentTitle": "Cover Letter U. S. NRC Regulatory Audit Plan for Westinghouse Topical Report WCAP-17642 Supplement 1 (EPID L-2026-TOP-0012)",
+    "DocumentTitleEquals": "Cover Letter U. S. NRC Regulatory Audit Plan for Westinghouse Topical Report WCAP-17642 Supplement 1 (EPID L-2026-TOP-0012)",
+    "DocumentTitleWord": "Cover Letter U. S. NRC Regulatory Audit Plan for Westinghouse Topical Report WCAP-17642 Supplement 1 (EPID L-2026-TOP-0012)",
+    "DateAdded": "2026-09-28",
+    "DateAddedTimestamp": "2026-09-28 14:14",
+    "DocumentDate": "2026-09-11",
+    "DocumentType": [
+     "Letter"
+    ],
+    "DocumentReportNumber": [],
+    "DocketNumber": [
+     "99902038"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "NRR-106",
+     "AOA1",
+     "JEF1",
+     "utsPARS",
+     "OARC20260928mmn-Replaced with corrected user supplied document."
+    ],
+    "PackageNumber": "ML26251A369",
+    "PackagesFiledIn": [
+     "ML26251A369"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2625/ML26251A371.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "137367",
+    "AccessionNumberLower": "ml26251a371",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.446894,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "481C6627-78BD-CE53-8654-A0B597900000",
+    "Id": "{481C6627-78BD-CE53-8654-A0B597900000}",
+    "Name": "Cover Letter U.S. NRC Draft Safety Evaluation for Westinghouse Topical Report WCAP-18951-P/NP, Revision 1, \"TRITON11 Reference Fuel Design\"",
+    "AccessionNumber": "ML26201A016",
+    "Availability": "Publicly Available",
+    "AuthorName": [
+     "Marcano D"
+    ],
+    "AuthorAffiliation": [
+     "NRC/NRR/DDLP/DLP2/ORTRB"
+    ],
+    "AddresseeName": [
+     "Ewing J"
+    ],
+    "AddresseeAffiliation": [
+     "Westinghouse Electric Co"
+    ],
+    "CaseReferenceNumber": [
+     "EPID L-2024-TOP-0020"
+    ],
+    "Comment": "kxl5",
+    "ContactPerson": null,
+    "DocumentTitle": "Cover Letter U.S. NRC Draft Safety Evaluation for Westinghouse Topical Report WCAP-18951-P/NP, Revision 1, \"TRITON11 Reference Fuel Design\"",
+    "DocumentTitleEquals": "Cover Letter U.S. NRC Draft Safety Evaluation for Westinghouse Topical Report WCAP-18951-P/NP, Revision 1, \"TRITON11 Reference Fuel Design\"",
+    "DocumentTitleWord": "Cover Letter U.S. NRC Draft Safety Evaluation for Westinghouse Topical Report WCAP-18951-P/NP, Revision 1, \"TRITON11 Reference Fuel Design\"",
+    "DateAdded": "2026-09-28",
+    "DateAddedTimestamp": "2026-09-28 08:26",
+    "DocumentDate": "2026-09-17",
+    "DocumentType": [
+     "Letter",
+     "Supplemental Concurrence Document",
+     "Topical Report"
+    ],
+    "DocumentReportNumber": [
+     "WCAP-18951-P/NP"
+    ],
+    "DocketNumber": [
+     "99902038"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "ODS",
+     "kxl5",
+     "SUNSI Review Complete",
+     "dnd",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26201A013",
+    "PackagesFiledIn": [],
+    "Url": "https://www.nrc.gov/docs/ML2620/ML26201A016.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "169888",
+    "AccessionNumberLower": "ml26201a016",
+    "ItemType": "doc"
+   }
+  },
+  {
+   "score": 9.411441,
+   "highlights": null,
+   "semanticSearch": {
+    "rerankerScore": null,
+    "captions": null
+   },
+   "document": {
+    "IdT": "18C2C64D-E7AC-C540-8DF0-A0B4FC900000",
+    "Id": "{18C2C64D-E7AC-C540-8DF0-A0B4FC900000}",
+    "Name": "AA-QAPD-001, Rev. 1, \"Apollo Atomics Quality Assurance Program Description\"",
+    "AccessionNumber": "ML26261A084",
+    "Availability": "Publicly Available",
+    "AuthorName": [],
+    "AuthorAffiliation": [
+     "Apollo Atomics, Inc"
+    ],
+    "AddresseeName": [],
+    "AddresseeAffiliation": [
+     "NRC/NRR"
+    ],
+    "CaseReferenceNumber": [],
+    "Comment": "<! MGT, KMK7, SVCMAPX !>",
+    "ContactPerson": null,
+    "DocumentTitle": "AA-QAPD-001, Rev. 1, \"Apollo Atomics Quality Assurance Program Description\"",
+    "DocumentTitleEquals": "AA-QAPD-001, Rev. 1, \"Apollo Atomics Quality Assurance Program Description\"",
+    "DocumentTitleWord": "AA-QAPD-001, Rev. 1, \"Apollo Atomics Quality Assurance Program Description\"",
+    "DateAdded": "2026-09-28",
+    "DateAddedTimestamp": "2026-09-28 08:26",
+    "DocumentDate": "2026-09-18",
+    "DocumentType": [
+     "Topical Report"
+    ],
+    "DocumentReportNumber": [
+     "AA-QAPD-001, Rev. 1"
+    ],
+    "DocketNumber": [
+     "99902160"
+    ],
+    "DistributionListCodes": null,
+    "DocumentsFiledInPackage": [],
+    "LicenseNumber": [],
+    "Keyword": [
+     "ODS",
+     "jef1",
+     "utsPARS"
+    ],
+    "PackageNumber": "ML26261A083",
+    "PackagesFiledIn": [
+     "ML26261A083"
+    ],
+    "Url": "https://www.nrc.gov/docs/ML2626/ML26261A084.pdf",
+    "content": "",
+    "IsPackage": "No",
+    "IsLegacy": "No",
+    "MicroformAddresses": null,
+    "PhysicalFileLocation": "ADAMS",
+    "EstimatedPageCount": "0",
+    "DocumentSize": "1142697",
+    "AccessionNumberLower": "ml26261a084",
+    "ItemType": "doc"
+   }
+  }
+ ],
+ "facets": {
+  "AuthorName": [
+   {
+    "value": "Lenning E",
+    "count": 13
+   },
+   {
+    "value": "Fong C J",
+    "count": 11
+   },
+   {
+    "value": "Marcano D",
+    "count": 11
+   },
+   {
+    "value": "Otto N A",
+    "count": 11
+   },
+   {
+    "value": "James L M",
+    "count": 10
+   },
+   {
+    "value": "Baranwal R",
+    "count": 6
+   },
+   {
+    "value": "Chandran P",
+    "count": 6
+   },
+   {
+    "value": "Atkinson D",
+    "count": 5
+   },
+   {
+    "value": "Elliott G",
+    "count": 5
+   },
+   {
+    "value": "Smith J",
+    "count": 5
+   },
+   {
+    "value": "Tulip J",
+    "count": 5
+   },
+   {
+    "value": "Bollock D R",
+    "count": 4
+   },
+   {
+    "value": "Hanson S J",
+    "count": 4
+   },
+   {
+    "value": "Lotti R",
+    "count": 4
+   },
+   {
+    "value": "Moyette M",
+    "count": 4
+   },
+   {
+    "value": "Fetter A H",
+    "count": 3
+   },
+   {
+    "value": "Fields L C",
+    "count": 3
+   },
+   {
+    "value": "Hayes M",
+    "count": 3
+   },
+   {
+    "value": "Moor P O",
+    "count": 3
+   },
+   {
+    "value": "Yan X L",
+    "count": 3
+   },
+   {
+    "value": "Anand K",
+    "count": 2
+   },
+   {
+    "value": "Bauer L",
+    "count": 2
+   },
+   {
+    "value": "Borromeo J M",
+    "count": 2
+   },
+   {
+    "value": "Chauhan M S",
+    "count": 2
+   },
+   {
+    "value": "Davis B",
+    "count": 2
+   },
+   {
+    "value": "Ewing J",
+    "count": 2
+   },
+   {
+    "value": "Ewing J A",
+    "count": 2
+   },
+   {
+    "value": "Furuno K",
+    "count": 2
+   },
+   {
+    "value": "Gangewere M",
+    "count": 2
+   },
+   {
+    "value": "Gleaves W C",
+    "count": 2
+   },
+   {
+    "value": "Hernandez  J H",
+    "count": 2
+   },
+   {
+    "value": "Huckabay V V",
+    "count": 2
+   },
+   {
+    "value": "Ihia J",
+    "count": 2
+   },
+   {
+    "value": "Irish S",
+    "count": 2
+   },
+   {
+    "value": "Maynard R",
+    "count": 2
+   },
+   {
+    "value": "Meginnis A B",
+    "count": 2
+   },
+   {
+    "value": "Mitchell M",
+    "count": 2
+   },
+   {
+    "value": "Moore R",
+    "count": 2
+   },
+   {
+    "value": "Nader R K",
+    "count": 2
+   },
+   {
+    "value": "Palm N",
+    "count": 2
+   },
+   {
+    "value": "Sutton M A",
+    "count": 2
+   },
+   {
+    "value": "Tievy E J",
+    "count": 2
+   },
+   {
+    "value": "Tonsfeldt S",
+    "count": 2
+   },
+   {
+    "value": "Williams D M",
+    "count": 2
+   },
+   {
+    "value": "Anegawa T",
+    "count": 1
+   },
+   {
+    "value": "Athar A",
+    "count": 1
+   },
+   {
+    "value": "Bauer L M",
+    "count": 1
+   },
+   {
+    "value": "Beasley B",
+    "count": 1
+   },
+   {
+    "value": "Bowen J S",
+    "count": 1
+   },
+   {
+    "value": "Burski R",
+    "count": 1
+   }
+  ],
+  "AuthorAffiliation": [
+   {
+    "value": "NRC/NRR/DDLP/DLP2/ORTRB",
+    "count": 47
+   },
+   {
+    "value": "Blue Energy",
+    "count": 27
+   },
+   {
+    "value": "NRC/NRR",
+    "count": 17
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB1",
+    "count": 15
+   },
+   {
+    "value": "Framatome, Inc",
+    "count": 14
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB5",
+    "count": 12
+   },
+   {
+    "value": "NRC/NRR/DORL/LLPB",
+    "count": 9
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB2",
+    "count": 9
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB4",
+    "count": 9
+   },
+   {
+    "value": "Mitsubishi Electric Corp",
+    "count": 8
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB3",
+    "count": 8
+   },
+   {
+    "value": "Holtec International",
+    "count": 7
+   },
+   {
+    "value": "ARC Clean Technology",
+    "count": 6
+   },
+   {
+    "value": "Aalo Holdings, Inc",
+    "count": 6
+   },
+   {
+    "value": "Blue Energy Global, Inc",
+    "count": 6
+   },
+   {
+    "value": "BlueCore Energy, Inc",
+    "count": 6
+   },
+   {
+    "value": "NRC",
+    "count": 6
+   },
+   {
+    "value": "NRC/CNRI/DDII/DRIS/VQAB",
+    "count": 5
+   },
+   {
+    "value": "Westinghouse Electric Co, LLC",
+    "count": 5
+   },
+   {
+    "value": "Govt of Japan, Atomic Energy Agency",
+    "count": 4
+   },
+   {
+    "value": "IHI Corp",
+    "count": 4
+   },
+   {
+    "value": "JGC Corp",
+    "count": 4
+   },
+   {
+    "value": "Japan Atomic Energy Agency (JAEA)",
+    "count": 4
+   },
+   {
+    "value": "Radiant Industries, LLC",
+    "count": 4
+   },
+   {
+    "value": "Deployable Energy Limited",
+    "count": 3
+   },
+   {
+    "value": "Electric Power Research Institute (EPRI)",
+    "count": 3
+   },
+   {
+    "value": "NRC/OAR",
+    "count": 3
+   },
+   {
+    "value": "Oklo Inc",
+    "count": 3
+   },
+   {
+    "value": "Radiant",
+    "count": 3
+   },
+   {
+    "value": "Radiant Industries, Inc",
+    "count": 3
+   },
+   {
+    "value": "Terrestrial Energy, Inc",
+    "count": 3
+   },
+   {
+    "value": "AMPERA, Inc",
+    "count": 2
+   },
+   {
+    "value": "ARC Clean Energy, LLC",
+    "count": 2
+   },
+   {
+    "value": "Advanced Float Co., Ltd",
+    "count": 2
+   },
+   {
+    "value": "Apollo Atomics, Inc",
+    "count": 2
+   },
+   {
+    "value": "Duke Energy Carolinas, LLC",
+    "count": 2
+   },
+   {
+    "value": "Last Energy",
+    "count": 2
+   },
+   {
+    "value": "NRC/NMSS/DDNMUDFR/DECAF/RDB",
+    "count": 2
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARP",
+    "count": 2
+   },
+   {
+    "value": "Natura Resources, LLC",
+    "count": 2
+   },
+   {
+    "value": "NuScale Power, LLC",
+    "count": 2
+   },
+   {
+    "value": "Oarai Nuclear Engineering Institute",
+    "count": 2
+   },
+   {
+    "value": "R-50, LLC (Radiant)",
+    "count": 2
+   },
+   {
+    "value": "Terra Innovatum s.r.l",
+    "count": 2
+   },
+   {
+    "value": "Valar Atomics",
+    "count": 2
+   },
+   {
+    "value": "- No Known Affiliation",
+    "count": 1
+   },
+   {
+    "value": "Alva Energy, Inc",
+    "count": 1
+   },
+   {
+    "value": "Appalachian Power Co",
+    "count": 1
+   },
+   {
+    "value": "AtkinsRealis",
+    "count": 1
+   },
+   {
+    "value": "Candu Technologies, Inc",
+    "count": 1
+   }
+  ],
+  "AddresseeName": [
+   {
+    "value": "Ewing J",
+    "count": 14
+   },
+   {
+    "value": "Elliott G",
+    "count": 10
+   },
+   {
+    "value": "Marcano D",
+    "count": 7
+   },
+   {
+    "value": "Frepoli C",
+    "count": 5
+   },
+   {
+    "value": "Mukhi S",
+    "count": 5
+   },
+   {
+    "value": "Kucuk A",
+    "count": 4
+   },
+   {
+    "value": "Kennedy W",
+    "count": 3
+   },
+   {
+    "value": "Modro C",
+    "count": 3
+   },
+   {
+    "value": "Chandran P",
+    "count": 2
+   },
+   {
+    "value": "Chitty M",
+    "count": 2
+   },
+   {
+    "value": "Hanson S",
+    "count": 2
+   },
+   {
+    "value": "Hayes M",
+    "count": 2
+   },
+   {
+    "value": "Iotti R",
+    "count": 2
+   },
+   {
+    "value": "Smith J",
+    "count": 2
+   },
+   {
+    "value": "Asante K",
+    "count": 1
+   },
+   {
+    "value": "Ayntrazi M",
+    "count": 1
+   },
+   {
+    "value": "Bollock D",
+    "count": 1
+   },
+   {
+    "value": "Borromeo J",
+    "count": 1
+   },
+   {
+    "value": "Borromeo J M",
+    "count": 1
+   },
+   {
+    "value": "Carroll C",
+    "count": 1
+   },
+   {
+    "value": "Carte N",
+    "count": 1
+   },
+   {
+    "value": "Christensen J",
+    "count": 1
+   },
+   {
+    "value": "Devlin-Gill S",
+    "count": 1
+   },
+   {
+    "value": "Farahmandfar Z",
+    "count": 1
+   },
+   {
+    "value": "Feltner M",
+    "count": 1
+   },
+   {
+    "value": "Fetter A H",
+    "count": 1
+   },
+   {
+    "value": "Fields L C",
+    "count": 1
+   },
+   {
+    "value": "Finley S",
+    "count": 1
+   },
+   {
+    "value": "Gangewere M",
+    "count": 1
+   },
+   {
+    "value": "Grizzi R",
+    "count": 1
+   },
+   {
+    "value": "Headley M",
+    "count": 1
+   },
+   {
+    "value": "Hollcraft Z",
+    "count": 1
+   },
+   {
+    "value": "Huckabay V V",
+    "count": 1
+   },
+   {
+    "value": "James L",
+    "count": 1
+   },
+   {
+    "value": "Jardaneh M",
+    "count": 1
+   },
+   {
+    "value": "Johnson M",
+    "count": 1
+   },
+   {
+    "value": "Kennedy W B",
+    "count": 1
+   },
+   {
+    "value": "Krellenstein J B",
+    "count": 1
+   },
+   {
+    "value": "LaFrance A",
+    "count": 1
+   },
+   {
+    "value": "Lashley P",
+    "count": 1
+   },
+   {
+    "value": "Li M",
+    "count": 1
+   },
+   {
+    "value": "Lising J",
+    "count": 1
+   },
+   {
+    "value": "McGowan J F",
+    "count": 1
+   },
+   {
+    "value": "Moore R",
+    "count": 1
+   },
+   {
+    "value": "Moyette M",
+    "count": 1
+   },
+   {
+    "value": "O'Keefe D",
+    "count": 1
+   },
+   {
+    "value": "Palm N",
+    "count": 1
+   },
+   {
+    "value": "Prescott B R",
+    "count": 1
+   },
+   {
+    "value": "Rady J S",
+    "count": 1
+   },
+   {
+    "value": "Sebring N",
+    "count": 1
+   }
+  ],
+  "AddresseeAffiliation": [
+   {
+    "value": "NRC/NRR",
+    "count": 139
+   },
+   {
+    "value": "NRC/Document Control Desk",
+    "count": 61
+   },
+   {
+    "value": "Westinghouse Electric Co",
+    "count": 16
+   },
+   {
+    "value": "Framatome, Inc",
+    "count": 12
+   },
+   {
+    "value": "Electric Power Research Institute (EPRI)",
+    "count": 7
+   },
+   {
+    "value": "Mitsubishi Electric Power Products, Inc",
+    "count": 7
+   },
+   {
+    "value": "NRC/NMSS",
+    "count": 7
+   },
+   {
+    "value": "NRC/NRR/DDLP/DLP2/ORTRB",
+    "count": 7
+   },
+   {
+    "value": "Mitsubishi Electric Corp",
+    "count": 6
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB2",
+    "count": 6
+   },
+   {
+    "value": "Deployable Energy",
+    "count": 5
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB1",
+    "count": 5
+   },
+   {
+    "value": "Terra Innovatum s.r.l",
+    "count": 5
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB4",
+    "count": 3
+   },
+   {
+    "value": "NRC/OCFO",
+    "count": 3
+   },
+   {
+    "value": "ARC Clean Technology",
+    "count": 2
+   },
+   {
+    "value": "Alva Energy, Inc",
+    "count": 2
+   },
+   {
+    "value": "BlueCore Energy, Inc",
+    "count": 2
+   },
+   {
+    "value": "Deep Fission, Inc",
+    "count": 2
+   },
+   {
+    "value": "Last Energy",
+    "count": 2
+   },
+   {
+    "value": "NRC/CNRI/DDII/DRIS/VQAB",
+    "count": 2
+   },
+   {
+    "value": "NRC/NRR/DNRL",
+    "count": 2
+   },
+   {
+    "value": "AALO Atomics",
+    "count": 1
+   },
+   {
+    "value": "Aalo Holdings, Inc",
+    "count": 1
+   },
+   {
+    "value": "American Electric Power",
+    "count": 1
+   },
+   {
+    "value": "AtkinsRealis",
+    "count": 1
+   },
+   {
+    "value": "Dominion Energy Virginia",
+    "count": 1
+   },
+   {
+    "value": "EE Capital LLC",
+    "count": 1
+   },
+   {
+    "value": "Elementl Power Inc",
+    "count": 1
+   },
+   {
+    "value": "Hadron Energy, Inc",
+    "count": 1
+   },
+   {
+    "value": "Henry Pratt Co., LLC",
+    "count": 1
+   },
+   {
+    "value": "Holtec International",
+    "count": 1
+   },
+   {
+    "value": "Holtec International SMR, LLC",
+    "count": 1
+   },
+   {
+    "value": "Long Mott Energy, LLC",
+    "count": 1
+   },
+   {
+    "value": "NRC/NRR/DANU",
+    "count": 1
+   },
+   {
+    "value": "NRC/NRR/DDLP/DLP1",
+    "count": 1
+   },
+   {
+    "value": "NRC/NRR/DEX/EICB",
+    "count": 1
+   },
+   {
+    "value": "NRC/OAR",
+    "count": 1
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL",
+    "count": 1
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARL/ARLB3",
+    "count": 1
+   },
+   {
+    "value": "NRC/OAR/DDLP/DARP/ARIB",
+    "count": 1
+   },
+   {
+    "value": "NRC/OCM",
+    "count": 1
+   },
+   {
+    "value": "NorthStar Maritime Dismantlement Services, LLC",
+    "count": 1
+   },
+   {
+    "value": "NuScale Power, LLC",
+    "count": 1
+   },
+   {
+    "value": "Oklo Inc",
+    "count": 1
+   },
+   {
+    "value": "Radiant",
+    "count": 1
+   },
+   {
+    "value": "Sawtooth Energy & Development Corp",
+    "count": 1
+   },
+   {
+    "value": "Structural Integrity Associates, Inc",
+    "count": 1
+   },
+   {
+    "value": "Tampa Armature Works",
+    "count": 1
+   },
+   {
+    "value": "TerraPower, LLC",
+    "count": 1
+   }
+  ],
+  "CaseReferenceNumber": [
+   {
+    "value": "EPID L-2024-TOP-0036",
+    "count": 17
+   },
+   {
+    "value": "BE-POV-LCNRG-LET-5000",
+    "count": 16
+   },
+   {
+    "value": "AALO-1-24-US-0001",
+    "count": 6
+   },
+   {
+    "value": "EPID L-2025-TOP-0018",
+    "count": 4
+   },
+   {
+    "value": "EPID L-2026-NEW-0000",
+    "count": 4
+   },
+   {
+    "value": "LR080814-02",
+    "count": 4
+   },
+   {
+    "value": "NRC:26:028",
+    "count": 4
+   },
+   {
+    "value": "20260825",
+    "count": 3
+   },
+   {
+    "value": "300-USNRC-26010",
+    "count": 3
+   },
+   {
+    "value": "300-USNRC-26012",
+    "count": 3
+   },
+   {
+    "value": "BLU-CORR-000001",
+    "count": 3
+   },
+   {
+    "value": "DE-P2509-NRC-002",
+    "count": 3
+   },
+   {
+    "value": "EPID L-2023-LRM-0022",
+    "count": 3
+   },
+   {
+    "value": "EPID L-2024-NTR-0002 post-fee",
+    "count": 3
+   },
+   {
+    "value": "EPID L-2024-TOP-0018 pre-fee",
+    "count": 3
+   },
+   {
+    "value": "EPID L-2024-TOP-0029",
+    "count": 3
+   },
+   {
+    "value": "EPID L-2025-TOP-0023",
+    "count": 3
+   },
+   {
+    "value": "EPID L-2026-LRO-0054",
+    "count": 3
+   },
+   {
+    "value": "EPRI Report 3002028673",
+    "count": 3
+   },
+   {
+    "value": "LR080814-01",
+    "count": 3
+   },
+   {
+    "value": "Project No. 728",
+    "count": 3
+   },
+   {
+    "value": "WCAP-16996-P/NP",
+    "count": 3
+   },
+   {
+    "value": "2026-029",
+    "count": 2
+   },
+   {
+    "value": "20260813-01871",
+    "count": 2
+   },
+   {
+    "value": "20260828-02165",
+    "count": 2
+   },
+   {
+    "value": "20260908-02313",
+    "count": 2
+   },
+   {
+    "value": "ARC/NRC-PM-013",
+    "count": 2
+   },
+   {
+    "value": "BE-POV-LCNRG-LET 5002",
+    "count": 2
+   },
+   {
+    "value": "BE-POV-LCNRG-LET-5002",
+    "count": 2
+   },
+   {
+    "value": "DE-P2401-B01-002, Rev 1",
+    "count": 2
+   },
+   {
+    "value": "DE-QAP-0005",
+    "count": 2
+   },
+   {
+    "value": "DOC-0C17, Rev 3",
+    "count": 2
+   },
+   {
+    "value": "EPID L 2025 TOP 0025",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2024-NTR-0003 post-fee",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2024-TOP-0015 pre-fee",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2024-TOP-0016 pre-fee",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-LRO-0036",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-LRO-0077",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-LRO-077",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-NTR-0004",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-TOP-0000",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-TOP-0011",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2025-TOP-0013",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2026-LRM-0050",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2026-LRM-0072",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2026-LRO-0013",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2026-TOP-0011",
+    "count": 2
+   },
+   {
+    "value": "EPID L-2026-TOP-0012",
+    "count": 2
+   },
+   {
+    "value": "EPRI TR 3002023895",
+    "count": 2
+   },
+   {
+    "value": "EPRI TR 3002028674",
+    "count": 2
+   }
+  ],
+  "DocumentType": [
+   {
+    "value": "Letter",
+    "count": 101
+   },
+   {
+    "value": "Legal-Affidavit",
+    "count": 37
+   },
+   {
+    "value": "E-Mail",
+    "count": 31
+   },
+   {
+    "value": "Meeting Agenda",
+    "count": 21
+   },
+   {
+    "value": "Report, Technical",
+    "count": 19
+   },
+   {
+    "value": "Meeting Summary",
+    "count": 17
+   },
+   {
+    "value": "Meeting Notice",
+    "count": 16
+   },
+   {
+    "value": "Memoranda",
+    "count": 14
+   },
+   {
+    "value": "Topical Report",
+    "count": 14
+   },
+   {
+    "value": "Topical Report Evaluation",
+    "count": 11
+   },
+   {
+    "value": "Proprietary Information Review",
+    "count": 10
+   },
+   {
+    "value": "Response to Request for Additional Information (RAI)",
+    "count": 10
+   },
+   {
+    "value": "Slides and Viewgraphs",
+    "count": 10
+   },
+   {
+    "value": "Meeting Briefing Package/Handouts",
+    "count": 9
+   },
+   {
+    "value": "- No Document Type Applies",
+    "count": 6
+   },
+   {
+    "value": "Audit Report",
+    "count": 6
+   },
+   {
+    "value": "Quality Assurance Program",
+    "count": 6
+   },
+   {
+    "value": "Request for Additional Information (RAI)",
+    "count": 5
+   },
+   {
+    "value": "Report, Miscellaneous",
+    "count": 4
+   },
+   {
+    "value": "Audit Plan",
+    "count": 3
+   },
+   {
+    "value": "Environmental Report",
+    "count": 3
+   },
+   {
+    "value": "Graphics incl Charts and Tables",
+    "count": 3
+   },
+   {
+    "value": "Acceptance Review Letter",
+    "count": 2
+   },
+   {
+    "value": "Drawing",
+    "count": 2
+   },
+   {
+    "value": "Final Safety Evaluation Report (FSER)",
+    "count": 2
+   },
+   {
+    "value": "Financial Assurance Document",
+    "count": 2
+   },
+   {
+    "value": "Map",
+    "count": 2
+   },
+   {
+    "value": "Preliminary Safety Analysis Report (PSAR)",
+    "count": 2
+   },
+   {
+    "value": "Safety Evaluation",
+    "count": 2
+   },
+   {
+    "value": "Schedule and Calendars",
+    "count": 2
+   },
+   {
+    "value": "Supplemental Concurrence Document",
+    "count": 2
+   },
+   {
+    "value": "Technical Paper",
+    "count": 2
+   },
+   {
+    "value": "Exemption from NRC Requirements",
+    "count": 1
+   },
+   {
+    "value": "Federal Register Notice",
+    "count": 1
+   },
+   {
+    "value": "Fire Protection Plan",
+    "count": 1
+   },
+   {
+    "value": "Inspection Plan",
+    "count": 1
+   },
+   {
+    "value": "Inspection Report",
+    "count": 1
+   },
+   {
+    "value": "Legal-Petition To Intervene/Request for Hearing",
+    "count": 1
+   },
+   {
+    "value": "Legal-Stipulation/Agreement",
+    "count": 1
+   },
+   {
+    "value": "Limited Work Authorization (LWA) Request",
+    "count": 1
+   },
+   {
+    "value": "Manual",
+    "count": 1
+   },
+   {
+    "value": "Meeting Transcript",
+    "count": 1
+   },
+   {
+    "value": "NUREG",
+    "count": 1
+   },
+   {
+    "value": "Notice of Non-Conformance",
+    "count": 1
+   },
+   {
+    "value": "Operating Plan",
+    "count": 1
+   },
+   {
+    "value": "Photograph",
+    "count": 1
+   }
+  ],
+  "DocketNumber": [
+   {
+    "value": "99902041",
+    "count": 32
+   },
+   {
+    "value": "99902137",
+    "count": 31
+   },
+   {
+    "value": "99902038",
+    "count": 25
+   },
+   {
+    "value": "PROJ0728",
+    "count": 21
+   },
+   {
+    "value": "99902039",
+    "count": 17
+   },
+   {
+    "value": "99902103",
+    "count": 13
+   },
+   {
+    "value": "99902106",
+    "count": 13
+   },
+   {
+    "value": "99902114",
+    "count": 11
+   },
+   {
+    "value": "99902155",
+    "count": 11
+   },
+   {
+    "value": "99902049",
+    "count": 10
+   },
+   {
+    "value": "99902138",
+    "count": 10
+   },
+   {
+    "value": "99902128",
+    "count": 9
+   },
+   {
+    "value": "99902021",
+    "count": 8
+   },
+   {
+    "value": "99902177",
+    "count": 8
+   },
+   {
+    "value": "07007045",
+    "count": 7
+   },
+   {
+    "value": "99902037",
+    "count": 7
+   },
+   {
+    "value": "99902078",
+    "count": 7
+   },
+   {
+    "value": "99902095",
+    "count": 6
+   },
+   {
+    "value": "99902016",
+    "count": 5
+   },
+   {
+    "value": "99902076",
+    "count": 5
+   },
+   {
+    "value": "99902154",
+    "count": 5
+   },
+   {
+    "value": "99902140",
+    "count": 4
+   },
+   {
+    "value": "99902129",
+    "count": 3
+   },
+   {
+    "value": "99902145",
+    "count": 3
+   },
+   {
+    "value": "99902172",
+    "count": 3
+   },
+   {
+    "value": "99902176",
+    "count": 3
+   },
+   {
+    "value": "99902180",
+    "count": 3
+   },
+   {
+    "value": "05000615",
+    "count": 2
+   },
+   {
+    "value": "05200008",
+    "count": 2
+   },
+   {
+    "value": "05200055",
+    "count": 2
+   },
+   {
+    "value": "07109412",
+    "count": 2
+   },
+   {
+    "value": "99902056",
+    "count": 2
+   },
+   {
+    "value": "99902100",
+    "count": 2
+   },
+   {
+    "value": "99902116",
+    "count": 2
+   },
+   {
+    "value": "99902121",
+    "count": 2
+   },
+   {
+    "value": "99902122",
+    "count": 2
+   },
+   {
+    "value": "99902126",
+    "count": 2
+   },
+   {
+    "value": "99902135",
+    "count": 2
+   },
+   {
+    "value": "99902144",
+    "count": 2
+   },
+   {
+    "value": "99902160",
+    "count": 2
+   },
+   {
+    "value": "99902171",
+    "count": 2
+   },
+   {
+    "value": "99902173",
+    "count": 2
+   },
+   {
+    "value": "99902185",
+    "count": 2
+   },
+   {
+    "value": "05000237",
+    "count": 1
+   },
+   {
+    "value": "05000249",
+    "count": 1
+   },
+   {
+    "value": "05000254",
+    "count": 1
+   },
+   {
+    "value": "05000265",
+    "count": 1
+   },
+   {
+    "value": "05000327",
+    "count": 1
+   },
+   {
+    "value": "05000328",
+    "count": 1
+   },
+   {
+    "value": "05000619",
+    "count": 1
+   }
+  ],
+  "DocumentReportNumber": [
+   {
+    "value": "2026201",
+    "count": 1
+   },
+   {
+    "value": "AA-QAPD-001, Rev. 1",
+    "count": 1
+   },
+   {
+    "value": "ANP-10357P",
+    "count": 1
+   },
+   {
+    "value": "ANP-10357P-A",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LET-5001",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LET-5003",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5000, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5001-NP, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5002, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5003-NP, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5004-NP, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5006-NP, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5007-NP, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BE-POV-LCNRG-LIC-5009, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "BLU-PLAN-000001",
+    "count": 1
+   },
+   {
+    "value": "D02-ARV-01-281-159, Rev B",
+    "count": 1
+   },
+   {
+    "value": "D02-ARV-01-281-160, Rev A",
+    "count": 1
+   },
+   {
+    "value": "DR080814-01NP",
+    "count": 1
+   },
+   {
+    "value": "DR080814-01NP, Rev 1",
+    "count": 1
+   },
+   {
+    "value": "DR080825-01NP, Rev 1",
+    "count": 1
+   },
+   {
+    "value": "DR080825-02NP, Rev 1",
+    "count": 1
+   },
+   {
+    "value": "DR080825-03NP, Rev 1",
+    "count": 1
+   },
+   {
+    "value": "ES-QA-PG-003, Rev. 1",
+    "count": 1
+   },
+   {
+    "value": "HI-2251395, Rev 1",
+    "count": 1
+   },
+   {
+    "value": "HI-2251395, Rev. 2",
+    "count": 1
+   },
+   {
+    "value": "IR 2026201",
+    "count": 1
+   },
+   {
+    "value": "JEXU-1041-8577",
+    "count": 1
+   },
+   {
+    "value": "LTR-TINN-25-024",
+    "count": 1
+   },
+   {
+    "value": "N-G000-NP, Rev. 3",
+    "count": 1
+   },
+   {
+    "value": "NUREG-1556",
+    "count": 1
+   },
+   {
+    "value": "PA-ASC-2146 R0-A",
+    "count": 1
+   },
+   {
+    "value": "PLN-AALO-2026-008-NP, Rev. A",
+    "count": 1
+   },
+   {
+    "value": "PWROG-21001-P/NP",
+    "count": 1
+   },
+   {
+    "value": "RE-001_Rev 2.0",
+    "count": 1
+   },
+   {
+    "value": "TR-182845-A, Rev. 1",
+    "count": 1
+   },
+   {
+    "value": "TR-183101-NP-A, Rev. 0",
+    "count": 1
+   },
+   {
+    "value": "TR-26-01, Rev A",
+    "count": 1
+   },
+   {
+    "value": "US000-NLC-REP-0001",
+    "count": 1
+   },
+   {
+    "value": "WCAP 18950-P/NP",
+    "count": 1
+   },
+   {
+    "value": "WCAP-18951-P/NP",
+    "count": 1
+   },
+   {
+    "value": "WP-AALO-2026-002-NP, Rev A",
+    "count": 1
+   }
+  ],
+  "DocumentStatus": [
+   {
+    "value": "EIE General",
+    "count": 92
+   },
+   {
+    "value": "EHD",
+    "count": 1
+   }
+  ],
+  "DistributionListCodes": [
+   {
+    "value": "A001",
+    "count": 9
+   },
+   {
+    "value": "T007",
+    "count": 9
+   },
+   {
+    "value": "YG01",
+    "count": 6
+   },
+   {
+    "value": "D141",
+    "count": 5
+   },
+   {
+    "value": "D135",
+    "count": 4
+   },
+   {
+    "value": "Q004",
+    "count": 4
+   },
+   {
+    "value": "D138",
+    "count": 3
+   },
+   {
+    "value": "T010",
+    "count": 3
+   },
+   {
+    "value": "CFO-01",
+    "count": 2
+   },
+   {
+    "value": "D054",
+    "count": 2
+   },
+   {
+    "value": "D122",
+    "count": 2
+   },
+   {
+    "value": "D170",
+    "count": 2
+   },
+   {
+    "value": "D191",
+    "count": 2
+   },
+   {
+    "value": "G004",
+    "count": 2
+   },
+   {
+    "value": "A006",
+    "count": 1
+   },
+   {
+    "value": "A020",
+    "count": 1
+   },
+   {
+    "value": "D139",
+    "count": 1
+   },
+   {
+    "value": "D147",
+    "count": 1
+   },
+   {
+    "value": "D188",
+    "count": 1
+   },
+   {
+    "value": "IE25",
+    "count": 1
+   },
+   {
+    "value": "M004",
+    "count": 1
+   }
+  ],
+  "LicenseNumber": [
+   {
+    "value": "ESP-003",
+    "count": 2
+   },
+   {
+    "value": "DPR-019",
+    "count": 1
+   },
+   {
+    "value": "DPR-025",
+    "count": 1
+   },
+   {
+    "value": "DPR-029",
+    "count": 1
+   },
+   {
+    "value": "DPR-030",
+    "count": 1
+   },
+   {
+    "value": "EPID L-2024-TOP-0025",
+    "count": 1
+   }
+  ],
+  "Keyword": [
+   {
+    "value": "utsPARS",
+    "count": 291
+   },
+   {
+    "value": "dnd",
+    "count": 136
+   },
+   {
+    "value": "AOA1",
+    "count": 123
+   },
+   {
+    "value": "jef1",
+    "count": 99
+   },
+   {
+    "value": "EIEAutoPop",
+    "count": 93
+   },
+   {
+    "value": "ODS",
+    "count": 70
+   },
+   {
+    "value": "SUNSI Review Complete",
+    "count": 58
+   },
+   {
+    "value": "AWS4",
+    "count": 35
+   },
+   {
+    "value": "JEF1",
+    "count": 31
+   },
+   {
+    "value": "NRC-001",
+    "count": 19
+   },
+   {
+    "value": "Public Meeting Notice/Agenda - SUNSI Review Complete",
+    "count": 16
+   },
+   {
+    "value": "Non-CUI",
+    "count": 15
+   },
+   {
+    "value": "tjb2",
+    "count": 15
+   },
+   {
+    "value": "NRR-106",
+    "count": 14
+   },
+   {
+    "value": "OARC20260929mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 12
+   },
+   {
+    "value": "OARC20260818mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 10
+   },
+   {
+    "value": "OARC20260805kdn-Removed Non-Public Pending Review-Withheld, Added MD Code, SUNSI Comment, Review Date and Changed Sensitivity.",
+    "count": 8
+   },
+   {
+    "value": "OIS-045",
+    "count": 5
+   },
+   {
+    "value": "OARC20260817mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 4
+   },
+   {
+    "value": "p8_email_capture",
+    "count": 4
+   },
+   {
+    "value": "OARC20260901mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 3
+   },
+   {
+    "value": "OARC20260916mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 3
+   },
+   {
+    "value": "OARC20260929mmn-changed release date.",
+    "count": 3
+   },
+   {
+    "value": "oarc20260819mmn-added docket number.",
+    "count": 3
+   },
+   {
+    "value": "stt",
+    "count": 3
+   },
+   {
+    "value": "Closed Meeting Presentation Slides",
+    "count": 2
+   },
+   {
+    "value": "NRR-043",
+    "count": 2
+   },
+   {
+    "value": "NRR-088",
+    "count": 2
+   },
+   {
+    "value": "OARC20260807kdn-Removed Non-Public Pending Review-Released, Changed Availability, Added SUNSI Comment, Review and Release Date.",
+    "count": 2
+   },
+   {
+    "value": "OARC20260810mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 2
+   },
+   {
+    "value": "OARC20260813mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 2
+   },
+   {
+    "value": "OARC20260814mmn-changed release date.",
+    "count": 2
+   },
+   {
+    "value": "OARC20260930mmn-Removed Non-Public Pending Review-Released, Changed Availability, Updated Sensitivity Review Completed, Added Review, and Release Date.",
+    "count": 2
+   },
+   {
+    "value": "Proprietary Review",
+    "count": 2
+   },
+   {
+    "value": "SUNSI review complete",
+    "count": 2
+   },
+   {
+    "value": "YXD1",
+    "count": 2
+   },
+   {
+    "value": "Adjudicatory Document - No SUNSI Review Needed",
+    "count": 1
+   },
+   {
+    "value": "Attch_yes",
+    "count": 1
+   },
+   {
+    "value": "EIEPROCID269",
+    "count": 1
+   },
+   {
+    "value": "Eden Radioisotopes, LLC 99902077-CP",
+    "count": 1
+   },
+   {
+    "value": "MD 3.4 Non-Public B.1",
+    "count": 1
+   },
+   {
+    "value": "NRR-084",
+    "count": 1
+   },
+   {
+    "value": "Non-Public Pending Review",
+    "count": 1
+   },
+   {
+    "value": "OARC20260803mmn-Replaced with corrected user supplied document.",
+    "count": 1
+   },
+   {
+    "value": "OARC20260804AGC - Changed Availability, Added Release Date",
+    "count": 1
+   },
+   {
+    "value": "OARC20260806S15-Updated Sensitivity Review Completed Value from No to Yes",
+    "count": 1
+   },
+   {
+    "value": "OARC20260818mmn-changed release date.",
+    "count": 1
+   },
+   {
+    "value": "OARC20260821AGC - Changed Availability, Added Release Date",
+    "count": 1
+   },
+   {
+    "value": "OARC20260821AGC = Changed Availability and Added Release Date",
+    "count": 1
+   },
+   {
+    "value": "OARC20260821kdn-Changed Availability, And Added Release Date",
+    "count": 1
+   }
+  ],
+  "PackageNumber": [
+   {
+    "value": "ML26258A340",
+    "count": 9
+   },
+   {
+    "value": "ML26265A371",
+    "count": 9
+   },
+   {
+    "value": "ML26196A168",
+    "count": 5
+   },
+   {
+    "value": "ML26226A008",
+    "count": 4
+   },
+   {
+    "value": "ML26226A437",
+    "count": 4
+   },
+   {
+    "value": "ML26231A021",
+    "count": 4
+   },
+   {
+    "value": "ML26260A294",
+    "count": 4
+   },
+   {
+    "value": "ML26194A349",
+    "count": 3
+   },
+   {
+    "value": "ML26204A189",
+    "count": 3
+   },
+   {
+    "value": "ML26219A179",
+    "count": 3
+   },
+   {
+    "value": "ML26223A233",
+    "count": 3
+   },
+   {
+    "value": "ML26223A438",
+    "count": 3
+   },
+   {
+    "value": "ML26223A523",
+    "count": 3
+   },
+   {
+    "value": "ML26226A003",
+    "count": 3
+   },
+   {
+    "value": "ML26227A001",
+    "count": 3
+   },
+   {
+    "value": "ML26232A223",
+    "count": 3
+   },
+   {
+    "value": "ML26237A144",
+    "count": 3
+   },
+   {
+    "value": "ML26243A456",
+    "count": 3
+   },
+   {
+    "value": "ML26253A087",
+    "count": 3
+   },
+   {
+    "value": "ML26258A354",
+    "count": 3
+   },
+   {
+    "value": "ML26261A478",
+    "count": 3
+   },
+   {
+    "value": "ML26265A352",
+    "count": 3
+   },
+   {
+    "value": "ML26265A366",
+    "count": 3
+   },
+   {
+    "value": "ML2633A123",
+    "count": 3
+   },
+   {
+    "value": "ML25225A316",
+    "count": 2
+   },
+   {
+    "value": "ML26042A339",
+    "count": 2
+   },
+   {
+    "value": "ML26042A391",
+    "count": 2
+   },
+   {
+    "value": "ML26153A184",
+    "count": 2
+   },
+   {
+    "value": "ML26198A314",
+    "count": 2
+   },
+   {
+    "value": "ML26212A350",
+    "count": 2
+   },
+   {
+    "value": "ML26214A002",
+    "count": 2
+   },
+   {
+    "value": "ML26222A084",
+    "count": 2
+   },
+   {
+    "value": "ML26222A269",
+    "count": 2
+   },
+   {
+    "value": "ML26225A194",
+    "count": 2
+   },
+   {
+    "value": "ML26230A092",
+    "count": 2
+   },
+   {
+    "value": "ML26240A169",
+    "count": 2
+   },
+   {
+    "value": "ML26246A001",
+    "count": 2
+   },
+   {
+    "value": "ML26251A369",
+    "count": 2
+   },
+   {
+    "value": "ML26257A290",
+    "count": 2
+   },
+   {
+    "value": "ML26261A083",
+    "count": 2
+   },
+   {
+    "value": "ML26271A257",
+    "count": 2
+   },
+   {
+    "value": "ML25215A406",
+    "count": 1
+   },
+   {
+    "value": "ML25353A593",
+    "count": 1
+   },
+   {
+    "value": "ML26043A415",
+    "count": 1
+   },
+   {
+    "value": "ML26076A312",
+    "count": 1
+   },
+   {
+    "value": "ML26152A297",
+    "count": 1
+   },
+   {
+    "value": "ML26160A241",
+    "count": 1
+   },
+   {
+    "value": "ML26167A214",
+    "count": 1
+   },
+   {
+    "value": "ML26173A156",
+    "count": 1
+   },
+   {
+    "value": "ML26176A334",
+    "count": 1
+   }
+  ],
+  "IsLegacy": [
+   {
+    "value": "No",
+    "count": 291
+   }
+  ],
+  "IsPackage": [
+   {
+    "value": "No",
+    "count": 291
+   }
+  ],
+  "DateAdded": [
+   {
+    "value": "2026-08-14",
+    "count": 17
+   },
+   {
+    "value": "2026-09-29",
+    "count": 15
+   },
+   {
+    "value": "2026-09-23",
+    "count": 12
+   },
+   {
+    "value": "2026-08-10",
+    "count": 11
+   },
+   {
+    "value": "2026-08-05",
+    "count": 10
+   },
+   {
+    "value": "2026-08-19",
+    "count": 10
+   },
+   {
+    "value": "2026-08-17",
+    "count": 9
+   },
+   {
+    "value": "2026-08-18",
+    "count": 9
+   },
+   {
+    "value": "2026-08-21",
+    "count": 9
+   },
+   {
+    "value": "2026-08-26",
+    "count": 9
+   },
+   {
+    "value": "2026-09-08",
+    "count": 9
+   },
+   {
+    "value": "2026-09-16",
+    "count": 9
+   },
+   {
+    "value": "2026-09-02",
+    "count": 8
+   },
+   {
+    "value": "2026-09-09",
+    "count": 8
+   },
+   {
+    "value": "2026-09-28",
+    "count": 8
+   },
+   {
+    "value": "2026-08-07",
+    "count": 7
+   },
+   {
+    "value": "2026-08-12",
+    "count": 7
+   },
+   {
+    "value": "2026-08-13",
+    "count": 7
+   },
+   {
+    "value": "2026-08-25",
+    "count": 7
+   },
+   {
+    "value": "2026-09-17",
+    "count": 7
+   },
+   {
+    "value": "2026-09-18",
+    "count": 7
+   },
+   {
+    "value": "2026-09-22",
+    "count": 7
+   },
+   {
+    "value": "2026-10-01",
+    "count": 7
+   },
+   {
+    "value": "2026-08-06",
+    "count": 6
+   },
+   {
+    "value": "2026-08-31",
+    "count": 6
+   },
+   {
+    "value": "2026-09-01",
+    "count": 6
+   },
+   {
+    "value": "2026-09-04",
+    "count": 6
+   },
+   {
+    "value": "2026-09-25",
+    "count": 6
+   },
+   {
+    "value": "2026-09-10",
+    "count": 5
+   },
+   {
+    "value": "2026-09-14",
+    "count": 5
+   },
+   {
+    "value": "2026-09-24",
+    "count": 5
+   },
+   {
+    "value": "2026-09-30",
+    "count": 5
+   },
+   {
+    "value": "2026-08-20",
+    "count": 4
+   },
+   {
+    "value": "2026-08-24",
+    "count": 4
+   },
+   {
+    "value": "2026-09-15",
+    "count": 4
+   },
+   {
+    "value": "2026-09-21",
+    "count": 4
+   },
+   {
+    "value": "2026-08-04",
+    "count": 3
+   },
+   {
+    "value": "2026-08-11",
+    "count": 3
+   },
+   {
+    "value": "2026-09-11",
+    "count": 3
+   },
+   {
+    "value": "2026-08-03",
+    "count": 2
+   },
+   {
+    "value": "2026-08-27",
+    "count": 2
+   },
+   {
+    "value": "2026-09-03",
+    "count": 2
+   },
+   {
+    "value": "2026-08-28",
+    "count": 1
+   }
+  ],
+  "DocumentDate": [
+   {
+    "value": "2026-09-15",
+    "count": 32
+   },
+   {
+    "value": "2026-08-18",
+    "count": 14
+   },
+   {
+    "value": "2026-08-14",
+    "count": 12
+   },
+   {
+    "value": "2026-08-07",
+    "count": 11
+   },
+   {
+    "value": "2026-08-12",
+    "count": 10
+   },
+   {
+    "value": "2026-08-28",
+    "count": 9
+   },
+   {
+    "value": "2026-08-21",
+    "count": 8
+   },
+   {
+    "value": "2026-09-01",
+    "count": 8
+   },
+   {
+    "value": "2026-07-29",
+    "count": 7
+   },
+   {
+    "value": "2026-08-25",
+    "count": 7
+   },
+   {
+    "value": "2026-08-31",
+    "count": 7
+   },
+   {
+    "value": "2026-09-14",
+    "count": 7
+   },
+   {
+    "value": "2026-09-18",
+    "count": 7
+   },
+   {
+    "value": "2026-07-31",
+    "count": 6
+   },
+   {
+    "value": "2026-08-04",
+    "count": 6
+   },
+   {
+    "value": "2026-08-19",
+    "count": 6
+   },
+   {
+    "value": "2026-08-06",
+    "count": 5
+   },
+   {
+    "value": "2026-08-10",
+    "count": 5
+   },
+   {
+    "value": "2026-08-13",
+    "count": 5
+   },
+   {
+    "value": "2026-09-04",
+    "count": 5
+   },
+   {
+    "value": "2026-09-08",
+    "count": 5
+   },
+   {
+    "value": "2026-09-16",
+    "count": 5
+   },
+   {
+    "value": "2026-09-22",
+    "count": 5
+   },
+   {
+    "value": "2026-07-15",
+    "count": 4
+   },
+   {
+    "value": "2026-07-16",
+    "count": 4
+   },
+   {
+    "value": "2026-07-22",
+    "count": 4
+   },
+   {
+    "value": "2026-07-30",
+    "count": 4
+   },
+   {
+    "value": "2026-08-03",
+    "count": 4
+   },
+   {
+    "value": "2026-08-05",
+    "count": 4
+   },
+   {
+    "value": "2026-08-11",
+    "count": 4
+   },
+   {
+    "value": "2026-08-20",
+    "count": 4
+   },
+   {
+    "value": "2026-09-10",
+    "count": 4
+   },
+   {
+    "value": "2026-09-30",
+    "count": 4
+   },
+   {
+    "value": "2026-07-02",
+    "count": 3
+   },
+   {
+    "value": "2026-07-13",
+    "count": 3
+   },
+   {
+    "value": "2026-07-21",
+    "count": 3
+   },
+   {
+    "value": "2026-07-23",
+    "count": 3
+   },
+   {
+    "value": "2026-07-27",
+    "count": 3
+   },
+   {
+    "value": "2026-09-03",
+    "count": 3
+   },
+   {
+    "value": "2026-09-11",
+    "count": 3
+   },
+   {
+    "value": "2026-09-17",
+    "count": 3
+   },
+   {
+    "value": "2026-09-21",
+    "count": 3
+   },
+   {
+    "value": "2025-02-12",
+    "count": 2
+   },
+   {
+    "value": "2026-06-02",
+    "count": 2
+   },
+   {
+    "value": "2026-07-17",
+    "count": 2
+   },
+   {
+    "value": "2026-07-20",
+    "count": 2
+   },
+   {
+    "value": "2026-08-17",
+    "count": 2
+   },
+   {
+    "value": "2026-09-09",
+    "count": 2
+   },
+   {
+    "value": "2026-09-27",
+    "count": 2
+   },
+   {
+    "value": "2025-11-29",
+    "count": 1
+   },
+   {
+    "value": "2025-12-16",
+    "count": 1
+   },
+   {
+    "value": "2026-02-23",
+    "count": 1
+   },
+   {
+    "value": "2026-03-28",
+    "count": 1
+   },
+   {
+    "value": "2026-03-29",
+    "count": 1
+   },
+   {
+    "value": "2026-05-20",
+    "count": 1
+   },
+   {
+    "value": "2026-06-11",
+    "count": 1
+   },
+   {
+    "value": "2026-07-14",
+    "count": 1
+   },
+   {
+    "value": "2026-07-28",
+    "count": 1
+   },
+   {
+    "value": "2026-08-08",
+    "count": 1
+   },
+   {
+    "value": "2026-08-16",
+    "count": 1
+   },
+   {
+    "value": "2026-08-24",
+    "count": 1
+   },
+   {
+    "value": "2026-08-26",
+    "count": 1
+   },
+   {
+    "value": "2026-08-27",
+    "count": 1
+   },
+   {
+    "value": "2026-09-02",
+    "count": 1
+   },
+   {
+    "value": "2026-09-24",
+    "count": 1
+   },
+   {
+    "value": "2026-09-25",
+    "count": 1
+   },
+   {
+    "value": "2026-10-01",
+    "count": 1
+   }
+  ]
+ },
+ "pageNumber": null,
+ "_fixture_note": "trimmed to first 30 of 100 results; request body: {\"q\":\"\",\"filters\":[{\"field\":\"DateAdded\",\"value\":\"(DateAdded ge '2026-08-01')\"},{\"field\":\"DocketNumber\",\"value\":\"99902\",\"operator\":\"contains\"}],\"anyFilters\":[],\"legacyLibFilter\":false,\"mainLibFilter\":true,\"content\":false,\"sort\":\"DateAddedTimestamp\",\"sortDirection\":-1,\"skip\":0}"
+}

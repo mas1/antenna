@@ -1,0 +1,2988 @@
+{
+ "data": {
+  "rateLimit": {
+   "cost": 1,
+   "remaining": 4912,
+   "limit": 5000,
+   "resetAt": "2026-10-02T00:40:01Z"
+  },
+  "a": {
+   "repositoryCount": 105,
+   "nodes": [
+    {
+     "nameWithOwner": "kenchangh/kensat",
+     "url": "https://github.com/kenchangh/kensat",
+     "description": "KENSAT, Edge-AI Compute in Orbit - A 2U CubeSat that runs a large language model on-orbit. A power-gated NVIDIA Jetson Orin Nano executes neural-network inference in space, and the results are downlinked over a custom UHF radio link to amateur ground stations.",
+     "stargazerCount": 112,
+     "forkCount": 18,
+     "createdAt": "2026-06-17T23:58:32Z",
+     "pushedAt": "2026-09-14T23:45:40Z",
+     "homepageUrl": "https://kensat.com",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "NOASSERTION"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "edge-computing"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellites"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 7
+     },
+     "issues": {
+      "totalCount": 5
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "kenchangh",
+      "url": "https://github.com/kenchangh",
+      "name": "Ken Chan",
+      "company": null,
+      "websiteUrl": null,
+      "location": "San Francisco",
+      "bio": "Working on space & hardware",
+      "createdAt": "2013-10-22T16:10:23Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 140
+      },
+      "repositories": {
+       "totalCount": 121
+      }
+     }
+    },
+    {
+     "nameWithOwner": "ARYA-mgc/cubsat_Simulation_with_HIL",
+     "url": "https://github.com/ARYA-mgc/cubsat_Simulation_with_HIL",
+     "description": "A full-stack CubeSat Attitude & Control System (ACS) simulation featuring cascaded PID control, Hardware-in-the-Loop (HIL) validation, and SDR + NRF24L01+ telemetry pipeline.",
+     "stargazerCount": 17,
+     "forkCount": 1,
+     "createdAt": "2026-03-29T19:35:44Z",
+     "pushedAt": "2026-04-25T07:40:14Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MIT"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "imu"
+        }
+       },
+       {
+        "topic": {
+         "name": "matlab"
+        }
+       },
+       {
+        "topic": {
+         "name": "pid"
+        }
+       },
+       {
+        "topic": {
+         "name": "simlink"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 9
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "ARYA-mgc",
+      "url": "https://github.com/ARYA-mgc",
+      "name": "ARYA MGC",
+      "company": "Agnikul Cosmos",
+      "websiteUrl": null,
+      "location": null,
+      "bio": "Electronics & Communication Engineering student | Passionate about Avionics & Embedded Systems | Open-source contributor @mavlink and         @FreeRTOS",
+      "createdAt": "2024-09-29T02:30:07Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 40
+      },
+      "repositories": {
+       "totalCount": 37
+      }
+     }
+    },
+    {
+     "nameWithOwner": "DynamiX-Labs/Ground-Station-Suite",
+     "url": "https://github.com/DynamiX-Labs/Ground-Station-Suite",
+     "description": "End-to-end ground station suite for autonomous satellite tracking, real-time DSP, and telemetry decoding \u2014 with a unified React web dashboard.",
+     "stargazerCount": 14,
+     "forkCount": 3,
+     "createdAt": "2026-05-22T11:06:10Z",
+     "pushedAt": "2026-05-23T06:50:10Z",
+     "homepageUrl": "https://dynamix-labs.github.io/Ground-Station-Suite",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "NOASSERTION"
+     },
+     "primaryLanguage": {
+      "name": "JavaScript"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "amateur-radio"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "fastapi"
+        }
+       },
+       {
+        "topic": {
+         "name": "gnu-radio"
+        }
+       },
+       {
+        "topic": {
+         "name": "ground-station"
+        }
+       },
+       {
+        "topic": {
+         "name": "hamlib"
+        }
+       },
+       {
+        "topic": {
+         "name": "rtl-sdr"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite-tracking"
+        }
+       },
+       {
+        "topic": {
+         "name": "sdr"
+        }
+       },
+       {
+        "topic": {
+         "name": "signal-processing"
+        }
+       },
+       {
+        "topic": {
+         "name": "soapysdr"
+        }
+       },
+       {
+        "topic": {
+         "name": "telemetry"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "DynamiX-Labs",
+      "url": "https://github.com/DynamiX-Labs",
+      "name": "DynamiX-Labs",
+      "websiteUrl": null,
+      "createdAt": "2026-04-23T05:52:12Z",
+      "description": "Research and development in embedded systems, simulation, avionics, and control engineering.",
+      "email": null,
+      "location": "India",
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 5
+      }
+     }
+    },
+    {
+     "nameWithOwner": "DynamiX-Labs/SDR-Hardware-Benchmark",
+     "url": "https://github.com/DynamiX-Labs/SDR-Hardware-Benchmark",
+     "description": "A comprehensive benchmarking suite for Software Defined Radio (SDR) hardware, enabling performance comparison across devices based on throughput, latency, dynamic range, signal quality, and real-world RF workloads.",
+     "stargazerCount": 12,
+     "forkCount": 2,
+     "createdAt": "2026-04-23T09:22:44Z",
+     "pushedAt": "2026-09-15T17:16:26Z",
+     "homepageUrl": "https://github.com/DynamiX-Labs/CubeSat-Reaction-wheel-self-balance",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "Apache-2.0"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "communication"
+        }
+       },
+       {
+        "topic": {
+         "name": "communication-protocol"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "decoder"
+        }
+       },
+       {
+        "topic": {
+         "name": "doppler"
+        }
+       },
+       {
+        "topic": {
+         "name": "hardware"
+        }
+       },
+       {
+        "topic": {
+         "name": "nanosat"
+        }
+       },
+       {
+        "topic": {
+         "name": "sdr"
+        }
+       },
+       {
+        "topic": {
+         "name": "comication"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 35
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "DynamiX-Labs",
+      "url": "https://github.com/DynamiX-Labs",
+      "name": "DynamiX-Labs",
+      "websiteUrl": null,
+      "createdAt": "2026-04-23T05:52:12Z",
+      "description": "Research and development in embedded systems, simulation, avionics, and control engineering.",
+      "email": null,
+      "location": "India",
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 5
+      }
+     }
+    },
+    {
+     "nameWithOwner": "ICDT-Inatel-Cubesat-Design-Team/S-Band-Antenna",
+     "url": "https://github.com/ICDT-Inatel-Cubesat-Design-Team/S-Band-Antenna",
+     "description": "S-Band RHCP 2.45 GHz Patch Antenna for 1U CubeSats",
+     "stargazerCount": 10,
+     "forkCount": 0,
+     "createdAt": "2026-06-04T12:01:42Z",
+     "pushedAt": "2026-06-05T16:19:59Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "CERN-OHL-W-2.0"
+     },
+     "primaryLanguage": null,
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "hfss"
+        }
+       },
+       {
+        "topic": {
+         "name": "icdt"
+        }
+       },
+       {
+        "topic": {
+         "name": "inatel"
+        }
+       },
+       {
+        "topic": {
+         "name": "kicad"
+        }
+       },
+       {
+        "topic": {
+         "name": "s-band"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 2
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "ICDT-Inatel-Cubesat-Design-Team",
+      "url": "https://github.com/ICDT-Inatel-Cubesat-Design-Team",
+      "name": "ICDT",
+      "websiteUrl": "https://inatel.br/radiocomlab/cubesat-design-team",
+      "createdAt": "2023-04-05T14:24:46Z",
+      "description": "Inatel CubeSat Design Team",
+      "email": null,
+      "location": "Brazil",
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 2
+      },
+      "repositories": {
+       "totalCount": 4
+      }
+     }
+    },
+    {
+     "nameWithOwner": "olmanqj/awesome-flight-software",
+     "url": "https://github.com/olmanqj/awesome-flight-software",
+     "description": "List of Flight Software Frameworks",
+     "stargazerCount": 9,
+     "forkCount": 1,
+     "createdAt": "2026-05-31T19:28:03Z",
+     "pushedAt": "2026-06-22T11:30:24Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": null,
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "flight-software"
+        }
+       },
+       {
+        "topic": {
+         "name": "on-board-software"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite"
+        }
+       },
+       {
+        "topic": {
+         "name": "space"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 1
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "olmanqj",
+      "url": "https://github.com/olmanqj",
+      "name": "Olman Quiros Jimenez",
+      "company": "German Aerospace Center (DLR)",
+      "websiteUrl": "olman.me",
+      "location": "San Jose, Abya Yala",
+      "bio": "\r\n    \r\n    \r\n    Orbiting... \r\n\r\n",
+      "createdAt": "2013-02-21T05:06:37Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 9
+      },
+      "repositories": {
+       "totalCount": 14
+      }
+     }
+    },
+    {
+     "nameWithOwner": "OrbitFabric/orbitfabric",
+     "url": "https://github.com/OrbitFabric/orbitfabric",
+     "description": "Model-first Mission Data Fabric for small spacecraft.",
+     "stargazerCount": 8,
+     "forkCount": 1,
+     "createdAt": "2026-04-30T09:51:31Z",
+     "pushedAt": "2026-09-25T11:52:28Z",
+     "homepageUrl": "https://orbitfabric.github.io/orbitfabric/",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "Apache-2.0"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "commands"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "fault-management"
+        }
+       },
+       {
+        "topic": {
+         "name": "mission-data"
+        }
+       },
+       {
+        "topic": {
+         "name": "open-source"
+        }
+       },
+       {
+        "topic": {
+         "name": "python"
+        }
+       },
+       {
+        "topic": {
+         "name": "simulation"
+        }
+       },
+       {
+        "topic": {
+         "name": "spacecraft"
+        }
+       },
+       {
+        "topic": {
+         "name": "telemetry"
+        }
+       },
+       {
+        "topic": {
+         "name": "yaml"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 20
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 50
+     },
+     "pullRequests": {
+      "totalCount": 214
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "OrbitFabric",
+      "url": "https://github.com/OrbitFabric",
+      "name": "OrbitFabric",
+      "websiteUrl": "https://farotech.github.io/orbitfabric/",
+      "createdAt": "2026-09-17T16:36:52Z",
+      "description": "Model-first Mission Data Fabric for space software and operations.",
+      "email": null,
+      "location": null,
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 0
+      },
+      "repositories": {
+       "totalCount": 12
+      }
+     }
+    },
+    {
+     "nameWithOwner": "ICDT-Inatel-Cubesat-Design-Team/TET-Module",
+     "url": "https://github.com/ICDT-Inatel-Cubesat-Design-Team/TET-Module",
+     "description": "A reliable 1U CubeSat TT&C subsystem featuring an STM32L4 MCU, LoRa radio for long-range communication, CAN Bus, and TMR SPI Flash for critical space applications.",
+     "stargazerCount": 5,
+     "forkCount": 0,
+     "createdAt": "2026-05-03T22:12:53Z",
+     "pushedAt": "2026-09-28T14:49:47Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "CERN-OHL-W-2.0"
+     },
+     "primaryLanguage": null,
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "icdt"
+        }
+       },
+       {
+        "topic": {
+         "name": "lora"
+        }
+       },
+       {
+        "topic": {
+         "name": "obsat"
+        }
+       },
+       {
+        "topic": {
+         "name": "ttc"
+        }
+       },
+       {
+        "topic": {
+         "name": "librecube"
+        }
+       },
+       {
+        "topic": {
+         "name": "inatel"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 1
+     },
+     "issues": {
+      "totalCount": 5
+     },
+     "pullRequests": {
+      "totalCount": 2
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "ICDT-Inatel-Cubesat-Design-Team",
+      "url": "https://github.com/ICDT-Inatel-Cubesat-Design-Team",
+      "name": "ICDT",
+      "websiteUrl": "https://inatel.br/radiocomlab/cubesat-design-team",
+      "createdAt": "2023-04-05T14:24:46Z",
+      "description": "Inatel CubeSat Design Team",
+      "email": null,
+      "location": "Brazil",
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 2
+      },
+      "repositories": {
+       "totalCount": 4
+      }
+     }
+    },
+    {
+     "nameWithOwner": "paoloo/pulse",
+     "url": "https://github.com/paoloo/pulse",
+     "description": "A tiny cooperative real-time scheduler for microcontrollers",
+     "stargazerCount": 4,
+     "forkCount": 1,
+     "createdAt": "2026-01-07T22:37:36Z",
+     "pushedAt": "2026-01-08T17:04:55Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MIT"
+     },
+     "primaryLanguage": {
+      "name": "C"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "microcontrollers"
+        }
+       },
+       {
+        "topic": {
+         "name": "rtos"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 2
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "paoloo",
+      "url": "https://github.com/paoloo",
+      "name": "Paolo Oliveira",
+      "company": "SETI Institute, UFRN",
+      "websiteUrl": "https://paoloo.github.io",
+      "location": null,
+      "bio": "Researcher and System Engineer",
+      "createdAt": "2010-03-31T02:02:20Z",
+      "twitterUsername": "paoloo",
+      "followers": {
+       "totalCount": 294
+      },
+      "repositories": {
+       "totalCount": 88
+      }
+     }
+    },
+    {
+     "nameWithOwner": "root3315/unisat",
+     "url": "https://github.com/root3315/unisat",
+     "description": "\ud83d\udef0\ufe0f Universal satellite software platform \u2014 CanSat, CubeSat 1U-12U, HAB, rocket, drone. One codebase \u2192 14 form factors. 471 tests green, TRL-5 hardened.",
+     "stargazerCount": 4,
+     "forkCount": 4,
+     "createdAt": "2026-04-15T17:45:45Z",
+     "pushedAt": "2026-06-24T02:41:41Z",
+     "homepageUrl": "https://root3315.github.io/unisat/",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "Apache-2.0"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "aerospace"
+        }
+       },
+       {
+        "topic": {
+         "name": "ax25"
+        }
+       },
+       {
+        "topic": {
+         "name": "cansat"
+        }
+       },
+       {
+        "topic": {
+         "name": "ccsds"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "embedded"
+        }
+       },
+       {
+        "topic": {
+         "name": "flight-software"
+        }
+       },
+       {
+        "topic": {
+         "name": "freertos"
+        }
+       },
+       {
+        "topic": {
+         "name": "ground-station"
+        }
+       },
+       {
+        "topic": {
+         "name": "ham-radio"
+        }
+       },
+       {
+        "topic": {
+         "name": "hardware"
+        }
+       },
+       {
+        "topic": {
+         "name": "python"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 11
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 18
+     },
+     "pullRequests": {
+      "totalCount": 12
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "root3315",
+      "url": "https://github.com/root3315",
+      "name": null,
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": null,
+      "createdAt": "2021-12-21T16:40:12Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 170
+      }
+     }
+    },
+    {
+     "nameWithOwner": "YigitAlpG/satellite-flight-software-cybersecurity",
+     "url": "https://github.com/YigitAlpG/satellite-flight-software-cybersecurity",
+     "description": "STM32-based detection of FDI and Replay attacks in satellite flight software using NASA telemetry data.",
+     "stargazerCount": 3,
+     "forkCount": 0,
+     "createdAt": "2026-07-14T06:37:45Z",
+     "pushedAt": "2026-07-14T06:58:37Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": null,
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "anomaly-detection"
+        }
+       },
+       {
+        "topic": {
+         "name": "anomaly-detection-algorithm"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "cybersecurity"
+        }
+       },
+       {
+        "topic": {
+         "name": "embedded-systems"
+        }
+       },
+       {
+        "topic": {
+         "name": "flight-software"
+        }
+       },
+       {
+        "topic": {
+         "name": "matlab"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite-data"
+        }
+       },
+       {
+        "topic": {
+         "name": "stm32"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "YigitAlpG",
+      "url": "https://github.com/YigitAlpG",
+      "name": "Yigit Alp GULSEN",
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": "",
+      "createdAt": "2026-07-14T06:34:51Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 2
+      },
+      "repositories": {
+       "totalCount": 5
+      }
+     }
+    },
+    {
+     "nameWithOwner": "ishandutta2007/Awesome-Satellite-Operations",
+     "url": "https://github.com/ishandutta2007/Awesome-Satellite-Operations",
+     "description": "Top Satellite Operations (Opensource) \ud83c\udf1f Star if you like it! \ud83c\udf1f",
+     "stargazerCount": 3,
+     "forkCount": 0,
+     "createdAt": "2026-09-09T09:13:17Z",
+     "pushedAt": "2026-09-09T12:03:09Z",
+     "homepageUrl": null,
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MIT"
+     },
+     "primaryLanguage": null,
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "awesome-list"
+        }
+       },
+       {
+        "topic": {
+         "name": "curated-list"
+        }
+       },
+       {
+        "topic": {
+         "name": "aerospace"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "ground-station"
+        }
+       },
+       {
+        "topic": {
+         "name": "mission-control"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite-operations"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "ishandutta2007",
+      "url": "https://github.com/ishandutta2007",
+      "name": "Ishan Dutta",
+      "company": "@Microsoft, @amzn",
+      "websiteUrl": "https://ishandutta2007.github.io/",
+      "location": "Remote",
+      "bio": "is an AI obsessed Entrepreneur, #ex-FAANG, #GenerativeAI, #RPA.\r\n",
+      "createdAt": "2012-10-10T10:10:31Z",
+      "twitterUsername": "ishandutta2007",
+      "followers": {
+       "totalCount": 16440
+      },
+      "repositories": {
+       "totalCount": 3740
+      }
+     }
+    },
+    {
+     "nameWithOwner": "Pietro-Cavalletti/CubeSat-ADCS-Simulation",
+     "url": "https://github.com/Pietro-Cavalletti/CubeSat-ADCS-Simulation",
+     "description": "High-fidelity 6U CubeSat ADCS simulation in MATLAB/Simulink. Includes IGRF-2020 magnetic models, SVD-based determination, and hybrid B-dot/LQR/Pointing control logic.",
+     "stargazerCount": 3,
+     "forkCount": 1,
+     "createdAt": "2026-03-31T12:53:15Z",
+     "pushedAt": "2026-03-31T17:16:08Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": {
+      "name": "MATLAB"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "acds"
+        }
+       },
+       {
+        "topic": {
+         "name": "aerospace-engineering"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "gnc"
+        }
+       },
+       {
+        "topic": {
+         "name": "matlab"
+        }
+       },
+       {
+        "topic": {
+         "name": "simulink"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "Pietro-Cavalletti",
+      "url": "https://github.com/Pietro-Cavalletti",
+      "name": null,
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": null,
+      "createdAt": "2026-03-24T17:19:18Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 2
+      },
+      "repositories": {
+       "totalCount": 4
+      }
+     }
+    },
+    {
+     "nameWithOwner": "OpenSpaceCode/EmbeddedSpacePacket",
+     "url": "https://github.com/OpenSpaceCode/EmbeddedSpacePacket",
+     "description": "Minimal CCSDS SpacePacket protocol implementation in C for small-scale space missions",
+     "stargazerCount": 2,
+     "forkCount": 0,
+     "createdAt": "2026-01-06T15:08:45Z",
+     "pushedAt": "2026-09-12T16:20:45Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "Apache-2.0"
+     },
+     "primaryLanguage": {
+      "name": "C"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "ccsds"
+        }
+       },
+       {
+        "topic": {
+         "name": "ccsds-standards"
+        }
+       },
+       {
+        "topic": {
+         "name": "ecss"
+        }
+       },
+       {
+        "topic": {
+         "name": "small-scale"
+        }
+       },
+       {
+        "topic": {
+         "name": "space"
+        }
+       },
+       {
+        "topic": {
+         "name": "space-mission"
+        }
+       },
+       {
+        "topic": {
+         "name": "space-packets"
+        }
+       },
+       {
+        "topic": {
+         "name": "spacepacket"
+        }
+       },
+       {
+        "topic": {
+         "name": "embedded-space"
+        }
+       },
+       {
+        "topic": {
+         "name": "ccsds-spacepacket"
+        }
+       },
+       {
+        "topic": {
+         "name": "cansat"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 3
+     },
+     "watchers": {
+      "totalCount": 1
+     },
+     "issues": {
+      "totalCount": 2
+     },
+     "pullRequests": {
+      "totalCount": 5
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "OpenSpaceCode",
+      "url": "https://github.com/OpenSpaceCode",
+      "name": "OpenSpaceCode",
+      "websiteUrl": null,
+      "createdAt": "2026-01-06T14:55:18Z",
+      "description": "Open-Source space for implementation of Space related protocols etc.",
+      "email": null,
+      "location": "Poland",
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 8
+      }
+     }
+    },
+    {
+     "nameWithOwner": "Aliou8/SAHEL-SPECTRA-RF",
+     "url": "https://github.com/Aliou8/SAHEL-SPECTRA-RF",
+     "description": "CubeSat for educational purposes. It is based on an STM32H7 MCU for data handling and uses two CC1125 radios for communication. The software is developed using a Zephyr-like RTOS.",
+     "stargazerCount": 2,
+     "forkCount": 0,
+     "createdAt": "2026-04-22T20:29:57Z",
+     "pushedAt": "2026-05-19T16:26:31Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "GPL-3.0"
+     },
+     "primaryLanguage": {
+      "name": "C"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cfs"
+        }
+       },
+       {
+        "topic": {
+         "name": "cpp"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "eps"
+        }
+       },
+       {
+        "topic": {
+         "name": "flight"
+        }
+       },
+       {
+        "topic": {
+         "name": "hardware"
+        }
+       },
+       {
+        "topic": {
+         "name": "nasa-api"
+        }
+       },
+       {
+        "topic": {
+         "name": "obc"
+        }
+       },
+       {
+        "topic": {
+         "name": "on-board-computer"
+        }
+       },
+       {
+        "topic": {
+         "name": "radio"
+        }
+       },
+       {
+        "topic": {
+         "name": "sattelite"
+        }
+       },
+       {
+        "topic": {
+         "name": "space"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "Aliou8",
+      "url": "https://github.com/Aliou8",
+      "name": "Aliou LY",
+      "company": "PollelTech",
+      "websiteUrl": null,
+      "location": null,
+      "bio": "Embedded Systems  engineer and open source enthusiast.",
+      "createdAt": "2022-09-29T13:30:33Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 8
+      }
+     }
+    },
+    {
+     "nameWithOwner": "Zhetessov/Antenna-Design-for-CubeSat",
+     "url": "https://github.com/Zhetessov/Antenna-Design-for-CubeSat",
+     "description": "Patch antenna design and HFSS simulation for CubeSat communication systems in the Ku-band.",
+     "stargazerCount": 2,
+     "forkCount": 0,
+     "createdAt": "2026-01-28T17:46:29Z",
+     "pushedAt": "2026-05-29T19:16:40Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": null,
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "antenna"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "electromagnetics"
+        }
+       },
+       {
+        "topic": {
+         "name": "hfss"
+        }
+       },
+       {
+        "topic": {
+         "name": "microwave"
+        }
+       },
+       {
+        "topic": {
+         "name": "patch-antenna"
+        }
+       },
+       {
+        "topic": {
+         "name": "rf"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite"
+        }
+       },
+       {
+        "topic": {
+         "name": "wireless-communications"
+        }
+       },
+       {
+        "topic": {
+         "name": "ku-band"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 1
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "Zhetessov",
+      "url": "https://github.com/Zhetessov",
+      "name": "Ardak Zhetessov",
+      "company": null,
+      "websiteUrl": null,
+      "location": "Almaty, Kazakhstan",
+      "bio": "",
+      "createdAt": "2025-04-16T17:59:18Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 0
+      },
+      "repositories": {
+       "totalCount": 2
+      }
+     }
+    },
+    {
+     "nameWithOwner": "OpenSpaceCode/EmbeddedSpaceWire",
+     "url": "https://github.com/OpenSpaceCode/EmbeddedSpaceWire",
+     "description": "Minimal CCSDS SpaceWire protocol implementation in C for small-scale space missions.",
+     "stargazerCount": 2,
+     "forkCount": 0,
+     "createdAt": "2026-01-06T16:26:23Z",
+     "pushedAt": "2026-07-08T17:38:08Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "Apache-2.0"
+     },
+     "primaryLanguage": {
+      "name": "C"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "ccsds"
+        }
+       },
+       {
+        "topic": {
+         "name": "ccsds-standards"
+        }
+       },
+       {
+        "topic": {
+         "name": "small-scale"
+        }
+       },
+       {
+        "topic": {
+         "name": "space-mission"
+        }
+       },
+       {
+        "topic": {
+         "name": "spacewire"
+        }
+       },
+       {
+        "topic": {
+         "name": "space-wire"
+        }
+       },
+       {
+        "topic": {
+         "name": "spacewire-c"
+        }
+       },
+       {
+        "topic": {
+         "name": "space-protocol"
+        }
+       },
+       {
+        "topic": {
+         "name": "ccsds-spacewire"
+        }
+       },
+       {
+        "topic": {
+         "name": "cansat"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat-payload"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 3
+     },
+     "watchers": {
+      "totalCount": 1
+     },
+     "issues": {
+      "totalCount": 2
+     },
+     "pullRequests": {
+      "totalCount": 5
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "OpenSpaceCode",
+      "url": "https://github.com/OpenSpaceCode",
+      "name": "OpenSpaceCode",
+      "websiteUrl": null,
+      "createdAt": "2026-01-06T14:55:18Z",
+      "description": "Open-Source space for implementation of Space related protocols etc.",
+      "email": null,
+      "location": "Poland",
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 8
+      }
+     }
+    },
+    {
+     "nameWithOwner": "Migsster/StormSat-CubeSat",
+     "url": "https://github.com/Migsster/StormSat-CubeSat",
+     "description": "1U CubeSat avionics prototype with custom OBC/EPS/Payload PCBs, STM32 embedded firmware, LoRa TT&C, GNSS and Python mission analysis.",
+     "stargazerCount": 2,
+     "forkCount": 1,
+     "createdAt": "2026-08-24T01:46:44Z",
+     "pushedAt": "2026-08-24T03:19:27Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": {
+      "name": "C"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "aerospace"
+        }
+       },
+       {
+        "topic": {
+         "name": "avionics"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "embedded-systems"
+        }
+       },
+       {
+        "topic": {
+         "name": "gnss"
+        }
+       },
+       {
+        "topic": {
+         "name": "kicad"
+        }
+       },
+       {
+        "topic": {
+         "name": "lora"
+        }
+       },
+       {
+        "topic": {
+         "name": "pcb-design"
+        }
+       },
+       {
+        "topic": {
+         "name": "python"
+        }
+       },
+       {
+        "topic": {
+         "name": "stm32"
+        }
+       },
+       {
+        "topic": {
+         "name": "telemetry"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 1
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "Migsster",
+      "url": "https://github.com/Migsster",
+      "name": "Miguel carneiro",
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": "",
+      "createdAt": "2023-10-02T00:28:26Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 1
+      }
+     }
+    },
+    {
+     "nameWithOwner": "aaaaaaaaaaaavm/VOLLEY",
+     "url": "https://github.com/aaaaaaaaaaaavm/VOLLEY",
+     "description": "VOLLEY studies a reusable, sequential CubeSat deployment system with selectable release conditions. Gen6 is in development; no mechanism or speed range is validated.",
+     "stargazerCount": 2,
+     "forkCount": 0,
+     "createdAt": "2026-07-23T10:09:53Z",
+     "pushedAt": "2026-09-28T15:05:25Z",
+     "homepageUrl": "https://aaaaaaaaaaaavm.github.io/VOLLEY/",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "CC-BY-4.0"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "aerospace-engineering"
+        }
+       },
+       {
+        "topic": {
+         "name": "astrodynamics"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "design-study"
+        }
+       },
+       {
+        "topic": {
+         "name": "electromagnetic-launch"
+        }
+       },
+       {
+        "topic": {
+         "name": "halbach-array"
+        }
+       },
+       {
+        "topic": {
+         "name": "orbital-mechanics"
+        }
+       },
+       {
+        "topic": {
+         "name": "python"
+        }
+       },
+       {
+        "topic": {
+         "name": "research"
+        }
+       },
+       {
+        "topic": {
+         "name": "rideshare"
+        }
+       },
+       {
+        "topic": {
+         "name": "smallsat"
+        }
+       },
+       {
+        "topic": {
+         "name": "space-systems"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 9
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 30
+     },
+     "pullRequests": {
+      "totalCount": 10
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "aaaaaaaaaaaavm",
+      "url": "https://github.com/aaaaaaaaaaaavm",
+      "name": "Adityavardhan Mishra",
+      "company": "Avisys Services",
+      "websiteUrl": "https://www.linkedin.com/in/adityavardhanmishra/",
+      "location": "Pune, India",
+      "bio": "Mechanical engineer. Powertrain, ECUs, CubeSat deployment. Asking spacecraft inconvenient questions.\r\n",
+      "createdAt": "2021-07-13T20:56:31Z",
+      "twitterUsername": "aaaaaaaaaaaavm",
+      "followers": {
+       "totalCount": 3
+      },
+      "repositories": {
+       "totalCount": 17
+      }
+     }
+    },
+    {
+     "nameWithOwner": "l8whale8l/SEMANTIX-PassBudget",
+     "url": "https://github.com/l8whale8l/SEMANTIX-PassBudget",
+     "description": "Open-source satellite downlink planning tool that turns orbit, ground-station, link, and payload assumptions into contact windows, transferable-data budgets, and priority-aware delivery plans.",
+     "stargazerCount": 2,
+     "forkCount": 0,
+     "createdAt": "2026-09-03T02:20:05Z",
+     "pushedAt": "2026-09-09T04:56:50Z",
+     "homepageUrl": null,
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MIT"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cesiumjs"
+        }
+       },
+       {
+        "topic": {
+         "name": "cubesat"
+        }
+       },
+       {
+        "topic": {
+         "name": "downlink"
+        }
+       },
+       {
+        "topic": {
+         "name": "fastapi"
+        }
+       },
+       {
+        "topic": {
+         "name": "gmat"
+        }
+       },
+       {
+        "topic": {
+         "name": "ground-station"
+        }
+       },
+       {
+        "topic": {
+         "name": "mission-planning"
+        }
+       },
+       {
+        "topic": {
+         "name": "orbit-propagation"
+        }
+       },
+       {
+        "topic": {
+         "name": "pass-prediction"
+        }
+       },
+       {
+        "topic": {
+         "name": "python"
+        }
+       },
+       {
+        "topic": {
+         "name": "react"
+        }
+       },
+       {
+        "topic": {
+         "name": "satellite-communications"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 1
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "l8whale8l",
+      "url": "https://github.com/l8whale8l",
+      "name": null,
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": "",
+      "createdAt": "2026-08-06T03:02:10Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 1
+      },
+      "repositories": {
+       "totalCount": 3
+      }
+     }
+    }
+   ]
+  },
+  "b": {
+   "repositoryCount": 11,
+   "nodes": [
+    {
+     "nameWithOwner": "giancarloerra/Degauss",
+     "url": "https://github.com/giancarloerra/Degauss",
+     "description": "Official repository for Degauss, the blazing-fast, lightweight frontend for MiSTer FPGA. CRT & HDMI, integrated with the standard MiSTer setup, folders and scripts. Browse games already on your card, scrape artwork and metadata directly on MiSTer, use local artwork databases, customise themes and views, and launch without background processes.",
+     "stargazerCount": 72,
+     "forkCount": 1,
+     "createdAt": "2026-08-25T16:15:07Z",
+     "pushedAt": "2026-09-30T23:22:48Z",
+     "homepageUrl": "https://misterdegauss.com",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "NOASSERTION"
+     },
+     "primaryLanguage": {
+      "name": "Rust"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "crt"
+        }
+       },
+       {
+        "topic": {
+         "name": "de10-nano"
+        }
+       },
+       {
+        "topic": {
+         "name": "emulation"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "frontend"
+        }
+       },
+       {
+        "topic": {
+         "name": "mister"
+        }
+       },
+       {
+        "topic": {
+         "name": "mister-fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "retrogaming"
+        }
+       },
+       {
+        "topic": {
+         "name": "rust"
+        }
+       },
+       {
+        "topic": {
+         "name": "slint"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 17
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 95
+     },
+     "pullRequests": {
+      "totalCount": 82
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "giancarloerra",
+      "url": "https://github.com/giancarloerra",
+      "name": "Giancarlo Erra",
+      "company": "Altaire Limited",
+      "websiteUrl": "https://www.linkedin.com/in/giancarloerra/",
+      "location": "United Kingdom",
+      "bio": "Lead AI Consultant @ Altaire | Founder & Public Speaker | Creative Technologist | Software Builder | Professional Touring Musician & Producer",
+      "createdAt": "2022-05-08T12:54:36Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 68
+      },
+      "repositories": {
+       "totalCount": 13
+      }
+     }
+    },
+    {
+     "nameWithOwner": "YutongChenVictor/NPU-E2E",
+     "url": "https://github.com/YutongChenVictor/NPU-E2E",
+     "description": "End-to-End NPU: RTL systolic array \u2192 AXI4 SoC \u2192 TVM compiler \u2192 FPGA inference",
+     "stargazerCount": 56,
+     "forkCount": 6,
+     "createdAt": "2026-07-29T08:05:13Z",
+     "pushedAt": "2026-07-29T08:05:17Z",
+     "homepageUrl": null,
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "AGPL-3.0"
+     },
+     "primaryLanguage": {
+      "name": "Verilog"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "deep-learning"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "npu"
+        }
+       },
+       {
+        "topic": {
+         "name": "systolic-array"
+        }
+       },
+       {
+        "topic": {
+         "name": "tvm"
+        }
+       },
+       {
+        "topic": {
+         "name": "verilog"
+        }
+       },
+       {
+        "topic": {
+         "name": "axidma"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 1
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "YutongChenVictor",
+      "url": "https://github.com/YutongChenVictor",
+      "name": "Yutong Chen",
+      "company": "University of Science and Technology of China",
+      "websiteUrl": null,
+      "location": "Hefei, Anhui",
+      "bio": "Much ado about nothing.",
+      "createdAt": "2022-10-21T08:05:29Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 43
+      },
+      "repositories": {
+       "totalCount": 13
+      }
+     }
+    },
+    {
+     "nameWithOwner": "SweiryDev/MicroCNN-TangNano20k",
+     "url": "https://github.com/SweiryDev/MicroCNN-TangNano20k",
+     "description": " SystemVerilog SoC implementing MicroCNN accelerator on the Tang Nano 20K for BloodMNIST image classification.",
+     "stargazerCount": 53,
+     "forkCount": 8,
+     "createdAt": "2026-08-10T12:34:49Z",
+     "pushedAt": "2026-08-12T05:43:20Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": {
+      "name": "Jupyter Notebook"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cnn"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "gowin"
+        }
+       },
+       {
+        "topic": {
+         "name": "hardware-acceleration"
+        }
+       },
+       {
+        "topic": {
+         "name": "neural-network"
+        }
+       },
+       {
+        "topic": {
+         "name": "quantization"
+        }
+       },
+       {
+        "topic": {
+         "name": "rtl"
+        }
+       },
+       {
+        "topic": {
+         "name": "soc"
+        }
+       },
+       {
+        "topic": {
+         "name": "systemverilog"
+        }
+       },
+       {
+        "topic": {
+         "name": "tang-nano-20k"
+        }
+       },
+       {
+        "topic": {
+         "name": "tinyml"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 1
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 1
+     },
+     "pullRequests": {
+      "totalCount": 1
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "SweiryDev",
+      "url": "https://github.com/SweiryDev",
+      "name": null,
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": null,
+      "createdAt": "2021-12-13T13:55:57Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 8
+      },
+      "repositories": {
+       "totalCount": 15
+      }
+     }
+    },
+    {
+     "nameWithOwner": "bbenchoff/AGaMEMnon",
+     "url": "https://github.com/bbenchoff/AGaMEMnon",
+     "description": "Open SDK and FPGA toolchain for the AGM AG32 RISC-V MCU with embedded AGRV2K fabric",
+     "stargazerCount": 52,
+     "forkCount": 4,
+     "createdAt": "2026-07-03T02:25:42Z",
+     "pushedAt": "2026-10-01T06:44:56Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MIT"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "ag32"
+        }
+       },
+       {
+        "topic": {
+         "name": "agm"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "microcontroller"
+        }
+       },
+       {
+        "topic": {
+         "name": "risc-v"
+        }
+       },
+       {
+        "topic": {
+         "name": "agrv2k"
+        }
+       },
+       {
+        "topic": {
+         "name": "bitstream"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga-programming"
+        }
+       },
+       {
+        "topic": {
+         "name": "nextpnr"
+        }
+       },
+       {
+        "topic": {
+         "name": "reverse-engineering"
+        }
+       },
+       {
+        "topic": {
+         "name": "yosys"
+        }
+       },
+       {
+        "topic": {
+         "name": "open-source-toolchain"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 5
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "bbenchoff",
+      "url": "https://github.com/bbenchoff",
+      "name": "Brian Benchoff",
+      "company": null,
+      "websiteUrl": "https://twitter.com/BBenchoff",
+      "location": null,
+      "bio": "",
+      "createdAt": "2011-06-01T10:46:25Z",
+      "twitterUsername": "BBenchoff",
+      "followers": {
+       "totalCount": 210
+      },
+      "repositories": {
+       "totalCount": 82
+      }
+     }
+    },
+    {
+     "nameWithOwner": "haruto89610/rtl-nic",
+     "url": "https://github.com/haruto89610/rtl-nic",
+     "description": "Source-available SystemVerilog RTL for a custom FPGA Ethernet datapath with ARP, IPv4, UDP, and specialized TCP transport control.",
+     "stargazerCount": 40,
+     "forkCount": 8,
+     "createdAt": "2026-07-29T03:24:15Z",
+     "pushedAt": "2026-07-30T10:57:37Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "NOASSERTION"
+     },
+     "primaryLanguage": {
+      "name": "SystemVerilog"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "networking"
+        }
+       },
+       {
+        "topic": {
+         "name": "rtl"
+        }
+       },
+       {
+        "topic": {
+         "name": "rtl-design"
+        }
+       },
+       {
+        "topic": {
+         "name": "tcp"
+        }
+       },
+       {
+        "topic": {
+         "name": "tcp-ip"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 1
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "haruto89610",
+      "url": "https://github.com/haruto89610",
+      "name": null,
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": null,
+      "createdAt": "2021-02-06T18:46:26Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 9
+      },
+      "repositories": {
+       "totalCount": 5
+      }
+     }
+    },
+    {
+     "nameWithOwner": "YeXiHuTeam/YeXiHuCore",
+     "url": "https://github.com/YeXiHuTeam/YeXiHuCore",
+     "description": "USTC YeXiHu Team NSCSCC 2026 LA32R out-of-order processor core in Chisel. \u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66\u4e5f\u897f\u6e56\u961f\u9f99\u82af\u676f\u53c2\u8d5b\u9879\u76ee\u3002",
+     "stargazerCount": 30,
+     "forkCount": 0,
+     "createdAt": "2026-09-01T10:13:17Z",
+     "pushedAt": "2026-09-08T10:26:03Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MulanPSL-2.0"
+     },
+     "primaryLanguage": {
+      "name": "Scala"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "chisel"
+        }
+       },
+       {
+        "topic": {
+         "name": "cpu"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "la32r"
+        }
+       },
+       {
+        "topic": {
+         "name": "loongarch"
+        }
+       },
+       {
+        "topic": {
+         "name": "nscscc"
+        }
+       },
+       {
+        "topic": {
+         "name": "out-of-order"
+        }
+       },
+       {
+        "topic": {
+         "name": "ustc"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "Organization",
+      "login": "YeXiHuTeam",
+      "url": "https://github.com/YeXiHuTeam",
+      "name": "YeXiHuTeam",
+      "websiteUrl": null,
+      "createdAt": "2026-05-27T12:17:34Z",
+      "description": null,
+      "email": null,
+      "location": null,
+      "twitterUsername": null,
+      "isVerified": false,
+      "membersWithRole": {
+       "totalCount": 0
+      },
+      "repositories": {
+       "totalCount": 1
+      }
+     }
+    },
+    {
+     "nameWithOwner": "Kampi/TinyMCU",
+     "url": "https://github.com/Kampi/TinyMCU",
+     "description": "A RISC-V MCU, written in VHDL, and for learning purposes.",
+     "stargazerCount": 23,
+     "forkCount": 3,
+     "createdAt": "2026-08-16T15:22:08Z",
+     "pushedAt": "2026-09-02T16:03:00Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "GPL-3.0"
+     },
+     "primaryLanguage": {
+      "name": "VHDL"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "c"
+        }
+       },
+       {
+        "topic": {
+         "name": "embedded"
+        }
+       },
+       {
+        "topic": {
+         "name": "embedded-systems"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga-soc"
+        }
+       },
+       {
+        "topic": {
+         "name": "riscv"
+        }
+       },
+       {
+        "topic": {
+         "name": "riscv-asm"
+        }
+       },
+       {
+        "topic": {
+         "name": "riscv32"
+        }
+       },
+       {
+        "topic": {
+         "name": "vhdl"
+        }
+       },
+       {
+        "topic": {
+         "name": "vhdl-2008"
+        }
+       },
+       {
+        "topic": {
+         "name": "xilinx"
+        }
+       },
+       {
+        "topic": {
+         "name": "xilinx-fpga"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 11
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "Kampi",
+      "url": "https://github.com/Kampi",
+      "name": "Daniel Kampert",
+      "company": "Ing. Daniel Kampert",
+      "websiteUrl": "https://www.kampis-elektroecke.de",
+      "location": "Germany",
+      "bio": "Embedded Geek",
+      "createdAt": "2013-02-02T18:52:35Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 82
+      },
+      "repositories": {
+       "totalCount": 79
+      }
+     }
+    },
+    {
+     "nameWithOwner": "schlarpc/elgato-cam-link-4k-firmware-re",
+     "url": "https://github.com/schlarpc/elgato-cam-link-4k-firmware-re",
+     "description": "Firmware reverse engineering of the Elgato Cam Link 4K (USB 0fd9:0066): vendor HID protocol, SPI flash layout, FX3 and ECP5 firmware formats, update path, security analysis, and an independent flashing tool.",
+     "stargazerCount": 21,
+     "forkCount": 0,
+     "createdAt": "2026-08-16T21:43:06Z",
+     "pushedAt": "2026-08-16T21:43:28Z",
+     "homepageUrl": null,
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "MIT"
+     },
+     "primaryLanguage": {
+      "name": "Python"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "cam-link"
+        }
+       },
+       {
+        "topic": {
+         "name": "capture-card"
+        }
+       },
+       {
+        "topic": {
+         "name": "cypress-fx3"
+        }
+       },
+       {
+        "topic": {
+         "name": "ecp5"
+        }
+       },
+       {
+        "topic": {
+         "name": "elgato"
+        }
+       },
+       {
+        "topic": {
+         "name": "firmware"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "hid"
+        }
+       },
+       {
+        "topic": {
+         "name": "reverse-engineering"
+        }
+       },
+       {
+        "topic": {
+         "name": "usb"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "schlarpc",
+      "url": "https://github.com/schlarpc",
+      "name": "Chaz Schlarp",
+      "company": "@amzn",
+      "websiteUrl": "https://schlarp.com",
+      "location": "Seattle, WA",
+      "bio": "100% snowman",
+      "createdAt": "2011-11-01T07:04:47Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 69
+      },
+      "repositories": {
+       "totalCount": 112
+      }
+     }
+    },
+    {
+     "nameWithOwner": "andrea-cpu96/vhdl-cookbook",
+     "url": "https://github.com/andrea-cpu96/vhdl-cookbook",
+     "description": "A github page with common VHDL templates, ready to be copied and used in your projects.",
+     "stargazerCount": 17,
+     "forkCount": 3,
+     "createdAt": "2026-09-02T09:59:00Z",
+     "pushedAt": "2026-09-11T06:23:28Z",
+     "homepageUrl": "https://andrea-cpu96.github.io/vhdl-cookbook/",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": {
+      "name": "HTML"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "asic"
+        }
+       },
+       {
+        "topic": {
+         "name": "code-snippets"
+        }
+       },
+       {
+        "topic": {
+         "name": "digital-design"
+        }
+       },
+       {
+        "topic": {
+         "name": "electronics"
+        }
+       },
+       {
+        "topic": {
+         "name": "finite-state-machine"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga-development"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga-programming"
+        }
+       },
+       {
+        "topic": {
+         "name": "hardware-description-language"
+        }
+       },
+       {
+        "topic": {
+         "name": "hdl"
+        }
+       },
+       {
+        "topic": {
+         "name": "rtl"
+        }
+       },
+       {
+        "topic": {
+         "name": "simulation"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "andrea-cpu96",
+      "url": "https://github.com/andrea-cpu96",
+      "name": "Andrea Fato",
+      "company": null,
+      "websiteUrl": null,
+      "location": "Italy",
+      "bio": "I'm an embedded engineer with passion for hardware and firmware. \r\nI love stm32 microcontrollers.  ",
+      "createdAt": "2021-01-02T11:49:11Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 19
+      },
+      "repositories": {
+       "totalCount": 18
+      }
+     }
+    },
+    {
+     "nameWithOwner": "OneB1ank/pcileech-as02-3p",
+     "url": "https://github.com/OneB1ank/pcileech-as02-3p",
+     "description": "AS02MC04 XCKU3P PCILeech-compatible FPGA port with 25G RawUDP transport on SFP1",
+     "stargazerCount": 17,
+     "forkCount": 9,
+     "createdAt": "2026-09-17T11:12:48Z",
+     "pushedAt": "2026-09-17T12:16:59Z",
+     "homepageUrl": null,
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": {
+      "spdxId": "GPL-3.0"
+     },
+     "primaryLanguage": {
+      "name": "SystemVerilog"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "25gbe"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "pcie"
+        }
+       },
+       {
+        "topic": {
+         "name": "vivado"
+        }
+       },
+       {
+        "topic": {
+         "name": "xilinx"
+        }
+       },
+       {
+        "topic": {
+         "name": "as02mc04"
+        }
+       },
+       {
+        "topic": {
+         "name": "kintex-ultrascale-plus"
+        }
+       },
+       {
+        "topic": {
+         "name": "rawudp"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 2
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 0
+     },
+     "pullRequests": {
+      "totalCount": 0
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "OneB1ank",
+      "url": "https://github.com/OneB1ank",
+      "name": "HChai",
+      "company": null,
+      "websiteUrl": null,
+      "location": null,
+      "bio": "",
+      "createdAt": "2020-02-23T18:24:46Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 0
+      },
+      "repositories": {
+       "totalCount": 12
+      }
+     }
+    },
+    {
+     "nameWithOwner": "skmp/polly2-rtl",
+     "url": "https://github.com/skmp/polly2-rtl",
+     "description": "An implementation of PowerVR2/CLX2 CORE",
+     "stargazerCount": 16,
+     "forkCount": 4,
+     "createdAt": "2026-07-02T05:20:04Z",
+     "pushedAt": "2026-09-25T16:52:34Z",
+     "homepageUrl": "",
+     "isFork": false,
+     "isArchived": false,
+     "licenseInfo": null,
+     "primaryLanguage": {
+      "name": "SystemVerilog"
+     },
+     "repositoryTopics": {
+      "nodes": [
+       {
+        "topic": {
+         "name": "de10-nano"
+        }
+       },
+       {
+        "topic": {
+         "name": "fpga"
+        }
+       },
+       {
+        "topic": {
+         "name": "gpu"
+        }
+       }
+      ]
+     },
+     "releases": {
+      "totalCount": 0
+     },
+     "watchers": {
+      "totalCount": 0
+     },
+     "issues": {
+      "totalCount": 11
+     },
+     "pullRequests": {
+      "totalCount": 55
+     },
+     "owner": {
+      "__typename": "User",
+      "login": "skmp",
+      "url": "https://github.com/skmp",
+      "name": "Stefanos Kornilios Mitsis Poiitidis",
+      "company": null,
+      "websiteUrl": "skmp.dev",
+      "location": "Athens, Greece",
+      "bio": "",
+      "createdAt": "2010-09-09T12:37:25Z",
+      "twitterUsername": null,
+      "followers": {
+       "totalCount": 253
+      },
+      "repositories": {
+       "totalCount": 95
+      }
+     }
+    }
+   ]
+  }
+ },
+ "_fixture_note": "POST /graphql, query in docs/sources/github.md (batched search aliases a,b with owner enrichment); q1='topic:cubesat created:>2026-01-01 sort:stars-desc' q2='topic:fpga created:>2026-07-01 stars:>15 sort:stars-desc'; unmodified; free-mail owner emails nulled for privacy"
+}

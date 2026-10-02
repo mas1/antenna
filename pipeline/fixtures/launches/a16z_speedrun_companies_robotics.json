@@ -1,0 +1,517 @@
+{
+ "_fixture_note": "GET https://speedrun-api.a16z.com/api/companies/companies/?limit=200&industry=Robotics (count 16) \u2014 unmodified",
+ "response": {
+  "count": 16,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "id": "559702de-c044-4a1b-b3f5-b2134fe04e21",
+    "slug": "exia-labs",
+    "name": "Exia Labs",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/559702de-c044-4a1b-b3f5-b2134fe04e21/logos/AppIcon-WhiteBlack-256.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/559702de-c044-4a1b-b3f5-b2134fe04e21/cover-images/1500x500.png",
+    "company_list_image": null,
+    "cohort": "SR003",
+    "likes_enabled": false,
+    "preamble": "We enable teams of robots and humans to complete combat missions autonomously.",
+    "industries": [
+     "AI Agents",
+     "Gov Tech / Defense",
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "73e18dcb-4072-4790-a559-e0d129e8f858",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/73e18dcb-4072-4790-a559-e0d129e8f858/images/jon_SuYQayT.jpg"
+     },
+     {
+      "id": "70298cb3-7bf4-44b6-b158-aa86e4eecf9e",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/70298cb3-7bf4-44b6-b158-aa86e4eecf9e/images/SerjSquare2.jpg"
+     }
+    ],
+    "team_size": 5,
+    "city": "Bellevue",
+    "state": "Washington",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "cf85369a-f139-48cc-8cf4-e49a3baca874",
+    "slug": "mara",
+    "name": "Mara",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/cf85369a-f139-48cc-8cf4-e49a3baca874/logos/Screenshot_2025-02-21_at_11.35.07AM.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/cf85369a-f139-48cc-8cf4-e49a3baca874/cover-images/1500x500.jpeg",
+    "company_list_image": null,
+    "cohort": "SR004",
+    "likes_enabled": false,
+    "preamble": "Building a horde of tactical robots trained on gameplay. Starting with Spike: a swarming anti-drone system defending high-value targets.",
+    "industries": [
+     "Robotics",
+     "Gov Tech / Defense"
+    ],
+    "founder_set": [
+     {
+      "id": "6ad31c60-f56f-4b89-b436-b8f5ed4194de",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/6ad31c60-f56f-4b89-b436-b8f5ed4194de/images/nN864It0_400x400.jpg"
+     },
+     {
+      "id": "5e5ade0f-cd4b-4a5a-9a4c-1521362ac527",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/5e5ade0f-cd4b-4a5a-9a4c-1521362ac527/images/IMG_0335.jpeg"
+     }
+    ],
+    "team_size": 7,
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "e5e4839d-d0eb-4aef-9270-f91804f7bd10",
+    "slug": "talus-robotics",
+    "name": "Talus Robotics",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/e5e4839d-d0eb-4aef-9270-f91804f7bd10/logos/Screenshot_2025-03-04_at_4.39.19PM.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/e5e4839d-d0eb-4aef-9270-f91804f7bd10/cover-images/Screenshot_2025-03-04_at_4.41.29PM.png",
+    "company_list_image": null,
+    "cohort": "SR004",
+    "likes_enabled": false,
+    "preamble": "One day robot pets. Right now robot guide dogs for the blind - empowering them to navigate their world safely, independently, and confidently.",
+    "industries": [
+     "Hardware",
+     "Robotics",
+     "Healthcare"
+    ],
+    "founder_set": [
+     {
+      "id": "b28e788e-f64a-4d07-bd21-a6460ef3265c",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/b28e788e-f64a-4d07-bd21-a6460ef3265c/images/Screenshot_2025-03-05_at_12.36.32PM.png"
+     },
+     {
+      "id": "c24a98ec-26ad-4848-8521-828021a6bcdd",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/c24a98ec-26ad-4848-8521-828021a6bcdd/images/Screenshot_2025-03-05_at_12.39.09PM.jpeg"
+     }
+    ],
+    "team_size": 12,
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "0211dc58-2969-45c4-9e00-4717732cb29f",
+    "slug": "uthana",
+    "name": "Uthana",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/0211dc58-2969-45c4-9e00-4717732cb29f/logos/logo_stacked_color_trans.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/0211dc58-2969-45c4-9e00-4717732cb29f/cover-images/logo_wide_fullcolor.png",
+    "company_list_image": "https://storage.googleapis.com/speedrun-prod-media/companies/0211dc58-2969-45c4-9e00-4717732cb29f/list-images/icon_white.png",
+    "cohort": "SR001",
+    "likes_enabled": false,
+    "preamble": "The AI platform for human motion \u2014 for simulation, robotics, and 3D content.",
+    "industries": [
+     "Gaming",
+     "Robotics",
+     "AI Models / Research"
+    ],
+    "founder_set": [
+     {
+      "id": "934983ee-1a43-434b-866e-399928fc80da",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/934983ee-1a43-434b-866e-399928fc80da/images/Viren_Tellis_Uthana_Cohort_C_square.jpg"
+     }
+    ],
+    "team_size": 8,
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "752f52c3-a9b9-4eef-baa5-15c01c279544",
+    "slug": "ursa-mining",
+    "name": "URSA Mining",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/752f52c3-a9b9-4eef-baa5-15c01c279544/logos/ursa-logo-black-white-bg.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/752f52c3-a9b9-4eef-baa5-15c01c279544/cover-images/bg-socials-1.png",
+    "company_list_image": "https://storage.googleapis.com/speedrun-prod-media/companies/752f52c3-a9b9-4eef-baa5-15c01c279544/list-images/bg-socials-4.png",
+    "cohort": "SR005",
+    "likes_enabled": false,
+    "preamble": "We're making autonomous mines a reality.",
+    "industries": [
+     "Manufacturing / Industrials",
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "5fb5d8fd-21b0-4313-b0b5-373263803652",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/5fb5d8fd-21b0-4313-b0b5-373263803652/images/johann-headshot-sep2025.png"
+     }
+    ],
+    "team_size": 5,
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "2ee330aa-1a12-49d0-af34-aa15b4611ecb",
+    "slug": "axon",
+    "name": "Axon",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/2ee330aa-1a12-49d0-af34-aa15b4611ecb/logos/cropped.png",
+    "cover_image": null,
+    "company_list_image": null,
+    "cohort": "SR005",
+    "likes_enabled": false,
+    "preamble": "DeepMind for Finance",
+    "industries": [
+     "AI Models / Research",
+     "Fintech",
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "e976c0f5-6227-4032-8223-2b40f361a6d9",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/e976c0f5-6227-4032-8223-2b40f361a6d9/images/AyushShah_IHE81iL.jpg"
+     },
+     {
+      "id": "1d3d91f8-9e30-4063-80e9-290ce2d4168e",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/1d3d91f8-9e30-4063-80e9-290ce2d4168e/images/Screenshot_2025-10-02_at_13.28.18.png"
+     }
+    ],
+    "team_size": 2,
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "show_last": true
+   },
+   {
+    "id": "9f72d839-1222-489c-adc7-c996afc7492d",
+    "slug": "dispatcher",
+    "name": "Dispatcher",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/9f72d839-1222-489c-adc7-c996afc7492d/logos/icon-black.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/9f72d839-1222-489c-adc7-c996afc7492d/cover-images/68d0e5747d73e4cdf7005d8a_map.jpg",
+    "company_list_image": "https://storage.googleapis.com/speedrun-prod-media/companies/9f72d839-1222-489c-adc7-c996afc7492d/list-images/icon-black.png",
+    "cohort": "SR005",
+    "likes_enabled": false,
+    "preamble": "Agentic Interface for Drones and Robotics",
+    "industries": [
+     "AI Agents",
+     "Robotics",
+     "Gov Tech / Defense"
+    ],
+    "founder_set": [
+     {
+      "id": "4c35a69c-2dbe-4743-9836-f503a4b05b8b",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/4c35a69c-2dbe-4743-9836-f503a4b05b8b/images/1516838859854_copy.png"
+     },
+     {
+      "id": "bed8380c-4fd6-4967-95ee-4a1b38dad873",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/bed8380c-4fd6-4967-95ee-4a1b38dad873/images/IMG_9386.jpeg"
+     }
+    ],
+    "team_size": 2,
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "b719373f-f133-45c8-8009-96b12aecd599",
+    "slug": "syncere",
+    "name": "Syncere",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/b719373f-f133-45c8-8009-96b12aecd599/logos/Screenshot_2026-04-05_at_12.49.22AM.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/b719373f-f133-45c8-8009-96b12aecd599/cover-images/Syncere_Edit-20.jpg",
+    "company_list_image": "https://storage.googleapis.com/speedrun-prod-media/companies/b719373f-f133-45c8-8009-96b12aecd599/list-images/Syncere_Edit-13.jpg",
+    "cohort": "SR006",
+    "likes_enabled": false,
+    "preamble": "Robot lamps that do your chores.",
+    "industries": [
+     "Consumer",
+     "Hardware",
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "7edb9d2a-0f99-4ea8-9065-d88ec4df15a5",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/7edb9d2a-0f99-4ea8-9065-d88ec4df15a5/images/OS_SYNCERE_TEAM_PHOTO_BSAGER_5_4.jpg"
+     },
+     {
+      "id": "8a13b31a-62ca-4761-806d-8894964e0493",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/8a13b31a-62ca-4761-806d-8894964e0493/images/OS_SYNCERE_TEAM_PHOTO_BSAGER_11.jpg"
+     }
+    ],
+    "team_size": 8,
+    "city": "Palo Alto",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "fe5025e8-88ec-430f-b1ca-651c882a9a72",
+    "slug": "safeworld",
+    "name": "SafeWorld",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/fe5025e8-88ec-430f-b1ca-651c882a9a72/logos/SAFEWORLD_icon_indigo-on-white.jpg",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/fe5025e8-88ec-430f-b1ca-651c882a9a72/cover-images/Gemini_Generated_Image_xnot_evGHssv.jpeg",
+    "company_list_image": "https://storage.googleapis.com/speedrun-prod-media/companies/fe5025e8-88ec-430f-b1ca-651c882a9a72/list-images/SAFEWORLD_black-on-white.jpg",
+    "cohort": "SR006",
+    "likes_enabled": false,
+    "preamble": "Making robots safe",
+    "industries": [
+     "Cybersecurity",
+     "AI Infra",
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "caadc27f-97d3-4823-a8a5-be2b6c908955",
+      "profile_pic": "https://speedrun-api.a16z.com/api-static/profile-pic-fallback/happy_star.960aa3035072.png"
+     },
+     {
+      "id": "fb506d84-22b1-4750-8ba5-f669a00d51cc",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/fb506d84-22b1-4750-8ba5-f669a00d51cc/images/9257ADEC-C371-42D3-89C9-3DD8A114547E.jpeg"
+     },
+     {
+      "id": "288f8d6a-0014-4863-bc3a-66f75446e4d5",
+      "profile_pic": "https://speedrun-api.a16z.com/api-static/profile-pic-fallback/dog.ac7fe88101ff.png"
+     }
+    ],
+    "team_size": 6,
+    "city": "Palo Alto",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "5c217b0f-1403-4d55-b15f-d846424cb6d2",
+    "slug": "motherboard-labs",
+    "name": "Motherboard Labs",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/5c217b0f-1403-4d55-b15f-d846424cb6d2/logos/cropped.jpg",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/5c217b0f-1403-4d55-b15f-d846424cb6d2/cover-images/cropped_OklBxwv.jpg",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "Full-stack Service Layer for Robots and Autonomous Machines",
+    "industries": [
+     "Manufacturing / Industrials",
+     "Robotics",
+     "AI Agents"
+    ],
+    "founder_set": [
+     {
+      "id": "69d127e8-b8b1-40a9-8360-d9afc8c74933",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/69d127e8-b8b1-40a9-8360-d9afc8c74933/images/Screenshot_2026-03-07_at_10.27.52PM.png"
+     },
+     {
+      "id": "44c7fe89-bc99-42e0-8df1-a153a14c767b",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/44c7fe89-bc99-42e0-8df1-a153a14c767b/images/pranit-gupta-motherboard.jpeg"
+     }
+    ],
+    "team_size": 2,
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "fef1f4c3-11b7-443d-b6db-1902fda9aa37",
+    "slug": "munari",
+    "name": "Munari",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/fef1f4c3-11b7-443d-b6db-1902fda9aa37/logos/cropped.jpg",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/fef1f4c3-11b7-443d-b6db-1902fda9aa37/cover-images/cropped_ybSbfwV.png",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "Improving data collection for robotics.",
+    "industries": [
+     "AI Infra",
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "9382fe0f-71c3-47ce-8d60-bdcf61b74088",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/9382fe0f-71c3-47ce-8d60-bdcf61b74088/images/alan-guo-munari_GbWFW7m.jpg"
+     },
+     {
+      "id": "4773ea38-58c5-4b73-88e3-32679eccfaed",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/4773ea38-58c5-4b73-88e3-32679eccfaed/images/ramin-small.png"
+     }
+    ],
+    "team_size": 3,
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "0ec7bcf4-5d8d-466b-91f2-b1491dbac5ff",
+    "slug": "chronospace",
+    "name": "ChronoSpace",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/0ec7bcf4-5d8d-466b-91f2-b1491dbac5ff/logos/cropped.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/0ec7bcf4-5d8d-466b-91f2-b1491dbac5ff/cover-images/cropped_E8y4sjE.png",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "We build world models that unlock greater efficiency and automation for the physical industries like manufacturing, retail, and construction.",
+    "industries": [
+     "AI Models / Research",
+     "Robotics",
+     "Manufacturing / Industrials"
+    ],
+    "founder_set": [
+     {
+      "id": "7c2b026a-77f2-43cf-ab9b-94bb865204ee",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/7c2b026a-77f2-43cf-ab9b-94bb865204ee/images/aashish_headshot.jpg"
+     },
+     {
+      "id": "84b0ba82-0d6d-4db5-9076-91bc9ca32811",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/84b0ba82-0d6d-4db5-9076-91bc9ca32811/images/srinath-sridhar-chronospace-ai.jpg"
+     },
+     {
+      "id": "126e6eac-15af-481b-924f-210dad155e85",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/126e6eac-15af-481b-924f-210dad155e85/images/tamar-kreitman-chronospace-ai.jpg"
+     }
+    ],
+    "team_size": 5,
+    "city": "Bay Area",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "a16b67aa-3f27-474e-8fe1-777fa620c001",
+    "slug": "superintelligence-foundry",
+    "name": "Superintelligence Foundry",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/a16b67aa-3f27-474e-8fe1-777fa620c001/logos/cropped_fSSNk60.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/a16b67aa-3f27-474e-8fe1-777fa620c001/cover-images/cropped.png",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "Moonshots for Every Company.",
+    "industries": [
+     "AI Models / Research",
+     "Robotics",
+     "Deep Tech"
+    ],
+    "founder_set": [
+     {
+      "id": "60479ee9-b3fb-4750-9230-c6492579fa9d",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/60479ee9-b3fb-4750-9230-c6492579fa9d/images/nima-asgharbeygi-superintelligence-foundry.png"
+     },
+     {
+      "id": "83554142-14ee-4538-9e86-d599c9564c05",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/83554142-14ee-4538-9e86-d599c9564c05/images/jad-tarifi-superintelligence-foundry.jpg"
+     }
+    ],
+    "team_size": 2,
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "5b785a54-034e-48d7-a3b2-2816b5871dde",
+    "slug": "scaledriveai",
+    "name": "scaledrive.ai",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/5b785a54-034e-48d7-a3b2-2816b5871dde/logos/unnamed_1.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/5b785a54-034e-48d7-a3b2-2816b5871dde/cover-images/cropped.jpg",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "Physical AI that unlocks the full potential of autonomous robots.",
+    "industries": [
+     "Supply Chain / Logistics",
+     "Robotics",
+     "AI Models / Research"
+    ],
+    "founder_set": [
+     {
+      "id": "2bc6dbb1-c46b-49f2-b253-38f853184f63",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/2bc6dbb1-c46b-49f2-b253-38f853184f63/images/denis-azarov-scaledriveai.jpeg"
+     },
+     {
+      "id": "615f77c4-f867-4f5d-91f8-314dc8532617",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/615f77c4-f867-4f5d-91f8-314dc8532617/images/jakob-unknown-scaledriveai.png"
+     }
+    ],
+    "team_size": 6,
+    "city": "San Jose",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "7ecf20af-0f3e-41d6-be53-01d375645e92",
+    "slug": "cybernetic-physics",
+    "name": "Cybernetic Physics",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/7ecf20af-0f3e-41d6-be53-01d375645e92/logos/cropped.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/7ecf20af-0f3e-41d6-be53-01d375645e92/cover-images/cropped.png",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "Autonomous robots to operate data centers.",
+    "industries": [
+     "Robotics",
+     "AI Infra",
+     "Deep Tech"
+    ],
+    "founder_set": [
+     {
+      "id": "985d75a0-5979-4192-8b6f-6afb1d8a5a69",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/985d75a0-5979-4192-8b6f-6afb1d8a5a69/images/natalia-kokoromyti-cybernetic-physics.jpg"
+     },
+     {
+      "id": "17c5701b-47c2-4d2a-9ca8-f967a2f8c321",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/17c5701b-47c2-4d2a-9ca8-f967a2f8c321/images/luc-chartier-cybernetic-physics.jpg"
+     }
+    ],
+    "team_size": 4,
+    "city": "Stanford",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   },
+   {
+    "id": "f24592cf-13de-4a16-8c90-ec83433a5862",
+    "slug": "vound",
+    "name": "Vound",
+    "logo": "https://storage.googleapis.com/speedrun-prod-media/companies/f24592cf-13de-4a16-8c90-ec83433a5862/logos/cropped_03fVlB0.png",
+    "cover_image": "https://storage.googleapis.com/speedrun-prod-media/companies/f24592cf-13de-4a16-8c90-ec83433a5862/cover-images/cropped_6lCkKCH.png",
+    "company_list_image": null,
+    "cohort": "SR007",
+    "likes_enabled": true,
+    "preamble": "Data & Deployment Infrastructure for Physical AI.",
+    "industries": [
+     "Robotics"
+    ],
+    "founder_set": [
+     {
+      "id": "a004e46c-7926-45e1-8727-5451cebb2c86",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/a004e46c-7926-45e1-8727-5451cebb2c86/images/adham-unknown-vound.jpg"
+     },
+     {
+      "id": "f655eb78-1718-4dad-a29b-fea2c12ed4c3",
+      "profile_pic": "https://storage.googleapis.com/speedrun-prod-media/founders/f655eb78-1718-4dad-a29b-fea2c12ed4c3/images/youssif-unknown-vound.jpg"
+     }
+    ],
+    "team_size": 15,
+    "city": "Palo Alto",
+    "state": "California",
+    "country": "United States of America",
+    "region": "America/Canada",
+    "show_last": false
+   }
+  ]
+ }
+}

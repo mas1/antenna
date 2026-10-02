@@ -1,0 +1,155 @@
+{
+ "exhaustive": {
+  "nbHits": true
+ },
+ "exhaustiveNbHits": true,
+ "hits": [
+  {
+   "_highlightResult": {
+    "author": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "NikolaNovak"
+    },
+    "comment_text": {
+     "fullyHighlighted": false,
+     "matchLevel": "full",
+     "matchedWords": [
+      "humanoid"
+     ],
+     "value": "I was with you, but no, this is where you lost me:<p>&quot;If folks are mad about actions that are legal, it makes zero sense to be mad at the actor.&quot;<p>There are people with mindset &quot;I will try to be an overall decent human being and maintain some awareness and empathy of others&quot;, and there are the &quot;I will be as much of a selfish asshole as the legal system allows me to, and wreak untold damage in the endless game of whack-a-mole&quot;.<p>I think in fact more of us should be gunning after the second kind :). To paraphrase you, It makes zero sense for me to be OK with fundamentally anti-social, anti-humanity <em>humanoid</em>s."
+    },
+    "story_title": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes"
+    },
+    "story_url": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html"
+    }
+   },
+   "_tags": [
+    "comment",
+    "author_NikolaNovak",
+    "story_49921118"
+   ],
+   "author": "NikolaNovak",
+   "children": [
+    49922456,
+    49923228,
+    49923021
+   ],
+   "comment_text": "I was with you, but no, this is where you lost me:<p>&quot;If folks are mad about actions that are legal, it makes zero sense to be mad at the actor.&quot;<p>There are people with mindset &quot;I will try to be an overall decent human being and maintain some awareness and empathy of others&quot;, and there are the &quot;I will be as much of a selfish asshole as the legal system allows me to, and wreak untold damage in the endless game of whack-a-mole&quot;.<p>I think in fact more of us should be gunning after the second kind :). To paraphrase you, It makes zero sense for me to be OK with fundamentally anti-social, anti-humanity humanoids.",
+   "created_at": "2026-10-01T14:46:49Z",
+   "created_at_i": 1790866009,
+   "objectID": "49922379",
+   "parent_id": 49922051,
+   "story_id": 49921118,
+   "story_title": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+   "story_url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+   "updated_at": "2026-10-01T20:33:46Z"
+  },
+  {
+   "_highlightResult": {
+    "author": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "lelandfe"
+    },
+    "title": {
+     "fullyHighlighted": false,
+     "matchLevel": "full",
+     "matchedWords": [
+      "humanoid"
+     ],
+     "value": "XTechHumanoid winners advance military exploration of <em>humanoid</em> capabilities"
+    },
+    "url": {
+     "fullyHighlighted": false,
+     "matchLevel": "full",
+     "matchedWords": [
+      "humanoid"
+     ],
+     "value": "https://www.war.gov/News/News-Stories/Article/Article/4613847/robotics-competition-winners-advance-military-exploration-of-<em>humanoid</em>-capabilit/"
+    }
+   },
+   "_tags": [
+    "story",
+    "author_lelandfe",
+    "story_49916995"
+   ],
+   "author": "lelandfe",
+   "created_at": "2026-10-01T02:30:40Z",
+   "created_at_i": 1790821840,
+   "num_comments": 0,
+   "objectID": "49916995",
+   "points": 1,
+   "story_id": 49916995,
+   "title": "XTechHumanoid winners advance military exploration of humanoid capabilities",
+   "updated_at": "2026-10-01T02:34:29Z",
+   "url": "https://www.war.gov/News/News-Stories/Article/Article/4613847/robotics-competition-winners-advance-military-exploration-of-humanoid-capabilit/"
+  },
+  {
+   "_highlightResult": {
+    "author": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "fragmede"
+    },
+    "comment_text": {
+     "fullyHighlighted": false,
+     "matchLevel": "full",
+     "matchedWords": [
+      "humanoid"
+     ],
+     "value": "Which, like, the US government is going to buy Tesla <em>humanoid</em> robots and give them guns and send them to places like Iraq. Boots on the ground, but not human boots. No sob stories about widows and dead brothers and children for the news."
+    },
+    "story_title": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "Elon Musk, Palmer Luckey, Newt Gingrich to Help Pentagon with Warfare Initiative"
+    },
+    "story_url": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html"
+    }
+   },
+   "_tags": [
+    "comment",
+    "author_fragmede",
+    "story_49914676"
+   ],
+   "author": "fragmede",
+   "children": [
+    49921001,
+    49916875
+   ],
+   "comment_text": "Which, like, the US government is going to buy Tesla humanoid robots and give them guns and send them to places like Iraq. Boots on the ground, but not human boots. No sob stories about widows and dead brothers and children for the news.",
+   "created_at": "2026-10-01T02:06:25Z",
+   "created_at_i": 1790820385,
+   "objectID": "49916825",
+   "parent_id": 49914676,
+   "story_id": 49914676,
+   "story_title": "Elon Musk, Palmer Luckey, Newt Gingrich to Help Pentagon with Warfare Initiative",
+   "story_url": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html",
+   "updated_at": "2026-10-01T12:57:02Z"
+  }
+ ],
+ "hitsPerPage": 3,
+ "nbHits": 32,
+ "nbPages": 11,
+ "page": 0,
+ "params": "query=humanoid&tags=%28story%2Ccomment%29&hitsPerPage=3&typoTolerance=false&numericFilters=created_at_i%3E%3D1790294968&advancedSyntax=true&analyticsTags=backend",
+ "processingTimeMS": 1,
+ "processingTimingsMS": {
+  "_request": {
+   "roundTrip": 19
+  },
+  "total": 1
+ },
+ "query": "humanoid",
+ "serverTimeMS": 1
+}

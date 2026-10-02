@@ -1,0 +1,89 @@
+{
+ "slug": "advanced-float",
+ "generatedAt": "2026-10-02",
+ "summary": "Advanced Float is a Tokyo company that plans to own and operate offshore floating nuclear power plants. Its reference design puts an Advanced Boiling Water Reactor (ABWR) of about 1,350 MWe on a moored steel floating platform. The first plant is to be licensed in the United States, with no site selected.",
+ "thesis": "A utility-scale nuclear plant meant to be fabricated in a shipyard rather than built on land, spanning energy and manufacturing. It has an NRC pre-application docket, and the founder was Chief Nuclear Officer of TEPCO from 2014 to 2017.",
+ "stage": "Established 9 February 2024. Pre-seed of 100 million yen in total from Mirai Sozo Investments' Fund II, announced 20 June 2025. The company site says a seed round closed in April 2026, with no amount or investor named. On 14 September 2026 it submitted a Regulatory Engagement Plan to the NRC, a planning document, not an application. It lists a Standard Design Approval application in 2027 as a planning assumption.",
+ "team": [
+  {
+   "name": "Takafumi Anegawa",
+   "background": "Founder and CEO. Per the company site, Chief Nuclear Officer of TEPCO from 2014 to 2017 and led the COCN offshore nuclear project from 2020 to 2022."
+  },
+  {
+   "name": "Ryohei Takahashi",
+   "background": "Outside director and lead investor per the company site, which calls him a former deep-tech founder and CEO and co-general partner at an unnamed venture capital firm."
+  },
+  {
+   "name": "John Parsons Wheeler",
+   "background": "Head of Corporate Development. The company site describes him as an energy-infrastructure executive and serial cleantech founder, with no employers named."
+  },
+  {
+   "name": "Kevin Hickey Jr., P.E.",
+   "background": "Regulatory and maritime nuclear engineering. The company site describes him as a former U.S. Navy nuclear submarine operator with ASME pressure-vessel design and licensing support experience."
+  }
+ ],
+ "questions": [
+  "Which reactor vendor will supply the ABWR nuclear island, and is anything signed? The Regulatory Engagement Plan refers only to a 'reactor-technology provider'.",
+  "How large was the April 2026 seed, who invested, and what does it fund through the planned 2027 Standard Design Approval application? What is the Series A for?",
+  "The NRC plan names the company 'or an affiliated U.S. entity' as licence applicant and owner-operator. Which is it, and is any U.S. utility or offtaker engaged?",
+  "Nikkei xTECH reported design work with Mitsui Ocean Development (MODEC) and volume production in 2032. Which shipyard and marine engineering contracts exist, and what is the schedule now?"
+ ],
+ "risks": [
+  "The only disclosed funding amount is 100 million yen of pre-seed money, against a reference plant of about 1,350 MWe. No source opened describes how the plant would be financed.",
+  "No site, reactor vendor, shipyard, utility or offtaker is named on the company site or in the NRC filing.",
+  "The licensing path is first of a kind. The filing so far is a planning document, not an application, and says the design approval review may extend beyond eighteen months."
+ ],
+ "unverified": [
+  "The company site says a seed round closed in April 2026. No public announcement of it was found, and no primary source gives the amount or valuation.",
+  "Design work with Mitsui Ocean Development (MODEC) is reported by Nikkei xTECH (10 December 2025) but not confirmed on the company site or in the NRC filing.",
+  "Mirai Sozo Investments lists a Ryohei Takahashi as managing partner. No page opened states he is the Advanced Float outside director, whose firm the company site leaves unnamed."
+ ],
+ "sources": [
+  {
+   "title": "Advanced Float company site",
+   "url": "https://www.advanced-float.com/"
+  },
+  {
+   "title": "NRC Regulatory Engagement Plan, 14 September 2026",
+   "url": "https://www.nrc.gov/docs/ML2625/ML26257A291.pdf"
+  },
+  {
+   "title": "NRC cover letter, 14 September 2026",
+   "url": "https://www.nrc.gov/docs/ML2625/ML26257A289.pdf"
+  },
+  {
+   "title": "NRC meeting notice, docket 99902176",
+   "url": "https://www.nrc.gov/docs/ML2626/ML26265A275.pdf"
+  },
+  {
+   "title": "Mirai Sozo Investments release, 20 June 2025",
+   "url": "https://miraisozo.co.jp/vc/invest-advancedfloat/"
+  },
+  {
+   "title": "Nikkei, 20 June 2025",
+   "url": "https://www.nikkei.com/article/DGXZQOUC1527H0V10C25A6000000/"
+  },
+  {
+   "title": "Nikkei xTECH, 10 December 2025",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02298/120100013/"
+  },
+  {
+   "title": "STARTUP DB profile of Advanced Float",
+   "url": "https://startup-db.com/companies/QnbKG12U0g5p39D2"
+  },
+  {
+   "title": "Mirai Sozo Investments members page",
+   "url": "https://miraisozo.co.jp/member/"
+  },
+  {
+   "title": "Mirai Sozo Investments fund news list",
+   "url": "https://miraisozo.co.jp/category/vc/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-06-20",
+  "what": "Mirai Sozo Investments announced on its news page that its Fund II had invested in Advanced Float's 100 million yen pre-seed round.",
+  "url": "https://miraisozo.co.jp/vc/invest-advancedfloat/"
+ }
+}

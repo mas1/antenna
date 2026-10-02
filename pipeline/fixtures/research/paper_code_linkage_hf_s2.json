@@ -1,0 +1,2297 @@
+{
+ "hf_daily_papers": {
+  "_request": "GET https://huggingface.co/api/daily_papers?date=2026-09-30&limit=100",
+  "_note": "92 items returned; trimmed to 8 robotics/embodied items",
+  "results": [
+   {
+    "paper": {
+     "id": "2609.36012",
+     "authors": [
+      {
+       "_id": "6abc7240d51a189976e024e8",
+       "user": {
+        "_id": "657a776153e2fa36fed33259",
+        "avatarUrl": "/avatars/f60777abe61bc6743e4cef0ede301295.svg",
+        "isPro": false,
+        "fullname": "Haojian Huang",
+        "user": "Jethro37",
+        "type": "user",
+        "name": "Jethro37"
+       },
+       "name": "Haojian Huang",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T08:45:05.664Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024e9",
+       "name": "Zexi Li",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024ea",
+       "name": "Junhao Guo",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024eb",
+       "user": {
+        "_id": "67a5d94d7ffacd843a65b4c0",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/gc2MPRQWFUknP3ovKg5fo.png",
+        "isPro": false,
+        "fullname": "YH",
+        "user": "Buzz12138",
+        "type": "user",
+        "name": "Buzz12138"
+       },
+       "name": "Yehang Zhang",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T13:50:56.468Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024ec",
+       "name": "Wenxuan Peng",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024ed",
+       "name": "Bohan Zhou",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024ee",
+       "name": "Weilin Ruan",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024ef",
+       "name": "Leyi Wu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f0",
+       "name": "Chenxu Wang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f1",
+       "name": "Jianchong Su",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f2",
+       "name": "Binghui Xie",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f3",
+       "name": "Wosong Chen",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f4",
+       "name": "Yingjie Xu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f5",
+       "name": "Tianhao Zhou",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f6",
+       "name": "Suzeyu Chen",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f7",
+       "name": "Pukun Zhao",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f8",
+       "name": "Jiaqi He",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024f9",
+       "user": {
+        "_id": "6abcf9865a7579879a98813d",
+        "avatarUrl": "/avatars/eda749d651687fb527dc84c3418523d2.svg",
+        "isPro": false,
+        "fullname": "Xinyi Li",
+        "user": "XinyiLi27",
+        "type": "user",
+        "name": "XinyiLi27"
+       },
+       "name": "Xinyi Li",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T13:50:53.323Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024fa",
+       "name": "Runze Li",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024fb",
+       "name": "Peiran Dong",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024fc",
+       "name": "Shaoxiang Dang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024fd",
+       "name": "Jing Huang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024fe",
+       "name": "Yingbing Chen",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e024ff",
+       "name": "Yifan Chang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02500",
+       "name": "Tianyi Zhang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02501",
+       "name": "Shiyuan Deng",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02502",
+       "name": "Haozhi Wang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02503",
+       "name": "Yangkai Wei",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02504",
+       "name": "Wenqian Li",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02505",
+       "name": "Han Yang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02506",
+       "name": "Kaiwen Zhou",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02507",
+       "name": "Huaping Liu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02508",
+       "name": "James Cheng",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e02509",
+       "name": "Rui Shao",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e0250a",
+       "name": "Donglin Wang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e0250b",
+       "name": "Yaochu Jin",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e0250c",
+       "name": "Jianye Hao",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e0250d",
+       "name": "Ying-Cong Chen",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7240d51a189976e0250e",
+       "name": "Yinchuan Li",
+       "hidden": false
+      }
+     ],
+     "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/657a776153e2fa36fed33259/cWb5tvlcqVrolIKVy3vFT.png"
+     ],
+     "publishedAt": "2026-09-28T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "In-Context Learning for Robots: Methods and Applications",
+     "submittedOnDailyBy": {
+      "_id": "657a776153e2fa36fed33259",
+      "avatarUrl": "/avatars/f60777abe61bc6743e4cef0ede301295.svg",
+      "isPro": false,
+      "fullname": "Haojian Huang",
+      "user": "Jethro37",
+      "type": "user",
+      "name": "Jethro37"
+     },
+     "summary": "General-purpose robots must infer what a new task requires and translate that understanding into appropriate physical action. In-context learning (ICL) for robots supports this process by using demonstrations and interaction to direct existing competence with neural parameters held fixed during deployment. We organize this literature review around the interfaces connecting contextual evidence to execution, distinguishing four families: context-conditioned policies, geometric demonstration transfer, world-model-based control, and skill- and agent-based execution. Comparing these interfaces clarifies their transfer assumptions and the roles of training, correspondence, and memory in making context useful. Across manipulation and navigation, we examine how these mechanisms preserve taught requirements as objects, environments, and execution conditions change. This analysis links method design to evaluation practices that distinguish responsiveness to teaching, physical transfer, and benefits from retained experience. The resulting agenda connects compositional task acquisition and faithful transfer with physical recursive self-improvement, in which experience improves the ability to learn subsequent tasks.",
+     "upvotes": 358,
+     "discussionId": "6abc7241d51a189976e0250f",
+     "projectPage": "https://jethrojames.github.io/awesome-robots-icl/",
+     "githubRepo": "https://github.com/JethroJames/awesome-robots-icl",
+     "githubRepoAddedBy": "user",
+     "githubStars": 14,
+     "organization": {
+      "_id": "643f8b1635e2b54a42e7bd62",
+      "name": "Knowin",
+      "fullname": "Knowin AI",
+      "avatar": "https://www.gravatar.com/avatar/e1c75fc59aa7780866eb7b1e8f1f5718?d=retro&size=100"
+     }
+    },
+    "publishedAt": "2026-09-27T20:00:00.000Z",
+    "title": "In-Context Learning for Robots: Methods and Applications",
+    "summary": "General-purpose robots must infer what a new task requires and translate that understanding into appropriate physical action. In-context learning (ICL) for robots supports this process by using demonstrations and interaction to direct existing competence with neural parameters held fixed during deployment. We organize this literature review around the interfaces connecting contextual evidence to execution, distinguishing four families: context-conditioned policies, geometric demonstration transfer, world-model-based control, and skill- and agent-based execution. Comparing these interfaces clarifies their transfer assumptions and the roles of training, correspondence, and memory in making context useful. Across manipulation and navigation, we examine how these mechanisms preserve taught requirements as objects, environments, and execution conditions change. This analysis links method design to evaluation practices that distinguish responsiveness to teaching, physical transfer, and benefits from retained experience. The resulting agenda connects compositional task acquisition and faithful transfer with physical recursive self-improvement, in which experience improves the ability to learn subsequent tasks.",
+    "mediaUrls": [
+     "https://cdn-uploads.huggingface.co/production/uploads/657a776153e2fa36fed33259/cWb5tvlcqVrolIKVy3vFT.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.36012.png",
+    "numComments": 2,
+    "submittedBy": {
+     "_id": "657a776153e2fa36fed33259",
+     "avatarUrl": "/avatars/f60777abe61bc6743e4cef0ede301295.svg",
+     "fullname": "Haojian Huang",
+     "name": "Jethro37",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 2,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "643f8b1635e2b54a42e7bd62",
+     "name": "Knowin",
+     "fullname": "Knowin AI",
+     "avatar": "https://www.gravatar.com/avatar/e1c75fc59aa7780866eb7b1e8f1f5718?d=retro&size=100"
+    },
+    "isAuthorParticipating": true
+   },
+   {
+    "paper": {
+     "id": "2609.35427",
+     "authors": [
+      {
+       "_id": "6abcd1dfd51a189976e029bb",
+       "name": "George Yakushev",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd1dfd51a189976e029bc",
+       "name": "Denis Mazur",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd1dfd51a189976e029bd",
+       "user": {
+        "_id": "684e98d956c5853c395dd48c",
+        "avatarUrl": "/avatars/70eba0a0deadcc67ae6fd4d2503b55c3.svg",
+        "isPro": false,
+        "fullname": "Vladimir",
+        "user": "vovanbart",
+        "type": "user",
+        "name": "vovanbart"
+       },
+       "name": "Vladimir Bartenev",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-10-01T13:46:55.120Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd1dfd51a189976e029be",
+       "user": {
+        "_id": "641c0cd7a6d3ff92426f271f",
+        "avatarUrl": "/avatars/2c918acb22b37cd9d856e2bd1483114e.svg",
+        "isPro": false,
+        "fullname": "Vyacheslav Zhdanovskiy",
+        "user": "zeronsix",
+        "type": "user",
+        "name": "zeronsix"
+       },
+       "name": "Vyacheslav Zhdanovskiy",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T15:11:24.751Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd1dfd51a189976e029bf",
+       "name": "Timofey Byzov",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd1dfd51a189976e029c0",
+       "name": "Vladimir Kaurkin",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd1dfd51a189976e029c1",
+       "name": "Vadim Pastushenko",
+       "hidden": false
+      }
+     ],
+     "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/655f8492e3dda95b340822ae/17e2P8iUL_rj_xDj_dmml.png",
+      "https://cdn-uploads.huggingface.co/production/uploads/655f8492e3dda95b340822ae/meiswsAzz5NXoljqIUd7a.mp4"
+     ],
+     "publishedAt": "2026-09-28T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "LLMs are General Asynchronous Agents",
+     "submittedOnDailyBy": {
+      "_id": "655f8492e3dda95b340822ae",
+      "avatarUrl": "/avatars/69e2bed8045faf35105e15f228db0567.svg",
+      "isPro": false,
+      "fullname": "George Yakushev",
+      "user": "MrDarkTesla",
+      "type": "user",
+      "name": "MrDarkTesla"
+     },
+     "summary": "Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video streams, VLAs for robot control, asynchronous tool calling for API usage, and others. In this work, we generalize from different asynchronous tasks to general asynchronous agents that can adapt to different types of concurrency. To achieve this, we develop an asynchronous LLM framework that lets users (or the agents themselves) define inference coroutines with overlapping memory states. We showcase that Qwen 3.x models are capable of asynchronous operation for streaming video understanding, videogames, and monitoring, without task-specific training.",
+     "upvotes": 66,
+     "discussionId": "6abcd1dfd51a189976e029c2",
+     "projectPage": "https://dvmazur.github.io/async_llm",
+     "githubRepo": "https://github.com/dvmazur/async_llm",
+     "githubRepoAddedBy": "user",
+     "githubStars": 14,
+     "organization": {
+      "_id": "6720e7807ed18d3aad0d220d",
+      "name": "yresearch",
+      "fullname": "Yandex Research",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b6cc49752323892323bc04/FQvQrOD6LhV9h4CJl5tJS.png"
+     }
+    },
+    "publishedAt": "2026-09-27T20:00:00.000Z",
+    "title": "LLMs are General Asynchronous Agents",
+    "summary": "Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video streams, VLAs for robot control, asynchronous tool calling for API usage, and others. In this work, we generalize from different asynchronous tasks to general asynchronous agents that can adapt to different types of concurrency. To achieve this, we develop an asynchronous LLM framework that lets users (or the agents themselves) define inference coroutines with overlapping memory states. We showcase that Qwen 3.x models are capable of asynchronous operation for streaming video understanding, videogames, and monitoring, without task-specific training.",
+    "mediaUrls": [
+     "https://cdn-uploads.huggingface.co/production/uploads/655f8492e3dda95b340822ae/17e2P8iUL_rj_xDj_dmml.png",
+     "https://cdn-uploads.huggingface.co/production/uploads/655f8492e3dda95b340822ae/meiswsAzz5NXoljqIUd7a.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.35427.png",
+    "numComments": 1,
+    "submittedBy": {
+     "_id": "655f8492e3dda95b340822ae",
+     "avatarUrl": "/avatars/69e2bed8045faf35105e15f228db0567.svg",
+     "fullname": "George Yakushev",
+     "name": "MrDarkTesla",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 2,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "6720e7807ed18d3aad0d220d",
+     "name": "yresearch",
+     "fullname": "Yandex Research",
+     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b6cc49752323892323bc04/FQvQrOD6LhV9h4CJl5tJS.png"
+    },
+    "isAuthorParticipating": false
+   },
+   {
+    "paper": {
+     "id": "2609.38057",
+     "authors": [
+      {
+       "_id": "6abc7fc7d51a189976e0260a",
+       "name": "Shiyang Zhou",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e0260b",
+       "name": "Xionghao Wu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e0260c",
+       "name": "Wenbo Li",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e0260d",
+       "name": "Shenghe Zheng",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e0260e",
+       "name": "Jiyao Zhang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e0260f",
+       "name": "Songsong Yu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02610",
+       "name": "Yijun Yang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02611",
+       "name": "Jianhui Liu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02612",
+       "name": "Haoze Sun",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02613",
+       "name": "Senqiao Yang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02614",
+       "name": "Li Jiang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02615",
+       "name": "Jingyong Su",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02616",
+       "name": "Haoyang Huang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7fc7d51a189976e02617",
+       "name": "Zhuotao Tian",
+       "hidden": false
+      }
+     ],
+     "publishedAt": "2026-09-29T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+     "submittedOnDailyBy": {
+      "_id": "64492fb60e0e24baf6b2369b",
+      "avatarUrl": "/avatars/aa419b2f2bf84e05c531218be1f3aa6c.svg",
+      "isPro": false,
+      "fullname": "Haoze Sun",
+      "user": "VINHYU",
+      "type": "user",
+      "name": "VINHYU"
+     },
+     "summary": "Improving robot policies on new tasks without collecting additional expert demonstrations remains a central challenge in robot learning. World action models (WAMs) use broad video priors to jointly predict future videos and actions, offering a potential source of supervision for adapting to new tasks. However, generated videos may fail to depict task completion, and even visually successful videos may be paired with inconsistent actions that lead to execution failure. We propose EVO-WAM, a framework that adapts WAMs to unseen tasks by learning from their own generated video-action trajectories, without executing candidate actions in an external environment. First, we augment WAM training with state prediction and anchored multi-frame context to enable complete autoregressive rollouts without external execution feedback. Second, we identify reliable training experience by selecting task-completing prefixes with a vision-language model and verifying their video-action consistency with an inverse dynamics model. Third, we iteratively train the WAM on verified prefixes and generate new rollouts with the updated model. On seven unseen RoboTwin 2.0 tasks, EVO-WAM increases average success rates from 26.9% to 68.0% for Cosmos3 and from 28.5% to 46.4% for DreamZero, reaching approximately 2.5times and 1.6times their initial success rates. On three unseen long-horizon composite tasks in the real world, it improves Cosmos3's average success rate from 20.0% to 76.7%, a gain of 56.7 percentage points. Project Page: https://evo-wam.github.io/.",
+     "upvotes": 29,
+     "discussionId": "6abc7fc7d51a189976e02618",
+     "projectPage": "https://evo-wam.github.io/",
+     "githubRepo": "https://github.com/Clausy9/EVO-WAM",
+     "githubRepoAddedBy": "user",
+     "githubStars": 9,
+     "organization": {
+      "_id": "69084a4e7cb67a4a4b3c64c0",
+      "name": "hitsz123",
+      "fullname": "Harbin Institute of Techonology, Shenzhen",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/690844e68b3b900d6e65d19a/jOOsoZlex2y3oZXVYsz0p.png"
+     }
+    },
+    "publishedAt": "2026-09-28T20:00:00.000Z",
+    "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "summary": "Improving robot policies on new tasks without collecting additional expert demonstrations remains a central challenge in robot learning. World action models (WAMs) use broad video priors to jointly predict future videos and actions, offering a potential source of supervision for adapting to new tasks. However, generated videos may fail to depict task completion, and even visually successful videos may be paired with inconsistent actions that lead to execution failure. We propose EVO-WAM, a framework that adapts WAMs to unseen tasks by learning from their own generated video-action trajectories, without executing candidate actions in an external environment. First, we augment WAM training with state prediction and anchored multi-frame context to enable complete autoregressive rollouts without external execution feedback. Second, we identify reliable training experience by selecting task-completing prefixes with a vision-language model and verifying their video-action consistency with an inverse dynamics model. Third, we iteratively train the WAM on verified prefixes and generate new rollouts with the updated model. On seven unseen RoboTwin 2.0 tasks, EVO-WAM increases average success rates from 26.9% to 68.0% for Cosmos3 and from 28.5% to 46.4% for DreamZero, reaching approximately 2.5times and 1.6times their initial success rates. On three unseen long-horizon composite tasks in the real world, it improves Cosmos3's average success rate from 20.0% to 76.7%, a gain of 56.7 percentage points. Project Page: https://evo-wam.github.io/.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38057.png",
+    "numComments": 2,
+    "submittedBy": {
+     "_id": "64492fb60e0e24baf6b2369b",
+     "avatarUrl": "/avatars/aa419b2f2bf84e05c531218be1f3aa6c.svg",
+     "fullname": "Haoze Sun",
+     "name": "VINHYU",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 2,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "69084a4e7cb67a4a4b3c64c0",
+     "name": "hitsz123",
+     "fullname": "Harbin Institute of Techonology, Shenzhen",
+     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/690844e68b3b900d6e65d19a/jOOsoZlex2y3oZXVYsz0p.png"
+    },
+    "isAuthorParticipating": false
+   },
+   {
+    "paper": {
+     "id": "2609.38154",
+     "authors": [
+      {
+       "_id": "6abc797ad51a189976e025a7",
+       "name": "Shuai Yang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025a8",
+       "name": "Luozhou Wang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025a9",
+       "name": "Wei Huang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025aa",
+       "name": "ZhiFei Chen",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025ab",
+       "name": "Bohan Zhang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025ac",
+       "name": "Xiao Fu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025ad",
+       "name": "Qianli Ma",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025ae",
+       "name": "Chen-Hsuan Lin",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025af",
+       "name": "Weian Mao",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025b0",
+       "name": "Bryan Chu",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025b1",
+       "name": "Song Han",
+       "hidden": false
+      },
+      {
+       "_id": "6abc797ad51a189976e025b2",
+       "name": "Yukang Chen",
+       "hidden": false
+      }
+     ],
+     "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/noauth/jGcfxGwBaUckv2Ov6Dyw1.mp4"
+     ],
+     "publishedAt": "2026-09-29T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+     "submittedOnDailyBy": {
+      "_id": "634ce90e741a5e37886a19e3",
+      "avatarUrl": "/avatars/0d1579039136b37db5b67282b0a34c33.svg",
+      "isPro": false,
+      "fullname": "Syang",
+      "user": "Andyson",
+      "type": "user",
+      "name": "Andyson"
+     },
+     "summary": "Video diffusion models are increasingly developed into specialized models for diverse downstream tasks, and this development often includes a distillation stage, for example to accelerate sampling or to improve long-video generation. This stage is typically repeated for every specialized model. We introduce LongLive-Plug, a once-for-all distillation framework that learns reusable capabilities as LoRAs on a base model for training-free, plug-and-play deployment to compatible downstream models. These capabilities include single-pass classifier-free guidance, few-step sampling, and long-context error correction for autoregressive generation. The adapters remain reusable even when downstream models add conditioning branches, expand output channels. Despite training at a fixed guidance scale, our dedicated CFG LoRA provides text guidance control through its inference weight. Combining it with a few-step LoRA simultaneously preserves few-step generation and CFG controllability on downstream tasks. We verify training-free deployment on 54 downstream models across three backbone families and eight task categories, including world modeling, robotics, editing, and multimodal generation. The approach may support additional compatible models. Each capability can thus be distilled once per backbone family and reused without per-target retraining.",
+     "upvotes": 27,
+     "discussionId": "6abc797bd51a189976e025b3",
+     "projectPage": "https://nvlabs.github.io/LongLive/LongLive-Plug/",
+     "githubRepo": "https://github.com/NVlabs/LongLive",
+     "githubRepoAddedBy": "user",
+     "githubStars": 2650,
+     "organization": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "name": "nvidia",
+      "fullname": "NVIDIA",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png"
+     }
+    },
+    "publishedAt": "2026-09-28T20:00:00.000Z",
+    "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+    "summary": "Video diffusion models are increasingly developed into specialized models for diverse downstream tasks, and this development often includes a distillation stage, for example to accelerate sampling or to improve long-video generation. This stage is typically repeated for every specialized model. We introduce LongLive-Plug, a once-for-all distillation framework that learns reusable capabilities as LoRAs on a base model for training-free, plug-and-play deployment to compatible downstream models. These capabilities include single-pass classifier-free guidance, few-step sampling, and long-context error correction for autoregressive generation. The adapters remain reusable even when downstream models add conditioning branches, expand output channels. Despite training at a fixed guidance scale, our dedicated CFG LoRA provides text guidance control through its inference weight. Combining it with a few-step LoRA simultaneously preserves few-step generation and CFG controllability on downstream tasks. We verify training-free deployment on 54 downstream models across three backbone families and eight task categories, including world modeling, robotics, editing, and multimodal generation. The approach may support additional compatible models. Each capability can thus be distilled once per backbone family and reused without per-target retraining.",
+    "mediaUrls": [
+     "https://cdn-uploads.huggingface.co/production/uploads/noauth/jGcfxGwBaUckv2Ov6Dyw1.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38154.png",
+    "numComments": 2,
+    "submittedBy": {
+     "_id": "634ce90e741a5e37886a19e3",
+     "avatarUrl": "/avatars/0d1579039136b37db5b67282b0a34c33.svg",
+     "fullname": "Syang",
+     "name": "Andyson",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 4,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "60262b67268c201cdc8b7d43",
+     "name": "nvidia",
+     "fullname": "NVIDIA",
+     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png"
+    },
+    "isAuthorParticipating": false
+   },
+   {
+    "paper": {
+     "id": "2609.38087",
+     "authors": [
+      {
+       "_id": "6abc7784d51a189976e02569",
+       "name": "Tan-Dzung Do",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e0256a",
+       "user": {
+        "_id": "663f8ecc9e6f865ec6e71a34",
+        "avatarUrl": "/avatars/b18c60ec89587cb8867daee322f9f722.svg",
+        "isPro": false,
+        "fullname": "Tuan Dat",
+        "user": "tuandattttt",
+        "type": "user",
+        "name": "tuandattttt"
+       },
+       "name": "Tuan Dat Phuong",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T13:50:50.810Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e0256b",
+       "name": "Nico Bohlinger",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e0256c",
+       "name": "Cuc T. Trinh",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e0256d",
+       "name": "Siwei Ju",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e0256e",
+       "name": "Vien Anh Ngo",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e0256f",
+       "name": "Jan Peters",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e02570",
+       "name": "Xinchao Wang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc7784d51a189976e02571",
+       "name": "An T. Le",
+       "hidden": false
+      }
+     ],
+     "publishedAt": "2026-09-29T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments",
+     "submittedOnDailyBy": {
+      "_id": "663f8ecc9e6f865ec6e71a34",
+      "avatarUrl": "/avatars/b18c60ec89587cb8867daee322f9f722.svg",
+      "isPro": false,
+      "fullname": "Tuan Dat",
+      "user": "tuandattttt",
+      "type": "user",
+      "name": "tuandattttt"
+     },
+     "summary": "Behavior Foundation Models (BFMs) give humanoids a promptable policy over a latent behavior space, enabling one single vector to represent a motion to imitate, a pose to reach, or a reward to maximize. Forward-Backward representations successfully produce such spaces, but at the cost of hundreds of GPU-hours for a single robot. Moreover, when the training process is repeated for a second robot, it produces a second space unrelated to the first, resulting in embodiment-specific latents that do not unify or transfer. We address these problems with CrossBFM, treating the latent space as the transferable asset for various embodiments. As retargeting provides frame-level cross-embodiment correspondence, we propose a unified encoder architecture with no robot-specific parameters for distilling the behavior space to address all training embodiments simultaneously in less than a GPU-hour. Following this encoder, latent-conditioned trackers turn the distilled latent into whole-body control in a conventional PPO training manner in just 10 more GPU-hours. On three distilled humanoids, all three prompting modes transfer: motion tracking with latent-conditioned policy losing only 0.025 rad to its joint-conditioned counterpart, smooth goal reaching between poses with no falls, and reward optimization for all 41 reward prompts. Our experiments further reveal that 1) regressing the encoder on a quarter of the motion corpus costs only 5% of tracking performance and 2) training the encoder on a subset of robots and evaluating on an unseen one recovers up to 89% of the tracking performance of seen robots, demonstrating cross-embodiment generalization to morphologically similar robots. We also verify the pipeline on real robots across all three prompting modes and with flow-based generated latents. Project website: https://dotandung.github.io/crossbfm/",
+     "upvotes": 21,
+     "discussionId": "6abc7784d51a189976e02572",
+     "projectPage": "https://dotandung.github.io/crossbfm/"
+    },
+    "publishedAt": "2026-09-28T20:00:00.000Z",
+    "title": "CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments",
+    "summary": "Behavior Foundation Models (BFMs) give humanoids a promptable policy over a latent behavior space, enabling one single vector to represent a motion to imitate, a pose to reach, or a reward to maximize. Forward-Backward representations successfully produce such spaces, but at the cost of hundreds of GPU-hours for a single robot. Moreover, when the training process is repeated for a second robot, it produces a second space unrelated to the first, resulting in embodiment-specific latents that do not unify or transfer. We address these problems with CrossBFM, treating the latent space as the transferable asset for various embodiments. As retargeting provides frame-level cross-embodiment correspondence, we propose a unified encoder architecture with no robot-specific parameters for distilling the behavior space to address all training embodiments simultaneously in less than a GPU-hour. Following this encoder, latent-conditioned trackers turn the distilled latent into whole-body control in a conventional PPO training manner in just 10 more GPU-hours. On three distilled humanoids, all three prompting modes transfer: motion tracking with latent-conditioned policy losing only 0.025 rad to its joint-conditioned counterpart, smooth goal reaching between poses with no falls, and reward optimization for all 41 reward prompts. Our experiments further reveal that 1) regressing the encoder on a quarter of the motion corpus costs only 5% of tracking performance and 2) training the encoder on a subset of robots and evaluating on an unseen one recovers up to 89% of the tracking performance of seen robots, demonstrating cross-embodiment generalization to morphologically similar robots. We also verify the pipeline on real robots across all three prompting modes and with flow-based generated latents. Project website: https://dotandung.github.io/crossbfm/",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38087.png",
+    "numComments": 1,
+    "submittedBy": {
+     "_id": "663f8ecc9e6f865ec6e71a34",
+     "avatarUrl": "/avatars/b18c60ec89587cb8867daee322f9f722.svg",
+     "fullname": "Tuan Dat",
+     "name": "tuandattttt",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "isUserFollowing": false
+    },
+    "isAuthorParticipating": true
+   },
+   {
+    "paper": {
+     "id": "2609.34606",
+     "authors": [
+      {
+       "_id": "6abb7f5f9e8c2556a1025c79",
+       "user": {
+        "_id": "64ec877bb93654d4ca5c92e9",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/Tj6F58adBU7n1uUC8qwQH.jpeg",
+        "isPro": true,
+        "fullname": "Zeyu Zhang",
+        "user": "SteveZeyuZhang",
+        "type": "user",
+        "name": "SteveZeyuZhang"
+       },
+       "name": "Zeyu Zhang",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T08:45:05.454Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c7a",
+       "name": "Jinyuan Mao",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c7b",
+       "name": "Dakai An",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c7c",
+       "name": "Wangbo Zhao",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c7d",
+       "name": "Hanfeng Lu",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c7e",
+       "name": "Jiasheng Tang",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c7f",
+       "name": "Yinghao Yu",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c80",
+       "name": "Wei Wang",
+       "hidden": false
+      },
+      {
+       "_id": "6abb7f5f9e8c2556a1025c81",
+       "name": "Bohan Zhuang",
+       "hidden": false
+      }
+     ],
+     "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/64ec877bb93654d4ca5c92e9/m0AejN0tdicHH8p-rsdrI.mp4"
+     ],
+     "publishedAt": "2026-09-28T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
+     "submittedOnDailyBy": {
+      "_id": "64ec877bb93654d4ca5c92e9",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/Tj6F58adBU7n1uUC8qwQH.jpeg",
+      "isPro": true,
+      "fullname": "Zeyu Zhang",
+      "user": "SteveZeyuZhang",
+      "type": "user",
+      "name": "SteveZeyuZhang"
+     },
+     "summary": "Leveraging the paradigm of autoregressive diffusion, text-conditioned interactive video world models aim to simulate temporally coherent environments guided by textual instructions. While enabling low-latency, long-duration generation is pivotal for embodied AI and simulation-based planning, current frameworks primarily rely on sliding-window mechanisms to bound computational complexity. However, this approach inherently sacrifices historical context, undermining the long-range interactive capabilities. Conversely, maintaining a full-history cache remains computationally prohibitive and memory-intensive: the quadratic complexity of attention leads to excessive computational overhead, while the linear growth of the KV cache inevitably leads to GPU memory saturation. To overcome these limitations, we propose WorldAttention, a system-oriented attention architecture that achieves high efficiency through the co-design of specialized attention kernels and hierarchical KV cache management. First, we introduce Hybrid Sparse Attention (HSA), which integrates linear global attention supplemented with head-adaptive sparse attention. Additionally, we design a Hierarchical KV Cache (HKV) that organizes historical KV pairs into semantically indexed pages across multi-tier memory, enabling fine-grained retrieval and controlled GPU residency. These two designs are supported by tailored kernels to effectively translate their theoretical efficiency into real-world performance. Extensive experiments on VBench-Long and InterVBench demonstrate that WorldAttention consistently surpasses prior state-of-the-art methods, achieving subject consistency scores of 0.9472 on VBench-Long and 0.9668 on InterVBench, respectively.",
+     "upvotes": 20,
+     "discussionId": "6abb7f5f9e8c2556a1025c82",
+     "projectPage": "https://alibaba-damo-academy.github.io/WorldAttention/",
+     "githubRepo": "https://github.com/alibaba-damo-academy/WorldAttention",
+     "githubRepoAddedBy": "user",
+     "githubStars": 10,
+     "organization": {
+      "_id": "6808e7522a4d69d5111da55f",
+      "name": "Alibaba-DAMO-Academy",
+      "fullname": "DAMO Academy",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6808e64de5dd22427c006e10/9J3vdB62CdeTOd_YrGh9w.jpeg"
+     }
+    },
+    "publishedAt": "2026-09-27T20:00:00.000Z",
+    "title": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
+    "summary": "Leveraging the paradigm of autoregressive diffusion, text-conditioned interactive video world models aim to simulate temporally coherent environments guided by textual instructions. While enabling low-latency, long-duration generation is pivotal for embodied AI and simulation-based planning, current frameworks primarily rely on sliding-window mechanisms to bound computational complexity. However, this approach inherently sacrifices historical context, undermining the long-range interactive capabilities. Conversely, maintaining a full-history cache remains computationally prohibitive and memory-intensive: the quadratic complexity of attention leads to excessive computational overhead, while the linear growth of the KV cache inevitably leads to GPU memory saturation. To overcome these limitations, we propose WorldAttention, a system-oriented attention architecture that achieves high efficiency through the co-design of specialized attention kernels and hierarchical KV cache management. First, we introduce Hybrid Sparse Attention (HSA), which integrates linear global attention supplemented with head-adaptive sparse attention. Additionally, we design a Hierarchical KV Cache (HKV) that organizes historical KV pairs into semantically indexed pages across multi-tier memory, enabling fine-grained retrieval and controlled GPU residency. These two designs are supported by tailored kernels to effectively translate their theoretical efficiency into real-world performance. Extensive experiments on VBench-Long and InterVBench demonstrate that WorldAttention consistently surpasses prior state-of-the-art methods, achieving subject consistency scores of 0.9472 on VBench-Long and 0.9668 on InterVBench, respectively.",
+    "mediaUrls": [
+     "https://cdn-uploads.huggingface.co/production/uploads/64ec877bb93654d4ca5c92e9/m0AejN0tdicHH8p-rsdrI.mp4"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.34606.png",
+    "numComments": 2,
+    "submittedBy": {
+     "_id": "64ec877bb93654d4ca5c92e9",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/Tj6F58adBU7n1uUC8qwQH.jpeg",
+     "fullname": "Zeyu Zhang",
+     "name": "SteveZeyuZhang",
+     "type": "user",
+     "isPro": true,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 13,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "6808e7522a4d69d5111da55f",
+     "name": "Alibaba-DAMO-Academy",
+     "fullname": "DAMO Academy",
+     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6808e64de5dd22427c006e10/9J3vdB62CdeTOd_YrGh9w.jpeg"
+    },
+    "isAuthorParticipating": true
+   },
+   {
+    "paper": {
+     "id": "2609.38059",
+     "authors": [
+      {
+       "_id": "6abc80cdd51a189976e02638",
+       "user": {
+        "_id": "66e1557c75d9226ba13b38d2",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vAwxAOynnsF2iqYeO3UBl.png",
+        "isPro": false,
+        "fullname": "shenghe zheng",
+        "user": "desimfj",
+        "type": "user",
+        "name": "desimfj"
+       },
+       "name": "Shenghe Zheng",
+       "status": "claimed_verified",
+       "statusLastChangedAt": "2026-09-30T08:45:05.774Z",
+       "hidden": false
+      },
+      {
+       "_id": "6abc80cdd51a189976e02639",
+       "name": "Wenbo Li",
+       "hidden": false
+      },
+      {
+       "_id": "6abc80cdd51a189976e0263a",
+       "name": "Jiyao Zhang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc80cdd51a189976e0263b",
+       "name": "Bin Xia",
+       "hidden": false
+      },
+      {
+       "_id": "6abc80cdd51a189976e0263c",
+       "name": "Haoyang Huang",
+       "hidden": false
+      },
+      {
+       "_id": "6abc80cdd51a189976e0263d",
+       "name": "Nan Duan",
+       "hidden": false
+      },
+      {
+       "_id": "6abc80cdd51a189976e0263e",
+       "name": "Jiaya Jia",
+       "hidden": false
+      }
+     ],
+     "publishedAt": "2026-09-29T00:00:00.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
+     "submittedOnDailyBy": {
+      "_id": "66e1557c75d9226ba13b38d2",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vAwxAOynnsF2iqYeO3UBl.png",
+      "isPro": false,
+      "fullname": "shenghe zheng",
+      "user": "desimfj",
+      "type": "user",
+      "name": "desimfj"
+     },
+     "summary": "Real-world robot learning is constrained by the cost of collecting experience and evaluating candidate behaviors. Video generation models offer a scalable foundation for visual simulators that predict action outcomes before physical execution. Yet they often favor visual plausibility over accurate action following and coherent robot--object dynamics, while action-conditioned simulators depend on scarce, embodiment-specific data that are difficult to share across incompatible control spaces. We introduce WorldLine, an action-driven visual simulator that decouples transferable dynamics learning from heterogeneous action grounding. WorldLine learns manipulation dynamics from more than 10,000 hours of action-free robot videos and grounds them using over 2,000 hours of action trajectories across more than ten embodiments. An image-space action representation provides a shared control interface across embodiments, while multi-view and failure-enriched training with relational regularization improves interaction-sensitive prediction. Robot-focused few-step distillation enables efficient causal rollout while preserving action-critical motion. Across held-out and out-of-domain settings, WorldLine maintains strong visual quality and robot-motion agreement; on failed trajectories, it improves robot-mask IoU by 0.1626 over the strongest baseline. It predicts trajectory success with 74% mean accuracy across RoboTwin and AgiBot, one percentage point above the strongest baseline. Without RoboTwin training or adaptation, its rollouts improve task success by up to 21.4 percentage points over direct policy execution. Together, these capabilities make WorldLine a scalable and efficient visual simulator for policy evaluation and embodied planning. More results are available at https://zhengsh123.github.io/WorldLine/{project page}.",
+     "upvotes": 15,
+     "discussionId": "6abc80ced51a189976e0263f",
+     "projectPage": "https://zhengsh123.github.io/WorldLine/",
+     "githubRepo": "https://github.com/Zhengsh123/WorldLine",
+     "githubRepoAddedBy": "user",
+     "githubStars": 1,
+     "organization": {
+      "_id": "6609f50bf4ab651901ae4541",
+      "name": "hongkongust",
+      "fullname": "The Hong Kong University of Science and Technology",
+      "avatar": "https://www.gravatar.com/avatar/4722e71b09c8244cf76e358091504d3b?d=retro&size=100"
+     }
+    },
+    "publishedAt": "2026-09-28T20:00:00.000Z",
+    "title": "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
+    "summary": "Real-world robot learning is constrained by the cost of collecting experience and evaluating candidate behaviors. Video generation models offer a scalable foundation for visual simulators that predict action outcomes before physical execution. Yet they often favor visual plausibility over accurate action following and coherent robot--object dynamics, while action-conditioned simulators depend on scarce, embodiment-specific data that are difficult to share across incompatible control spaces. We introduce WorldLine, an action-driven visual simulator that decouples transferable dynamics learning from heterogeneous action grounding. WorldLine learns manipulation dynamics from more than 10,000 hours of action-free robot videos and grounds them using over 2,000 hours of action trajectories across more than ten embodiments. An image-space action representation provides a shared control interface across embodiments, while multi-view and failure-enriched training with relational regularization improves interaction-sensitive prediction. Robot-focused few-step distillation enables efficient causal rollout while preserving action-critical motion. Across held-out and out-of-domain settings, WorldLine maintains strong visual quality and robot-motion agreement; on failed trajectories, it improves robot-mask IoU by 0.1626 over the strongest baseline. It predicts trajectory success with 74% mean accuracy across RoboTwin and AgiBot, one percentage point above the strongest baseline. Without RoboTwin training or adaptation, its rollouts improve task success by up to 21.4 percentage points over direct policy execution. Together, these capabilities make WorldLine a scalable and efficient visual simulator for policy evaluation and embodied planning. More results are available at https://zhengsh123.github.io/WorldLine/{project page}.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38059.png",
+    "numComments": 2,
+    "submittedBy": {
+     "_id": "66e1557c75d9226ba13b38d2",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vAwxAOynnsF2iqYeO3UBl.png",
+     "fullname": "shenghe zheng",
+     "name": "desimfj",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 2,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "6609f50bf4ab651901ae4541",
+     "name": "hongkongust",
+     "fullname": "The Hong Kong University of Science and Technology",
+     "avatar": "https://www.gravatar.com/avatar/4722e71b09c8244cf76e358091504d3b?d=retro&size=100"
+    },
+    "isAuthorParticipating": true
+   },
+   {
+    "paper": {
+     "id": "2609.16409",
+     "authors": [
+      {
+       "_id": "6abcd52fd51a189976e029da",
+       "name": "Nishad Singhi",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd52fd51a189976e029db",
+       "name": "Hector Garcia Rodriguez",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd52fd51a189976e029dc",
+       "name": "Aditya Arora",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd52fd51a189976e029dd",
+       "name": "Marcus Rohrbach",
+       "hidden": false
+      },
+      {
+       "_id": "6abcd52fd51a189976e029de",
+       "name": "Anna Rohrbach",
+       "hidden": false
+      }
+     ],
+     "publishedAt": "2026-09-14T22:29:03.000Z",
+     "submittedOnDailyAt": "2026-09-30T00:00:00.000Z",
+     "title": "Reasoning with Image Generation",
+     "submittedOnDailyBy": {
+      "_id": "641f72d8eefe94aff6e21068",
+      "avatarUrl": "/avatars/0f07cffb49698232c4bd912898abc920.svg",
+      "isPro": false,
+      "fullname": "Nishad Singhi",
+      "user": "nishadsinghi",
+      "type": "user",
+      "name": "nishadsinghi"
+     },
+     "summary": "Chain-of-thought reasoning has revolutionized natural language processing by enabling large language models (LLMs) to decompose problems into intermediate steps before answering. Yet confining reasoning to the textual domain presents limitations for tasks requiring direct manipulation of visual representations. Recent efforts augment multimodal LLMs with external visual expert tools such as depth estimation or object detection modules, but these remain fundamentally limited by their reliance on narrow, rigid operations that cannot flexibly generate or transform visual content. We propose ReImaGin, which leverages image generation models as a flexible visual reasoning mechanism for multimodal LLMs: unlike fixed-function tools, they accept natural language commands and can perform open-ended visual operations, like removing an occlusion or generating a floorplan from multiple disjoint views of a room. Across six diverse visual reasoning tasks including multi-view spatial reasoning and collision prediction, ReImaGin consistently outperforms both text-only reasoning and specialist vision-tool baselines, with gains of up to 25\\%, demonstrating the advantage of flexible, generative visual reasoning.",
+     "upvotes": 14,
+     "discussionId": "6abcd530d51a189976e029df",
+     "projectPage": "https://hector.gr/reimagin/index.html",
+     "organization": {
+      "_id": "684ff4cea2b26ec255d6836b",
+      "name": "MAI-Lab",
+      "fullname": "Multimodal AI Lab - Technical University of Darmstadt",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66436038e09065791ae03c87/5k7TdpkYM3BT-KJAGoQ_x.png"
+     }
+    },
+    "publishedAt": "2026-09-14T18:29:03.000Z",
+    "title": "Reasoning with Image Generation",
+    "summary": "Chain-of-thought reasoning has revolutionized natural language processing by enabling large language models (LLMs) to decompose problems into intermediate steps before answering. Yet confining reasoning to the textual domain presents limitations for tasks requiring direct manipulation of visual representations. Recent efforts augment multimodal LLMs with external visual expert tools such as depth estimation or object detection modules, but these remain fundamentally limited by their reliance on narrow, rigid operations that cannot flexibly generate or transform visual content. We propose ReImaGin, which leverages image generation models as a flexible visual reasoning mechanism for multimodal LLMs: unlike fixed-function tools, they accept natural language commands and can perform open-ended visual operations, like removing an occlusion or generating a floorplan from multiple disjoint views of a room. Across six diverse visual reasoning tasks including multi-view spatial reasoning and collision prediction, ReImaGin consistently outperforms both text-only reasoning and specialist vision-tool baselines, with gains of up to 25\\%, demonstrating the advantage of flexible, generative visual reasoning.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.16409.png",
+    "numComments": 2,
+    "submittedBy": {
+     "_id": "641f72d8eefe94aff6e21068",
+     "avatarUrl": "/avatars/0f07cffb49698232c4bd912898abc920.svg",
+     "fullname": "Nishad Singhi",
+     "name": "nishadsinghi",
+     "type": "user",
+     "isPro": false,
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "isUserFollowing": false
+    },
+    "organization": {
+     "_id": "684ff4cea2b26ec255d6836b",
+     "name": "MAI-Lab",
+     "fullname": "Multimodal AI Lab - Technical University of Darmstadt",
+     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66436038e09065791ae03c87/5k7TdpkYM3BT-KJAGoQ_x.png"
+    },
+    "isAuthorParticipating": false
+   }
+  ]
+ },
+ "hf_paper": {
+  "_request": "GET https://huggingface.co/api/papers/2410.24164",
+  "_note": "linkedModels/linkedDatasets/linkedSpaces arrays trimmed",
+  "result": {
+   "id": "2410.24164",
+   "authors": [
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b7c",
+     "name": "Kevin Black",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b7d",
+     "name": "Noah Brown",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b7e",
+     "name": "Danny Driess",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b7f",
+     "name": "Adnan Esmail",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b80",
+     "name": "Michael Equi",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b81",
+     "name": "Chelsea Finn",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b82",
+     "name": "Niccolo Fusai",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b83",
+     "name": "Lachy Groom",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b84",
+     "name": "Karol Hausman",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b85",
+     "name": "Brian Ichter",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b86",
+     "name": "Szymon Jakubczak",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b87",
+     "name": "Tim Jones",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b88",
+     "name": "Liyiming Ke",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b89",
+     "name": "Sergey Levine",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b8a",
+     "name": "Adrian Li-Bell",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b8b",
+     "name": "Mohith Mothukuri",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b8c",
+     "name": "Suraj Nair",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b8d",
+     "name": "Karl Pertsch",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b8e",
+     "name": "Lucy Xiaoyang Shi",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b8f",
+     "name": "James Tanner",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b90",
+     "name": "Quan Vuong",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b91",
+     "name": "Anna Walling",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b92",
+     "name": "Haohuan Wang",
+     "hidden": false
+    },
+    {
+     "_id": "67a27dc8a1c449c8d4ec6b93",
+     "name": "Ury Zhilinsky",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2024-10-31T17:22:30.000Z",
+   "title": "π_0: A Vision-Language-Action Flow Model for General Robot Control",
+   "summary": "Robot learning holds tremendous promise to unlock the full potential of\nflexible, general, and dexterous robot systems, as well as to address some of\nthe deepest questions in artificial intelligence. However, bringing robot\nlearning to the level of generality required for effective real-world systems\nfaces major obstacles in terms of data, generalization, and robustness. In this\npaper, we discuss how generalist robot policies (i.e., robot foundation models)\ncan address these challenges, and how we can design effective generalist robot\npolicies for complex and highly dexterous tasks. We propose a novel flow\nmatching architecture built on top of a pre-trained vision-language model (VLM)\nto inherit Internet-scale semantic knowledge. We then discuss how this model\ncan be trained on a large and diverse dataset from multiple dexterous robot\nplatforms, including single-arm robots, dual-arm robots, and mobile\nmanipulators. We evaluate our model in terms of its ability to perform tasks in\nzero shot after pre-training, follow language instructions from people and from\na high-level VLM policy, and its ability to acquire new skills via fine-tuning.\nOur results cover a wide variety of tasks, such as laundry folding, table\ncleaning, and assembling boxes.",
+   "upvotes": 31,
+   "discussionId": "67a27dcfa1c449c8d4ec6e46",
+   "ai_summary": "Generalist robot policies using a novel flow matching architecture built on a pre-trained vision-language model enable zero-shot task performance, language instruction following, and skill acquisition via fine-tuning across diverse robotic platforms.",
+   "ai_keywords": [
+    "generalist robot policies",
+    "flow matching architecture",
+    "vision-language model",
+    "zero-shot",
+    "fine-tuning"
+   ],
+   "ai_summary_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+   "linkedModels": [
+    {
+     "author": "nvidia",
+     "authorData": {
+      "_id": "60262b67268c201cdc8b7d43",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+      "fullname": "NVIDIA",
+      "name": "nvidia",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "plus",
+      "followerCount": 70030,
+      "isUserFollowing": false
+     },
+     "downloads": 490,
+     "gated": false,
+     "id": "nvidia/GR00T-N1-2B",
+     "availableInferenceProviders": [],
+     "lastModified": "2025-09-02T22:25:27.000Z",
+     "likes": 356,
+     "pipeline_tag": "robotics",
+     "private": false,
+     "repoType": "model",
+     "isLikedByUser": false,
+     "numParameters": 2190019826
+    },
+    {
+     "author": "lerobot",
+     "authorData": {
+      "_id": "65f08dbd118cb0547bb49092",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ce4b244503b72277fc89f/pcLUTLsvMQiR-ujlTgLYF.png",
+      "fullname": "LeRobot",
+      "name": "lerobot",
+      "type": "org",
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "plan": "team",
+      "followerCount": 5429,
+      "isUserFollowing": false
+     },
+     "downloads": 408,
+     "gated": false,
+     "id": "lerobot/pi0_old",
+     "availableInferenceProviders": [],
+     "lastModified": "2025-09-19T09:18:38.000Z",
+     "likes": 310,
+     "pipeline_tag": "robotics",
+     "private": false,
+     "repoType": "model",
+     "isLikedByUser": false,
+     "numParameters": 3501372176
+    }
+   ],
+   "numTotalModels": 111,
+   "linkedDatasets": [
+    {
+     "author": "cloudwalk-research",
+     "downloads": 764,
+     "gated": false,
+     "id": "cloudwalk-research/psi0-g1-sneaker-205ep-v2-source",
+     "lastModified": "2026-05-15T15:04:18.000Z",
+     "datasetsServerInfo": {
+      "viewer": "viewer",
+      "numRows": 62447,
+      "libraries": [
+       "datasets",
+       "dask",
+       "polars",
+       "mlcroissant"
+      ],
+      "formats": [
+       "parquet"
+      ],
+      "modalities": [
+       "tabular",
+       "timeseries",
+       "video"
+      ]
+     },
+     "private": false,
+     "repoType": "dataset",
+     "likes": 0,
+     "isLikedByUser": false,
+     "isBenchmark": false,
+     "isTraces": false,
+     "isEnvironment": false
+    },
+    {
+     "author": "cloudwalk-research",
+     "downloads": 389,
+     "gated": false,
+     "id": "cloudwalk-research/psi0-g1-he-pickplace-9x40ep",
+     "lastModified": "2026-05-15T15:04:30.000Z",
+     "datasetsServerInfo": {
+      "viewer": "viewer",
+      "numRows": 121875,
+      "libraries": [
+       "datasets",
+       "dask",
+       "polars",
+       "mlcroissant"
+      ],
+      "formats": [
+       "parquet"
+      ],
+      "modalities": [
+       "tabular",
+       "timeseries",
+       "video"
+      ]
+     },
+     "private": false,
+     "repoType": "dataset",
+     "likes": 0,
+     "isLikedByUser": false,
+     "isBenchmark": false,
+     "isTraces": false,
+     "isEnvironment": false
+    }
+   ],
+   "numTotalDatasets": 7,
+   "linkedSpaces": [
+    {
+     "emoji": "🥇",
+     "id": "HuggingFaceVLA/libero-vla-leaderboard",
+     "running": true,
+     "shortDescription": "Evaluate and compare your VLAs on the LIBERO benchmark!",
+     "featured": false
+    }
+   ],
+   "numTotalSpaces": 4
+  }
+ },
+ "hf_paper_not_found": {
+  "_request": "GET https://huggingface.co/api/papers/2609.39403",
+  "http": 404,
+  "result": {
+   "error": "Paper not found. For an arXiv paper to appear on Hugging Face, its arxiv.org URL needs to be mentioned in at least one model, dataset or Space's README.md.\n\nIf this paper exists, cite https://arxiv.org/abs/2609.39403 in any of your repos' README.md for the paper to have its own page here."
+  }
+ },
+ "s2_paper_batch": {
+  "_request": "POST https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,publicationDate,citationCount,influentialCitationCount,externalIds,venue,authors.name,authors.authorId,authors.hIndex,authors.citationCount,authors.paperCount,authors.affiliations  body={\"ids\":[\"arXiv:2609.28766\",...8 ids]}",
+  "result": [
+   {
+    "paperId": "b1a19efdc49c61fa019b25f0062cc04c3f6739ec",
+    "externalIds": {
+     "ArXiv": "2609.28766",
+     "CorpusId": 292282287
+    },
+    "title": "TAPESIM: Efficient Simulation of Adhesive Tape Dispensing for Robotic Manipulation",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-23",
+    "authors": [
+     {
+      "authorId": "2249193154",
+      "name": "Zhao-Feng Luo",
+      "affiliations": [],
+      "paperCount": 9,
+      "citationCount": 27,
+      "hIndex": 3
+     },
+     {
+      "authorId": "2330223448",
+      "name": "Xin-Yu Lu",
+      "affiliations": [],
+      "paperCount": 3,
+      "citationCount": 29,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2504109889",
+      "name": "Jaehoon Choi",
+      "affiliations": [],
+      "paperCount": 2,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2294511957",
+      "name": "Zhe-Huan Chen",
+      "affiliations": [],
+      "paperCount": 9,
+      "citationCount": 140,
+      "hIndex": 6
+     },
+     {
+      "authorId": "2265754339",
+      "name": "T. Chung",
+      "affiliations": [],
+      "paperCount": 14,
+      "citationCount": 1396,
+      "hIndex": 4
+     },
+     {
+      "authorId": "2292176508",
+      "name": "Xiao-Wen Qiu",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 529,
+      "hIndex": 6
+     },
+     {
+      "authorId": "2503000683",
+      "name": "Hugh Nicholas Perkins",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2503017410",
+      "name": "Gianna Calderon",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "49720341",
+      "name": "Alexis Duburcq",
+      "affiliations": [],
+      "paperCount": 11,
+      "citationCount": 559,
+      "hIndex": 7
+     },
+     {
+      "authorId": "92573005",
+      "name": "Sanghyun Son",
+      "affiliations": [],
+      "paperCount": 20,
+      "citationCount": 178,
+      "hIndex": 9
+     },
+     {
+      "authorId": "2264982142",
+      "name": "T. Wang",
+      "affiliations": [],
+      "paperCount": 13,
+      "citationCount": 296,
+      "hIndex": 7
+     },
+     {
+      "authorId": "2274106687",
+      "name": "Yi-Ling Qiao",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 40,
+      "hIndex": 3
+     },
+     {
+      "authorId": "2362320489",
+      "name": "Min-Chen Li",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 131,
+      "hIndex": 3
+     }
+    ]
+   },
+   {
+    "paperId": "d7817c3705c6b595f282b7c706895dd998d6e9c1",
+    "externalIds": {
+     "ArXiv": "2609.23566",
+     "CorpusId": 292220339
+    },
+    "title": "G6D: Geometric Learning-Free RGB-D 6D Pose Solver for Robotic Manipulation",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-20",
+    "authors": [
+     {
+      "authorId": "2182922281",
+      "name": "Yi-Xuan Liang",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 29,
+      "hIndex": 3
+     },
+     {
+      "authorId": "2249847399",
+      "name": "William Chen",
+      "affiliations": [],
+      "paperCount": 4,
+      "citationCount": 59,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2108852317",
+      "name": "Yunan Wang",
+      "affiliations": [],
+      "paperCount": 25,
+      "citationCount": 183,
+      "hIndex": 9
+     },
+     {
+      "authorId": "2326555723",
+      "name": "Ji-Zhou Yan",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 17,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2323901845",
+      "name": "Zhao Jin",
+      "affiliations": [],
+      "paperCount": 11,
+      "citationCount": 48,
+      "hIndex": 3
+     },
+     {
+      "authorId": "2502584781",
+      "name": "Chang-Ling Liu",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2502164429",
+      "name": "Chuxiong Hu Tsinghua University",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2502166094",
+      "name": "Sapient Intelligence",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     }
+    ]
+   },
+   {
+    "paperId": "05bc6d14022a9d94cb434a06944ba83ba0945cde",
+    "externalIds": {
+     "ArXiv": "2609.27095",
+     "CorpusId": 292262964
+    },
+    "title": "Intelligence Across Embodiments",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-22",
+    "authors": [
+     {
+      "authorId": "2352099808",
+      "name": "Bo Ai",
+      "affiliations": [],
+      "paperCount": 11,
+      "citationCount": 129,
+      "hIndex": 5
+     },
+     {
+      "authorId": "2290489704",
+      "name": "Henrik I. Christensen",
+      "affiliations": [],
+      "paperCount": 7,
+      "citationCount": 348,
+      "hIndex": 5
+     },
+     {
+      "authorId": "2382452551",
+      "name": "Hao Su",
+      "affiliations": [],
+      "paperCount": 7,
+      "citationCount": 102,
+      "hIndex": 3
+     }
+    ]
+   },
+   {
+    "paperId": "69c8a969473fabcdb6c5792b9a6ff99f40fdfe9a",
+    "externalIds": {
+     "ArXiv": "2609.23483",
+     "CorpusId": 292220187
+    },
+    "title": "STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-20",
+    "authors": [
+     {
+      "authorId": "2502199812",
+      "name": "Yuan-Zhuo Li",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2304593772",
+      "name": "Wen Zhao",
+      "affiliations": [],
+      "paperCount": 21,
+      "citationCount": 273,
+      "hIndex": 8
+     },
+     {
+      "authorId": "2357945075",
+      "name": "Zheng-Yu Yong",
+      "affiliations": [],
+      "paperCount": 2,
+      "citationCount": 17,
+      "hIndex": 1
+     },
+     {
+      "authorId": "2500257277",
+      "name": "Xiang-Zi Meng",
+      "affiliations": [],
+      "paperCount": 2,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2304988250",
+      "name": "Gang Han",
+      "affiliations": [],
+      "paperCount": 21,
+      "citationCount": 273,
+      "hIndex": 8
+     },
+     {
+      "authorId": "2382852942",
+      "name": "He Ren",
+      "affiliations": [],
+      "paperCount": 3,
+      "citationCount": 16,
+      "hIndex": 1
+     },
+     {
+      "authorId": "2502185010",
+      "name": "Xiao-Yang Zheng",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2502204047",
+      "name": "Zhen Wang",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2304744634",
+      "name": "Yi-Jie Guo",
+      "affiliations": [],
+      "paperCount": 50,
+      "citationCount": 2617,
+      "hIndex": 19
+     }
+    ]
+   },
+   {
+    "paperId": "9e35ab2717465617182e3aba7a224c6bc302b5b9",
+    "externalIds": {
+     "ArXiv": "2609.24093",
+     "CorpusId": 292218302
+    },
+    "title": "Dexterous Robot Manipulation from Human Demonstrations via Contact-Anchored Retargeting and Residual Policy Learning",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-21",
+    "authors": [
+     {
+      "authorId": "2502193778",
+      "name": "Zi-Hao Yang",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2500255250",
+      "name": "Cheng-Yu Liu",
+      "affiliations": [],
+      "paperCount": 2,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2458118914",
+      "name": "Yu Zhou",
+      "affiliations": [],
+      "paperCount": 2,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "1845890812",
+      "name": "Run-Ze Lv",
+      "affiliations": [],
+      "paperCount": 11,
+      "citationCount": 17,
+      "hIndex": 3
+     },
+     {
+      "authorId": "2369629519",
+      "name": "Tian-Yu Cui",
+      "affiliations": [],
+      "paperCount": 9,
+      "citationCount": 8,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2387771636",
+      "name": "Sheng Yi",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 14,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2387740652",
+      "name": "Hao-Hua Zhu",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 14,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2125839953",
+      "name": "I. Lu",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 10,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2408911282",
+      "name": "Jie-Qian Sun",
+      "affiliations": [],
+      "paperCount": 6,
+      "citationCount": 29,
+      "hIndex": 2
+     }
+    ]
+   },
+   {
+    "paperId": "7e7e59d2e247d99954081080ddd5aae93d10b9e0",
+    "externalIds": {
+     "ArXiv": "2410.24164",
+     "DBLP": "journals/corr/abs-2410-24164",
+     "DOI": "10.48550/arXiv.2410.24164",
+     "CorpusId": 273811174
+    },
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+    "venue": "arXiv.org",
+    "citationCount": 2925,
+    "influentialCitationCount": 515,
+    "publicationDate": "2024-10-31",
+    "authors": [
+     {
+      "authorId": "2258959388",
+      "name": "Kevin Black",
+      "affiliations": [],
+      "paperCount": 16,
+      "citationCount": 8319,
+      "hIndex": 12
+     },
+     {
+      "authorId": "2161343011",
+      "name": "Noah Brown",
+      "affiliations": [],
+      "paperCount": 15,
+      "citationCount": 17986,
+      "hIndex": 10
+     },
+     {
+      "authorId": "2283848260",
+      "name": "Danny Driess",
+      "affiliations": [],
+      "paperCount": 33,
+      "citationCount": 23032,
+      "hIndex": 26
+     },
+     {
+      "authorId": "2332926590",
+      "name": "A. Esmail",
+      "affiliations": [],
+      "paperCount": 13,
+      "citationCount": 7094,
+      "hIndex": 7
+     },
+     {
+      "authorId": "2298901898",
+      "name": "M. Equi",
+      "affiliations": [],
+      "paperCount": 17,
+      "citationCount": 5920,
+      "hIndex": 10
+     },
+     {
+      "authorId": "2257346440",
+      "name": "Chelsea Finn",
+      "affiliations": [],
+      "paperCount": 32,
+      "citationCount": 11920,
+      "hIndex": 24
+     },
+     {
+      "authorId": "2332926006",
+      "name": "Niccolo Fusai",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 5096,
+      "hIndex": 4
+     },
+     {
+      "authorId": "2332926792",
+      "name": "Lachy Groom",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 5419,
+      "hIndex": 5
+     },
+     {
+      "authorId": "1944801",
+      "name": "Karol Hausman",
+      "affiliations": [],
+      "paperCount": 119,
+      "citationCount": 35638,
+      "hIndex": 50
+     },
+     {
+      "authorId": "2704814",
+      "name": "Brian Ichter",
+      "affiliations": [],
+      "paperCount": 83,
+      "citationCount": 32617,
+      "hIndex": 45
+     },
+     {
+      "authorId": "2332926523",
+      "name": "S. Jakubczak",
+      "affiliations": [],
+      "paperCount": 9,
+      "citationCount": 5305,
+      "hIndex": 5
+     },
+     {
+      "authorId": "2333409218",
+      "name": "Tim Jones",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 5303,
+      "hIndex": 5
+     },
+     {
+      "authorId": "2332976956",
+      "name": "Liyiming Ke",
+      "affiliations": [],
+      "paperCount": 10,
+      "citationCount": 5602,
+      "hIndex": 7
+     },
+     {
+      "authorId": "2249615151",
+      "name": "Sergey Levine",
+      "affiliations": [],
+      "paperCount": 55,
+      "citationCount": 19612,
+      "hIndex": 37
+     },
+     {
+      "authorId": "2332927424",
+      "name": "Adrian Li-Bell",
+      "affiliations": [],
+      "paperCount": 12,
+      "citationCount": 5716,
+      "hIndex": 7
+     },
+     {
+      "authorId": "2332926533",
+      "name": "Mohith Mothukuri",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 5164,
+      "hIndex": 4
+     },
+     {
+      "authorId": "2286638954",
+      "name": "Suraj Nair",
+      "affiliations": [],
+      "paperCount": 21,
+      "citationCount": 10290,
+      "hIndex": 12
+     },
+     {
+      "authorId": "31719101",
+      "name": "Karl Pertsch",
+      "affiliations": [],
+      "paperCount": 57,
+      "citationCount": 24527,
+      "hIndex": 35
+     },
+     {
+      "authorId": "2292341452",
+      "name": "L. Shi",
+      "affiliations": [],
+      "paperCount": 19,
+      "citationCount": 6230,
+      "hIndex": 12
+     },
+     {
+      "authorId": "2332926892",
+      "name": "James Tanner",
+      "affiliations": [],
+      "paperCount": 10,
+      "citationCount": 5559,
+      "hIndex": 6
+     },
+     {
+      "authorId": "2288210223",
+      "name": "Quan Vuong",
+      "affiliations": [],
+      "paperCount": 29,
+      "citationCount": 12523,
+      "hIndex": 18
+     },
+     {
+      "authorId": "2333982746",
+      "name": "Anna Walling",
+      "affiliations": [],
+      "paperCount": 9,
+      "citationCount": 5559,
+      "hIndex": 6
+     },
+     {
+      "authorId": "2332952253",
+      "name": "Hao-Huan Wang",
+      "affiliations": [],
+      "paperCount": 13,
+      "citationCount": 5628,
+      "hIndex": 7
+     },
+     {
+      "authorId": "3187915",
+      "name": "Ury Zhilinsky",
+      "affiliations": [],
+      "paperCount": 9,
+      "citationCount": 5303,
+      "hIndex": 5
+     }
+    ]
+   },
+   {
+    "paperId": "a510575074ae0c2b21442881bd5573b4a2b3c089",
+    "externalIds": {
+     "ArXiv": "2609.39403",
+     "CorpusId": 292486597
+    },
+    "title": "IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-30",
+    "authors": [
+     {
+      "authorId": "2337854884",
+      "name": "Hui-Min Pan",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 10,
+      "hIndex": 2
+     },
+     {
+      "authorId": null,
+      "name": "Yu-Fan Ren",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "8799238",
+      "name": "Kun-Peng Song",
+      "affiliations": [],
+      "paperCount": 16,
+      "citationCount": 706,
+      "hIndex": 9
+     },
+     {
+      "authorId": null,
+      "name": "Si-Yang Wang",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": null,
+      "name": "Xi-Wen Zhang",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2506228788",
+      "name": "Xiao-Yun Hu",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2506242472",
+      "name": "Zhuo-Xu Duan",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": null,
+      "name": "Han-Rui Zheng",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2433441562",
+      "name": "Jia-Leng Ni",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 1,
+      "hIndex": 1
+     },
+     {
+      "authorId": "2055271021",
+      "name": "Nathan Zhao",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 15,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2506221345",
+      "name": "Si-Bo Ma",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2408599578",
+      "name": "Zhen-Xuan Fan",
+      "affiliations": [],
+      "paperCount": 8,
+      "citationCount": 27,
+      "hIndex": 3
+     },
+     {
+      "authorId": "2505455022",
+      "name": "Zhong-Yang Che",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2325311255",
+      "name": "Da-Yang Bao",
+      "affiliations": [],
+      "paperCount": 1,
+      "citationCount": 1,
+      "hIndex": 1
+     },
+     {
+      "authorId": "145183703",
+      "name": "Jiacheng Wei",
+      "affiliations": [
+       "Nanyang Technological University"
+      ],
+      "paperCount": 28,
+      "citationCount": 551,
+      "hIndex": 11
+     },
+     {
+      "authorId": "2430786127",
+      "name": "J. Bai",
+      "affiliations": [],
+      "paperCount": 7,
+      "citationCount": 14,
+      "hIndex": 2
+     },
+     {
+      "authorId": "2467371588",
+      "name": "X. Yue",
+      "affiliations": [],
+      "paperCount": 3,
+      "citationCount": 5,
+      "hIndex": 2
+     },
+     {
+      "authorId": null,
+      "name": "Xiao-Yang Guo",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": null,
+      "name": "Chen-Yi Chen",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     }
+    ]
+   },
+   {
+    "paperId": "f68b78b74704e52359b6cb5fccfff4bf4001dc53",
+    "externalIds": {
+     "ArXiv": "2609.40353",
+     "CorpusId": 292486962
+    },
+    "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
+    "venue": "",
+    "citationCount": 0,
+    "influentialCitationCount": 0,
+    "publicationDate": "2026-09-30",
+    "authors": [
+     {
+      "authorId": null,
+      "name": "Jia-Hao Zhang",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2506228627",
+      "name": "Ye-Ying Fan",
+      "affiliations": [],
+      "paperCount": 0,
+      "citationCount": 0,
+      "hIndex": 0
+     },
+     {
+      "authorId": "2479187",
+      "name": "Moitreya Chatterjee",
+      "affiliations": [],
+      "paperCount": 39,
+      "citationCount": 825,
+      "hIndex": 14
+     },
+     {
+      "authorId": "1890366",
+      "name": "S. Lohit",
+      "affiliations": [],
+      "paperCount": 59,
+      "citationCount": 1710,
+      "hIndex": 17
+     },
+     {
+      "authorId": "2298268431",
+      "name": "Bernhard Egger",
+      "affiliations": [],
+      "paperCount": 3,
+      "citationCount": 38,
+      "hIndex": 1
+     },
+     {
+      "authorId": "2239875718",
+      "name": "Tim K. Marks",
+      "affiliations": [],
+      "paperCount": 16,
+      "citationCount": 97,
+      "hIndex": 5
+     },
+     {
+      "authorId": "2691929",
+      "name": "A. Cherian",
+      "affiliations": [],
+      "paperCount": 166,
+      "citationCount": 4602,
+      "hIndex": 40
+     },
+     {
+      "authorId": "2261980835",
+      "name": "Stephen Gould",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 19,
+      "hIndex": 2
+     }
+    ]
+   }
+  ]
+ },
+ "s2_author_batch": {
+  "_request": "POST https://api.semanticscholar.org/graph/v1/author/batch?fields=name,affiliations,homepage,paperCount,citationCount,hIndex,externalIds,url body={\"ids\":[...]}",
+  "result": [
+   {
+    "authorId": "1944801",
+    "externalIds": {
+     "DBLP": [
+      "Karol Hausman"
+     ]
+    },
+    "url": "https://www.semanticscholar.org/author/1944801",
+    "name": "Karol Hausman",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 119,
+    "citationCount": 35638,
+    "hIndex": 50
+   },
+   {
+    "authorId": "2704814",
+    "externalIds": {
+     "DBLP": [
+      "Brian Ichter"
+     ]
+    },
+    "url": "https://www.semanticscholar.org/author/2704814",
+    "name": "Brian Ichter",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 83,
+    "citationCount": 32617,
+    "hIndex": 45
+   },
+   {
+    "authorId": "49720341",
+    "externalIds": {
+     "DBLP": [
+      "Alexis Duburcq"
+     ]
+    },
+    "url": "https://www.semanticscholar.org/author/49720341",
+    "name": "Alexis Duburcq",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 11,
+    "citationCount": 559,
+    "hIndex": 7
+   },
+   {
+    "authorId": "92573005",
+    "externalIds": {
+     "DBLP": [
+      "Sanghyun Son 0003"
+     ]
+    },
+    "url": "https://www.semanticscholar.org/author/92573005",
+    "name": "Sanghyun Son",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 20,
+    "citationCount": 178,
+    "hIndex": 9
+   },
+   {
+    "authorId": "2304744634",
+    "externalIds": {
+     "DBLP": [
+      "Yijie Guo"
+     ]
+    },
+    "url": "https://www.semanticscholar.org/author/2304744634",
+    "name": "Yi-Jie Guo",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 50,
+    "citationCount": 2617,
+    "hIndex": 19
+   }
+  ]
+ }
+}

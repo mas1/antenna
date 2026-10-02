@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Pipeline working state (the web export in web/src/data is committed)
+pipeline/data/
+
+# Web
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+.DS_Store
+
+# Raw agent audit output: working notes about named companies and people.
+# What the pipeline needs from them is in pipeline/review.json.
+docs/sources/_*.json
+
+# Local editor and preview settings
+.claude/

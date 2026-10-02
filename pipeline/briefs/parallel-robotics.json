@@ -1,0 +1,89 @@
+{
+ "slug": "parallel-robotics",
+ "generatedAt": "2026-10-02",
+ "summary": "Parallel Robotics is an Ann Arbor company developing hand-held, electrically powered instruments for laparoscopic surgery. Its one 510(k) on record, the MediBot Needle Driver Uno, is a single-use articulating needle driver connected by cable to a control box. The FDA cleared it as a Class II device on 24 May 2026.",
+ "thesis": "A surgical device company with one FDA-cleared product. It sits at the medical edge of a robotics mandate, not in industrial robotics, defense or energy. Open question: whether the NSF-funded manipulator becomes a lower-cost alternative to surgical robots.",
+ "stage": "Form D filed 21 September 2026 by Parallel Robotics, Inc. (Delaware): $7,310,193 sold of $11,310,187 to 32 investors, first sale 28 August 2026. Per the filing, the offering includes preferred stock issued on conversion of $6,310,206 of notes. No investors are named. In the LLC's name: a $250,000 state-program convertible debt investment (October 2024), FDA clearance (May 2026) and a $305,000 NSF SBIR Phase I award (July 2026).",
+ "team": [
+  {
+   "name": "Shorya Awtar",
+   "background": "CEO, per the Form D. University of Michigan pages describe him as founder, professor of mechanical engineering, FlexDex co-founder and National Academy of Engineering member (2023)."
+  },
+  {
+   "name": "Nishant Jalgaonkar",
+   "background": "Principal investigator on the NSF SBIR Phase I award. A 2022 University of Michigan news item describes a person of this name as a PhD candidate."
+  },
+  {
+   "name": "Russell Jahnke",
+   "background": "Quality Manager, named as company contact on the FDA 510(k) clearance letter for K260183."
+  },
+  {
+   "name": "Omar Roushdy",
+   "background": "Director, per the Form D. No source read gives his background."
+  }
+ ],
+ "questions": [
+  "Of the $7,310,193 sold, how much is new cash and how much is the $6,310,206 of converted notes, who led, and at what price?",
+  "How are Parallel Robotics, Inc. and Parallel Robotics LLC related, and do the FDA clearance, NSF award and University of Michigan license now sit with the corporation?",
+  "What is the commercial plan for the MediBot Needle Driver Uno: price, manufacturer, and has it been used in a clinical case or sold to a hospital?",
+  "Is Shorya Awtar full time at the company or an active professor, and what is headcount (SBIR.gov lists 13, the state report 1.0 FTE at September 2025)?"
+ ],
+ "risks": [
+  "Sector fit and evidence. A regulated medical device for hospitals, not industrial robotics, defense, energy or manufacturing. The 510(k) summary says performance was evaluated primarily through non-clinical testing.",
+  "Round composition. The offering includes preferred stock from conversion of $6,310,206 of notes against $7,310,193 sold, $3,999,994 is unsold, and the filing names no lead or institutional investor.",
+  "Entity structure. Core patents are licensed from the University of Michigan to the LLC. No source read says how its license, clearance and grant relate to the Delaware corporation."
+ ],
+ "unverified": [
+  "If the converted notes are counted in the amount sold, new cash so far is $999,987. The filing does not say so.",
+  "Not confirmed whether the University of Michigan's Accelerate Blue Fund or any other named fund took part in the 2026 offering.",
+  "A fundup.ai search snippet labels the offering a Series A. The Form D does not name the round."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 21 September 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2155434/000215543426000001/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "FDA 510(k) K260183 clearance letter and summary",
+   "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260183.pdf"
+  },
+  {
+   "title": "SBIR.gov award record, NSF Phase I",
+   "url": "https://www.sbir.gov/awards/220826"
+  },
+  {
+   "title": "University of Michigan Regents, 19 February 2026",
+   "url": "https://regents.umich.edu/files/meetings/02-26/2026-02-IX-25.pdf"
+  },
+  {
+   "title": "University of Michigan Regents minutes, 21 May 2026",
+   "url": "https://regents.umich.edu/files/meetings/06-26/2026-06-I-1.pdf"
+  },
+  {
+   "title": "Michigan Strategic Fund FY2025 annual report",
+   "url": "https://www.michiganbusiness.org/globalassets/documents/reports/legislative-reports/fy-2025-msf-medc-annual-report.pdf"
+  },
+  {
+   "title": "Michigan Engineering News, 10 February 2023",
+   "url": "https://news.engin.umich.edu/2023/02/new-nae-members-developed-low-cost-surgical-device-and-transformational-approach-to-design/"
+  },
+  {
+   "title": "University of Michigan lab profile, Shorya Awtar",
+   "url": "https://psdl.engin.umich.edu/ProfAwtar.php"
+  },
+  {
+   "title": "U-M Mechanical Engineering news, 16 May 2022",
+   "url": "https://me.engin.umich.edu/news-events/news/me-gsi-nishant-jalgaonkar-selected-for-2022-rackham-outstanding-gsi-award/"
+  },
+  {
+   "title": "SBIR.gov company record, Parallel Robotics LLC",
+   "url": "https://www.sbir.gov/portfolio/1838989"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2023-02-10",
+  "what": "University of Michigan's Michigan Engineering News said Shorya Awtar was on leave launching his new company, Parallel Robotics.",
+  "url": "https://news.engin.umich.edu/2023/02/new-nae-members-developed-low-cost-surgical-device-and-transformational-approach-to-design/"
+ }
+}

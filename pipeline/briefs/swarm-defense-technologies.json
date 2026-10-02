@@ -1,0 +1,89 @@
+{
+ "slug": "swarm-defense-technologies",
+ "generatedAt": "2026-10-02",
+ "summary": "Swarm Defense builds small drones, and the software that lets one operator fly several of them, in Auburn Hills, Michigan. Products include the Kiwi, a quadcopter ordered in a one-way attack configuration, and target drones for counter-drone training. It says it grew out of Firefly Drone Shows, a light-show drone maker.",
+ "thesis": "Swarm Defense announced a minimum $25 million Department of War order for 4,000 Kiwi attack drones. The only equity on record is $1,435,000. The company says its swarm control software was developed over eight years of drone light shows.",
+ "stage": "A Form D filed 17 April 2026 reports $1,435,000 of equity sold to 10 investors (one non-accredited) and names none. FPDS shows $1,174,176 obligated across three awards. The company won no delivery order after Gauntlet I, placed fifth in Gauntlet II deep strike, and announced the minimum $25 million, 4,000-drone prototype order on 22 September 2026. It was not in FPDS on 2 October 2026.",
+ "team": [
+  {
+   "name": "Kyle Dorosz",
+   "background": "CEO and founder (company release), the only executive officer and director named on the Form D. Founded Firefly with Ryan Sigmon in 2017 (New York Times)."
+  },
+  {
+   "name": "Adam Wright",
+   "background": "President, described in both company releases as a former Navy SEAL. No source read gives his start date or prior employers."
+  },
+  {
+   "name": "Ryan Sigmon",
+   "background": "Founded Firefly with Dorosz and decided with him in 2024 to shift to defense drones (New York Times). No source read gives him a title at Swarm Defense."
+  },
+  {
+   "name": "Jonathan Hearl",
+   "background": "Chief pilot officer, per a U.S. Army National Guard photo caption showing him operating Swarm Threat Emulator drones at Camp Grayling, Michigan, on 7 August 2026."
+  }
+ ],
+ "questions": [
+  "What is the relationship with Firefly Drone Shows: which entity owns the swarm software, flight controller designs and employees, and do the two share a cap table?",
+  "Who are the 10 investors in the $1,435,000 on the Form D, on what terms, and is a larger raise planned to fund the 4,000-drone order?",
+  "On the Kiwi order, what is the delivery schedule, who supplies the munitions, and how much of the roughly $6,250 per drone stays with Swarm Defense?",
+  "What is actual monthly output today? The February 2026 release says capacity of 72,000 units a year, and a March 2026 WNEM report says 12,000 a year."
+ ],
+ "risks": [
+  "Separation from Firefly Drone Shows is unclear. The company says it spun out in August 2024 and shares resources with Firefly. The New York Times describes a rename.",
+  "The program behind its one large order re-ranks vendors each round. It won no delivery order after Gauntlet I and placed fifth of five in Gauntlet II deep strike.",
+  "Delivering an armed product at this scale is unproven. The New York Times described October 2025 output as target drones under 2 pounds. The company gave no delivery schedule."
+ ],
+ "unverified": [
+  "The company claims capacity of 72,000 units a year, a single operator controlling 2,000+ drones and a fully NDAA-compliant supply chain. None is independently confirmed.",
+  "A PitchBook search snippet lists a $1.44M seed round on 17 April 2026, not confirmed. The Form D does not call the round a seed.",
+  "A search snippet says Adam Wright served a decade as a Navy SEAL and a LinkedIn snippet gives University of Chicago Booth. Neither page could be opened."
+ ],
+ "sources": [
+  {
+   "title": "Company release, 22 September 2026",
+   "url": "https://www.prnewswire.com/news-releases/swarm-defense-receives-minimum-25-million-drone-dominance-order-for-4-000-kiwi-attack-drones-302885005.html"
+  },
+  {
+   "title": "Form D, 17 April 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130440/000213044026000001/primary_doc.xml"
+  },
+  {
+   "title": "FPDS records, Swarm Defense Technologies",
+   "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&q=VENDOR_NAME:%22SWARM%20DEFENSE%20TECHNOLOGIES%22"
+  },
+  {
+   "title": "DefenseScoop, 18 September 2026",
+   "url": "https://defensescoop.com/2026/09/18/drone-dominance-program-gauntlet-2-results/"
+  },
+  {
+   "title": "DefenseScoop, 9 March 2026",
+   "url": "https://defensescoop.com/2026/03/09/dod-drone-dominance-program-gauntlet-i-results/"
+  },
+  {
+   "title": "Company release, 11 February 2026",
+   "url": "https://www.prnewswire.com/news-releases/swarm-defense-selected-for-1-1-billion-us-drone-dominance-program-302685426.html"
+  },
+  {
+   "title": "New York Times (syndicated copy), 13 October 2025",
+   "url": "https://www.wjournalpr.com/business/factory-towns-revive-as-defense-tech-makers-arrive/article_5cc32355-f6f0-45aa-835c-fc38de487d36.html"
+  },
+  {
+   "title": "WNEM, 10 March 2026",
+   "url": "https://www.wnem.com/2026/03/11/inside-americas-drone-future-how-michigan-is-preparing-military-battle/"
+  },
+  {
+   "title": "State of Michigan release, 23 September 2025",
+   "url": "https://www.michiganbusiness.org/press-releases/2025/09/mobility-prototyping-grant-winners/"
+  },
+  {
+   "title": "DVIDS photo caption, 7 August 2026",
+   "url": "https://www.dvidshub.net/image/9857492/industry-partners-demonstrate-emerging-technologies-during-northern-strike-26-2"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-09-23",
+  "what": "A State of Michigan press release named Swarm Defense among the 2025 Mobility Prototyping Grant winners, for a target drone production line.",
+  "url": "https://www.michiganbusiness.org/press-releases/2025/09/mobility-prototyping-grant-winners/"
+ }
+}

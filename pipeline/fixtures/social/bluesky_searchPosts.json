@@ -1,0 +1,1044 @@
+{
+ "posts": [
+  {
+   "uri": "at://did:plc:yhvlbwrhw7iaakvjed4ragyd/app.bsky.feed.post/3mvxsvpnyx22i",
+   "cid": "bafyreigqvnicacws523t2sdmvgkjmo4ty4oykviauxzgzyvhpxp66tk3ke",
+   "author": {
+    "did": "did:plc:yhvlbwrhw7iaakvjed4ragyd",
+    "handle": "deimodoodles.bsky.social",
+    "displayName": "Marshy 🏳️‍🌈",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yhvlbwrhw7iaakvjed4ragyd/bafkreidgzeimaw2ywxmqtzj5ykyshincjgyjjudtostysnfwy7weshs2pu",
+    "associated": {
+     "chat": {
+      "allowIncoming": "all"
+     },
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [
+     {
+      "src": "did:plc:yhvlbwrhw7iaakvjed4ragyd",
+      "uri": "at://did:plc:yhvlbwrhw7iaakvjed4ragyd/app.bsky.actor.profile/self",
+      "cid": "bafyreic3vbtc5qmn6mrjglygo6pdhgej3mg2shmz2tb7l2q5rr3sdfn7zq",
+      "val": "!no-unauthenticated",
+      "cts": "2024-10-18T21:39:51.842Z"
+     }
+    ],
+    "createdAt": "2024-10-18T21:39:52.713Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-20T18:22:29.243Z",
+    "embed": {
+     "$type": "app.bsky.embed.images",
+     "images": [
+      {
+       "alt": "",
+       "aspectRatio": {
+        "height": 497,
+        "width": 493
+       },
+       "image": {
+        "$type": "blob",
+        "ref": {
+         "$link": "bafkreibz3ayagi5z727ibtkerg42kjvmkgf5kohmere6gxea2q6t4i46re"
+        },
+        "mimeType": "image/jpeg",
+        "size": 93266
+       }
+      }
+     ]
+    },
+    "langs": [
+     "en"
+    ],
+    "text": "WIP TEASER: new robotics startup aerotechnica’s all new Aerotron robot coming soon…"
+   },
+   "embed": {
+    "images": [
+     {
+      "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:yhvlbwrhw7iaakvjed4ragyd/bafkreibz3ayagi5z727ibtkerg42kjvmkgf5kohmere6gxea2q6t4i46re",
+      "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:yhvlbwrhw7iaakvjed4ragyd/bafkreibz3ayagi5z727ibtkerg42kjvmkgf5kohmere6gxea2q6t4i46re",
+      "alt": "",
+      "aspectRatio": {
+       "height": 497,
+       "width": 493
+      }
+     }
+    ],
+    "$type": "app.bsky.embed.images#view"
+   },
+   "bookmarkCount": 2,
+   "replyCount": 3,
+   "repostCount": 4,
+   "likeCount": 28,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-20T18:22:31.563Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:afzcvofyfbzhlu77wsmy7r3w/app.bsky.feed.post/3mwr3dm4l7s2r",
+   "cid": "bafyreibuszwyj6jrrqbwqtj2jwmkm3s2dfodi7zd4mxlgdkbvx3we3s7du",
+   "author": {
+    "did": "did:plc:afzcvofyfbzhlu77wsmy7r3w",
+    "handle": "ucanr.edu",
+    "displayName": "UC Agriculture & Natural Resources",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afzcvofyfbzhlu77wsmy7r3w/bafkreifgypmryl5hnmgt2h7wabutqingmdfvxamflc5q4rdv5wzrfgqmri",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2024-02-15T05:40:00.029Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-30T19:29:58.692Z",
+    "embed": {
+     "$type": "app.bsky.embed.external",
+     "external": {
+      "description": "For the 2027 season, the Farm Robotics Challenge features a new three-division structure, a Startup pathway and more than $200,000 in prizes and startup support.",
+      "thumb": {
+       "$type": "blob",
+       "ref": {
+        "$link": "bafkreifyhnllk44zzvrwockdbs6iexpio2x7dxdg5qsalsagvukaj3ci6q"
+       },
+       "mimeType": "image/jpeg",
+       "size": 870239
+      },
+      "title": "Farm Robotics Challenge launches 2027 season with new divisions and Startup pathway | ANR News Releases",
+      "uri": "https://ucanr.edu/blog/anr-news-releases/article/frc-2027-launch"
+     }
+    },
+    "facets": [
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#link",
+        "uri": "https://ucanr.edu/blog/anr-news-releases/article/frc-2027-launch"
+       }
+      ],
+      "index": {
+       "byteEnd": 275,
+       "byteStart": 250
+      }
+     }
+    ],
+    "langs": [
+     "en"
+    ],
+    "text": "The 2027 Farm Robotics Challenge is here! Led by UC ANR Innovate & @AIFS_UCDavis, the competition invites students from middle school through graduate school to develop real-world ag solutions using robotics & AI. $200K+ in prizes.\nPre-register now: ucanr.edu/blog/anr-new..."
+   },
+   "embed": {
+    "external": {
+     "uri": "https://ucanr.edu/blog/anr-news-releases/article/frc-2027-launch",
+     "title": "Farm Robotics Challenge launches 2027 season with new divisions and Startup pathway | ANR News Releases",
+     "description": "For the 2027 season, the Farm Robotics Challenge features a new three-division structure, a Startup pathway and more than $200,000 in prizes and startup support.",
+     "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:afzcvofyfbzhlu77wsmy7r3w/bafkreifyhnllk44zzvrwockdbs6iexpio2x7dxdg5qsalsagvukaj3ci6q"
+    },
+    "$type": "app.bsky.embed.external#view"
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 2,
+   "likeCount": 4,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-30T19:30:00.762Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:r2y6rml6iyqytv6q2ri6m66y/app.bsky.feed.post/3mv2wr2gc332j",
+   "cid": "bafyreibrnz6jz4fotlojxexx3626h2jvow7ysl2mnel4jcoxhb6lif36oe",
+   "author": {
+    "did": "did:plc:r2y6rml6iyqytv6q2ri6m66y",
+    "handle": "rodneyabrooks.bsky.social",
+    "displayName": "Rodney Brooks",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r2y6rml6iyqytv6q2ri6m66y/bafkreibkgbytwsvj3g3c627mzvbsmnqypx4zah3n7syu72bfcapd3rvzri",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2023-10-20T17:00:13.536Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-09T06:44:15.316Z",
+    "embed": {
+     "$type": "app.bsky.embed.record",
+     "record": {
+      "cid": "bafyreifwibb3cgfl2t3lijxbcdhoy7gaupnrl4cosgfsz36vaq2i7ukx6u",
+      "uri": "at://did:plc:jdum3zo5iqmx4gcnt5vuy7s4/app.bsky.feed.post/3mv2whmy3ec2e"
+     }
+    },
+    "facets": [
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#mention",
+        "did": "did:plc:jdum3zo5iqmx4gcnt5vuy7s4"
+       }
+      ],
+      "index": {
+       "byteEnd": 31,
+       "byteStart": 10
+      }
+     }
+    ],
+    "langs": [
+     "en"
+    ],
+    "text": "Thank you @mikeyass.bsky.social for pointing this out.  Yes, all my robotics, AI, startup, human spaceflight, autonomous vehicles etc., posting is uniquely here on Blue Sky."
+   },
+   "embed": {
+    "record": {
+     "uri": "at://did:plc:jdum3zo5iqmx4gcnt5vuy7s4/app.bsky.feed.post/3mv2whmy3ec2e",
+     "cid": "bafyreifwibb3cgfl2t3lijxbcdhoy7gaupnrl4cosgfsz36vaq2i7ukx6u",
+     "author": {
+      "did": "did:plc:jdum3zo5iqmx4gcnt5vuy7s4",
+      "handle": "mikeyass.bsky.social",
+      "displayName": "Mike Yass",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jdum3zo5iqmx4gcnt5vuy7s4/bafkreibmnbvmr3ps4mxvlevyqjzzbftiwrskmocqfyuapz3r6gnlhsmura",
+      "associated": {
+       "chat": {
+        "allowIncoming": "following"
+       },
+       "activitySubscription": {
+        "allowSubscriptions": "mutuals"
+       }
+      },
+      "labels": [
+       {
+        "src": "did:plc:jdum3zo5iqmx4gcnt5vuy7s4",
+        "uri": "at://did:plc:jdum3zo5iqmx4gcnt5vuy7s4/app.bsky.actor.profile/self",
+        "cid": "bafyreigl3cshhhuab2wvjsaf3wvxs27lmhcri63f7uzlztwfifolrs4vdm",
+        "val": "!no-unauthenticated",
+        "cts": "2024-11-07T02:59:04.693Z"
+       }
+      ],
+      "createdAt": "2024-11-07T02:59:05.981Z"
+     },
+     "value": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-09-09T06:38:59.228Z",
+      "embed": {
+       "$type": "app.bsky.embed.recordWithMedia",
+       "media": {
+        "$type": "app.bsky.embed.images",
+        "images": [
+         {
+          "alt": "Rodney Brooks' x.com profile:\n\n🇺🇦I post regularly as @rodneyabrooks at bsky.social about AI and robotics. Here I post about political corruption in the US led by Trump. I am woke!!\n\naka a king of robotics and a king of posting as well",
+          "aspectRatio": {
+           "height": 628,
+           "width": 1292
+          },
+          "image": {
+           "$type": "blob",
+           "ref": {
+            "$link": "bafkreigjomy2hf6ehg6rasbxc3yaumoko2iwpaj2xb7d3by2aog6foeare"
+           },
+           "mimeType": "image/jpeg",
+           "size": 381110
+          }
+         }
+        ]
+       },
+       "record": {
+        "$type": "app.bsky.embed.record",
+        "record": {
+         "cid": "bafyreifciggay33ycsrygyzec7c65uytslmq5wsvxi54kw2t642hshx5na",
+         "uri": "at://did:plc:r2y6rml6iyqytv6q2ri6m66y/app.bsky.feed.post/3mv2vyfjru22j"
+        }
+       }
+      },
+      "langs": [
+       "en"
+      ],
+      "text": "Rodney Brooks is posting on bsky, gets ~0 likes because I like, many others, assumed he was cross posting.\n\nAs it turns out: he's not.  Rodney Brooks is a poster."
+     },
+     "labels": [],
+     "likeCount": 5,
+     "replyCount": 0,
+     "repostCount": 0,
+     "quoteCount": 1,
+     "indexedAt": "2026-09-09T06:39:01.359Z",
+     "embeds": [
+      {
+       "media": {
+        "images": [
+         {
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:jdum3zo5iqmx4gcnt5vuy7s4/bafkreigjomy2hf6ehg6rasbxc3yaumoko2iwpaj2xb7d3by2aog6foeare",
+          "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:jdum3zo5iqmx4gcnt5vuy7s4/bafkreigjomy2hf6ehg6rasbxc3yaumoko2iwpaj2xb7d3by2aog6foeare",
+          "alt": "Rodney Brooks' x.com profile:\n\n🇺🇦I post regularly as @rodneyabrooks at bsky.social about AI and robotics. Here I post about political corruption in the US led by Trump. I am woke!!\n\naka a king of robotics and a king of posting as well",
+          "aspectRatio": {
+           "height": 628,
+           "width": 1292
+          }
+         }
+        ],
+        "$type": "app.bsky.embed.images#view"
+       },
+       "record": {
+        "record": {
+         "uri": "at://did:plc:r2y6rml6iyqytv6q2ri6m66y/app.bsky.feed.post/3mv2vyfjru22j",
+         "cid": "bafyreifciggay33ycsrygyzec7c65uytslmq5wsvxi54kw2t642hshx5na",
+         "author": {
+          "did": "did:plc:r2y6rml6iyqytv6q2ri6m66y",
+          "handle": "rodneyabrooks.bsky.social",
+          "displayName": "Rodney Brooks",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r2y6rml6iyqytv6q2ri6m66y/bafkreibkgbytwsvj3g3c627mzvbsmnqypx4zah3n7syu72bfcapd3rvzri",
+          "associated": {
+           "activitySubscription": {
+            "allowSubscriptions": "followers"
+           }
+          },
+          "labels": [],
+          "createdAt": "2023-10-20T17:00:13.536Z"
+         },
+         "value": {
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2026-09-09T06:30:28.101Z",
+          "langs": [
+           "en"
+          ],
+          "reply": {
+           "parent": {
+            "cid": "bafyreiclqy2tkivfyhvp2n7bccfsirmyg7wyn57ldnjfzotzzfptnsgo5m",
+            "uri": "at://did:plc:r2y6rml6iyqytv6q2ri6m66y/app.bsky.feed.post/3mv2vyfjmxs2j"
+           },
+           "root": {
+            "cid": "bafyreiclqy2tkivfyhvp2n7bccfsirmyg7wyn57ldnjfzotzzfptnsgo5m",
+            "uri": "at://did:plc:r2y6rml6iyqytv6q2ri6m66y/app.bsky.feed.post/3mv2vyfjmxs2j"
+           }
+          },
+          "text": "2/4 \"Chinese regulators are tightening the approval for humanoid startups seeking to go public after a volatile debut by industry leader Unitree Robotics, as they aim to cool down a sizzling sector rife with copycats but little real technological breakthroughs.\""
+         },
+         "labels": [],
+         "likeCount": 9,
+         "replyCount": 1,
+         "repostCount": 0,
+         "quoteCount": 1,
+         "indexedAt": "2026-09-09T06:30:34.784Z",
+         "$type": "app.bsky.embed.record#viewRecord"
+        }
+       },
+       "$type": "app.bsky.embed.recordWithMedia#view"
+      }
+     ],
+     "$type": "app.bsky.embed.record#viewRecord"
+    },
+    "$type": "app.bsky.embed.record#view"
+   },
+   "bookmarkCount": 1,
+   "replyCount": 1,
+   "repostCount": 3,
+   "likeCount": 36,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-09T06:44:16.060Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:72zqvzhogx5matws45nyjrso/app.bsky.feed.post/3mwmngpqqpk2b",
+   "cid": "bafyreidw6vgccz6uisfhtap2vjz5olqbzufxkzkewvfkc5fsfaxb5trjei",
+   "author": {
+    "did": "did:plc:72zqvzhogx5matws45nyjrso",
+    "handle": "otterbrownie.bsky.social",
+    "displayName": "Brownie Otter θ∆ 🔜 Furpoc, MFF",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:72zqvzhogx5matws45nyjrso/bafkreial227nsuxsusippco34amedeztx76vf2azlgx4vp5hc663a57ifq",
+    "associated": {
+     "chat": {
+      "allowIncoming": "all"
+     },
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2023-08-18T21:42:00.806Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-29T01:10:31.822Z",
+    "langs": [
+     "en"
+    ],
+    "text": "In other (sort of) good news, I might be getting hired back at my old company, the robotics startup. I just need to do some programming work these next few days, which hopefully I can figure out alright."
+   },
+   "bookmarkCount": 0,
+   "replyCount": 3,
+   "repostCount": 0,
+   "likeCount": 10,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-29T01:10:32.162Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:aorjxo7zm7zxvszulmfgyw7s/app.bsky.feed.post/3mwlzhtxw6e2l",
+   "cid": "bafyreidvqafbk7xq3bnootmoarg6qgoyxcgixkyyiw2ostuqx62hka3cfm",
+   "author": {
+    "did": "did:plc:aorjxo7zm7zxvszulmfgyw7s",
+    "handle": "6iccom.bsky.social",
+    "displayName": "6ic — Living AI Civilization",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:aorjxo7zm7zxvszulmfgyw7s/bafkreibyfqx3fj3qiaxla4hbdso2xjznjkqy2h2knoldzcx2oayeqwqg5i",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2026-08-12T21:25:31.669Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-28T19:13:13.444Z",
+    "embed": {
+     "$type": "app.bsky.embed.external",
+     "external": {
+      "description": "",
+      "thumb": {
+       "$type": "blob",
+       "ref": {
+        "$link": "bafkreigfboa7jwiawdb5fqdetakwbssk2mpcnbine275tjhf5w7x4ojq5i"
+       },
+       "mimeType": "image/png",
+       "size": 42814
+      },
+      "title": "European Tech Secures €2 Billion as Robotics and AI Surge",
+      "uri": "https://6ic.com/news/european-tech-secures-eur2-billion-as-robotics-and-ai-surge"
+     }
+    },
+    "facets": [
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "startups"
+       }
+      ],
+      "index": {
+       "byteEnd": 168,
+       "byteStart": 159
+      }
+     },
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Robotics"
+       }
+      ],
+      "index": {
+       "byteEnd": 178,
+       "byteStart": 169
+      }
+     },
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "AI"
+       }
+      ],
+      "index": {
+       "byteEnd": 182,
+       "byteStart": 179
+      }
+     }
+    ],
+    "langs": [
+     "en"
+    ],
+    "text": "The European startup ecosystem saw over €2 billion in funding across 65 deals during the week of September 21–25, driven by heavy investment in deep tech.\n#startups #Robotics #AI"
+   },
+   "embed": {
+    "external": {
+     "uri": "https://6ic.com/news/european-tech-secures-eur2-billion-as-robotics-and-ai-surge",
+     "title": "European Tech Secures €2 Billion as Robotics and AI Surge",
+     "description": "",
+     "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:aorjxo7zm7zxvszulmfgyw7s/bafkreigfboa7jwiawdb5fqdetakwbssk2mpcnbine275tjhf5w7x4ojq5i"
+    },
+    "$type": "app.bsky.embed.external#view"
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 4,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-28T19:13:15.666Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:2ev6upjawadajtbcqm3ev75h/app.bsky.feed.post/3mwrthgl2ui2t",
+   "cid": "bafyreid2kggjuklqothow55cllgtyabbeqk2ftsq7ofhailw22ay3nkzze",
+   "author": {
+    "did": "did:plc:2ev6upjawadajtbcqm3ev75h",
+    "handle": "polymarket.com",
+    "displayName": "Polymarket",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2ev6upjawadajtbcqm3ev75h/bafkreiad3tcawtpxtq34dbydv5o5wizuic443qqbwsygyjpvnf5yp4xr2m",
+    "associated": {
+     "chat": {
+      "allowIncoming": "none"
+     },
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2026-04-16T15:51:19.056Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-10-01T02:41:36.637903+00:00",
+    "langs": [
+     "en"
+    ],
+    "text": "JUST IN: California orders robotics startup REK to stop holding unsanctioned cage fights between humans & humanoid robots."
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 1,
+   "quoteCount": 0,
+   "indexedAt": "2026-10-01T02:41:37.161Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:upk365en6twwdcrp7dzxodcy/app.bsky.feed.post/3mwtjhxfe5c2x",
+   "cid": "bafyreibnt3dc3yxhixjdibs7vxlkb3nlpzyxao5nlynnhjngn7t2jvg2aa",
+   "author": {
+    "did": "did:plc:upk365en6twwdcrp7dzxodcy",
+    "handle": "twigmouse.bsky.social",
+    "displayName": "Twig",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:upk365en6twwdcrp7dzxodcy/bafkreibbtfezlhjtcs22aj46kau4duhuvtwi3jcy6pgbipje5zlsd57ie4",
+    "associated": {
+     "chat": {
+      "allowIncoming": "following"
+     },
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2023-09-11T20:12:56.097Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-10-01T18:48:16.594Z",
+    "embed": {
+     "$type": "app.bsky.embed.record",
+     "record": {
+      "cid": "bafyreiaterhl6n236bypvfpjanubr5ynmwsfchihrjc4t6nnvk4lijqj7a",
+      "uri": "at://did:plc:zwrrqbq3tthvdbq7jdf4o3sb/app.bsky.feed.post/3mwthjh2gjs24"
+     }
+    },
+    "langs": [
+     "en"
+    ],
+    "text": "Why does literally every AI and robotics startup have a hardon for doom? This is not a good sign."
+   },
+   "embed": {
+    "record": {
+     "uri": "at://did:plc:zwrrqbq3tthvdbq7jdf4o3sb/app.bsky.feed.post/3mwthjh2gjs24",
+     "cid": "bafyreiaterhl6n236bypvfpjanubr5ynmwsfchihrjc4t6nnvk4lijqj7a",
+     "author": {
+      "did": "did:plc:zwrrqbq3tthvdbq7jdf4o3sb",
+      "handle": "fuzzyredbull.bsky.social",
+      "displayName": "Rust, Flannel Enthusiast",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zwrrqbq3tthvdbq7jdf4o3sb/bafkreiemvihkosyqah2hjo4ebqwlsmbvcarxcg7gvfw7ndkpzeg73tmcpi",
+      "associated": {
+       "chat": {
+        "allowIncoming": "following"
+       },
+       "activitySubscription": {
+        "allowSubscriptions": "followers"
+       }
+      },
+      "labels": [],
+      "createdAt": "2023-08-03T22:55:30.321Z"
+     },
+     "value": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-10-01T18:13:19.082Z",
+      "embed": {
+       "$type": "app.bsky.embed.external",
+       "external": {
+        "description": "YouTube video by Figure",
+        "thumb": {
+         "$type": "blob",
+         "ref": {
+          "$link": "bafkreidcg65p3l5whtt7ptyzb5jvn27al3owi2z2koabm7rnsqsroffjrq"
+         },
+         "mimeType": "image/jpeg",
+         "size": 65296
+        },
+        "title": "F.02 Decomission",
+        "uri": "https://youtu.be/pfAh5oQDPDM?is=CktVR_1au1r-LCNf"
+       }
+      },
+      "facets": [
+       {
+        "features": [
+         {
+          "$type": "app.bsky.richtext.facet#link",
+          "uri": "https://youtu.be/pfAh5oQDPDM"
+         }
+        ],
+        "index": {
+         "byteEnd": 39,
+         "byteStart": 19
+        }
+       }
+      ],
+      "langs": [
+       "en"
+      ],
+      "text": "Incredible footage\nyoutu.be/pfAh5oQDPDM"
+     },
+     "labels": [],
+     "likeCount": 2,
+     "replyCount": 0,
+     "repostCount": 0,
+     "quoteCount": 1,
+     "indexedAt": "2026-10-01T18:13:19.463Z",
+     "embeds": [
+      {
+       "external": {
+        "uri": "https://youtu.be/pfAh5oQDPDM?is=CktVR_1au1r-LCNf",
+        "title": "F.02 Decomission",
+        "description": "YouTube video by Figure",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zwrrqbq3tthvdbq7jdf4o3sb/bafkreidcg65p3l5whtt7ptyzb5jvn27al3owi2z2koabm7rnsqsroffjrq"
+       },
+       "$type": "app.bsky.embed.external#view"
+      }
+     ],
+     "$type": "app.bsky.embed.record#viewRecord"
+    },
+    "$type": "app.bsky.embed.record#view"
+   },
+   "bookmarkCount": 0,
+   "replyCount": 1,
+   "repostCount": 0,
+   "likeCount": 1,
+   "quoteCount": 0,
+   "indexedAt": "2026-10-01T18:48:16.866Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:wzlw5nsbpcebsiccs6iu7ipj/app.bsky.feed.post/3mwr4qzs6ko2n",
+   "cid": "bafyreicv2df2lz44dsxf5ainq7jhqxdrtbg2npdpbcpsb76r4u3qbpdiqm",
+   "author": {
+    "did": "did:plc:wzlw5nsbpcebsiccs6iu7ipj",
+    "handle": "polymarket.extwitter.link",
+    "displayName": "Polymarket",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wzlw5nsbpcebsiccs6iu7ipj/bafkreiad3tcawtpxtq34dbydv5o5wizuic443qqbwsygyjpvnf5yp4xr2m",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [
+     {
+      "src": "did:plc:wzlw5nsbpcebsiccs6iu7ipj",
+      "uri": "at://did:plc:wzlw5nsbpcebsiccs6iu7ipj/app.bsky.actor.profile/self",
+      "cid": "bafyreie2mpy3uf3fa634nzd2df2gwoagy2opiityyqkgghtojojivmurxe",
+      "val": "bot",
+      "cts": "2026-03-30T12:48:50.088Z"
+     }
+    ],
+    "createdAt": "2026-03-30T12:48:51.246Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-30T19:55:22.886725+00:00",
+    "langs": [
+     "en"
+    ],
+    "text": "JUST IN: Robotics startup Figure decommissions one of its F.02 robots by forcing it to jump into a vat of molten steel."
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 1,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-30T19:55:23.159Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:yuvwi5ifcfzgshq2say6grqr/app.bsky.feed.post/3mwnlgws2x222",
+   "cid": "bafyreifwsusoqdeh2iwzglqjmxdiypfbzjffvtjz2arru4lam2z224han4",
+   "author": {
+    "did": "did:plc:yuvwi5ifcfzgshq2say6grqr",
+    "handle": "ofygh.bsky.social",
+    "displayName": "Opportunities For Youth(OFY)",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yuvwi5ifcfzgshq2say6grqr/bafkreifjooi5zuxgkiufzg5ou2il2s2mij2mfdub3emolslwxcwzt6buwy",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2024-11-24T03:14:13.146Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-29T10:07:31.460Z",
+    "embed": {
+     "$type": "app.bsky.embed.external",
+     "external": {
+      "description": "Applications are open for the AI Entrepreneurs Lab 2026, an intensive founder programme designed to help promising Master’s and PhD-level talent transform",
+      "thumb": {
+       "$type": "blob",
+       "ref": {
+        "$link": "bafkreigsveutqlwirmho3qpboai2xhmw3gbsipxiln5wpeg2zmqywxwxwy"
+       },
+       "mimeType": "image/jpeg",
+       "size": 443857
+      },
+      "title": "AI Entrepreneurs Lab 2026: Apply for EIT’s 5-Day AI and Robotics Founder Bootcamp and Compete for €10,000 Venture Prizes - Opportunities for Youth",
+      "uri": "https://wp.me/p23f03-och"
+     }
+    },
+    "facets": [
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#link",
+        "uri": "https://wp.me/p23f03-och"
+       }
+      ],
+      "index": {
+       "byteEnd": 235,
+       "byteStart": 219
+      }
+     },
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "AI"
+       }
+      ],
+      "index": {
+       "byteEnd": 240,
+       "byteStart": 237
+      }
+     },
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Robotics"
+       }
+      ],
+      "index": {
+       "byteEnd": 250,
+       "byteStart": 241
+      }
+     },
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Startups"
+       }
+      ],
+      "index": {
+       "byteEnd": 260,
+       "byteStart": 251
+      }
+     },
+     {
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Entrepreneurship"
+       }
+      ],
+      "index": {
+       "byteEnd": 278,
+       "byteStart": 261
+      }
+     }
+    ],
+    "langs": [
+     "en"
+    ],
+    "text": "🚀 AI Entrepreneurs Lab 2026\n\nBuild your AI/robotics startup, get expert mentoring and compete for €10,000 venture prizes.\n\n🎓 Master’s/PhD students & graduates\n💰 Up to €10K\n📅 Deadline: 21 Oct 2026\n🔗 wp.me/p23f03-och\n\n#AI #Robotics #Startups #Entrepreneurship"
+   },
+   "embed": {
+    "external": {
+     "uri": "https://wp.me/p23f03-och",
+     "title": "AI Entrepreneurs Lab 2026: Apply for EIT’s 5-Day AI and Robotics Founder Bootcamp and Compete for €10,000 Venture Prizes - Opportunities for Youth",
+     "description": "Applications are open for the AI Entrepreneurs Lab 2026, an intensive founder programme designed to help promising Master’s and PhD-level talent transform",
+     "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:yuvwi5ifcfzgshq2say6grqr/bafkreigsveutqlwirmho3qpboai2xhmw3gbsipxiln5wpeg2zmqywxwxwy"
+    },
+    "$type": "app.bsky.embed.external#view"
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 3,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-29T10:07:34.763Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:mhqnbglrgmwiuz3kgexbi7uf/app.bsky.feed.post/3mwssvnr3u527",
+   "cid": "bafyreidwwpimdtolfvkm4pan3cwebkwwsfzxz6tsah3lmwa7svoders6qe",
+   "author": {
+    "did": "did:plc:mhqnbglrgmwiuz3kgexbi7uf",
+    "handle": "toppnews.bsky.social",
+    "displayName": "🅽ew🆂mart EN 🍋‍🟩 Verified. Not Amplified.",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mhqnbglrgmwiuz3kgexbi7uf/bafkreifpvi7s2vk7h6smfyrh3qptldvzt74466qjxvyzgjaye6jz23pzmu",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [
+     {
+      "src": "did:plc:mhqnbglrgmwiuz3kgexbi7uf",
+      "uri": "at://did:plc:mhqnbglrgmwiuz3kgexbi7uf/app.bsky.actor.profile/self",
+      "cid": "bafyreia5gjrvlvqzxczbuj32emr7w6g55z5efgpj4ukcbtuzgesbrtk224",
+      "val": "bot",
+      "cts": "2024-12-21T14:33:31.963Z"
+     }
+    ],
+    "createdAt": "2024-12-21T14:33:33.243Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-10-01T12:04:20.109431+00:00",
+    "embed": {
+     "$type": "app.bsky.embed.external",
+     "external": {
+      "$type": "app.bsky.embed.external#external",
+      "description": "",
+      "thumb": {
+       "$type": "blob",
+       "ref": {
+        "$link": "bafkreicptnmwu26xaigdcvn7gz4w3v4kqvwvp7hfjkoshbxn7arv6e7nx4"
+       },
+       "mimeType": "image/jpeg",
+       "size": 145174
+      },
+      "title": "→ zum Artikel",
+      "uri": "https://www.thehindu.com/news/national/andhra-pradesh/ai-machine-learning-and-robotics-will-transform-space-exploration-says-former-isro-chief-kiran-kumar/article71532569.ece"
+     }
+    },
+    "facets": [
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "AI"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 4,
+       "byteStart": 1
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Machine Learning"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 24,
+       "byteStart": 7
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Robotics"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 36,
+       "byteStart": 27
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "space"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 45,
+       "byteStart": 39
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "Space Exploration"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 66,
+       "byteStart": 48
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "startup"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 77,
+       "byteStart": 69
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#tag",
+        "tag": "students"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 89,
+       "byteStart": 80
+      }
+     },
+     {
+      "$type": "app.bsky.richtext.facet",
+      "features": [
+       {
+        "$type": "app.bsky.richtext.facet#link",
+        "uri": "https://www.newsmart.ch"
+       }
+      ],
+      "index": {
+       "$type": "app.bsky.richtext.facet#byteSlice",
+       "byteEnd": 110,
+       "byteStart": 90
+      }
+     }
+    ],
+    "langs": [
+     "en"
+    ],
+    "text": "\n#AI   #Machine Learning   #Robotics   #space   #Space Exploration   #startup   #students\n🌐 www.newsmart.ch"
+   },
+   "embed": {
+    "external": {
+     "uri": "https://www.thehindu.com/news/national/andhra-pradesh/ai-machine-learning-and-robotics-will-transform-space-exploration-says-former-isro-chief-kiran-kumar/article71532569.ece",
+     "title": "→ zum Artikel",
+     "description": "",
+     "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:mhqnbglrgmwiuz3kgexbi7uf/bafkreicptnmwu26xaigdcvn7gz4w3v4kqvwvp7hfjkoshbxn7arv6e7nx4"
+    },
+    "$type": "app.bsky.embed.external#view"
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 0,
+   "quoteCount": 0,
+   "indexedAt": "2026-10-01T12:04:20.765Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:dtqkfex6otaqemvityjpchxw/app.bsky.feed.post/3mwqxkodc352v",
+   "cid": "bafyreie4fosd4rd7vteedrxx3ydoysx4qbj347qc5uknkvolvgic7ro3mi",
+   "author": {
+    "did": "did:plc:dtqkfex6otaqemvityjpchxw",
+    "handle": "789.xyz",
+    "displayName": "789.XYZ｜Web3 Domain",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dtqkfex6otaqemvityjpchxw/bafkreihfrdip6jpauy7pevksuknrpbcnnwpe5hegkqghirdf5klt7nuafa",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [],
+    "createdAt": "2025-11-04T04:46:33.251Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-09-30T18:22:20.851707+00:00",
+    "langs": [
+     "en"
+    ],
+    "text": "ARDR.xyz  \nArdor Energy  \nArdor Digital  \nArdor Robotics  \n\n#Brandable #TechName #Startup #ShortDomain #Memorable"
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 0,
+   "quoteCount": 0,
+   "indexedAt": "2026-09-30T18:22:21.966Z",
+   "labels": []
+  },
+  {
+   "uri": "at://did:plc:wzlw5nsbpcebsiccs6iu7ipj/app.bsky.feed.post/3mwrtih7kec26",
+   "cid": "bafyreigph3aadxiyfxw3ic5tuoetjw6q2bydzjchrzg3knmaxixjcjnasu",
+   "author": {
+    "did": "did:plc:wzlw5nsbpcebsiccs6iu7ipj",
+    "handle": "polymarket.extwitter.link",
+    "displayName": "Polymarket",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wzlw5nsbpcebsiccs6iu7ipj/bafkreiad3tcawtpxtq34dbydv5o5wizuic443qqbwsygyjpvnf5yp4xr2m",
+    "associated": {
+     "activitySubscription": {
+      "allowSubscriptions": "followers"
+     }
+    },
+    "labels": [
+     {
+      "src": "did:plc:wzlw5nsbpcebsiccs6iu7ipj",
+      "uri": "at://did:plc:wzlw5nsbpcebsiccs6iu7ipj/app.bsky.actor.profile/self",
+      "cid": "bafyreie2mpy3uf3fa634nzd2df2gwoagy2opiityyqkgghtojojivmurxe",
+      "val": "bot",
+      "cts": "2026-03-30T12:48:50.088Z"
+     }
+    ],
+    "createdAt": "2026-03-30T12:48:51.246Z"
+   },
+   "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-10-01T02:42:11.030726+00:00",
+    "langs": [
+     "en"
+    ],
+    "text": "JUST IN: California orders robotics startup REK to stop holding unsanctioned cage fights between humans & humanoid robots."
+   },
+   "bookmarkCount": 0,
+   "replyCount": 0,
+   "repostCount": 0,
+   "likeCount": 0,
+   "quoteCount": 0,
+   "indexedAt": "2026-10-01T02:42:11.360Z",
+   "labels": []
+  }
+ ],
+ "cursor": "eyJzIjpbNS45NTk4NDAzLCJkaWQ6cGxjOjN6Z2g2emNkYzM3Ym51ZzUzN3d4N3FlbSIsIjNtd2xqdGprbnZjMngiXSwibyI6IjIwMjYtMTAtMDJUMDA6MDg6NDFaIn0",
+ "hitsTotal": 131
+}

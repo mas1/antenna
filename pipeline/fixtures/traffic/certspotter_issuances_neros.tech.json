@@ -1,0 +1,249 @@
+{
+ "_fixture": {
+  "endpoint": "GET https://api.certspotter.com/v1/issuances?domain=neros.tech&include_subdomains=true&expand=dns_names&expand=issuer",
+  "fetched_at": "2026-10-02T00:00Z",
+  "auth": "none (x-ratelimit-limit: 10)",
+  "note": "raw body is under 'response'. Only UNEXPIRED certs are returned; paginate/poll with &after=<last id>. Response header Link rel=next carries the next page URL."
+ },
+ "response": [
+  {
+   "id": "13494292732",
+   "tbs_sha256": "e514c30f782a1fccc3213efccad6908b5e53e969a3e69ba7d597d24a3a5c30fa",
+   "cert_sha256": "13450028bfbdccb6f651e1987debde11ef01dbb793fdab76900e5a9dfbed6b77",
+   "dns_names": [
+    "air.neros.tech"
+   ],
+   "pubkey_sha256": "c540f7f9b8e984954baad5943e975c15470e6aff8d73b00b2e299a3d7a93d4ad",
+   "issuer": {
+    "friendly_name": "SSL.com",
+    "pubkey_sha256": "ecb701e59f004d5cf8adc42d218e71262afcffe1777bf1cf8bc2037429e309a1",
+    "name": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com RSA SSL subCA"
+   },
+   "not_before": "2026-01-19T18:43:56Z",
+   "not_after": "2027-01-19T18:43:56Z",
+   "revoked": false
+  },
+  {
+   "id": "15769701062",
+   "tbs_sha256": "da6fd376c48ff6da15fddb19a66d583a32c578b5dc254af897934eac24ac827c",
+   "cert_sha256": "62711b103a64f21bfad3ddd06fa0ee97055cace2143327110bb621fefe2d2361",
+   "dns_names": [
+    "web-console.neros.tech"
+   ],
+   "pubkey_sha256": "1cde02c490a653e9beee47804390cf6f4febdd8ebbe41134a8e38cb4971b7023",
+   "issuer": {
+    "friendly_name": "Let's Encrypt",
+    "pubkey_sha256": "6ebcefb4210b088654a38b03fea3d7d1c711b4fb1ddc363a45f9b1a4e53da01e",
+    "name": "C=US, O=Let's Encrypt, CN=YE1"
+   },
+   "not_before": "2026-07-09T15:51:21Z",
+   "not_after": "2026-10-07T15:51:20Z",
+   "revoked": false
+  },
+  {
+   "id": "15785142123",
+   "tbs_sha256": "d17a24e4e59cbe05cc87045ad03ba18e1d9065b47cb982d496af28b52210a0ed",
+   "cert_sha256": "ca477ad31a99f0a0cbcab46c03bf5e9bcc304df7acdd8c810824cb2c1acf0c7e",
+   "dns_names": [
+    "staging-configurator.neros.tech"
+   ],
+   "pubkey_sha256": "7912b5ebb51e5bbf1747b16c4a90467cd82b51184dcfd2b3417492e1d40ddbd7",
+   "issuer": {
+    "friendly_name": "Let's Encrypt",
+    "pubkey_sha256": "6ebcefb4210b088654a38b03fea3d7d1c711b4fb1ddc363a45f9b1a4e53da01e",
+    "name": "C=US, O=Let's Encrypt, CN=YE1"
+   },
+   "not_before": "2026-07-10T15:45:48Z",
+   "not_after": "2026-10-08T15:45:47Z",
+   "revoked": false
+  },
+  {
+   "id": "15944845818",
+   "tbs_sha256": "fb3c40a3b9b709a5d35f4e4aaa12755b63cb1127b2fd0a8ec8303eb36eb83b47",
+   "cert_sha256": "3a250ecd581f85db1b4719cdc8ad96b49fceace1d435e3ba67fe9bf23e29c465",
+   "dns_names": [
+    "git.neros.tech"
+   ],
+   "pubkey_sha256": "411455bc37541ef4a6ee32b1c04ce94bc6a17bdedf750b3cdd4501b7b4a432e6",
+   "issuer": {
+    "friendly_name": "SSL.com",
+    "pubkey_sha256": "d052815719f277826af2ff124fedec8cef96a01ecf2c112949d8b16c71352f88",
+    "name": "C=US, O=SSL Corporation, CN=SSL.com TLS Issuing RSA CA R1"
+   },
+   "not_before": "2026-07-18T19:21:15Z",
+   "not_after": "2027-02-01T19:21:15Z",
+   "revoked": false
+  },
+  {
+   "id": "16134344198",
+   "tbs_sha256": "0ec4579f264e4247f8b6bc3524b87ec5f9d81ed7553d4fd620f120059b1b07a6",
+   "cert_sha256": "5c9213dffe48a62d9dad5e2772af238d253eca42354778fbf88312eee8ad8830",
+   "dns_names": [
+    "pay.neros.tech",
+    "www.pay.neros.tech"
+   ],
+   "pubkey_sha256": "b1a1e6a7e227a1534de43aa460156f55d19d8c038769052dbcdc1101f5cfa74c",
+   "issuer": {
+    "friendly_name": "GoDaddy",
+    "pubkey_sha256": "6357bfdc3aac2ffc96238448689e0e7e12c45b926226834a15517503116a9220",
+    "name": "C=US, O=GoDaddy.com, CN=GoDaddy TLS Intermediate CA DV - R1v1"
+   },
+   "not_before": "2026-07-28T12:26:46Z",
+   "not_after": "2027-02-11T12:26:46Z",
+   "revoked": false
+  },
+  {
+   "id": "16219705138",
+   "tbs_sha256": "da6fd376c48ff6da15fddb19a66d583a32c578b5dc254af897934eac24ac827c",
+   "cert_sha256": "62711b103a64f21bfad3ddd06fa0ee97055cace2143327110bb621fefe2d2361",
+   "dns_names": [
+    "web-console.neros.tech"
+   ],
+   "pubkey_sha256": "1cde02c490a653e9beee47804390cf6f4febdd8ebbe41134a8e38cb4971b7023",
+   "issuer": {
+    "friendly_name": "Let's Encrypt",
+    "pubkey_sha256": "6ebcefb4210b088654a38b03fea3d7d1c711b4fb1ddc363a45f9b1a4e53da01e",
+    "name": "C=US, O=Let's Encrypt, CN=YE1"
+   },
+   "not_before": "2026-07-09T15:51:21Z",
+   "not_after": "2026-10-07T15:51:20Z",
+   "revoked": false
+  },
+  {
+   "id": "16359764137",
+   "tbs_sha256": "5503c73fd9421815a4c2f07a379399cd293bfc4ba87a4444072626d9c6bf58cf",
+   "cert_sha256": "de577bf2e5d0ede6416df7e46aae9b156d5788a0f8b0dfa5145dcf99d1eb997e",
+   "dns_names": [
+    "pike.neros.tech"
+   ],
+   "pubkey_sha256": "e79586a752b64fbbd1d1507c5ed5ee17aeb31b52b0e2b194793082a9f93cabaa",
+   "issuer": {
+    "friendly_name": "Let's Encrypt",
+    "pubkey_sha256": "6ebcefb4210b088654a38b03fea3d7d1c711b4fb1ddc363a45f9b1a4e53da01e",
+    "name": "C=US, O=Let's Encrypt, CN=YE1"
+   },
+   "not_before": "2026-08-07T21:31:49Z",
+   "not_after": "2026-11-05T21:31:48Z",
+   "revoked": false
+  },
+  {
+   "id": "16882608179",
+   "tbs_sha256": "9a4b885d7fe0b55a3839859e8cf9e0085d7d952164802815b6d04a9a3dc4ac72",
+   "cert_sha256": "06ce0cd9bdb56e74e50e4bc6c044fa976e33581b4dc8750446f6f2fe3d37fbf9",
+   "dns_names": [
+    "neros.tech"
+   ],
+   "pubkey_sha256": "bb3847e9bdacd8e586220a3d6b669c46765aaeff2d7c64f73326b0b1549b6955",
+   "issuer": {
+    "friendly_name": "Google Trust Services",
+    "pubkey_sha256": "c83bbda20db9e4d3791847fe0706bdad3aea150d04c9d674af514287d4dd016e",
+    "name": "C=US, O=Google Trust Services, CN=WR1"
+   },
+   "not_before": "2026-08-30T05:36:00Z",
+   "not_after": "2026-11-28T06:34:54Z",
+   "revoked": false
+  },
+  {
+   "id": "16882610847",
+   "tbs_sha256": "55eeb8873754651ac706b9d5c60ef9c098f57115ee5f6929bd56795004b6eb7a",
+   "cert_sha256": "b135e41d6a771377fc0572426dd827ecc77d8daedb00fff80b5cfeb1f041788b",
+   "dns_names": [
+    "neros.tech"
+   ],
+   "pubkey_sha256": "34a22121628a108efc3ff2722bb7aee04d2ddb0c465e53ced05ff73149c0e6d4",
+   "issuer": {
+    "friendly_name": "Google Trust Services",
+    "pubkey_sha256": "908769e8d34477cc2cba0632c88605b22d7294c0840f78596d247c645b1afc0e",
+    "name": "C=US, O=Google Trust Services, CN=WE1"
+   },
+   "not_before": "2026-08-30T05:36:09Z",
+   "not_after": "2026-11-28T06:36:06Z",
+   "revoked": false
+  },
+  {
+   "id": "16883818923",
+   "tbs_sha256": "8a6a3b410bd6e8c655137563f2c544cc28bf7d18b3f92de9bdc0d9aac5f465d3",
+   "cert_sha256": "aefc891e52cb6fefe0d127044927c0016efe71ab254809dcee8dea1d84ee47dc",
+   "dns_names": [
+    "neros.tech"
+   ],
+   "pubkey_sha256": "1753723d6aa68c7c33d94be3c1aa8a20930800107590ae2443bb9406a065e58f",
+   "issuer": {
+    "friendly_name": "Google Trust Services",
+    "pubkey_sha256": "908769e8d34477cc2cba0632c88605b22d7294c0840f78596d247c645b1afc0e",
+    "name": "C=US, O=Google Trust Services, CN=WE1"
+   },
+   "not_before": "2026-08-30T07:18:53Z",
+   "not_after": "2026-11-28T08:18:49Z",
+   "revoked": false
+  },
+  {
+   "id": "16883828582",
+   "tbs_sha256": "40e7b988b966c3df722f21d64c108d51f3c7f21928348854307f7613cda96210",
+   "cert_sha256": "7df6d39dd38581277179eb82c86c501e028f6f6bff490cf396d781fe91cc3cc8",
+   "dns_names": [
+    "neros.tech"
+   ],
+   "pubkey_sha256": "680e89df7eeb36e5fc8a5907b9b2fb29507211172aa69968904989d75fa3c310",
+   "issuer": {
+    "friendly_name": "Google Trust Services",
+    "pubkey_sha256": "c83bbda20db9e4d3791847fe0706bdad3aea150d04c9d674af514287d4dd016e",
+    "name": "C=US, O=Google Trust Services, CN=WR1"
+   },
+   "not_before": "2026-08-30T07:18:43Z",
+   "not_after": "2026-11-28T08:18:40Z",
+   "revoked": false
+  },
+  {
+   "id": "16900901688",
+   "tbs_sha256": "a62751db46248ef5e4a85ccf54b2dfc850fd08f35eacbb89c048ec2d8a8ea160",
+   "cert_sha256": "8c1bd0ca103368ec9df949c9e135b7c28199c4d154d7a41d71f82029ed9eee0d",
+   "dns_names": [
+    "www.neros.tech"
+   ],
+   "pubkey_sha256": "448be562b1b321869993d8bad344e44aaef3a2f0800fb3b52dbb84ee8fcb4e34",
+   "issuer": {
+    "friendly_name": "Google Trust Services",
+    "pubkey_sha256": "c83bbda20db9e4d3791847fe0706bdad3aea150d04c9d674af514287d4dd016e",
+    "name": "C=US, O=Google Trust Services, CN=WR1"
+   },
+   "not_before": "2026-08-31T07:28:36Z",
+   "not_after": "2026-11-29T08:27:28Z",
+   "revoked": false
+  },
+  {
+   "id": "16900930443",
+   "tbs_sha256": "bb505b25cd26b148437084119f7bc767d5e161999d9e24f65230f3fa08edb768",
+   "cert_sha256": "277a378e04b5abd85d602bf22c71635bf35e18315436c64a25619530e2a029ff",
+   "dns_names": [
+    "www.neros.tech"
+   ],
+   "pubkey_sha256": "e009d860fe8cf0429bea89f583fe4b0a07859dce7ba915b20f2d6618f7ae8b7a",
+   "issuer": {
+    "friendly_name": "Google Trust Services",
+    "pubkey_sha256": "908769e8d34477cc2cba0632c88605b22d7294c0840f78596d247c645b1afc0e",
+    "name": "C=US, O=Google Trust Services, CN=WE1"
+   },
+   "not_before": "2026-08-31T07:28:46Z",
+   "not_after": "2026-11-29T08:28:42Z",
+   "revoked": false
+  },
+  {
+   "id": "17529177436",
+   "tbs_sha256": "3258b7050bc719356cbf9f608bb2040219e7eb0dcc5c873f1e2b2ba62d760058",
+   "cert_sha256": "ce010f7237fb48d48f3fa56c7fb7cbfbd58e7cf1f10bb8c88dd5fc06a8992634",
+   "dns_names": [
+    "product-tables.neros.tech"
+   ],
+   "pubkey_sha256": "e38a4eb4f426eed808aa997ac7e723d513c424a4d3628625edbd0499fc5310f9",
+   "issuer": {
+    "friendly_name": "Let's Encrypt",
+    "pubkey_sha256": "9d637b3d27a9e570d07607b9ccadb80a70915c7af72afce12841b1b1da825fd1",
+    "name": "C=US, O=Let's Encrypt, CN=YR2"
+   },
+   "not_before": "2026-10-01T21:13:28Z",
+   "not_after": "2026-12-30T21:13:27Z",
+   "revoked": false
+  }
+ ]
+}

@@ -1,0 +1,3344 @@
+{
+ "jsonapi": {
+  "version": "1.0",
+  "meta": {
+   "links": {
+    "self": {
+     "href": "http://jsonapi.org/format/1.0/"
+    }
+   }
+  }
+ },
+ "data": [
+  {
+   "type": "node--project",
+   "id": "bfc0e69a-b8ca-418e-a2ad-4de826516f0e",
+   "attributes": {
+    "drupal_internal__nid": "5647",
+    "title": "Rapid In Situ Core Characterization Using Synthetic Biology ",
+    "search_alias": "rapid-in-situ-core-characterization-using-synthetic-biology-",
+    "alias": "rapid-situ-core-characterization-using-synthetic-biology",
+    "urls": [
+     "/programs-and-initiatives/search-all-projects/rapid-situ-core-characterization-using-synthetic-biology",
+     "/node/5647"
+    ],
+    "redirect_url": "/technologies/projects/rapid-situ-core-characterization-using-synthetic-biology",
+    "primary_date": 20260618.56471,
+    "date": "Jun 18 2026",
+    "fields": {
+     "title": "Rapid In Situ Core Characterization Using Synthetic Biology ",
+     "search_alias": "rapid-in-situ-core-characterization-using-synthetic-biology-",
+     "alias": "rapid-situ-core-characterization-using-synthetic-biology",
+     "urls": [
+      "/programs-and-initiatives/search-all-projects/rapid-situ-core-characterization-using-synthetic-biology",
+      "/node/5647"
+     ],
+     "award": "2,000,000",
+     "release_date": "Jun 18 2026",
+     "location": "Woburn, MA",
+     "state": "MA",
+     "status": "Selected",
+     "related_technologies": [
+      {
+       "tid": "126",
+       "name": "Resources",
+       "icon": null,
+       "reference_icon": "resources_industrial",
+       "level": 0,
+       "parent_tid": null
+      }
+     ],
+     "verticals": [],
+     "organization": [
+      {
+       "type": "organization",
+       "id": "9c430d1c-c444-4dac-a10b-2704d87f9d74",
+       "attributes": {
+        "drupal_internal__nid": "5646",
+        "title": "Fieldstone Bio, Inc.",
+        "alias": "fieldstone-bio-inc",
+        "urls": [
+         "/node/5646"
+        ]
+       },
+       "fields": {
+        "title": "Fieldstone Bio, Inc.",
+        "website": [],
+        "website_display": null,
+        "type": [
+         {
+          "tid": "29",
+          "name": "Private Company",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "spinoff_type": "",
+        "spinoff_funding": []
+       }
+      }
+     ],
+     "related_programs": [
+      {
+       "type": "program",
+       "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+       "attributes": {
+        "drupal_internal__nid": "5334",
+        "title": "ROCKS",
+        "alias": "rocks",
+        "urls": [
+         "/programs-and-initiatives/view-all-programs/rocks",
+         "/node/5334"
+        ]
+       },
+       "fields": {
+        "title": "ROCKS",
+        "search_alias": "rocks",
+        "alias": "rocks",
+        "urls": [
+         "/programs-and-initiatives/view-all-programs/rocks",
+         "/node/5334"
+        ],
+        "acronym": "Reliable Ore Characterization with Keystone Sensing",
+        "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+        "release_date": "Aug 25 2025",
+        "status": "Active",
+        "program_type": [
+         {
+          "tid": "9",
+          "name": "Focused",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "search": {
+         "type": "program",
+         "type_label": "Program",
+         "field_program_status": "active",
+         "field_program_type": [
+          "9"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rocks"
+        }
+       }
+      }
+     ],
+     "program_director": [
+      {
+       "type": "staff",
+       "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+       "attributes": {
+        "drupal_internal__nid": "235",
+        "title": "Dr. Robert Mellors",
+        "alias": "dr-robert-mellors",
+        "urls": [
+         "/about/people/dr-robert-mellors",
+         "/node/235"
+        ]
+       },
+       "fields": {
+        "title": "Dr. Robert Mellors",
+        "search_alias": "dr-robert-mellors",
+        "alias": "dr-robert-mellors",
+        "urls": [
+         "/about/people/dr-robert-mellors",
+         "/node/235"
+        ],
+        "job_title": "Program Director",
+        "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+        "image_data": [
+         {
+          "target_id": "570",
+          "alt": "Robert Mellors",
+          "title": "",
+          "width": "144",
+          "height": "158"
+         }
+        ],
+        "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+        "categories": [
+         {
+          "tid": "7",
+          "name": "Program Directors",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "sorting_hierarchy": "100",
+        "sorting_value": "Mellors",
+        "search": {
+         "type": "staff",
+         "type_label": "People",
+         "field_reference_technology": [
+          "126",
+          "25"
+         ],
+         "search_alias": "dr-robert-mellors"
+        }
+       }
+      }
+     ],
+     "search": {
+      "type": "program",
+      "type_label": "Project",
+      "administrative_area": "MA",
+      "field_project_status": "selected",
+      "field_project_program_director": [
+       "235"
+      ],
+      "field_reference_funding": [],
+      "field_reference_program": [
+       "5334"
+      ],
+      "field_reference_technology": [
+       "126"
+      ],
+      "field_reference_technology_sub": [],
+      "field_reference_vertical": [],
+      "search_alias": "rapid-in-situ-core-characterization-using-synthetic-biology-",
+      "custom_reference_organization_type": [
+       "29"
+      ]
+     }
+    },
+    "metadata": {
+     "title": "Rapid In Situ Core Characterization Using Synthetic Biology  | ARPA-E"
+    },
+    "info": {
+     "output": "basic",
+     "source": "search_index"
+    }
+   }
+  },
+  {
+   "type": "node--project",
+   "id": "fa9a3cff-98bc-42a1-94c0-0538f74baf6c",
+   "attributes": {
+    "drupal_internal__nid": "5645",
+    "title": "V6EM: UAV-Based Controlled-Source Electromagnetics for Rapid Ore Characterization ",
+    "search_alias": "v6em-uav-based-controlled-source-electromagnetics-for-rapid-ore-characterization-",
+    "alias": "v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+    "urls": [
+     "/programs-and-initiatives/search-all-projects/v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+     "/node/5645"
+    ],
+    "redirect_url": "/technologies/projects/v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+    "primary_date": 20260618.56451,
+    "date": "Jun 18 2026",
+    "fields": {
+     "title": "V6EM: UAV-Based Controlled-Source Electromagnetics for Rapid Ore Characterization ",
+     "search_alias": "v6em-uav-based-controlled-source-electromagnetics-for-rapid-ore-characterization-",
+     "alias": "v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+     "urls": [
+      "/programs-and-initiatives/search-all-projects/v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+      "/node/5645"
+     ],
+     "award": "2,200,000",
+     "release_date": "Jun 18 2026",
+     "location": "Los Angeles, CA",
+     "state": "CA",
+     "status": "Selected",
+     "related_technologies": [
+      {
+       "tid": "126",
+       "name": "Resources",
+       "icon": null,
+       "reference_icon": "resources_industrial",
+       "level": 0,
+       "parent_tid": null
+      }
+     ],
+     "verticals": [],
+     "organization": [
+      {
+       "type": "organization",
+       "id": "d6d18d84-bbe8-479c-a9be-b2d0ae9377cc",
+       "attributes": {
+        "drupal_internal__nid": "5644",
+        "title": "Deep Blue Geophysics, LLC ",
+        "alias": "deep-blue-geophysics-llc",
+        "urls": [
+         "/node/5644"
+        ]
+       },
+       "fields": {
+        "title": "Deep Blue Geophysics, LLC ",
+        "website": [],
+        "website_display": null,
+        "type": [
+         {
+          "tid": "29",
+          "name": "Private Company",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "spinoff_type": "",
+        "spinoff_funding": []
+       }
+      }
+     ],
+     "related_programs": [
+      {
+       "type": "program",
+       "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+       "attributes": {
+        "drupal_internal__nid": "5334",
+        "title": "ROCKS",
+        "alias": "rocks",
+        "urls": [
+         "/programs-and-initiatives/view-all-programs/rocks",
+         "/node/5334"
+        ]
+       },
+       "fields": {
+        "title": "ROCKS",
+        "search_alias": "rocks",
+        "alias": "rocks",
+        "urls": [
+         "/programs-and-initiatives/view-all-programs/rocks",
+         "/node/5334"
+        ],
+        "acronym": "Reliable Ore Characterization with Keystone Sensing",
+        "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+        "release_date": "Aug 25 2025",
+        "status": "Active",
+        "program_type": [
+         {
+          "tid": "9",
+          "name": "Focused",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "search": {
+         "type": "program",
+         "type_label": "Program",
+         "field_program_status": "active",
+         "field_program_type": [
+          "9"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rocks"
+        }
+       }
+      }
+     ],
+     "program_director": [
+      {
+       "type": "staff",
+       "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+       "attributes": {
+        "drupal_internal__nid": "235",
+        "title": "Dr. Robert Mellors",
+        "alias": "dr-robert-mellors",
+        "urls": [
+         "/about/people/dr-robert-mellors",
+         "/node/235"
+        ]
+       },
+       "fields": {
+        "title": "Dr. Robert Mellors",
+        "search_alias": "dr-robert-mellors",
+        "alias": "dr-robert-mellors",
+        "urls": [
+         "/about/people/dr-robert-mellors",
+         "/node/235"
+        ],
+        "job_title": "Program Director",
+        "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+        "image_data": [
+         {
+          "target_id": "570",
+          "alt": "Robert Mellors",
+          "title": "",
+          "width": "144",
+          "height": "158"
+         }
+        ],
+        "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+        "categories": [
+         {
+          "tid": "7",
+          "name": "Program Directors",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "sorting_hierarchy": "100",
+        "sorting_value": "Mellors",
+        "search": {
+         "type": "staff",
+         "type_label": "People",
+         "field_reference_technology": [
+          "126",
+          "25"
+         ],
+         "search_alias": "dr-robert-mellors"
+        }
+       }
+      }
+     ],
+     "search": {
+      "type": "program",
+      "type_label": "Project",
+      "administrative_area": "CA",
+      "field_project_status": "selected",
+      "field_project_program_director": [
+       "235"
+      ],
+      "field_reference_funding": [],
+      "field_reference_program": [
+       "5334"
+      ],
+      "field_reference_technology": [
+       "126"
+      ],
+      "field_reference_technology_sub": [],
+      "field_reference_vertical": [],
+      "search_alias": "v6em-uav-based-controlled-source-electromagnetics-for-rapid-ore-characterization-",
+      "custom_reference_organization_type": [
+       "29"
+      ]
+     }
+    },
+    "metadata": {
+     "title": "V6EM: UAV-Based Controlled-Source Electromagnetics for Rapid Ore Characterization  | ARPA-E"
+    },
+    "info": {
+     "output": "basic",
+     "source": "search_index"
+    }
+   }
+  },
+  {
+   "type": "node--project",
+   "id": "2b320a08-7b46-4aae-8ab7-9c45ac329027",
+   "attributes": {
+    "drupal_internal__nid": "5643",
+    "title": "DEEP - Deep-sea Exploration Efficiency Project ",
+    "search_alias": "deep---deep-sea-exploration-efficiency-project-",
+    "alias": "deep-deep-sea-exploration-efficiency-project",
+    "urls": [
+     "/programs-and-initiatives/search-all-projects/deep-deep-sea-exploration-efficiency-project",
+     "/node/5643"
+    ],
+    "redirect_url": "/technologies/projects/deep-deep-sea-exploration-efficiency-project",
+    "primary_date": 20260618.56431,
+    "date": "Jun 18 2026",
+    "fields": {
+     "title": "DEEP - Deep-sea Exploration Efficiency Project ",
+     "search_alias": "deep---deep-sea-exploration-efficiency-project-",
+     "alias": "deep-deep-sea-exploration-efficiency-project",
+     "urls": [
+      "/programs-and-initiatives/search-all-projects/deep-deep-sea-exploration-efficiency-project",
+      "/node/5643"
+     ],
+     "award": "3,500,000",
+     "release_date": "Jun 18 2026",
+     "location": "New York, NY",
+     "state": "NY",
+     "status": "Selected",
+     "related_technologies": [
+      {
+       "tid": "126",
+       "name": "Resources",
+       "icon": null,
+       "reference_icon": "resources_industrial",
+       "level": 0,
+       "parent_tid": null
+      }
+     ],
+     "verticals": [],
+     "organization": [
+      {
+       "type": "organization",
+       "id": "2eace818-c3f5-4d75-9bcc-59dfc63aba58",
+       "attributes": {
+        "drupal_internal__nid": "5642",
+        "title": "Wetstone Exploration",
+        "alias": "wetstone-exploration",
+        "urls": [
+         "/node/5642"
+        ]
+       },
+       "fields": {
+        "title": "Wetstone Exploration",
+        "website": [],
+        "website_display": null,
+        "type": [
+         {
+          "tid": "29",
+          "name": "Private Company",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "spinoff_type": "",
+        "spinoff_funding": []
+       }
+      }
+     ],
+     "related_programs": [
+      {
+       "type": "program",
+       "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+       "attributes": {
+        "drupal_internal__nid": "5334",
+        "title": "ROCKS",
+        "alias": "rocks",
+        "urls": [
+         "/programs-and-initiatives/view-all-programs/rocks",
+         "/node/5334"
+        ]
+       },
+       "fields": {
+        "title": "ROCKS",
+        "search_alias": "rocks",
+        "alias": "rocks",
+        "urls": [
+         "/programs-and-initiatives/view-all-programs/rocks",
+         "/node/5334"
+        ],
+        "acronym": "Reliable Ore Characterization with Keystone Sensing",
+        "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+        "release_date": "Aug 25 2025",
+        "status": "Active",
+        "program_type": [
+         {
+          "tid": "9",
+          "name": "Focused",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "search": {
+         "type": "program",
+         "type_label": "Program",
+         "field_program_status": "active",
+         "field_program_type": [
+          "9"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rocks"
+        }
+       }
+      }
+     ],
+     "program_director": [
+      {
+       "type": "staff",
+       "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+       "attributes": {
+        "drupal_internal__nid": "235",
+        "title": "Dr. Robert Mellors",
+        "alias": "dr-robert-mellors",
+        "urls": [
+         "/about/people/dr-robert-mellors",
+         "/node/235"
+        ]
+       },
+       "fields": {
+        "title": "Dr. Robert Mellors",
+        "search_alias": "dr-robert-mellors",
+        "alias": "dr-robert-mellors",
+        "urls": [
+         "/about/people/dr-robert-mellors",
+         "/node/235"
+        ],
+        "job_title": "Program Director",
+        "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+        "image_data": [
+         {
+          "target_id": "570",
+          "alt": "Robert Mellors",
+          "title": "",
+          "width": "144",
+          "height": "158"
+         }
+        ],
+        "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+        "categories": [
+         {
+          "tid": "7",
+          "name": "Program Directors",
+          "icon": null,
+          "reference_icon": "",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "sorting_hierarchy": "100",
+        "sorting_value": "Mellors",
+        "search": {
+         "type": "staff",
+         "type_label": "People",
+         "field_reference_technology": [
+          "126",
+          "25"
+         ],
+         "search_alias": "dr-robert-mellors"
+        }
+       }
+      }
+     ],
+     "search": {
+      "type": "program",
+      "type_label": "Project",
+      "administrative_area": "NY",
+      "field_project_status": "selected",
+      "field_project_program_director": [
+       "235"
+      ],
+      "field_reference_funding": [],
+      "field_reference_program": [
+       "5334"
+      ],
+      "field_reference_technology": [
+       "126"
+      ],
+      "field_reference_technology_sub": [],
+      "field_reference_vertical": [],
+      "search_alias": "deep---deep-sea-exploration-efficiency-project-",
+      "custom_reference_organization_type": [
+       "29"
+      ]
+     },
+     "funding_organization": [],
+     "funding_contact_website": [],
+     "funding_contact_email": null,
+     "is_spinoff": "0",
+     "funding": [],
+     "project_description": "<p><span>Wetstone Exploration will develop a mobile subsea survey system for non-invasive identification of seafloor massive sulfide (SMS) deposits. This technology will utilize an electromagnetic field to rapidly generate 3D images of these deposits, which are rich in critical minerals such as copper, zinc, and silver. By streamlining deep-sea exploration, the project aims to reduce U.S. dependence on foreign sources for these vital materials.</span></p>",
+     "innovation_advantages": null,
+     "goals_outcomes": null,
+     "about_team": null,
+     "email": null,
+     "contact": null,
+     "contact_email": null,
+     "website": [],
+     "term_start": null,
+     "term_end": null,
+     "partner_organizations": [],
+     "spinoffs": [],
+     "tech_market_lead": [],
+     "related_projects": [
+      {
+       "type": "project",
+       "id": "52f07cad-c7e5-49e7-a107-fbe4c4c44345",
+       "attributes": {
+        "drupal_internal__nid": "5630",
+        "title": "Automated Geological Appraisal Technology and Explorer System (AGATES) ",
+        "alias": "automated-geological-appraisal-technology-and-explorer-system-agates",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/automated-geological-appraisal-technology-and-explorer-system-agates",
+         "/node/5630"
+        ]
+       },
+       "fields": {
+        "title": "Automated Geological Appraisal Technology and Explorer System (AGATES) ",
+        "search_alias": "automated-geological-appraisal-technology-and-explorer-system-(agates)-",
+        "alias": "automated-geological-appraisal-technology-and-explorer-system-agates",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/automated-geological-appraisal-technology-and-explorer-system-agates",
+         "/node/5630"
+        ],
+        "award": "4,000,000",
+        "release_date": "Jun 18 2026",
+        "location": "Houston, TX",
+        "state": "TX",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "59ec648a-5c2c-4287-8b1d-be7c715c707f",
+          "attributes": {
+           "drupal_internal__nid": "5629",
+           "title": "Baker Hughes Energy Transition LLC",
+           "alias": "baker-hughes-energy-transition-llc",
+           "urls": [
+            "/node/5629"
+           ]
+          },
+          "fields": {
+           "title": "Baker Hughes Energy Transition LLC",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "29",
+             "name": "Private Company",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "TX",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "automated-geological-appraisal-technology-and-explorer-system-(agates)-",
+         "custom_reference_organization_type": [
+          "29"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "98245fdf-9505-4df0-925f-f441da66e372",
+       "attributes": {
+        "drupal_internal__nid": "5639",
+        "title": "Developing Downhole Mineralogy Logging Sensors to Accelerate Critical Mineral Exploration Enabled by AI Models and High-Throughput Core Data ",
+        "alias": "developing-downhole-mineralogy-logging-sensors-accelerate-critical-mineral-exploration-enabled-ai-models-and-high-throughput-core-data",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/developing-downhole-mineralogy-logging-sensors-accelerate-critical-mineral-exploration-enabled-ai-models-and-high-throughput-core-data",
+         "/node/5639"
+        ]
+       },
+       "fields": {
+        "title": "Developing Downhole Mineralogy Logging Sensors to Accelerate Critical Mineral Exploration Enabled by AI Models and High-Throughput Core Data ",
+        "search_alias": "developing-downhole-mineralogy-logging-sensors-to-accelerate-critical-mineral-exploration-enabled-by-ai-models-and-high-throughput-core-data-",
+        "alias": "developing-downhole-mineralogy-logging-sensors-accelerate-critical-mineral-exploration-enabled-ai-models-and-high-throughput-core-data",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/developing-downhole-mineralogy-logging-sensors-accelerate-critical-mineral-exploration-enabled-ai-models-and-high-throughput-core-data",
+         "/node/5639"
+        ],
+        "award": "3,800,000",
+        "release_date": "Jun 18 2026",
+        "location": "Alburquerque, NM",
+        "state": "NM",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "dbe30ccb-94a4-4f26-bac8-f75025e01184",
+          "attributes": {
+           "drupal_internal__nid": "2193",
+           "title": "Sandia National Laboratories",
+           "alias": "sandia-national-laboratories",
+           "urls": [
+            "/node/2193"
+           ]
+          },
+          "fields": {
+           "title": "Sandia National Laboratories",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "30",
+             "name": "National Laboratory",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "NM",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "developing-downhole-mineralogy-logging-sensors-to-accelerate-critical-mineral-exploration-enabled-by-ai-models-and-high-throughput-core-data-",
+         "custom_reference_organization_type": [
+          "30"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "153f57d6-7ed8-4194-bd3f-bf58d28934d9",
+       "attributes": {
+        "drupal_internal__nid": "5634",
+        "title": "Cased-hole Associated-particle Dual Imager for Lithology and Logging Anomaly Correction (CADILLAC) ",
+        "alias": "cased-hole-associated-particle-dual-imager-lithology-and-logging-anomaly-correction-cadillac",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/cased-hole-associated-particle-dual-imager-lithology-and-logging-anomaly-correction-cadillac",
+         "/node/5634"
+        ]
+       },
+       "fields": {
+        "title": "Cased-hole Associated-particle Dual Imager for Lithology and Logging Anomaly Correction (CADILLAC) ",
+        "search_alias": "cased-hole-associated-particle-dual-imager-for-lithology-and-logging-anomaly-correction-(cadillac)-",
+        "alias": "cased-hole-associated-particle-dual-imager-lithology-and-logging-anomaly-correction-cadillac",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/cased-hole-associated-particle-dual-imager-lithology-and-logging-anomaly-correction-cadillac",
+         "/node/5634"
+        ],
+        "award": "3,600,000",
+        "release_date": "Jun 18 2026",
+        "location": "Berkeley, CA",
+        "state": "CA",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "51749b6c-3abe-40f5-88ad-cc6c27e6f01f",
+          "attributes": {
+           "drupal_internal__nid": "2082",
+           "title": "University of California, Berkeley (UC Berkeley)",
+           "alias": "university-california-berkeley-uc-berkeley",
+           "urls": [
+            "/node/2082"
+           ]
+          },
+          "fields": {
+           "title": "University of California, Berkeley (UC Berkeley)",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "15",
+             "name": "University",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "CA",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "cased-hole-associated-particle-dual-imager-for-lithology-and-logging-anomaly-correction-(cadillac)-",
+         "custom_reference_organization_type": [
+          "15"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "fa9a3cff-98bc-42a1-94c0-0538f74baf6c",
+       "attributes": {
+        "drupal_internal__nid": "5645",
+        "title": "V6EM: UAV-Based Controlled-Source Electromagnetics for Rapid Ore Characterization ",
+        "alias": "v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+         "/node/5645"
+        ]
+       },
+       "fields": {
+        "title": "V6EM: UAV-Based Controlled-Source Electromagnetics for Rapid Ore Characterization ",
+        "search_alias": "v6em-uav-based-controlled-source-electromagnetics-for-rapid-ore-characterization-",
+        "alias": "v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/v6em-uav-based-controlled-source-electromagnetics-rapid-ore-characterization",
+         "/node/5645"
+        ],
+        "award": "2,200,000",
+        "release_date": "Jun 18 2026",
+        "location": "Los Angeles, CA",
+        "state": "CA",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "d6d18d84-bbe8-479c-a9be-b2d0ae9377cc",
+          "attributes": {
+           "drupal_internal__nid": "5644",
+           "title": "Deep Blue Geophysics, LLC ",
+           "alias": "deep-blue-geophysics-llc",
+           "urls": [
+            "/node/5644"
+           ]
+          },
+          "fields": {
+           "title": "Deep Blue Geophysics, LLC ",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "29",
+             "name": "Private Company",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "CA",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "v6em-uav-based-controlled-source-electromagnetics-for-rapid-ore-characterization-",
+         "custom_reference_organization_type": [
+          "29"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "bc0f6d91-eeb9-4e46-b82d-c0bf19a5ee48",
+       "attributes": {
+        "drupal_internal__nid": "5637",
+        "title": "Rapid Advanced Geochemical Vectoring for Ore Body Evaluation ",
+        "alias": "rapid-advanced-geochemical-vectoring-ore-body-evaluation",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-advanced-geochemical-vectoring-ore-body-evaluation",
+         "/node/5637"
+        ]
+       },
+       "fields": {
+        "title": "Rapid Advanced Geochemical Vectoring for Ore Body Evaluation ",
+        "search_alias": "rapid-advanced-geochemical-vectoring-for-ore-body-evaluation-",
+        "alias": "rapid-advanced-geochemical-vectoring-ore-body-evaluation",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-advanced-geochemical-vectoring-ore-body-evaluation",
+         "/node/5637"
+        ],
+        "award": "3,200,000",
+        "release_date": "Jun 18 2026",
+        "location": "Spring, TX",
+        "state": "TX",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "47ba4ebf-e361-42c9-b654-7f189341f53f",
+          "attributes": {
+           "drupal_internal__nid": "5492",
+           "title": "Halliburton Technology Partners LLC",
+           "alias": "halliburton-technology-partners-llc",
+           "urls": [
+            "/node/5492"
+           ]
+          },
+          "fields": {
+           "title": "Halliburton Technology Partners LLC",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "29",
+             "name": "Private Company",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "TX",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rapid-advanced-geochemical-vectoring-for-ore-body-evaluation-",
+         "custom_reference_organization_type": [
+          "29"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "50083aa6-7c56-4f52-95f1-46c0ec28eb93",
+       "attributes": {
+        "drupal_internal__nid": "5632",
+        "title": "Rapid Adaptive Pre-Screening and Integrated Downhole Sensing for Rare Earth Elements (RAPID-REE) ",
+        "alias": "rapid-adaptive-pre-screening-and-integrated-downhole-sensing-rare-earth-elements-rapid-ree",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-adaptive-pre-screening-and-integrated-downhole-sensing-rare-earth-elements-rapid-ree",
+         "/node/5632"
+        ]
+       },
+       "fields": {
+        "title": "Rapid Adaptive Pre-Screening and Integrated Downhole Sensing for Rare Earth Elements (RAPID-REE) ",
+        "search_alias": "rapid-adaptive-pre-screening-and-integrated-downhole-sensing-for-rare-earth-elements-(rapid-ree)-",
+        "alias": "rapid-adaptive-pre-screening-and-integrated-downhole-sensing-rare-earth-elements-rapid-ree",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-adaptive-pre-screening-and-integrated-downhole-sensing-rare-earth-elements-rapid-ree",
+         "/node/5632"
+        ],
+        "award": "3,100,000",
+        "release_date": "Jun 18 2026",
+        "location": "Rapid City, SD",
+        "state": "SD",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "84493c55-b88c-4b53-b868-a3bc265f4174",
+          "attributes": {
+           "drupal_internal__nid": "5631",
+           "title": "South Dakota School of Mines and Technology",
+           "alias": "south-dakota-school-mines-and-technology",
+           "urls": [
+            "/node/5631"
+           ]
+          },
+          "fields": {
+           "title": "South Dakota School of Mines and Technology",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "15",
+             "name": "University",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "SD",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rapid-adaptive-pre-screening-and-integrated-downhole-sensing-for-rare-earth-elements-(rapid-ree)-",
+         "custom_reference_organization_type": [
+          "15"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "aabc2918-a4ae-4981-9e91-ae229e68fc69",
+       "attributes": {
+        "drupal_internal__nid": "5641",
+        "title": "MIDAS - Muon Imaging and Distributed Acoustic Sensing ",
+        "alias": "midas-muon-imaging-and-distributed-acoustic-sensing",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/midas-muon-imaging-and-distributed-acoustic-sensing",
+         "/node/5641"
+        ]
+       },
+       "fields": {
+        "title": "MIDAS - Muon Imaging and Distributed Acoustic Sensing ",
+        "search_alias": "midas---muon-imaging-and-distributed-acoustic-sensing-",
+        "alias": "midas-muon-imaging-and-distributed-acoustic-sensing",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/midas-muon-imaging-and-distributed-acoustic-sensing",
+         "/node/5641"
+        ],
+        "award": "3,500,000",
+        "release_date": "Jun 18 2026",
+        "location": "Berkeley, CA",
+        "state": "CA",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "a647935c-d801-45af-9778-6beee1fa7e30",
+          "attributes": {
+           "drupal_internal__nid": "5640",
+           "title": "KoBold Metals Company",
+           "alias": "kobold-metals-company",
+           "urls": [
+            "/node/5640"
+           ]
+          },
+          "fields": {
+           "title": "KoBold Metals Company",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "29",
+             "name": "Private Company",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "CA",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "midas---muon-imaging-and-distributed-acoustic-sensing-",
+         "custom_reference_organization_type": [
+          "29"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "3aa410fa-d28d-45d7-9912-7d1ef09be103",
+       "attributes": {
+        "drupal_internal__nid": "5635",
+        "title": "Rapid, high-resolution ore sensing with an active, multi-GeV muon source from a compact, deployable, laser-plasma electron accelerator ",
+        "alias": "rapid-high-resolution-ore-sensing-active-multi-gev-muon-source-compact-deployable-laser-plasma-electron-accelerator",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-high-resolution-ore-sensing-active-multi-gev-muon-source-compact-deployable-laser-plasma-electron-accelerator",
+         "/node/5635"
+        ]
+       },
+       "fields": {
+        "title": "Rapid, high-resolution ore sensing with an active, multi-GeV muon source from a compact, deployable, laser-plasma electron accelerator ",
+        "search_alias": "rapid-high-resolution-ore-sensing-with-an-active-multi-gev-muon-source-from-a-compact-deployable-laser-plasma-electron-accelerator-",
+        "alias": "rapid-high-resolution-ore-sensing-active-multi-gev-muon-source-compact-deployable-laser-plasma-electron-accelerator",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-high-resolution-ore-sensing-active-multi-gev-muon-source-compact-deployable-laser-plasma-electron-accelerator",
+         "/node/5635"
+        ],
+        "award": "3,800,000",
+        "release_date": "Jun 18 2026",
+        "location": "Berkeley, CA",
+        "state": "CA",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "0540fb76-f5b7-408a-8b2f-05f476a31521",
+          "attributes": {
+           "drupal_internal__nid": "2040",
+           "title": "Lawrence Berkeley National Laboratory (LBNL)",
+           "alias": "lawrence-berkeley-national-laboratory-lbnl",
+           "urls": [
+            "/node/2040"
+           ]
+          },
+          "fields": {
+           "title": "Lawrence Berkeley National Laboratory (LBNL)",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "30",
+             "name": "National Laboratory",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "CA",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rapid-high-resolution-ore-sensing-with-an-active-multi-gev-muon-source-from-a-compact-deployable-laser-plasma-electron-accelerator-",
+         "custom_reference_organization_type": [
+          "30"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "bfc0e69a-b8ca-418e-a2ad-4de826516f0e",
+       "attributes": {
+        "drupal_internal__nid": "5647",
+        "title": "Rapid In Situ Core Characterization Using Synthetic Biology ",
+        "alias": "rapid-situ-core-characterization-using-synthetic-biology",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-situ-core-characterization-using-synthetic-biology",
+         "/node/5647"
+        ]
+       },
+       "fields": {
+        "title": "Rapid In Situ Core Characterization Using Synthetic Biology ",
+        "search_alias": "rapid-in-situ-core-characterization-using-synthetic-biology-",
+        "alias": "rapid-situ-core-characterization-using-synthetic-biology",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/rapid-situ-core-characterization-using-synthetic-biology",
+         "/node/5647"
+        ],
+        "award": "2,000,000",
+        "release_date": "Jun 18 2026",
+        "location": "Woburn, MA",
+        "state": "MA",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "9c430d1c-c444-4dac-a10b-2704d87f9d74",
+          "attributes": {
+           "drupal_internal__nid": "5646",
+           "title": "Fieldstone Bio, Inc.",
+           "alias": "fieldstone-bio-inc",
+           "urls": [
+            "/node/5646"
+           ]
+          },
+          "fields": {
+           "title": "Fieldstone Bio, Inc.",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "29",
+             "name": "Private Company",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "MA",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "rapid-in-situ-core-characterization-using-synthetic-biology-",
+         "custom_reference_organization_type": [
+          "29"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "019f46a2-4ff3-4ebc-ae1d-8a69dc18377c",
+       "attributes": {
+        "drupal_internal__nid": "5638",
+        "title": "RAPTOR - Rapid Analysis of Precious and Targeted Ores with Rotary drilling ",
+        "alias": "raptor-rapid-analysis-precious-and-targeted-ores-rotary-drilling",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/raptor-rapid-analysis-precious-and-targeted-ores-rotary-drilling",
+         "/node/5638"
+        ]
+       },
+       "fields": {
+        "title": "RAPTOR - Rapid Analysis of Precious and Targeted Ores with Rotary drilling ",
+        "search_alias": "raptor---rapid-analysis-of-precious-and-targeted-ores-with-rotary-drilling-",
+        "alias": "raptor-rapid-analysis-precious-and-targeted-ores-rotary-drilling",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/raptor-rapid-analysis-precious-and-targeted-ores-rotary-drilling",
+         "/node/5638"
+        ],
+        "award": "3,500,000",
+        "release_date": "Jun 18 2026",
+        "location": "Bryan, TX",
+        "state": "TX",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "915094c5-3ca3-46d4-857e-75c4c5505aad",
+          "attributes": {
+           "drupal_internal__nid": "2095",
+           "title": "Texas A&M Engineering Experiment Station",
+           "alias": "texas-am-engineering-experiment-station",
+           "urls": [
+            "/node/2095"
+           ]
+          },
+          "fields": {
+           "title": "Texas A&M Engineering Experiment Station",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "15",
+             "name": "University",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "TX",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "raptor---rapid-analysis-of-precious-and-targeted-ores-with-rotary-drilling-",
+         "custom_reference_organization_type": [
+          "15"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "033a6133-4148-4758-a247-2d348ae6db01",
+       "attributes": {
+        "drupal_internal__nid": "5633",
+        "title": "Acoustic Classification of Polymetallic Nodules on the Deep Ocean Seabed",
+        "alias": "acoustic-classification-polymetallic-nodules-deep-ocean-seabed",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/acoustic-classification-polymetallic-nodules-deep-ocean-seabed",
+         "/node/5633"
+        ]
+       },
+       "fields": {
+        "title": "Acoustic Classification of Polymetallic Nodules on the Deep Ocean Seabed",
+        "search_alias": "acoustic-classification-of-polymetallic-nodules-on-the-deep-ocean-seabed",
+        "alias": "acoustic-classification-polymetallic-nodules-deep-ocean-seabed",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/acoustic-classification-polymetallic-nodules-deep-ocean-seabed",
+         "/node/5633"
+        ],
+        "award": "1,300,000",
+        "release_date": "Jun 18 2026",
+        "location": "Austin, TX",
+        "state": "TX",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "448f2e48-7c00-48fd-b3c8-c0e8517eaa19",
+          "attributes": {
+           "drupal_internal__nid": "2257",
+           "title": "University of Texas at Austin (UT Austin)",
+           "alias": "university-texas-austin-ut-austin",
+           "urls": [
+            "/node/2257"
+           ]
+          },
+          "fields": {
+           "title": "University of Texas at Austin (UT Austin)",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "15",
+             "name": "University",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "TX",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "acoustic-classification-of-polymetallic-nodules-on-the-deep-ocean-seabed",
+         "custom_reference_organization_type": [
+          "15"
+         ]
+        }
+       }
+      },
+      {
+       "type": "project",
+       "id": "20c353d0-6745-447b-8846-0b5b879c1588",
+       "attributes": {
+        "drupal_internal__nid": "5636",
+        "title": "High-Throughput Terahertz Time-Domain Spectroscopy for Rare Earth Element Sensing ",
+        "alias": "high-throughput-terahertz-time-domain-spectroscopy-rare-earth-element-sensing",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/high-throughput-terahertz-time-domain-spectroscopy-rare-earth-element-sensing",
+         "/node/5636"
+        ]
+       },
+       "fields": {
+        "title": "High-Throughput Terahertz Time-Domain Spectroscopy for Rare Earth Element Sensing ",
+        "search_alias": "high-throughput-terahertz-time-domain-spectroscopy-for-rare-earth-element-sensing-",
+        "alias": "high-throughput-terahertz-time-domain-spectroscopy-rare-earth-element-sensing",
+        "urls": [
+         "/programs-and-initiatives/search-all-projects/high-throughput-terahertz-time-domain-spectroscopy-rare-earth-element-sensing",
+         "/node/5636"
+        ],
+        "award": "2,500,000",
+        "release_date": "Jun 18 2026",
+        "location": "Los Angeles, CA",
+        "state": "CA",
+        "status": "Selected",
+        "related_technologies": [
+         {
+          "tid": "126",
+          "name": "Resources",
+          "icon": null,
+          "reference_icon": "resources_industrial",
+          "level": 0,
+          "parent_tid": null
+         }
+        ],
+        "verticals": [],
+        "organization": [
+         {
+          "type": "organization",
+          "id": "18065bff-9847-45fe-9f6c-fc40bfb2b6fa",
+          "attributes": {
+           "drupal_internal__nid": "2186",
+           "title": "University of California, Los Angeles (UCLA)",
+           "alias": "university-california-los-angeles-ucla",
+           "urls": [
+            "/node/2186"
+           ]
+          },
+          "fields": {
+           "title": "University of California, Los Angeles (UCLA)",
+           "website": [],
+           "website_display": null,
+           "type": [
+            {
+             "tid": "15",
+             "name": "University",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "spinoff_type": "",
+           "spinoff_funding": []
+          }
+         }
+        ],
+        "related_programs": [
+         {
+          "type": "program",
+          "id": "596786ba-4575-443f-8bbc-e17f2a262182",
+          "attributes": {
+           "drupal_internal__nid": "5334",
+           "title": "ROCKS",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ]
+          },
+          "fields": {
+           "title": "ROCKS",
+           "search_alias": "rocks",
+           "alias": "rocks",
+           "urls": [
+            "/programs-and-initiatives/view-all-programs/rocks",
+            "/node/5334"
+           ],
+           "acronym": "Reliable Ore Characterization with Keystone Sensing",
+           "summary": "The ROCKS program aims to accelerate U.S. mineral independence by increasing long-term U.S. access to rare earth elements (REEs) and critical minerals needed to power American energy, technology, and defense.",
+           "release_date": "Aug 25 2025",
+           "status": "Active",
+           "program_type": [
+            {
+             "tid": "9",
+             "name": "Focused",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "related_technologies": [
+            {
+             "tid": "126",
+             "name": "Resources",
+             "icon": null,
+             "reference_icon": "resources_industrial",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "verticals": [],
+           "search": {
+            "type": "program",
+            "type_label": "Program",
+            "field_program_status": "active",
+            "field_program_type": [
+             "9"
+            ],
+            "field_reference_technology": [
+             "126"
+            ],
+            "field_reference_technology_sub": [],
+            "field_reference_vertical": [],
+            "search_alias": "rocks"
+           }
+          }
+         }
+        ],
+        "program_director": [
+         {
+          "type": "staff",
+          "id": "11f78068-724d-409b-b3d9-97ca6ff41c89",
+          "attributes": {
+           "drupal_internal__nid": "235",
+           "title": "Dr. Robert Mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ]
+          },
+          "fields": {
+           "title": "Dr. Robert Mellors",
+           "search_alias": "dr-robert-mellors",
+           "alias": "dr-robert-mellors",
+           "urls": [
+            "/about/people/dr-robert-mellors",
+            "/node/235"
+           ],
+           "job_title": "Program Director",
+           "summary": "Dr. Robert Mellors serves as a Program Director at the Advanced Research Projects Agency-Energy (ARPA-E).\u00a0His areas of interests include geothermal energy, seismological monitoring, distributed acoustic sensing, and satellite radar.",
+           "image_data": [
+            {
+             "target_id": "570",
+             "alt": "Robert Mellors",
+             "title": "",
+             "width": "144",
+             "height": "158"
+            }
+           ],
+           "image_uri": "https://arpa-e.energy.gov/sites/default/files/2025-03/DOE%20Portrait_Mellors%20Robert_Web_144x158.png",
+           "categories": [
+            {
+             "tid": "7",
+             "name": "Program Directors",
+             "icon": null,
+             "reference_icon": "",
+             "level": 0,
+             "parent_tid": null
+            }
+           ],
+           "sorting_hierarchy": "100",
+           "sorting_value": "Mellors",
+           "search": {
+            "type": "staff",
+            "type_label": "People",
+            "field_reference_technology": [
+             "126",
+             "25"
+            ],
+            "search_alias": "dr-robert-mellors"
+           }
+          }
+         }
+        ],
+        "search": {
+         "type": "program",
+         "type_label": "Project",
+         "administrative_area": "CA",
+         "field_project_status": "selected",
+         "field_project_program_director": [
+          "235"
+         ],
+         "field_reference_funding": [],
+         "field_reference_program": [
+          "5334"
+         ],
+         "field_reference_technology": [
+          "126"
+         ],
+         "field_reference_technology_sub": [],
+         "field_reference_vertical": [],
+         "search_alias": "high-throughput-terahertz-time-domain-spectroscopy-for-rare-earth-element-sensing-",
+         "custom_reference_organization_type": [
+          "15"
+         ]
+        }
+       }
+      }
+     ],
+     "audience": [],
+     "related_press": []
+    },
+    "metadata": {
+     "title": "DEEP - Deep-sea Exploration Efficiency Project  | ARPA-E"
+    },
+    "info": {
+     "output": "full",
+     "source": "node"
+    }
+   }
+  }
+ ],
+ "meta": {
+  "count": {
+   "count": 681,
+   "count_first_of_query": 1,
+   "count_last_of_query": 50
+  },
+  "filters": {
+   "field_reference_technology_sub": {
+    "label": "Research Sub-Area",
+    "options": {
+     "27": "Batteries",
+     "93": "Biofuels",
+     "94": "Biomass",
+     "99": "Building Materials",
+     "87": "Chemicals & Fuels",
+     "21": "Computing",
+     "89": "Exploration & Extraction",
+     "28": "Fuels",
+     "88": "Heat",
+     "97": "Heating & Cooling",
+     "101": "Lighting",
+     "84": "Liquid or Gaseous Fuels",
+     "129": "Manufacturing",
+     "26": "Materials",
+     "74": "Nuclear Fission",
+     "81": "Nuclear Fusion",
+     "95": "Other - Agriculture & Bioenergy",
+     "102": "Other - Buildings",
+     "80": "Other - Grid",
+     "33": "Other - Industrial Efficiency",
+     "85": "Other - Power Generation",
+     "127": "Other - Resources",
+     "77": "Other - Transportation",
+     "128": "Power Electronics",
+     "76": "Power Systems",
+     "82": "Renewables",
+     "24": "Storage",
+     "78": "Transmission & Distribution"
+    }
+   },
+   "custom_reference_organization_type": {
+    "label": "Organization Type",
+    "options": {
+     "151": "Government Laboratory",
+     "30": "National Laboratory",
+     "20": "Non-Profit",
+     "29": "Private Company",
+     "15": "University"
+    }
+   },
+   "field_reference_funding": {
+    "label": "Funding Round",
+    "options": {
+     "153": "Any",
+     "149": "Pre-Seed & Seed Stage",
+     "148": "Early Stage (Series A - B)",
+     "147": "Late Stage (Series C - F)",
+     "146": "Debt or Other",
+     "152": "Hybrid",
+     "150": "None"
+    }
+   },
+   "field_project_status": {
+    "label": "Project Status",
+    "options": {
+     "active": "Active",
+     "alumni": "Alumni",
+     "cancelled": "Cancelled",
+     "selected": "Selected"
+    }
+   }
+  },
+  "sorts": {
+   "title": [
+    "asc",
+    "desc"
+   ],
+   "administrative_area": [
+    "asc",
+    "desc"
+   ],
+   "field_project_status": [
+    "asc",
+    "desc"
+   ]
+  }
+ },
+ "links": {
+  "1": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=0&page%5Blimit%5D=50"
+  },
+  "2": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=50&page%5Blimit%5D=50"
+  },
+  "14": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=650&page%5Blimit%5D=50"
+  },
+  "first": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=0&page%5Blimit%5D=50"
+  },
+  "last": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=650&page%5Blimit%5D=50"
+  },
+  "next": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=50&page%5Blimit%5D=50"
+  },
+  "self": {
+   "href": "https://arpa-e.energy.gov/JSONAPI/custom/index/project?filter%5Bcustom_reference_organization_type%5D=29&page%5Boffset%5D=0&page%5Blimit%5D=50"
+  }
+ }
+}

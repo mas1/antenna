@@ -1,0 +1,917 @@
+{
+ "apiVersion": "1.0.0",
+ "error": {
+  "code": "",
+  "message": ""
+ },
+ "data": {
+  "context": "",
+  "currentItemCount": 50,
+  "items": [
+   {
+    "trackingNumber": "RID000000047",
+    "makeName": "Autel Robotics",
+    "modelName": "Dragonfish Pro",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-28T18:37:01.099Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "8",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000048",
+    "makeName": "Autel Robotics",
+    "modelName": "Dragonfish Standard",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-28T18:36:53.137Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "11",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002365",
+    "makeName": "DeltaQuad",
+    "modelName": "Evo",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-24T22:16:37.909Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002731",
+    "makeName": "Manna Drone Delivery",
+    "modelName": "3.8.3",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-24T15:53:37.520Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002190",
+    "makeName": "BRINC",
+    "modelName": "RESPONDER",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-22T11:08:53.526Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "3",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000300",
+    "makeName": "Skydio",
+    "modelName": "2 SDRC2V1",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-21T15:57:13.967Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "2",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002629",
+    "makeName": "Wingcopter",
+    "modelName": "198",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-21T13:07:29.103Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002344",
+    "makeName": "Autel Robotics",
+    "modelName": "MDX-1",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-18T11:13:45.399Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "8",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002674",
+    "makeName": "Amor Fati Industries (dba Seneca)",
+    "modelName": "Argo-3",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-15T22:38:57.965Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002688",
+    "makeName": "Hylio",
+    "modelName": "PEGASUS HYL-30",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-09-08T14:29:33.057Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000001086",
+    "makeName": "Autel Robotics",
+    "modelName": "EVO Lite",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-24T13:14:19.305Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "15",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002694",
+    "makeName": "Aurelia",
+    "modelName": "X8 PRO",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-20T15:23:28.833Z",
+    "certificationTypeId": 2,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Broadcast Module",
+    "certificationType": {
+     "id": 2,
+     "name": "Broadcast Module"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000283",
+    "makeName": "Draganfly Innovations",
+    "modelName": "Commander3 XL",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-19T15:52:40.584Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "5",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002698",
+    "makeName": "Trace UAS",
+    "modelName": "Trace UAS",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-17T17:22:48.754Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002673",
+    "makeName": "Autel Robotics",
+    "modelName": "EVO Max",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-17T14:21:55.284Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000428",
+    "makeName": "Arcsky",
+    "modelName": "X55",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-07T12:02:28.443Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "2",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002696",
+    "makeName": "Angel Aerial Systems",
+    "modelName": "Trio Scout",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-08-03T20:46:34.018Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002707",
+    "makeName": "Matternet",
+    "modelName": "M2",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-29T15:27:12.911Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002665",
+    "makeName": "Flyby Robotics",
+    "modelName": "F-11",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-22T23:57:50.535Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000570",
+    "makeName": "Lucid Bots",
+    "modelName": "Sherpa",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-13T16:24:31.728Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "2",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000001038",
+    "makeName": "Autel Robotics",
+    "modelName": "EVO Nano",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-13T14:01:44.972Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "10",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002690",
+    "makeName": "Hylio",
+    "modelName": "ATLAS HYL-300",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-09T22:44:41.292Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002689",
+    "makeName": "Hylio",
+    "modelName": "PHOTON HYL-10",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-01T22:31:18.874Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002695",
+    "makeName": "Vision Aerial",
+    "modelName": "Vulcan S",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-07-01T14:49:06.404Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "OOP000000196",
+    "makeName": "SBG",
+    "modelName": "Modified DJI Mini",
+    "series": "3, 3Pro, 4Pro",
+    "status": "accepted",
+    "updatedAt": "2026-06-23T17:43:24.017Z",
+    "certificationTypeId": null,
+    "docType": "oop",
+    "revNumber": "6",
+    "categoryDeclarationFor": "Category 2,Category 3",
+    "certificationType": null,
+    "complianceCategories": [
+     {
+      "id": 1,
+      "name": "Category 2",
+      "DOCRevComplianceCategory": {
+       "id": 426,
+       "docRevId": 6230,
+       "complianceCategor": 1
+      }
+     },
+     {
+      "id": 2,
+      "name": "Category 3",
+      "DOCRevComplianceCategory": {
+       "id": 427,
+       "docRevId": 6230,
+       "complianceCategor": 2
+      }
+     }
+    ]
+   },
+   {
+    "trackingNumber": "OOP000000259",
+    "makeName": "Skydio",
+    "modelName": "X10 with Skydio Parachute for X10 (SR47APCH)",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-06-22T14:12:40.740Z",
+    "certificationTypeId": null,
+    "docType": "oop",
+    "revNumber": "3",
+    "categoryDeclarationFor": "Category 2,Category 3",
+    "certificationType": null,
+    "complianceCategories": [
+     {
+      "id": 1,
+      "name": "Category 2",
+      "DOCRevComplianceCategory": {
+       "id": 423,
+       "docRevId": 6224,
+       "complianceCategor": 1
+      }
+     },
+     {
+      "id": 2,
+      "name": "Category 3",
+      "DOCRevComplianceCategory": {
+       "id": 424,
+       "docRevId": 6224,
+       "complianceCategor": 2
+      }
+     }
+    ]
+   },
+   {
+    "trackingNumber": "RID000002128",
+    "makeName": "Zipline",
+    "modelName": "P2 Zip",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-06-15T14:48:05.741Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "3",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002680",
+    "makeName": "Hylio, Inc.",
+    "modelName": "ARES BLUE",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-06-08T14:33:35.428Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000600",
+    "makeName": "Voliro",
+    "modelName": "Voliro T",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-06-02T17:10:54.269Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "7",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002670",
+    "makeName": "Skydio",
+    "modelName": "R10 SDR5PC",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-06-02T16:47:58.641Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002683",
+    "makeName": "Avol",
+    "modelName": "10",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-05-27T19:22:02.614Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002558",
+    "makeName": "Draganfly",
+    "modelName": "Apex",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-05-21T12:07:40.577Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "3",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002572",
+    "makeName": "PrecisionVision 100X",
+    "modelName": "PV100X",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-05-11T17:30:02.252Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002676",
+    "makeName": "Terra Drone Corporation",
+    "modelName": "Model M1",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-05-11T12:46:17.727Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002678",
+    "makeName": "ABZ Innovation",
+    "modelName": "L50",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-05-08T18:35:05.750Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002668",
+    "makeName": "SmartDrone",
+    "modelName": "Magellan",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-05-07T20:45:48.148Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000001969",
+    "makeName": "Autel Robotics",
+    "modelName": "EVO II V3",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-04-20T17:39:04.104Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "10",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002664",
+    "makeName": "SkySpecs",
+    "modelName": "Foresight V2-E",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-04-17T16:13:28.073Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002666",
+    "makeName": "Aero Systems West",
+    "modelName": "RID Broadcast Module",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-04-14T17:11:47.583Z",
+    "certificationTypeId": 2,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Broadcast Module",
+    "certificationType": {
+     "id": 2,
+     "name": "Broadcast Module"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000191",
+    "makeName": "Teledyne FLIR",
+    "modelName": "SkyRanger/SkyRaider R70/R80D",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-04-13T15:56:06.299Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "23",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000001332",
+    "makeName": "Autel Robotics",
+    "modelName": "Autel Alpha",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-04-10T18:05:24.942Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "18",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002615",
+    "makeName": "ABZ Innovation",
+    "modelName": "L10",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-25T17:41:10.830Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002534",
+    "makeName": "ABZ Innovation",
+    "modelName": "L30",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-23T16:29:16.469Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000056",
+    "makeName": "AgEagle (senseFly)",
+    "modelName": "eBee X series",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-20T18:04:50.115Z",
+    "certificationTypeId": 2,
+    "docType": "rid",
+    "revNumber": "2",
+    "categoryDeclarationFor": "Broadcast Module",
+    "certificationType": {
+     "id": 2,
+     "name": "Broadcast Module"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002663",
+    "makeName": "PARROT",
+    "modelName": "PARROT ANAFI UKR GOV",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-20T12:52:50.072Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000001240",
+    "makeName": "Freefly Systems",
+    "modelName": "Astro",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-19T22:39:53.363Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "2",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000000151",
+    "makeName": "Autel Robotics",
+    "modelName": "EVO Max",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-18T12:42:30.133Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "7",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002659",
+    "makeName": "Freefly Systems",
+    "modelName": "Alta X Gen2",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-18T12:26:24.618Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000002645",
+    "makeName": "Ceres Air LLC",
+    "modelName": "C6",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-13T16:09:03.318Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "0",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   },
+   {
+    "trackingNumber": "RID000001696",
+    "makeName": "Ruko",
+    "modelName": "F11GIM3",
+    "series": "",
+    "status": "accepted",
+    "updatedAt": "2026-03-06T02:12:19.507Z",
+    "certificationTypeId": 1,
+    "docType": "rid",
+    "revNumber": "1",
+    "categoryDeclarationFor": "Unmanned Aircraft",
+    "certificationType": {
+     "id": 1,
+     "name": "Unmanned Aircraft"
+    },
+    "complianceCategories": []
+   }
+  ],
+  "itemsPerPage": "50",
+  "kind": "",
+  "pageIndex": "0",
+  "startIndex": 0,
+  "totalItems": 506
+ },
+ "method": "",
+ "params": {
+  "role": "",
+  "security": {
+   "claims": {
+    "exp": 0,
+    "iat": 0,
+    "iss": "",
+    "qsh": ""
+   },
+   "header": {
+    "alg": "",
+    "typ": ""
+   }
+  },
+  "userId": ""
+ }
+}

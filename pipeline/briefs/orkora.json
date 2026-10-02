@@ -1,0 +1,81 @@
+{
+ "slug": "orkora",
+ "generatedAt": "2026-10-02",
+ "summary": "Orkora is developing offshore nuclear power stations exporting multi-gigawatt power to national grids, according to the founder's personal site. No source names the reactor type, a reactor supplier or a customer. A November 2025 job post describes an Aberdeen site building electrically heated test rigs, and the company sells Kortex, a grid site-screening data product.",
+ "thesis": "A bet on gigawatt-scale nuclear plants built in specialised facilities and operated at sea, spanning energy, shipbuilding and heavy manufacturing. Evidence so far: Aberdeen test rigs, a grid-siting data product and two US lobbying registrations on offshore nuclear permitting.",
+ "stage": "Orkora Inc. filed a Form D on 18 August 2026: $10,216,689 of equity sold to 6 investors, first sale 23 July 2026, of which $8,000,022.65 was cash and $2,216,666.68 conversion of convertible securities. It names no investors. UK company Orkora Limited's 1 July 2026 confirmation statement lists three shareholders: Ellison (900,000 shares), Thomas Paul Kirk (45,000) and a Cocoa VC fund (45,000). No announcement of the round was found.",
+ "team": [
+  {
+   "name": "Stuart Ellison",
+   "background": "CEO and director per the Form D. His site lists engineering roles at Submarine Rescue Service, Oil States, Aker Solutions and NIS, and founding Exnics (flow measurement)."
+  },
+  {
+   "name": "Aditi Maliwal",
+   "background": "Listed as a director on the Form D filed 18 August 2026. The filing gives no affiliation and no other source ties her to the company."
+  }
+ ],
+ "questions": [
+  "Which reactor goes in the hull, and who designs and supplies it? The siting model assumes 2 GWe per hull, but no source names the reactor type.",
+  "Which regulator licenses a station on the high seas (44 of the siting model's 59 sites) or in a foreign EEZ, and where will you file first?",
+  "Has Orkora Limited moved under Orkora Inc., where do the IP and Aberdeen staff sit, and who are the six Form D investors?",
+  "How is the $8,000,022.65 of new cash split between the reactor programme and Kortex, and what must the sub 20 kW electrically heated rigs show, by when?"
+ ],
+ "risks": [
+  "No source names a reactor type, supplier or licensing route. A US government article of 23 July 2026 says no offshore nuclear projects have been approved or proposed.",
+  "The scale gap is large: $10,216,689 raised and test rigs described as sub 20 kW thermal, against a siting model assuming 2 GWe per hull. Kortex may also split focus.",
+  "Filings name only two people, the CEO and one director. No source opened names a team member with reactor design or nuclear licensing experience."
+ ],
+ "unverified": [
+  "Whether director Aditi Maliwal is the Upfront Ventures general partner of that name is not confirmed. No source links Upfront Ventures to Orkora.",
+  "The six Form D investors are not identified. Cocoa Ventures lists Orkora on its site, but no source says it took part in the Form D round.",
+  "A LinkedIn search result describes a Nathaniel Read as Head of Nuclear Engineering at Orkora. The profile could not be opened, so this is not confirmed."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 18 August 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2149350/000214935026000001/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "Companies House confirmation statement, 1 July 2026",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/16555987/filing-history/MzUzMzgxODMyN2FkaXF6a2N4/document?format=pdf&download=0"
+  },
+  {
+   "title": "Job post, 13 November 2025",
+   "url": "https://talents.studysmarter.co.uk/companies/orkora/aberdeen/principal-engineer-rd-16304317/"
+  },
+  {
+   "title": "Stuart Ellison personal site",
+   "url": "https://stuartellison.com/"
+  },
+  {
+   "title": "Orkora site (siting model in page source)",
+   "url": "https://orkora.com/"
+  },
+  {
+   "title": "Kortex product site",
+   "url": "https://kortex.orkora.com/"
+  },
+  {
+   "title": "Lobbying registration, Harencak Consulting, 15 July 2026",
+   "url": "https://lda.gov/filings/public/filing/f58f977e-a629-478e-af39-a6c03f36d2ad/print/"
+  },
+  {
+   "title": "Lobbying registration, Invariant LLC, 6 August 2026",
+   "url": "https://lda.gov/filings/public/filing/ee109df7-0408-4066-a2c9-ade3143c3880/print/"
+  },
+  {
+   "title": "BOEM newsroom, 23 July 2026",
+   "url": "https://www.boem.gov/newsroom/ocean-science-news/preparing-future-offshore-nuclear-energy"
+  },
+  {
+   "title": "Stuart Ellison career timeline",
+   "url": "https://stuartellison.com/timeline.html"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-09-30",
+  "what": "NEMO announced Orkora as a new full member on its news page, describing a planned fleet of floating nuclear power stations.",
+  "url": "https://www.nemo.ngo/news/orkora-joins-nemo"
+ }
+}

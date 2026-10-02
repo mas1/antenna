@@ -1,0 +1,81 @@
+{
+ "slug": "angel-aerial-systems",
+ "generatedAt": "2026-10-02",
+ "summary": "Angel Aerial Systems is a Cincinnati, Ohio drone maker selling small battery-powered aircraft built for long hover time, aimed by its site at police, fire, defense and national security users. The company says its current product, the Trio Scout 2, hovers for 100 minutes, uses only NDAA-compliant components and is manufactured in Cincinnati.",
+ "thesis": "The company claims 100 minutes of hover from a US-made, NDAA-compliant small drone for public safety and defense. The Army's xTech Adaptive Strike page lists its Trio Scout as one of 10 finalists, in the extended-range reconnaissance category.",
+ "stage": "Form D filings show one offering, first sale December 2023, amended three times: $50,000 from 1 investor (filed January 2024), $902,500 from 25 (August 2024), $2,307,500 from 33 (October 2025) and $3,992,500 from 39 against a $4,500,000 offering (28 August 2026), in SAFEs and, in the latest amendment, debt and convertible notes. No funding announcement was found. The Army xTech final exercise is scheduled for October and November 2026.",
+ "team": [
+  {
+   "name": "William (Will) Hasting",
+   "background": "CEO and director per the Form D filings. A July 2026 podcast page calls him a former Navy nuclear engineer who later developed jet engines at GE Aerospace."
+  },
+  {
+   "name": "Dennis Krause",
+   "background": "Executive officer per the Form D filings (COO in the August 2024 amendment). Autonomy Global (September 2025) calls him a co-founder with GE Aviation engineering experience."
+  }
+ ],
+ "questions": [
+  "The company's LinkedIn page names three Ohio departments flying the Trio Scout. How many units have shipped in total, and what revenue has that produced?",
+  "List price went from $34,999 (Trio Scout, DroneXL, August 2025) to $27,999 (Trio Scout 2, company LinkedIn). What drove the cut, and what is the gross margin?",
+  "Where is the original Trio now, and does the granted patent cover the Trio Scout products, which DroneXL describes as a conventional tricopter?",
+  "Who are the 39 investors behind the $3,992,500, what are the SAFE caps and note terms, and why did the August 2026 amendment add debt and convertible notes?"
+ ],
+ "risks": [
+  "No contract or federal award was confirmed. USAspending returned none on 2 October 2026. The Blue UAS listing is described as in progress, and xTech is a prize competition.",
+  "The case rests mainly on one endurance figure, 100 minutes, which the company itself de-rates to 65 minutes at -5°F and 5,000 ft. No independent test of endurance was found.",
+  "The financing is small: $3,992,500 over about 32 months from 39 investors on SAFEs and notes. The filings name no investors and none checks the equity box."
+ ],
+ "unverified": [
+  "The company's LinkedIn page says three Ohio departments flew missions of 64, 75 and 80 minutes. No department statement or news report confirming these was found.",
+  "A search snippet said its systems are already deployed with the US Army. The Army page shows only participation in a prize competition.",
+  "Aggregator snippets list the University of Cincinnati 1819 Innovation Hub as an investor and a $2.3M seed round. Form D filings name no investors and show SAFEs."
+ ],
+ "sources": [
+  {
+   "title": "Form D/A, 28 August 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2006880/000200688026000003/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "EDGAR filing list, Angel Aerial Systems",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2006880&type=D&dateb=&owner=include&count=40"
+  },
+  {
+   "title": "Army xTech Adaptive Strike competition page",
+   "url": "https://xtech.army.mil/competition/xtechadaptivestrike/"
+  },
+  {
+   "title": "Trio Scout 2 product page",
+   "url": "https://angelaerialsystems.com/trio-scout-2"
+  },
+  {
+   "title": "USAspending award search, 2 October 2026",
+   "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+  },
+  {
+   "title": "DroneXL, 28 August 2025",
+   "url": "https://dronexl.co/2025/08/28/angel-aerials-trio-scout-drone-ndaa/"
+  },
+  {
+   "title": "Angel Aerial Systems LinkedIn page",
+   "url": "https://www.linkedin.com/company/angel-aerial-systems/"
+  },
+  {
+   "title": "Angel Aerial Systems home page",
+   "url": "https://angelaerialsystems.com"
+  },
+  {
+   "title": "Tactical Wealth podcast page, 28 July 2026",
+   "url": "https://tacticalwealth.transistor.fm/episodes/how-a-navy-nuke-built-the-company-transforming-the-drone-industry-will-hasting"
+  },
+  {
+   "title": "Autonomy Global, 9 September 2025",
+   "url": "https://www.autonomyglobal.co/hottest-new-drones-unveiled-at-commercial-uav-expo-2025-standout-innovations-on-a-crowded-show-floor/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2024-04-23",
+  "what": "Angel Aerial Systems publicly revealed its first product, the Trio drone, at XPONENTIAL 2024 in San Diego, reported by Commercial UAV News.",
+  "url": "https://www.commercialuavnews.com/infrastructure/angel-aerial-systems-reveals-trio-drone-at-xponential-2024"
+ }
+}

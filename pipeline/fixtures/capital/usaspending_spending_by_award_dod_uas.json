@@ -1,0 +1,525 @@
+{
+ "_request": {
+  "method": "POST",
+  "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "body": {
+   "filters": {
+    "time_period": [
+     {
+      "start_date": "2026-04-01",
+      "end_date": "2026-07-02",
+      "date_type": "new_awards_only"
+     }
+    ],
+    "award_type_codes": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "agencies": [
+     {
+      "type": "awarding",
+      "tier": "toptier",
+      "name": "Department of Defense"
+     }
+    ],
+    "recipient_type_names": [
+     "small_business"
+    ],
+    "keywords": [
+     "unmanned aircraft"
+    ]
+   },
+   "fields": [
+    "Award ID",
+    "Recipient Name",
+    "Recipient UEI",
+    "Start Date",
+    "End Date",
+    "Award Amount",
+    "Awarding Agency",
+    "Awarding Sub Agency",
+    "Contract Award Type",
+    "Description",
+    "NAICS",
+    "PSC",
+    "Place of Performance State Code",
+    "generated_internal_id",
+    "recipient_id",
+    "Base Obligation Date",
+    "Last Modified Date",
+    "Recipient Location"
+   ],
+   "page": 1,
+   "limit": 10,
+   "sort": "Award Amount",
+   "order": "desc"
+  }
+ },
+ "response": {
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+   {
+    "internal_id": 361963710,
+    "Award ID": "W58RGZ26F0332",
+    "Recipient Name": "GRIFFON AEROSPACE, INC.",
+    "Recipient UEI": "GVAZBHN26HL8",
+    "Start Date": "2026-06-03",
+    "End Date": "2027-03-30",
+    "Award Amount": 67940895.16,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Army",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "IN ACCORDANCE WITH THE DIRECTIVES ESTABLISHED IN THE DEPARTMENT OF WAR MEMORANDUM DATED 10 JULY 2025, IN SUPPORT OF EXECUTIVE ORDER 14307-UNLEASHING U.S. MILITARY DRONE DOMINANCE",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "AL",
+    "generated_internal_id": "CONT_AWD_W58RGZ26F0332_9700_W58RGZ26G0061_9700",
+    "recipient_id": "41bb56d5-8574-efa3-71e7-93998f65487f-C",
+    "Base Obligation Date": "2026-06-03",
+    "Last Modified Date": "2026-09-01 15:27:58",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "AL",
+     "state_name": "Alabama",
+     "city_name": "MADISON",
+     "county_code": "089",
+     "county_name": "MADISON",
+     "address_line1": "106 COMMERCE CIR",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "05",
+     "zip4": "1864",
+     "zip5": "35758",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 359957628,
+    "Award ID": "W58RGZ26F0226",
+    "Recipient Name": "MISTRAL INC",
+    "Recipient UEI": "DY1GTQUNQNA7",
+    "Start Date": "2026-04-02",
+    "End Date": "2027-04-01",
+    "Award Amount": 20039666.18,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Army",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "IN SUPPORT OF EXECUTIVE ORDER- UNLEASHING DRONE DOMINANCE, THE ARMY CONTRACTING COMMAND-REDSTONE ARSENAL ESTABLISHED THE BASIC ORDERING AGREEMENT TO PROCURE DRONES AND DRONE DOMINANT COMPONENTS.",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "MD",
+    "generated_internal_id": "CONT_AWD_W58RGZ26F0226_9700_W58RGZ26G0026_9700",
+    "recipient_id": "2b51b7ff-9298-35f2-5ba9-da9b90c07097-C",
+    "Base Obligation Date": "2026-04-02",
+    "Last Modified Date": "2026-06-22 12:09:27",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "MD",
+     "state_name": "Maryland",
+     "city_name": "BETHESDA",
+     "county_code": "031",
+     "county_name": "MONTGOMERY",
+     "address_line1": "7910 WOODMONT AVE",
+     "address_line2": "STE 820",
+     "address_line3": null,
+     "congressional_code": "08",
+     "zip4": "3063",
+     "zip5": "20814",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 363091383,
+    "Award ID": "W91CRB26FA251",
+    "Recipient Name": "NEROS, INC.",
+    "Recipient UEI": "JC6XP8B7EC51",
+    "Start Date": "2026-07-01",
+    "End Date": "2027-01-29",
+    "Award Amount": 17452800.03,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Army",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "DELIVERY ORDER 1 FOR PURPOSE-BUILT ATTRITABLE SYSTEM (PBAS) TO INCLUDE SMALL UNMANNED AIRCRAFT SYSTEMS (SUAS) ARCHER WITH NEROS, INC.",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "CA",
+    "generated_internal_id": "CONT_AWD_W91CRB26FA251_9700_W91CRB26DA011_9700",
+    "recipient_id": "eadb7f92-3d4e-3e35-50fe-9e83abf18d07-C",
+    "Base Obligation Date": "2026-07-01",
+    "Last Modified Date": "2026-07-01 14:04:48",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "CA",
+     "state_name": "California",
+     "city_name": "TORRANCE",
+     "county_code": "037",
+     "county_name": "LOS ANGELES",
+     "address_line1": "19681 PACIFIC GATEWAY DR",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "44",
+     "zip4": "1116",
+     "zip5": "90502",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 361895001,
+    "Award ID": "W912CH26CA023",
+    "Recipient Name": "DRONESHIELD LLC",
+    "Recipient UEI": "TUYTY9SYP3H1",
+    "Start Date": "2026-06-02",
+    "End Date": "2027-06-01",
+    "Award Amount": 13836183.86,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Army",
+    "Contract Award Type": "DEFINITIVE CONTRACT",
+    "Description": "COUNTER-SMALL UNMANNED AIRCRAFT SYSTEM (C-SUAS) SOLUTION TO EQUIP FOUR (4) FIXED-SITE ZONES AND SIX (6) MOBILE INFANTRY SQUAD VEHICLES (ISVS).",
+    "NAICS": {
+     "code": "334511",
+     "description": "SEARCH, DETECTION, NAVIGATION, GUIDANCE, AERONAUTICAL, AND NAUTICAL SYSTEM AND INSTRUMENT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "AC12",
+     "description": "NATIONAL DEFENSE R&D SERVICES; DEPARTMENT OF DEFENSE - MILITARY; APPLIED RESEARCH"
+    },
+    "Place of Performance State Code": "TX",
+    "generated_internal_id": "CONT_AWD_W912CH26CA023_9700_-NONE-_-NONE-",
+    "recipient_id": "345c09b9-37a5-ddc9-b98a-23d9cebcfb13-C",
+    "Base Obligation Date": "2026-06-01",
+    "Last Modified Date": "2026-06-24 10:39:24",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "VA",
+     "state_name": "Virginia",
+     "city_name": "WARRENTON",
+     "county_code": "061",
+     "county_name": "FAUQUIER",
+     "address_line1": "7140 FARM STATION RD APT B",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "10",
+     "zip4": "4008",
+     "zip5": "20187",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 360212680,
+    "Award ID": "FA480326F0016",
+    "Recipient Name": "KRAUS HAMDANI AEROSPACE, INC.",
+    "Recipient UEI": "QSBUPRMYGV43",
+    "Start Date": "2026-04-17",
+    "End Date": "2026-05-17",
+    "Award Amount": 10045818.82,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Air Force",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "DELIVERY ORDER 02",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "SC",
+    "generated_internal_id": "CONT_AWD_FA480326F0016_9700_FA480326D0001_9700",
+    "recipient_id": "2763fd3b-d864-7a1a-6a22-3b4f0b10d671-C",
+    "Base Obligation Date": "2026-04-15",
+    "Last Modified Date": "2026-05-04 15:55:19",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "CA",
+     "state_name": "California",
+     "city_name": "EMERYVILLE",
+     "county_code": "001",
+     "county_name": "ALAMEDA",
+     "address_line1": "5515 DOYLE ST STE 15",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "12",
+     "zip4": "2548",
+     "zip5": "94608",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 361328826,
+    "Award ID": "FA480326F0022",
+    "Recipient Name": "KRAUS HAMDANI AEROSPACE, INC.",
+    "Recipient UEI": "QSBUPRMYGV43",
+    "Start Date": "2026-05-18",
+    "End Date": "2026-06-03",
+    "Award Amount": 9989612.53,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Air Force",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "DELIVERY ORDER 03",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "SC",
+    "generated_internal_id": "CONT_AWD_FA480326F0022_9700_FA480326D0001_9700",
+    "recipient_id": "2763fd3b-d864-7a1a-6a22-3b4f0b10d671-C",
+    "Base Obligation Date": "2026-05-15",
+    "Last Modified Date": "2026-05-19 10:24:29",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "CA",
+     "state_name": "California",
+     "city_name": "EMERYVILLE",
+     "county_code": "001",
+     "county_name": "ALAMEDA",
+     "address_line1": "5515 DOYLE ST STE 15",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "12",
+     "zip4": "2548",
+     "zip5": "94608",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 360430900,
+    "Award ID": "FA480326F0017",
+    "Recipient Name": "CLOUDFIT SOFTWARE, LLC",
+    "Recipient UEI": "H4YAKXWSLJK1",
+    "Start Date": "2026-04-17",
+    "End Date": "2027-04-16",
+    "Award Amount": 4504500.0,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Air Force",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "INTEGRATION OF THE MANET CLOUD HIGH MOBILITY RADIO/ROUTING (MCHMR) SYSTEM WITH THE AIR FORCES CENTRAL (AFCENT) MISSION EXECUTION ENVIRONMENT. THE COMBINED SYSTEM FIELDS CONNECTED SMALL UNMANNED AIRCRAFT SYSTEMS (SUAS) ACROSS THE USCENTCOM AOR.",
+    "NAICS": {
+     "code": "541512",
+     "description": "COMPUTER SYSTEMS DESIGN SERVICES"
+    },
+    "PSC": {
+     "code": "DA01",
+     "description": "IT AND TELECOM - BUSINESS APPLICATION/APPLICATION DEVELOPMENT SUPPORT SERVICES (LABOR)"
+    },
+    "Place of Performance State Code": "SC",
+    "generated_internal_id": "CONT_AWD_FA480326F0017_9700_FA480326D0006_9700",
+    "recipient_id": "f92e8886-c01e-5aee-d2d0-8224bfe63590-C",
+    "Base Obligation Date": "2026-04-17",
+    "Last Modified Date": "2026-04-17 16:03:14",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "VA",
+     "state_name": "Virginia",
+     "city_name": "LYNCHBURG",
+     "county_code": "680",
+     "county_name": "LYNCHBURG (CITY)",
+     "address_line1": "863 CHURCH ST",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "05",
+     "zip4": "1513",
+     "zip5": "24504",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 360907845,
+    "Award ID": "FA862926PB003",
+    "Recipient Name": "AEROVIRONMENT, INC",
+    "Recipient UEI": "MWKWXVSSC518",
+    "Start Date": "2026-04-29",
+    "End Date": "2026-07-29",
+    "Award Amount": 4451223.0,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Air Force",
+    "Contract Award Type": "PURCHASE ORDER",
+    "Description": "ACC/A3J-MIPR-TACP ACC HURRICANE ORDER",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "CA",
+    "generated_internal_id": "CONT_AWD_FA862926PB003_9700_-NONE-_-NONE-",
+    "recipient_id": "5c230f88-bf30-19f8-5853-79c1472f53a9-C",
+    "Base Obligation Date": "2026-04-29",
+    "Last Modified Date": "2026-05-28 14:25:26",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "CA",
+     "state_name": "California",
+     "city_name": "SIMI VALLEY",
+     "county_code": "111",
+     "county_name": "VENTURA",
+     "address_line1": "900 INNOVATORS WAY",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "26",
+     "zip4": "2072",
+     "zip5": "93065",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 360953874,
+    "Award ID": "W58RGZ26F0292",
+    "Recipient Name": "INTEGRATE DG LLC",
+    "Recipient UEI": "CD97B3RLLY37",
+    "Start Date": "2026-05-26",
+    "End Date": "2026-06-30",
+    "Award Amount": 4006000.0,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Army",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "THE PURPOSE TO PROCURE ITEMS FOR THE LAUNCHED EFFECTS (LE) PRODUCT OFFICE (PDO) IN SUPPORT OF OPERATION EPIC FURY.",
+    "NAICS": {
+     "code": "336411",
+     "description": "AIRCRAFT MANUFACTURING"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "CT",
+    "generated_internal_id": "CONT_AWD_W58RGZ26F0292_9700_W58RGZ26G0068_9700",
+    "recipient_id": "88c03ddd-9049-6199-42e5-7305d6c6740f-C",
+    "Base Obligation Date": "2026-04-30",
+    "Last Modified Date": "2026-06-11 14:55:16",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "CT",
+     "state_name": "Connecticut",
+     "city_name": "STAMFORD",
+     "county_code": "190",
+     "county_name": "WESTERN CONNECTICUT",
+     "address_line1": "70 STANTON DR",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "04",
+     "zip4": "1632",
+     "zip5": "06902",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   },
+   {
+    "internal_id": 361012032,
+    "Award ID": "FA228026F0011",
+    "Recipient Name": "FIRESTORM LABS, INC.",
+    "Recipient UEI": "K9LTUS568AD7",
+    "Start Date": "2026-05-04",
+    "End Date": "2026-07-01",
+    "Award Amount": 1650000.0,
+    "Awarding Agency": "Department of Defense",
+    "Awarding Sub Agency": "Department of the Air Force",
+    "Contract Award Type": "DELIVERY ORDER",
+    "Description": "SOCPAC",
+    "NAICS": {
+     "code": "541715",
+     "description": "RESEARCH AND DEVELOPMENT IN THE PHYSICAL, ENGINEERING, AND LIFE SCIENCES (EXCEPT NANOTECHNOLOGY AND BIOTECHNOLOGY)"
+    },
+    "PSC": {
+     "code": "1550",
+     "description": "UNMANNED AIRCRAFT"
+    },
+    "Place of Performance State Code": "CA",
+    "generated_internal_id": "CONT_AWD_FA228026F0011_9700_FA873025DB001_9700",
+    "recipient_id": "c65a7f2f-93b8-3fe4-8374-dd7d3e78af62-C",
+    "Base Obligation Date": "2026-05-04",
+    "Last Modified Date": "2026-05-04 13:18:15",
+    "Recipient Location": {
+     "location_country_code": "USA",
+     "country_name": "UNITED STATES",
+     "state_code": "CA",
+     "state_name": "California",
+     "city_name": "SAN DIEGO",
+     "county_code": "073",
+     "county_name": "SAN DIEGO",
+     "address_line1": "9431 DOWDY DR STE 1",
+     "address_line2": null,
+     "address_line3": null,
+     "congressional_code": "51",
+     "zip4": "4480",
+     "zip5": "92126",
+     "foreign_postal_code": null,
+     "foreign_province": null
+    },
+    "awarding_agency_id": 1173,
+    "agency_slug": "department-of-defense"
+   }
+  ],
+  "page_metadata": {
+   "page": 1,
+   "hasNext": true,
+   "last_record_unique_id": 361012032,
+   "last_record_sort_value": "165000000"
+  },
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+ }
+}

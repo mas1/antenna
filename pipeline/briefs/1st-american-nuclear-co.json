@@ -1,0 +1,89 @@
+{
+ "slug": "1st-american-nuclear-co",
+ "generatedAt": "2026-10-02",
+ "summary": "1st American Nuclear Co. (FANCO) is developing EAGL-1, a 240 MWe fast-spectrum small modular reactor cooled by lead-bismuth, and proposes its own HALEU fuel fabrication facility. Its Bridge Power offer starts a site on conventional boilers and steam turbines, meant to swap in EAGL-1 later. Headquarters are in Indianapolis, reactor development in Richland, Washington.",
+ "thesis": "FANCO pairs energy with manufacturing: a 240 MWe reactor designed for factory fabrication, a proposed fuel plant, and a plan announced with the State of Indiana (reported at more than $4 billion) for manufacturing facilities and an energy park.",
+ "stage": "Five Form Ds report $13,687,050 sold: $1,250,000 of $2,500,000 in equity (filed 30 June 2025), $20,000 of $5,000,000 in SAFEs (29 August 2025), $10,000,000 from one investor (15 December 2025), $1,417,050 from four (22 December 2025), and $1,000,000 of $25,000,000 in equity and debt from one investor (18 September 2026). The filings name no investors. No round announcement was found. The company targets power from EAGL-1 by 2033.",
+ "team": [
+  {
+   "name": "Bill Stokes",
+   "background": "President and founder. The company site says he has more than four decades in nuclear energy, including leadership roles supporting U.S. Department of Energy initiatives."
+  },
+  {
+   "name": "Mike (Michael) Reinboth",
+   "background": "CEO (Treasurer on the 2025 Form Ds). The company site cites executive roles at global enterprises and venture-backed companies in energy and technology, naming no prior employer."
+  },
+  {
+   "name": "Nick (Nicholas) Burnett",
+   "background": "COO (September 2026 Form D) or Chief Commercial Officer (team page). Per the site, an attorney with structured finance, mergers and acquisitions and energy project development background."
+  },
+  {
+   "name": "Rafael Paz",
+   "background": "Chief Financial Officer, announced 15 April 2026. The company release says he held senior finance leadership roles at NuScale Power and bp."
+  }
+ ],
+ "questions": [
+  "Who are the single investors behind the $10,000,000 (December 2025) and the $1,000,000 (September 2026), and is the latter a first close on the $25,000,000?",
+  "What exactly was acquired from Columbia Basin Consulting Group (IP, test data, people), on what terms, and does FANCO own the EAGL-1 design outright?",
+  "Your releases cite HALEU dioxide (April 2026) and mixed oxide and transuranic fuels (May 2026). Which fuel does the first core use, and who supplies it?",
+  "Is there a signed customer or site for the Bridge Power phase, and why is the CTO announced in April 2026 not on the team page?"
+ ],
+ "risks": [
+  "Capital gap. The five Form Ds report $13,687,050 sold, against a plan reported at more than $4 billion. The latest offering had sold $1,000,000 of $25,000,000 at filing.",
+  "Early licensing. Nuclear Engineering International called the design conceptual (November 2025) and a 2032 start over-optimistic. Sourced NRC steps are engagement plans and a letter of intent, not license applications.",
+  "Commercial traction is unproven. The Denham, AtkinsRéalis and Hyundai E&C announcements mention no equity investment in FANCO, and no source read names a power customer or plant site."
+ ],
+ "unverified": [
+  "Neutron Bytes (8 November 2025) cites PitchBook for $2.52 million raised and names Foundt Capital as an investor. No primary source confirms either.",
+  "World Nuclear News reports, citing the company's regulatory engagement plan, that the technology portfolio was acquired from Columbia Basin Consulting Group. Terms, dates and amounts are not given.",
+  "The company says a PNNL review found the design would be licensable under existing NRC criteria. The PNNL report was not opened, so this is not confirmed."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 18 September 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074867/000121390026101361/primary_doc.xml"
+  },
+  {
+   "title": "Form D, 15 December 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074867/000207486725000004/primary_doc.xml"
+  },
+  {
+   "title": "Form D, 22 December 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074867/000207486725000005/primary_doc.xml"
+  },
+  {
+   "title": "Form D, 29 August 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074867/000207486725000003/primary_doc.xml"
+  },
+  {
+   "title": "Form D, 30 June 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/2074867/000207486725000001/primary_doc.xml"
+  },
+  {
+   "title": "FANCO home page",
+   "url": "https://fanuclear.com/"
+  },
+  {
+   "title": "FANCO team page",
+   "url": "https://fanuclear.com/our-team/"
+  },
+  {
+   "title": "FANCO release, 15 April 2026",
+   "url": "https://fanuclear.com/first-american-nuclear-announces-key-executive-appointments-as-company-expands-leadership-team/"
+  },
+  {
+   "title": "Nuclear Engineering International, 10 November 2025",
+   "url": "https://www.neimagazine.com/news/indiana-to-host-eagl-1-reactor/"
+  },
+  {
+   "title": "Inside INdiana Business via 21Alive, 4 November 2025",
+   "url": "https://www.21alivenews.com/2025/11/04/nuclear-energy-startup-establish-hq-manufacturing-operations-indiana/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-09-11",
+  "what": "In a PR Newswire release, the company introduced itself and its Eagle One reactor ahead of an investor summit in Oak Ridge.",
+  "url": "https://www.prnewswire.com/news-releases/first-american-nuclear-to-participate-in-inaugural-nuclear-innovation-summit-302554029.html"
+ }
+}

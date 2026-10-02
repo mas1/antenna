@@ -1,0 +1,89 @@
+{
+ "slug": "aerovec",
+ "generatedAt": "2026-10-02",
+ "summary": "Aerovec, based in Eden, New York, is developing a portable wind turbine that can be shipped in a standard container and stands on a tilt-up tower without a concrete foundation. The website says the first prototype was installed in Rushford, New York in June 2024. Neither website nor filings give measured performance figures.",
+ "thesis": "A $74,959 purchase order from the Air Force SBIR/STTR contracting office for a containerized wind turbine for tactical microgrids spans defense and energy. Evidence so far is one prototype and two acquired patents, an early signal, not a proven product.",
+ "stage": "Incorporated in Delaware on 26 August 2022. Sold $507,000 of Series Seed preferred (a Form D of 13 April 2023 showed $178,000 from 7 investors). Closed on $115,790.56 through Reg CF (Form C-U filed 25 July 2025) at a self-set $2,999,750 pre-money valuation. The August 2026 annual report shows no revenue and $14,341.64 of cash at 31 March 2026. A $74,959 Air Force purchase order was signed 25 June 2026.",
+ "team": [
+  {
+   "name": "Julie A. Hetey",
+   "background": "CEO and co-founder since August 2022, holding 4.2% per the Form C. The campaign page cites 20 years of experience and calls Aerovec her second startup."
+  },
+  {
+   "name": "Sean Gartland",
+   "background": "Chairman and co-founder. The campaign page says he has 25 years in the wind energy industry and retired in 2020 as a Corporate Vice President of Moog Inc."
+  },
+  {
+   "name": "Merrill Wade Arthur",
+   "background": "Director, primary contact for technology and product development. Per the campaign page, a mechanical engineer and owner for over 30 years of An-Cor Technologies, an industrial fiberglass plant."
+  },
+  {
+   "name": "Joseph N. Weiss",
+   "background": "Board member holding 17.20% per the Form C. The campaign page calls him an investor who served as President of First Choice Medical, Legal Med and Medlab."
+  }
+ ],
+ "questions": [
+  "What has the prototype measured since June 2024 (power curve, annual energy per square metre against a conventional rotor), and has any third party verified it?",
+  "The abstracts of the two acquired US patents do not mention a cowling. Which claims cover the cowling design, and what has Aerovec filed in its own name?",
+  "The amended Form C says predecessor Kean Wind Turbines ceased operations in 2019 following fundraising restrictions linked to a New York Attorney General investigation. What did it conclude?",
+  "Cash was $14,341.64 at 31 March 2026 and the Air Force performance period ended 30 September 2026. What funds the company now, and is there a follow-on proposal?"
+ ],
+ "risks": [
+  "Very thin capital. Filings show $507,000 of seed preferred and $115,790.56 from Reg CF. Cash was $14,341.64 at 31 March 2026, and the amended Form C flags going concern doubt.",
+  "Technology unproven in public. The amended Form C says only a prototype has been manufactured. No test data, certification or paid pilot appears in the filings or on the website.",
+  "The IP is acquired and ageing. Both US patents were assigned by Kean Wind Turbines Inc., claim a June 2009 priority and expire in 2030 and 2032 per Google Patents."
+ ],
+ "unverified": [
+  "The company claims letters of support from a US Air Force innovation officer and United Rentals (which it calls not final or binding). No letter was seen.",
+  "The SBIR phase and topic of the Air Force order are not confirmed from a primary source. HigherGov, an aggregator, lists SBIR Phase I. USAspending states no phase.",
+  "The New York Attorney General investigation into Kean Wind Turbines is known only from one sentence in the amended Form C. No Attorney General record was opened."
+ ],
+ "sources": [
+  {
+   "title": "USAspending award FA864926P0281, Air Force",
+   "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0281_9700_-NONE-_-NONE-"
+  },
+  {
+   "title": "Form C-AR, 6 August 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1972678/000197267826000002/primary_doc.xml"
+  },
+  {
+   "title": "Amended offering memorandum, April 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/1972678/000166516025000754/offeringmemoformc.pdf"
+  },
+  {
+   "title": "Form C offering memorandum, December 2024",
+   "url": "https://www.sec.gov/Archives/edgar/data/1972678/000166516024001857/offeringmemoformc.pdf"
+  },
+  {
+   "title": "Form D, 13 April 2023",
+   "url": "https://www.sec.gov/Archives/edgar/data/1972678/000197267823000001/primary_doc.xml"
+  },
+  {
+   "title": "Form C-U, 25 July 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/1972678/000166516025001324/primary_doc.xml"
+  },
+  {
+   "title": "Aerovec home page",
+   "url": "https://aerovec.com/"
+  },
+  {
+   "title": "Google Patents, US9004864B2",
+   "url": "https://patents.google.com/patent/US9004864B2/en"
+  },
+  {
+   "title": "Google Patents, US9194371B2",
+   "url": "https://patents.google.com/patent/US9194371B2/en"
+  },
+  {
+   "title": "HigherGov, contract FA864926P0281",
+   "url": "https://www.highergov.com/contract/FA864926P0281/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2023-05-18",
+  "what": "The Business Journals (Buffalo Inno) ran a story headlined \"Aerovec raises funds on the road to commercialization\" (article text not opened).",
+  "url": "https://www.bizjournals.com/buffalo/inno/stories/news/2023/05/18/buffalo-aerovec-raises-funds-commercialization.html"
+ }
+}

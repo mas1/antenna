@@ -1,0 +1,23 @@
+{
+ "by": "AntonioLi",
+ "descendants": 66,
+ "id": 49525153,
+ "kids": [
+  49528345,
+  49525494,
+  49527108,
+  49526771,
+  49533464,
+  49526980,
+  49526386,
+  49526819,
+  49528862,
+  49533688
+ ],
+ "score": 201,
+ "text": "Hey HN, I\u2019m Antonio from Nori Robotics (<a href=\"https:&#x2F;&#x2F;norirobotics.com\">https:&#x2F;&#x2F;norirobotics.com</a>). We build a $1,688 bimanual mobile robot in San Francisco for robotics developers and researchers.<p>I started working on Nori while doing robotics research at Columbia. I was teaching robots through human demonstrations, but getting my hands on affordable hardware was difficult. Most labs have one or two expensive robots, which makes it hard to collect large datasets, run long experiments, or test across several robots.<p>So I built my own. After seven iterations the latest Nori has:<p>* 19 degrees of freedom<p>* Two 7+1 DOF arms with a 1.5 kg payload per arm<p>* A 55 kg telescoping lift<p>* A differential wheeled base<p>* Four 720p, 30 fps RGB cameras<p>* 2D lidar<p>* A dual microphone array with full-duplex voice communication<p>* A 432 Wh battery<p>* A Raspberry Pi 5 with 4 GB RAM (SLAM and safeties are run on board, heavier ACT and VLAs must be run from a computer via LAN or a server via WAN)<p>Getting this under $2,000 was the main engineering challenge. Nori has more than 100 moving and structural parts, so costs add up quickly across actuators, bearings, wiring, power delivery, and assembly. Some main choices we made to get the cost low was using high-ratio servos instead of QDD motors, and using a wheel base instead of legs.<p>We assemble each robot in San Francisco and have designed it to be easy to manufacture and repair (we offer 3D files to print repairs).<p>Our open SDK includes teleoperation and demonstration tools: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Nori-Robotics&#x2F;nori-sdk-py\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Nori-Robotics&#x2F;nori-sdk-py</a><p>We also built a browser-based simulator so you can try it out: <a href=\"https:&#x2F;&#x2F;lab.norirobotics.com&#x2F;nori&#x2F;model\">https:&#x2F;&#x2F;lab.norirobotics.com&#x2F;nori&#x2F;model</a><p>We\u2019ve shipped our first robot and are building the next batch. Eventually, we want people without robotics experience to teach Nori tasks and share them with other owners.<p>Currently the hardware is already capable of basic cleaning tasks, opening drawers, restocking shelves and pouring beers. Here is a video of Nori doing things: <a href=\"https:&#x2F;&#x2F;youtube.com&#x2F;shorts&#x2F;VRfVXHfQvD8\" rel=\"nofollow\">https:&#x2F;&#x2F;youtube.com&#x2F;shorts&#x2F;VRfVXHfQvD8</a><p>We make money by selling the hardware for $1,688, with optional paid software on top. Parts of hardware are open source. More details are in our hardware paper: <a href=\"https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.2605.16537\" rel=\"nofollow\">https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.2605.16537</a><p>If you work in robotics, what would you build with a robot at this price? What would you change about the hardware?",
+ "time": 1788284110,
+ "title": "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+ "type": "story",
+ "url": "https://www.norirobotics.com/"
+}

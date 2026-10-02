@@ -1,0 +1,85 @@
+{
+ "slug": "surtr-defense-systems",
+ "generatedAt": "2026-10-02",
+ "summary": "Surtr Defense Systems builds ParallaxOS, described on its Y Combinator page as software that fuses data from radars, RF detectors, cameras and acoustic arrays into one picture, with a human in the loop. Tectonic describes an edge compute unit with software loaded, with weapon integration planned, not delivered. YC lists 2 people in San Francisco.",
+ "thesis": "Founder's pitch: militaries have stockpiled counter-drone sensors and effectors with no good way to integrate them, and Surtr wants to be the hardware-agnostic fusion layer. Tested in Ukraine through Brave1. Its FCC authority lists Fort Knox among radar test sites.",
+ "stage": "Formation stage. Tectonic reported on 7 July 2026 that Surtr, founded March 2026, raised a $4.8M pre-seed led by Allegis Capital, Eniac Ventures, Gaingels, Robinhood Ventures and Streamlined Ventures, giving no valuation or instrument. No Form D was found. Robinhood Ventures Fund II's N-2 and 10-Q list a $250,000 SAFE acquired 8 June 2026. The FCC granted an experimental special temporary authority for one radar on 3 September 2026.",
+ "team": [
+  {
+   "name": "Anshul Ahluwalia",
+   "background": "Founder and CEO per Y Combinator. Ex Shield AI autonomy engineer per his YC bio. Says he built autonomy for Group 3 and Group 5 aircraft there."
+  },
+  {
+   "name": "Cameron Fiore",
+   "background": "Founder and CTO per Y Combinator. His YC bio says he was an autonomy engineer at Anduril and Shield AI, working on missile defense systems and robot teaming."
+  },
+  {
+   "name": "Justin Sadeghian",
+   "background": "Chief Growth Officer per the FCC filings, where he is the applicant contact. The filings give no prior background and he is not on the YC page."
+  }
+ ],
+ "questions": [
+  "Which radars, RF sensors and effectors are integrated today, beyond the mic arrays and cameras Tectonic reported in July 2026, and how long does each new integration take?",
+  "What contract vehicle, if any, sits behind the Fort Knox and Point Defense Battle Lab testing, and is any of it paid? The FCC narrative names none.",
+  "The only instrument on record is a $250,000 SAFE. Is the whole $4.8M pre-seed on SAFEs, at what cap, and how much has closed?",
+  "Tectonic says Surtr is working on an ITAR licence to cue kinetic responses in Ukraine. Where does that stand, and what can Surtr do before it is granted?"
+ ],
+ "risks": [
+  "No source opened shows revenue or a contract. The FCC filings name no government contract, and Brave1 described the Ukraine work as a prototype test.",
+  "Early technical maturity. Tectonic reported in July 2026 that the software had so far been tested on mic arrays and cameras, with radars, passive sensors and turrets still to come.",
+  "Tectonic names Picogrid as already connecting these systems. The launch post says Surtr integrates with any hardware that has an API, so coverage depends on hardware makers exposing one."
+ ],
+ "unverified": [
+  "The $4.8M total comes from the company's release to Tectonic. No filing confirms the total, valuation or terms beyond Robinhood Ventures Fund II's $250,000 SAFE.",
+  "Dealroom's body text says US$3.11M seed, citing Tectonic, while Tectonic says $4.8M pre-seed. The $3.11M figure is unexplained.",
+  "Founder statements in Tectonic, not confirmed by any government or third-party page: Point Defense Battle Lab testing approval, and latency under 100 milliseconds in the Kyiv tests."
+ ],
+ "sources": [
+  {
+   "title": "Tectonic, 7 July 2026",
+   "url": "https://www.tectonicdefense.com/exclusive-surtr-raises-5m-seed-for-c-uas-integration/"
+  },
+  {
+   "title": "Y Combinator company page",
+   "url": "https://www.ycombinator.com/companies/surtr-defense-systems"
+  },
+  {
+   "title": "Launch YC post, 12 May 2026",
+   "url": "https://www.ycombinator.com/launches/QLC-surtr-defense-systems"
+  },
+  {
+   "title": "Robinhood Ventures Fund II 10-Q, June 2026 quarter",
+   "url": "https://www.sec.gov/Archives/edgar/data/2131040/000213104026000008/rvii-20260630.htm"
+  },
+  {
+   "title": "Robinhood Ventures Fund II Form N-2, June 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2131040/000162828026046280/rvii-nx2june2026.htm"
+  },
+  {
+   "title": "SEC EDGAR company search, Surtr Defense",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=surtr+defense&type=&dateb=&owner=include&count=40&action=getcompany"
+  },
+  {
+   "title": "FCC application 1650-EX-ST-2026, granted 3 September 2026",
+   "url": "https://apps.fcc.gov/oetcf/els/reports/GetApplicationInfo.cfm?id_file_num=1650-EX-ST-2026"
+  },
+  {
+   "title": "FCC narrative exhibit, 1650-EX-ST-2026",
+   "url": "https://apps.fcc.gov/els/GetAtt.html?id=411103&x=."
+  },
+  {
+   "title": "Ukrainska Pravda via Yahoo News, 23 June 2026",
+   "url": "https://www.yahoo.com/news/world/articles/us-startups-fpv-drone-detection-154600547.html"
+  },
+  {
+   "title": "Dealroom news, 8 July 2026",
+   "url": "https://dealroom.co/news/137504-surtr-raises-4-8m-seed-to-unify-counter-drone-systems-on-one-screen/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-05-12",
+  "what": "The founders unveiled the company and ParallaxOS in a Launch YC post on ycombinator.com.",
+  "url": "https://www.ycombinator.com/launches/QLC-surtr-defense-systems"
+ }
+}

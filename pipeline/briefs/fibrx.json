@@ -1,0 +1,85 @@
+{
+ "slug": "fibrx",
+ "generatedAt": "2026-10-02",
+ "summary": "FibrX builds a structural health and corrosion monitoring system that pairs fiber optic sensors with cloud software (a platform-as-a-service, per its site). The sensing method comes from Naval Surface Warfare Center, Port Hueneme Division, and JumpStart says the company operates under a partially exclusive U.S. Navy license. Federal awards list Henderson, Nevada.",
+ "thesis": "FibrX is trying to turn a Navy-patented method for detecting corrosion under coatings into a monitoring product for defense, aerospace and energy. It holds two small Defense Department R&D awards. The case rests on whether three people can field hardware.",
+ "stage": "USAspending shows two federal awards to FibrX Inc, both signed in June 2026: an Air Force purchase order for $105,392 (ended 24 September 2026) and a NAVSEA contract labelled SBIR Phase I with $136,573 obligated and $234,840 including options (to 21 June 2027). Chloe Capital announced an investment on 17 February 2026, no amount stated. EDGAR has no filer named FibrX Inc, so no Form D is on record.",
+ "team": [
+  {
+   "name": "Kamel Greene",
+   "background": "Chief Executive Officer per the company team page. It lists Poly Platform (Founder and CEO), the National Nuclear Security Administration (DOE) and Pacific Northwest National Laboratory."
+  },
+  {
+   "name": "Christopher Taylor",
+   "background": "Chief Technology Officer per the company team page, which lists prior roles at The Ohio State University, QC Ware Corp., DNV and Los Alamos National Laboratory."
+  },
+  {
+   "name": "Michael Cupples",
+   "background": "Lead Systems & AI/ML Engineer per the company team page, which lists prior roles at Raytheon Missile Systems, SAIC, DESE Research and The Boeing Company."
+  }
+ ],
+ "questions": [
+  "Is the Navy patent license signed and in force, does it cover US 11,474,046 B2, and what are the field of use, royalty and milestone terms?",
+  "Has a sensor system been installed on a real asset, and what data shows the fiber detects corrosion rather than only strain and temperature?",
+  "What is FibrX building under NAVSEA topic N254-P02, an open topic for modular mine warfare components, and how does that work relate to the corrosion monitoring product?",
+  "How much equity money has been raised in total and on what terms (IAI CATALYST, Techstars, Chloe Capital, others)?"
+ ],
+ "risks": [
+  "No customer, pilot or installed system is named on the company's site. Four years after its 2022 startup studio cohort, federal obligations on record total $241,965 across two awards.",
+  "The core method is a Navy patent (US 11,474,046 B2), not the company's own. The signed agreement and its terms are not public.",
+  "The work is spread wide for three people: hypersonic and space systems (Air Force), naval mine components (NAVSEA topic), and bridges, oil and gas and offshore wind (site marketing)."
+ ],
+ "unverified": [
+  "A signed Navy patent license rests on the company's site and the JumpStart article, not independently confirmed.",
+  "What FibrX received from IAI, Techstars or Chloe Capital is not stated in any source. No amount could be confirmed.",
+  "The date and state of incorporation of FibrX Inc, and how it relates to the FibrX LLC in the Navy's 2022 story, are unconfirmed."
+ ],
+ "sources": [
+  {
+   "title": "USAspending, Air Force order FA864926P0322",
+   "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0322_9700_-NONE-_-NONE-"
+  },
+  {
+   "title": "USAspending, NAVSEA contract N0002426C3090",
+   "url": "https://www.usaspending.gov/award/CONT_AWD_N0002426C3090_9700_-NONE-_-NONE-"
+  },
+  {
+   "title": "Navy story on DVIDS, 21 December 2022",
+   "url": "https://www.dvidshub.net/news/435649/naval-surface-warfare-center-port-hueneme-division-receives-corrfoss-patent-license-agreement-works"
+  },
+  {
+   "title": "JumpStart, 27 January 2026",
+   "url": "https://jumpstartinc.org/startup-news/meet-the-10-startups-of-cohort-4-of-jumpstarts-trailblazer-software-accelerator"
+  },
+  {
+   "title": "Google Patents, US11474046B2",
+   "url": "https://patents.google.com/patent/US11474046B2/en"
+  },
+  {
+   "title": "FibrX home page",
+   "url": "https://www.fibrx.io/"
+  },
+  {
+   "title": "FibrX team page",
+   "url": "https://www.fibrx.io/meet-the-team"
+  },
+  {
+   "title": "Chloe Capital press release, 17 February 2026",
+   "url": "https://chloecapital.com/chloe-capital-2025-founder-fellowship-investments/"
+  },
+  {
+   "title": "SEC EDGAR company search for fibrx",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=fibrx&type=&dateb=&owner=include&count=40&action=getcompany"
+  },
+  {
+   "title": "Navy SBIR topic N254-P02",
+   "url": "https://www.navysbir.com/n25_411/N254-P02.htm"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2022-08-08",
+  "what": "An OODA Loop article listed fibrX among the 2022 finalists of the DHS Homeland Security Startup Studio.",
+  "url": "https://oodaloop.com/analysis/archive/dhs-st-startup-studio-2022-converge-showcase-presenting-companies-and-finalists/"
+ }
+}

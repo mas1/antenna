@@ -1,0 +1,89 @@
+{
+ "slug": "valstad-shipworks",
+ "generatedAt": "2026-10-02",
+ "summary": "Valstad Shipworks (Austin, Texas) builds robotic fabrication cells and structural panel kits for ship production and repair. Its site describes modular robot cells, laser welding of thick structural steel, and planning software that turns a 3D model into a build sequence. A 14 April 2026 company article says \"We're still in R&D.\"",
+ "thesis": "Blue Water Autonomy's May 2026 release names Valstad as one of four partners for scaling production of its autonomous vessels, with no commercial terms given. A hiring post says it built its own software stack and runs on FANUC robots.",
+ "stage": "A Form D filed 14 August 2026 reports $8,621,043 sold of an $11,300,146 equity offering to 15 investors, first sale 3 August 2026. It says the amount sold includes converted SAFEs, so new cash is not stated. No investors are named. The only announced prior round is a $2.6M pre-seed led by N49P, posted by the company on 10 July 2025. No announcement of the 2026 round was found.",
+ "team": [
+  {
+   "name": "Dustin Walper",
+   "background": "CEO and founder per the company site, President and director per the Form D. BetaKit (April 2018) reported that Akira founder Walper launched Newton, a cryptocurrency trading platform."
+  },
+  {
+   "name": "Ryan Cook",
+   "background": "Chief Operating Officer per the company site. The 2025 site described him as ex-USMMI and a naval architect."
+  },
+  {
+   "name": "Zach Azria",
+   "background": "Engineering Manager per the company site. The 2025 site described him as ex-General Dynamics Electric Boat and a naval architect."
+  },
+  {
+   "name": "Wisam Abdullah",
+   "background": "Director per the Form D. No source opened describes his background or affiliation."
+  }
+ ],
+ "questions": [
+  "The site pitched a company-owned shipyard through December 2025 and now offers cells and kits to other yards. Why the change, and is the shipyard dropped or deferred?",
+  "Of the $8,621,043 reported sold on the Form D, how much is new cash and how much SAFE conversion, who led, and is the remaining $2,679,103 committed?",
+  "What are the commercial terms with Blue Water Autonomy: is there a purchase order for cells or panel kits, and at what volume?",
+  "The site claims laser welding is 5-6x faster than SAW or MIG on long seams. Which weld procedures have been qualified, with which class society or Navy authority?"
+ ],
+ "risks": [
+  "No evidence of revenue. The company's April 2026 article says it is still in R&D, the Form D declines to disclose revenue, and no source opened documents a customer contract.",
+  "The business changed shape within about a year, from building its own shipyard and standardised inland vessels (2025 site) to supplying robot cells and kits to other yards (2026 site).",
+  "The laser welding speed and consumables figures are the company's own, with no third-party data found. No source reports a completed qualification of its welding procedures."
+ ],
+ "unverified": [
+  "An Austin Business Journal headline (10 December 2025, seen only in search results) says Valstad raised $3.6M, conflicting with the $2.6M the company announced. Not confirmed.",
+  "The company says N49P led the pre-seed, not independently confirmed. N49P's homepage and portfolio page, as fetched, do not mention Valstad.",
+  "Aggregator snippets call the 2026 round a seed round, a Series A ($8.6M) or a $9M private placement. The Form D does not label the round."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 14 August 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2149540/000214954026000001/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "Valstad company site",
+   "url": "https://valstad.com/"
+  },
+  {
+   "title": "Blue Water Autonomy release, 7 May 2026",
+   "url": "https://www.prnewswire.com/news-releases/blue-water-autonomy-unveils-multi-partner-manufacturing-model-to-scale-next-generation-shipbuilding-302764851.html"
+  },
+  {
+   "title": "Valstad article, 14 April 2026",
+   "url": "https://valstad.com/article/physical-ai-shipyard/"
+  },
+  {
+   "title": "Valstad X post, 10 July 2025",
+   "url": "https://api.fxtwitter.com/ValstadShip/status/1943432761445904717"
+  },
+  {
+   "title": "Hacker News hiring post, 1 September 2026",
+   "url": "https://news.ycombinator.com/item?id=49528413"
+  },
+  {
+   "title": "Valstad site capture, 13 December 2025",
+   "url": "https://web.archive.org/web/20251213151925/https://www.valstad.com/"
+  },
+  {
+   "title": "Valstad site capture, 16 July 2025",
+   "url": "https://web.archive.org/web/20250716084314/https://www.valstad.com/"
+  },
+  {
+   "title": "BetaKit, 12 April 2018",
+   "url": "https://betakit.com/akira-founder-moves-from-healthtech-to-launch-newton-cryptocurrency-trading-platform/"
+  },
+  {
+   "title": "N49P site",
+   "url": "https://n49p.com"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2024-11-03",
+  "what": "The company's launch post under its earlier name Joliet, on its own site joliet.ai, described its plan for automated ship factories.",
+  "url": "https://web.archive.org/web/20241225000440/https://www.joliet.ai/"
+ }
+}

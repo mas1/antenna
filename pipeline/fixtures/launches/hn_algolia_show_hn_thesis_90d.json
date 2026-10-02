@@ -1,0 +1,1239 @@
+{
+ "_fixture_note": "Union of thesis-keyword queries: GET https://hn.algolia.com/api/v1/search_by_date?query={kw}&tags=(show_hn,launch_hn)&numericFilters=created_at_i>{now-90d}&restrictSearchableAttributes=title&typoTolerance=false&hitsPerPage=50 ; top 40 by points; one hit keeps _highlightResult to show shape",
+ "hits": [
+  {
+   "_highlightResult": {
+    "author": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "HenryNdubuaku"
+    },
+    "story_text": {
+     "fullyHighlighted": false,
+     "matchLevel": "full",
+     "matchedWords": [
+      "robot"
+     ],
+     "value": "Hey HN,<p>Henry from Cactus here!<p>We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small <em>robot</em>s and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.<p>The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.<p>On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70x smaller, both at f16 vs Needle 2 at 2bit. Needle is based on Simple Attention Networks from our paper (<a href=\"https://arxiv.org/abs/2607.18363\" rel=\"nofollow\">https://arxiv.org/abs/2607.18363</a>).<p>Edge AI has lately meant Macs and PCs, but that is just 1.5 billion of over 21 billion connected IoT devices in the world today, and in emerging markets most phones ship under $200, no NPU, cheap GPUs. These include budget phones, Raspberry Pis, microcontrollers, wearables, small <em>robot</em>s like Reachy Mini, and connected home devices.<p>A conventional transformer of Needle's width and depth spends 164 MFLOPs per token, and even one squeezed down to Needle's parameter count spends 87, Needle spends 70. Even on a high-end phone, an always-on assistant lives inside a power budget; every MFLOP is milliwatt-hours, and Needle spends 7x to 85x fewer of them per token than the smallest performant LLMs. More about the architecture in the link.<p>When we structure intelligence for consumer devices as functions with typed parameters, the only hard part is mapping a messy sentence onto them; which function, with which values. Our research found that when framed that way, the problem needs no world knowledge and no open-ended prose, which is why 45M parameters suffice.<p>Needle 2 expands to structured extraction where the schema can be passed in-place of tools and the model returns structured output. You can use Needle as a text-classification model with an enum field, as a summarization model by providing a schema that extracts key fields, everything but free-range decode.<p>Every product has its own tool vocabulary and fine-tuning needle helps it achieve frontier-level performance on custom tasks, so using the python package (<a href=\"https://github.com/cactus-compute/needle\" rel=\"nofollow\">https://github.com/cactus-compute/needle</a>), Needle can be fine-tuned Needle on a Mac/PC in minutes to a few hours, with automated data-generation pipeline, just pass a couple samples.<p>Nonetheless, every response carries a learned confidence score based our Cactus Hybrid technique. If above your threshold, act, below it, escalate to the cloud or bigger model. Combining Needle 2 with a private DeepSeek-v4-Flash deployment works particularly well for enterprise-level tasks at barely any cost, we can help with this setup.<p>We have put a lot of thoughts into Needle 2 but might still be missing quite a lot, please use the playground in the provided link to test Needle and share your thoughts, always appreciated!"
+    },
+    "title": {
+     "fullyHighlighted": false,
+     "matchLevel": "full",
+     "matchedWords": [
+      "robot"
+     ],
+     "value": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and <em>robot</em>s"
+    },
+    "url": {
+     "matchLevel": "none",
+     "matchedWords": [],
+     "value": "https://cactuscompute.com/needle"
+    }
+   },
+   "_tags": [
+    "story",
+    "author_HenryNdubuaku",
+    "story_49246804",
+    "show_hn"
+   ],
+   "author": "HenryNdubuaku",
+   "children": [
+    49250264,
+    49254464,
+    49251894,
+    49249736,
+    49249984,
+    49250447,
+    49259533,
+    49258479,
+    49250291,
+    49254231,
+    49324335,
+    49257433,
+    49254887,
+    49249620,
+    49260980,
+    49263820,
+    49253298,
+    49250406,
+    49264280,
+    49261681,
+    49254460,
+    49261288,
+    49370518,
+    49259314,
+    49270789,
+    49251458,
+    49252823,
+    49252514,
+    49251741,
+    49255027,
+    49252062,
+    49250026,
+    49250157,
+    49250546,
+    49250768,
+    49253792,
+    49263674,
+    49250969,
+    49253132,
+    49250294,
+    49250052,
+    49277470,
+    49250779,
+    49253716,
+    49255891,
+    49252845,
+    49252637,
+    49251773,
+    49258129,
+    49251459,
+    49257944,
+    49251177,
+    49250437,
+    49256849,
+    49267802,
+    49253903,
+    49256002,
+    49284531,
+    49257357,
+    49261130,
+    49254081,
+    49258609,
+    49271852,
+    49284535,
+    49249933,
+    49278567,
+    49258858,
+    49251539,
+    49257122,
+    49250276
+   ],
+   "created_at": "2026-08-10T17:22:07Z",
+   "created_at_i": 1786382527,
+   "num_comments": 185,
+   "objectID": "49246804",
+   "points": 537,
+   "story_id": 49246804,
+   "story_text": "Hey HN,<p>Henry from Cactus here!<p>We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2.<p>The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens&#x2F;sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens&#x2F;sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series.<p>On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70x smaller, both at f16 vs Needle 2 at 2bit. Needle is based on Simple Attention Networks from our paper (<a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2607.18363\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2607.18363</a>).<p>Edge AI has lately meant Macs and PCs, but that is just 1.5 billion of over 21 billion connected IoT devices in the world today, and in emerging markets most phones ship under $200, no NPU, cheap GPUs. These include budget phones, Raspberry Pis, microcontrollers, wearables, small robots like Reachy Mini, and connected home devices.<p>A conventional transformer of Needle&#x27;s width and depth spends 164 MFLOPs per token, and even one squeezed down to Needle&#x27;s parameter count spends 87, Needle spends 70. Even on a high-end phone, an always-on assistant lives inside a power budget; every MFLOP is milliwatt-hours, and Needle spends 7x to 85x fewer of them per token than the smallest performant LLMs. More about the architecture in the link.<p>When we structure intelligence for consumer devices as functions with typed parameters, the only hard part is mapping a messy sentence onto them; which function, with which values. Our research found that when framed that way, the problem needs no world knowledge and no open-ended prose, which is why 45M parameters suffice.<p>Needle 2 expands to structured extraction where the schema can be passed in-place of tools and the model returns structured output. You can use Needle as a text-classification model with an enum field, as a summarization model by providing a schema that extracts key fields, everything but free-range decode.<p>Every product has its own tool vocabulary and fine-tuning needle helps it achieve frontier-level performance on custom tasks, so using the python package (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;cactus-compute&#x2F;needle\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;cactus-compute&#x2F;needle</a>), Needle can be fine-tuned Needle on a Mac&#x2F;PC in minutes to a few hours, with automated data-generation pipeline, just pass a couple samples.<p>Nonetheless, every response carries a learned confidence score based our Cactus Hybrid technique. If above your threshold, act, below it, escalate to the cloud or bigger model. Combining Needle 2 with a private DeepSeek-v4-Flash deployment works particularly well for enterprise-level tasks at barely any cost, we can help with this setup.<p>We have put a lot of thoughts into Needle 2 but might still be missing quite a lot, please use the playground in the provided link to test Needle and share your thoughts, always appreciated!",
+   "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+   "updated_at": "2026-09-25T16:20:29Z",
+   "url": "https://cactuscompute.com/needle"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_wanick",
+    "story_49898778",
+    "show_hn"
+   ],
+   "author": "wanick",
+   "children": [
+    49899187,
+    49905285,
+    49902174,
+    49902730,
+    49900584,
+    49902769,
+    49917755,
+    49901785,
+    49912944,
+    49908599,
+    49909238,
+    49909633,
+    49906668,
+    49901311,
+    49899081,
+    49909702,
+    49908650,
+    49909119,
+    49905621,
+    49903269,
+    49905551,
+    49905249,
+    49910831,
+    49907828,
+    49903021,
+    49912767,
+    49901415,
+    49906998,
+    49906538,
+    49901847,
+    49905704,
+    49906173,
+    49900341,
+    49904490,
+    49903171,
+    49904950,
+    49904033,
+    49904842,
+    49903266,
+    49903243,
+    49906692,
+    49906846,
+    49900732,
+    49907762,
+    49909696,
+    49908522,
+    49912564,
+    49903331,
+    49906070,
+    49913129,
+    49903724,
+    49907075,
+    49903585,
+    49903586,
+    49901576,
+    49898803
+   ],
+   "created_at": "2026-09-29T19:08:01Z",
+   "created_at_i": 1790708881,
+   "num_comments": 107,
+   "objectID": "49898778",
+   "points": 398,
+   "story_id": 49898778,
+   "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+   "updated_at": "2026-10-01T23:52:16Z",
+   "url": "https://space.bl2.net/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_WilsonHarper",
+    "story_49478426",
+    "show_hn"
+   ],
+   "author": "WilsonHarper",
+   "children": [
+    49503448,
+    49503892,
+    49503582,
+    49506106,
+    49510211,
+    49505161,
+    49503114,
+    49502833,
+    49503365,
+    49505323,
+    49504762,
+    49503722,
+    49504038,
+    49512640,
+    49507563,
+    49506918,
+    49502671,
+    49504436,
+    49504151,
+    49504512
+   ],
+   "created_at": "2026-08-28T13:48:12Z",
+   "created_at_i": 1787924892,
+   "num_comments": 30,
+   "objectID": "49478426",
+   "points": 231,
+   "story_id": 49478426,
+   "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+   "updated_at": "2026-09-08T21:04:03Z",
+   "url": "https://wilsonharper.net/projects/businesscard/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_AntonioLi",
+    "story_49525153",
+    "launch_hn"
+   ],
+   "author": "AntonioLi",
+   "children": [
+    49528345,
+    49525494,
+    49527108,
+    49526771,
+    49533464,
+    49526980,
+    49526386,
+    49526819,
+    49528862,
+    49533688,
+    49538649,
+    49528104,
+    49526048,
+    49525480,
+    49530122,
+    49525794,
+    49531144,
+    49527196,
+    49533351,
+    49527044,
+    49533470,
+    49527835,
+    49527372,
+    49529412,
+    49526136,
+    49534364,
+    49526474,
+    49527169,
+    49534509,
+    49527852,
+    49527792,
+    49525592,
+    49526793,
+    49525758,
+    49547831,
+    49527804
+   ],
+   "created_at": "2026-09-01T17:35:10Z",
+   "created_at_i": 1788284110,
+   "num_comments": 66,
+   "objectID": "49525153",
+   "points": 201,
+   "story_id": 49525153,
+   "story_text": "Hey HN, I\u2019m Antonio from Nori Robotics (<a href=\"https:&#x2F;&#x2F;norirobotics.com\">https:&#x2F;&#x2F;norirobotics.com</a>). We build a $1,688 bimanual mobile robot in San Francisco for robotics developers and researchers.<p>I started working on Nori while doing robotics research at Columbia. I was teaching robots through human demonstrations, but getting my hands on affordable hardware was difficult. Most labs have one or two expensive robots, which makes it hard to collect large datasets, run long experiments, or test across several robots.<p>So I built my own. After seven iterations the latest Nori has:<p>* 19 degrees of freedom<p>* Two 7+1 DOF arms with a 1.5 kg payload per arm<p>* A 55 kg telescoping lift<p>* A differential wheeled base<p>* Four 720p, 30 fps RGB cameras<p>* 2D lidar<p>* A dual microphone array with full-duplex voice communication<p>* A 432 Wh battery<p>* A Raspberry Pi 5 with 4 GB RAM (SLAM and safeties are run on board, heavier ACT and VLAs must be run from a computer via LAN or a server via WAN)<p>Getting this under $2,000 was the main engineering challenge. Nori has more than 100 moving and structural parts, so costs add up quickly across actuators, bearings, wiring, power delivery, and assembly. Some main choices we made to get the cost low was using high-ratio servos instead of QDD motors, and using a wheel base instead of legs.<p>We assemble each robot in San Francisco and have designed it to be easy to manufacture and repair (we offer 3D files to print repairs).<p>Our open SDK includes teleoperation and demonstration tools: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Nori-Robotics&#x2F;nori-sdk-py\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Nori-Robotics&#x2F;nori-sdk-py</a><p>We also built a browser-based simulator so you can try it out: <a href=\"https:&#x2F;&#x2F;lab.norirobotics.com&#x2F;nori&#x2F;model\">https:&#x2F;&#x2F;lab.norirobotics.com&#x2F;nori&#x2F;model</a><p>We\u2019ve shipped our first robot and are building the next batch. Eventually, we want people without robotics experience to teach Nori tasks and share them with other owners.<p>Currently the hardware is already capable of basic cleaning tasks, opening drawers, restocking shelves and pouring beers. Here is a video of Nori doing things: <a href=\"https:&#x2F;&#x2F;youtube.com&#x2F;shorts&#x2F;VRfVXHfQvD8\" rel=\"nofollow\">https:&#x2F;&#x2F;youtube.com&#x2F;shorts&#x2F;VRfVXHfQvD8</a><p>We make money by selling the hardware for $1,688, with optional paid software on top. Parts of hardware are open source. More details are in our hardware paper: <a href=\"https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.2605.16537\" rel=\"nofollow\">https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.2605.16537</a><p>If you work in robotics, what would you build with a robot at this price? What would you change about the hardware?",
+   "title": "Launch HN: Nori Robotics (YC S26) \u2013 A low-cost humanoid robot for development",
+   "updated_at": "2026-09-16T19:32:46Z",
+   "url": "https://www.norirobotics.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_gvuksic",
+    "story_49890707",
+    "show_hn"
+   ],
+   "author": "gvuksic",
+   "children": [
+    49909166,
+    49891318,
+    49907355,
+    49910827,
+    49907420,
+    49919798,
+    49910944,
+    49918443,
+    49909623,
+    49909669,
+    49918001,
+    49918046,
+    49908991,
+    49909074
+   ],
+   "created_at": "2026-09-29T10:05:56Z",
+   "created_at_i": 1790676356,
+   "num_comments": 31,
+   "objectID": "49890707",
+   "points": 130,
+   "story_id": 49890707,
+   "story_text": "We built a desktop companion robot that is powered by Arduino UNO Q. Project is open source: source code, 3D printable files and assembly instructions are available at Arduino Project Hub.<p>Robot is equipped with camera, distance sensor, buzzer, moves head and arms with 3 servo motors and has an animated display. It can recognise objects and respond to it. We build it with idea this should be fun project people can 3D print and build at home themself.",
+   "title": "Show HN: JBR-001 \u2013 An open-source 3D printable desktop robot",
+   "updated_at": "2026-10-01T23:41:46Z",
+   "url": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_amronos",
+    "story_49145934",
+    "show_hn"
+   ],
+   "author": "amronos",
+   "children": [
+    49147234,
+    49146899,
+    49147337,
+    49146779,
+    49146994,
+    49156406,
+    49151474,
+    49146119,
+    49148480,
+    49147745,
+    49147030,
+    49147050,
+    49147004,
+    49147034,
+    49147031,
+    49147064,
+    49147011,
+    49147056
+   ],
+   "created_at": "2026-08-02T16:26:19Z",
+   "created_at_i": 1785687979,
+   "num_comments": 15,
+   "objectID": "49145934",
+   "points": 124,
+   "story_id": 49145934,
+   "story_text": "Hey HN,\nI am 16y&#x2F;o and have been working on Sprocket for a while. It&#x27;s an open-source AI agent that beats every other agent out there at both hardware and software.<p>And here&#x27;s the best part: Sprocket can (on its own) buy anything from any website when you tell it to do so. From hardware parts to SaaS subscriptions.<p>Sprocket retrieves best-in-class context from the web for everything it does. It is therefore incredibly reliable.\nThe agent harness&#x27;s quality, performance, and UI rival that of Codex&#x2F;Cursor&#x2F;T3Code, and we are rapidly improving.\nWe will be releasing benchmarks on how Sprocket beats every other agent at both software and hardware soon.<p>In terms of hardware design, Sprocket can make beautiful schematics in react, create your BOM, and create detailed assembly instructions.<p>Hope you try it out!<p>Thanks,\nAarav<p>P.S. if the demo video doesn&#x27;t load for you, come back after ~1.5hr and it should be there, I kinda had to submit this early. Sorry!",
+   "title": "Show HN: Sprocket \u2013 The Best AI Agent for Hardware and Software Development",
+   "updated_at": "2026-08-13T19:51:20Z",
+   "url": "https://sprocket-demo.spikonado.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_Rochus",
+    "story_49230891",
+    "show_hn"
+   ],
+   "author": "Rochus",
+   "children": [
+    49232269,
+    49232157,
+    49324217,
+    49231948,
+    49232757,
+    49231608
+   ],
+   "created_at": "2026-08-09T12:43:16Z",
+   "created_at_i": 1786279396,
+   "num_comments": 22,
+   "objectID": "49230891",
+   "points": 121,
+   "story_id": 49230891,
+   "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+   "updated_at": "2026-08-29T13:01:47Z",
+   "url": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_lukas9",
+    "story_48873501",
+    "show_hn"
+   ],
+   "author": "lukas9",
+   "children": [
+    48875844,
+    48876800,
+    48874856,
+    48876023,
+    48877038,
+    48876410,
+    48878231,
+    48875789,
+    48874454,
+    48874959,
+    48876475
+   ],
+   "created_at": "2026-07-11T16:39:02Z",
+   "created_at_i": 1783787942,
+   "num_comments": 19,
+   "objectID": "48873501",
+   "points": 89,
+   "story_id": 48873501,
+   "story_text": "Hey HN! I made Orbit, an iOS app that allows you to see the satellites, planets, and constellations above you in AR, on a 2D map, and on a 3D globe.\nThe app includes more than 15,000 objects tracked by CelesTrack, together with their pass predictions, descriptions, and detailed orbital data.\nA searchable catalog of all objects is also available, as well as a built-in chatbot designed to answer any space-related questions you might have.<p>This is my first published iOS app, so any feedback is greatly appreciated!\nApp Store: <a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;id6772174570\">https:&#x2F;&#x2F;apps.apple.com&#x2F;app&#x2F;id6772174570</a>",
+   "title": "Show HN: Orbit \u2013 AR satellite tracker, watch 15k+ objects",
+   "updated_at": "2026-09-13T11:36:33Z",
+   "url": "https://nagylukas.github.io/orbit.html"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_mikeayles",
+    "story_49242475",
+    "show_hn"
+   ],
+   "author": "mikeayles",
+   "children": [
+    49253725,
+    49247272,
+    49246939,
+    49263700,
+    49246647,
+    49324293,
+    49243929,
+    49267998,
+    49251725,
+    49242900,
+    49252459,
+    49244140
+   ],
+   "created_at": "2026-08-10T11:52:07Z",
+   "created_at_i": 1786362727,
+   "num_comments": 33,
+   "objectID": "49242475",
+   "points": 79,
+   "story_id": 49242475,
+   "title": "Show HN: A tiny LLM running at 21,000 tok/s on a $250 FPGA (Live Demo)",
+   "updated_at": "2026-09-02T04:35:59Z",
+   "url": "https://www.mikeayles.com/blog/on-chip-llm-kv260/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_fedecaccia",
+    "story_49549148",
+    "show_hn"
+   ],
+   "author": "fedecaccia",
+   "children": [
+    49561251,
+    49561710,
+    49561169,
+    49562226,
+    49578036,
+    49561143,
+    49562107,
+    49563318,
+    49549149,
+    49607958
+   ],
+   "created_at": "2026-09-03T12:33:01Z",
+   "created_at_i": 1788438781,
+   "num_comments": 26,
+   "objectID": "49549148",
+   "points": 79,
+   "story_id": 49549148,
+   "story_text": "Hi HN, I&#x27;m a nuclear engineer and tech entrepreneur. After working for 3 years in the National Atomic Energy Commision (CNEA) in HPC software for nuclear simulations, I co-founded ratherlabs.com, a software company providing blockchain solutions for startups. Rather Labs business reached ~6 million usd in annual revenue in 2024; now demand is decreasing as our niche clients are using AI to launch their MVPs.<p>Now I&#x27;m joining my scientific background with my entrepreneurial inclinations to think of problems related to the energy industry. Nuclear is experiencing a renaissance now (it was in a dark age when I was studying after the Fukushima event) so I think this is the right moment for me to jump again into the field.<p>Reactor atlas is an interactive nuclear reactor map and an intelligence layer on top of it. The basic layer indexes:<p><pre><code>  - power reactors\n  - research reactors\n  - fuel facilities\n</code></pre>\nwith their history and projection, by country. The project is solving a fragmented information ecosystem, where operational and commercial data is hard to conciliate. Also, I&#x27;m monitoring nuclear news associated with each of the facilities, political declarations that may affect the nuclear landscape and geo-phisical news (like earthquakes) that could affect operation. On top of the operational + news layer, I&#x27;m creating an intelligence layer that will help institutions of different types make faster decisions by subscribing to very specific alerts.<p>As an engineer, I used to code in fortran and c++ when I was working at CNEA, and later I participated in the first Rather Labs projects architecting complex async systems, mostly using MERN stack. I&#x27;m no longer coding anymore. I&#x27;m focused on designing robust systems with AI agents.<p>I mainly used Claude Fable 5.1 to develop reactoratlas.com, deploying on vercel and using mostly nextjs, threejs, postgreSQL and some cron jobs to query and update data. I miss coding as in the old days, but I haven&#x27;t code a single line in this project. And I strongly believe we humans shouldn&#x27;t code anymore: our responsibility is now on designing and supervising AI systems.<p>Thanks for your attention!",
+   "title": "Show HN: Reactor Atlas",
+   "updated_at": "2026-09-10T12:15:54Z",
+   "url": "https://reactoratlas.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_bootbloopers",
+    "story_48826094",
+    "show_hn"
+   ],
+   "author": "bootbloopers",
+   "children": [
+    48828314,
+    48826584,
+    48828023,
+    48830033,
+    48826708,
+    48828478,
+    48829606,
+    48830032,
+    48829603,
+    48827411,
+    48826543,
+    48826380,
+    48829896,
+    48836549,
+    48830247
+   ],
+   "created_at": "2026-07-08T00:55:19Z",
+   "created_at_i": 1783472119,
+   "num_comments": 17,
+   "objectID": "48826094",
+   "points": 77,
+   "story_id": 48826094,
+   "story_text": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music.",
+   "title": "Show HN: Chiptune Radio",
+   "updated_at": "2026-07-12T10:57:54Z",
+   "url": "https://chiptune-radio.alephvoid.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_skylensspace",
+    "story_49407309",
+    "show_hn"
+   ],
+   "author": "skylensspace",
+   "children": [
+    49409215,
+    49408851,
+    49408676,
+    49408682,
+    49409456,
+    49412334,
+    49409165,
+    49409151,
+    49410742,
+    49412863,
+    49411618,
+    49409161,
+    49409666,
+    49409328,
+    49410267,
+    49408376
+   ],
+   "created_at": "2026-08-23T09:27:40Z",
+   "created_at_i": 1787477260,
+   "num_comments": 39,
+   "objectID": "49407309",
+   "points": 69,
+   "story_id": 49407309,
+   "title": "Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive",
+   "updated_at": "2026-09-21T22:54:29Z",
+   "url": "https://skylens.yantraai.app/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_griffinli",
+    "story_48893550",
+    "show_hn"
+   ],
+   "author": "griffinli",
+   "children": [
+    48902949,
+    48901657,
+    48903301,
+    48900501,
+    48900552,
+    48901656,
+    48902362,
+    48900482,
+    48902310,
+    48902326,
+    48903033,
+    48903158,
+    48903433,
+    48900827,
+    48894460,
+    48894655,
+    48901873,
+    48902176,
+    48901069
+   ],
+   "created_at": "2026-07-13T14:47:23Z",
+   "created_at_i": 1783954043,
+   "num_comments": 47,
+   "objectID": "48893550",
+   "points": 60,
+   "story_id": 48893550,
+   "story_text": "I created an app that compares real-time prices and wait times across Uber, Lyft, Waymo, Tesla Robotaxi, Curb, and Empower. It shows you all ride options in one list, then once you\u2019re ready to book, it deeplinks you to the provider\u2019s app with the route pre-filled.<p>Edit: Here&#x27;s a demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=VV8PEAjxwQI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=VV8PEAjxwQI</a><p>I reverse-engineered ride-hailing mobile apps to understand how they fetch prices from their servers. You sign in to my app with your ride-hailing accounts, and then my app requests live prices from the same APIs that ride-hailing apps use. Importantly, my app is built using an on-device approach: the app on your phone stores authentication tokens locally and sends network requests directly to each ride-hailing company\u2019s servers. This keeps your accounts private. I wrote a blog post showing network requests sent by my app, which you can verify yourself: <a href=\"https:&#x2F;&#x2F;blog.hackney.app&#x2F;p&#x2F;how-hackney-works\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.hackney.app&#x2F;p&#x2F;how-hackney-works</a><p>This seems like an obvious app. Why doesn\u2019t it already exist? That\u2019s because most ride-hailing companies don\u2019t offer public APIs for prices and wait times. Uber does offer one, but they prohibit using it for price comparison. When someone built a comparison app using the official API, Uber terminated their API access (<a href=\"https:&#x2F;&#x2F;www.benedelman.org&#x2F;news-053116\" rel=\"nofollow\">https:&#x2F;&#x2F;www.benedelman.org&#x2F;news-053116</a>). There are apps today that don\u2019t use official APIs, but they run your account tokens through their servers and send price requests server-side.<p>To integrate a ride-hailing provider, my app sends network requests for sign-in, token refresh, ride prices, and ride history (to power a feature that shows you unified ride history across apps and how much you\u2019ve saved on each ride). Some ride-hailing apps implement certificate pinning to prevent you from viewing their network requests, and some communicate with their server using Protobuf, a data format that doesn\u2019t include the original field names. Building an app using this approach is technically complex, but it makes possible all sorts of useful products that couldn\u2019t otherwise exist.<p>The app is completely free. In the future, I may monetize through a subscription or partnerships with ride-hailing companies. I\u2019d love to hear your feedback. You can download it today.<p>iOS: <a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;hackney-compare-rideshares&#x2F;id6754620049\">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;hackney-compare-rideshares&#x2F;id6...</a><p>Android: <a href=\"https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=app.hackney\">https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=app.hackney</a>",
+   "title": "Show HN: Hackney \u2013 Compare Uber, Lyft, Waymo, and Robotaxi Prices",
+   "updated_at": "2026-09-27T09:49:16Z",
+   "url": "https://hackney.app/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_barbinbrad",
+    "story_49824715",
+    "show_hn"
+   ],
+   "author": "barbinbrad",
+   "children": [
+    49828758,
+    49825228,
+    49825464,
+    49826781,
+    49829013,
+    49826134,
+    49825134,
+    49830194,
+    49827496,
+    49829406,
+    49828056,
+    49832732,
+    49826686
+   ],
+   "created_at": "2026-09-24T00:45:17Z",
+   "created_at_i": 1790210717,
+   "num_comments": 29,
+   "objectID": "49824715",
+   "points": 54,
+   "story_id": 49824715,
+   "title": "Show HN: An open-source manufacturing ERP/MES/QMS",
+   "updated_at": "2026-09-26T20:40:00Z",
+   "url": "https://carbon.ms/self-hosted"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_Salem_robotics",
+    "story_49466715",
+    "launch_hn"
+   ],
+   "author": "Salem_robotics",
+   "children": [
+    49467600,
+    49475672,
+    49469835,
+    49468025,
+    49473605,
+    49467131,
+    49471601,
+    49467847,
+    49467010,
+    49468039
+   ],
+   "created_at": "2026-08-27T15:46:04Z",
+   "created_at_i": 1787845564,
+   "num_comments": 31,
+   "objectID": "49466715",
+   "points": 49,
+   "story_id": 49466715,
+   "story_text": "Hi HN, we&#x27;re the founders of Salem Robotics (<a href=\"https:&#x2F;&#x2F;salemroboticsinc.com\">https:&#x2F;&#x2F;salemroboticsinc.com</a>). We give existing mobile robots the task-specific intelligence to carry out surveys and physically interactive inspections in hazardous industrial facilities.<p>Here&#x27;s a video of it running on real robot hardware with a few words from us:\n<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U_228h3NE7c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U_228h3NE7c</a><p>We came to Salem through robotics research at UT Austin and a combined 15 years working in nuclear, including about 10 years developing and deploying autonomous robots at Los Alamos National Laboratory. Over the last five years, we kept running into the same gap: robot hardware had become very capable, but making a robot carry out a complete industrial procedure still required a surprising amount of robotics work and manual intervention.<p>The part that interested us most was manipulation. A nuclear contamination survey, for example, can require taking a &quot;smear&quot;: wiping a defined area of a surface so it can be checked for removable radioactive contamination. In an oil, gas, or chemical facility, an LDAR (leak detection and repair) inspection can require moving a detector around a particular valve, flange, or connection. Other inspections require positioning an instrument at a precise location and orientation relative to a pipe or piece of equipment.<p>These are easy tasks to compress into verbs like &quot;wipe&quot;, &quot;measure&quot;, or &quot;inspect&quot;, but considerably harder to make a robot do reliably. A probe might need to remain normal to a surface throughout a path, stay within a narrow offset from a pipe, or trace a region while maintaining a particular end-effector orientation. The planner has to find a feasible motion while respecting the task geometry, manipulator kinematics, joint limits, collisions, and the environment around it.<p>We work down to joint-level control for those interactions. One problem we&#x27;ve spent a lot of time on is generating constrained manipulation plans quickly enough that they can be based on the geometry the robot actually observes instead of requiring someone to carefully author a trajectory for every individual surface, valve, or flange.<p>The physical world makes this annoying. A few centimeters of error may not matter much when navigating down a hallway, but it matters if a sensor is supposed to remain normal to a curved surface. And successfully executing a trajectory doesn&#x27;t necessarily mean the inspection worked. The detector could be misaligned, contact could be wrong, the geometry could differ from the model, or the measurement itself could be invalid. We care about closing that loop around the inspection result, not just whether the arm reached the commanded pose.<p>Our approach is a combination of AI and classical robotics. A lot of robotics research and industry attention right now is going toward increasingly end-to-end learned systems, particularly around humanoids. Working in safety-critical environments has made us appreciate how relevant classical approaches still are when you want explicit constraints, predictable behavior, and theoretical guarantees about what a robot can and cannot do.<p>We use AI where semantic understanding and flexibility are useful, such as interpreting less structured information or understanding what in an unfamiliar scene is relevant to a procedure. Once the system knows what physical interaction it needs to perform, we prefer explicit geometry, planning, optimization, and control where possible. We&#x27;re interested in the marriage between the two rather than trying to make every part of the robotics stack learned.<p>The other idea behind Salem is that we don&#x27;t think every useful robot application should require building a new robot. Companies like Boston Dynamics are getting very good at building increasingly capable hardware platforms. We think there is room for a domain-specific application layer on top of that hardware. The same underlying robot might perform nuclear radiological surveys in one facility and LDAR inspections in another, but the procedures, sensors, manipulation constraints, success conditions, and outputs are different.<p>That&#x27;s also why we&#x27;re hardware agnostic. We don&#x27;t expect one robot to be the best platform forever, and facilities already own different hardware. We&#x27;d rather describe an inspection in terms of what needs to happen and then map that onto the capabilities of the right robot for the job.<p>One thing that surprised us after spending more time with facilities is how manual many inspection workflows still are. In sophisticated nuclear and industrial sites, people still physically walk survey routes, take measurements one at a time, visually inspect equipment, record results manually, and sometimes make judgments based on things like how a component sounds. Some of the basic workflows would be recognizable to someone doing the job decades ago, even though the sensors, computation, and robots available today are radically different.<p>We&#x27;re starting with radiological inspection in nuclear because it&#x27;s the industry we know best, and we&#x27;re also working on manipulation-heavy inspection problems in oil, gas, and hazardous chemical facilities. The technicians and inspectors still define the procedure, interpret results, and make the consequential judgments. We&#x27;re trying to automate more of the repetitive physical execution that currently requires someone to enter the environment or manually operate a robot.<p>We sell directly to industrial facilities, usually starting with a paid technical validation and then moving to an ongoing deployment. Pricing varies substantially with the workflow: validations range from tens of thousands to over $100k, and larger deployments can range from the low hundreds of thousands to roughly $500k per robot.<p>One thing we&#x27;re especially curious to hear HN&#x27;s thoughts on is where the abstraction boundary in robotics should sit. What should come from the robot manufacturer, what belongs in an application layer, and what will inevitably remain specific to the facility? We&#x27;d also be interested in hearing about other industries where you&#x27;ve seen physical inspection tasks that look trivial to a person but are surprisingly difficult to automate.",
+   "title": "Launch HN: Salem Robotics (YC S26) \u2013 Software for industrial inspection robots",
+   "updated_at": "2026-09-04T19:52:53Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_kstonekuan",
+    "story_49510632",
+    "launch_hn"
+   ],
+   "author": "kstonekuan",
+   "children": [
+    49512337,
+    49512664,
+    49511266,
+    49511285,
+    49511471
+   ],
+   "created_at": "2026-08-31T15:02:41Z",
+   "created_at_i": 1788188561,
+   "num_comments": 12,
+   "objectID": "49510632",
+   "points": 46,
+   "story_id": 49510632,
+   "story_text": "Hi HN, we\u2019re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow</a>), an SDK that turns multimodal recordings from robots and human operators into standardized, quality-checked episodes and queryable dataset manifests. A recording can contain synchronized video, joint states, actions, timestamps, and metadata, and HFlow processes those streams together.<p>Here\u2019s a demo of HFlow in action: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xni0GwV-xAw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xni0GwV-xAw</a><p>Robotics data pipelines often begin as scripts: one transcodes video, another checks timestamps, another adds labels, and another copies selected recordings into a training set. This works until the corpus grows. Then it becomes difficult to know which code ran, why an episode was excluded, or whether a dataset can be reproduced. The first pain is usually quality control because frozen cameras, missing topics, timestamp drift, and duplicate recordings can quietly enter training data.<p>Brandon first encountered this while training embodied AI models for two-arm industrial cleaning robots. Kingston had run into related problems while building high-throughput infrastructure at Jane Street. Later, while speaking with robotics data providers, we kept seeing teams rebuild similar processing and quality-control infrastructure. We learnt that processing robotics data is itself one of the bottlenecks to improving robotics models.<p>An HFlow pipeline consists of transformations, checks, labels, and enrichments. The SDK exposes them as plain Python functions that receive an episode and return measurements, artifacts, or transformed data. During development, the functions can run in-process. For scheduled corpus processing, HFlow packages the same registered steps as Airflow 3 DAGs, where teams can inspect task status, logs, retries, and reruns.<p>HFlow currently accepts one MCAP file per episode. MCAP (<a href=\"https:&#x2F;&#x2F;mcap.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;mcap.dev&#x2F;</a>) is an open container format by Foxglove for timestamped multimodal recordings, similar in purpose to a ROS bag. It lets video, robot state, actions, and other sensor streams remain synchronized in one file. We use it because HFlow needs to process these streams together, and because the resulting recordings remain compatible with Foxglove and Rerun. HFlow writes a canonical MCAP with in-band H.264 video, grouped camera and state chunks, and provenance describing how the output was produced. Each step has an explicit behavior version, and catalog records connect its measurements and artifacts to the source episode and pipeline run.<p>Quality checks store reusable evidence rather than imposing one universal definition of good data. Some failures, including black frames, frozen video, missing topics, timestamp drift, and impossible joint movements, can be measured deterministically without training a model. Others might be detected using VLMs and other models like MediaPipe Hands. But their meaning depends on the task. A smooth trajectory might indicate a successful demonstration in one setting and a stalled robot in another.<p>HFlow writes measurements, metadata, version stamps, and artifact locations to an append-only Parquet catalog. Teams query it with DuckDB SQL and produce a version-pinned manifest without opening the recordings again. Critical checks can quarantine an episode, but HFlow does not delete data. This separates the evidence from the policy used to assemble a particular dataset.<p>We did not want to replace the tools robotics teams already use. HFlow connects MCAP for synchronized recordings, Airflow for scheduled execution, Parquet for catalog data, and DuckDB for curation. Compared with a general workflow orchestrator, it adds contracts for robotics episodes, processing provenance, quality evidence, quarantine, and dataset manifests. Compared with a training dataset format, it operates earlier and stops at curated episodes plus a manifest.<p>Here are three examples of teams that would use HFlow:\n1. A data vendor or marketplace collecting egocentric recordings. They could use HFlow to detect black or frozen video, duplicate recordings, hand-object interaction, and other quality metrics before delivering the data, while retaining evidence of which checks ran on every episode.\n2. A robotics team collecting teleoperated demonstrations for its own models. They could use HFlow to standardize recordings, add labels and enrichments, and produce a reproducible training manifest.\n3. A team operating robots in the field. It could process incoming logs, quarantine incomplete or corrupted episodes, and query the catalog for particular robot versions, environments, or failure conditions.<p>The project is pre-v1, but the core lifecycle works end to end. You can try it without an account, Docker, or robot hardware by cloning the repository and following the quickstart.<p>HFlow is free under the Apache-2.0 license. The open source deployment is currently a single-tenant workspace, and we have not built the hosted, multi-tenant control plane yet. We are considering making money through managed workspaces and enterprise support for teams that do not want to operate the runtime themselves.<p>Because this processing layer is software and data, people can contribute without owning a robot. We would especially like feedback from people who have built pipelines for robotics, video, or other sensor-heavy systems. We are curious where our data model is wrong, which integrations are missing, and what would fail first on your workloads.",
+   "title": "Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines",
+   "updated_at": "2026-09-07T02:39:12Z",
+   "url": "https://github.com/Hebbian-Robotics/hflow"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_soaringmonchi",
+    "story_48936271",
+    "show_hn"
+   ],
+   "author": "soaringmonchi",
+   "children": [
+    48942469,
+    48946753,
+    48955132,
+    48941224,
+    48941700,
+    48941287,
+    48940632,
+    48947002
+   ],
+   "created_at": "2026-07-16T15:55:47Z",
+   "created_at_i": 1784217347,
+   "num_comments": 13,
+   "objectID": "48936271",
+   "points": 37,
+   "story_id": 48936271,
+   "story_text": "Hi HN, I am co-founder of Kickstage, a software company specializing in solutions for the electrical industry and lately grid operators.<p>We are hiring engineers from different backgrounds, a lot of them software developers with limited experience in the sectors. Deep domain knowledge is key in our industry however, so we are constantly teaching the basics of power flow analysis, active vs reactive power, transmission line properties etc.<p>With Jupyter notebooks and the Python console only, that&#x27;s a tedious task and hardly ever led to a deep understanding of the topics.<p>So we built BambooGrid: a web-based editor on top of pandapower, a popular simulation library in our industry. You drag elements like buses, lines, loads generators and transformers onto a canvas, wire them up, set parameters and run power flow. It will print results directly on the canvas, color buses according to their voltages, even allows you to see an interactive admittance matrix.<p>You can try it out without installing anything on <a href=\"https:&#x2F;&#x2F;bamboo.kickstage.com\" rel=\"nofollow\">https:&#x2F;&#x2F;bamboo.kickstage.com</a> (thanks to our friends at Hostzero who sponsored hosting). Start with one of the included samples or draw your own. Just don&#x27;t forget to add a slack element.<p>Built on a Python backend (driven by the choice of pandapower mainly) and a React frontend. Fully MIT licensed, so feel free to use and modify to your liking.\nEven better: Give us feedback - we&#x27;re extremely open to suggestions how to improve the tool and are glad about every user who learns a bit more about power systems through it.<p>\u0160ime, who built most of this, is also in the thread. We are both happy to answer anything about the implementation or power systems in general.",
+   "title": "Show HN: BambooGrid \u2013 Open-source web UI for power grid modeling and power flow",
+   "updated_at": "2026-07-29T14:02:10Z",
+   "url": "https://bamboo.kickstage.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_tack1234",
+    "story_49744174",
+    "show_hn"
+   ],
+   "author": "tack1234",
+   "children": [
+    49766432,
+    49766307,
+    49766642,
+    49766280,
+    49805373
+   ],
+   "created_at": "2026-09-17T17:47:40Z",
+   "created_at_i": 1789667260,
+   "num_comments": 8,
+   "objectID": "49744174",
+   "points": 28,
+   "story_id": 49744174,
+   "story_text": "I&#x27;m writing a custom assembler for CHIP-8 and just finished adding support for the DB&#x2F;.byte directive so I can embed sprites in the ROM and finally get something drawn on the screen. It SHOULD support all OG CHIP-8 instructions, but still a ton of rough edges that I&#x27;m ironing out.<p>This is my first ever C++ project, just like the CHIP-8 emulator was my first ever C (and emudev) project. It&#x27;s so satisfying to write assembly and have your program spit out a ROM that actually runs in the emulator you wrote.<p>All code is written by me (a lot of it livestreaming) as evident by the quality, no AI.",
+   "title": "Show HN: I wrote a custom assembler for CHIP-8 in C++",
+   "updated_at": "2026-09-22T20:59:03Z",
+   "url": "https://github.com/Tackx/c8-ass"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_guanming0717",
+    "story_49802789",
+    "show_hn"
+   ],
+   "author": "guanming0717",
+   "children": [
+    49812340,
+    49806509
+   ],
+   "created_at": "2026-09-22T15:20:06Z",
+   "created_at_i": 1790090406,
+   "num_comments": 4,
+   "objectID": "49802789",
+   "points": 27,
+   "story_id": 49802789,
+   "story_text": "Hey HN, Guanming here, cofounder of General Instinct. We just released InstinctFlash, a high-performance serving framework for robotics models. It\u2019s licensed under AGPL-3.0.<p>On Jetson Thor, we see speedups about 1.2x to 7.9x from runtime optimizations alone and up to 33.78x for LingBot-VA when we combine those runtime optimizations with a distilled few-step diffusion scheduler, going from the original 25 visual &#x2F; 50 action steps to 2 &#x2F; 4 steps. Across 50 Robotwin2.0 tasks, we evaluated 1,153 episodes per configuration, LingBot-VA with InstinctFlash at 2 visual &#x2F; 4 action steps achieved a 90.5% success rate, compared with 92.1% for the baseline at 25 visual &#x2F; 50 action steps.<p>Here\u2019s an optimized 5B world action model, running in real time on a Jetson Thor:\n<a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;nku65iyL5Fw\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;nku65iyL5Fw</a><p>InstinctFlash currently supports 8 VLA &#x2F; world-action model families, including pi0.5 and NVIDIA Cosmos Policy, across RTX 4090 &#x2F; 5090 and Jetson Thor.<p>Just give it your fine-tuned checkpoint and InstinctFlash handles the rest, exposing the accelerated model through a Python runtime or an OpenPI-compatible WebSocket server.<p>We started working on this because we kept running into the same problem while deploying robot policies, the models were getting much better, but inference was often way too slow for the control loop we actually wanted.<p>For pi0.5, mixed-precision GEMMs and CUDA graphs speed up computation and reduce launch overhead. For Cosmos, caching avoids redundant computation across diffusion steps. World-action models\u2019 diffusion denoising step depends on the previous one which motivated our work on few-step distillation.<p>Right now, InstinctFlash contains 6 aspects of optimization.<p>- Graph: CUDA graph capture, memory planning and separating prefill from repeated execution.<p>- Cache: Reusing KV and conditioning state across diffusion steps and prediction calls.<p>- Attention: Specialized attention paths for different model architectures.<p>- Kernels: Fused operations and kernels tailored to specific backends and tensor layouts.<p>- Precision: FP8 and mixed-precision execution.<p>- Model: Few-step distillation for diffusion and action generation.<p>Teams at Samsung, Siemens, and other robotics startups have used InstinctFlash for model acceleration on VLAs, WAMs, and diffusion-based world models. Now we are opening up access to you.<p>Feel free to try it here:\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;General-Instinct&#x2F;InstinctFlash\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;General-Instinct&#x2F;InstinctFlash</a><p>More implementation details and benchmarks:\n<a href=\"https:&#x2F;&#x2F;general-instinct.com&#x2F;blog&#x2F;instinctflash-edge-inference\">https:&#x2F;&#x2F;general-instinct.com&#x2F;blog&#x2F;instinctflash-edge-inferen...</a><p>Would love to hear your feedback!",
+   "title": "Show HN: InstinctFlash \u2013 High-Performance Serving Runtime for Robotics Models",
+   "updated_at": "2026-09-24T14:56:09Z",
+   "url": "https://github.com/General-Instinct/InstinctFlash"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_kaipereira",
+    "story_49184900",
+    "show_hn"
+   ],
+   "author": "kaipereira",
+   "children": [
+    49246540,
+    49241547
+   ],
+   "created_at": "2026-08-05T16:15:51Z",
+   "created_at_i": 1785946551,
+   "num_comments": 3,
+   "objectID": "49184900",
+   "points": 24,
+   "story_id": 49184900,
+   "story_text": "Hey guys,<p>A couple weeks ago, I was in Shenzhen, China for a hackathon and on the first day, we all used the one-day PCB fabrication to make PCB badges to wear during the event. I decided to go a little crazy and make some cool 3D alchemical-cosmological badges.<p>It&#x27;s 3 PCB&#x27;s stacked on-top of each other that&#x27;s connected using testpoints on each board. The innerboard has a 10 cent CH32V003 MCU that powers the WS2812B neopixels on the outer rings using the testpoints and shines through using exposed soldermask.<p>If you have any questions about how the design works, feel free to let me know!",
+   "title": "Show HN: I made alchemical-cosmological PCB badges",
+   "updated_at": "2026-08-14T03:41:19Z",
+   "url": "https://github.com/KaiPereira/Alchemical-Cosmological-Badges"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_liseman",
+    "story_49253378",
+    "show_hn"
+   ],
+   "author": "liseman",
+   "children": [
+    49256662,
+    49277810,
+    49264780
+   ],
+   "created_at": "2026-08-11T04:27:40Z",
+   "created_at_i": 1786422460,
+   "num_comments": 5,
+   "objectID": "49253378",
+   "points": 21,
+   "story_id": 49253378,
+   "title": "Show HN: I vibecoded a heavy lift drone",
+   "updated_at": "2026-08-13T17:03:33Z",
+   "url": "https://lukeiseman.substack.com/p/i-vibecoded-a-drone"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_ch-bas",
+    "story_49287596",
+    "show_hn"
+   ],
+   "author": "ch-bas",
+   "children": [
+    49290834,
+    49290471,
+    49290457,
+    49295579,
+    49295518
+   ],
+   "created_at": "2026-08-13T15:35:08Z",
+   "created_at_i": 1786635308,
+   "num_comments": 2,
+   "objectID": "49287596",
+   "points": 18,
+   "story_id": 49287596,
+   "story_text": "A tool that maps UI components across MUI, Chakra, Ant Design, Mantine, EUI, Bootstrap, Quasar, Angular Material, and more. Every mapping is hand-verified \u2014 no AI guessing.\nSite: <a href=\"https:&#x2F;&#x2F;frontfamily.com\" rel=\"nofollow\">https:&#x2F;&#x2F;frontfamily.com</a>\nCLI: <a href=\"https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;@frontfamily&#x2F;cli\" rel=\"nofollow\">https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;@frontfamily&#x2F;cli</a>\nGitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;ch-bas&#x2F;frontfamily\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ch-bas&#x2F;frontfamily</a>",
+   "title": "Show HN: A Rosetta Stone for UI component libraries",
+   "updated_at": "2026-08-15T07:27:54Z",
+   "url": "https://www.frontfamily.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_agamrossen",
+    "story_49618955",
+    "show_hn"
+   ],
+   "author": "agamrossen",
+   "created_at": "2026-09-09T00:08:13Z",
+   "created_at_i": 1788912493,
+   "num_comments": 0,
+   "objectID": "49618955",
+   "points": 16,
+   "story_id": 49618955,
+   "story_text": "This project has been a month in the making, and 9 fully functional units will be sent tomorrow to an undisclosed civilian site across the Israel - Lebanon border. All of my findings are shared online to anyone on the globe who could benefit from them, or make their own units.<p>I&#x27;m an engineering student at the University of York, originally from Israel, studying in England.<p>I too often have been hearing about tragic cases involving civilians in war zones being chased and attacked by small FPV drones mounted with an explosive. Especially around the north of Israel, Ukraine and Russian. My intentions for this project were clear: create a device small, portable and cheap enough for civilian use, that could drastically change the outcome of a drone infiltration through early alerting.<p>I decided to dedicate a month of my summer to go back to the university labs and to work on this as personal project.<p>These drone attacks are not run on normal wireless drones, instead they are run on small FPV drones that are connected to the operator through a long spool of fibre optic cable. This simply means that drone detection through Radio, the current industry standard, is not applicable.<p>My solution was to build an acoustic detector. A device that uses 4 MEMS microphones to capture the drone&#x27;s propellers&#x27; emitted noise as they cut through the air, runs that data through several algorithms to enhance the SNR, reduce noise (directional, possible confusers), recognises their comb looking shape when plotted by frequency, and alert the user through multiple outputs (display, beeper, buzzer, led) along with alerting all nearby units using a LoRa module also fitted in the device.<p>The units have been tested against a custom drone rig, housing the exact same specs as the drones used in the Israel-Lebanon border (four 2807 motors, 7 in tri blades, FPV airframe), which was stationed 104.2m away from the device in a street with passer-by&#x27;s and mild wind. That test ran successfully and the device was able to detect the drone.<p>This device was built for detection and alerting only, so no jamming.<p>Every online resource i could think of in regarding this project exists in the Github, along with a neat website that shows off more media with explanations, also housing a live detector simulation that runs in the browser: <a href=\"https:&#x2F;&#x2F;volantitech.com&#x2F;#simulator\" rel=\"nofollow\">https:&#x2F;&#x2F;volantitech.com&#x2F;#simulator</a>",
+   "title": "Show HN: VolAnti \u2013 Open-source acoustic detector for fibre-optic FPV drones",
+   "updated_at": "2026-09-10T02:53:52Z",
+   "url": "https://github.com/agamrossen/VolAnti"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_northify",
+    "story_49248845",
+    "show_hn"
+   ],
+   "author": "northify",
+   "children": [
+    49293065,
+    49292884,
+    49293163,
+    49292999,
+    49293015,
+    49248860
+   ],
+   "created_at": "2026-08-10T19:54:36Z",
+   "created_at_i": 1786391676,
+   "num_comments": 12,
+   "objectID": "49248845",
+   "points": 15,
+   "story_id": 49248845,
+   "story_text": "Hi HN, Shawn here. My rooftop system lost about half a year of production and nobody told me. Not the installer, not the monitoring app, not the utility. I found out from an electric bill that made no sense, then spent weeks digging through the monitoring portal by hand.<p>SunRanker is what I wished existed that day. Connect a system once (Enphase OAuth, or a SolarEdge site ID plus API key) and it reads production daily, shows it in plain language, and emails you when something actually changes. Three alerts only. The connection broke, the monitoring went quiet, or output has been well below your own typical for days. Plus a short monthly review. No daily drip.<p>It&#x27;s free, and my own system is on the homepage with its bad months showing. The gray months are my monitoring going quiet.<p>Would love feedback on the alert thresholds (drop detection is five days under half of a 28 day baseline) and which brand to support next. Tesla makes this hard for third parties.<p>Stack, for the curious. Laravel, Livewire, MySQL, and one scheduled job doing the nightly checks.",
+   "title": "Show HN: My solar died for 6 months, so I built a watchdog",
+   "updated_at": "2026-08-17T00:10:01Z",
+   "url": "https://sunranker.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_deepresearch",
+    "story_48919638",
+    "show_hn"
+   ],
+   "author": "deepresearch",
+   "children": [
+    48955390,
+    48954402
+   ],
+   "created_at": "2026-07-15T12:14:43Z",
+   "created_at_i": 1784117683,
+   "num_comments": 1,
+   "objectID": "48919638",
+   "points": 12,
+   "story_id": 48919638,
+   "story_text": "Hi all,<p>I&#x27;ve just launched Leet Robotics: a platform to learn robotics hands-on, with a full ROS2 workspace that runs in the browser (Jazzy, Gazebo Harmonic, Foxglove, VS Code) - no install required. The platform also has room for sharing projects and simulation assets as it grows.<p>Our first course is live now: Intro to ROS2 (free to read). The course teaches skills ranging from building your first node to a capstone project of a robot touring a museum world, with every lesson runnable in the online workspace (free accounts get an hour of workspace time daily - enough to follow the course).<p>Would love feedback from this community: on the course, the workspace experience, and what courses to build next.",
+   "title": "Show HN: Leet Robotics: Learn robotics and ROS2 with hands-on courses",
+   "updated_at": "2026-07-18T05:07:44Z",
+   "url": "https://www.leetrobotics.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_dualarte",
+    "story_49433314",
+    "show_hn"
+   ],
+   "author": "dualarte",
+   "children": [
+    49433813,
+    49433498,
+    49448500,
+    49435082
+   ],
+   "created_at": "2026-08-25T13:03:09Z",
+   "created_at_i": 1787662989,
+   "num_comments": 7,
+   "objectID": "49433314",
+   "points": 12,
+   "story_id": 49433314,
+   "story_text": "This was a lot of fun to build! I have an autistic son who is extremely interested in power lines, electrical transmission towers, and how the grid works. I decided to build a little game for him. When I finally showed it to him with bated breath, he rolled his eyes and said, \u201cIs it 3D? I\u2019ll only like it if it\u2019s 3D!\u201d So, I decided to polish it up and release it to the world!<p>You get a 9x9 map with one power plant, three houses, and terrain obstacles, and the goal is to connect the power plant to the houses with an optimal path.<p>Beneath the coat of paint, it\u2019s a graph theory optimization puzzle, very nearly a Steiner-tree puzzle. Any two nodes within Chebyshev distance 2 are wired together automatically. But the wires travel in Euclidian space, so reach is measured on a square and wire on a circle. The skill is balancing that asymmetry to find the shortest route to light up the whole map.<p>Because the original goal of this project was to provide joy to my son, I\u2019ve done my best to make it accessible to everyone. It\u2019s localized into 18 languages so far, has a high-contrast mode meeting AAA standards, reduced motion mode, etc.<p>I do collect usage telemetry to help me improve the game, but I\u2019ve done my very best to take privacy very seriously, collecting anonymous stats about the gameplay itself, with a random id the game generates rather than anything about the player or device. I also generate the privacy policy directly from the analytics code, as a contract to ensure nothing is ever collected without being fully disclosed.<p>I had a really great time with this project, and hope to continue to improve it! I\u2019d love any feedback I can get! Please let me know if you have any questions, and I\u2019ll stick around to answer them!<p>(Reposting because my first attempt landed during a super quiet hour and didn&#x27;t really get seen)",
+   "title": "Show HN: Wirespan, a daily power grid optimization puzzle I made for my son",
+   "updated_at": "2026-08-31T18:51:08Z",
+   "url": "https://wirespan.app/?r=hnn"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_alpbahadur",
+    "story_49223383",
+    "show_hn"
+   ],
+   "author": "alpbahadur",
+   "children": [
+    49224827
+   ],
+   "created_at": "2026-08-08T16:37:34Z",
+   "created_at_i": 1786207054,
+   "num_comments": 1,
+   "objectID": "49223383",
+   "points": 11,
+   "story_id": 49223383,
+   "story_text": "Beads tables (Steve Yegge&#x27;s) for issue tracking. Can view git trees, terminals, issue tables, notes, and files all on one screen. Can connect multiple machines via private network (like tailscale)<p>I had this issue where i really did not like the when i had many terminals open at the same time - when you try to code with 6+ agents at the same time, across, say, 3 projects, you get huge context fragmentation. I am a visual person, and its way easier for me to remember where things are if I placed them there - I build this 2D canvas for myself initially and then decided to open-source - the main goal there is to let me (or the user) to place the terminals, github trees (to track agent&#x27;s progress across branches on different repos), beads issues tables across many machines all on the same screen. Most important note, once again, is since its a 2D canvas, it feels more like a citybuilder where i I decide where to put stuff and thus remember exactly where what is running. It boosts my efficiency by couple pp at the very least (anecdotal, can be placebo!!);<p>I also ended up using it nearly daily for couple months now... My friend, who helps with dev, and I had to focus on other things (life) but now we are kinda coming back to the app to implement coworking feature.",
+   "title": "Show HN: 49IDE \u2013 2D Grid IDE for managing many agents, Git trees, issues",
+   "updated_at": "2026-08-10T14:19:08Z",
+   "url": "https://github.com/alpbahadur/49Agents"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_lemaudit",
+    "story_49070811",
+    "show_hn"
+   ],
+   "author": "lemaudit",
+   "children": [
+    49074679
+   ],
+   "created_at": "2026-07-27T15:11:19Z",
+   "created_at_i": 1785165079,
+   "num_comments": 2,
+   "objectID": "49070811",
+   "points": 11,
+   "story_id": 49070811,
+   "title": "Show HN: multiaes \u2013 hardware-accelerated, constant-time AES, two-file drop-in",
+   "updated_at": "2026-08-01T02:35:33Z",
+   "url": "https://github.com/ttarvis/multiaes"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_yonl",
+    "story_49643496",
+    "show_hn"
+   ],
+   "author": "yonl",
+   "children": [
+    49809383
+   ],
+   "created_at": "2026-09-10T13:35:40Z",
+   "created_at_i": 1789047340,
+   "num_comments": 0,
+   "objectID": "49643496",
+   "points": 10,
+   "story_id": 49643496,
+   "story_text": "Hi, I am building a js library for grids (and pivot tables) so that coding agents can use our primitives to deliver a grid based on your specifications.<p>I started working on this problem because data displays like grids &#x2F; pivot tables are tricky to get right as more and more features pile up (features like: pagination of data, virtualization, pivots, grouped views, custom renderers, filters, sort, etc)<p>Pre llm and coding agents, I built <a href=\"https:&#x2F;&#x2F;github.com&#x2F;chartshq&#x2F;muze\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;chartshq&#x2F;muze</a> (that later got acquired by mode analytics) with grammar of graphics for developers. But I have always felt a library built for agents would have a fundamentally different philosophy than the one built for devs.<p>What does an agent first js grid library mean?<p>The library comes up with few primitives and mental models that agents can use reliably (<a href=\"https:&#x2F;&#x2F;www.superplot.dev&#x2F;grid&#x2F;our-approach&#x2F;#principles&#x2F;table-algebra\" rel=\"nofollow\">https:&#x2F;&#x2F;www.superplot.dev&#x2F;grid&#x2F;our-approach&#x2F;#principles&#x2F;tabl...</a>) alongside the design and architecture of the grid (open closed system + data flow + relinquishing right control to agents). Thus enforcing enough abstraction for agents that produce fewer bugs in a single shot (<a href=\"https:&#x2F;&#x2F;www.superplot.dev&#x2F;grid&#x2F;our-approach&#x2F;#principles&#x2F;headless-architecture\" rel=\"nofollow\">https:&#x2F;&#x2F;www.superplot.dev&#x2F;grid&#x2F;our-approach&#x2F;#principles&#x2F;head...</a>).<p>How is it different from a lib built for devs?<p>Unlike a lib built for devs where the abstaction layer is much closer to humans (config driven like highcharts &#x2F; aggrid), I belive having a different layer of abstraction from carefully defined building blocks and stable contracts help agents build reliable and stable outputs.<p>For majority of the usecases, a user can ask an agent to build a particular representation of the grid (without waiting for the library to support it internally) to their liking. The agent would then go and build the grid with given constructs acting as guardrails. (Ofcourse there is a limit to that, for example if you want to do something which is outside the scope of mental model)<p>What does it support?<p>- Headless grid with virtualization\n- Local in browser datasource via duckdbwasm (supports pivot &#x2F; tree &#x2F; grouped data ops)\n- External datasource connection via our IR (codegen to db &#x2F; semantic model should be easy given llm like structures)\n- Pivot + tree view + grouped data view \n- Table algebra support (that gets translated to IR for external datasource, for which agent can do codegen)\n- Pagination &#x2F; data evictions for billions of row handling\n- Metadata plumbing (for usecases like complex cells where data needs to be generated from multiple differnet parameters)\n- Usage patterns &#x2F; documentations (we are working on this)<p>Some demos: <a href=\"https:&#x2F;&#x2F;www.superplot.dev&#x2F;grid&#x2F;#demos\" rel=\"nofollow\">https:&#x2F;&#x2F;www.superplot.dev&#x2F;grid&#x2F;#demos</a>\nGithub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;superplothq&#x2F;grid\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;superplothq&#x2F;grid</a><p>Would love to get your feedback on the approach as I continue to build the library.",
+   "title": "Show HN: JavaScript grid and pivot library built for coding agents",
+   "updated_at": "2026-09-22T22:51:02Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_jangletown",
+    "story_49007760",
+    "show_hn"
+   ],
+   "author": "jangletown",
+   "created_at": "2026-07-22T14:52:14Z",
+   "created_at_i": 1784731934,
+   "num_comments": 0,
+   "objectID": "49007760",
+   "points": 9,
+   "story_id": 49007760,
+   "story_text": "Founder here. Langy is an AI engineer that lives inside our platform, LangWatch. It reads your production traces, writes Scenario tests and evaluations for the problems it finds, opens a pull request on your repo, and proves the fix by running those simulations in CI. A human still merges.<p>Reachy robot from Hugging Face arrived on the same week we were planing on launching it, so we wanted to use for the launch. So we it wired to our Langy which actually lives on the platform, and asked it to test our own customer-support voice agent. On the video you can see it writing the agent tests reading traces and everything.<p>LangWatch is an open source platform (github.com&#x2F;langwatch&#x2F;langwatch) and Scenario, the simulation-testing library it drives, is open source too if you want to run that part yourself: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;langwatch&#x2F;scenario\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;langwatch&#x2F;scenario</a>. A full write-up on how Langy works under the hood is coming later this week.<p>Happy to get into how it drives the robot, what is real vs staged, latency, or how the whole harness around it actually works.",
+   "title": "Show HN: Langy, an automated AI engineer (we gave it a robot body) [video]",
+   "updated_at": "2026-07-23T09:52:02Z",
+   "url": "https://langwatch.ai/blog/introducing-langy-your-automated-ai-engineer"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_ashuttl",
+    "story_49408089",
+    "show_hn"
+   ],
+   "author": "ashuttl",
+   "created_at": "2026-08-23T11:56:47Z",
+   "created_at_i": 1787486207,
+   "num_comments": 0,
+   "objectID": "49408089",
+   "points": 9,
+   "story_id": 49408089,
+   "story_text": "I&#x27;ve been working on linecast, a free and open source collection of six terminal applications: weather, radar, sunshine, moon, tides, and maps.<p>It&#x27;s as if the Old Farmer&#x27;s Almanac was built for Minitel.<p>I made it because I&#x27;d been using the terminal a lot more over the past couple of years, I&#x27;m opinionated about weather forecast IA and design, and I liked the idea of making useful little terminal desk ornaments.<p>The applications use ANSI color and Unicode braille characters rather than graphics. They reflow as the terminal is resized and derive their colors from your current terminal palette, including when the theme changes while they&#x27;re running. They&#x27;re mouse friendly where it makes sense.<p>There&#x27;s no account or required API key. Forecasts and air quality come from Open-Meteo; alerts, tides, and radar use various public sources; Sun and Moon positions are calculated locally; and the maps use OpenStreetMap-derived vector data and public elevation tiles. The code is just the Python stdlib with no package dependencies.<p>If you have uvx, you can run it without installing: uvx linecast weather, uvx linecast radar, uvx linecast maps. It&#x27;s also installable through Homebrew, uv tool, pipx, or pip. Source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;ashuttl&#x2F;linecast\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ashuttl&#x2F;linecast</a><p>It currently supports macOS and Linux with Python 3.10+. It doesn&#x27;t work over SSH and I haven&#x27;t explored Windows support.<p>Hope you enjoy checking it out! Feedback welcome.",
+   "title": "Show HN: linecast \u2013 weather, radar, tides and maps in the terminal",
+   "updated_at": "2026-08-29T11:02:31Z",
+   "url": "https://terminaltrove.com/linecast/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_spobin",
+    "story_49449201",
+    "show_hn"
+   ],
+   "author": "spobin",
+   "children": [
+    49449287
+   ],
+   "created_at": "2026-08-26T13:53:05Z",
+   "created_at_i": 1787752385,
+   "num_comments": 3,
+   "objectID": "49449201",
+   "points": 8,
+   "story_id": 49449201,
+   "title": "Show HN: A robot football league where frontier AI models manage the clubs",
+   "updated_at": "2026-08-27T09:17:08Z",
+   "url": "https://rfl.football"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_choyongjoon",
+    "story_49029788",
+    "show_hn"
+   ],
+   "author": "choyongjoon",
+   "children": [
+    49032982,
+    49030759
+   ],
+   "created_at": "2026-07-24T00:13:40Z",
+   "created_at_i": 1784852020,
+   "num_comments": 2,
+   "objectID": "49029788",
+   "points": 8,
+   "story_id": 49029788,
+   "story_text": "Hi, I developed Life Tile for iPhone. It tracks your time passively and visualizes it as a Mondrian-style grid. It&#x27;s a one-time purchase app with a 7-day trial.<p>I was a user of a similar app named Life Cycle. Since the app hasn&#x27;t been updated in a while, I tried to make a better app with my ideas and experiences. I used a big square timeline instead of a donut chart. And I added more useful views: tree-map, map, and list. You can use categorized activities with custom colors.<p>The data never leaves a device. No account, No Server. It only supports data backup using iCloud. It was for privacy but it also makes the development easier. I added just one anonymous usage stat with TelemetryDeck. You can turn it off anytime.<p>There were many technical difficulties. iOS location API (CLMonitor) is not 100% precise. And many difficult cases can&#x27;t be handled automatically. For example, GPS blackout inside the subway, too many venues in a small region, and a huge location like an airport. So I improved many heuristics and tried my best for easy editing.<p>Please check the App Store for the screenshots. Then you&#x27;ll know why it&#x27;s inspired by Mondrian.",
+   "title": "Show HN: Life Tile \u2013 Passive time tracker that shows your day as a Mondrian grid",
+   "updated_at": "2026-07-31T15:50:33Z",
+   "url": "https://apps.apple.com/us/app/life-tile-auto-tracker/id6767332648"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_dalbaugh",
+    "story_49419615",
+    "show_hn"
+   ],
+   "author": "dalbaugh",
+   "children": [
+    49424251
+   ],
+   "created_at": "2026-08-24T13:38:34Z",
+   "created_at_i": 1787578714,
+   "num_comments": 2,
+   "objectID": "49419615",
+   "points": 8,
+   "story_id": 49419615,
+   "title": "Show HN: OpenMRP \u2013 an open-source manufacturing ERP built over 4 years",
+   "updated_at": "2026-08-24T23:18:31Z",
+   "url": "https://github.com/open-mrp/api"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_oclp",
+    "story_49182016",
+    "show_hn"
+   ],
+   "author": "oclp",
+   "children": [
+    49182026
+   ],
+   "created_at": "2026-08-05T12:39:57Z",
+   "created_at_i": 1785933597,
+   "num_comments": 0,
+   "objectID": "49182016",
+   "points": 8,
+   "story_id": 49182016,
+   "title": "Show HN: Labgrid-MCP \u2013 let AI agents drive real embedded hardware labs",
+   "updated_at": "2026-08-05T17:56:36Z",
+   "url": "https://github.com/onurcelep/labgrid-mcp"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_hannesfur",
+    "story_48923872",
+    "show_hn"
+   ],
+   "author": "hannesfur",
+   "children": [
+    48925713,
+    48925248,
+    48924117,
+    48924107
+   ],
+   "created_at": "2026-07-15T17:03:17Z",
+   "created_at_i": 1784134997,
+   "num_comments": 5,
+   "objectID": "48923872",
+   "points": 7,
+   "story_id": 48923872,
+   "story_text": "Hi HN,<p>We run an electronic parts search engine, and Stillwind Builder is our attempt to automate the selection step itself: it turns a project description into a PCB bill of materials.<p>At its core, it frames part selection as a constraint satisfaction problem, since your picks depend on each other \u2014 a motor driver can&#x27;t draw more current than the power source is rated for, and every part&#x27;s supply pin has to be within the voltage range of the rail feeding it. Once the constraints are set up, we evaluate combinations of parts from our database against them. If no combination works, the system adjusts the constraints and tries again. At the end it spits out a BOM.<p>You can try it directly at the link \u2014 the purple examples run with one click, or you can describe any project you like. We wrote up how it works in more detail here: <a href=\"https:&#x2F;&#x2F;stillwind.ai&#x2F;blog&#x2F;stillwind-system-builder\">https:&#x2F;&#x2F;stillwind.ai&#x2F;blog&#x2F;stillwind-system-builder</a><p>We&#x27;ll be in the comments for the next few hours and happy to answer questions. If you&#x27;d want to use this on real projects, we&#x27;re open to design partnerships: contact[@]stillwind.ai",
+   "title": "Show HN: Stillwind \u2013 PCB part selection as constraint solving",
+   "updated_at": "2026-07-16T19:12:27Z",
+   "url": "https://stillwind.ai"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_darkreader",
+    "story_49356609",
+    "show_hn"
+   ],
+   "author": "darkreader",
+   "children": [
+    49359852,
+    49359777,
+    49357802,
+    49385238
+   ],
+   "created_at": "2026-08-19T04:03:16Z",
+   "created_at_i": 1787112196,
+   "num_comments": 6,
+   "objectID": "49356609",
+   "points": 7,
+   "story_id": 49356609,
+   "title": "Show HN: PlugClaw \u2013 Private AI agent hardware for any phone or PC",
+   "updated_at": "2026-08-27T17:07:12Z",
+   "url": "https://plugos.net/plugclaw/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_iamflimflam1",
+    "story_49345706",
+    "show_hn"
+   ],
+   "author": "iamflimflam1",
+   "children": [
+    49356233,
+    49349952
+   ],
+   "created_at": "2026-08-18T13:55:39Z",
+   "created_at_i": 1787061339,
+   "num_comments": 4,
+   "objectID": "49345706",
+   "points": 6,
+   "story_id": 49345706,
+   "title": "Show HN: Robot or Meatbag?",
+   "updated_at": "2026-08-20T15:51:44Z",
+   "url": "https://meatbag.atomic14.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_SphericalCowww",
+    "story_49048024",
+    "show_hn"
+   ],
+   "author": "SphericalCowww",
+   "created_at": "2026-07-25T14:48:24Z",
+   "created_at_i": 1784990904,
+   "num_comments": 0,
+   "objectID": "49048024",
+   "points": 6,
+   "story_id": 49048024,
+   "story_text": "This repo is an upgrade to my previous project, Cubic Doggo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;SphericalCowww&#x2F;CubicDoggo\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;SphericalCowww&#x2F;CubicDoggo</a><p>It has since implemented an IMU and several mechanical reinforcements. The next step will be simulation and reinforcement learning.",
+   "title": "Show HN: Cubic Doggo 06R: 12-DOF 4-Legged Robot with IMU",
+   "updated_at": "2026-07-31T13:10:17Z",
+   "url": "https://github.com/SphericalCowww/CubicDoggo_06R"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_couAUIA",
+    "story_49770638",
+    "show_hn"
+   ],
+   "author": "couAUIA",
+   "children": [
+    49784736,
+    49789252,
+    49779817
+   ],
+   "created_at": "2026-09-19T22:31:47Z",
+   "created_at_i": 1789857107,
+   "num_comments": 3,
+   "objectID": "49770638",
+   "points": 6,
+   "story_id": 49770638,
+   "story_text": "Code is the future of hardware engineering: <a href=\"https:&#x2F;&#x2F;charlesazam.com&#x2F;blog&#x2F;engineering-as-code-manifesto&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;charlesazam.com&#x2F;blog&#x2F;engineering-as-code-manifesto&#x2F;</a>",
+   "title": "Show HN: I am vibe coding a drone",
+   "updated_at": "2026-09-22T18:36:04Z",
+   "url": "https://ai-eng-design-production.up.railway.app/login"
+  }
+ ]
+}

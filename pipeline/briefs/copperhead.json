@@ -1,0 +1,77 @@
+{
+ "slug": "copperhead",
+ "generatedAt": "2026-10-02",
+ "summary": "Copperhead is an open-source command-line AI agent for PCB design. It takes a product brief or change request, edits KiCad schematic and board files in the user's git repository and runs KiCad's ERC and DRC checks until they pass. It runs locally, and the careers page describes a small team in Bengaluru.",
+ "thesis": "Copperhead applies a coding-agent loop to PCB design on KiCad files, a step before any robotics, defense or energy hardware build. The founder's Hacker News account said it is also building a design house to eventually deliver assembled boards.",
+ "stage": "Formation stage, no funding round found. The site names no investor or amount, and searches of Google News, Hacker News and SEC EDGAR Form D filings on 2 October 2026 returned no round. The GitHub repository was created on 18 July 2026. A Show HN on 8 September 2026 stands at 250 points and 115 comments. The homepage prices a Cloud tier at $49 per user per month.",
+ "team": [
+  {
+   "name": "Animesh Singh Chouhan",
+   "background": "Founder per his GitHub profile, which also lists JPMorgan Chase and IIT Kharagpur. His personal site says he is currently an Associate Software Engineer at JPMorgan Chase."
+  }
+ ],
+ "questions": [
+  "Is Animesh full time on Copperhead? His GitHub bio and personal site still list JPMorgan Chase. Who is on the team, and what is the incorporated entity?",
+  "What does the Backed by strip on the homepage mean? Are any of the eight names equity investors, or are they all credit and partner programs?",
+  "Which Copperhead-designed boards have been fabricated? The homepage says Open Telegraph is proven on real copper, but its README lists the status as prototype hardware in development.",
+  "The homepage prices Cloud at $49 per user per month. Is anyone paying, and is the business a software subscription or the design house the founder described?"
+ ],
+ "risks": [
+  "Very early, with one named person who may still have a day job. The repository was created on 18 July 2026, and his GitHub bio still lists JPMorgan Chase.",
+  "Technical depth is unproven. The README says the agent loop's acceptance tests have not been observed passing end to end.",
+  "No evidence of revenue or of what is defensible. The core product is Apache-2.0 licensed, and several Hacker News commenters asked what it adds over a general coding agent."
+ ],
+ "unverified": [
+  "The homepage lists eight names under Backed by, including Microsoft for Startups and Google for Startups. Whether any reflects equity investment is not confirmed.",
+  "The homepage says Open Telegraph is proven on real copper. The board's README lists the status as prototype hardware in development, so fabrication is not confirmed.",
+  "Whether Animesh Chouhan has left JPMorgan Chase is not confirmed. His GitHub profile and personal site list it as current."
+ ],
+ "sources": [
+  {
+   "title": "Copperhead homepage",
+   "url": "https://copperhead.sh/"
+  },
+  {
+   "title": "GitHub repository, copperheadhq/copperhead",
+   "url": "https://github.com/copperheadhq/copperhead"
+  },
+  {
+   "title": "Show HN thread, 8 September 2026",
+   "url": "https://news.ycombinator.com/item?id=49610059"
+  },
+  {
+   "title": "Antler Crackathon submission post, 18 July 2026",
+   "url": "https://copperhead.sh/blog/antler-crackathon/"
+  },
+  {
+   "title": "GitHub API repository record",
+   "url": "https://api.github.com/repos/copperheadhq/copperhead"
+  },
+  {
+   "title": "SEC EDGAR Form D search",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22copperheadhq%22%20OR%20%22Chouhan%20Industries%22&forms=D"
+  },
+  {
+   "title": "GitHub profile, Animesh Singh Chouhan",
+   "url": "https://github.com/animesh-chouhan"
+  },
+  {
+   "title": "Animesh Chouhan personal site",
+   "url": "https://animeshchouhan.com"
+  },
+  {
+   "title": "Open Telegraph repository",
+   "url": "https://github.com/animesh-chouhan/open-telegraph"
+  },
+  {
+   "title": "Copperhead careers page",
+   "url": "https://copperhead.sh/careers/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-07-18",
+  "what": "Copperhead was first presented as an open-source AI agent for PCB design in an Antler Crackathon submission post on its blog.",
+  "url": "https://copperhead.sh/blog/antler-crackathon/"
+ }
+}

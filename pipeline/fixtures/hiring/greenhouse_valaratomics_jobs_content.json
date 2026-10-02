@@ -1,0 +1,5460 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410316009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237482009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "137000.0",
+      "min_value": "90000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410316009,
+   "updated_at": "2026-09-28T12:47:55-04:00",
+   "requisition_id": "367",
+   "title": "Automation and Controls Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T15:40:12-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410316009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4341875009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4199981009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "90000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4341875009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "264",
+   "title": "Chemical Vapor Deposition Engineer (TRISO)",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-31T14:30:19-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025365009,
+     "name": "Fuels & Materials",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4341875009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4408446009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4236387009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "50.0",
+      "min_value": "40.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4408446009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "355",
+   "title": "CMM Operator",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-16T13:15:33-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041774009,
+     "name": "Manufacturing Operations",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4408446009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4413931009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4239681009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "60.0",
+      "min_value": "45.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4413931009,
+   "updated_at": "2026-09-28T12:47:55-04:00",
+   "requisition_id": "370",
+   "title": "CMM Programmer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-21T17:32:59-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041774009,
+     "name": "Manufacturing Operations",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4413931009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4414003009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4239728009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "60.0",
+      "min_value": "40.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4414003009,
+   "updated_at": "2026-09-28T12:47:55-04:00",
+   "requisition_id": "372",
+   "title": "CNC Programmer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-21T17:57:11-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041774009,
+     "name": "Manufacturing Operations",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4414003009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4248893009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4145466009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "40.0",
+      "min_value": "32.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4248893009,
+   "updated_at": "2026-09-28T12:47:45-04:00",
+   "requisition_id": "150",
+   "title": "Construction Quality Inspector ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-05-14T14:17:01-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;About Valar Atomics&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;At Valar Atomics,&amp;nbsp;we&#39;re&amp;nbsp;redefining&amp;nbsp;what&#39;s&amp;nbsp;possible in energy. Our mission is to make clean, high-temperature nuclea …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025382009,
+     "name": "Quality Assurance",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4248893009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4369979009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4213842009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4369979009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "293",
+   "title": "Cycle Performance Engineer  - Turbomachinery",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-13T20:49:13-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4369979009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4317170009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4185909009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "190000.0",
+      "min_value": "160000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4317170009,
+   "updated_at": "2026-09-28T12:47:47-04:00",
+   "requisition_id": "220",
+   "title": "Development and Construction Finance Director",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-14T15:58:11-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041750009,
+     "name": "Finance",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4317170009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4301436009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4176743009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "300000.0",
+      "min_value": "225000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4301436009,
+   "updated_at": "2026-09-28T14:13:14-04:00",
+   "requisition_id": "201",
+   "title": "Director Instrumentation, Control, and Electrical – Power Conversion ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-06-30T15:07:34-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4301436009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4363743009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4211088009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "300000.0",
+      "min_value": "204545.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4363743009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "287",
+   "title": "Director of Licensing",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-11T15:44:55-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025383009,
+     "name": "Regulatory & Licensing",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4363743009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4402930009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4233108009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "300000.0",
+      "min_value": "225000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4402930009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "344",
+   "title": "Director of ModSim",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-14T11:55:55-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025362009,
+     "name": "Model & Simulation",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4402930009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4363452009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4210913009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "109000.0",
+      "min_value": "90000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4363452009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "285",
+   "title": "Electrical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-11T14:23:20-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4363452009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4361791009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4209992009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "130000.0",
+      "min_value": "90000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4361791009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "281",
+   "title": "Executive Assistant",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-10T12:46:21-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025366009,
+     "name": "Executive Leadership",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4361791009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4353637009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4205841009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "150000.0",
+      "min_value": "110000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4353637009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "269",
+   "title": "Executive Technical Analyst",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-10T12:34:33-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025366009,
+     "name": "Executive Leadership",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4353637009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4395616009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4228955009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "140000.0",
+      "min_value": "100000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4395616009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "334",
+   "title": "Fabrication/Welding Lead",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-03T20:26:37-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041771009,
+     "name": "Fabrication Shop",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4395616009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4426003009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4247039009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "250000.0",
+      "min_value": "230000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4426003009,
+   "updated_at": "2026-09-30T12:45:01-04:00",
+   "requisition_id": "391",
+   "title": "Facility Security Officer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-30T12:43:58-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025366009,
+     "name": "Executive Leadership",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4426003009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4383875009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4222103009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "137000.0",
+      "min_value": "112000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4383875009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "324",
+   "title": "Fire Protection Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-31T11:35:56-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025363009,
+     "name": "Mechanical Engineering",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4383875009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4339629009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4198680009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "160000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4339629009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "258",
+   "title": "Global Supply Manager ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T17:33:26-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041775009,
+     "name": "Supply Chain",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4339629009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4413982009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4239717009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "140000.0",
+      "min_value": "100000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4413982009,
+   "updated_at": "2026-09-28T12:47:55-04:00",
+   "requisition_id": "371",
+   "title": "Graphite Production Lead",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-21T18:06:18-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041774009,
+     "name": "Manufacturing Operations",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4413982009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4381296009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4220429009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "160000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4381296009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "318",
+   "title": "Indirect Sourcing Manager",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-24T20:38:29-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041775009,
+     "name": "Supply Chain",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4381296009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4378764009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4218886009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "160000.0",
+      "min_value": "125000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4378764009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "316",
+   "title": "Instrumentation Controls & Electrical Superintendent ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-24T14:12:24-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4378764009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4296180009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4174395009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "65.0",
+      "min_value": "45.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4296180009,
+   "updated_at": "2026-09-28T12:47:47-04:00",
+   "requisition_id": "196",
+   "title": "Instrumentation, Controls, & Electrical Technician",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-06-24T14:00:20-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4296180009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4377651009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4218182009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "137000.0",
+      "min_value": "112000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4377651009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "313",
+   "title": "Instrumentation & Controls Specialist",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-20T16:34:22-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4377651009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4423645009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4245641009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "110000.0",
+      "min_value": "85000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4423645009,
+   "updated_at": "2026-10-01T16:22:44-04:00",
+   "requisition_id": "387",
+   "title": "IT Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-10-01T16:22:44-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041754009,
+     "name": "IT & Enterprise Software",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4423645009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4395629009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4228964009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "50.0",
+      "min_value": "35.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4395629009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "335",
+   "title": "Laser/Vision Systems Operator - Metrology Analyst ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-03T20:41:43-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041774009,
+     "name": "Manufacturing Operations",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4395629009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4377500009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4218090009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "240000.0",
+      "min_value": "196000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4377500009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "311",
+   "title": "Lead Electrical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-28T01:40:19-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4377500009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4366935009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4212458009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "240000.0",
+      "min_value": "196000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4366935009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "291",
+   "title": "Lead Electrical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-15T13:58:09-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4366935009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4341243009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4199658009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "275000.0",
+      "min_value": "200000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4341243009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "262",
+   "title": "Lead OT Engineer – Fuel ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-31T04:54:21-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4341243009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4289963009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4170772009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "260000.0",
+      "min_value": "200000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4289963009,
+   "updated_at": "2026-09-28T12:47:46-04:00",
+   "requisition_id": "187",
+   "title": "Legal Counsel",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-06-18T14:38:52-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041751009,
+     "name": "Legal",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4289963009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4398229009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4230598009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "155000.0",
+      "min_value": "115000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4398229009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "341",
+   "title": "Legal Operations Specialist",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-08T19:23:15-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041751009,
+     "name": "Legal",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4398229009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4363845009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4211149009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "151364.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4363845009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "288",
+   "title": "Licensing Engineer III",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-11T16:07:40-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025383009,
+     "name": "Regulatory & Licensing",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4363845009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4363872009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4211163009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "151364.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4363872009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "289",
+   "title": "Licensing Project Manager",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-11T16:18:45-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025383009,
+     "name": "Regulatory & Licensing",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4363872009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4328684009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4192914009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "110000.0",
+      "min_value": "85000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4328684009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "231",
+   "title": "Material Control and Accounting Specialist",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-22T14:45:32-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025365009,
+     "name": "Fuels & Materials",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4328684009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4395635009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4228970009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "42.0",
+      "min_value": "30.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4395635009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "336",
+   "title": "Mechanical Technician",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-03T20:45:42-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041774009,
+     "name": "Manufacturing Operations",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4395635009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4407549009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4235828009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "170000.0",
+      "min_value": "130000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4407549009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "354",
+   "title": "Nuclear Operations Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T17:17:17-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025373009,
+     "name": "Utah Site Operations",
+     "child_ids": [],
+     "parent_id": 4025372009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4407549009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4101562009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4069919009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "230000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4101562009,
+   "updated_at": "2026-09-28T12:47:43-04:00",
+   "requisition_id": "4",
+   "title": "Nuclear Operations Manager",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-01-15T12:29:07-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;div data-test-render-count=&quot;1&quot;&gt;\n&lt;div class=&quot;group&quot;&gt;\n&lt;div class=&quot;contents&quot;&gt;\n&lt;div class=&quot;group relative relative pb-3&quot; data-is-streaming=&quot;false&quot;&gt;\n&lt;div class=&quot;font-claude-response relative leading-[1.65rem] [&amp;amp;_pre&gt;div]:bg-bg-000/50 [&amp;amp;_pre&gt;div]:border-0.5 [&amp;amp;_pre&gt;div]:border-border-400 [& …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025373009,
+     "name": "Utah Site Operations",
+     "child_ids": [],
+     "parent_id": 4025372009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4101562009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4218730009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4127974009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "190000.0",
+      "min_value": "130000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4218730009,
+   "updated_at": "2026-09-28T12:47:45-04:00",
+   "requisition_id": "103",
+   "title": " Payroll Manager ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-04-13T19:08:13-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041749009,
+     "name": "Accounting",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4218730009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4405911009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4234812009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "50.0",
+      "min_value": "40.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4405911009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "353",
+   "title": "Plant Operator",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-15T16:52:09-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025373009,
+     "name": "Utah Site Operations",
+     "child_ids": [],
+     "parent_id": 4025372009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4405911009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4330263009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4193835009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "240000.0",
+      "min_value": "196000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4330263009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "241",
+   "title": "Principal Instrumentation & Control Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T13:15:27-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4330263009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4412277009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4238651009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "240000.0",
+      "min_value": "196000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4412277009,
+   "updated_at": "2026-09-28T13:38:34-04:00",
+   "requisition_id": "368",
+   "title": "Principal Instrumentation & Controls Engineer – Hardware ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-28T13:38:34-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4412277009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410260009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237452009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "240000.0",
+      "min_value": "196000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410260009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "362",
+   "title": "Principal Nuclear Instrumentation & Controls Engineer – Hardware",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T15:20:48-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410260009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4250687009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4146556009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "300000.0",
+      "min_value": "200000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4250687009,
+   "updated_at": "2026-09-28T12:47:45-04:00",
+   "requisition_id": "153",
+   "title": "Project Manager, Commercial Projects",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-05-17T21:34:46-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4055767009,
+     "name": "Commercial & External Affairs",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4250687009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4405343009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4234470009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "160000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4405343009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "347",
+   "title": "Purchasing Manager",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-14T12:43:00-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041775009,
+     "name": "Supply Chain",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4405343009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4336422009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4196870009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "45.0",
+      "min_value": "26.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4336422009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "247",
+   "title": "Quality Assurance Laboratory Technician",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-04T11:46:39-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025382009,
+     "name": "Quality Assurance",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4336422009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4377707009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4218213009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "100000.0",
+      "min_value": "85000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4377707009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "314",
+   "title": "Recruiting Coordinator",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-20T16:48:30-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041752009,
+     "name": "People & Talent",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4377707009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4339219009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4198381009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4339219009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "255",
+   "title": "Rotordynamics Engineer, Turbomachinery",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T15:11:26-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4339219009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4265235009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4155049009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "150000.0",
+      "min_value": "120000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4265235009,
+   "updated_at": "2026-09-28T12:47:46-04:00",
+   "requisition_id": "171",
+   "title": "Senior Accountant",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-05-29T14:10:56-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;br&gt;&lt;br&gt;&lt;/strong&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041749009,
+     "name": "Accounting",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4265235009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410274009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237458009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410274009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "363",
+   "title": "Senior Automation and Controls Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T15:22:14-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410274009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4317101009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4185885009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "160000.0",
+      "min_value": "120000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4317101009,
+   "updated_at": "2026-09-28T12:47:47-04:00",
+   "requisition_id": "219",
+   "title": "Senior Buyer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-14T15:31:26-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041775009,
+     "name": "Supply Chain",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4317101009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4384996009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4222734009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "190000.0",
+      "min_value": "165000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4384996009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "326",
+   "title": "Senior Cloud DevOps Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-27T19:31:46-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041754009,
+     "name": "IT & Enterprise Software",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4384996009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4376676009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4217617009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4376676009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "303",
+   "title": "Senior Controls Software Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-20T13:28:17-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable, unlock …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4376676009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410222009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237432009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410222009,
+   "updated_at": "2026-09-28T15:20:45-04:00",
+   "requisition_id": "361",
+   "title": "Senior Electrical Designer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-28T15:20:45-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410222009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4376686009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4217623009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4376686009,
+   "updated_at": "2026-09-28T16:02:08-04:00",
+   "requisition_id": "305",
+   "title": "Senior Electrical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-20T13:32:51-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable, unlock …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4376686009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4355312009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4206708009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4355312009,
+   "updated_at": "2026-09-30T21:52:58-04:00",
+   "requisition_id": "271",
+   "title": "Senior Electrical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-05T16:07:03-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4355312009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4426205009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4247159009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4426205009,
+   "updated_at": "2026-09-30T19:26:25-04:00",
+   "requisition_id": "392",
+   "title": "Senior Fire Protection Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-30T19:26:25-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025363009,
+     "name": "Mechanical Engineering",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4426205009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4398539009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4230793009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "185000.0",
+      "min_value": "160000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4398539009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "343",
+   "title": "Senior Identity & Access Management (IAM) Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-08T17:27:49-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041754009,
+     "name": "IT & Enterprise Software",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4398539009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4355345009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4206717009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4355345009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "272",
+   "title": "Senior Instrumentation and Controls Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-05T16:05:44-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4355345009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4395637009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4228971009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "55.0",
+      "min_value": "38.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4395637009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "337",
+   "title": "Senior Machinist",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-03T20:47:02-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041772009,
+     "name": "Machine Shop",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4395637009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4409116009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4236777009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "205000.0",
+      "min_value": "155000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4409116009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "357",
+   "title": "Senior Manager, Accounting",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T14:54:44-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041749009,
+     "name": "Accounting",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4409116009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4376107009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4217234009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "230000.0",
+      "min_value": "190000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4376107009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "299",
+   "title": "Senior Manager, Strategic Finance",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-19T14:57:05-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041750009,
+     "name": "Finance",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4376107009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4310211009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4181784009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "185000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4310211009,
+   "updated_at": "2026-09-28T12:47:47-04:00",
+   "requisition_id": "213",
+   "title": "Senior Mechanical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-08T19:27:01-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025363009,
+     "name": "Mechanical Engineering",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4310211009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4382288009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4221000009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "180000.0",
+      "min_value": "160000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4382288009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "322",
+   "title": "Senior Network Security Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-25T16:00:01-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041754009,
+     "name": "IT & Enterprise Software",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4382288009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410282009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237464009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410282009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "364",
+   "title": "Senior Nuclear I&C Engineer – Hardware  ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T15:28:24-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410282009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4280815009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4164889009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "225000.0",
+      "min_value": "165000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4280815009,
+   "updated_at": "2026-09-28T12:47:46-04:00",
+   "requisition_id": "182",
+   "title": "Senior Nuclear Supplier Quality Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-06-09T19:08:12-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we’re redefining what’s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to deploy, f …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025382009,
+     "name": "Quality Assurance",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4280815009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4341262009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4199665009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "210000.0",
+      "min_value": "170000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4341262009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "263",
+   "title": "Senior OT Data Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-31T05:01:22-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4341262009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4337021009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4197205009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "176000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4337021009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "250",
+   "title": "Senior Process Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T14:07:30-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025363009,
+     "name": "Mechanical Engineering",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4337021009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4398511009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4230776009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "200000.0",
+      "min_value": "175000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4398511009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "342",
+   "title": "Senior Security Software Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-08T17:28:23-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041754009,
+     "name": "IT & Enterprise Software",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4398511009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4382029009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4220837009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "195000.0",
+      "min_value": "144000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4382029009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "319",
+   "title": "Senior Software Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-25T13:54:35-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4068005009,
+     "name": "Software Engineering",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4382029009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4423580009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4245618009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "240000.0",
+      "min_value": "190000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4423580009,
+   "updated_at": "2026-09-29T12:27:16-04:00",
+   "requisition_id": "386",
+   "title": "Senior Supplier Quality Manager",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-29T12:27:16-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025382009,
+     "name": "Quality Assurance",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4423580009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4193066009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_optional",
+   "internal_job_id": 4113642009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "160000.0",
+      "min_value": "130000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4193066009,
+   "updated_at": "2026-09-28T12:47:44-04:00",
+   "requisition_id": "85",
+   "title": "Senior Technical Recruiter",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-03-21T16:09:38-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;div class=&quot;flex-1 flex flex-col px-4 max-w-3xl mx-auto w-full pt-1&quot;&gt;\n&lt;div data-test-render-count=&quot;1&quot;&gt;\n&lt;div class=&quot;group&quot;&gt;\n&lt;div class=&quot;group relative relative pb-3&quot; data-is-streaming=&quot;false&quot;&gt;\n&lt;div class=&quot;font-claude-response relative leading-[1.65rem] [&amp;amp;_pre&gt;div]:bg-bg-000/50 [&amp;amp;_pre&gt;div]:border- …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041752009,
+     "name": "People & Talent",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4193066009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4396861009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4229671009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "140000.0",
+      "min_value": "100000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4396861009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "339",
+   "title": "Senior Technical Recruiter",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-04T19:32:20-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041752009,
+     "name": "People & Talent",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4396861009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4337161009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4197270009,
+   "location": {
+    "name": "Torrance, CA"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "185000.0",
+      "min_value": "151000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4337161009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "251",
+   "title": "Senior Thermal-Hydraulics Analysis Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T14:54:13-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025362009,
+     "name": "Model & Simulation",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4337161009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4377602009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4218157009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "140000.0",
+      "min_value": "110000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4377602009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "312",
+   "title": "Senior University Recruiter",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-20T16:35:10-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041752009,
+     "name": "People & Talent",
+     "child_ids": [],
+     "parent_id": 4025371009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4377602009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4395643009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4228973009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "50.0",
+      "min_value": "35.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4395643009,
+   "updated_at": "2026-09-28T12:47:53-04:00",
+   "requisition_id": "338",
+   "title": "Senior Welder",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-03T20:50:48-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041771009,
+     "name": "Fabrication Shop",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4395643009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4353283009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4205665009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "120000.0",
+      "min_value": "85000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4353283009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "268",
+   "title": "Site Environmental Health and Safety Specialist",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-03T17:32:13-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025385009,
+     "name": "EH&S",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4353283009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410287009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237467009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410287009,
+   "updated_at": "2026-09-28T12:47:54-04:00",
+   "requisition_id": "365",
+   "title": "Staff Automation and Controls Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T15:30:41-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410287009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4332431009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4195078009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "180000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4332431009,
+   "updated_at": "2026-09-28T19:21:47-04:00",
+   "requisition_id": "245",
+   "title": "Staff CFD Analysis Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T15:17:49-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025362009,
+     "name": "Model & Simulation",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4332431009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4376679009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4217619009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4376679009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "304",
+   "title": "Staff Controls Software Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-19T21:50:54-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable, unlock …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4376679009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410152009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237390009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410152009,
+   "updated_at": "2026-09-28T14:36:43-04:00",
+   "requisition_id": "360",
+   "title": "Staff Electrical Designer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T14:51:34-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410152009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4376688009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4217624009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4376688009,
+   "updated_at": "2026-09-28T16:05:00-04:00",
+   "requisition_id": "306",
+   "title": "Staff Electrical Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-20T13:42:41-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable, unlock …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4376688009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4410307009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4237479009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4410307009,
+   "updated_at": "2026-09-28T16:04:05-04:00",
+   "requisition_id": "366",
+   "title": "Staff Electrical Engineer  ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-09-17T15:33:51-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4410307009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4362202009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4210225009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4362202009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "282",
+   "title": "Staff Instrumentation and Controls Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-12T14:20:49-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4362202009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4377372009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4218024009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4377372009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "310",
+   "title": "Staff Instrumentation & Controls Engineer - Hardware",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-21T19:06:30-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable, unlock …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4377372009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4356640009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4207477009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "211000.0",
+      "min_value": "173000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4356640009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "275",
+   "title": "Staff Instrumentation & Controls Engineer – Nuclear ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-05T17:01:41-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025364009,
+     "name": "Instrumentation & Controls",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4356640009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4339349009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4198502009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4339349009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "257",
+   "title": "Structures Engineer, Rotating Turbomachinery ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T15:26:21-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4339349009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4358084009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4208277009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4358084009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "279",
+   "title": "Structures Engineer, Turbomachinery Static Hardware",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-06T17:14:37-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4358084009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4280795009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4164879009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "140000.0",
+      "min_value": "100000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4280795009,
+   "updated_at": "2026-09-28T12:47:46-04:00",
+   "requisition_id": "181",
+   "title": "Supplier Quality Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-06-09T18:48:45-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we’re redefining what’s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to deploy, f …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025382009,
+     "name": "Quality Assurance",
+     "child_ids": [],
+     "parent_id": 4025380009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4280795009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4339799009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4198794009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "275000.0",
+      "min_value": "225000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4339799009,
+   "updated_at": "2026-09-28T12:47:49-04:00",
+   "requisition_id": "260",
+   "title": "Supply Chain Systems & Governance, Director",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T20:12:04-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041775009,
+     "name": "Supply Chain",
+     "child_ids": [],
+     "parent_id": 4041747009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4339799009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4387226009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4224007009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "135000.0",
+      "min_value": "112000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4387226009,
+   "updated_at": "2026-09-28T12:47:52-04:00",
+   "requisition_id": "329",
+   "title": "Technical Illustrator/CAD Designer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-31T11:39:36-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025363009,
+     "name": "Mechanical Engineering",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4387226009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4376153009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4217265009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4376153009,
+   "updated_at": "2026-09-28T12:47:51-04:00",
+   "requisition_id": "300",
+   "title": "Thermal Engineer, Turbomachinery",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-19T15:06:51-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4376153009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4321922009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4188415009,
+   "location": {
+    "name": "Orangeville, Utah, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "220000.0",
+      "min_value": "90000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4321922009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "222",
+   "title": "TRISO Chemical Plant Process Engineer",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-16T15:28:08-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocki …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4025365009,
+     "name": "Fuels & Materials",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4024893009,
+     "name": "Orangeville",
+     "location": "Orangeville, Utah, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4321922009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4338435009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4197985009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4338435009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "254",
+   "title": "Turbomachinery Aerodynamics Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T14:53:32-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4338435009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4355494009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4206800009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4355494009,
+   "updated_at": "2026-09-28T12:47:50-04:00",
+   "requisition_id": "274",
+   "title": "Turbomachinery Mechanical Designer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-08-06T17:03:29-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4355494009/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/valaratomics/jobs/4339334009",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4198491009,
+   "location": {
+    "name": "Torrance, California, United States"
+   },
+   "metadata": [
+    {
+     "id": 5228408009,
+     "name": "Salary",
+     "value": {
+      "unit": "USD",
+      "max_value": "215000.0",
+      "min_value": "140000.0"
+     },
+     "value_type": "currency_range"
+    }
+   ],
+   "id": 4339334009,
+   "updated_at": "2026-09-28T12:47:48-04:00",
+   "requisition_id": "256",
+   "title": "Turbomachinery Secondary Flow Engineer ",
+   "company_name": "Valar Atomics",
+   "first_published": "2026-07-29T15:19:45-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;About Valar Atomics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Valar Atomics, we&#39;re redefining what&#39;s possible in energy. Our mission is to make clean, high-temperature nuclear power scalable—unlocking abundant energy for industry, hydrogen, and next-generation manufacturing. We are a team of builders, engineers, and operators who believe nuclear energy should be fast to d …[truncated for fixture]",
+   "departments": [
+    {
+     "id": 4041768009,
+     "name": "Power Conversion",
+     "child_ids": [],
+     "parent_id": 4025361009
+    }
+   ],
+   "offices": [
+    {
+     "id": 4066580009,
+     "name": "Torrance",
+     "location": "Torrance, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://app9.greenhouse.io/ai_opt_out_request/job_post/4339334009/ai_opt_out"
+  }
+ ],
+ "meta": {
+  "total": 94
+ }
+}

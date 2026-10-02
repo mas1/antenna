@@ -1,0 +1,89 @@
+{
+ "slug": "veridis-defense",
+ "generatedAt": "2026-10-02",
+ "summary": "Veridis Defense, a California LLC in Beverly Hills, is designing a swarm of 5 to 15 autonomous firefighting multirotors run by one operator through a console called AD.OS. Its news posts say it ran as AdAstra Defense until September 2026. Its site says the fleet is in prototyping and the software is simulation-verified.",
+ "thesis": "An autonomy and drone company aimed at early wildfire and structure fire response for fire agencies. No funding was found, so this would be a first-cheque decision on a two-founder team with no published flight evidence.",
+ "stage": "Formation stage, no funding found. The Energy Tech Summit write-up of an April 2026 pitch in Bilbao says the company, then AdAstra Defense, had no outside funding and was raising $3 million pre-seed on a safe note. The AdAstra site, live on 2 October 2026, says \"Raising $3M Seed\". EDGAR searches on 2 October 2026 returned no match for either name. No source opened names an investor.",
+ "team": [
+  {
+   "name": "Gabriel Klein",
+   "background": "Co-founder and CEO per the Veridis site, which describes his role as company vision and government partnerships. No source opened gives prior work history."
+  },
+  {
+   "name": "Patrick Krzysztofik",
+   "background": "Co-founder and CTO per the Veridis site, which says he designs every product and builds the aircraft prototypes and software stack solo."
+  },
+  {
+   "name": "Douglas Loewe",
+   "background": "Advisor per the Veridis site, which describes him as former CEO of KAO Data with 20+ years as a global executive."
+  },
+  {
+   "name": "Hubert Krzysztofik",
+   "background": "Listed as co-founder and CTO on the earlier AdAstra Defense site, which is still live. He does not appear on the Veridis site, which names two founders."
+  }
+ ],
+ "questions": [
+  "The AdAstra site lists four co-founders and three advisers, the Veridis site two founders and one adviser. What changed, who left, and who holds the equity and IP?",
+  "What has flown? Which of Ember, Cinder and Vulcan exist as hardware today, and are flight logs or raw video available before the demo film?",
+  "Is the $3 million pre-seed raise still open, on what terms, and is any committed? Is Veridis Defense LLC the same legal entity as the earlier AdAstra company?",
+  "Which fire agencies have you spoken to, and is there a signed pilot or letter of intent? Under which FAA authority would a first pilot fly?"
+ ],
+ "risks": [
+  "No flight evidence is published. The home page labels its headline metrics as target, simulated or design. No customer, pilot or investor is named in any source opened.",
+  "The earlier site credited DARPA swarm experience to a CTO and two advisers not on the Veridis site, which says one founder builds the hardware and software stack solo.",
+  "Regulatory approvals are not held. The compliance page marks Part 137 certification for suppressant dispensing as scoped but not yet held and Part 107 operations as a pathway."
+ ],
+ "unverified": [
+  "The company's news posts describe a rename, but no filing read confirms that Veridis Defense LLC is the renamed Adastra Defense LLC rather than a new entity.",
+  "The AdAstra site gives Hubert Krzysztofik's background as co-founding Infinite Reality, a \"$10.1B exit\" and the DARPA OFFSET program. No primary page confirming it was opened.",
+  "The AdAstra site says the team designed, built and field-tested multiple heat-resistant prototype systems and built the full software stack. No independent evidence was found."
+ ],
+ "sources": [
+  {
+   "title": "Veridis Defense home page",
+   "url": "https://veridisdefense.com/"
+  },
+  {
+   "title": "Veridis Defense founders page",
+   "url": "https://veridisdefense.com/company"
+  },
+  {
+   "title": "Energy Tech Summit pitch write-up, 3 September 2026",
+   "url": "https://energytechsummit.com/compute-challengers-startup-pitches-2026/"
+  },
+  {
+   "title": "AdAstra Defense site, still live",
+   "url": "https://adastradefense.com/"
+  },
+  {
+   "title": "EDGAR search, Veridis Defense, no results",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=Veridis+Defense&type=D&dateb=&owner=include&count=10&action=getcompany"
+  },
+  {
+   "title": "EDGAR search, Adastra Defense, no results",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=Adastra+Defense&type=D&dateb=&owner=include&count=10&action=getcompany"
+  },
+  {
+   "title": "USPTO trademark status, VERIDIS DEFENSE",
+   "url": "https://tsdr.uspto.gov/statusview/sn50139305"
+  },
+  {
+   "title": "Veridis news post with rename note",
+   "url": "https://veridisdefense.com/news/pepperdine-waves-innovation-summit/"
+  },
+  {
+   "title": "Veridis Defense compliance page",
+   "url": "https://veridisdefense.com/compliance"
+  },
+  {
+   "title": "LinkedIn post, Hubert Krzysztofik, 30 December 2025",
+   "url": "https://www.linkedin.com/posts/hubertkrzysztofik_adastra-defense-activity-7411594646864392192-2Gm9"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-12-30",
+  "what": "The company, then called AdAstra Defense, was first presented publicly in a LinkedIn post by Hubert Krzysztofik linking to its deck.",
+  "url": "https://www.linkedin.com/posts/hubertkrzysztofik_adastra-defense-activity-7411594646864392192-2Gm9"
+ }
+}

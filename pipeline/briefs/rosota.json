@@ -1,0 +1,89 @@
+{
+ "slug": "rosota",
+ "generatedAt": "2026-10-02",
+ "summary": "Rosota is a Seoul startup, described by press and its own site as a spin-off of the MediSC lab at Seoul National University Hospital. Press reports say it is developing SurgiLogger, a device that attaches to existing laparoscopic instruments and records motion, force and video, to train a surgical robotics foundation model.",
+ "thesis": "The fit is robotics, not defense, energy or manufacturing. A preprint under review reports a policy trained on 849 logger-recorded demonstrations completing an appendectomy in three of four live rabbits, with the surgeon selecting each surgical phase.",
+ "stage": "Seed stage. On 2 July 2026 Korean press reported a KRW 1.5 billion seed round led by FuturePlay with Schmidt and ZDVC (WowTale's English edition gives $965K). No valuation or terms were reported. Press later reported selection for a Seoul Business Agency Silicon Valley accelerator program with 500 Global (4 August 2026) and for the TIPS R&D general track (2 October 2026, amount not stated).",
+ "team": [
+  {
+   "name": "Yechan Seo (서예찬)",
+   "background": "CEO and founder per company site and press. Site lists him as a candidate at SNU College of Medicine. His page says MEDISC lab researcher since December 2021."
+  },
+  {
+   "name": "Choi Min-woo (최민우)",
+   "background": "Co-founder per press, which describes him as from the SNU Department of Mechanical Engineering. Not listed as an author on any of the six September 2026 preprints."
+  },
+  {
+   "name": "Lee Dong-ho (이동호)",
+   "background": "Co-founder per press, which describes him as from the SNU Department of Mechanical Engineering."
+  },
+  {
+   "name": "Dongho Yee",
+   "background": "Preprint author listing Rosota Inc. First-listed author of the appendectomy preprint. No source states whether he is co-founder Lee Dong-ho."
+  }
+ ],
+ "questions": [
+  "Who owns the logger, the data pipeline and the policy work, Rosota or SNU Hospital? All ten Rosota-affiliated preprint authors also list a hospital or university affiliation.",
+  "Money Today says founded May 2026, the CEO's page says CEO since January 2025. When was the company incorporated, and who is full time today?",
+  "Has the device been used in human surgery, and under what approvals? The logger preprint says operating-room validation remains future work.",
+  "Is the business an AI-native surgical robot or a foundation model supplied to other companies? What stays proprietary given both appendectomy training corpora are publicly released?"
+ ],
+ "risks": [
+  "Evidence is early and narrow. The in-vivo result is one rollout in each of four rabbits on a single day (three completed). All six preprints are not yet accepted.",
+  "The only reported funding is the KRW 1.5 billion seed and a TIPS grant (size undisclosed). The stated goal is a surgical robot. No source read gives a regulatory plan.",
+  "Closely tied to the hospital lab. The site lists the CEO as still enrolled in medical school. No source read states how IP, data rights or staff time are split."
+ ],
+ "unverified": [
+  "The founding date is not confirmed. Money Today says May 2026, the CEO's page lists his role from January 2025. No registry record or company statement was found.",
+  "No source gives the co-founders' titles or current roles, or states whether co-founder Lee Dong-ho is the preprint author Dongho Yee.",
+  "The CEO's personal page says Rosota was selected for the KISED Deep-Tech Startup Package program. This is self-reported and not confirmed elsewhere."
+ ],
+ "sources": [
+  {
+   "title": "Asia Economy, 2 July 2026",
+   "url": "https://view.asiae.co.kr/article/2026070208303967677"
+  },
+  {
+   "title": "arXiv 2609.25625, appendectomy preprint full text",
+   "url": "https://arxiv.org/html/2609.25625"
+  },
+  {
+   "title": "Money Today, 2 July 2026",
+   "url": "https://www.mt.co.kr/future/2026/07/02/2026070214521084725"
+  },
+  {
+   "title": "arXiv 2609.25577, instrument logger preprint full text",
+   "url": "https://arxiv.org/html/2609.25577"
+  },
+  {
+   "title": "Money Today, 2 October 2026",
+   "url": "https://www.mt.co.kr/future/2026/10/02/2026100209222193252"
+  },
+  {
+   "title": "Money Today, 4 August 2026",
+   "url": "https://www.mt.co.kr/future/2026/08/04/2026080415350823261"
+  },
+  {
+   "title": "StartupToday, 2 July 2026",
+   "url": "https://www.startuptoday.kr/news/articleView.html?idxno=52659"
+  },
+  {
+   "title": "Rosota company site, About us",
+   "url": "https://www.rosota.run/about"
+  },
+  {
+   "title": "Yechan Seo personal page",
+   "url": "https://yechxn.github.io/"
+  },
+  {
+   "title": "WowTale English, seed round",
+   "url": "https://en.wowtale.net/2026/07/02/234368/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-07-02",
+  "what": "A KRW 1.5 billion seed round led by FuturePlay with Schmidt and ZDVC, reported by Asia Economy, the earliest press report found.",
+  "url": "https://view.asiae.co.kr/article/2026070208303967677"
+ }
+}

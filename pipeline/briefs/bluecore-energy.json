@@ -1,0 +1,89 @@
+{
+ "slug": "bluecore-energy",
+ "generatedAt": "2026-10-02",
+ "summary": "BlueCore Energy is designing a small pressurized water reactor mounted on a barge to supply shore power to ports. Its 22 July 2026 NRC letter describes the BC-12 reactor as 10 MWe net. It is at Pier D, Port of Long Beach, California, with a test pressure vessel the company calls a non-nuclear prototype.",
+ "thesis": "BlueCore applies light-water reactor technology with low-enriched fuel to a barge for ports. It has an NRC pre-application docket and a Port of Long Beach site, but no fueled hardware or license application. The case rests on regulatory execution.",
+ "stage": "Two Form Ds are on file. Filed 6 April 2026: $9,250,000 sold of $10,000,000 to 14 investors. Filed 4 September 2026: $19,405,042 sold of $21,810,060 to 24 investors. Neither names investors. The company announced about $10 million led by Slauson & Co. on 21 July 2026. Press reported a $50 million seed led by Silverton Partners on 8 September 2026. Filed amounts do not match those figures.",
+ "team": [
+  {
+   "name": "Kofi Asante",
+   "background": "Founder and CEO, director on both Form Ds. AfroTech reports launch teams for Uber's freight strategy, Elroy Air and Arc, and venture partner at Rackhouse Venture Capital."
+  },
+  {
+   "name": "Megan Moyette",
+   "background": "Licensing and Safety Lead per the September 2026 NRC transmittal. WorkBoat describes her as a former Navy nuclear submarine officer, with 13 years of service per the team page."
+  },
+  {
+   "name": "Austin Clements",
+   "background": "Director on the 4 September 2026 Form D. The company's press release identifies him as Managing Partner of Slauson & Co., which led the first round."
+  },
+  {
+   "name": "Kwadwo Adutwum",
+   "background": "Nuclear Core Design Lead per the company team page, which says he has led nuclear design at light-water reactor companies. No outside source opened confirms this."
+  }
+ ],
+ "questions": [
+  "Form Ds show $9.25 million and $19.4 million sold against announced rounds of about $10 million and $50 million. What has actually closed, and at what price?",
+  "Fortune reports California banned building new nuclear plants in 1976. What is the legal path to run a fueled BC-12 at Long Beach, and the fallback site?",
+  "The NRC letter targets a license application in 2027 and approval in 2028. Where does the DOE authorization stand, and which NRC pathway will you choose?",
+  "What is the expected cost of the first unit and the target power price, who supplies the fuel, and is there any signed agreement with the port or another customer?"
+ ],
+ "risks": [
+  "Fortune reports California banned building new nuclear plants in 1976. The headquarters and the demonstration site named in the NRC letter are both at the Port of Long Beach.",
+  "Nothing fueled exists. The NRC pathway is not yet chosen, and the licensing plan relies on a DOE-authorized demonstration that the company says it is still pursuing.",
+  "Sources describe the CEO's prior work in freight, autonomous aircraft and electric vessels, not nuclear. Backgrounds of the engineering leads other than Megan Moyette are stated only by the company."
+ ],
+ "unverified": [
+  "The company's NRC letter says the American Bureau of Shipping granted an Approval in Principle for the Nautilus floating plant in June 2026, not independently confirmed.",
+  "The NRC letter says BlueCore is pursuing DOE authorization under the Launch Pad USA program. No source opened shows BlueCore has applied or been selected.",
+  "The company says the first round included angel investors, former leaders at Tesla, Uber, Amazon and Google. None is named, and the Form Ds name no investors."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 4 September 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125928/000212592826000003/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "Form D, 6 April 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2125928/000212592826000001/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "NRC letter, 22 July 2026",
+   "url": "https://www.nrc.gov/docs/ML2622/ML26223A527.pdf"
+  },
+  {
+   "title": "NRC transmittal, 18 September 2026",
+   "url": "https://www.nrc.gov/docs/ML2626/ML26261A481.pdf"
+  },
+  {
+   "title": "Company press release, 21 July 2026",
+   "url": "https://www.bluecore.energy/post/bluecore-energy-emerges-from-stealth"
+  },
+  {
+   "title": "Fortune, 29 August 2026",
+   "url": "https://fortune.com/2026/08/29/offshore-nuclear-barges-power-ports-data-centers-california-banned/"
+  },
+  {
+   "title": "Company press release, 8 September 2026",
+   "url": "https://www.bluecore.energy/post/maritime-administrator-tours-bluecore-energy-headquarters-port-of-long-beach"
+  },
+  {
+   "title": "WorkBoat, 8 September 2026",
+   "url": "https://www.workboat.com/bluecore-energy-raises-50-million-for-floating-nuclear-power-system"
+  },
+  {
+   "title": "AfroTech via Yahoo Finance, 21 July 2026",
+   "url": "https://finance.yahoo.com/energy/articles/kofi-asante-making-history-first-145929466.html"
+  },
+  {
+   "title": "Company team page",
+   "url": "https://www.bluecore.energy/team"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-07-21",
+  "what": "A press release on the company's site announced emergence from stealth with an approximately $10 million round led by Slauson & Co.",
+  "url": "https://www.bluecore.energy/post/bluecore-energy-emerges-from-stealth"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "poseidon-aerospace",
+ "generatedAt": "2026-10-02",
+ "summary": "Poseidon Aerospace designs and builds unmanned fixed-wing cargo aircraft with internal combustion engines, and says it plans to operate them itself rather than sell them. Its full-scale designs are Egret, a short-runway freighter (4,000 lb payload per the company site), and Heron, a seaplane variant. No source reports a flight of either full-scale aircraft.",
+ "thesis": "Poseidon is building a purpose-designed unmanned freighter for contested defense logistics and regional air cargo, and says it will manufacture and operate the aircraft itself. The company expects Egret's first uncrewed flight by the end of 2026.",
+ "stage": "Series A. The company announced the close of a $60 million Series A on 8 September 2026, led by TQ Ventures. Earlier rounds were an $11 million seed announced 5 November 2025 (led by Tamarack Global) and a $1.4 million pre-seed reported by Business Insider. The release gives no valuation. EDGAR searches returned no Form D. An FCC application for test spectrum at Pendleton, Oregon is pending.",
+ "team": [
+  {
+   "name": "David Zagaynov",
+   "background": "Co-founder and CEO per the September 2026 release. Business Insider says he studied computer science at UC Berkeley and worked one year as a software engineer at Amazon."
+  },
+  {
+   "name": "Parker Tenney",
+   "background": "Co-founder and CTO per the November 2025 company release. Business Insider says he studied mechanical engineering at Cal Poly and worked at Lockheed Martin."
+  },
+  {
+   "name": "Isaac Baumstark",
+   "background": "Named a co-founder by Business Insider and co-CEO by Arena Magazine in 2025. The September 2026 release does not name him. No source states his current role."
+  },
+  {
+   "name": "Terry Moran",
+   "background": "Listed as Chief Test Pilot on the FCC application, which he signed on 23 September 2026. No source gives prior background."
+  }
+ ],
+ "questions": [
+  "Where is the full-scale Egret today (airframe, engine, ground and taxi testing), and why did flight-test timing move from mid-2026 to first flight by the end of 2026?",
+  "What does FAA Certificate of Waiver or Authorization 2025-WSA-599-SAC permit, and what certification and operating approvals does the company need before carrying paying freight on an unmanned aircraft?",
+  "What has the research agreement (CRADA) with Naval Surface Warfare Center Panama City Division produced, and are there any funded defense contracts?",
+  "What data supports the website's 30% lower lifetime cost and 40% lower fuel burn claims, and what are the target unit cost and production rate?"
+ ],
+ "risks": [
+  "No full-scale aircraft has been reported flown. The November 2025 release expected flight testing in mid-2026. The September 2026 release expects Egret's first uncrewed flight by the end of 2026.",
+  "No source describes the approvals needed for unmanned commercial cargo operations, or a timeline. Designing, manufacturing and operating aircraft is capital intensive relative to about $72 million in disclosed rounds.",
+  "No source names a customer, contract value or defense program. The only named government relationship is a CRADA with Naval Surface Warfare Center Panama City Division, not described as funded."
+ ],
+ "unverified": [
+  "Defence Blog reports a $350 million Series A valuation, citing a company video that was not found. The figure is not in the press release.",
+  "Business Insider reported in April 2025 that testing with the US Navy and Coast Guard would begin that summer. No independent account of those tests was found.",
+  "The website claims 30% lower lifetime cost and 40% lower fuel burn. These are company statements with no supporting data on the page."
+ ],
+ "sources": [
+  {
+   "title": "Company release, Series A, 8 September 2026",
+   "url": "https://www.poseidonaero.com/news/poseidon-aerospace-raises-60-million-series-a-to-build-unmanned-cargo-aircraft"
+  },
+  {
+   "title": "Company release, seed, 5 November 2025",
+   "url": "https://www.poseidonaero.com/news/poseidon-aerospace-announces-11m-fundraise-to-build-unmanned-cargo-aircraft"
+  },
+  {
+   "title": "Business Insider, 4 April 2025",
+   "url": "https://www.businessinsider.com/how-poseidon-plans-disrupt-logistics-with-uncrewed-sea-glider-2025-4"
+  },
+  {
+   "title": "Company aircraft page",
+   "url": "https://www.poseidonaero.com/aircraft"
+  },
+  {
+   "title": "FCC special temporary authority form",
+   "url": "https://apps.fcc.gov/oetcf/els/reports/STA_Print.cfm?mode=current&application_seq=154696"
+  },
+  {
+   "title": "FCC application 1908-EX-ST-2026 summary",
+   "url": "https://apps.fcc.gov/oetcf/els/reports/GetApplicationInfo.cfm?id_file_num=1908-EX-ST-2026"
+  },
+  {
+   "title": "SEC EDGAR full-text search, Form D",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Poseidon%20Aerospace%22&forms=D"
+  },
+  {
+   "title": "Defence Blog, 9 September 2026",
+   "url": "https://defence-blog.com/startup-building-unmanned-cargo-planes-raises-60-million/"
+  },
+  {
+   "title": "Arena Magazine, 20 May 2025",
+   "url": "https://arenamag.com/articles/the-sea-monster-that-flew"
+  },
+  {
+   "title": "Company commercial page",
+   "url": "https://www.poseidonaero.com/commercial"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-03-31",
+  "what": "CEO David Zagaynov unveiled the company's Seagull sea glider in a video posted on X.",
+  "url": "https://x.com/DavidZagaynov/status/1906756217395171771"
+ }
+}

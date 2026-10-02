@@ -1,0 +1,81 @@
+{
+ "slug": "hebbian-robotics",
+ "generatedAt": "2026-10-02",
+ "summary": "Hebbian Robotics (San Francisco, per the YC directory) builds software that checks the quality of robot and egocentric video data before it is used to train models. Its main product is HFlow, an Apache-2.0 SDK (pre-v1). It also offers hosted checks and models in preview, and Pareto, a dataset curation tool in public beta.",
+ "thesis": "Hebbian targets a step before training, for both vendors who collect robot data and teams who train on it. It is a tooling bet on robot learning rather than on one robot. Evidence so far is open source activity only.",
+ "stage": "Formation stage. YC lists the company in its Summer 2026 batch. A founder's LinkedIn post of 14 September 2026 refers to YC Demo Day as already held. No round size is disclosed on any page read. EDGAR returned no company named \"hebbian\" and no full-text hit for \"Hebbian Robotics\" on 2 October 2026. Founder Factor listed it among 25 YC S26 startups it backed (LinkedIn, 21 September 2026).",
+ "team": [
+  {
+   "name": "Brandon Ong",
+   "background": "Founder and CEO. Per YC profile (self-reported), led AI at LionsBot (industrial cleaning robots), co-founded Gigit AI as CTO, left a joint robotics PhD at Columbia and NTU."
+  },
+  {
+   "name": "Kingston Kuan",
+   "background": "Founder and CTO. Per his YC profile, spent the last few years at Jane Street, NUS computer engineering valedictorian. GitHub bio and YC launch post add Verkada."
+  }
+ ],
+ "questions": [
+  "No customer is named on any page read. How many customers are paying, are they data vendors or robotics teams, and what is the revenue?",
+  "HFlow is Apache-2.0 and runs in the customer's own environment. What is sold: hosted model calls at $1.16 per video-hour, managed workspaces, or custom checks per customer?",
+  "The homepage compares hbr-preview with two general models on throughput and cost only. What is its measured accuracy, on what test set, and what was it trained on?",
+  "The 2 July 2026 YC announcement said the goal was human-like robots for infrastructure field work. Is building robots still the plan? What has been raised beyond YC?"
+ ],
+ "risks": [
+  "No proven business model. The SDK is free. Founders wrote on 31 August 2026 that they are considering managed workspaces and enterprise support. No customer or revenue figure is public.",
+  "Robotics teams may build this themselves. A Launch HN commenter said many robotics teams prefer in-house tools. Kingston Kuan replied that the founders have had the same experience.",
+  "Direction has moved several times in 2026: cleaning robot prototype, robots for data centers, human-like field robots, curation, quality APIs, the HFlow SDK, hosted models. Team of 2, per YC."
+ ],
+ "unverified": [
+  "An archived homepage of 24 August 2026 claimed unnamed angels from Oracle, Google DeepMind and OpenAI. The current homepage no longer does. No independent confirmation, no amounts.",
+  "Founder Factor's LinkedIn post congratulates listed companies on their \"successful raises\" but gives no amount, instrument or date for Hebbian. No round announcement by the company was found.",
+  "Brandon Ong's claims (LionsBot being Series B, Gigit AI backed by Sequoia India, topping the SEA-HELM benchmark) appear on his YC profile and launch post, not independently confirmed."
+ ],
+ "sources": [
+  {
+   "title": "YC directory, Hebbian Robotics",
+   "url": "https://www.ycombinator.com/companies/hebbian-robotics"
+  },
+  {
+   "title": "X, Kingston Kuan, 2 July 2026",
+   "url": "https://x.com/kstonekuan/status/2072873790972051654"
+  },
+  {
+   "title": "Hebbian Robotics homepage",
+   "url": "https://hebbianrobotics.com/"
+  },
+  {
+   "title": "GitHub, Hebbian-Robotics/hflow",
+   "url": "https://github.com/Hebbian-Robotics/hflow"
+  },
+  {
+   "title": "SEC EDGAR full-text search, 0 hits",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Hebbian%20Robotics%22"
+  },
+  {
+   "title": "Launch HN, Hebbian Robotics (YC S26)",
+   "url": "https://news.ycombinator.com/item?id=49510632"
+  },
+  {
+   "title": "LinkedIn, Founder Factor, 21 September 2026",
+   "url": "https://www.linkedin.com/posts/activity-7507741336515768320-xxbH"
+  },
+  {
+   "title": "LinkedIn, Kingston Kuan, 14 September 2026",
+   "url": "https://www.linkedin.com/posts/activity-7505140305600335873-4Mxi"
+  },
+  {
+   "title": "Archived homepage, 24 August 2026",
+   "url": "https://web.archive.org/web/20260824170222/https://hebbianrobotics.com/"
+  },
+  {
+   "title": "YC launch post, 9 August 2026",
+   "url": "https://www.ycombinator.com/launches/SXX-hebbian-robotics-apis-for-searching-and-analyzing-physical-ai-data-at-scale"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-07-02",
+  "what": "Co-founder Kingston Kuan posted on X and LinkedIn that Hebbian Robotics had joined Y Combinator's S26 batch, with no amount stated.",
+  "url": "https://x.com/kstonekuan/status/2072873790972051654"
+ }
+}

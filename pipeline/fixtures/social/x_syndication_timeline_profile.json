@@ -1,0 +1,1239 @@
+{
+ "_note": "__NEXT_DATA__ JSON extracted from HTML of https://syndication.twitter.com/srv/timeline-profile/screen-name/figure_robot ; entries trimmed to 5",
+ "props": {
+  "pageProps": {
+   "contextProvider": {
+    "features": {},
+    "scribeData": {
+     "client_version": null,
+     "dnt": false,
+     "widget_id": "embed-0",
+     "widget_origin": "",
+     "widget_frame": "",
+     "widget_partner": "",
+     "widget_site_screen_name": "",
+     "widget_site_user_id": "",
+     "widget_creator_screen_name": "",
+     "widget_creator_user_id": "",
+     "widget_iframe_version": "6a3f4bd:1779931425403",
+     "widget_data_source": "screen-name:figure_robot",
+     "session_id": ""
+    },
+    "messengerContext": {
+     "embedId": "embed-0"
+    },
+    "hasResults": true,
+    "lang": "en",
+    "theme": "light"
+   },
+   "lang": "en",
+   "maxHeight": null,
+   "showHeader": true,
+   "hideBorder": false,
+   "hideFooter": false,
+   "hideScrollBar": false,
+   "transparent": false,
+   "timeline": {
+    "entries": [
+     {
+      "type": "tweet",
+      "entry_id": "tweet-2105316680251650555",
+      "sort_index": "2105811947067801600",
+      "content": {
+       "tweet": {
+        "id": 0,
+        "location": "",
+        "conversation_id_str": "2105316680251650555",
+        "created_at": "Wed Sep 30 15:19:46 +0000 2026",
+        "display_text_range": [
+         0,
+         17
+        ],
+        "entities": {
+         "media": [
+          {
+           "additional_media_info": {
+            "monetizable": false
+           },
+           "display_url": "pic.x.com/NAJsRpplR8",
+           "expanded_url": "https://x.com/Figure_robot/status/2105316680251650555/video/1",
+           "ext_media_availability": {
+            "status": "Available"
+           },
+           "id_str": "2105310982994382848",
+           "indices": [
+            18,
+            41
+           ],
+           "media_key": "13_2105310982994382848",
+           "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2105310982994382848/img/qENCF-Ie4xhbp5iR.jpg",
+           "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+           },
+           "sizes": {
+            "large": {
+             "h": 1152,
+             "resize": "fit",
+             "w": 2048
+            },
+            "medium": {
+             "h": 675,
+             "resize": "fit",
+             "w": 1200
+            },
+            "small": {
+             "h": 383,
+             "resize": "fit",
+             "w": 680
+            },
+            "thumb": {
+             "h": 150,
+             "resize": "crop",
+             "w": 150
+            }
+           },
+           "type": "video",
+           "url": "https://t.co/NAJsRpplR8",
+           "video_info": {
+            "aspect_ratio": [
+             16,
+             9
+            ],
+            "duration_millis": 220261,
+            "variants": [
+             {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/pl/sAdxPvjiBjIgVYjo.m3u8?v=cfc"
+             },
+             {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/480x270/Pe8H16qdigYcb_3d.mp4"
+             },
+             {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/640x360/T-6b0uqnSGyhogG3.mp4"
+             },
+             {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/1280x720/mIbAf_re28GO5IAG.mp4"
+             },
+             {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/1920x1080/VXUZG6u5vn2PpNYd.mp4"
+             },
+             {
+              "bitrate": 25128000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/3840x2160/kb0RuVDHLGIdFKxz.mp4"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "extended_entities": {
+         "media": [
+          {
+           "additional_media_info": {
+            "monetizable": false
+           },
+           "display_url": "pic.x.com/NAJsRpplR8",
+           "expanded_url": "https://x.com/Figure_robot/status/2105316680251650555/video/1",
+           "ext_media_availability": {
+            "status": "Available"
+           },
+           "id_str": "2105310982994382848",
+           "indices": [
+            18,
+            41
+           ],
+           "media_key": "13_2105310982994382848",
+           "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2105310982994382848/img/qENCF-Ie4xhbp5iR.jpg",
+           "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+           },
+           "sizes": {
+            "large": {
+             "h": 1152,
+             "resize": "fit",
+             "w": 2048
+            },
+            "medium": {
+             "h": 675,
+             "resize": "fit",
+             "w": 1200
+            },
+            "small": {
+             "h": 383,
+             "resize": "fit",
+             "w": 680
+            },
+            "thumb": {
+             "h": 150,
+             "resize": "crop",
+             "w": 150
+            }
+           },
+           "type": "video",
+           "url": "https://t.co/NAJsRpplR8",
+           "video_info": {
+            "aspect_ratio": [
+             16,
+             9
+            ],
+            "duration_millis": 220261,
+            "variants": [
+             {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/pl/sAdxPvjiBjIgVYjo.m3u8?v=cfc"
+             },
+             {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/480x270/Pe8H16qdigYcb_3d.mp4"
+             },
+             {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/640x360/T-6b0uqnSGyhogG3.mp4"
+             },
+             {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/1280x720/mIbAf_re28GO5IAG.mp4"
+             },
+             {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/1920x1080/VXUZG6u5vn2PpNYd.mp4"
+             },
+             {
+              "bitrate": 25128000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105310982994382848/vid/avc1/3840x2160/kb0RuVDHLGIdFKxz.mp4"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "favorite_count": 9754,
+        "favorited": false,
+        "full_text": "F.02 Decommission https://t.co/NAJsRpplR8",
+        "id_str": "2105316680251650555",
+        "lang": "en",
+        "permalink": "/Figure_robot/status/2105316680251650555",
+        "possibly_sensitive": false,
+        "quote_count": 795,
+        "reply_count": 508,
+        "retweet_count": 1136,
+        "retweeted": false,
+        "text": "F.02 Decommission https://t.co/NAJsRpplR8",
+        "user": {
+         "blocking": false,
+         "created_at": "Mon Dec 12 23:23:17 +0000 2022",
+         "default_profile": true,
+         "default_profile_image": false,
+         "description": "Figure is an AI Robotics company building the world's first commercially viable autonomous humanoid robot.",
+         "entities": {
+          "description": {},
+          "url": {
+           "urls": [
+            {
+             "display_url": "figure.ai",
+             "expanded_url": "http://figure.ai",
+             "url": "https://t.co/zOLOu88xjX",
+             "indices": [
+              0,
+              23
+             ]
+            }
+           ]
+          }
+         },
+         "fast_followers_count": 0,
+         "favourites_count": 12,
+         "follow_request_sent": false,
+         "followed_by": false,
+         "followers_count": 224380,
+         "following": false,
+         "friends_count": 3,
+         "has_custom_timelines": false,
+         "id": 0,
+         "id_str": "1602443956888817665",
+         "is_translator": false,
+         "listed_count": 2126,
+         "location": "",
+         "media_count": 77,
+         "name": "Figure",
+         "normal_followers_count": 224380,
+         "notifications": false,
+         "profile_banner_url": "https://pbs.twimg.com/profile_banners/1602443956888817665/1769465745",
+         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976273310431444992/k9xGabdN_normal.jpg",
+         "protected": false,
+         "screen_name": "Figure_robot",
+         "show_all_inline_media": false,
+         "statuses_count": 204,
+         "time_zone": "",
+         "translator_type": "none",
+         "url": "https://t.co/zOLOu88xjX",
+         "utc_offset": 0,
+         "verified": false,
+         "verified_type": "Business",
+         "withheld_in_countries": [],
+         "withheld_scope": "",
+         "is_blue_verified": false
+        }
+       }
+      }
+     },
+     {
+      "type": "tweet",
+      "entry_id": "tweet-2105442694390772058",
+      "sort_index": "2105811947067801599",
+      "content": {
+       "tweet": {
+        "id": 0,
+        "location": "",
+        "conversation_id_str": "2105442694390772058",
+        "created_at": "Wed Sep 30 23:40:30 +0000 2026",
+        "display_text_range": [
+         0,
+         41
+        ],
+        "entities": {
+         "user_mentions": [
+          {
+           "id_str": "12044602",
+           "indices": [
+            3,
+            18
+           ],
+           "name": "Arnold Schwarzenegger",
+           "screen_name": "Schwarzenegger"
+          }
+         ],
+         "media": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "full_text": "RT @Schwarzenegger: Hasta la vista, F.02.",
+        "id_str": "2105442694390772058",
+        "lang": "es",
+        "permalink": "/Figure_robot/status/2105442694390772058",
+        "possibly_sensitive": false,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 155,
+        "retweeted": false,
+        "text": "RT @Schwarzenegger: Hasta la vista, F.02.",
+        "user": {
+         "blocking": false,
+         "created_at": "Mon Dec 12 23:23:17 +0000 2022",
+         "default_profile": true,
+         "default_profile_image": false,
+         "description": "Figure is an AI Robotics company building the world's first commercially viable autonomous humanoid robot.",
+         "entities": {
+          "description": {},
+          "url": {
+           "urls": [
+            {
+             "display_url": "figure.ai",
+             "expanded_url": "http://figure.ai",
+             "url": "https://t.co/zOLOu88xjX",
+             "indices": [
+              0,
+              23
+             ]
+            }
+           ]
+          }
+         },
+         "fast_followers_count": 0,
+         "favourites_count": 12,
+         "follow_request_sent": false,
+         "followed_by": false,
+         "followers_count": 224380,
+         "following": false,
+         "friends_count": 3,
+         "has_custom_timelines": false,
+         "id": 0,
+         "id_str": "1602443956888817665",
+         "is_translator": false,
+         "listed_count": 2126,
+         "location": "",
+         "media_count": 77,
+         "name": "Figure",
+         "normal_followers_count": 224380,
+         "notifications": false,
+         "profile_banner_url": "https://pbs.twimg.com/profile_banners/1602443956888817665/1769465745",
+         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976273310431444992/k9xGabdN_normal.jpg",
+         "protected": false,
+         "screen_name": "Figure_robot",
+         "show_all_inline_media": false,
+         "statuses_count": 204,
+         "time_zone": "",
+         "translator_type": "none",
+         "url": "https://t.co/zOLOu88xjX",
+         "utc_offset": 0,
+         "verified": false,
+         "verified_type": "Business",
+         "withheld_in_countries": [],
+         "withheld_scope": "",
+         "is_blue_verified": false
+        },
+        "retweeted_status": {
+         "id": 0,
+         "location": "",
+         "conversation_id_str": "2105321546885812711",
+         "created_at": "Wed Sep 30 15:39:06 +0000 2026",
+         "display_text_range": [
+          0,
+          21
+         ],
+         "entities": {
+          "media": []
+         },
+         "favorite_count": 2596,
+         "favorited": false,
+         "full_text": "Hasta la vista, F.02.",
+         "id_str": "2105321546885812711",
+         "lang": "es",
+         "permalink": "/Schwarzenegger/status/2105321546885812711",
+         "possibly_sensitive": false,
+         "quote_count": 33,
+         "reply_count": 73,
+         "retweet_count": 155,
+         "retweeted": false,
+         "text": "Hasta la vista, F.02.",
+         "user": {
+          "blocking": false,
+          "created_at": "Wed Jan 09 21:12:40 +0000 2008",
+          "default_profile": false,
+          "default_profile_image": false,
+          "description": "Bodybuilder, Conan, Terminator, and former Governor of California. I killed the Predator. I told you I'd be back. I’m here to pump you up.",
+          "entities": {
+           "description": {},
+           "url": {
+            "urls": [
+             {
+              "display_url": "arnoldspumpclub.com",
+              "expanded_url": "https://arnoldspumpclub.com/",
+              "url": "https://t.co/6hhEEG9ASv",
+              "indices": [
+               0,
+               23
+              ]
+             }
+            ]
+           }
+          },
+          "fast_followers_count": 0,
+          "favourites_count": 3799,
+          "follow_request_sent": false,
+          "followed_by": false,
+          "followers_count": 5062279,
+          "following": false,
+          "friends_count": 462,
+          "has_custom_timelines": false,
+          "id": 0,
+          "id_str": "12044602",
+          "is_translator": false,
+          "listed_count": 27642,
+          "location": "",
+          "media_count": 2035,
+          "name": "Arnold Schwarzenegger",
+          "normal_followers_count": 5062279,
+          "notifications": false,
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/12044602/1773687020",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1630293026567491584/RU9ugnh7_normal.jpg",
+          "protected": false,
+          "screen_name": "Schwarzenegger",
+          "show_all_inline_media": false,
+          "statuses_count": 12211,
+          "time_zone": "",
+          "translator_type": "none",
+          "url": "https://t.co/6hhEEG9ASv",
+          "utc_offset": 0,
+          "verified": false,
+          "withheld_in_countries": [],
+          "withheld_scope": "",
+          "is_blue_verified": true
+         }
+        }
+       }
+      }
+     },
+     {
+      "type": "tweet",
+      "entry_id": "tweet-2105317708539830678",
+      "sort_index": "2105811947067801598",
+      "content": {
+       "tweet": {
+        "id": 0,
+        "location": "",
+        "conversation_id_str": "2105316680251650555",
+        "created_at": "Wed Sep 30 15:23:51 +0000 2026",
+        "display_text_range": [
+         0,
+         171
+        ],
+        "entities": {
+         "media": [
+          {
+           "additional_media_info": {
+            "monetizable": false
+           },
+           "display_url": "pic.x.com/NrAR7tRojp",
+           "expanded_url": "https://x.com/Figure_robot/status/2105317708539830678/video/1",
+           "ext_media_availability": {
+            "status": "Available"
+           },
+           "id_str": "2105317596686090240",
+           "indices": [
+            172,
+            195
+           ],
+           "media_key": "13_2105317596686090240",
+           "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2105317596686090240/img/qgfd5oqJDBuPgeBw.jpg",
+           "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+           },
+           "sizes": {
+            "large": {
+             "h": 1080,
+             "resize": "fit",
+             "w": 1920
+            },
+            "medium": {
+             "h": 675,
+             "resize": "fit",
+             "w": 1200
+            },
+            "small": {
+             "h": 383,
+             "resize": "fit",
+             "w": 680
+            },
+            "thumb": {
+             "h": 150,
+             "resize": "crop",
+             "w": 150
+            }
+           },
+           "type": "video",
+           "url": "https://t.co/NrAR7tRojp",
+           "video_info": {
+            "aspect_ratio": [
+             16,
+             9
+            ],
+            "duration_millis": 71509,
+            "variants": [
+             {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/pl/rqUE4Vmpa8J0iXLl.m3u8?v=cfc"
+             },
+             {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/480x270/ySr2QHTP06EJebVe.mp4"
+             },
+             {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/640x360/V3YMOTuYOSv1XSZ3.mp4"
+             },
+             {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/1280x720/SMVhvd7HBbAg-oaQ.mp4"
+             },
+             {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/1920x1080/flP7gmFJbzMUFyVK.mp4"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "extended_entities": {
+         "media": [
+          {
+           "additional_media_info": {
+            "monetizable": false
+           },
+           "display_url": "pic.x.com/NrAR7tRojp",
+           "expanded_url": "https://x.com/Figure_robot/status/2105317708539830678/video/1",
+           "ext_media_availability": {
+            "status": "Available"
+           },
+           "id_str": "2105317596686090240",
+           "indices": [
+            172,
+            195
+           ],
+           "media_key": "13_2105317596686090240",
+           "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2105317596686090240/img/qgfd5oqJDBuPgeBw.jpg",
+           "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+           },
+           "sizes": {
+            "large": {
+             "h": 1080,
+             "resize": "fit",
+             "w": 1920
+            },
+            "medium": {
+             "h": 675,
+             "resize": "fit",
+             "w": 1200
+            },
+            "small": {
+             "h": 383,
+             "resize": "fit",
+             "w": 680
+            },
+            "thumb": {
+             "h": 150,
+             "resize": "crop",
+             "w": 150
+            }
+           },
+           "type": "video",
+           "url": "https://t.co/NrAR7tRojp",
+           "video_info": {
+            "aspect_ratio": [
+             16,
+             9
+            ],
+            "duration_millis": 71509,
+            "variants": [
+             {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/pl/rqUE4Vmpa8J0iXLl.m3u8?v=cfc"
+             },
+             {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/480x270/ySr2QHTP06EJebVe.mp4"
+             },
+             {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/640x360/V3YMOTuYOSv1XSZ3.mp4"
+             },
+             {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/1280x720/SMVhvd7HBbAg-oaQ.mp4"
+             },
+             {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2105317596686090240/vid/avc1/1920x1080/flP7gmFJbzMUFyVK.mp4"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "favorite_count": 1187,
+        "favorited": false,
+        "full_text": "It’s worth being clear: we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel\n\nHere's some behind the scenes https://t.co/NrAR7tRojp",
+        "id_str": "2105317708539830678",
+        "in_reply_to_name": "Figure_robot",
+        "in_reply_to_screen_name": "Figure_robot",
+        "in_reply_to_status_id_str": "2105317203264655363",
+        "in_reply_to_user_id_str": "1602443956888817665",
+        "lang": "en",
+        "permalink": "/Figure_robot/status/2105317708539830678",
+        "possibly_sensitive": false,
+        "quote_count": 56,
+        "reply_count": 47,
+        "retweet_count": 73,
+        "retweeted": false,
+        "text": "It’s worth being clear: we really trained robots to jump autonomously, shipped them to Finland, and had them leap into a vat of molten steel\n\nHere's some behind the scenes https://t.co/NrAR7tRojp",
+        "user": {
+         "blocking": false,
+         "created_at": "Mon Dec 12 23:23:17 +0000 2022",
+         "default_profile": true,
+         "default_profile_image": false,
+         "description": "Figure is an AI Robotics company building the world's first commercially viable autonomous humanoid robot.",
+         "entities": {
+          "description": {},
+          "url": {
+           "urls": [
+            {
+             "display_url": "figure.ai",
+             "expanded_url": "http://figure.ai",
+             "url": "https://t.co/zOLOu88xjX",
+             "indices": [
+              0,
+              23
+             ]
+            }
+           ]
+          }
+         },
+         "fast_followers_count": 0,
+         "favourites_count": 12,
+         "follow_request_sent": false,
+         "followed_by": false,
+         "followers_count": 224380,
+         "following": false,
+         "friends_count": 3,
+         "has_custom_timelines": false,
+         "id": 0,
+         "id_str": "1602443956888817665",
+         "is_translator": false,
+         "listed_count": 2126,
+         "location": "",
+         "media_count": 77,
+         "name": "Figure",
+         "normal_followers_count": 224380,
+         "notifications": false,
+         "profile_banner_url": "https://pbs.twimg.com/profile_banners/1602443956888817665/1769465745",
+         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976273310431444992/k9xGabdN_normal.jpg",
+         "protected": false,
+         "screen_name": "Figure_robot",
+         "show_all_inline_media": false,
+         "statuses_count": 204,
+         "time_zone": "",
+         "translator_type": "none",
+         "url": "https://t.co/zOLOu88xjX",
+         "utc_offset": 0,
+         "verified": false,
+         "verified_type": "Business",
+         "withheld_in_countries": [],
+         "withheld_scope": "",
+         "is_blue_verified": false
+        }
+       }
+      }
+     },
+     {
+      "type": "tweet",
+      "entry_id": "tweet-2105317203264655363",
+      "sort_index": "2105811947067801597",
+      "content": {
+       "tweet": {
+        "id": 0,
+        "location": "",
+        "conversation_id_str": "2105316680251650555",
+        "created_at": "Wed Sep 30 15:21:50 +0000 2026",
+        "display_text_range": [
+         0,
+         215
+        ],
+        "entities": {
+         "urls": [
+          {
+           "display_url": "figure-ai.myshopify.com",
+           "expanded_url": "https://figure-ai.myshopify.com/",
+           "indices": [
+            192,
+            215
+           ],
+           "url": "https://t.co/WCNlgqykgb"
+          }
+         ],
+         "media": [
+          {
+           "display_url": "pic.x.com/3SisrXHfly",
+           "expanded_url": "https://x.com/Figure_robot/status/2105317203264655363/photo/1",
+           "ext_media_availability": {
+            "status": "Available"
+           },
+           "features": {
+            "large": {
+             "faces": []
+            },
+            "medium": {
+             "faces": []
+            },
+            "orig": {
+             "faces": []
+            },
+            "small": {
+             "faces": []
+            }
+           },
+           "id_str": "2105317033672146946",
+           "indices": [
+            216,
+            239
+           ],
+           "media_key": "3_2105317033672146946",
+           "media_url_https": "https://pbs.twimg.com/media/HTeWsAubgAIUSB6.jpg",
+           "original_info": {
+            "focus_rects": [
+             {
+              "x": 129,
+              "y": 0,
+              "w": 1071,
+              "h": 600
+             },
+             {
+              "x": 510,
+              "y": 0,
+              "w": 600,
+              "h": 600
+             },
+             {
+              "x": 547,
+              "y": 0,
+              "w": 526,
+              "h": 600
+             },
+             {
+              "x": 660,
+              "y": 0,
+              "w": 300,
+              "h": 600
+             },
+             {
+              "x": 0,
+              "y": 0,
+              "w": 1200,
+              "h": 600
+             }
+            ],
+            "height": 600,
+            "width": 1200
+           },
+           "sizes": {
+            "large": {
+             "h": 600,
+             "resize": "fit",
+             "w": 1200
+            },
+            "medium": {
+             "h": 600,
+             "resize": "fit",
+             "w": 1200
+            },
+            "small": {
+             "h": 340,
+             "resize": "fit",
+             "w": 680
+            },
+            "thumb": {
+             "h": 150,
+             "resize": "crop",
+             "w": 150
+            }
+           },
+           "type": "photo",
+           "url": "https://t.co/3SisrXHfly"
+          }
+         ]
+        },
+        "extended_entities": {
+         "media": [
+          {
+           "display_url": "pic.x.com/3SisrXHfly",
+           "expanded_url": "https://x.com/Figure_robot/status/2105317203264655363/photo/1",
+           "ext_media_availability": {
+            "status": "Available"
+           },
+           "features": {
+            "large": {
+             "faces": []
+            },
+            "medium": {
+             "faces": []
+            },
+            "orig": {
+             "faces": []
+            },
+            "small": {
+             "faces": []
+            }
+           },
+           "id_str": "2105317033672146946",
+           "indices": [
+            216,
+            239
+           ],
+           "media_key": "3_2105317033672146946",
+           "media_url_https": "https://pbs.twimg.com/media/HTeWsAubgAIUSB6.jpg",
+           "original_info": {
+            "focus_rects": [
+             {
+              "x": 129,
+              "y": 0,
+              "w": 1071,
+              "h": 600
+             },
+             {
+              "x": 510,
+              "y": 0,
+              "w": 600,
+              "h": 600
+             },
+             {
+              "x": 547,
+              "y": 0,
+              "w": 526,
+              "h": 600
+             },
+             {
+              "x": 660,
+              "y": 0,
+              "w": 300,
+              "h": 600
+             },
+             {
+              "x": 0,
+              "y": 0,
+              "w": 1200,
+              "h": 600
+             }
+            ],
+            "height": 600,
+            "width": 1200
+           },
+           "sizes": {
+            "large": {
+             "h": 600,
+             "resize": "fit",
+             "w": 1200
+            },
+            "medium": {
+             "h": 600,
+             "resize": "fit",
+             "w": 1200
+            },
+            "small": {
+             "h": 340,
+             "resize": "fit",
+             "w": 680
+            },
+            "thumb": {
+             "h": 150,
+             "resize": "crop",
+             "w": 150
+            }
+           },
+           "type": "photo",
+           "url": "https://t.co/3SisrXHfly"
+          }
+         ]
+        },
+        "favorite_count": 457,
+        "favorited": false,
+        "full_text": "Today we're selling a limited edition F.02 Decommission Artifacts\n\nThese are from the metal recovered when F.02 robots were melted down in a 75-ton electric arc furnace\n\nLimited availability: https://t.co/WCNlgqykgb https://t.co/3SisrXHfly",
+        "id_str": "2105317203264655363",
+        "in_reply_to_name": "Figure_robot",
+        "in_reply_to_screen_name": "Figure_robot",
+        "in_reply_to_status_id_str": "2105316886846251208",
+        "in_reply_to_user_id_str": "1602443956888817665",
+        "lang": "en",
+        "permalink": "/Figure_robot/status/2105317203264655363",
+        "possibly_sensitive": false,
+        "quote_count": 18,
+        "reply_count": 16,
+        "retweet_count": 18,
+        "retweeted": false,
+        "text": "Today we're selling a limited edition F.02 Decommission Artifacts\n\nThese are from the metal recovered when F.02 robots were melted down in a 75-ton electric arc furnace\n\nLimited availability: https://t.co/WCNlgqykgb https://t.co/3SisrXHfly",
+        "user": {
+         "blocking": false,
+         "created_at": "Mon Dec 12 23:23:17 +0000 2022",
+         "default_profile": true,
+         "default_profile_image": false,
+         "description": "Figure is an AI Robotics company building the world's first commercially viable autonomous humanoid robot.",
+         "entities": {
+          "description": {},
+          "url": {
+           "urls": [
+            {
+             "display_url": "figure.ai",
+             "expanded_url": "http://figure.ai",
+             "url": "https://t.co/zOLOu88xjX",
+             "indices": [
+              0,
+              23
+             ]
+            }
+           ]
+          }
+         },
+         "fast_followers_count": 0,
+         "favourites_count": 12,
+         "follow_request_sent": false,
+         "followed_by": false,
+         "followers_count": 224380,
+         "following": false,
+         "friends_count": 3,
+         "has_custom_timelines": false,
+         "id": 0,
+         "id_str": "1602443956888817665",
+         "is_translator": false,
+         "listed_count": 2126,
+         "location": "",
+         "media_count": 77,
+         "name": "Figure",
+         "normal_followers_count": 224380,
+         "notifications": false,
+         "profile_banner_url": "https://pbs.twimg.com/profile_banners/1602443956888817665/1769465745",
+         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976273310431444992/k9xGabdN_normal.jpg",
+         "protected": false,
+         "screen_name": "Figure_robot",
+         "show_all_inline_media": false,
+         "statuses_count": 204,
+         "time_zone": "",
+         "translator_type": "none",
+         "url": "https://t.co/zOLOu88xjX",
+         "utc_offset": 0,
+         "verified": false,
+         "verified_type": "Business",
+         "withheld_in_countries": [],
+         "withheld_scope": "",
+         "is_blue_verified": false
+        }
+       }
+      }
+     },
+     {
+      "type": "tweet",
+      "entry_id": "tweet-2105316886846251208",
+      "sort_index": "2105811947067801596",
+      "content": {
+       "tweet": {
+        "id": 0,
+        "location": "",
+        "card": {
+         "name": "summary",
+         "url": "https://t.co/AbGSX2dONl",
+         "card_type_url": "http://card-type-url-is-deprecated.invalid",
+         "binding_values": {
+          "thumbnail_image": {
+           "image_value": {
+            "height": 144,
+            "url": "https://pbs.twimg.com/card_img/2105316191220928513/KFwBHtSE?format=jpg&name=144x144_2",
+            "width": 144
+           },
+           "type": "IMAGE"
+          },
+          "description": {
+           "string_value": "We love Figure 02. It is an incredible robot.",
+           "type": "STRING"
+          },
+          "domain": {
+           "string_value": "www.figure.ai",
+           "type": "STRING"
+          },
+          "thumbnail_image_large": {
+           "image_value": {
+            "height": 420,
+            "url": "https://pbs.twimg.com/card_img/2105316191220928513/KFwBHtSE?format=jpg&name=420x420_2",
+            "width": 420
+           },
+           "type": "IMAGE"
+          },
+          "thumbnail_image_original": {
+           "image_value": {
+            "height": 630,
+            "url": "https://pbs.twimg.com/card_img/2105316191220928513/KFwBHtSE?format=jpg&name=orig",
+            "width": 1200
+           },
+           "type": "IMAGE"
+          },
+          "thumbnail_image_small": {
+           "image_value": {
+            "height": 100,
+            "url": "https://pbs.twimg.com/card_img/2105316191220928513/KFwBHtSE?format=jpg&name=100x100_2",
+            "width": 100
+           },
+           "type": "IMAGE"
+          },
+          "thumbnail_image_x_large": {
+           "image_value": {
+            "height": 630,
+            "url": "https://pbs.twimg.com/card_img/2105316191220928513/KFwBHtSE?format=png&name=2048x2048_2_exp",
+            "width": 1200
+           },
+           "type": "IMAGE"
+          },
+          "vanity_url": {
+           "scribe_key": "vanity_url",
+           "string_value": "figure.ai",
+           "type": "STRING"
+          },
+          "thumbnail_image_color": {
+           "image_color_value": {
+            "palette": [
+             {
+              "percentage": 46.83,
+              "rgb": {
+               "blue": 55,
+               "green": 125,
+               "red": 192
+              }
+             },
+             {
+              "percentage": 35.3,
+              "rgb": {
+               "blue": 16,
+               "green": 51,
+               "red": 89
+              }
+             },
+             {
+              "percentage": 6.61,
+              "rgb": {
+               "blue": 3,
+               "green": 10,
+               "red": 33
+              }
+             },
+             {
+              "percentage": 5.04,
+              "rgb": {
+               "blue": 22,
+               "green": 68,
+               "red": 116
+              }
+             },
+             {
+              "percentage": 2.76,
+              "rgb": {
+               "blue": 55,
+               "green": 159,
+               "red": 223
+              }
+             }
+            ]
+           },
+           "type": "IMAGE_COLOR"
+          },
+          "title": {
+           "string_value": "F.02 Decommission",
+           "type": "STRING"
+          },
+          "card_url": {
+           "scribe_key": "card_url",
+           "string_value": "https://t.co/AbGSX2dONl",
+           "type": "STRING"
+          }
+         },
+         "users": {}
+        },
+        "conversation_id_str": "2105316680251650555",
+        "created_at": "Wed Sep 30 15:20:35 +0000 2026",
+        "display_text_range": [
+         0,
+         169
+        ],
+        "entities": {
+         "urls": [
+          {
+           "display_url": "figure.ai/news/f-02-deco…",
+           "expanded_url": "https://www.figure.ai/news/f-02-decommission",
+           "indices": [
+            146,
+            169
+           ],
+           "url": "https://t.co/AbGSX2dONl"
+          }
+         ],
+         "media": []
+        },
+        "favorite_count": 856,
+        "favorited": false,
+        "full_text": "The story is crazy, started with Arnold on social and ended in Finland having F.02's jump into a 75-ton arc furnace\n\nRead about our journey here:\nhttps://t.co/AbGSX2dONl",
+        "id_str": "2105316886846251208",
+        "in_reply_to_name": "Figure_robot",
+        "in_reply_to_screen_name": "Figure_robot",
+        "in_reply_to_status_id_str": "2105316680251650555",
+        "in_reply_to_user_id_str": "1602443956888817665",
+        "lang": "en",
+        "permalink": "/Figure_robot/status/2105316886846251208",
+        "possibly_sensitive": false,
+        "quote_count": 37,
+        "reply_count": 31,
+        "retweet_count": 66,
+        "retweeted": false,
+        "text": "The story is crazy, started with Arnold on social and ended in Finland having F.02's jump into a 75-ton arc furnace\n\nRead about our journey here:\nhttps://t.co/AbGSX2dONl",
+        "user": {
+         "blocking": false,
+         "created_at": "Mon Dec 12 23:23:17 +0000 2022",
+         "default_profile": true,
+         "default_profile_image": false,
+         "description": "Figure is an AI Robotics company building the world's first commercially viable autonomous humanoid robot.",
+         "entities": {
+          "description": {},
+          "url": {
+           "urls": [
+            {
+             "display_url": "figure.ai",
+             "expanded_url": "http://figure.ai",
+             "url": "https://t.co/zOLOu88xjX",
+             "indices": [
+              0,
+              23
+             ]
+            }
+           ]
+          }
+         },
+         "fast_followers_count": 0,
+         "favourites_count": 12,
+         "follow_request_sent": false,
+         "followed_by": false,
+         "followers_count": 224380,
+         "following": false,
+         "friends_count": 3,
+         "has_custom_timelines": false,
+         "id": 0,
+         "id_str": "1602443956888817665",
+         "is_translator": false,
+         "listed_count": 2126,
+         "location": "",
+         "media_count": 77,
+         "name": "Figure",
+         "normal_followers_count": 224380,
+         "notifications": false,
+         "profile_banner_url": "https://pbs.twimg.com/profile_banners/1602443956888817665/1769465745",
+         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976273310431444992/k9xGabdN_normal.jpg",
+         "protected": false,
+         "screen_name": "Figure_robot",
+         "show_all_inline_media": false,
+         "statuses_count": 204,
+         "time_zone": "",
+         "translator_type": "none",
+         "url": "https://t.co/zOLOu88xjX",
+         "utc_offset": 0,
+         "verified": false,
+         "verified_type": "Business",
+         "withheld_in_countries": [],
+         "withheld_scope": "",
+         "is_blue_verified": false
+        }
+       }
+      }
+     }
+    ]
+   },
+   "latest_tweet_id": "2105316680251650555",
+   "headerProps": {
+    "screenName": "Figure_robot"
+   }
+  }
+ }
+}

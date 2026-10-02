@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCYlq-KmwPjc1DtsGmthFqSQ"/>
+ <id>yt:channel:Ylq-KmwPjc1DtsGmthFqSQ</id>
+ <yt:channelId>Ylq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+ <title>Figure</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ"/>
+ <author>
+  <name>Figure</name>
+  <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+ </author>
+ <published>2022-09-20T22:17:57+00:00</published>
+ <entry>
+  <id>yt:video:pfAh5oQDPDM</id>
+  <yt:videoId>pfAh5oQDPDM</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.02 Decomission</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pfAh5oQDPDM"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-09-30T15:17:29+00:00</published>
+  <updated>2026-10-01T09:35:01+00:00</updated>
+  <media:group>
+   <media:title>F.02 Decomission</media:title>
+   <media:content url="https://www.youtube.com/v/pfAh5oQDPDM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pfAh5oQDPDM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We love Figure 02. It is an incredible robot. F.02 marked many firsts for the company: our first deployment at BMW, the birth of Helix, our first robot doing household chores, and our first logistics deployment. As our F.03 fleet grows, maintaining the F.02 fleet no longer makes sense.
+
+Decommissioning a fleet of robots full of custom-built actuators and other intellectual property is no easy task. We needed to dispose of the robots in a way that protected our proprietary hardware. Disassembling each robot would take our technical staff so much time that it would delay the launch of F.04.
+
+So we asked the internet: what should we do? The resounding answer came from an unlikely source: Arnold Schwarzenegger, who told us to melt them. We reached out to Arnold, and when he said he wanted to be involved, we put everything in motion.
+
+Read more about it here:
+https://www.figure.ai/news/f-02-decommission</media:description>
+   <media:community>
+    <media:starRating count="12372" average="5.00" min="1" max="5"/>
+    <media:statistics views="322436"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HuYXf_3TNW8</id>
+  <yt:videoId>HuYXf_3TNW8</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>30 Home Generalization</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HuYXf_3TNW8"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-09-18T16:22:12+00:00</published>
+  <updated>2026-09-30T14:56:35+00:00</updated>
+  <media:group>
+   <media:title>30 Home Generalization</media:title>
+   <media:content url="https://www.youtube.com/v/HuYXf_3TNW8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HuYXf_3TNW8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Yesterday we announced Helix 2.5
+
+We rented 30 homes in the Bay Area. The robots arrived with no additional training and started doing useful work
+
+Here's 4 hours of continuous work
+
+read more in our blog at:
+https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization</media:description>
+   <media:community>
+    <media:starRating count="1308" average="5.00" min="1" max="5"/>
+    <media:statistics views="52840"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lJpM_2a1zrE</id>
+  <yt:videoId>lJpM_2a1zrE</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>Helix 2.5 30-Home Generalization</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=lJpM_2a1zrE"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-09-17T18:44:32+00:00</published>
+  <updated>2026-09-19T07:02:26+00:00</updated>
+  <media:group>
+   <media:title>Helix 2.5 30-Home Generalization</media:title>
+   <media:content url="https://www.youtube.com/v/lJpM_2a1zrE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lJpM_2a1zrE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Today we’re releasing Helix 2.5
+
+We rented 30 homes in the Bay Area. The robots arrived with no additional training and started doing useful work</media:description>
+   <media:community>
+    <media:starRating count="15442" average="5.00" min="1" max="5"/>
+    <media:statistics views="749810"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QbuIxdvViv4</id>
+  <yt:videoId>QbuIxdvViv4</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>Scaling Compute</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QbuIxdvViv4"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-09-03T13:06:47+00:00</published>
+  <updated>2026-09-30T14:53:51+00:00</updated>
+  <media:group>
+   <media:title>Scaling Compute</media:title>
+   <media:content url="https://www.youtube.com/v/QbuIxdvViv4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QbuIxdvViv4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Figure is partnering with Nscale to deploy up to 100,000 GPUs on the NVIDIA Vera Rubin Platform.  We're committing $3.5 billion initially, with plans to scale beyond $6 billion.  Bringing a robot into every home demands compute at an unprecedented scale.  The 100,000 GPUs targeted for initial deployment starting the second half of 2027 in Barstow, Texas.
+
+Read more at:
+https://www.figure.ai/news/figure-and-nscale-sign-strategic-partnership</media:description>
+   <media:community>
+    <media:starRating count="2175" average="5.00" min="1" max="5"/>
+    <media:statistics views="83449"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_WGNMkmvEls</id>
+  <yt:videoId>_WGNMkmvEls</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>Figure 4 years</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_WGNMkmvEls"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-07-09T15:41:51+00:00</published>
+  <updated>2026-09-05T07:07:06+00:00</updated>
+  <media:group>
+   <media:title>Figure 4 years</media:title>
+   <media:content url="https://www.youtube.com/v/_WGNMkmvEls?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_WGNMkmvEls/hqdefault.jpg" width="480" height="360"/>
+   <media:description>4 years at Figure</media:description>
+   <media:community>
+    <media:starRating count="3544" average="5.00" min="1" max="5"/>
+    <media:statistics views="72125"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:tv90GFM9RAo</id>
+  <yt:videoId>tv90GFM9RAo</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 at BMW</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=tv90GFM9RAo"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-06-30T15:00:30+00:00</published>
+  <updated>2026-09-05T15:58:58+00:00</updated>
+  <media:group>
+   <media:title>F.03 at BMW</media:title>
+   <media:content url="https://www.youtube.com/v/tv90GFM9RAo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/tv90GFM9RAo/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="3769" average="5.00" min="1" max="5"/>
+    <media:statistics views="146929"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JeeJJ42TKQU</id>
+  <yt:videoId>JeeJJ42TKQU</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 9 (Hour 192-200)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JeeJJ42TKQU"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-23T14:57:07+00:00</published>
+  <updated>2026-09-05T08:19:06+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 9 (Hour 192-200)</media:title>
+   <media:content url="https://www.youtube.com/v/JeeJJ42TKQU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JeeJJ42TKQU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="841" average="5.00" min="1" max="5"/>
+    <media:statistics views="77131"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:t3laRgQacFo</id>
+  <yt:videoId>t3laRgQacFo</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 8 (Hour 180-192)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=t3laRgQacFo"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-23T14:56:35+00:00</published>
+  <updated>2026-09-26T05:20:28+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 8 (Hour 180-192)</media:title>
+   <media:content url="https://www.youtube.com/v/t3laRgQacFo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/t3laRgQacFo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="82" average="5.00" min="1" max="5"/>
+    <media:statistics views="6584"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bxCUVfXUzrQ</id>
+  <yt:videoId>bxCUVfXUzrQ</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 8 (Hour 168-180)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bxCUVfXUzrQ"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-23T01:40:25+00:00</published>
+  <updated>2026-09-05T20:30:44+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 8 (Hour 168-180)</media:title>
+   <media:content url="https://www.youtube.com/v/bxCUVfXUzrQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bxCUVfXUzrQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="293" average="5.00" min="1" max="5"/>
+    <media:statistics views="15772"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LewqAffahfQ</id>
+  <yt:videoId>LewqAffahfQ</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 3 (Hour 48-60)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LewqAffahfQ"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-22T13:48:59+00:00</published>
+  <updated>2026-09-05T06:07:30+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 3 (Hour 48-60)</media:title>
+   <media:content url="https://www.youtube.com/v/LewqAffahfQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LewqAffahfQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="173" average="5.00" min="1" max="5"/>
+    <media:statistics views="14986"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Z3WMSZCf43o</id>
+  <yt:videoId>Z3WMSZCf43o</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 7 (Hour 156-168)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Z3WMSZCf43o"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-22T01:09:48+00:00</published>
+  <updated>2026-09-05T23:20:00+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 7 (Hour 156-168)</media:title>
+   <media:content url="https://www.youtube.com/v/Z3WMSZCf43o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Z3WMSZCf43o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="284" average="5.00" min="1" max="5"/>
+    <media:statistics views="20410"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SnunwkMlP08</id>
+  <yt:videoId>SnunwkMlP08</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 7 (Hour 144-156)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SnunwkMlP08"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-22T01:09:42+00:00</published>
+  <updated>2026-09-27T18:24:24+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 7 (Hour 144-156)</media:title>
+   <media:content url="https://www.youtube.com/v/SnunwkMlP08?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SnunwkMlP08/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="48" average="5.00" min="1" max="5"/>
+    <media:statistics views="2754"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:TPNh8XtBJAk</id>
+  <yt:videoId>TPNh8XtBJAk</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 6 (Hour 132-144)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TPNh8XtBJAk"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-22T01:09:40+00:00</published>
+  <updated>2026-09-30T20:21:35+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 6 (Hour 132-144)</media:title>
+   <media:content url="https://www.youtube.com/v/TPNh8XtBJAk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TPNh8XtBJAk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="1675"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mbKZ6uXw0gw</id>
+  <yt:videoId>mbKZ6uXw0gw</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 6 (Hour 120-132)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mbKZ6uXw0gw"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-22T01:09:36+00:00</published>
+  <updated>2026-09-05T16:48:46+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 6 (Hour 120-132)</media:title>
+   <media:content url="https://www.youtube.com/v/mbKZ6uXw0gw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mbKZ6uXw0gw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="1680"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:uKY1GfaqQ-o</id>
+  <yt:videoId>uKY1GfaqQ-o</yt:videoId>
+  <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+  <title>F.03 Livestream: Day 5 (Hour 108-120)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=uKY1GfaqQ-o"/>
+  <author>
+   <name>Figure</name>
+   <uri>https://www.youtube.com/channel/UCYlq-KmwPjc1DtsGmthFqSQ</uri>
+  </author>
+  <published>2026-05-22T01:09:31+00:00</published>
+  <updated>2026-09-06T04:40:50+00:00</updated>
+  <media:group>
+   <media:title>F.03 Livestream: Day 5 (Hour 108-120)</media:title>
+   <media:content url="https://www.youtube.com/v/uKY1GfaqQ-o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/uKY1GfaqQ-o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Replay of the F.03 Livestream that started May 13, 2026 at 10AM PT.</media:description>
+   <media:community>
+    <media:starRating count="27" average="5.00" min="1" max="5"/>
+    <media:statistics views="1513"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

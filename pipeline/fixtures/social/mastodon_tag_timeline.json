@@ -1,0 +1,815 @@
+{
+ "tag_history": {
+  "id": "9600",
+  "name": "robotics",
+  "url": "https://mastodon.social/tags/robotics",
+  "history": [
+   {
+    "day": "1790899200",
+    "accounts": "0",
+    "uses": "0"
+   },
+   {
+    "day": "1790812800",
+    "accounts": "16",
+    "uses": "27"
+   },
+   {
+    "day": "1790726400",
+    "accounts": "23",
+    "uses": "32"
+   },
+   {
+    "day": "1790640000",
+    "accounts": "17",
+    "uses": "29"
+   },
+   {
+    "day": "1790553600",
+    "accounts": "24",
+    "uses": "36"
+   },
+   {
+    "day": "1790467200",
+    "accounts": "17",
+    "uses": "24"
+   },
+   {
+    "day": "1790380800",
+    "accounts": "8",
+    "uses": "13"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "id": "117368300094776510",
+   "created_at": "2026-10-01T23:42:13.774Z",
+   "in_reply_to_id": null,
+   "in_reply_to_account_id": null,
+   "sensitive": false,
+   "spoiler_text": "",
+   "visibility": "public",
+   "language": "en",
+   "uri": "https://mastodon.social/ap/users/117276471660166915/statuses/117368300094776510",
+   "url": "https://mastodon.social/@tehpoet/117368300094776510",
+   "replies_count": 0,
+   "reblogs_count": 0,
+   "favourites_count": 0,
+   "quotes_count": 0,
+   "edited_at": null,
+   "content": "<p>Google is running the <a href=\"https://mastodon.social/tags/Android\" class=\"mention hashtag\" rel=\"tag\">#<span>Android</span></a> playbook again, now on robots. <a href=\"https://mastodon.social/tags/DeepMind\" class=\"mention hashtag\" rel=\"tag\">#<span>DeepMind</span></a>&#39;s new CEO: the edge is the model layer, not the chassis. Figure and <a href=\"https://mastodon.social/tags/Tesla\" class=\"mention hashtag\" rel=\"tag\">#<span>Tesla</span></a> bet one flagship body; <a href=\"https://mastodon.social/tags/Google\" class=\"mention hashtag\" rel=\"tag\">#<span>Google</span></a> puts its intelligence in everyone else&#39;s machines. Own humanoid? Not ruled out. Same door Brin cracked in 2007 about the phone, on rollerblades. <a href=\"https://mastodon.social/tags/Pixel\" class=\"mention hashtag\" rel=\"tag\">#<span>Pixel</span></a> came later. Waymo proves it scales. <br />Who wins: the body builders, or the one who sells the mind?<br /><a href=\"https://mastodon.social/tags/ai\" class=\"mention hashtag\" rel=\"tag\">#<span>ai</span></a> <a href=\"https://mastodon.social/tags/robotics\" class=\"mention hashtag\" rel=\"tag\">#<span>robotics</span></a> <a href=\"https://mastodon.social/tags/Systems\" class=\"mention hashtag\" rel=\"tag\">#<span>Systems</span></a></p>",
+   "reblog": null,
+   "application": {
+    "name": "Mastodon for Android",
+    "website": "https://app.joinmastodon.org/android"
+   },
+   "account": {
+    "id": "117276471660166915",
+    "username": "tehpoet",
+    "acct": "tehpoet",
+    "display_name": "Marko Mladenovic",
+    "locked": false,
+    "bot": false,
+    "discoverable": true,
+    "indexable": true,
+    "group": false,
+    "created_at": "2026-09-15T00:00:00.000Z",
+    "note": "<p>What I post is my mind playing tricks on me. What I build in <a href=\"https://mastodon.social/tags/DevOps\" class=\"mention hashtag\" rel=\"tag\">#<span>DevOps</span></a> is me playing tricks on systems.</p><p>I repost and comment — I don’t just like and follow. Autistic <a href=\"https://mastodon.social/tags/sysadmin\" class=\"mention hashtag\" rel=\"tag\">#<span>sysadmin</span></a>, obviously.</p>",
+    "url": "https://mastodon.social/@tehpoet",
+    "uri": "https://mastodon.social/ap/users/117276471660166915",
+    "avatar": "https://files.mastodon.social/accounts/avatars/117/276/471/660/166/915/original/d0b2ff1cfcfa044e.jpeg",
+    "avatar_static": "https://files.mastodon.social/accounts/avatars/117/276/471/660/166/915/original/d0b2ff1cfcfa044e.jpeg",
+    "avatar_description": "",
+    "header": "https://files.mastodon.social/accounts/headers/117/276/471/660/166/915/original/79c6d06283e2ab0d.jpeg",
+    "header_static": "https://files.mastodon.social/accounts/headers/117/276/471/660/166/915/original/79c6d06283e2ab0d.jpeg",
+    "header_description": "",
+    "followers_count": 7,
+    "following_count": 35,
+    "statuses_count": 30,
+    "last_status_at": "2026-10-01",
+    "hide_collections": null,
+    "show_media": true,
+    "show_media_replies": true,
+    "show_featured": true,
+    "noindex": false,
+    "feature_approval": {
+     "automatic": [
+      "public"
+     ],
+     "manual": [],
+     "current_user": "denied"
+    },
+    "emojis": [],
+    "roles": [],
+    "fields": [
+     {
+      "name": "Proof of Sys Ops \"life\" bf AI was even planned",
+      "value": "<a href=\"https://freelancer.com/u/kerberus\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">freelancer.com/u/kerberus</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "More about me",
+      "value": "<a href=\"https://admin.education\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">admin.education</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "Music gigs",
+      "value": "<a href=\"https://badmusicforbadpeople.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">badmusicforbadpeople.com</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "Ratezip",
+      "value": "<a href=\"https://ratezip.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">ratezip.com</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     }
+    ]
+   },
+   "media_attachments": [],
+   "mentions": [],
+   "tags": [
+    {
+     "name": "android",
+     "url": "https://mastodon.social/tags/android"
+    },
+    {
+     "name": "deepmind",
+     "url": "https://mastodon.social/tags/deepmind"
+    },
+    {
+     "name": "tesla",
+     "url": "https://mastodon.social/tags/tesla"
+    },
+    {
+     "name": "google",
+     "url": "https://mastodon.social/tags/google"
+    },
+    {
+     "name": "pixel",
+     "url": "https://mastodon.social/tags/pixel"
+    },
+    {
+     "name": "ai",
+     "url": "https://mastodon.social/tags/ai"
+    },
+    {
+     "name": "robotics",
+     "url": "https://mastodon.social/tags/robotics"
+    },
+    {
+     "name": "systems",
+     "url": "https://mastodon.social/tags/systems"
+    }
+   ],
+   "emojis": [],
+   "tagged_collections": [],
+   "quote": null,
+   "card": null,
+   "poll": null,
+   "quote_approval": {
+    "automatic": [
+     "public"
+    ],
+    "manual": [],
+    "current_user": "denied"
+   }
+  },
+  {
+   "id": "117368016537162781",
+   "created_at": "2026-10-01T22:30:02.000Z",
+   "in_reply_to_id": null,
+   "in_reply_to_account_id": null,
+   "sensitive": false,
+   "spoiler_text": "",
+   "visibility": "public",
+   "language": "en",
+   "uri": "https://fediscience.org/users/tksst/statuses/117368016213460959",
+   "url": "https://fediscience.org/@tksst/117368016213460959",
+   "replies_count": 0,
+   "reblogs_count": 4,
+   "favourites_count": 0,
+   "quotes_count": 0,
+   "edited_at": null,
+   "content": "<p>🤖 NEW: Engineers in <a href=\"https://fediscience.org/tags/Singapore\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Singapore</span></a> built <a href=\"https://fediscience.org/tags/ALBATROSS\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>ALBATROSS</span></a>, a roughly 1 kg <a href=\"https://fediscience.org/tags/robot\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>robot</span></a> that falls from a <a href=\"https://fediscience.org/tags/drone\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>drone</span></a> at about 150 m, spins its limbs to slow the descent from around 110 to 24 km/h, then converts into a <a href=\"https://fediscience.org/tags/sailboat\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>sailboat</span></a> with a <a href=\"https://fediscience.org/tags/fish\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>fish</span></a>-like rudder. Three actuators and three sensors let it navigate Singapore reservoirs autonomously for hours.</p><p>👉 <a href=\"https://www.popsci.com/technology/new-robot-fly-sail-swim/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">popsci.com/technology/new-robo</span><span class=\"invisible\">t-fly-sail-swim/</span></a></p><p><a href=\"https://fediscience.org/tags/biomimicry\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>biomimicry</span></a> <a href=\"https://fediscience.org/tags/engineering\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>engineering</span></a> <a href=\"https://fediscience.org/tags/oceans\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>oceans</span></a> <a href=\"https://fediscience.org/tags/sailing\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>sailing</span></a> <a href=\"https://fediscience.org/tags/swan\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>swan</span></a> <a href=\"https://fediscience.org/tags/robotics\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>robotics</span></a> <a href=\"https://fediscience.org/tags/marine\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>marine</span></a> <a href=\"https://fediscience.org/tags/science\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>science</span></a> <a href=\"https://fediscience.org/tags/design\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>design</span></a> <a href=\"https://fediscience.org/tags/innovation\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>innovation</span></a> <a href=\"https://fediscience.org/tags/autonomy\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>autonomy</span></a> <a href=\"https://fediscience.org/tags/nature\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>nature</span></a></p>",
+   "reblog": null,
+   "account": {
+    "id": "115221056395450713",
+    "username": "tksst",
+    "acct": "tksst@fediscience.org",
+    "display_name": "TKSST • seethis.tv 🌈🪐✨",
+    "locked": false,
+    "bot": false,
+    "discoverable": true,
+    "indexable": true,
+    "group": false,
+    "created_at": "2025-09-16T00:00:00.000Z",
+    "note": "<p>Follow The Kid Should See This for daily posts and science news. Founded in 2011, TKSST features over 8,000 kid-friendly videos for educators and parents sharing smarter, meaningful media at home and in the classroom. Made with 💙 in L.A.</p><p>Curated by <span class=\"h-card\" translate=\"no\"><a href=\"https://journa.host/@cosentino\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>cosentino</span></a></span> (ex-KPCC, IHT, NYT, CBS News).</p><p><a href=\"https://fediscience.org/tags/video\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>video</span></a> <a href=\"https://fediscience.org/tags/science\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>science</span></a> <a href=\"https://fediscience.org/tags/scicomm\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>scicomm</span></a> <a href=\"https://fediscience.org/tags/education\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>education</span></a> <a href=\"https://fediscience.org/tags/edutech\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>edutech</span></a> <a href=\"https://fediscience.org/tags/museums\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>museums</span></a> <a href=\"https://fediscience.org/tags/engineering\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>engineering</span></a> <a href=\"https://fediscience.org/tags/story\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>story</span></a> <a href=\"https://fediscience.org/tags/astronomy\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>astronomy</span></a> <a href=\"https://fediscience.org/tags/art\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>art</span></a> <a href=\"https://fediscience.org/tags/design\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>design</span></a> <a href=\"https://fediscience.org/tags/space\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>space</span></a> <a href=\"https://fediscience.org/tags/STEM\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>STEM</span></a> <a href=\"https://fediscience.org/tags/STEAM\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>STEAM</span></a> <a href=\"https://fediscience.org/tags/sustainability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>sustainability</span></a> <a href=\"https://fediscience.org/tags/animals\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>animals</span></a> <a href=\"https://fediscience.org/tags/wildlife\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>wildlife</span></a></p>",
+    "url": "https://fediscience.org/@tksst",
+    "uri": "https://fediscience.org/users/tksst",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/115/221/056/395/450/713/original/b2da4ff54813f071.png",
+    "avatar_static": "https://files.mastodon.social/cache/accounts/avatars/115/221/056/395/450/713/original/b2da4ff54813f071.png",
+    "avatar_description": "",
+    "header": "https://files.mastodon.social/cache/accounts/headers/115/221/056/395/450/713/original/f3bc2f894c3c6c53.jpg",
+    "header_static": "https://files.mastodon.social/cache/accounts/headers/115/221/056/395/450/713/original/f3bc2f894c3c6c53.jpg",
+    "header_description": "",
+    "followers_count": 1309,
+    "following_count": 9,
+    "statuses_count": 2401,
+    "last_status_at": "2026-10-01",
+    "hide_collections": false,
+    "show_media": true,
+    "show_media_replies": true,
+    "show_featured": true,
+    "feature_approval": {
+     "automatic": [
+      "public"
+     ],
+     "manual": [],
+     "current_user": "denied"
+    },
+    "emojis": [],
+    "fields": [
+     {
+      "name": "Web",
+      "value": "<a href=\"https://seethis.tv\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">seethis.tv</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "Newsletters",
+      "value": "<a href=\"https://seethis.tv/subscribe\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">seethis.tv/subscribe</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "Instagram",
+      "value": "<a href=\"https://www.instagram.com/thekidshouldseethis/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">instagram.com/thekidshouldseet</span><span class=\"invisible\">his/</span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "Your Membership Helps Us Continue",
+      "value": "<a href=\"https://seethis.tv/members\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">seethis.tv/members</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     }
+    ]
+   },
+   "media_attachments": [],
+   "mentions": [],
+   "tags": [
+    {
+     "name": "singapore",
+     "url": "https://mastodon.social/tags/singapore"
+    },
+    {
+     "name": "albatross",
+     "url": "https://mastodon.social/tags/albatross"
+    },
+    {
+     "name": "robot",
+     "url": "https://mastodon.social/tags/robot"
+    },
+    {
+     "name": "drone",
+     "url": "https://mastodon.social/tags/drone"
+    },
+    {
+     "name": "sailboat",
+     "url": "https://mastodon.social/tags/sailboat"
+    },
+    {
+     "name": "fish",
+     "url": "https://mastodon.social/tags/fish"
+    },
+    {
+     "name": "biomimicry",
+     "url": "https://mastodon.social/tags/biomimicry"
+    },
+    {
+     "name": "engineering",
+     "url": "https://mastodon.social/tags/engineering"
+    },
+    {
+     "name": "oceans",
+     "url": "https://mastodon.social/tags/oceans"
+    },
+    {
+     "name": "sailing",
+     "url": "https://mastodon.social/tags/sailing"
+    },
+    {
+     "name": "swan",
+     "url": "https://mastodon.social/tags/swan"
+    },
+    {
+     "name": "robotics",
+     "url": "https://mastodon.social/tags/robotics"
+    },
+    {
+     "name": "marine",
+     "url": "https://mastodon.social/tags/marine"
+    },
+    {
+     "name": "science",
+     "url": "https://mastodon.social/tags/science"
+    },
+    {
+     "name": "design",
+     "url": "https://mastodon.social/tags/design"
+    },
+    {
+     "name": "innovation",
+     "url": "https://mastodon.social/tags/innovation"
+    },
+    {
+     "name": "autonomy",
+     "url": "https://mastodon.social/tags/autonomy"
+    },
+    {
+     "name": "nature",
+     "url": "https://mastodon.social/tags/nature"
+    }
+   ],
+   "emojis": [],
+   "tagged_collections": [],
+   "quote": null,
+   "card": {
+    "url": "https://www.popsci.com/technology/new-robot-fly-sail-swim/",
+    "title": "Transformative new robot that can fly, sail, and swim autonomously",
+    "description": "ALBATROSS plays fast and loose with nature’s rules.",
+    "language": "en",
+    "type": "link",
+    "author_name": "",
+    "author_url": "",
+    "provider_name": "Popular Science",
+    "provider_url": "",
+    "html": "",
+    "width": 640,
+    "height": 360,
+    "image": "https://files.mastodon.social/cache/preview_cards/images/209/124/323/original/8456e6128684998f.png",
+    "image_description": "",
+    "embed_url": "",
+    "blurhash": "UHE:Vy4=-qax.8NGtRV@?w%ix^j]?bxuRjj[",
+    "published_at": "2026-09-30T18:00:00.000Z",
+    "authors": []
+   },
+   "poll": null,
+   "quote_approval": {
+    "automatic": [
+     "public"
+    ],
+    "manual": [],
+    "current_user": "denied"
+   }
+  },
+  {
+   "id": "117367682090549472",
+   "created_at": "2026-10-01T21:05:01.000Z",
+   "in_reply_to_id": null,
+   "in_reply_to_account_id": null,
+   "sensitive": false,
+   "spoiler_text": "",
+   "visibility": "public",
+   "language": "en",
+   "uri": "https://mstdn.business/users/cnbusinessforum/statuses/117367681931284713",
+   "url": "https://mstdn.business/@cnbusinessforum/117367681931284713",
+   "replies_count": 0,
+   "reblogs_count": 2,
+   "favourites_count": 0,
+   "quotes_count": 0,
+   "edited_at": null,
+   "content": "<p>The <a href=\"https://mstdn.business/tags/Yuelu\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Yuelu</span></a> <a href=\"https://mstdn.business/tags/Conference\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Conference</span></a> 2026 brought artificial intelligence companies, <a href=\"https://mstdn.business/tags/robotics\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>robotics</span></a> <a href=\"https://mstdn.business/tags/developers\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>developers</span></a>, researchers and <a href=\"https://mstdn.business/tags/investors\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>investors</span></a> to <a href=\"https://mstdn.business/tags/Changsha\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Changsha</span></a>, <a href=\"https://mstdn.business/tags/Hunan\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Hunan</span></a> Province, <a href=\"https://mstdn.business/tags/China\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>China</span></a>, on September 23–24, 2026. Changsha <a href=\"https://mstdn.business/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>AI</span></a> conference featured an opening ceremony, ten “AI+” <a href=\"https://mstdn.business/tags/forums\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>forums</span></a> and an <a href=\"https://mstdn.business/tags/innovation\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>innovation</span></a> <a href=\"https://mstdn.business/tags/exhibition\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>exhibition</span></a> covering <a href=\"https://mstdn.business/tags/technologies\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>technologies</span></a> ranging from <a href=\"https://mstdn.business/tags/semiconductors\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>semiconductors</span></a> and <a href=\"https://mstdn.business/tags/computing\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>computing</span></a> <a href=\"https://mstdn.business/tags/infrastructure\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infrastructure</span></a> to <a href=\"https://mstdn.business/tags/humanoid\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>humanoid</span></a> <a href=\"https://mstdn.business/tags/robots\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>robots</span></a> and <a href=\"https://mstdn.business/tags/digital\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>digital</span></a> <a href=\"https://mstdn.business/tags/healthcare\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>healthcare</span></a>. <a href=\"https://chinaexpohub.com/yuelu-conference-2026-unveils-rmb-10-billion-future-industries-fund-plan/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">chinaexpohub.com/yuelu-confere</span><span class=\"invisible\">nce-2026-unveils-rmb-10-billion-future-industries-fund-plan/</span></a></p>",
+   "reblog": null,
+   "account": {
+    "id": "109683831620529729",
+    "username": "cnbusinessforum",
+    "acct": "cnbusinessforum@mstdn.business",
+    "display_name": "China Business Forum",
+    "locked": false,
+    "bot": false,
+    "discoverable": true,
+    "indexable": false,
+    "group": false,
+    "created_at": "2022-12-16T00:00:00.000Z",
+    "note": "<p>Exclusive business resource poised to become world’s virtual headquarters for SMEs interested in doing business in China.</p>",
+    "url": "https://mstdn.business/@cnbusinessforum",
+    "uri": "https://mstdn.business/users/cnbusinessforum",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/683/831/620/529/729/original/efd22688c90ba66f.png",
+    "avatar_static": "https://files.mastodon.social/cache/accounts/avatars/109/683/831/620/529/729/original/efd22688c90ba66f.png",
+    "avatar_description": "",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/683/831/620/529/729/original/0c206c7f8fa5bc6e.jpg",
+    "header_static": "https://files.mastodon.social/cache/accounts/headers/109/683/831/620/529/729/original/0c206c7f8fa5bc6e.jpg",
+    "header_description": "",
+    "followers_count": 333,
+    "following_count": 2,
+    "statuses_count": 17777,
+    "last_status_at": "2026-10-01",
+    "hide_collections": false,
+    "show_media": true,
+    "show_media_replies": true,
+    "show_featured": true,
+    "feature_approval": {
+     "automatic": [
+      "public"
+     ],
+     "manual": [],
+     "current_user": "denied"
+    },
+    "emojis": [],
+    "fields": [
+     {
+      "name": "Website",
+      "value": "<a href=\"https://cnbusinessforum.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cnbusinessforum.com</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "China Business Events",
+      "value": "<a href=\"https://cnbusinessforum.com/events/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cnbusinessforum.com/events/</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     }
+    ]
+   },
+   "media_attachments": [],
+   "mentions": [],
+   "tags": [
+    {
+     "name": "yuelu",
+     "url": "https://mastodon.social/tags/yuelu"
+    },
+    {
+     "name": "conference",
+     "url": "https://mastodon.social/tags/conference"
+    },
+    {
+     "name": "robotics",
+     "url": "https://mastodon.social/tags/robotics"
+    },
+    {
+     "name": "developers",
+     "url": "https://mastodon.social/tags/developers"
+    },
+    {
+     "name": "investors",
+     "url": "https://mastodon.social/tags/investors"
+    },
+    {
+     "name": "changsha",
+     "url": "https://mastodon.social/tags/changsha"
+    },
+    {
+     "name": "hunan",
+     "url": "https://mastodon.social/tags/hunan"
+    },
+    {
+     "name": "china",
+     "url": "https://mastodon.social/tags/china"
+    },
+    {
+     "name": "ai",
+     "url": "https://mastodon.social/tags/ai"
+    },
+    {
+     "name": "forums",
+     "url": "https://mastodon.social/tags/forums"
+    },
+    {
+     "name": "innovation",
+     "url": "https://mastodon.social/tags/innovation"
+    },
+    {
+     "name": "exhibition",
+     "url": "https://mastodon.social/tags/exhibition"
+    },
+    {
+     "name": "technologies",
+     "url": "https://mastodon.social/tags/technologies"
+    },
+    {
+     "name": "semiconductors",
+     "url": "https://mastodon.social/tags/semiconductors"
+    },
+    {
+     "name": "computing",
+     "url": "https://mastodon.social/tags/computing"
+    },
+    {
+     "name": "infrastructure",
+     "url": "https://mastodon.social/tags/infrastructure"
+    },
+    {
+     "name": "humanoid",
+     "url": "https://mastodon.social/tags/humanoid"
+    },
+    {
+     "name": "robots",
+     "url": "https://mastodon.social/tags/robots"
+    },
+    {
+     "name": "digital",
+     "url": "https://mastodon.social/tags/digital"
+    },
+    {
+     "name": "healthcare",
+     "url": "https://mastodon.social/tags/healthcare"
+    }
+   ],
+   "emojis": [],
+   "tagged_collections": [],
+   "quote": null,
+   "card": {
+    "url": "https://chinaexpohub.com/yuelu-conference-2026-unveils-rmb-10-billion-future-industries-fund-plan/",
+    "title": "Yuelu Conference 2026 Unveils RMB 10B Fund Plan",
+    "description": "Yuelu Conference 2026 in Changsha unveiled an RMB 10 billion fund plan for AI, quantum technology, bioengineering, and advanced materials.",
+    "language": "en",
+    "type": "link",
+    "author_name": "",
+    "author_url": "",
+    "provider_name": "ChinaExpoHub | Find Trade Shows & Exhibitions in China",
+    "provider_url": "",
+    "html": "",
+    "width": 587,
+    "height": 392,
+    "image": "https://files.mastodon.social/cache/preview_cards/images/208/609/635/original/d48ec0476b8211e3.jpg",
+    "image_description": "",
+    "embed_url": "",
+    "blurhash": "UVCGo^RjW8t700t7t7WB$YWBR;oejpoeRkWX",
+    "published_at": "2026-09-26T16:15:59.000Z",
+    "authors": []
+   },
+   "poll": null,
+   "quote_approval": {
+    "automatic": [
+     "public"
+    ],
+    "manual": [],
+    "current_user": "denied"
+   }
+  },
+  {
+   "id": "117367417142309423",
+   "created_at": "2026-10-01T19:57:38.000Z",
+   "in_reply_to_id": null,
+   "in_reply_to_account_id": null,
+   "sensitive": false,
+   "spoiler_text": "",
+   "visibility": "public",
+   "language": "en",
+   "uri": "https://mstdn.business/users/cnbusinessforum/statuses/117367416992075838",
+   "url": "https://mstdn.business/@cnbusinessforum/117367416992075838",
+   "replies_count": 0,
+   "reblogs_count": 2,
+   "favourites_count": 0,
+   "quotes_count": 0,
+   "edited_at": null,
+   "content": "<p>Four major <a href=\"https://mstdn.business/tags/HongKong\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HongKong</span></a> <a href=\"https://mstdn.business/tags/technology\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>technology</span></a> <a href=\"https://mstdn.business/tags/fairs\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>fairs</span></a> will bring <a href=\"https://mstdn.business/tags/electronics\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>electronics</span></a>, artificial intelligence (#AI), <a href=\"https://mstdn.business/tags/robotics\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>robotics</span></a>, <a href=\"https://mstdn.business/tags/electronic\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>electronic</span></a> components and <a href=\"https://mstdn.business/tags/lighting\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>lighting</span></a> solutions together during October 2026. The <a href=\"https://mstdn.business/tags/HK\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HK</span></a> <a href=\"https://mstdn.business/tags/Trade\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Trade</span></a> Development Council expects the <a href=\"https://mstdn.business/tags/exhibitions\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>exhibitions</span></a> to attract approximately 6,200 <a href=\"https://mstdn.business/tags/exhibitors\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>exhibitors</span></a> from 28 countries and regions. Because the <a href=\"https://mstdn.business/tags/expos\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>expos</span></a> take place on different dates and at two <a href=\"https://mstdn.business/tags/venues\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>venues</span></a>, <a href=\"https://mstdn.business/tags/international\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>international</span></a> <a href=\"https://mstdn.business/tags/business\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>business</span></a> <a href=\"https://mstdn.business/tags/buyers\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>buyers</span></a> will need to <a href=\"https://mstdn.business/tags/plan\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>plan</span></a> their <a href=\"https://mstdn.business/tags/schedules\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>schedules</span></a> carefully. <a href=\"https://chinaexpohub.com/ai-robotics-and-smart-lighting-take-centre-stage-at-hong-kong-tech-fairs-2026/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">chinaexpohub.com/ai-robotics-a</span><span class=\"invisible\">nd-smart-lighting-take-centre-stage-at-hong-kong-tech-fairs-2026/</span></a></p>",
+   "reblog": null,
+   "account": {
+    "id": "109683831620529729",
+    "username": "cnbusinessforum",
+    "acct": "cnbusinessforum@mstdn.business",
+    "display_name": "China Business Forum",
+    "locked": false,
+    "bot": false,
+    "discoverable": true,
+    "indexable": false,
+    "group": false,
+    "created_at": "2022-12-16T00:00:00.000Z",
+    "note": "<p>Exclusive business resource poised to become world’s virtual headquarters for SMEs interested in doing business in China.</p>",
+    "url": "https://mstdn.business/@cnbusinessforum",
+    "uri": "https://mstdn.business/users/cnbusinessforum",
+    "avatar": "https://files.mastodon.social/cache/accounts/avatars/109/683/831/620/529/729/original/efd22688c90ba66f.png",
+    "avatar_static": "https://files.mastodon.social/cache/accounts/avatars/109/683/831/620/529/729/original/efd22688c90ba66f.png",
+    "avatar_description": "",
+    "header": "https://files.mastodon.social/cache/accounts/headers/109/683/831/620/529/729/original/0c206c7f8fa5bc6e.jpg",
+    "header_static": "https://files.mastodon.social/cache/accounts/headers/109/683/831/620/529/729/original/0c206c7f8fa5bc6e.jpg",
+    "header_description": "",
+    "followers_count": 333,
+    "following_count": 2,
+    "statuses_count": 17777,
+    "last_status_at": "2026-10-01",
+    "hide_collections": false,
+    "show_media": true,
+    "show_media_replies": true,
+    "show_featured": true,
+    "feature_approval": {
+     "automatic": [
+      "public"
+     ],
+     "manual": [],
+     "current_user": "denied"
+    },
+    "emojis": [],
+    "fields": [
+     {
+      "name": "Website",
+      "value": "<a href=\"https://cnbusinessforum.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cnbusinessforum.com</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     },
+     {
+      "name": "China Business Events",
+      "value": "<a href=\"https://cnbusinessforum.com/events/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cnbusinessforum.com/events/</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     }
+    ]
+   },
+   "media_attachments": [],
+   "mentions": [],
+   "tags": [
+    {
+     "name": "hongkong",
+     "url": "https://mastodon.social/tags/hongkong"
+    },
+    {
+     "name": "technology",
+     "url": "https://mastodon.social/tags/technology"
+    },
+    {
+     "name": "fairs",
+     "url": "https://mastodon.social/tags/fairs"
+    },
+    {
+     "name": "electronics",
+     "url": "https://mastodon.social/tags/electronics"
+    },
+    {
+     "name": "robotics",
+     "url": "https://mastodon.social/tags/robotics"
+    },
+    {
+     "name": "electronic",
+     "url": "https://mastodon.social/tags/electronic"
+    },
+    {
+     "name": "lighting",
+     "url": "https://mastodon.social/tags/lighting"
+    },
+    {
+     "name": "hk",
+     "url": "https://mastodon.social/tags/hk"
+    },
+    {
+     "name": "trade",
+     "url": "https://mastodon.social/tags/trade"
+    },
+    {
+     "name": "exhibitions",
+     "url": "https://mastodon.social/tags/exhibitions"
+    },
+    {
+     "name": "exhibitors",
+     "url": "https://mastodon.social/tags/exhibitors"
+    },
+    {
+     "name": "expos",
+     "url": "https://mastodon.social/tags/expos"
+    },
+    {
+     "name": "venues",
+     "url": "https://mastodon.social/tags/venues"
+    },
+    {
+     "name": "international",
+     "url": "https://mastodon.social/tags/international"
+    },
+    {
+     "name": "business",
+     "url": "https://mastodon.social/tags/business"
+    },
+    {
+     "name": "buyers",
+     "url": "https://mastodon.social/tags/buyers"
+    },
+    {
+     "name": "plan",
+     "url": "https://mastodon.social/tags/plan"
+    },
+    {
+     "name": "schedules",
+     "url": "https://mastodon.social/tags/schedules"
+    }
+   ],
+   "emojis": [],
+   "tagged_collections": [],
+   "quote": null,
+   "card": null,
+   "poll": null,
+   "quote_approval": {
+    "automatic": [
+     "public"
+    ],
+    "manual": [],
+    "current_user": "denied"
+   }
+  },
+  {
+   "id": "117367121089971484",
+   "created_at": "2026-10-01T18:42:23.588Z",
+   "in_reply_to_id": null,
+   "in_reply_to_account_id": null,
+   "sensitive": false,
+   "spoiler_text": "",
+   "visibility": "public",
+   "language": "en",
+   "uri": "https://mastodon.social/ap/users/116988275448638305/statuses/117367121089971484",
+   "url": "https://mastodon.social/@sipirtu/117367121089971484",
+   "replies_count": 0,
+   "reblogs_count": 0,
+   "favourites_count": 0,
+   "quotes_count": 0,
+   "edited_at": null,
+   "content": "<p>Boston Dynamics unveiled a new Atlas hand with four fingers and no pinky, designed for reliable tool use.</p><p>Source: The Robot Report<br /><a href=\"https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">therobotreport.com/boston-dyna</span><span class=\"invisible\">mics-drops-pinkie-on-new-humanoid-hand/</span></a></p><p><a href=\"https://mastodon.social/tags/Robotics\" class=\"mention hashtag\" rel=\"tag\">#<span>Robotics</span></a></p>",
+   "reblog": null,
+   "application": {
+    "name": "sipirtu",
+    "website": null
+   },
+   "account": {
+    "id": "116988275448638305",
+    "username": "sipirtu",
+    "acct": "sipirtu",
+    "display_name": "Sipirtu",
+    "locked": false,
+    "bot": false,
+    "discoverable": true,
+    "indexable": true,
+    "group": false,
+    "created_at": "2026-07-26T00:00:00.000Z",
+    "note": "<p>Daily updates on AI and automation.</p>",
+    "url": "https://mastodon.social/@sipirtu",
+    "uri": "https://mastodon.social/ap/users/116988275448638305",
+    "avatar": "https://files.mastodon.social/accounts/avatars/116/988/275/448/638/305/original/781cd2637daff2f3.png",
+    "avatar_static": "https://files.mastodon.social/accounts/avatars/116/988/275/448/638/305/original/781cd2637daff2f3.png",
+    "avatar_description": "",
+    "header": "https://files.mastodon.social/accounts/headers/116/988/275/448/638/305/original/d46c16d843098eee.png",
+    "header_static": "https://files.mastodon.social/accounts/headers/116/988/275/448/638/305/original/d46c16d843098eee.png",
+    "header_description": "",
+    "followers_count": 56,
+    "following_count": 230,
+    "statuses_count": 6636,
+    "last_status_at": "2026-10-01",
+    "hide_collections": false,
+    "show_media": false,
+    "show_media_replies": true,
+    "show_featured": false,
+    "noindex": false,
+    "feature_approval": {
+     "automatic": [
+      "public"
+     ],
+     "manual": [],
+     "current_user": "denied"
+    },
+    "emojis": [],
+    "roles": [],
+    "fields": [
+     {
+      "name": "Threads",
+      "value": "<a href=\"https://www.threads.com/@sipirtu\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">threads.com/@sipirtu</span><span class=\"invisible\"></span></a>",
+      "verified_at": "2026-07-27T12:50:06.022+00:00"
+     },
+     {
+      "name": "Bluesky",
+      "value": "<a href=\"https://bsky.app/profile/sipirtu.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">bsky.app/profile/sipirtu.com</span><span class=\"invisible\"></span></a>",
+      "verified_at": null
+     }
+    ]
+   },
+   "media_attachments": [],
+   "mentions": [],
+   "tags": [
+    {
+     "name": "robotics",
+     "url": "https://mastodon.social/tags/robotics"
+    }
+   ],
+   "emojis": [],
+   "tagged_collections": [],
+   "quote": null,
+   "card": {
+    "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
+    "title": "Boston Dynamics drops pinkie on new humanoid hand",
+    "description": "Boston Dynamics' new four-fingered hand is directly actuated, and built for high fidelity simulation to enable sim-to-real RL.",
+    "language": "en",
+    "type": "link",
+    "author_name": "",
+    "author_url": "",
+    "provider_name": "The Robot Report",
+    "provider_url": "",
+    "html": "",
+    "width": 596,
+    "height": 387,
+    "image": "https://files.mastodon.social/cache/preview_cards/images/209/261/578/original/53b74a09dc78a04e.jpg",
+    "image_description": "",
+    "embed_url": "",
+    "blurhash": "UIEVNUN{~Vxw?vRPt7t7oNM{ogoLtTWAn~j?",
+    "published_at": "2026-10-01T17:52:51.000Z",
+    "authors": []
+   },
+   "poll": null,
+   "quote_approval": {
+    "automatic": [
+     "public"
+    ],
+    "manual": [],
+    "current_user": "denied"
+   }
+  }
+ ]
+}

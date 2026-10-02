@@ -1,0 +1,85 @@
+{
+ "slug": "fpf-defense",
+ "generatedAt": "2026-10-02",
+ "summary": "FPF Defense is developing SmartFlak, a counter-drone system built around Hammerhead, a low-cost autonomous kinetic interceptor meant to destroy Shahed-class one-way attack drones. Tectonic puts it at about 20 people, at the prototype stage. The Form D gives a New York address, and the press release says headquarters is relocating to West Palm Beach, Florida.",
+ "thesis": "The press release describes an attack drone costing roughly $50,000 against missile interceptors that can cost millions. FPF answers with an interceptor the release says is engineered for U.S. mass production, built mostly from commercial off-the-shelf parts per Tectonic.",
+ "stage": "Series Seed. The Form D filed 3 August 2026 shows a $10,000,000 equity offering sold in full to 4 investors, first sale 16 June 2026. Ondas's 10-Q says it bought Series Seed Preferred Stock on 17 June 2026 for $5.0 million. RSE Ventures co-led per the 24 July 2026 press release, amount undisclosed. The CEO told Tectonic the money gives 12 to 14 months of runway. No valuation is disclosed.",
+ "team": [
+  {
+   "name": "Christopher C. Miller",
+   "background": "Chief Executive Officer and director. Per the press release, 27 years as a U.S. Army Green Beret, Director of the National Counterterrorism Center and Acting Secretary of Defense."
+  },
+  {
+   "name": "Grant Fox",
+   "background": "Chief Operating Officer and director, signed the Form D as President. The press release cites U.S. Navy and Defense Innovation Unit experience. Tectonic calls him a co-founder."
+  },
+  {
+   "name": "Dr. Jeff Maas",
+   "background": "Chief Technology Officer and former DARPA program manager per the press release. Tectonic calls him a co-founder. Not listed as a related person on the Form D."
+  },
+  {
+   "name": "Christian Sessoms",
+   "background": "Chief Revenue Officer and fourth founder per the press release, a retired lieutenant colonel and career Army Special Forces officer. Executive officer on the Form D."
+  }
+ ],
+ "questions": [
+  "The Form D shows 4 investors for $10,000,000 and Ondas's 10-Q accounts for $5.0 million. How much did RSE Ventures put in, and what rights did Ondas get?",
+  "Can you share government data from the May 2026 Camp Atterbury demo (2 of 3 targets hit, per the CEO) and the warhead evaluation scheduled for 28 July?",
+  "What is the bill of materials behind the roughly $30,000 unit cost today and the $15,000 to $20,000 full-rate target, and which parts are commercial off-the-shelf?",
+  "What are the terms with UAV Solutions in Baltimore, and how is the 1,000-a-month facility targeted for the end of 2027 funded if APFIT money does not arrive?"
+ ],
+ "risks": [
+  "The only performance evidence in the sources read is the CEO's own account (2 of 3 targets hit at Camp Atterbury in May 2026). No government or independent report was read.",
+  "The production plan is aggressive and partly unfunded: about 100 a month by November 2026, then 1,000 a month by end of 2027, against 12 to 14 months of runway.",
+  "Ondas supplied $5.0 million of the $10,000,000. The CEO says he expects close collaboration, possibly using Ondas production capacity. That could limit independence and options for a later investor."
+ ],
+ "unverified": [
+  "Tectonic says testing is with OUSW-R&E under the T-Rex program, and Dual Use Investor describes an Army challenge. No government page naming FPF as a participant was read.",
+  "A search snippet gives Jeff Maas a 2018 to 2022 DARPA Strategic Technology Office tenure. No page opened states this or ties it to FPF's CTO.",
+  "It is not confirmed that the placeholder page at fpfdefense.com belongs to this company. The Wayback Machine lists captures from December 2021, before the 2025 incorporation."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 3 August 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2143944/000214394426000001/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "Ondas press release, 24 July 2026",
+   "url": "https://ir.ondas.com/press-releases/detail/318/rse-ventures-and-ondas-co-lead-strategic-investment-in-fpf"
+  },
+  {
+   "title": "Ondas Form 10-Q, quarter ended 30 June 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1646188/000119312526349288/onds-20260630.htm"
+  },
+  {
+   "title": "Tectonic, 27 July 2026",
+   "url": "https://www.tectonicdefense.com/fpf-defense-raises-10m-for-interceptors/"
+  },
+  {
+   "title": "Wall Street Journal, 15 March 2026",
+   "url": "https://www.wsj.com/world/the-middle-east-needs-to-learn-how-ukraine-stops-cheap-drones-ae1e36e2"
+  },
+  {
+   "title": "To Vima republication, 16 March 2026",
+   "url": "https://www.tovima.com/wsj/the-middle-east-needs-to-learn-how-ukraine-stops-cheap-drones/"
+  },
+  {
+   "title": "Dual Use Investor, 6 August 2026",
+   "url": "https://dualuseinvestor.substack.com/p/this-weeks-dealflow-singularity-fpf"
+  },
+  {
+   "title": "fpfdefense.com placeholder page",
+   "url": "https://fpfdefense.com"
+  },
+  {
+   "title": "Wayback Machine capture index, fpfdefense.com",
+   "url": "https://web.archive.org/cdx/search/cdx?url=fpfdefense.com*&output=txt&fl=timestamp,original,statuscode&limit=15&collapse=digest"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-03-15",
+  "what": "The Wall Street Journal named FPF-Defense as the company Chris Miller now runs, a passing mention in a news article quoting him.",
+  "url": "https://www.wsj.com/world/the-middle-east-needs-to-learn-how-ukraine-stops-cheap-drones-ae1e36e2"
+ }
+}

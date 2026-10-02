@@ -1,0 +1,85 @@
+{
+ "slug": "ampera",
+ "generatedAt": "2026-10-02",
+ "summary": "Ampera, established in 2025 and headquartered in Palm Beach Gardens, Florida, is developing a factory-built, thorium-fueled, helium-cooled microreactor that stays subcritical and is driven by external neutron generators. Its NRC plan describes a sealed-core module of approximately 30 MWt or 15 MWe, fueled at the factory and shipped to sites such as data centers.",
+ "thesis": "Ampera sits across energy and manufacturing. It plans to apply by October 2027 for a combined NRC license covering a Florida facility that would build and fuel reactor modules. No source reports a fueled test.",
+ "stage": "Super Micro's 10-K says it invested $6.0 million in June 2025 for an approximately 11% interest and holds one of three board seats. The only Form D (27 February 2026) reports $20,000,000 of equity sold to 4 investors, first sale 31 December 2025, and names none. Scorpio Tankers announced a $10 million investment on 2 April 2026. Filings do not say whether that is inside the Form D total.",
+ "team": [
+  {
+   "name": "Brian Matthews",
+   "background": "Founder and CEO per NRC filings. Company website says he founded ADDiTEC (metal 3D printing) in 2015, remains its CEO, and holds a master's in nuclear reactor physics."
+  },
+  {
+   "name": "Jacques Bories",
+   "background": "CFO since September 2025, per the company website, which says he previously spent more than two decades at United Technologies, including as global CFO of its Carrier division."
+  },
+  {
+   "name": "Robert Frost",
+   "background": "Chief Operating Officer. Company website says he founded Nuclear Safety Associates, which Atkins acquired in 2014, and holds a Ph.D. in nuclear engineering from Georgia Institute of Technology."
+  },
+  {
+   "name": "Diana Morales",
+   "background": "Chief Legal Officer and Corporate Secretary. Company website says she joined in September 2025 from Carrier Global Corp., where she was Vice President and Associate General Counsel."
+  }
+ ],
+ "questions": [
+  "What neutron source strength does a 30 MWt subcritical core need, what do Adelphi's generators deliver, and how much of the 15 MWe output does the driver consume?",
+  "Who are the 4 investors in the $20,000,000 Form D sale, is Scorpio's $10 million inside that total, and what are Super Micro's current stake and board rights?",
+  "What are the ADDiTEC master services agreement terms, which entity owns the patents and printers, and how does Brian Matthews split his time between the two companies?",
+  "What is the uranium component of the fuel (enrichment, quantity, supplier), and what irradiation data will support fuel qualification before the October 2027 application?"
+ ],
+ "risks": [
+  "No source reports a fueled test. POWER (April 2026) reported a fueled prototype targeted for the end of 2027. Every topical report in the NRC plan has a TBD submittal date.",
+  "The licensing schedule is later than some commercial claims. The NRC plan puts licensed activity in 2029 and beyond, while POWER reported first commercial deliveries projected for 2028 to 2029.",
+  "The NRC plan says core and fuel additive manufacturing R&D is contracted to ADDiTEC, whose CEO is Matthews (company website). No source opened says which entity owns the key IP."
+ ],
+ "unverified": [
+  "Search snippets cite about $20 million raised (attributed to PitchBook), $30 million and $295 million. None is confirmed, and $295 million conflicts with the filings.",
+  "Super Micro's 10-K reports $5.0 million invested in fiscal 2026 in a battery storage company matching its earlier description of Ampera. The notes opened do not name it.",
+  "POWER reported (April 2026) that Ampera was exploring fueled reactor testing with Idaho National Laboratory and had applied unsuccessfully to the Army's Project Janus. Neither is confirmed elsewhere."
+ ],
+ "sources": [
+  {
+   "title": "NRC regulatory engagement plan, 10 September 2026",
+   "url": "https://adams-search.nrc.gov/api/search/docdetails/EE08D821-97DA-C4BD-8745-A08C55C00000"
+  },
+  {
+   "title": "Form D, 27 February 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2110656/000211065626000001/primary_doc.xml"
+  },
+  {
+   "title": "Super Micro 10-K, fiscal 2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536525000027/R85.htm"
+  },
+  {
+   "title": "Scorpio Tankers press release, 2 April 2026",
+   "url": "https://www.scorpiotankers.com/scorpio-tankers-inc-announces-strategic-collaboration-with-ampera-inc-to-develop-commercialize-micronuclear-solutions-for-global-marine-and-shipping-markets/"
+  },
+  {
+   "title": "POWER magazine, 9 April 2026",
+   "url": "https://www.powermag.com/inside-amperas-bet-on-subcritical-thorium-microreactors/"
+  },
+  {
+   "title": "Ampera launch release, 19 November 2025",
+   "url": "https://www.prnewswire.com/news-releases/ampera-launches-from-stealth-mode-to-revolutionize-clean-energy-for-the-ai-era-302620033.html"
+  },
+  {
+   "title": "Ampera company page, leadership biographies",
+   "url": "https://www.amperaglobal.com/company"
+  },
+  {
+   "title": "Super Micro 10-K, fiscal 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/R14.htm"
+  },
+  {
+   "title": "Ampera and Adelphi release, 7 July 2026",
+   "url": "https://www.prnewswire.com/news-releases/ampera-and-adelphi-technology-announce-strategic-collaboration-to-advance-ultra-high-yield-neutron-generation-for-next-generation-nuclear-energy-systems-302818836.html"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-11-19",
+  "what": "Ampera left stealth via PR Newswire, describing 15 MWe and 30 MWe subcritical thorium microreactor configurations and an unnamed Fortune 500 backer.",
+  "url": "https://www.prnewswire.com/news-releases/ampera-launches-from-stealth-mode-to-revolutionize-clean-energy-for-the-ai-era-302620033.html"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "deployable-energy",
+ "generatedAt": "2026-10-02",
+ "summary": "Deployable Energy Limited is a Houston company developing the Unity Nuclear Battery, a 1 MWe helium-cooled, water-moderated microreactor using 4.95% enriched uranium dioxide fuel. The company says units will be factory built and refuelled on a five-year cycle. A demonstration reactor completed a zero-power criticality test at Idaho National Laboratory on 30 June 2026.",
+ "thesis": "It reached criticality in roughly 150 days using 4.95% enriched fuel rather than HALEU. Its stated markets (defense, maritime, remote industry, data centers) and a Houston facility it says is intended for high-volume production fit energy, defense and manufacturing.",
+ "stage": "Solaris's 10-Q filed 6 August 2026 says it invested $5.0 million in June 2026 in a SAFE with a $150.0 million post-money cap. Deployable said on 17 August 2026 that Hornbeck Offshore also invested, amount not given. EDGAR shows no Form D. No source opened names other investors, a total raised or a priced round. The company told the NRC it plans a construction permit application by 1 December 2026.",
+ "team": [
+  {
+   "name": "Bobby Gallagher",
+   "background": "CEO and co-founder. Says he was a commissioned military officer, worked in shipyards and built a venture-backed startup in offshore oil and gas safety."
+  },
+  {
+   "name": "Lance Maul",
+   "background": "Chief Operations Officer. Says in the company's leadership post that he co-founded Deployable Energy. The post names no prior employers."
+  },
+  {
+   "name": "Sanjay Mukhi",
+   "background": "Chief Commercialization Officer, called a co-founder by POWER. Says he worked more than 20 years across the U.S. government on nuclear energy, including on NRIC's leadership team."
+  },
+  {
+   "name": "Richard Gaut",
+   "background": "CFO. Says he spent the first 15 years of his career investing in entrepreneurs bringing oilfield technologies to market, and that this is his second company with Gallagher."
+  }
+ ],
+ "questions": [
+  "How much has the company raised in total, from whom and on what terms, how large is the Hornbeck investment, and when is a priced round planned?",
+  "Which licence is sought for the first unit (the NRC plan calls it a research reactor), and what is the route to licensing repeat units at customer sites?",
+  "What did the zero-power criticality test validate, and what are the schedule, milestones and budget for the self-funded full-power test in INL's DOME testbed in 2027?",
+  "Of the more than $10 billion in letters of intent cited to the NRC, what is binding or backed by deposits, and who is the first paying customer?"
+ ],
+ "risks": [
+  "The INL result is zero-power criticality only. The full-power DOME test is planned for 2027, and INL says the company must meet milestones to keep its slot.",
+  "The NRC describes the unit as a research reactor. Licensing many units across sites depends on an NRC framework the company itself described as under development.",
+  "Commercial traction is unproven. The $10 billion figure is the company's own description of letters of intent, and no named customer with a firm order was found."
+ ],
+ "unverified": [
+  "Neutron Bytes says Deployable took funds from Capital Factory and Blue Corridor Ventures and was raising a $25 million pre-seed/seed round. No filing or company release confirms this.",
+  "The company's letter to the NRC claims over $10 billion in letters of intent. No counterparties or terms are named, and the figure is not independently confirmed.",
+  "Neutron Bytes says Gallagher supplied most of the initial capital, giving no source. No filing or company release confirms this."
+ ],
+ "sources": [
+  {
+   "title": "Solaris 10-Q, filed 6 August 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1697500/000162828026054349/sei-20260630.htm"
+  },
+  {
+   "title": "Company post on Hornbeck, 17 August 2026",
+   "url": "https://www.deployable.energy/post/deployable-energy-and-hornbeck-offshore-partner-to-advance-maritime-nuclear-power"
+  },
+  {
+   "title": "EDGAR Form D search, no hits",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Deployable%20Energy%22&forms=D"
+  },
+  {
+   "title": "PR Newswire criticality release, 1 July 2026",
+   "url": "https://www.prnewswire.com/news-releases/deployable-energy-announces-unity-demonstration-reactor-achieves-criticality-at-idaho-national-laboratory-302816255.html"
+  },
+  {
+   "title": "NRC readiness assessment plan, 9 September 2026",
+   "url": "https://www.nrc.gov/docs/ML2624/ML26244A250.pdf"
+  },
+  {
+   "title": "Letter of intent to NRC, 9 October 2025",
+   "url": "https://www.nrc.gov/docs/ML2528/ML25283A049.pdf"
+  },
+  {
+   "title": "LocalNews8 (INL release), 30 September 2026",
+   "url": "https://localnews8.com/news/top-stories/2026/09/30/deployable-energy-selected-by-nric-to-test-its-nuclear-battery-at-dome/"
+  },
+  {
+   "title": "POWER Magazine, 1 July 2026",
+   "url": "https://www.powermag.com/deployable-energys-unity-nuclear-reactor-achieves-criticality-at-inl-third-under-doe-nuclear-push/"
+  },
+  {
+   "title": "Company leadership post, 27 February 2026",
+   "url": "https://www.deployable.energy/post/meet-the-deployable-energy-leadership-team"
+  },
+  {
+   "title": "Neutron Bytes, 3 May 2026",
+   "url": "https://neutronbytes.com/2026/05/03/nric-launch-pad-selects-four-startups/"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-03-31",
+  "what": "The Fiji Times reported Fiji's prime minister saying the government was working with Deployable Energy and others on shipboard micro modular reactors.",
+  "url": "https://www.fijitimes.com.fj/nuclear-based-micro-modular-reactor-power-source-coming-to-fiji/"
+ }
+}

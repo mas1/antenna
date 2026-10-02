@@ -1,0 +1,89 @@
+{
+ "slug": "chariot-defense",
+ "generatedAt": "2026-10-02",
+ "summary": "Chariot Defense builds Amphora, a family of transportable battery power systems for military units. The systems take energy from tactical generators, vehicles, wall power or solar, store it, and distribute it under software control. The Form D, USAspending and the job board give San Bruno as its location.",
+ "thesis": "Drones, counter-UAS, electronic warfare and directed energy all draw on the same tactical power supply. Chariot has a company-announced $7.6 million DIU contract to deliver to Army brigades, but the Series A is already done, led by Andreessen Horowitz.",
+ "stage": "Series A. A Form D filed 25 February 2026 shows $33,160,085 sold of $34,600,000 to 16 investors. The same-day release calls it a $34 million Series A led by Andreessen Horowitz, total funding $41 million after an $8 million seed in July 2025. USAspending shows $74,900 obligated. The company announced a $7.6 million DIU contract on 24 August 2026, then gave $7.4 million. No source gives a valuation.",
+ "team": [
+  {
+   "name": "Adam Warmoth",
+   "background": "Founder and CEO. General Catalyst describes him as a Stanford-trained engineer who led engineering for counter-UAS at Anduril and was Head of Product at Archer."
+  },
+  {
+   "name": "Erin Price-Wright",
+   "background": "Director on the Form D. General partner at Andreessen Horowitz, which led the Series A."
+  },
+  {
+   "name": "James E. Rainey",
+   "background": "Advisor (not an employee). Per the company release, a retired Army general and former Commanding General of U.S. Army Futures Command."
+  },
+  {
+   "name": "Ellen Lord",
+   "background": "Advisor (not an employee). Per the company release, former Under Secretary of Defense for Acquisition and Sustainment and former President and CEO of Textron Systems."
+  }
+ ],
+ "questions": [
+  "What does the DIU PRISM contract cover (units, obligated amount, deliverables), and why do company releases say both $7.6 million and $7.4 million with no award on USAspending?",
+  "Which Army office would buy at scale after PRISM, and what depends on the Army xTech Adaptive Strike final exercise reportedly scheduled for October to November 2026?",
+  "What is revenue to date, and how does it split between the Army, DIU and the unnamed commercial customers the Series A release mentions?",
+  "What are unit price, gross margin and monthly output for Amphora 24 and Amphora 400, and who besides Adam Warmoth leads engineering and manufacturing?"
+ ],
+ "risks": [
+  "The round is recent and crowded. Andreessen Horowitz led the $34 million Series A in February 2026 with nine other named funds participating. No source gives a valuation.",
+  "Government money on record is small against $41 million raised. USAspending shows $74,900 obligated. The DIU contract rests on company releases, and no source names a program of record.",
+  "Performance figures are company-reported and not consistent. The DIU release says up to 60 percent fuel reduction, the company site says up to 45 percent."
+ ],
+ "unverified": [
+  "Tectonic Defense gives Amphora 400 capacity as 315 kWh, while the company site lists 15 kWh. The discrepancy is not resolved.",
+  "Tectonic Defense reports Warmoth saying Amphora was tested by the 101st Airborne and Marine Corps teams and is deployed outside the US. No government source was found.",
+  "Military and Aerospace Electronics reports that Chariot is a finalist in the Army's xTech Adaptive Strike competition. This is not confirmed against the Army's competition page."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 25 February 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2113350/000211335026000001/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "PR Newswire, Series A release, 25 February 2026",
+   "url": "https://www.prnewswire.com/news-releases/chariot-defense-announces-34m-series-a-led-by-andreessen-horowitz-to-scale-command-of-power-on-the-battlefield-302696144.html"
+  },
+  {
+   "title": "USAspending, purchase order FA864926P0102",
+   "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864926P0102_9700_-NONE-_-NONE-/"
+  },
+  {
+   "title": "PR Newswire, DIU contract release, 24 August 2026",
+   "url": "https://www.prnewswire.com/news-releases/chariot-defense-secures-diu-contract-to-build-armys-tactical-power-grid-302858315.html"
+  },
+  {
+   "title": "PR Newswire, Board of Advisors, 9 September 2026",
+   "url": "https://www.prnewswire.com/news-releases/chariot-defense-announces-board-of-advisors-featuring-senior-military-civilian-defense-and-venture-capital-leaders-302873148.html"
+  },
+  {
+   "title": "General Catalyst investment post, 16 July 2025",
+   "url": "https://www.generalcatalyst.com/stories/our-investment-in-chariot-defense"
+  },
+  {
+   "title": "Chariot Defense company site",
+   "url": "https://chariotdefense.com"
+  },
+  {
+   "title": "Tectonic Defense, 25 February 2026",
+   "url": "https://www.tectonicdefense.com/exclusive-interview-chariot-raises-34m-series-a/"
+  },
+  {
+   "title": "Military and Aerospace Electronics, 26 August 2026",
+   "url": "https://www.militaryaerospace.com/power/article/55400631/chariot-wins-76-million-diu-contract-for-army-tactical-power-systems"
+  },
+  {
+   "title": "DVIDS, Naval Postgraduate School story, 20 March 2025",
+   "url": "https://www.dvidshub.net/news/493393/lasers-destroy-drones-additive-manufacturing-builds-them-nps-accelerates-emerging-technology-jifx-fulfill-us-navy-and-dods"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2025-03-20",
+  "what": "Chariot Defense was first named publicly in a Naval Postgraduate School news story on DVIDS about the JIFX field experiment.",
+  "url": "https://www.dvidshub.net/news/493393/lasers-destroy-drones-additive-manufacturing-builds-them-nps-accelerates-emerging-technology-jifx-fulfill-us-navy-and-dods"
+ }
+}

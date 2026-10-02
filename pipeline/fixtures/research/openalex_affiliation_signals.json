@@ -1,0 +1,5781 @@
+{
+ "works_arxiv_robotics_with_raw_affiliations": {
+  "_request": "GET https://api.openalex.org/works?filter=primary_topic.id:T10653|T10462|T10879|T10571|T10191,from_publication_date:2026-08-15,has_raw_affiliation_strings:true,primary_location.source.id:S4306400194&per-page=200&cursor=*&sort=publication_date:desc&select=id,doi,title,publication_date,cited_by_count,primary_topic,authorships&mailto=...",
+  "_note": "results trimmed from 200 to 15 works; meta is verbatim",
+  "meta": {
+   "count": 660,
+   "db_response_time_ms": 40,
+   "page": null,
+   "per_page": 200,
+   "next_cursor": "IlsxNzg5NjAzMjAwMDAwLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjEzNTk2NjAzJ10i",
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2026-08-15)\n  and has_raw_affiliation_strings is (true)\n  and source is (S4306400194)\n  and topic is (T10191 or T10462 or T10571 or T10653 or T10879)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2026-08-15"
+      },
+      {
+       "column_id": "has_raw_affiliation_strings",
+       "value": true
+      },
+      {
+       "column_id": "primary_location.source.id",
+       "value": "S4306400194"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "primary_topic.id",
+         "value": "T10191"
+        },
+        {
+         "column_id": "primary_topic.id",
+         "value": "T10462"
+        },
+        {
+         "column_id": "primary_topic.id",
+         "value": "T10571"
+        },
+        {
+         "column_id": "primary_topic.id",
+         "value": "T10653"
+        },
+        {
+         "column_id": "primary_topic.id",
+         "value": "T10879"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2026-08-15,has_raw_affiliation_strings:true,primary_location.source.id:S4306400194,primary_topic.id:T10191|T10462|T10571|T10653|T10879&per_page=200&cursor=%2A"
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W7214331971",
+    "doi": "https://doi.org/10.48550/arxiv.2609.28766",
+    "title": "TAPESIM: Efficient Simulation of Adhesive Tape Dispensing for Robotic Manipulation",
+    "publication_date": "2026-09-23",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.49970000982284546,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5135554736",
+       "display_name": "Zhaofeng Luo",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I74973139",
+        "display_name": "Carnegie Mellon University",
+        "ror": "https://ror.org/05x2bcf33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I74973139"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Luo, Zhaofeng",
+      "raw_affiliation_strings": [
+       "Carnegie Mellon University",
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Carnegie Mellon University",
+        "institution_ids": [
+         "https://openalex.org/I74973139"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152913577",
+       "display_name": "Xinyu Lu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lu, Xinyu",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152911930",
+       "display_name": "jaehoon Choi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Choi, Jaehoon",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5113304084",
+       "display_name": "Trinity Chung",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chung, Trinity",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5150917682",
+       "display_name": "Xiaowen Qiu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiu, Xiaowen",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152784229",
+       "display_name": "Hugh Nicholas Perkins",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Perkins, Hugh Nicholas",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152815309",
+       "display_name": "Gianna Calderon",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Calderon, Gianna",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022138848",
+       "display_name": "Alexis Duburcq",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Duburcq, Alexis",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152911357",
+       "display_name": "Sanghyun Son",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Son, Sanghyun",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152836336",
+       "display_name": "Tsun-Hsuan Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Tsun-Hsuan",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5087311970",
+       "display_name": "Minchen Li",
+       "orcid": "https://orcid.org/0000-0001-9868-7311",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9868-7311"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I74973139",
+        "display_name": "Carnegie Mellon University",
+        "ror": "https://ror.org/05x2bcf33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I74973139"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Minchen",
+      "raw_affiliation_strings": [
+       "Carnegie Mellon University",
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Carnegie Mellon University",
+        "institution_ids": [
+         "https://openalex.org/I74973139"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214067954",
+    "doi": "https://doi.org/10.48550/arxiv.2609.26672",
+    "title": "Imperfection for Precision: Upcycling Imperfect Data for High-Precision Robotic Manipulation",
+    "publication_date": "2026-09-22",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.9325000047683716,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152331359",
+       "display_name": "Hao Wei",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wei, Hao",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152553469",
+       "display_name": "Yang Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Yang",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152373031",
+       "display_name": "Chao Tang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tang, Chao",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152350518",
+       "display_name": "Shengbao Li",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Shengbao",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152353834",
+       "display_name": "Jiangtao Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Jiangtao",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152351146",
+       "display_name": "Jinxuan Zhu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165932596",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhu, Jinxuan",
+      "raw_affiliation_strings": [
+       "National University of Singapore",
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "National University of Singapore",
+        "institution_ids": [
+         "https://openalex.org/I165932596"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152509853",
+       "display_name": "Jiaheng Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Jiaheng",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102988623",
+       "display_name": "Hong Yin",
+       "orcid": "https://orcid.org/0000-0002-8640-4457",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8640-4457"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yin, Hong",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152557160",
+       "display_name": "Zhaofeng Cao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157725225",
+        "display_name": "University of Illinois Urbana-Champaign",
+        "ror": "https://ror.org/047426m28",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cao, Zhaofeng",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience",
+       "University of Illinois Urbana-Champaign"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "University of Illinois Urbana-Champaign",
+        "institution_ids": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5083545249",
+       "display_name": "Tingguang Li",
+       "orcid": "https://orcid.org/0000-0003-1161-9987",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1161-9987"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Tingguang",
+      "raw_affiliation_strings": [
+       "Samsung Robotics eXperience"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Samsung Robotics eXperience",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214068800",
+    "doi": "https://doi.org/10.48550/arxiv.2609.25631",
+    "title": "DynaForge: Planning-Guided Residual Learning for Dynamic Manipulation Demonstration Generation",
+    "publication_date": "2026-09-22",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.8568000197410583,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152569588",
+       "display_name": "Yiyang Jin",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I183067930",
+        "display_name": "Shanghai Jiao Tong University",
+        "ror": "https://ror.org/0220qvk04",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jin, Yiyang",
+      "raw_affiliation_strings": [
+       "School of Automation and Intelligent Sensing , Shanghai Jiao Tong University , Shanghai 200240 , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Automation and Intelligent Sensing , Shanghai Jiao Tong University , Shanghai 200240 , China",
+        "institution_ids": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152557539",
+       "display_name": "Yu Zheng",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I183067930",
+        "display_name": "Shanghai Jiao Tong University",
+        "ror": "https://ror.org/0220qvk04",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zheng, Yu",
+      "raw_affiliation_strings": [
+       "School of Automation and Intelligent Sensing , Shanghai Jiao Tong University , Shanghai 200240 , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Automation and Intelligent Sensing , Shanghai Jiao Tong University , Shanghai 200240 , China",
+        "institution_ids": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5122970536",
+       "display_name": "Xiao He",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "He, Xiao",
+      "raw_affiliation_strings": [
+       "LandSpace Technology Co. , Ltd. , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "LandSpace Technology Co. , Ltd. , China",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152507220",
+       "display_name": "Hesheng Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I183067930",
+        "display_name": "Shanghai Jiao Tong University",
+        "ror": "https://ror.org/0220qvk04",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Hesheng",
+      "raw_affiliation_strings": [
+       "School of Automation and Intelligent Sensing , Shanghai Jiao Tong University , Shanghai 200240 , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Automation and Intelligent Sensing , Shanghai Jiao Tong University , Shanghai 200240 , China",
+        "institution_ids": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214076985",
+    "doi": "https://doi.org/10.48550/arxiv.2609.25932",
+    "title": "Unsigned Distance Maps on 2D Point Cloud Registration",
+    "publication_date": "2026-09-22",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10191",
+     "display_name": "Robotics and Sensor-Based Localization",
+     "score": 0.9757999777793884,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2202",
+      "display_name": "Aerospace Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152342766",
+       "display_name": "Ricardo B. Sousa",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I182534213",
+        "display_name": "Universidade do Porto",
+        "ror": "https://ror.org/043pwc612",
+        "country_code": "PT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I182534213"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210166615",
+        "display_name": "INESC TEC",
+        "ror": "https://ror.org/05fa8ka61",
+        "country_code": "PT",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210125590",
+         "https://openalex.org/I4210166615"
+        ]
+       }
+      ],
+      "countries": [
+       "PT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sousa, Ricardo B.",
+      "raw_affiliation_strings": [
+       "Faculty of Engineering , University of Porto (FEUP). R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+       "INESC TEC -Institute for Systems and Computer Engineering , Tech- nology and Science. R. Dr. Roberto Frias , 4200-465 Porto , Portugal"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Engineering , University of Porto (FEUP). R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+        "institution_ids": [
+         "https://openalex.org/I182534213"
+        ]
+       },
+       {
+        "raw_affiliation_string": "INESC TEC -Institute for Systems and Computer Engineering , Tech- nology and Science. R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+        "institution_ids": [
+         "https://openalex.org/I4210166615"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5028708181",
+       "display_name": "Giorgio Grisetti",
+       "orcid": "https://orcid.org/0000-0002-8038-9989",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8038-9989"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I861853513",
+        "display_name": "Sapienza University of Rome",
+        "ror": "https://ror.org/02be6w209",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I861853513"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Grisetti, Giorgio",
+      "raw_affiliation_strings": [
+       "Sapienza University of Rome. Piazzale Aldo Moro 5 , 00185 Roma RM , Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Sapienza University of Rome. Piazzale Aldo Moro 5 , 00185 Roma RM , Italy",
+        "institution_ids": [
+         "https://openalex.org/I861853513"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5150728310",
+       "display_name": "Héber Miguel Sobreira",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210166615",
+        "display_name": "INESC TEC",
+        "ror": "https://ror.org/05fa8ka61",
+        "country_code": "PT",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210125590",
+         "https://openalex.org/I4210166615"
+        ]
+       }
+      ],
+      "countries": [
+       "PT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sobreira, Héber Miguel",
+      "raw_affiliation_strings": [
+       "INESC TEC -Institute for Systems and Computer Engineering , Tech- nology and Science. R. Dr. Roberto Frias , 4200-465 Porto , Portugal"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "INESC TEC -Institute for Systems and Computer Engineering , Tech- nology and Science. R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+        "institution_ids": [
+         "https://openalex.org/I4210166615"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152544301",
+       "display_name": "Carlos André Silva",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Silva, Carlos André",
+      "raw_affiliation_strings": [
+       "Flowbotic Mobile Systems , S.A. Lugar do Pombal , Zona Industrial de Salgueiro , 3530-259 Viseu , Portugal"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Flowbotic Mobile Systems , S.A. Lugar do Pombal , Zona Industrial de Salgueiro , 3530-259 Viseu , Portugal",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5013118179",
+       "display_name": "António Paulo Moreira",
+       "orcid": "https://orcid.org/0000-0001-8573-3147",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8573-3147"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I182534213",
+        "display_name": "Universidade do Porto",
+        "ror": "https://ror.org/043pwc612",
+        "country_code": "PT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I182534213"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210166615",
+        "display_name": "INESC TEC",
+        "ror": "https://ror.org/05fa8ka61",
+        "country_code": "PT",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210125590",
+         "https://openalex.org/I4210166615"
+        ]
+       }
+      ],
+      "countries": [
+       "PT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Moreira, António Paulo",
+      "raw_affiliation_strings": [
+       "Faculty of Engineering , University of Porto (FEUP). R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+       "INESC TEC -Institute for Systems and Computer Engineering , Tech- nology and Science. R. Dr. Roberto Frias , 4200-465 Porto , Portugal"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Engineering , University of Porto (FEUP). R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+        "institution_ids": [
+         "https://openalex.org/I182534213"
+        ]
+       },
+       {
+        "raw_affiliation_string": "INESC TEC -Institute for Systems and Computer Engineering , Tech- nology and Science. R. Dr. Roberto Frias , 4200-465 Porto , Portugal",
+        "institution_ids": [
+         "https://openalex.org/I4210166615"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214099059",
+    "doi": "https://doi.org/10.48550/arxiv.2609.26007",
+    "title": "Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models",
+    "publication_date": "2026-09-22",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10191",
+     "display_name": "Robotics and Sensor-Based Localization",
+     "score": 0.3059999942779541,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2202",
+      "display_name": "Aerospace Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152563792",
+       "display_name": "Yuhang Zhang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Yuhang",
+      "raw_affiliation_strings": [
+       "Nanyang Technological University , Singapore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Nanyang Technological University , Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5005149194",
+       "display_name": "Rangya Zhang",
+       "orcid": "https://orcid.org/0009-0000-9268-7716",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-9268-7716"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Rangya",
+      "raw_affiliation_strings": [
+       "Nanyang Technological University , Singapore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Nanyang Technological University , Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5133184602",
+       "display_name": "Yujing Shang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shang, Yujing",
+      "raw_affiliation_strings": [
+       "Nanyang Technological University , Singapore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Nanyang Technological University , Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152565609",
+       "display_name": "Zhuoyuan Yu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yu, Zhuoyuan",
+      "raw_affiliation_strings": [
+       "Nanyang Technological University , Singapore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Nanyang Technological University , Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152566327",
+       "display_name": "Weiying Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210135316",
+        "display_name": "Autel (Czechia)",
+        "ror": "https://ror.org/03n2rkn85",
+        "country_code": "CZ",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I4210135316"
+        ]
+       }
+      ],
+      "countries": [
+       "CZ"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Weiying",
+      "raw_affiliation_strings": [
+       "Autel US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Autel US",
+        "institution_ids": [
+         "https://openalex.org/I4210135316"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5143494222",
+       "display_name": "Steven Yang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210135316",
+        "display_name": "Autel (Czechia)",
+        "ror": "https://ror.org/03n2rkn85",
+        "country_code": "CZ",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I4210135316"
+        ]
+       }
+      ],
+      "countries": [
+       "CZ"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Steven",
+      "raw_affiliation_strings": [
+       "Autel US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Autel US",
+        "institution_ids": [
+         "https://openalex.org/I4210135316"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152564696",
+       "display_name": "Qingsong Yan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yan, Qingsong",
+      "raw_affiliation_strings": [
+       "XGRIDS"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "XGRIDS",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152504833",
+       "display_name": "Chao Yan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yan, Chao",
+      "raw_affiliation_strings": [
+       "Independent Researcher"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Independent Researcher",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152525498",
+       "display_name": "Mir Feroskhan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Feroskhan, Mir",
+      "raw_affiliation_strings": [
+       "Nanyang Technological University , Singapore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Nanyang Technological University , Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214201550",
+    "doi": "https://doi.org/10.48550/arxiv.2609.27095",
+    "title": "Intelligence Across Embodiments",
+    "publication_date": "2026-09-22",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.2777000069618225,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152740827",
+       "display_name": "Bo Ai",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I97018004",
+        "display_name": "Stanford University",
+        "ror": "https://ror.org/00f54p054",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ai, Bo",
+      "raw_affiliation_strings": [
+       "Stanford University",
+       "University of California San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stanford University",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152735164",
+       "display_name": "Henrik I. Christensen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christensen, Henrik I.",
+      "raw_affiliation_strings": [
+       "University of California San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152653211",
+       "display_name": "Hao Su",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Su, Hao",
+      "raw_affiliation_strings": [
+       "Sudo AI GmbH"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Sudo AI GmbH",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214016257",
+    "doi": "https://doi.org/10.48550/arxiv.2609.24487",
+    "title": "AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos",
+    "publication_date": "2026-09-21",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.5699999928474426,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5090473845",
+       "display_name": "Kirill Mazur",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mazur, Kirill",
+      "raw_affiliation_strings": [
+       "Amazon FAR (Frontier AI and Robotics)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amazon FAR (Frontier AI and Robotics)",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5005136810",
+       "display_name": "Nikita Karaev",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Karaev, Nikita",
+      "raw_affiliation_strings": [
+       "Amazon FAR (Frontier AI and Robotics)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amazon FAR (Frontier AI and Robotics)",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5109563455",
+       "display_name": "Matthew Chang",
+       "orcid": "https://orcid.org/0000-0002-9486-1228",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9486-1228"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chang, Matthew",
+      "raw_affiliation_strings": [
+       "Amazon FAR (Frontier AI and Robotics)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amazon FAR (Frontier AI and Robotics)",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5126479181",
+       "display_name": "Jitendra Malik",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Malik, Jitendra",
+      "raw_affiliation_strings": [
+       "Amazon FAR (Frontier AI and Robotics)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amazon FAR (Frontier AI and Robotics)",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152458422",
+       "display_name": "Nur Muhammad \"Mahi'' Shafiullah",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shafiullah, Nur Muhammad \"Mahi''",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214022453",
+    "doi": "https://doi.org/10.48550/arxiv.2609.24093",
+    "title": "Dexterous Robot Manipulation from Human Demonstrations via Contact-Anchored Retargeting and Residual Policy Learning",
+    "publication_date": "2026-09-21",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.9318000078201294,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152463406",
+       "display_name": "Zihao Yang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Zihao",
+      "raw_affiliation_strings": [
+       "DexGEM Lab"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152464312",
+       "display_name": "Chengyuan Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Chengyuan",
+      "raw_affiliation_strings": [
+       "DexGEM Lab"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152464633",
+       "display_name": "Yu Zhou",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I183067930",
+        "display_name": "Shanghai Jiao Tong University",
+        "ror": "https://ror.org/0220qvk04",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhou, Yu",
+      "raw_affiliation_strings": [
+       "DexGEM Lab",
+       "Shanghai Jiao Tong University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Shanghai Jiao Tong University",
+        "institution_ids": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5126016532",
+       "display_name": "Runze Lv",
+       "orcid": "https://orcid.org/0009-0003-4515-1224",
+       "observed_orcids": [
+        "https://orcid.org/0009-0003-4515-1224"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I183067930",
+        "display_name": "Shanghai Jiao Tong University",
+        "ror": "https://ror.org/0220qvk04",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lv, Runze",
+      "raw_affiliation_strings": [
+       "DexGEM Lab",
+       "Shanghai Jiao Tong University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Shanghai Jiao Tong University",
+        "institution_ids": [
+         "https://openalex.org/I183067930"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101919748",
+       "display_name": "Tianyu Cui",
+       "orcid": "https://orcid.org/0000-0003-2392-0689",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2392-0689"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I116953780",
+        "display_name": "Tongji University",
+        "ror": "https://ror.org/03rc6as71",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I116953780"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cui, Tianyu",
+      "raw_affiliation_strings": [
+       "DexGEM Lab",
+       "Tongji University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Tongji University",
+        "institution_ids": [
+         "https://openalex.org/I116953780"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152463741",
+       "display_name": "Sheng Yi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210136571",
+        "display_name": "Medrobotics (United States)",
+        "ror": "https://ror.org/03z02zc05",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I4210136571"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi, Sheng",
+      "raw_affiliation_strings": [
+       "DexGEM Lab",
+       "DexRobot Co. Ltd"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "DexRobot Co. Ltd",
+        "institution_ids": [
+         "https://openalex.org/I4210136571"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152460480",
+       "display_name": "Haohua Zhu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210136571",
+        "display_name": "Medrobotics (United States)",
+        "ror": "https://ror.org/03z02zc05",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I4210136571"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhu, Haohua",
+      "raw_affiliation_strings": [
+       "DexGEM Lab",
+       "DexRobot Co. Ltd"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "DexRobot Co. Ltd",
+        "institution_ids": [
+         "https://openalex.org/I4210136571"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152493382",
+       "display_name": "Irvine Lu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lu, Irvine",
+      "raw_affiliation_strings": [
+       "DexGEM Lab"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152456860",
+       "display_name": "JieQ Sun",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sun, JieQ",
+      "raw_affiliation_strings": [
+       "DexGEM Lab"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "DexGEM Lab",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7213999298",
+    "doi": "https://doi.org/10.48550/arxiv.2609.23483",
+    "title": "STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots",
+    "publication_date": "2026-09-20",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10879",
+     "display_name": "Robotic Locomotion and Control",
+     "score": 0.921999990940094,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2204",
+      "display_name": "Biomedical Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5032460379",
+       "display_name": "Yuanzhuo Li",
+       "orcid": "https://orcid.org/0009-0002-7609-2813",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-7609-2813"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Yuanzhuo",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152454984",
+       "display_name": "Wen Zhao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhao, Wen",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152446426",
+       "display_name": "Zhe Yong",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yong, Zhe",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5112123542",
+       "display_name": "Meng Xiang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Meng, Xiang",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152450003",
+       "display_name": "Gang Han",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Han, Gang",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5089633221",
+       "display_name": "Hengle Ren",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ren, Hengle",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152451876",
+       "display_name": "Xiaoyang Zheng",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zheng, Xiaoyang",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152453272",
+       "display_name": "Zhen Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Zhen",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152470750",
+       "display_name": "Yijie Guo",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Guo, Yijie",
+      "raw_affiliation_strings": [
+       "X-Humanoid , Humanoid Innovation Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "X-Humanoid , Humanoid Innovation Department",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214034624",
+    "doi": "https://doi.org/10.48550/arxiv.2609.23566",
+    "title": "G6D: Geometric Learning-Free RGB-D 6D Pose Solver for Robotic Manipulation",
+    "publication_date": "2026-09-20",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.9470999836921692,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5100934875",
+       "display_name": "Yixuan Liang",
+       "orcid": "https://orcid.org/0009-0002-5532-3061",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-5532-3061",
+        "https://orcid.org/0009-0007-5196-3420",
+        "https://orcid.org/0009-0009-8278-6601"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Liang, Yixuan",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152472303",
+       "display_name": "William Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, William",
+      "raw_affiliation_strings": [
+       "Sapient Intelligence"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Sapient Intelligence",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152444475",
+       "display_name": "Yunan Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wang, Yunan",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088521625",
+       "display_name": "Jizhou Yan",
+       "orcid": "https://orcid.org/0009-0002-7174-1853",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-7174-1853"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yan, Jizhou",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5121819238",
+       "display_name": "Zhao Jin",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jin, Zhao",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152449704",
+       "display_name": "Changling Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Changling",
+      "raw_affiliation_strings": [
+       "Sapient Intelligence"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Sapient Intelligence",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5079033650",
+       "display_name": "Chuxiong Hu",
+       "orcid": "https://orcid.org/0000-0002-3504-3065",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3504-3065"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hu, Chuxiong",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214043815",
+    "doi": "https://doi.org/10.48550/arxiv.2609.23666",
+    "title": "UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains",
+    "publication_date": "2026-09-20",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10879",
+     "display_name": "Robotic Locomotion and Control",
+     "score": 0.8357999920845032,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2204",
+      "display_name": "Biomedical Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5061527315",
+       "display_name": "Sicen Li",
+       "orcid": "https://orcid.org/0000-0002-2049-8921",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2049-8921"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Sicen",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5107114987",
+       "display_name": "Zhen Chu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chu, Zhen",
+      "raw_affiliation_strings": [
+       "College of Control Science and Engineering , Zhejiang University , Hangzhou 310027 , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Control Science and Engineering , Zhejiang University , Hangzhou 310027 , China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152477398",
+       "display_name": "Chao Li",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Li, Chao",
+      "raw_affiliation_strings": [
+       "Yunshenchu Technology Co., Ltd. , Hangzhou , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Yunshenchu Technology Co., Ltd. , Hangzhou , China",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5123653390",
+       "display_name": "Qiuguo Zhu",
+       "orcid": "https://orcid.org/0000-0002-4965-5126",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4965-5126"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhu, Qiuguo",
+      "raw_affiliation_strings": [
+       "College of Control Science and Engineering , Zhejiang University , Hangzhou 310027 , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Control Science and Engineering , Zhejiang University , Hangzhou 310027 , China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5132899446",
+       "display_name": "Jun Wu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wu, Jun",
+      "raw_affiliation_strings": [
+       "College of Control Science and Engineering , Zhejiang University , Hangzhou 310027 , China",
+       "Zhejiang Key Laboratory of Additive Manufacturing Technology and Equipment , Hangzhou , China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Control Science and Engineering , Zhejiang University , Hangzhou 310027 , China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Zhejiang Key Laboratory of Additive Manufacturing Technology and Equipment , Hangzhou , China",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214016305",
+    "doi": "https://doi.org/10.48550/arxiv.2609.22858",
+    "title": "PileBelief: Persistent Physical State for Interaction-Driven World Modeling",
+    "publication_date": "2026-09-19",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.263700008392334,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152474791",
+       "display_name": "Hongyi Lin",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I63966007",
+        "display_name": "Massachusetts Institute of Technology",
+        "ror": "https://ror.org/042nb2s44",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I63966007"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN",
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lin, Hongyi",
+      "raw_affiliation_strings": [
+       "Massachusetts Institute of Technology",
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Massachusetts Institute of Technology",
+        "institution_ids": [
+         "https://openalex.org/I63966007"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152475972",
+       "display_name": "Song Zhang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhang, Song",
+      "raw_affiliation_strings": [
+       "Tsing-AI(Shanghai) Technology Co. , Ltd"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsing-AI(Shanghai) Technology Co. , Ltd",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101777357",
+       "display_name": "Haiquan Liu",
+       "orcid": "https://orcid.org/0000-0002-7031-0034",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7031-0034"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Haiquan",
+      "raw_affiliation_strings": [
+       "Tsing-AI(Shanghai) Technology Co. , Ltd"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsing-AI(Shanghai) Technology Co. , Ltd",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152482059",
+       "display_name": "Yang Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Liu, Yang",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5132901789",
+       "display_name": "Jinhua Zhao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I63966007",
+        "display_name": "Massachusetts Institute of Technology",
+        "ror": "https://ror.org/042nb2s44",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I63966007"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhao, Jinhua",
+      "raw_affiliation_strings": [
+       "Massachusetts Institute of Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Massachusetts Institute of Technology",
+        "institution_ids": [
+         "https://openalex.org/I63966007"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5139823926",
+       "display_name": "Xiaobo Qu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qu, Xiaobo",
+      "raw_affiliation_strings": [
+       "Tsinghua University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214964850",
+    "doi": "https://doi.org/10.48550/arxiv.2609.35897",
+    "title": "Self-discovering RL in the Era of Experience: Is Learning History an Asset or a Burden?",
+    "publication_date": "2026-09-27",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10462",
+     "display_name": "Reinforcement Learning in Robotics",
+     "score": 0.1492999941110611,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5153582756",
+       "display_name": "Haomin Luo",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I241749",
+        "display_name": "University of Cambridge",
+        "ror": "https://ror.org/013meh722",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I241749"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210124492",
+        "display_name": "Biomedical Research Models (United States)",
+        "ror": "https://ror.org/037ndkh53",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I4210124492"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Luo, Haomin",
+      "raw_affiliation_strings": [
+       "University of Cambridge",
+       "Models2 AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Cambridge",
+        "institution_ids": [
+         "https://openalex.org/I241749"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Models2 AI",
+        "institution_ids": [
+         "https://openalex.org/I4210124492"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214293976",
+    "doi": "https://doi.org/10.48550/arxiv.2609.28984",
+    "title": "CrossSafe: Towards Cross-Embodiment Latent Safety Filters",
+    "publication_date": "2026-09-24",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.5752999782562256,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5098733277",
+       "display_name": "Ihab Tabbara",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tabbara, Ihab",
+      "raw_affiliation_strings": [
+       "Department of Computer Science and En- gineering , Washington University in St. Louis , St. Louis , MO , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Computer Science and En- gineering , Washington University in St. Louis , St. Louis , MO , USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5152785388",
+       "display_name": "Yuxuan Yang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yang, Yuxuan",
+      "raw_affiliation_strings": [
+       "Department of Computer Science and En- gineering , Washington University in St. Louis , St. Louis , MO , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Computer Science and En- gineering , Washington University in St. Louis , St. Louis , MO , USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5039914913",
+       "display_name": "Hussein Sibai",
+       "orcid": "https://orcid.org/0000-0002-6053-1001",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6053-1001"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sibai, Hussein",
+      "raw_affiliation_strings": [
+       "Department of Computer Science and En- gineering , Washington University in St. Louis , St. Louis , MO , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Computer Science and En- gineering , Washington University in St. Louis , St. Louis , MO , USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214295940",
+    "doi": "https://doi.org/10.48550/arxiv.2609.30024",
+    "title": "Body-Grounded Replanning for Physically Adaptive Manipulation",
+    "publication_date": "2026-09-24",
+    "cited_by_count": 0,
+    "primary_topic": {
+     "id": "https://openalex.org/T10653",
+     "display_name": "Robot Manipulation and Learning",
+     "score": 0.906499981880188,
+     "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5066028565",
+       "display_name": "Namiko Saito",
+       "orcid": "https://orcid.org/0000-0003-4140-7643",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4140-7643"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I150744194",
+        "display_name": "Waseda University",
+        "ror": "https://ror.org/00ntfnx83",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I150744194"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210113369",
+        "display_name": "Microsoft Research Asia (China)",
+        "ror": "https://ror.org/0300m5276",
+        "country_code": "CN",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I1290206253",
+         "https://openalex.org/I4210113369"
+        ]
+       }
+      ],
+      "countries": [
+       "CN",
+       "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Saito, Namiko",
+      "raw_affiliation_strings": [
+       "Microsoft Research Asia - Tokyo",
+       "Waseda University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Microsoft Research Asia - Tokyo",
+        "institution_ids": [
+         "https://openalex.org/I4210113369"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Waseda University",
+        "institution_ids": [
+         "https://openalex.org/I150744194"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5055384327",
+       "display_name": "Hiroshi Kera",
+       "orcid": "https://orcid.org/0000-0002-9830-0436",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9830-0436"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159385669",
+        "display_name": "Chiba University",
+        "ror": "https://ror.org/01hjzeq58",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159385669"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I184597095",
+        "display_name": "National Institute of Informatics",
+        "ror": "https://ror.org/04ksd4g47",
+        "country_code": "JP",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1319490839",
+         "https://openalex.org/I184597095",
+         "https://openalex.org/I4210158934"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kera, Hiroshi",
+      "raw_affiliation_strings": [
+       "Chiba University",
+       "National Institute of Informatics"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Chiba University",
+        "institution_ids": [
+         "https://openalex.org/I159385669"
+        ]
+       },
+       {
+        "raw_affiliation_string": "National Institute of Informatics",
+        "institution_ids": [
+         "https://openalex.org/I184597095"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "works_author_timeline_batch": {
+  "_request": "GET https://api.openalex.org/works?filter=author.id:A5010354503|A5022138848|A5044383265|A5087311970,from_publication_date:2023-01-01&sort=publication_date:desc&per-page=200&select=id,doi,title,publication_date,type,cited_by_count,authorships&mailto=...",
+  "_note": "trimmed: only works by A5010354503/A5044383265/A5022138848, and authorships[] cut down to those authors",
+  "meta": {
+   "count": 73,
+   "db_response_time_ms": 27,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": null,
+   "x_query": {
+    "oql": "works where date >= (2023-01-01)\n  and author is (A5010354503 or A5022138848 or A5044383265 or A5087311970)",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "from_publication_date",
+       "value": "2023-01-01"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010354503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5022138848"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044383265"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5087311970"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=from_publication_date:2023-01-01,authorships.author.id:A5010354503|A5022138848|A5044383265|A5087311970&per_page=200"
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W7214998620",
+    "doi": "https://doi.org/10.48550/arxiv.2609.36593",
+    "title": "Text2Sim: Agentic Physics-Based Simulation Generation with Distilled Expertise",
+    "publication_date": "2026-09-29",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7214331971",
+    "doi": "https://doi.org/10.48550/arxiv.2609.28766",
+    "title": "TAPESIM: Efficient Simulation of Adhesive Tape Dispensing for Robotic Manipulation",
+    "publication_date": "2026-09-23",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022138848",
+       "display_name": "Alexis Duburcq",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Duburcq, Alexis",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "Genesis AI"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Genesis AI",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7165649181",
+    "doi": "https://doi.org/10.48550/arxiv.2606.22332",
+    "title": "Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks",
+    "publication_date": "2026-06-21",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022138848",
+       "display_name": "Alexis Duburcq",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Duburcq, Alexis",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7163587673",
+    "doi": "https://doi.org/10.48550/arxiv.2606.04206",
+    "title": "DLO-Lab: Benchmarking Deformable Linear Object Manipulations with Differentiable Physics",
+    "publication_date": "2026-06-02",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24603500",
+        "display_name": "University of Massachusetts Amherst",
+        "ror": "https://ror.org/0072zz521",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24603500"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [
+       "University of Massachusetts Amherst "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Massachusetts Amherst ",
+        "institution_ids": [
+         "https://openalex.org/I24603500"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7162792280",
+    "doi": "https://doi.org/10.48550/arxiv.2605.30326",
+    "title": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
+    "publication_date": "2026-05-28",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7151891790",
+    "doi": "https://doi.org/10.48550/arxiv.2604.06168",
+    "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
+    "publication_date": "2026-04-07",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4405766552",
+    "doi": "https://doi.org/10.1109/iccv51701.2025.02468",
+    "title": "DMesh++: An Efficient Differentiable Mesh for Complex Shapes",
+    "publication_date": "2025-10-19",
+    "type": "conference-paper",
+    "cited_by_count": 3,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi-Ling Qiao",
+      "raw_affiliation_strings": [
+       "University of Maryland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Maryland",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4415241256",
+    "doi": "https://doi.org/10.48550/arxiv.2508.14893",
+    "title": "Virtual Community: An Open World for Humans, Robots, and Society",
+    "publication_date": "2025-08-20",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4417183033",
+    "doi": "https://doi.org/10.48550/arxiv.2507.01485",
+    "title": "BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments",
+    "publication_date": "2025-07-02",
+    "type": "preprint",
+    "cited_by_count": 1,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yiling",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4416033235",
+    "doi": "https://doi.org/10.48550/arxiv.2503.09871",
+    "title": "LuciBot: Automated Robot Policy Learning from Generated Videos",
+    "publication_date": "2025-03-12",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4409763411",
+    "doi": "https://doi.org/10.1109/vrw66409.2025.00294",
+    "title": "Event-Driven Lighting for Immersive Attention Guidance",
+    "publication_date": "2025-03-08",
+    "type": "conference-paper",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi-Ling Qiao",
+      "raw_affiliation_strings": [
+       "Univertsity of Maryland,College Park"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Univertsity of Maryland,College Park",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4404574337",
+    "doi": "https://doi.org/10.48550/arxiv.2411.12711",
+    "title": "UBSoft: A Simulation Platform for Robotic Skill Learning in Unbounded Soft Environments",
+    "publication_date": "2024-11-19",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24603500",
+        "display_name": "University of Massachusetts Amherst",
+        "ror": "https://ror.org/0072zz521",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24603500"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [
+       "University of Massachusetts Amherst"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Massachusetts Amherst",
+        "institution_ids": [
+         "https://openalex.org/I24603500"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4404569110",
+    "doi": "https://doi.org/10.48550/arxiv.2411.09823",
+    "title": "Architect: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting",
+    "publication_date": "2024-11-14",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24603500",
+        "display_name": "University of Massachusetts Amherst",
+        "ror": "https://ror.org/0072zz521",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24603500"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [
+       "Umass Amherst"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Umass Amherst",
+        "institution_ids": [
+         "https://openalex.org/I24603500"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4404351721",
+    "doi": "https://doi.org/10.48550/arxiv.2411.01391",
+    "title": "Differentiable Quantum Computing for Large-scale Linear Control",
+    "publication_date": "2024-11-03",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210121368",
+        "display_name": "Machine Science",
+        "ror": "https://ror.org/02hrr9v50",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210121368"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "Center for Machine Learning , University of Maryland",
+       "Department of Computer Science , University of Maryland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Machine Learning , University of Maryland",
+        "institution_ids": [
+         "https://openalex.org/I4210121368"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Computer Science , University of Maryland",
+        "institution_ids": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4401413788",
+    "doi": "https://doi.org/10.1109/icra57147.2024.10610748",
+    "title": "HandyPriors: Physically Consistent Perception of Hand-Object Interactions with Differentiable Priors",
+    "publication_date": "2024-05-13",
+    "type": "conference-paper",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi-Ling Qiao",
+      "raw_affiliation_strings": [
+       "University of Maryland College Park"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Maryland College Park",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4393904128",
+    "doi": "https://doi.org/10.48550/arxiv.2404.00451",
+    "title": "Thin-Shell Object Manipulations With Differentiable Physics Simulations",
+    "publication_date": "2024-03-30",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I20231570",
+        "display_name": "Peking University",
+        "ror": "https://ror.org/02v51f717",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I20231570"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chen, Zhehuan",
+      "raw_affiliation_strings": [
+       "Peking University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Peking University",
+        "institution_ids": [
+         "https://openalex.org/I20231570"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4415796864",
+    "doi": "https://doi.org/10.52202/079017-2158",
+    "title": "Architect: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting",
+    "publication_date": "2024-01-01",
+    "type": "conference-paper",
+    "cited_by_count": 5,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044383265",
+       "display_name": "Zhehuan Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhehuan Chen",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4415798014",
+    "doi": "https://doi.org/10.52202/079017-1173",
+    "title": "Differentiable Quantum Computing for Large-scale Linear Control",
+    "publication_date": "2024-01-01",
+    "type": "conference-paper",
+    "cited_by_count": 3,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yi-Ling Qiao",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4389814695",
+    "doi": "https://doi.org/10.48550/arxiv.2312.08710",
+    "title": "Gradient Informed Proximal Policy Optimization",
+    "publication_date": "2023-12-14",
+    "type": "preprint",
+    "cited_by_count": 4,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "Department of Computer Science University of Maryland , College Park"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Computer Science University of Maryland , College Park",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4389156702",
+    "doi": "https://doi.org/10.48550/arxiv.2311.16552",
+    "title": "HandyPriors: Physically Consistent Perception of Hand-Object Interactions with Differentiable Priors",
+    "publication_date": "2023-11-28",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4390874510",
+    "doi": "https://doi.org/10.1109/iccv51070.2023.00042",
+    "title": "Dynamic Mesh-Aware Radiance Fields",
+    "publication_date": "2023-10-01",
+    "type": "conference-paper",
+    "cited_by_count": 25,
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi-Ling Qiao",
+      "raw_affiliation_strings": [
+       "University of Maryland College Park"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Maryland College Park",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4386644360",
+    "doi": "https://doi.org/10.48550/arxiv.2309.04581",
+    "title": "Dynamic Mesh-Aware Radiance Fields",
+    "publication_date": "2023-09-08",
+    "type": "preprint",
+    "cited_by_count": 0,
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "University of Maryland College Park https"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Maryland College Park https",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4377121665",
+    "doi": "https://doi.org/10.48550/arxiv.2305.10455",
+    "title": "Towards Generalist Robots: A Promising Paradigm via Generative Simulation",
+    "publication_date": "2023-05-17",
+    "type": "preprint",
+    "cited_by_count": 2,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "University of Maryland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Maryland",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W4323972007",
+    "doi": "https://doi.org/10.48550/arxiv.2303.05512",
+    "title": "PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification",
+    "publication_date": "2023-03-09",
+    "type": "preprint",
+    "cited_by_count": 7,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I66946132",
+        "display_name": "University of Maryland, College Park",
+        "ror": "https://ror.org/047s2c258",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiao, Yi-Ling",
+      "raw_affiliation_strings": [
+       "University of Maryland ,"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Maryland ,",
+        "institution_ids": [
+         "https://openalex.org/I66946132"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/W7133191717",
+    "doi": "https://doi.org/10.52202/075280-0384",
+    "title": "Gradient Informed Proximal Policy Optimization",
+    "publication_date": "2023-01-01",
+    "type": "conference-paper",
+    "cited_by_count": 4,
+    "authorships": [
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010354503",
+       "display_name": "Yi-Ling Qiao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yi-Ling Qiao",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ]
+   }
+  ]
+ },
+ "author_singletons": {
+  "_request": "GET https://api.openalex.org/authors/{id}?select=id,display_name,orcid,works_count,cited_by_count,summary_stats,last_known_institutions,affiliations,counts_by_year,created_date",
+  "results": [
+   {
+    "id": "https://openalex.org/A5010354503",
+    "display_name": "Yi-Ling Qiao",
+    "orcid": null,
+    "works_count": 37,
+    "cited_by_count": 364,
+    "summary_stats": {
+     "2yr_mean_citedness": 0.875,
+     "h_index": 10,
+     "i10_index": 11
+    },
+    "last_known_institutions": null,
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I19820366",
+       "ror": "https://ror.org/034t30j35",
+       "display_name": "Chinese Academy of Sciences",
+       "country_code": "CN",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I19820366"
+       ]
+      },
+      "years": [
+       2020,
+       2019,
+       2018
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210090176",
+       "ror": "https://ror.org/0090r4d87",
+       "display_name": "Institute of Computing Technology",
+       "country_code": "CN",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I19820366",
+        "https://openalex.org/I4210090176"
+       ]
+      },
+      "years": [
+       2020
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210121368",
+       "ror": "https://ror.org/02hrr9v50",
+       "display_name": "Machine Science",
+       "country_code": "US",
+       "type": "nonprofit",
+       "lineage": [
+        "https://openalex.org/I4210121368"
+       ]
+      },
+      "years": [
+       2024,
+       2022
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210165038",
+       "ror": "https://ror.org/05qbk4x57",
+       "display_name": "University of Chinese Academy of Sciences",
+       "country_code": "CN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I19820366",
+        "https://openalex.org/I4210165038"
+       ]
+      },
+      "years": [
+       2022,
+       2019,
+       2018
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I66946132",
+       "ror": "https://ror.org/047s2c258",
+       "display_name": "University of Maryland, College Park",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I66946132"
+       ]
+      },
+      "years": [
+       2025,
+       2024,
+       2023,
+       2022,
+       2021,
+       2020
+      ]
+     }
+    ],
+    "counts_by_year": [
+     {
+      "year": 2018,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 132
+     },
+     {
+      "year": 2019,
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 24
+     },
+     {
+      "year": 2020,
+      "works_count": 5,
+      "oa_works_count": 3,
+      "cited_by_count": 65
+     },
+     {
+      "year": 2021,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 42
+     },
+     {
+      "year": 2022,
+      "works_count": 8,
+      "oa_works_count": 4,
+      "cited_by_count": 52
+     },
+     {
+      "year": 2023,
+      "works_count": 7,
+      "oa_works_count": 5,
+      "cited_by_count": 42
+     },
+     {
+      "year": 2024,
+      "works_count": 3,
+      "oa_works_count": 1,
+      "cited_by_count": 3
+     },
+     {
+      "year": 2025,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 4
+     },
+     {
+      "year": 2026,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+     }
+    ],
+    "created_date": "2023-03-13T00:00:00"
+   },
+   {
+    "id": "https://openalex.org/A5022138848",
+    "display_name": "Alexis Duburcq",
+    "orcid": null,
+    "works_count": 11,
+    "cited_by_count": 401,
+    "summary_stats": {
+     "2yr_mean_citedness": 0.0,
+     "h_index": 6,
+     "i10_index": 6
+    },
+    "last_known_institutions": null,
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I1294671590",
+       "ror": "https://ror.org/02feahw73",
+       "display_name": "Centre National de la Recherche Scientifique",
+       "country_code": "FR",
+       "type": "government",
+       "lineage": [
+        "https://openalex.org/I1294671590"
+       ]
+      },
+      "years": [
+       2020
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I2746051580",
+       "ror": "https://ror.org/013cjyk83",
+       "display_name": "Université Paris Sciences et Lettres",
+       "country_code": "FR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2746051580"
+       ]
+      },
+      "years": [
+       2022
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I39804081",
+       "ror": "https://ror.org/02en5vm52",
+       "display_name": "Sorbonne Université",
+       "country_code": "FR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I39804081"
+       ]
+      },
+      "years": [
+       2020
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210137929",
+       "ror": "https://ror.org/03pnp1a74",
+       "display_name": "Lamsade",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I2746051580",
+        "https://openalex.org/I4210137929",
+        "https://openalex.org/I4210159245",
+        "https://openalex.org/I56435720"
+       ]
+      },
+      "years": [
+       2022
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210150358",
+       "ror": "https://ror.org/05neq8668",
+       "display_name": "Institut Systèmes Intelligents et de Robotique",
+       "country_code": "FR",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I1294671590",
+        "https://openalex.org/I154526488",
+        "https://openalex.org/I39804081",
+        "https://openalex.org/I4210150358",
+        "https://openalex.org/I4210159245"
+       ]
+      },
+      "years": [
+       2020
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4405266891",
+       "ror": "https://ror.org/0077bac94",
+       "display_name": "Wandercraft (France)",
+       "country_code": "FR",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4405266891"
+       ]
+      },
+      "years": [
+       2022,
+       2020,
+       2018
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I5124864",
+       "ror": "https://ror.org/02s376052",
+       "display_name": "École Polytechnique Fédérale de Lausanne",
+       "country_code": "CH",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2799323385",
+        "https://openalex.org/I5124864"
+       ]
+      },
+      "years": [
+       2017,
+       2016
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I56435720",
+       "ror": "https://ror.org/052bz7812",
+       "display_name": "Université Paris Dauphine-PSL",
+       "country_code": "FR",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I2746051580",
+        "https://openalex.org/I56435720"
+       ]
+      },
+      "years": [
+       2020,
+       2018
+      ]
+     }
+    ],
+    "counts_by_year": [
+     {
+      "year": 2016,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2017,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 23
+     },
+     {
+      "year": 2018,
+      "works_count": 2,
+      "oa_works_count": 1,
+      "cited_by_count": 231
+     },
+     {
+      "year": 2020,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 15
+     },
+     {
+      "year": 2021,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 114
+     },
+     {
+      "year": 2022,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 18
+     },
+     {
+      "year": 2026,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+     }
+    ],
+    "created_date": "2016-10-21T00:00:00"
+   },
+   {
+    "id": "https://openalex.org/A5152653211",
+    "display_name": "Hao Su",
+    "orcid": null,
+    "works_count": 2,
+    "cited_by_count": 0,
+    "summary_stats": {
+     "2yr_mean_citedness": 0.0,
+     "h_index": 0,
+     "i10_index": 0
+    },
+    "last_known_institutions": null,
+    "affiliations": [],
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+     }
+    ],
+    "created_date": "2026-09-25T00:00:00"
+   }
+  ]
+ },
+ "authors_strong_with_null_last_known_institution": {
+  "_request": "GET https://api.openalex.org/authors?filter=topics.id:T10653,summary_stats.h_index:>14,last_known_institutions.id:null&sort=cited_by_count:desc&per-page=25&select=id,display_name,works_count,cited_by_count,summary_stats,affiliations,last_known_institutions,counts_by_year&mailto=...",
+  "_note": "results trimmed to 6; affiliations[] cut to 6 most recent, counts_by_year to 5 latest",
+  "meta": {
+   "count": 313,
+   "db_response_time_ms": 67,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "authors where last known institution is (unknown)\n  and h-index > (14)\n  and topics is (T10653)",
+    "oqo": {
+     "get_rows": "authors",
+     "filter_rows": [
+      {
+       "column_id": "last_known_institutions.id",
+       "value": null
+      },
+      {
+       "column_id": "summary_stats.h_index",
+       "value": 14,
+       "operator": ">"
+      },
+      {
+       "column_id": "topics.id",
+       "value": "T10653"
+      }
+     ]
+    },
+    "url": "/authors?filter=last_known_institutions.id:null,summary_stats.h_index:%3E14,topics.id:T10653&per_page=25"
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/A5013813527",
+    "display_name": "Vincent Vanhoucke",
+    "works_count": 72,
+    "cited_by_count": 128179,
+    "summary_stats": {
+     "2yr_mean_citedness": 23.333333333333332,
+     "h_index": 35,
+     "i10_index": 50
+    },
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210090411",
+       "ror": "https://ror.org/00971b260",
+       "display_name": "Google DeepMind (United Kingdom)",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090411",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2025,
+       2024,
+       2018
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I97018004",
+       "ror": "https://ror.org/00f54p054",
+       "display_name": "Stanford University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I97018004"
+       ]
+      },
+      "years": [
+       2025,
+       2003
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I1291425158",
+       "ror": "https://ror.org/00njsd438",
+       "display_name": "Google (United States)",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2023,
+       2022,
+       2021,
+       2020,
+       2018,
+       2017,
+       2015,
+       2014,
+       2013,
+       2012,
+       2010
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210125787",
+       "ror": "https://ror.org/0311h6702",
+       "display_name": "Nuance Communications (United States)",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210125787"
+       ]
+      },
+      "years": [
+       2006,
+       2004,
+       2003
+      ]
+     }
+    ],
+    "last_known_institutions": null,
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2025,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 14
+     },
+     {
+      "year": 2024,
+      "works_count": 5,
+      "oa_works_count": 2,
+      "cited_by_count": 196
+     },
+     {
+      "year": 2023,
+      "works_count": 6,
+      "oa_works_count": 6,
+      "cited_by_count": 1379
+     },
+     {
+      "year": 2022,
+      "works_count": 7,
+      "oa_works_count": 5,
+      "cited_by_count": 1122
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/A5059110895",
+    "display_name": "Scott Reed",
+    "works_count": 40,
+    "cited_by_count": 85709,
+    "summary_stats": {
+     "2yr_mean_citedness": 4.0,
+     "h_index": 25,
+     "i10_index": 31
+    },
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I1291425158",
+       "ror": "https://ror.org/00njsd438",
+       "display_name": "Google (United States)",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2020,
+       2018,
+       2017,
+       2015
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210090411",
+       "ror": "https://ror.org/00971b260",
+       "display_name": "Google DeepMind (United Kingdom)",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090411",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2019,
+       2018,
+       2017,
+       2015
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I27837315",
+       "ror": "https://ror.org/00jmfr291",
+       "display_name": "University of Michigan",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I27837315"
+       ]
+      },
+      "years": [
+       2016,
+       2015,
+       2014
+      ]
+     }
+    ],
+    "last_known_institutions": null,
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2025,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2024,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 12
+     },
+     {
+      "year": 2023,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 9
+     },
+     {
+      "year": 2022,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 64
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/A5066544075",
+    "display_name": "Pierre Sermanet",
+    "works_count": 75,
+    "cited_by_count": 57070,
+    "summary_stats": {
+     "2yr_mean_citedness": 27.166666666666668,
+     "h_index": 31,
+     "i10_index": 52
+    },
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210090411",
+       "ror": "https://ror.org/00971b260",
+       "display_name": "Google DeepMind (United Kingdom)",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090411",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2024
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I97018004",
+       "ror": "https://ror.org/00f54p054",
+       "display_name": "Stanford University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I97018004"
+       ]
+      },
+      "years": [
+       2024,
+       2022
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I1291425158",
+       "ror": "https://ror.org/00njsd438",
+       "display_name": "Google (United States)",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2023,
+       2022,
+       2021,
+       2020,
+       2019,
+       2018,
+       2017,
+       2016,
+       2015,
+       2014
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I1174212",
+       "ror": "https://ror.org/03taz7m60",
+       "display_name": "University of Southern California",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I1174212"
+       ]
+      },
+      "years": [
+       2017
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I57206974",
+       "ror": "https://ror.org/0190ak572",
+       "display_name": "New York University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      },
+      "years": [
+       2014,
+       2013,
+       2012,
+       2011,
+       2010,
+       2009,
+       2008,
+       2007
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I36672615",
+       "ror": "https://ror.org/037tm7f56",
+       "display_name": "Courant Institute of Mathematical Sciences",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I36672615",
+        "https://openalex.org/I57206974"
+       ]
+      },
+      "years": [
+       2013,
+       2012,
+       2011,
+       2009,
+       2008,
+       2007
+      ]
+     }
+    ],
+    "last_known_institutions": null,
+    "counts_by_year": [
+     {
+      "year": 2025,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 8
+     },
+     {
+      "year": 2024,
+      "works_count": 8,
+      "oa_works_count": 4,
+      "cited_by_count": 318
+     },
+     {
+      "year": 2023,
+      "works_count": 8,
+      "oa_works_count": 7,
+      "cited_by_count": 787
+     },
+     {
+      "year": 2022,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 740
+     },
+     {
+      "year": 2021,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 497
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/A5089723214",
+    "display_name": "John Canny",
+    "works_count": 360,
+    "cited_by_count": 52661,
+    "summary_stats": {
+     "2yr_mean_citedness": 5.0,
+     "h_index": 74,
+     "i10_index": 213
+    },
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I95457486",
+       "ror": "https://ror.org/01an7q238",
+       "display_name": "University of California, Berkeley",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I95457486"
+       ]
+      },
+      "years": [
+       2024,
+       2023,
+       2022,
+       2021,
+       2020,
+       2019,
+       2018,
+       2017,
+       2016,
+       2015,
+       2014,
+       2013,
+       2012,
+       2011,
+       2010,
+       2009,
+       2008,
+       2007,
+       2006,
+       2005,
+       2004,
+       2003,
+       2002,
+       2001,
+       2000,
+       1999,
+       1998,
+       1997,
+       1996,
+       1995,
+       1994,
+       1993,
+       1992,
+       1991,
+       1990,
+       1989,
+       1988,
+       1987
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I1291425158",
+       "ror": "https://ror.org/00njsd438",
+       "display_name": "Google (United States)",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2023,
+       2021,
+       2020,
+       2019,
+       2018
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210088756",
+       "ror": "https://ror.org/00arwy491",
+       "display_name": "Royal Victoria Hospital",
+       "country_code": "CA",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I2801766832",
+        "https://openalex.org/I2801902503",
+        "https://openalex.org/I4210088756",
+        "https://openalex.org/I4210139015",
+        "https://openalex.org/I4405279980"
+       ]
+      },
+      "years": [
+       2023
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210130048",
+       "ror": "https://ror.org/03rq50d77",
+       "display_name": "Royal Victoria Hospital",
+       "country_code": "GB",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I1289110261",
+        "https://openalex.org/I4210130048"
+       ]
+      },
+      "years": [
+       2023
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210162200",
+       "ror": "https://ror.org/05gyj2g50",
+       "display_name": "Royal Victoria Hospital",
+       "country_code": "GB",
+       "type": "healthcare",
+       "lineage": [
+        "https://openalex.org/I2802726858",
+        "https://openalex.org/I4210162200"
+       ]
+      },
+      "years": [
+       2023
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210090411",
+       "ror": "https://ror.org/00971b260",
+       "display_name": "Google DeepMind (United Kingdom)",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090411",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      "years": [
+       2022,
+       2020
+      ]
+     }
+    ],
+    "last_known_institutions": null,
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2025,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 2
+     },
+     {
+      "year": 2024,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 53
+     },
+     {
+      "year": 2023,
+      "works_count": 11,
+      "oa_works_count": 9,
+      "cited_by_count": 61
+     },
+     {
+      "year": 2022,
+      "works_count": 12,
+      "oa_works_count": 8,
+      "cited_by_count": 226
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/A5002078510",
+    "display_name": "Soumith Chintala",
+    "works_count": 57,
+    "cited_by_count": 46509,
+    "summary_stats": {
+     "2yr_mean_citedness": 59.75,
+     "h_index": 28,
+     "i10_index": 31
+    },
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210114444",
+       "ror": "https://ror.org/01zbnvs85",
+       "display_name": "Meta (United States)",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      "years": [
+       2024,
+       2023,
+       2022,
+       2021,
+       2020,
+       2019,
+       2018,
+       2017,
+       2016,
+       2015,
+       2014
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I57206974",
+       "ror": "https://ror.org/0190ak572",
+       "display_name": "New York University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      },
+      "years": [
+       2024,
+       2022,
+       2013,
+       2012
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4210111288",
+       "ror": "https://ror.org/020ye1821",
+       "display_name": "Meta (United Kingdom)",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210111288",
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      "years": [
+       2020,
+       2019,
+       2017
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I2252078561",
+       "ror": "https://ror.org/02388em19",
+       "display_name": "Meta (Israel)",
+       "country_code": "IL",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I2252078561",
+        "https://openalex.org/I4210114444"
+       ]
+      },
+      "years": [
+       2017,
+       2016,
+       2015,
+       2014
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I36672615",
+       "ror": "https://ror.org/037tm7f56",
+       "display_name": "Courant Institute of Mathematical Sciences",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I36672615",
+        "https://openalex.org/I57206974"
+       ]
+      },
+      "years": [
+       2013,
+       2012
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I876193797",
+       "ror": "https://ror.org/00qzypv28",
+       "display_name": "Vellore Institute of Technology University",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I876193797"
+       ]
+      },
+      "years": [
+       2010
+      ]
+     }
+    ],
+    "last_known_institutions": null,
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "works_count": 5,
+      "oa_works_count": 5,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2025,
+      "works_count": 2,
+      "oa_works_count": 0,
+      "cited_by_count": 8
+     },
+     {
+      "year": 2024,
+      "works_count": 5,
+      "oa_works_count": 3,
+      "cited_by_count": 709
+     },
+     {
+      "year": 2023,
+      "works_count": 6,
+      "oa_works_count": 4,
+      "cited_by_count": 253
+     },
+     {
+      "year": 2022,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 112
+     }
+    ]
+   },
+   {
+    "id": "https://openalex.org/A5021989698",
+    "display_name": "Edward H. Adelson",
+    "works_count": 316,
+    "cited_by_count": 43137,
+    "summary_stats": {
+     "2yr_mean_citedness": 5.08,
+     "h_index": 84,
+     "i10_index": 167
+    },
+    "affiliations": [
+     {
+      "institution": {
+       "id": "https://openalex.org/I4405258931",
+       "ror": "https://ror.org/01e85r662",
+       "display_name": "MIT Computer Science and Artificial Intelligence Laboratory",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4405258931",
+        "https://openalex.org/I63966007"
+       ]
+      },
+      "years": [
+       2025,
+       2024,
+       2023,
+       2021,
+       2020,
+       2018,
+       2017,
+       2016,
+       2015,
+       2014,
+       2011,
+       2010,
+       2008,
+       2007,
+       2006,
+       2005
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I63966007",
+       "ror": "https://ror.org/042nb2s44",
+       "display_name": "Massachusetts Institute of Technology",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I63966007"
+       ]
+      },
+      "years": [
+       2025,
+       2024,
+       2023,
+       2022,
+       2021,
+       2020,
+       2019,
+       2018,
+       2017,
+       2016,
+       2015,
+       2014,
+       2013,
+       2012,
+       2011,
+       2010,
+       2009,
+       2008,
+       2007,
+       2006,
+       2005,
+       2004,
+       2003,
+       2002,
+       2001,
+       2000,
+       1999,
+       1998,
+       1997,
+       1996,
+       1994,
+       1993,
+       1992,
+       1991,
+       1990,
+       1989,
+       1988,
+       1987
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I52357470",
+       "ror": "https://ror.org/00rs6vg23",
+       "display_name": "The Ohio State University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I52357470"
+       ]
+      },
+      "years": [
+       2007,
+       1990,
+       1974
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I4405268810",
+       "ror": "https://ror.org/0253jyq40",
+       "display_name": "MIT Media Lab",
+       "country_code": "US",
+       "type": "facility",
+       "lineage": [
+        "https://openalex.org/I4405268810"
+       ]
+      },
+      "years": [
+       2003,
+       2002,
+       1994,
+       1993,
+       1992,
+       1991,
+       1990,
+       1989,
+       1988,
+       1987
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I12315562",
+       "ror": "https://ror.org/0405mnx93",
+       "display_name": "Texas Tech University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I12315562"
+       ]
+      },
+      "years": [
+       1991
+      ]
+     },
+     {
+      "institution": {
+       "id": "https://openalex.org/I57206974",
+       "ror": "https://ror.org/0190ak572",
+       "display_name": "New York University",
+       "country_code": "US",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I57206974"
+       ]
+      },
+      "years": [
+       1991,
+       1985,
+       1983,
+       1982,
+       1981,
+       1980
+      ]
+     }
+    ],
+    "last_known_institutions": null,
+    "counts_by_year": [
+     {
+      "year": 2026,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+     },
+     {
+      "year": 2025,
+      "works_count": 10,
+      "oa_works_count": 7,
+      "cited_by_count": 47
+     },
+     {
+      "year": 2024,
+      "works_count": 14,
+      "oa_works_count": 8,
+      "cited_by_count": 80
+     },
+     {
+      "year": 2023,
+      "works_count": 15,
+      "oa_works_count": 9,
+      "cited_by_count": 291
+     },
+     {
+      "year": 2022,
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 80
+     }
+    ]
+   }
+  ]
+ }
+}

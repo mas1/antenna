@@ -1,0 +1,89 @@
+{
+ "slug": "salem-robotics",
+ "generatedAt": "2026-10-02",
+ "summary": "Salem Robotics sells autonomy software that lets existing mobile robots (Boston Dynamics Spot is one, a co-founder says) run surveys and inspections in hazardous facilities. It started with radiological surveys at nuclear sites and says it is also working on oil, gas and hazardous chemical facilities. The Form D gives an Austin, Texas address.",
+ "thesis": "Nuclear sites must run routine radiation surveys and largely do them by hand. Salem sells software for robots sites may already own, touching robotics and energy without building hardware. Both founders co-authored a February 2024 paper on robot radiation surveys.",
+ "stage": "A Form D filed on 8 September 2026 reports $1,819,500 sold of a $5,100,000 SAFE offering to 5 unnamed investors, first sale 13 May 2026. Y Combinator lists the company in its Summer 2026 batch. Non Sibi Ventures is the only other investor confirmed by its own pages (a $25,000 Rice prize investment in April 2026, and it says it backed the company beyond that, no amount given).",
+ "team": [
+  {
+   "name": "Caleb Horan",
+   "background": "Co-founder and CEO. Y Combinator describes him as a former UT Austin robotics PhD student who deployed multi-robot teams at Los Alamos National Laboratory's Plutonium Division."
+  },
+  {
+   "name": "Janak (Crasun) Panthi",
+   "background": "Co-founder and CTO. Y Combinator lists a UT Austin robotics PhD (December 2026), 6 years of industry experience leading product development and deploying quadruped robots in nuclear facilities."
+  },
+  {
+   "name": "Mitchell Pryor",
+   "background": "Scientific advisor per the company site. UT Austin's Nuclear and Applied Robotics Group lists him as Research Professor and Director. First author of the founders' February 2024 paper."
+  },
+  {
+   "name": "Jim Nelson",
+   "background": "Business advisor per the company site, which describes him as a serial entrepreneur, co-founder of Simply Business and a UT Austin McCombs faculty member."
+  }
+ ],
+ "questions": [
+  "Which facilities have signed a paid validation, at what price, and has any converted into an ongoing deployment? The Launch HN post names no customer.",
+  "Who are the 5 SAFE investors and what are the caps? How much did Non Sibi invest beyond the $25,000 Rice prize, and is Goose Capital an investor?",
+  "Incorporated in 2024 per the Form D, first SAFE sale 13 May 2026. What happened in between, and do UT Austin or Los Alamos hold any rights?",
+  "The launch post claims theoretical safety guarantees. What exactly is guaranteed, and has any site radiation protection program or regulator accepted robot-generated survey records as compliance records?"
+ ],
+ "risks": [
+  "No source shows a signed customer, a paid validation or a deployment. The company's 4 August 2026 launch post speaks of \"active contract-scoping conversations\" in nuclear and oil and gas.",
+  "The product is a software layer on other companies' robots. A robot maker could move into this layer. The founders' Launch HN post asks where the line should sit.",
+  "Public records do not line up. Y Combinator says founded 2026 in San Francisco with a team of 2. The Form D says incorporated 2024 with an Austin address."
+ ],
+ "unverified": [
+  "The company site shows a Goose Capital logo. No Goose Capital page found confirms an investment, and Rice's 2026 results list its prizes going to other companies.",
+  "Non Sibi Ventures says both founders hold top-secret clearances, not confirmed by any primary source.",
+  "The launch post says the manipulation framework rests on founder research published in IEEE journals and conferences. Those papers were not located."
+ ],
+ "sources": [
+  {
+   "title": "Form D, 8 September 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/2134746/000213474626000002/xslFormDX01/primary_doc.xml"
+  },
+  {
+   "title": "Y Combinator company profile",
+   "url": "https://www.ycombinator.com/companies/salem-robotics-inc"
+  },
+  {
+   "title": "Y Combinator launch post, 4 August 2026",
+   "url": "https://www.ycombinator.com/launches/SLg-salem-robotics-autonomous-robots-for-hazardous-spaces"
+  },
+  {
+   "title": "Launch HN post, 27 August 2026",
+   "url": "https://news.ycombinator.com/item?id=49466715"
+  },
+  {
+   "title": "Non Sibi Ventures on Substack, 17 June 2026",
+   "url": "https://kentlucas639393.substack.com/p/why-we-invested-in-salem-robotics"
+  },
+  {
+   "title": "Non Sibi Ventures LinkedIn post, 1 July 2026",
+   "url": "https://www.linkedin.com/posts/nonsibiventures_why-we-invested-in-salem-robotics-activity-7478084716252831744-GU9u"
+  },
+  {
+   "title": "Rice Business Plan Competition 2026 results",
+   "url": "https://rbpc.rice.edu/2026/results"
+  },
+  {
+   "title": "arXiv 2402.15008, February 2024",
+   "url": "https://arxiv.org/abs/2402.15008"
+  },
+  {
+   "title": "Salem Robotics company site",
+   "url": "https://salemroboticsinc.com"
+  },
+  {
+   "title": "UT Austin Nuclear and Applied Robotics Group people",
+   "url": "https://robotics.me.utexas.edu/people"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-06-17",
+  "what": "Non Sibi Ventures published a Substack post explaining why it invested in Salem Robotics, with no amount given.",
+  "url": "https://kentlucas639393.substack.com/p/why-we-invested-in-salem-robotics"
+ }
+}

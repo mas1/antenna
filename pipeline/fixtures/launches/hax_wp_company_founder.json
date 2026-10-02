@@ -1,0 +1,1069 @@
+{
+ "_fixture_note": "GET https://hax.co/wp-json/wp/v2/company?per_page=10&orderby=date&order=desc (X-WP-Total: 203). yoast_head, yoast_head_json, _links removed. Second key: GET https://hax.co/wp-json/wp/v2/founder?per_page=5&orderby=date&order=desc (X-WP-Total: 532), same removals.",
+ "company": [
+  {
+   "id": 9551,
+   "date": "2026-09-21T20:46:13",
+   "date_gmt": "2026-09-21T20:46:13",
+   "guid": {
+    "rendered": "https://hax.co/company/zetta-joule/"
+   },
+   "modified": "2026-09-23T22:02:33",
+   "modified_gmt": "2026-09-23T22:02:33",
+   "slug": "zetta-joule",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/zetta-joule/",
+   "title": {
+    "rendered": "Zetta Joule"
+   },
+   "content": {
+    "rendered": "<p>Our aim: Transform the energy ecosystem to a clean and sustainable one by unlocking the potential of nuclear fission technology.</p>\n<p>What we do: We integrate and consolidate the nuclear technology and supply-chain, and also build and own small nuclear power plants on-site.</p>\n<p>Our products: Firm, clean zero-carbon power, process heat, hydrogen, hydrogen derivative products and other clean energies.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "ZettaJoule delivers modernized HTGR through Energy-as-a-Service Solution",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    865
+   ],
+   "tx_cohort": [
+    686
+   ],
+   "tx_category": [],
+   "tx_trend": [],
+   "tx_stage": [],
+   "tx_region": [],
+   "tx_location": [
+    869,
+    293
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9551",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-zetta-joule",
+    "tx_cohort-hax-seed-2024",
+    "tx_location-houston-texas",
+    "tx_location-united-states",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://res.cloudinary.com/sosv-development/image/upload/v1789615009/studio-production/companies/bvjhrzfhcbc2kvnq5hf1.jpg?_a=BACMTiGT",
+    "hero_url": "https://res.cloudinary.com/sosv-development/image/upload/v1789615018/studio-production/companies/cnohsno3rd44lpoxvjpj.jpg?_a=BACMTiGT",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "ZettaJoule delivers modernized HTGR through Energy-as-a-Service Solution",
+    "founded_year": "2023",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "http://zetta-joule.com",
+    "linked_in": "https://www.linkedin.com/company/zettajoule",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10416,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9472,
+   "date": "2026-05-12T17:33:05",
+   "date_gmt": "2026-05-12T17:33:05",
+   "guid": {
+    "rendered": "https://hax.co/company/5qxt/"
+   },
+   "modified": "2026-09-23T21:52:36",
+   "modified_gmt": "2026-09-23T21:52:36",
+   "slug": "5qxt",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/5qxt/",
+   "title": {
+    "rendered": "5QXT"
+   },
+   "content": {
+    "rendered": "<p>5QXT develops proprietary \u201cQuantum Extraction\u201d (QX) processes to recover commercially valuable metals from industrial slags and other waste streams such as battery black mass. The approach leverages controlled corrosion and mass-transfer optimization to increase water solubility of target materials and produce multi-element solutions, reducing sulfuric acid, water, energy, and consumables compared with conventional hydrometallurgy, and avoiding high pressure and high temperature. 5QXT positions the technology as plug-and-play with existing processing plants and aims to deploy pilot and demo plants near large stockpiles to create new revenue from previously non-viable waste streams.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "Waste-to-value metal extraction from slags and battery waste using low-capex, low-water \u201cQuantum Extraction\u201d corrosion-based process.",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    799
+   ],
+   "tx_cohort": [
+    759
+   ],
+   "tx_category": [
+    688
+   ],
+   "tx_trend": [
+    756,
+    753
+   ],
+   "tx_stage": [],
+   "tx_region": [],
+   "tx_location": [],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9472",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-5qxt",
+    "tx_cohort-hax-seed-2025",
+    "tx_category-manufacturing-energy",
+    "tx_trend-critical-minerals",
+    "tx_trend-materials",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://res.cloudinary.com/sosv-development/image/upload/v1787945435/studio-production/companies/o92cxa0mktnzlxoy0yz3.png?_a=BACMTiGT",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "Waste-to-value metal extraction from slags and battery waste using low-capex, low-water \u201cQuantum Extraction\u201d corrosion-based process.",
+    "founded_year": "2025",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "https://5qxt.com/",
+    "linked_in": "https://www.linkedin.com/company/5qxt/",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10550,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9436,
+   "date": "2026-04-29T15:51:29",
+   "date_gmt": "2026-04-29T15:51:29",
+   "guid": {
+    "rendered": "https://hax.co/company/robotic-actuators-company/"
+   },
+   "modified": "2026-07-30T19:47:27",
+   "modified_gmt": "2026-07-30T19:47:27",
+   "slug": "robotic-actuators-company",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/robotic-actuators-company/",
+   "title": {
+    "rendered": "Robotic Actuators Company"
+   },
+   "content": {
+    "rendered": "<p>RAC (Robotic Actuators Company) is building a scalable mobile robot platform powered by a battery-electric Digital Hydraulic Transmission (DHT) that targets electric-like efficiency with hydraulic-class power density. The system reduces reliance on rare-earth magnets and a China-centered electric actuator supply chain, aiming to improve automation ROI through higher payload, longer runtime, and lower cost in mid-payload (100\u2013500 kg) mobile robots.</p>\n<p>The company has progressed to a functioning integrated prototype (TRL 4) with &gt;$100k spent and is advancing toward a full-scale DHT and TRL 6 validation, with a roadmap focused on validating full-scale specs, signing pilots (LOI/MoU), and completing IP milestones (patent/FTO).</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "Digital hydraulic actuation for scalable mobile robots.",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    797
+   ],
+   "tx_cohort": [
+    790
+   ],
+   "tx_category": [
+    688
+   ],
+   "tx_trend": [],
+   "tx_stage": [],
+   "tx_region": [],
+   "tx_location": [],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9436",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-robotic-actuators-company",
+    "tx_cohort-hax-seed-2026",
+    "tx_category-manufacturing-energy",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://sosv.com/wp-content/themes/sosv-faq/assets/api/default/company.png",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "Digital hydraulic actuation for scalable mobile robots.",
+    "founded_year": "",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10552,
+    "logo": "",
+    "hero": "",
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9435,
+   "date": "2026-04-29T15:50:17",
+   "date_gmt": "2026-04-29T15:50:17",
+   "guid": {
+    "rendered": "https://hax.co/company/halltech-bv/"
+   },
+   "modified": "2026-04-29T15:54:04",
+   "modified_gmt": "2026-04-29T15:54:04",
+   "slug": "halltech-bv",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/halltech-bv/",
+   "title": {
+    "rendered": "Halltech B.V."
+   },
+   "content": {
+    "rendered": "<p>HallTech is building the thin-film deposition platform that unlocks the next semiconductor nodes. As chip scaling pushes past lithography into a materials bottleneck, our technology delivers film quality current tools cannot match, with a clear path to fab-grade production. We have a working proof-of-concept, validated results, multiple OEM evaluations underway, and two letters of intent signed.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "Unlocking the next generation semiconductors",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    796
+   ],
+   "tx_cohort": [
+    790
+   ],
+   "tx_category": [],
+   "tx_trend": [],
+   "tx_stage": [],
+   "tx_region": [],
+   "tx_location": [],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9435",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-halltech-bv",
+    "tx_cohort-hax-seed-2026",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://sosv.com/wp-content/themes/sosv-faq/assets/api/default/company.png",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "Unlocking the next generation semiconductors",
+    "founded_year": "",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "https://www.halltech.nl",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10553,
+    "logo": "",
+    "hero": "",
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9379,
+   "date": "2026-03-18T18:19:24",
+   "date_gmt": "2026-03-18T18:19:24",
+   "guid": {
+    "rendered": "https://hax.co/company/vision-iv/"
+   },
+   "modified": "2026-07-30T19:49:53",
+   "modified_gmt": "2026-07-30T19:49:53",
+   "slug": "vision-iv",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/vision-iv/",
+   "title": {
+    "rendered": "VISION IV"
+   },
+   "content": {
+    "rendered": "<p>Our technology is specialized in producing high-quality diamond substrates that are the foundation for next-generation power semiconductors and sensors. At the core of our technology is our unique crystal growth technique using microwave chemical vapor deposition (MPCVD).</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "Development, manufacuring, and distribution of synthetic diamond for semiconductor, sensor, and quantum technology",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    791
+   ],
+   "tx_cohort": [
+    759
+   ],
+   "tx_category": [],
+   "tx_trend": [],
+   "tx_stage": [
+    308
+   ],
+   "tx_region": [],
+   "tx_location": [
+    298,
+    858
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9379",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-vision-iv",
+    "tx_cohort-hax-seed-2025",
+    "tx_stage-pre-seed",
+    "tx_location-japan",
+    "tx_location-tokyo-jpn",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://sosv.com/wp-content/themes/sosv-faq/assets/api/default/company.png",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "Development, manufacuring, and distribution of synthetic diamond for semiconductor, sensor, and quantum technology",
+    "founded_year": "2021",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "http://visioniv.co.jp",
+    "linked_in": "https://linkedin.com/company/vision-iv",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10415,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9371,
+   "date": "2026-03-17T19:57:37",
+   "date_gmt": "2026-03-17T19:57:37",
+   "guid": {
+    "rendered": "https://hax.co/company/verustruct/"
+   },
+   "modified": "2026-08-18T15:49:42",
+   "modified_gmt": "2026-08-18T15:49:42",
+   "slug": "verustruct",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/verustruct/",
+   "title": {
+    "rendered": "VeruStruct"
+   },
+   "content": {
+    "rendered": "<p>Verustruct is committed to building housing that\u2019s better, faster, and cheaper to make homes accessible for everyone.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "At Verustruct, we believe everyone deserves a Safe, Affordable, and Sustainable Homes",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    788
+   ],
+   "tx_cohort": [
+    759
+   ],
+   "tx_category": [
+    343,
+    312
+   ],
+   "tx_trend": [
+    750
+   ],
+   "tx_stage": [],
+   "tx_region": [],
+   "tx_location": [
+    843,
+    293
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9371",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-verustruct",
+    "tx_cohort-hax-seed-2025",
+    "tx_category-industrial-equipment",
+    "tx_category-robotics",
+    "tx_trend-physical-ai",
+    "tx_location-newark-nj",
+    "tx_location-united-states",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://res.cloudinary.com/sosv-development/image/upload/v1787067970/studio-production/companies/g9x3odvh35h9g9of7yuv.png?_a=BACMTiGT",
+    "hero_url": "https://res.cloudinary.com/sosv-development/image/upload/v1787068159/studio-production/companies/nqt4yq8zh7s35cuffan9.jpg?_a=BACMTiGT",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "At Verustruct, we believe everyone deserves a Safe, Affordable, and Sustainable Homes",
+    "founded_year": "2024",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "http://verustruct.com",
+    "linked_in": "https://linkedin.com/company/impact3d-incorporated",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10462,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9370,
+   "date": "2026-03-17T19:57:03",
+   "date_gmt": "2026-03-17T19:57:03",
+   "guid": {
+    "rendered": "https://hax.co/company/terabora/"
+   },
+   "modified": "2026-07-30T19:45:29",
+   "modified_gmt": "2026-07-30T19:45:29",
+   "slug": "terabora",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/terabora/",
+   "title": {
+    "rendered": "Terabora"
+   },
+   "content": {
+    "rendered": "<p>TeraBora is a worm inspired digging robot for ground source heat pump installation in every home</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "Worm inspired digging for cheaper, greener heating",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    787
+   ],
+   "tx_cohort": [
+    759
+   ],
+   "tx_category": [],
+   "tx_trend": [],
+   "tx_stage": [],
+   "tx_region": [],
+   "tx_location": [
+    859,
+    293
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9370",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-terabora",
+    "tx_cohort-hax-seed-2025",
+    "tx_location-england-uk",
+    "tx_location-united-states",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://res.cloudinary.com/sosv-development/image/upload/v1763490695/dogud2bn9amsqjtvoc7i.png?_a=BACMTiGT",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "Worm inspired digging for cheaper, greener heating",
+    "founded_year": "2025",
+    "employee_count_range": "2-10",
+    "total_capital_raised": "",
+    "website": "https://terabora.com/",
+    "linked_in": "https://linkedin.com/company/terabora",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10463,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9369,
+   "date": "2026-03-17T19:56:32",
+   "date_gmt": "2026-03-17T19:56:32",
+   "guid": {
+    "rendered": "https://hax.co/company/navlive/"
+   },
+   "modified": "2026-07-30T19:46:52",
+   "modified_gmt": "2026-07-30T19:46:52",
+   "slug": "navlive",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/navlive/",
+   "title": {
+    "rendered": "Navlive"
+   },
+   "content": {
+    "rendered": "<p>AEC industry is lagging in tech incorporation to do things faster, cheaper and with less wastage. From<br />\ninitial site visits to becoming ultimate record of truth, we want to partner with AEC players in their<br />\nbuilding journey and give them a differentiation advantage with their 3D spatial data.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "NavLive creates accurate 2d and 3d models of buildings in real time for architect and construction professionals",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    786
+   ],
+   "tx_cohort": [
+    759
+   ],
+   "tx_category": [],
+   "tx_trend": [],
+   "tx_stage": [
+    308
+   ],
+   "tx_region": [],
+   "tx_location": [
+    857,
+    354
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9369",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-navlive",
+    "tx_cohort-hax-seed-2025",
+    "tx_stage-pre-seed",
+    "tx_location-oxford-uk",
+    "tx_location-united-kingdom",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://res.cloudinary.com/sosv-development/image/upload/v1757589755/dvicqrustkstaza1ur0u.png?_a=BACMTiGT",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "NavLive creates accurate 2d and 3d models of buildings in real time for architect and construction professionals",
+    "founded_year": "2022",
+    "employee_count_range": "11-50",
+    "total_capital_raised": "",
+    "website": "http://navlive.ai",
+    "linked_in": "https://uk.linkedin.com/company/navlive",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10411,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9368,
+   "date": "2026-03-17T19:55:56",
+   "date_gmt": "2026-03-17T19:55:56",
+   "guid": {
+    "rendered": "https://hax.co/company/cargo-robotics/"
+   },
+   "modified": "2026-07-30T19:46:59",
+   "modified_gmt": "2026-07-30T19:46:59",
+   "slug": "cargo-robotics",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/cargo-robotics/",
+   "title": {
+    "rendered": "Cargo Robotics"
+   },
+   "content": {
+    "rendered": "<p>About Cargo Robotics: Founded by two Stanford grads who took delivery jobs at UPS and FedEx after a delivery mishap, Cargo Robotics is building a robotic delivery platform that brings advanced warehouse-style automation to delivery vans. Think of it like a warehouse on wheels. Our first product automates parcel loading and retrieval which saves 6+ hours of work per delivery vehicle every day. By fitting 30% more parcels in each vehicle, our technology also enables smaller warehouses and van fleets, and reduces injuries and delivery failures that cost carriers billions per year. This is the first step in our vision for a fully autonomous delivery system.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "We\u2019re automating the last mile starting with robotic cargo bay for delivery vehicles.",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    785
+   ],
+   "tx_cohort": [
+    686
+   ],
+   "tx_category": [],
+   "tx_trend": [],
+   "tx_stage": [
+    308
+   ],
+   "tx_region": [],
+   "tx_location": [
+    854,
+    293
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9368",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-cargo-robotics",
+    "tx_cohort-hax-seed-2024",
+    "tx_stage-pre-seed",
+    "tx_location-palo-alto-ca",
+    "tx_location-united-states",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://sosv.com/wp-content/themes/sosv-faq/assets/api/default/company.png",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "We\u2019re automating the last mile starting with robotic cargo bay for delivery vehicles.",
+    "founded_year": "2023",
+    "employee_count_range": "",
+    "total_capital_raised": "",
+    "website": "https://withcargo.com/",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 10403,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  },
+  {
+   "id": 9367,
+   "date": "2026-03-17T19:55:21",
+   "date_gmt": "2026-03-17T19:55:21",
+   "guid": {
+    "rendered": "https://hax.co/company/sharper-sense/"
+   },
+   "modified": "2026-07-30T19:46:47",
+   "modified_gmt": "2026-07-30T19:46:47",
+   "slug": "sharper-sense",
+   "status": "publish",
+   "type": "company",
+   "link": "https://hax.co/company/sharper-sense/",
+   "title": {
+    "rendered": "Sharper Sense"
+   },
+   "content": {
+    "rendered": "<p>For high performers, a single misperception can cause serious injury and cost millions of dollars. Sharper Sense single-use neurostimulation patches enhance cognition and senses while worn, providing clarity when it counts. First launching to partners in the U.S. Air Force and Army and select elite athletic teams.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "Clarity When It Counts",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    784
+   ],
+   "tx_cohort": [
+    686
+   ],
+   "tx_category": [
+    322
+   ],
+   "tx_trend": [],
+   "tx_stage": [
+    308
+   ],
+   "tx_region": [
+    294
+   ],
+   "tx_location": [
+    839,
+    293
+   ],
+   "tx_program": [
+    768
+   ],
+   "class_list": [
+    "post-9367",
+    "company",
+    "type-company",
+    "status-publish",
+    "hentry",
+    "tx_company-sharper-sense",
+    "tx_cohort-hax-seed-2024",
+    "tx_category-healthcare",
+    "tx_stage-pre-seed",
+    "tx_region-north-america",
+    "tx_location-new-york-city-ny",
+    "tx_location-united-states",
+    "tx_program-sosv-hax"
+   ],
+   "acf": {
+    "logo_url": "https://res.cloudinary.com/sosv-development/image/upload/v1781224057/f2vlpbveyk8bxugj8no5.png?_a=BACMTiGT",
+    "hero_url": "http://sosv.com/wp-content/uploads/2022/07/generic-company-hero-v3.jpg",
+    "featured": false,
+    "position_number": 0,
+    "now_raising": false,
+    "tagline": "Clarity When It Counts",
+    "founded_year": "2020",
+    "employee_count_range": "2-10",
+    "total_capital_raised": 1700000,
+    "website": "https://www.sharpersense.com",
+    "linked_in": "https://www.linkedin.com/company/sharpersense/people/",
+    "twitter": "https://twitter.com/SharperSenseInc",
+    "facebook": "https://facebook.com/TrySharperSense",
+    "angelco": "",
+    "crunchbase": "https://www.crunchbase.com/organization/sharper-sense",
+    "medium": "",
+    "portal_id": 10337,
+    "logo": null,
+    "hero": null,
+    "jobs": null,
+    "emails": null
+   }
+  }
+ ],
+ "founder": [
+  {
+   "id": 9544,
+   "date": "2026-08-17T13:39:31",
+   "date_gmt": "2026-08-17T13:39:31",
+   "guid": {
+    "rendered": "https://hax.co/founder/mario-sanchez/"
+   },
+   "modified": "2026-08-17T13:39:31",
+   "modified_gmt": "2026-08-17T13:39:31",
+   "slug": "mario-sanchez",
+   "status": "publish",
+   "type": "founder",
+   "link": "https://hax.co/founder/mario-sanchez/",
+   "title": {
+    "rendered": "Mario Sanchez"
+   },
+   "content": {
+    "rendered": "",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    737
+   ],
+   "class_list": [
+    "post-9544",
+    "founder",
+    "type-founder",
+    "status-publish",
+    "hentry",
+    "tx_company-yplasma"
+   ],
+   "acf": {
+    "position_number": "",
+    "position": "Co-founder & CTO",
+    "profile_url": "https://res.cloudinary.com/sosv-development/image/upload/v1786973967/ttkjlzqeakorfkbee4dg.jpg?_a=BACMTiGT",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 22542
+   }
+  },
+  {
+   "id": 9543,
+   "date": "2026-08-17T13:36:53",
+   "date_gmt": "2026-08-17T13:36:53",
+   "guid": {
+    "rendered": "https://hax.co/founder/arne-arens/"
+   },
+   "modified": "2026-08-17T13:36:53",
+   "modified_gmt": "2026-08-17T13:36:53",
+   "slug": "arne-arens",
+   "status": "publish",
+   "type": "founder",
+   "link": "https://hax.co/founder/arne-arens/",
+   "title": {
+    "rendered": "Arne Arens"
+   },
+   "content": {
+    "rendered": "",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    442
+   ],
+   "class_list": [
+    "post-9543",
+    "founder",
+    "type-founder",
+    "status-publish",
+    "hentry",
+    "tx_company-unspun"
+   ],
+   "acf": {
+    "position_number": "",
+    "position": "CEO",
+    "profile_url": "https://res.cloudinary.com/sosv-development/image/upload/v1786973809/kmexjswzs3tiqbfhuyl6.jpg?_a=BACMTiGT",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 22515
+   }
+  },
+  {
+   "id": 9542,
+   "date": "2026-08-17T13:35:25",
+   "date_gmt": "2026-08-17T13:35:25",
+   "guid": {
+    "rendered": "https://hax.co/founder/johnathan-traudt/"
+   },
+   "modified": "2026-08-17T13:35:25",
+   "modified_gmt": "2026-08-17T13:35:25",
+   "slug": "johnathan-traudt",
+   "status": "publish",
+   "type": "founder",
+   "link": "https://hax.co/founder/johnathan-traudt/",
+   "title": {
+    "rendered": "Johnathan Traudt"
+   },
+   "content": {
+    "rendered": "",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    780
+   ],
+   "class_list": [
+    "post-9542",
+    "founder",
+    "type-founder",
+    "status-publish",
+    "hentry",
+    "tx_company-nabu-optical-systems"
+   ],
+   "acf": {
+    "position_number": "",
+    "position": "",
+    "profile_url": "https://res.cloudinary.com/sosv-development/image/upload/v1786973722/lsksdvxljyswvn7nbftm.jpg?_a=BACMTiGT",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 22505
+   }
+  },
+  {
+   "id": 9541,
+   "date": "2026-08-17T13:34:59",
+   "date_gmt": "2026-08-17T13:34:59",
+   "guid": {
+    "rendered": "https://hax.co/founder/imad-agha/"
+   },
+   "modified": "2026-08-17T13:34:59",
+   "modified_gmt": "2026-08-17T13:34:59",
+   "slug": "imad-agha",
+   "status": "publish",
+   "type": "founder",
+   "link": "https://hax.co/founder/imad-agha/",
+   "title": {
+    "rendered": "Imad Agha"
+   },
+   "content": {
+    "rendered": "",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    780
+   ],
+   "class_list": [
+    "post-9541",
+    "founder",
+    "type-founder",
+    "status-publish",
+    "hentry",
+    "tx_company-nabu-optical-systems"
+   ],
+   "acf": {
+    "position_number": "",
+    "position": "",
+    "profile_url": "https://res.cloudinary.com/sosv-development/image/upload/v1786973695/ywbq5kd8jdaayvqntf4w.jpg?_a=BACMTiGT",
+    "linked_in": "",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 22504
+   }
+  },
+  {
+   "id": 9540,
+   "date": "2026-08-17T13:34:25",
+   "date_gmt": "2026-08-17T13:34:25",
+   "guid": {
+    "rendered": "https://hax.co/founder/ariana-martinez/"
+   },
+   "modified": "2026-08-17T13:34:25",
+   "modified_gmt": "2026-08-17T13:34:25",
+   "slug": "ariana-martinez",
+   "status": "publish",
+   "type": "founder",
+   "link": "https://hax.co/founder/ariana-martinez/",
+   "title": {
+    "rendered": "Ariana Martinez"
+   },
+   "content": {
+    "rendered": "",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "",
+    "protected": false
+   },
+   "featured_media": 0,
+   "template": "",
+   "tx_company": [
+    772
+   ],
+   "class_list": [
+    "post-9540",
+    "founder",
+    "type-founder",
+    "status-publish",
+    "hentry",
+    "tx_company-juno-propulsion"
+   ],
+   "acf": {
+    "position_number": "",
+    "position": "Co-founder & CTO",
+    "profile_url": "https://res.cloudinary.com/sosv-development/image/upload/v1786973661/xcla7vf7atabnnicaa9d.jpg?_a=BACMTiGT",
+    "linked_in": "https://www.linkedin.com/in/ari-martinez-ph-d-a36205a6/",
+    "twitter": "",
+    "facebook": "",
+    "angelco": "",
+    "crunchbase": "",
+    "medium": "",
+    "portal_id": 22503
+   }
+  }
+ ]
+}

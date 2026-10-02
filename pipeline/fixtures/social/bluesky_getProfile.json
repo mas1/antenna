@@ -1,0 +1,23 @@
+{
+ "did": "did:plc:kdmvt4ms3mdubwl2aatlhbm7",
+ "handle": "kronosfusionenergy.bsky.social",
+ "displayName": "Kronos Fusion Energy",
+ "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kdmvt4ms3mdubwl2aatlhbm7/bafkreigfxyucolpew3n3unxok6r5xtcoynsjldf7dit3ogwlcyff3uc4ne",
+ "associated": {
+  "lists": 0,
+  "feedgens": 0,
+  "starterPacks": 0,
+  "labeler": false,
+  "activitySubscription": {
+   "allowSubscriptions": "followers"
+  }
+ },
+ "labels": [],
+ "createdAt": "2024-11-20T15:35:56.069Z",
+ "description": "🔆High-Field Fusion. Real Power. Built to Scale.",
+ "indexedAt": "2026-02-23T16:57:23.750Z",
+ "banner": "https://cdn.bsky.app/img/banner/plain/did:plc:kdmvt4ms3mdubwl2aatlhbm7/bafkreib3vmdrmhypeyybskta7b2v2b5kvxvd6xz6bie5teg6dhgnopm7nm",
+ "followersCount": 15,
+ "followsCount": 8,
+ "postsCount": 0
+}

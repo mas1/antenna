@@ -1,0 +1,415 @@
+{
+ "generated_at": "2026-10-01T03:12:16.858Z",
+ "summary": {
+  "previous_total": 6265,
+  "current_total": 6268,
+  "added": 4,
+  "removed": 1,
+  "updated": 54
+ },
+ "added": [
+  {
+   "id": 13210,
+   "name": "Reframe",
+   "slug": "reframe-2",
+   "former_names": [],
+   "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/880705b835d5a12c59be031e53d0493e21e5b49c.png",
+   "website": "https://reframe.dev/",
+   "all_locations": "",
+   "long_description": "Shutdown to pursue fundamental computing research",
+   "one_liner": "Zoomable generative UI for codebase architecture",
+   "team_size": 0,
+   "industry": "B2B",
+   "subindustry": "B2B -> Engineering, Product and Design",
+   "launched_at": 1790739463,
+   "tags": [
+    "Developer Tools"
+   ],
+   "tags_highlighted": [],
+   "top_company": false,
+   "isHiring": false,
+   "nonprofit": false,
+   "batch": "Winter 2020",
+   "status": "Inactive",
+   "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+   ],
+   "regions": [
+    "Unspecified"
+   ],
+   "stage": "Early",
+   "app_video_public": false,
+   "demo_day_video_public": false,
+   "app_answers": null,
+   "question_answers": false,
+   "url": "https://www.ycombinator.com/companies/reframe-2",
+   "api": "https://yc-oss.github.io/api/batches/winter-2020/reframe-2.json"
+  },
+  {
+   "id": 35392,
+   "name": "Dydema",
+   "slug": "dydema",
+   "former_names": [],
+   "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2f88326f16a3245ab42f5cb8218948d206913239.png",
+   "website": "https://dydema.com/",
+   "all_locations": "San Francisco, CA, USA",
+   "long_description": "A data-first model company for neurotech. We collect brain data for others, and use it to build toward general models of the brain.",
+   "one_liner": "The model company for neurotech.",
+   "team_size": 2,
+   "industry": "B2B",
+   "subindustry": "B2B",
+   "launched_at": 1790760468,
+   "tags": [
+    "Neurotechnology",
+    "Neuroinformatics",
+    "AI"
+   ],
+   "tags_highlighted": [],
+   "top_company": false,
+   "isHiring": false,
+   "nonprofit": false,
+   "batch": "Fall 2026",
+   "status": "Active",
+   "industries": [
+    "B2B"
+   ],
+   "regions": [
+    "United States of America",
+    "America / Canada"
+   ],
+   "stage": "Early",
+   "app_video_public": false,
+   "demo_day_video_public": false,
+   "app_answers": null,
+   "question_answers": false,
+   "url": "https://www.ycombinator.com/companies/dydema",
+   "api": "https://yc-oss.github.io/api/batches/fall-2026/dydema.json"
+  },
+  {
+   "id": 37238,
+   "name": "Terse",
+   "slug": "useterse",
+   "former_names": [
+    "Terse Inc. dba Terse AI"
+   ],
+   "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/21712c0189bc22ccc5e9bfeb15e67a527077b8f7.png",
+   "website": "https://www.useterse.ai/",
+   "all_locations": "New York City, NY, USA",
+   "long_description": "We build infrastructure to power agentic systems such as software factories, multiplayer agent frameworks and agent coordination.",
+   "one_liner": "Durable state for AI agents",
+   "team_size": 2,
+   "industry": "B2B",
+   "subindustry": "B2B -> Infrastructure",
+   "launched_at": 1790745772,
+   "tags": [
+    "API",
+    "Infrastructure",
+    "AI"
+   ],
+   "tags_highlighted": [],
+   "top_company": false,
+   "isHiring": false,
+   "nonprofit": false,
+   "batch": "Fall 2026",
+   "status": "Active",
+   "industries": [
+    "B2B",
+    "Infrastructure"
+   ],
+   "regions": [
+    "United States of America",
+    "America / Canada"
+   ],
+   "stage": "Early",
+   "app_video_public": false,
+   "demo_day_video_public": false,
+   "app_answers": null,
+   "question_answers": false,
+   "url": "https://www.ycombinator.com/companies/useterse",
+   "api": "https://yc-oss.github.io/api/batches/fall-2026/useterse.json"
+  },
+  {
+   "id": 37732,
+   "name": "Hundred",
+   "slug": "hundred",
+   "former_names": [],
+   "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f9f26995d92445a7e77c0839448bb04ca0c89f08.png",
+   "website": "http://hundred.systems/",
+   "all_locations": "San Francisco, CA, USA",
+   "long_description": "Hundred is an automated inspection system for consumer electronics parts. We help factories cut waste and prevent line-down issues by catching sub-millimeter cosmetic defects before parts reach the assembly line.\r\n\r\nDesigns change so fast that traditional vision models can't keep up, meaning factories still rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss ~15% of defects which can turn a finished device into scrap.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, and Erica saw this problem firsthand designing hardware at Meta, Google, and Magic Leap. She met Imani at Columbia's admitted-students day in 2017, and later met Iris through mutual friends in the Bay Area. Imani spent the last five years at Twitch building software that handles billions of requests a day, and Iris worked in Quant at Citadel before pivoting to research machine learning methods on 3D meshes and other structured data at Imperial College London. Now the team is building Hundred because manual inspection shouldn't exist in 2026.",
+   "one_liner": "100% automated inspection for consumer electronics parts",
+   "team_size": 3,
+   "industry": "Industrials",
+   "subindustry": "Industrials -> Manufacturing and Robotics",
+   "launched_at": 1790785673,
+   "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Machine Learning",
+    "Computer Vision",
+    "Industrial"
+   ],
+   "tags_highlighted": [],
+   "top_company": false,
+   "isHiring": false,
+   "nonprofit": false,
+   "batch": "Fall 2026",
+   "status": "Active",
+   "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+   ],
+   "regions": [
+    "United States of America",
+    "America / Canada"
+   ],
+   "stage": "Early",
+   "app_video_public": false,
+   "demo_day_video_public": false,
+   "app_answers": null,
+   "question_answers": false,
+   "url": "https://www.ycombinator.com/companies/hundred",
+   "api": "https://yc-oss.github.io/api/batches/fall-2026/hundred.json"
+  }
+ ],
+ "removed": [
+  {
+   "id": 31110,
+   "name": "Cascade",
+   "slug": "cascade",
+   "former_names": [],
+   "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3cc110e9433eb8ebeb8edd42c08cec81dca5f15c.png",
+   "website": "https://runcascade.com/",
+   "all_locations": "San Francisco, CA, USA",
+   "long_description": "Cascade helps companies take their proprietary data and workflows to align models for their use cases, resulting in higher throughput intelligence that works better, faster, and cheaper.",
+   "one_liner": "Distilling Proprietary Intelligence",
+   "team_size": 2,
+   "industry": "B2B",
+   "subindustry": "B2B -> Infrastructure",
+   "launched_at": 1770726393,
+   "tags": [],
+   "tags_highlighted": [],
+   "top_company": false,
+   "isHiring": false,
+   "nonprofit": false,
+   "batch": "Winter 2026",
+   "status": "Active",
+   "industries": [
+    "B2B",
+    "Infrastructure"
+   ],
+   "regions": [
+    "United States of America",
+    "America / Canada"
+   ],
+   "stage": "Early",
+   "app_video_public": false,
+   "demo_day_video_public": false,
+   "app_answers": null,
+   "question_answers": false,
+   "url": "https://www.ycombinator.com/companies/cascade",
+   "api": "https://yc-oss.github.io/api/batches/winter-2026/cascade.json"
+  }
+ ],
+ "updated": [
+  {
+   "id": 91,
+   "name": "Clerky",
+   "slug": "clerky",
+   "batch": "Summer 2011",
+   "url": "https://www.ycombinator.com/companies/clerky",
+   "changed_fields": [
+    "status"
+   ],
+   "changes": {
+    "status": {
+     "before": "Active",
+     "after": "Acquired"
+    }
+   }
+  },
+  {
+   "id": 796,
+   "name": "Vest",
+   "slug": "vest",
+   "batch": "Winter 2015",
+   "url": "https://www.ycombinator.com/companies/vest",
+   "changed_fields": [
+    "long_description"
+   ],
+   "changes": {
+    "long_description": {
+     "before": "Vest, on a mission to bring wider access to financial derivatives, manages investment products worth $70+ billion (as of 6/30/26). Backed by private equity, the firm has a strategic partnership with Cboe Global Markets, Inc. (NASDAQ: CBOE), and First Trust, a global asset manager. \r\n\r\nVest created Target Outcome Investments in 2013, which target a defined return profile, with an allowance for a specific level of risk, at a particular point in time. Today, Target Outcome Investments are available as mutual\u202ffunds, exchange-traded funds (ETFs), unit investment trusts (UITs), collective investment trusts (CITs), and customizable managed accounts / sub-advisory services. \r\n\r\nThe firm was launched and backed by preeminent venture firms such as Y-Combinator (Airbnb, Reddit, Dropbox), First Round Capital (Uber, Mint, Square) and Payment Ventures (MicroVentures, CardFlight).\r\n\r\nSee more at https://www.vestfin.com.",
+     "after": "Vest, on a mission to bring wider access to financial derivatives, manages investment products worth $75+ billion (as of 9/30/26). Backed by private equity, the firm has a strategic partnership with Cboe Global Markets, Inc. (NASDAQ: CBOE), and First Trust, a global asset manager. \r\n\r\nVest created Target Outcome Investments in 2013, which target a defined return profile, with an allowance for a specific level of risk, at a particular point in time. Today, Target Outcome Investments are available as mutual\u202ffunds, exchange-traded funds (ETFs), unit investment trusts (UITs), collective investment trusts (CITs), and customizable managed accounts / sub-advisory services. \r\n\r\nThe firm was launched and backed by preeminent venture firms such as Y-Combinator (Airbnb, Reddit, Dropbox), First Round Capital (Uber, Mint, Square) and Payment Ventures (MicroVentures, CardFlight).\r\n\r\nSee more at https://www.vestfin.com."
+    }
+   }
+  },
+  {
+   "id": 1068,
+   "name": "Quilt Data",
+   "slug": "quilt-data",
+   "batch": "Winter 2016",
+   "url": "https://www.ycombinator.com/companies/quilt-data",
+   "changed_fields": [
+    "all_locations"
+   ],
+   "changes": {
+    "all_locations": {
+     "before": "Kihei, HI, USA; San Francisco, CA, USA; Remote",
+     "after": "San Francisco, CA, USA; Remote"
+    }
+   }
+  },
+  {
+   "id": 1109,
+   "name": "BillionToOne",
+   "slug": "billiontoone",
+   "batch": "Summer 2017",
+   "url": "https://www.ycombinator.com/companies/billiontoone",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1229,
+   "name": "The Flex Company",
+   "slug": "the-flex-company",
+   "batch": "Summer 2016",
+   "url": "https://www.ycombinator.com/companies/the-flex-company",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1269,
+   "name": "Squire Technologies",
+   "slug": "squire-technologies",
+   "batch": "Summer 2016",
+   "url": "https://www.ycombinator.com/companies/squire-technologies",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1464,
+   "name": "Ledger Investing",
+   "slug": "ledger-investing",
+   "batch": "Winter 2017",
+   "url": "https://www.ycombinator.com/companies/ledger-investing",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1465,
+   "name": "Pulse",
+   "slug": "pulse",
+   "batch": "Winter 2017",
+   "url": "https://www.ycombinator.com/companies/pulse",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1526,
+   "name": "Bulletin",
+   "slug": "bulletin",
+   "batch": "Winter 2017",
+   "url": "https://www.ycombinator.com/companies/bulletin",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1849,
+   "name": "ZBiotics",
+   "slug": "zbiotics",
+   "batch": "Winter 2018",
+   "url": "https://www.ycombinator.com/companies/zbiotics",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 1901,
+   "name": "Verse Medical",
+   "slug": "jetlenses",
+   "batch": "Summer 2018",
+   "url": "https://www.ycombinator.com/companies/jetlenses",
+   "changed_fields": [
+    "stage"
+   ],
+   "changes": {
+    "stage": {
+     "before": "Growth",
+     "after": "Early"
+    }
+   }
+  },
+  {
+   "id": 22905,
+   "name": "Remora",
+   "slug": "remora",
+   "batch": "Winter 2021",
+   "url": "https://www.ycombinator.com/companies/remora",
+   "changed_fields": [
+    "long_description",
+    "one_liner"
+   ],
+   "changes": {
+    "long_description": {
+     "before": "We're building carbon capture for trains and trucks. We generate revenue for railroads and trucking companies by extracting, purifying, and selling CO2 from their exhaust. Our technology can capture up to 90% of the CO2 in the vehicle's exhaust while reducing soot, particulate matter, and NOx.\r\n\r\nWe've partnered with Union Pacific, Norfolk Southern, Ryder, and Werner, and raised $117 million from Lowercarbon Capital, Valor Equity Partners, Union Square Ventures, and Y Combinator.",
+     "after": "We\u2019re building modular carbon capture systems, turning exhaust into beverage-grade CO\u2082 sold to breweries and greenhouses. We deploy in regions facing severe CO\u2082 shortages, where prices are highest, allowing us to generate high margins without relying on tax credits or carbon credits.\r\n\r\nWe\u2019ve raised over $115 million in funding from top investors including Lowercarbon Capital, Union Square Ventures, First Round Capital, Y Combinator, and Valor Equity Partners."
+    },
+    "one_liner": {
+     "before": "Carbon capture for vehicles",
+     "after": "Modular carbon capture"
+    }
+   }
+  }
+ ],
+ "_fixture_note": "GET https://yc-oss.github.io/api/changes/latest.json ; 'updated' trimmed to first 12 of 54"
+}

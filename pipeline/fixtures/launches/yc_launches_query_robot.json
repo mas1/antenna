@@ -1,0 +1,810 @@
+{
+ "hits": [
+  {
+   "id": 116072,
+   "title": "Invertix: Energy Superintelligence",
+   "tagline": "Building AI agents to operate the world's energy infrastructure and data centers",
+   "slug": "UC8-invertix-energy-superintelligence",
+   "created_at": "2026-09-28T07:00:00.116Z",
+   "total_vote_count": 6,
+   "company": {
+    "id": 35355,
+    "model_type": "Company",
+    "model_id": 35355,
+    "name": "Invertix",
+    "url": "https://www.invertix.ai",
+    "slug": "invertix",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/c2332aa776f979c1ef83d3026fd24932b6576eea.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Solar Power",
+     "Infrastructure"
+    ],
+    "batch": "Fall 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/35355"
+   },
+   "search_path": "https://www.ycombinator.com/launches/UC8-invertix-energy-superintelligence"
+  },
+  {
+   "id": 115448,
+   "title": "Dreamscale Labs: Running robot brains in the cloud",
+   "tagline": "The fastest cloud inference platform for robotics.",
+   "slug": "U24-dreamscale-labs-running-robot-brains-in-the-cloud",
+   "created_at": "2026-09-17T23:00:00.159Z",
+   "total_vote_count": 51,
+   "company": {
+    "id": 35850,
+    "model_type": "Company",
+    "model_id": 35850,
+    "name": "Dreamscale Labs",
+    "url": "https://dreamscalelabs.com",
+    "slug": "dreamscale-labs",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/5a0eb88901e7f46ec71cc8739e8069f4815b0a52.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Robotics",
+     "Infrastructure"
+    ],
+    "batch": "Fall 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/35850"
+   },
+   "search_path": "https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud"
+  },
+  {
+   "id": 114663,
+   "title": "sizeless - Spatial AI for underground infrastructure \ud83d\udea7",
+   "tagline": "Turn a 10-minute phone video of an open trench into engineering-grade documentation",
+   "slug": "TpP-sizeless-spatial-ai-for-underground-infrastructure",
+   "created_at": "2026-09-10T18:00:52.630Z",
+   "total_vote_count": 29,
+   "company": {
+    "id": 28959,
+    "model_type": "Company",
+    "model_id": 28959,
+    "name": "sizeless",
+    "url": "https://www.sizeless.co",
+    "slug": "sizeless",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/90ad40c9214ea17e0132605fba1e092c86e8b9a0.png",
+    "tags": [
+     "Computer Vision",
+     "Real Estate",
+     "Construction",
+     "AI"
+    ],
+    "batch": "Summer 2023",
+    "industry": "Real Estate and Construction",
+    "search_path": "https://bookface.ycombinator.com/company/28959"
+   },
+   "search_path": "https://www.ycombinator.com/launches/TpP-sizeless-spatial-ai-for-underground-infrastructure"
+  },
+  {
+   "id": 113464,
+   "title": "Ultrasonium: Shaping the Future of Metal Manufacturing",
+   "tagline": "We make the world\u2019s most difficult metal parts faster, cheaper, and more versatile.",
+   "slug": "TW4-ultrasonium-shaping-the-future-of-metal-manufacturing",
+   "created_at": "2026-09-02T19:54:37.419Z",
+   "total_vote_count": 6,
+   "company": {
+    "id": 32750,
+    "model_type": "Company",
+    "model_id": 32750,
+    "name": "Ultrasonium",
+    "url": "https://ultrasonium.com/",
+    "slug": "ultrasonium",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/734dc12d12265ba8890bf4ef5e7e564bdb629a87.png",
+    "tags": [
+     "Hard Tech",
+     "Hardware",
+     "Robotics",
+     "Manufacturing"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32750"
+   },
+   "search_path": "https://www.ycombinator.com/launches/TW4-ultrasonium-shaping-the-future-of-metal-manufacturing"
+  },
+  {
+   "id": 112513,
+   "title": "Robocurve\u00a0\u2014 Real-World Evaluations of Physical AI",
+   "tagline": "Real-world evals for robots",
+   "slug": "TGj-robocurve-real-world-evaluations-of-physical-ai",
+   "created_at": "2026-08-27T20:30:00.743Z",
+   "total_vote_count": 11,
+   "company": {
+    "id": 33349,
+    "model_type": "Company",
+    "model_id": 33349,
+    "name": "Robocurve",
+    "url": "https://robocurve.org",
+    "slug": "robocurve",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/1cfdafb2f71eef92d986496e842d5218b330742b.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Hard Tech",
+     "Hardware",
+     "Robotics",
+     "Open Source"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33349"
+   },
+   "search_path": "https://www.ycombinator.com/launches/TGj-robocurve-real-world-evaluations-of-physical-ai"
+  },
+  {
+   "id": 112228,
+   "title": "Tensr - Robotic Factories that Build Robots from Humanoids to Robots for the International Space Station",
+   "tagline": "Robotic Factories that Build Robots",
+   "slug": "TC8-tensr-robotic-factories-that-build-robots-from-humanoids-to-robots-for-the-international-space-station",
+   "created_at": "2026-08-25T21:00:00.441Z",
+   "total_vote_count": 6,
+   "company": {
+    "id": 30904,
+    "model_type": "Company",
+    "model_id": 30904,
+    "name": "Tensr",
+    "url": "https://tensr.com/",
+    "slug": "tensr",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/7f3743327b1fc85ded6caddbd532e0c600eb2cb0.png",
+    "tags": [
+     "Deep Learning",
+     "Hardware",
+     "Robotics",
+     "Automation",
+     "Industrial"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/30904"
+   },
+   "search_path": "https://www.ycombinator.com/launches/TC8-tensr-robotic-factories-that-build-robots-from-humanoids-to-robots-for-the-international-space-station"
+  },
+  {
+   "id": 112214,
+   "title": "Edgerun: The 10 lb Military Exoskeleton",
+   "tagline": "Powered exoskeleton that assists every step a soldier takes under combat load",
+   "slug": "TBu-edgerun-the-10-lb-military-exoskeleton",
+   "created_at": "2026-08-25T16:19:00.453Z",
+   "total_vote_count": 6,
+   "company": {
+    "id": 31582,
+    "model_type": "Company",
+    "model_id": 31582,
+    "name": "Edgerun",
+    "url": "https://edgerun.com",
+    "slug": "edgerun",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/8fb84bc8b7f8d02b776dec7685bbaf102fdadf1c.png",
+    "tags": [
+     "Hard Tech",
+     "Hardware",
+     "Robotics",
+     "Defense"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/31582"
+   },
+   "search_path": "https://www.ycombinator.com/launches/TBu-edgerun-the-10-lb-military-exoskeleton"
+  },
+  {
+   "id": 112000,
+   "title": "Manifold - Robotic labor for the supply chain industry",
+   "tagline": "Robotic labor for the supply chain industry",
+   "slug": "T8S-manifold-robotic-labor-for-the-supply-chain-industry",
+   "created_at": "2026-08-24T18:00:00.769Z",
+   "total_vote_count": 4,
+   "company": {
+    "id": 32260,
+    "model_type": "Company",
+    "model_id": 32260,
+    "name": "Manifold",
+    "url": "https://www.manifoldindustries.ai/",
+    "slug": "manifold-2",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/98f03122e41743439cec57f8152eac9cd506d714.png",
+    "tags": [
+     "Hardware",
+     "Warehouse Management Tech",
+     "Robotics",
+     "Logistics",
+     "Supply Chain"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32260"
+   },
+   "search_path": "https://www.ycombinator.com/launches/T8S-manifold-robotic-labor-for-the-supply-chain-industry"
+  },
+  {
+   "id": 111814,
+   "title": "WonderTx: Extrapolative AI to Unlock First-in-Class Drugs",
+   "tagline": "Reindustrializing our life science ecosystem.",
+   "slug": "T5S-wondertx-extrapolative-ai-to-unlock-first-in-class-drugs",
+   "created_at": "2026-08-24T12:30:00.531Z",
+   "total_vote_count": 13,
+   "company": {
+    "id": 31425,
+    "model_type": "Company",
+    "model_id": 31425,
+    "name": "WonderTx",
+    "url": "https://wondertx.ai/",
+    "slug": "wondertx",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/08d90d66366f5066cf3ad5ae02f156dc4bcc8ebe.png",
+    "tags": [
+     "AI-powered Drug Discovery",
+     "Generative AI",
+     "Biotech"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Healthcare",
+    "search_path": "https://bookface.ycombinator.com/company/31425"
+   },
+   "search_path": "https://www.ycombinator.com/launches/T5S-wondertx-extrapolative-ai-to-unlock-first-in-class-drugs"
+  },
+  {
+   "id": 111689,
+   "title": "Coarena - The biggest crowdsourced benchmark for Computer-Use",
+   "tagline": "We build the most advanced and biggest benchmark for computer use",
+   "slug": "T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use",
+   "created_at": "2026-08-22T19:00:00.303Z",
+   "total_vote_count": 59,
+   "company": {
+    "id": 33738,
+    "model_type": "Company",
+    "model_id": 33738,
+    "name": "CoArena",
+    "url": "http://coarena.ai",
+    "slug": "coarena",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/1543623e6506eaf893b1c43e614688a6b2a32bda.png",
+    "tags": [
+     "AIOps",
+     "Artificial Intelligence",
+     "Machine Learning",
+     "Reinforcement Learning",
+     "Data Labeling"
+    ],
+    "batch": "Summer 2026",
+    "industry": "B2B",
+    "search_path": "https://bookface.ycombinator.com/company/33738"
+   },
+   "search_path": "https://www.ycombinator.com/launches/T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use"
+  },
+  {
+   "id": 111315,
+   "title": "Nori: The $1688 humanoid robot",
+   "tagline": "Most humanoids cost 16k, ours cost 1.6. 19 DOF, 1.5 KG lift per arm",
+   "slug": "SxP-nori-the-1688-humanoid-robot",
+   "created_at": "2026-08-20T18:30:00.323Z",
+   "total_vote_count": 16,
+   "company": {
+    "id": 32553,
+    "model_type": "Company",
+    "model_id": 32553,
+    "name": "Nori",
+    "url": "http://norirobotics.com",
+    "slug": "noril1",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/4b7cc06bfd9d08d6eae3bc20eca8c056f893bf8b.png",
+    "tags": [
+     "Hard Tech",
+     "Hardware",
+     "Robotics"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32553"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SxP-nori-the-1688-humanoid-robot"
+  },
+  {
+   "id": 111330,
+   "title": "Waybill - Procurement autopilot for hardware teams.",
+   "tagline": "Take your supply chain for granted.",
+   "slug": "Sxe-waybill-procurement-autopilot-for-hardware-teams",
+   "created_at": "2026-08-20T03:30:00.319Z",
+   "total_vote_count": 11,
+   "company": {
+    "id": 32948,
+    "model_type": "Company",
+    "model_id": 32948,
+    "name": "Waybill",
+    "url": "https://www.waybill.to/",
+    "slug": "waybill",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/b91adedb53afabc881281324143485f1dc3c6674.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Logistics",
+     "Procurement"
+    ],
+    "batch": "Summer 2026",
+    "industry": "B2B",
+    "search_path": "https://bookface.ycombinator.com/company/32948"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Sxe-waybill-procurement-autopilot-for-hardware-teams"
+  },
+  {
+   "id": 111175,
+   "title": "Earendil | Autonomous Air Defence",
+   "tagline": "Autonomous, combat-proven interceptors for defending against drone swarms.",
+   "slug": "Sv9-earendil-autonomous-air-defence",
+   "created_at": "2026-08-19T15:45:00.136Z",
+   "total_vote_count": 4,
+   "company": {
+    "id": 33281,
+    "model_type": "Company",
+    "model_id": 33281,
+    "name": "Earendil Robotics",
+    "url": "https://earendil.io",
+    "slug": "earendil-robotics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/39ec6212427cdf833238bd48eca01f40904ba49f.png",
+    "tags": [
+     "Drones",
+     "Swarm Robotics",
+     "AR"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33281"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Sv9-earendil-autonomous-air-defence"
+  },
+  {
+   "id": 111317,
+   "title": "Grip - Robotics for Waste Management",
+   "tagline": "Robots that sort any waste and recover recyclables, learning from every grasp.",
+   "slug": "SxR-grip-robotics-for-waste-management",
+   "created_at": "2026-08-19T13:00:00.941Z",
+   "total_vote_count": 15,
+   "company": {
+    "id": 33144,
+    "model_type": "Company",
+    "model_id": 33144,
+    "name": "Grip",
+    "url": "https://www.griprobotics.ai",
+    "slug": "grip",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/a6be2671c5d4e3adfe916a4a59aad4680c7cc9d3.png",
+    "tags": [
+     "Robotic Process Automation",
+     "Sustainability"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33144"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SxR-grip-robotics-for-waste-management"
+  },
+  {
+   "id": 111169,
+   "title": "Libra Robotics: Robots That Build Solar Farms Together",
+   "tagline": "Multiple robots coordinating as one crew to automate solar installation",
+   "slug": "Sv3-libra-robotics-robots-that-build-solar-farms-together",
+   "created_at": "2026-08-18T15:06:00.036Z",
+   "total_vote_count": 374,
+   "company": {
+    "id": 31226,
+    "model_type": "Company",
+    "model_id": 31226,
+    "name": "Libra Robotics",
+    "url": "https://www.librabots.com/",
+    "slug": "libra-robotics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
+    "tags": [
+     "Hard Tech",
+     "Robotics",
+     "Construction",
+     "Energy",
+     "AI"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/31226"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Sv3-libra-robotics-robots-that-build-solar-farms-together"
+  },
+  {
+   "id": 110611,
+   "title": "Mass Magnetics: USA-made magnets",
+   "tagline": "Vertically integrated magnet manufacturing for aerospace, robotics and defense.",
+   "slug": "Sm3-mass-magnetics-usa-made-magnets",
+   "created_at": "2026-08-18T14:30:00.079Z",
+   "total_vote_count": 7,
+   "company": {
+    "id": 32128,
+    "model_type": "Company",
+    "model_id": 32128,
+    "name": "Mass Magnetics",
+    "url": "https://massmagnetics.com/",
+    "slug": "mass-magnetics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/26161cef0e683292e39a5da2d6258b38702473a0.png",
+    "tags": [
+     "Hard Tech",
+     "Robotics",
+     "Drones",
+     "Manufacturing",
+     "Defense"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32128"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Sm3-mass-magnetics-usa-made-magnets"
+  },
+  {
+   "id": 110404,
+   "title": "MOCHI.TV - 1 Minute Anime",
+   "tagline": "A mobile app to watch vertical anime shorts, created with AI.",
+   "slug": "Sii-mochi-tv-1-minute-anime",
+   "created_at": "2026-08-14T20:36:04.113Z",
+   "total_vote_count": 46,
+   "company": {
+    "id": 32205,
+    "model_type": "Company",
+    "model_id": 32205,
+    "name": "Mochi",
+    "url": "https://www.mochi.tv/",
+    "slug": "mochi",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/f190f58f8300e2403a89619d8522badbb222ad8f.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Consumer"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Consumer",
+    "search_path": "https://bookface.ycombinator.com/company/32205"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Sii-mochi-tv-1-minute-anime"
+  },
+  {
+   "id": 109992,
+   "title": "Parasma: Training human brain cells for compute",
+   "tagline": "In March, we trained them to play Doom; now we got them to do next-token prediction.",
+   "slug": "Sc4-parasma-training-human-brain-cells-for-compute",
+   "created_at": "2026-08-13T20:30:00.164Z",
+   "total_vote_count": 10,
+   "company": {
+    "id": 32134,
+    "model_type": "Company",
+    "model_id": 32134,
+    "name": "Parasma",
+    "url": "https://parasma.com",
+    "slug": "parasma",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/65a63b540239ee3a5538326d626bcceee19f52d9.png",
+    "tags": [
+     "Machine Learning",
+     "Neurotechnology",
+     "AI"
+    ],
+    "batch": "Summer 2026",
+    "industry": "B2B",
+    "search_path": "https://bookface.ycombinator.com/company/32134"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Sc4-parasma-training-human-brain-cells-for-compute"
+  },
+  {
+   "id": 110389,
+   "title": "DeepReach: Launch a real-world data business today",
+   "tagline": "Multi-million-dollar contracts secured with frontier AI labs \u2014 and growing",
+   "slug": "SiT-deepreach-launch-a-real-world-data-business-today",
+   "created_at": "2026-08-13T18:33:15.556Z",
+   "total_vote_count": 470,
+   "company": {
+    "id": 32206,
+    "model_type": "Company",
+    "model_id": 32206,
+    "name": "DeepReach Inc.",
+    "url": "http://www.deepreach.ai",
+    "slug": "deepreach-inc",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/165caaebecbd3f0b9470bb5817a0a1817520c935.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Hardware",
+     "Machine Learning",
+     "Robotics",
+     "Computer Vision"
+    ],
+    "batch": "Summer 2026",
+    "industry": "B2B",
+    "search_path": "https://bookface.ycombinator.com/company/32206"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SiT-deepreach-launch-a-real-world-data-business-today"
+  },
+  {
+   "id": 110197,
+   "title": "Risklytics: Insurance for the Frontier",
+   "tagline": "Insurance for companies pushing the frontier of what is possible with AI, from robot fleets to agents in production.",
+   "slug": "SfN-risklytics-insurance-for-the-frontier",
+   "created_at": "2026-08-13T16:30:00.597Z",
+   "total_vote_count": 53,
+   "company": {
+    "id": 32650,
+    "model_type": "Company",
+    "model_id": 32650,
+    "name": "Risklytics",
+    "url": "https://www.risklytics.ai/",
+    "slug": "risklytics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/879622d4fa103941586542ac659eaf9b60d897f0.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Hardware",
+     "Machine Learning",
+     "B2B",
+     "Insurance"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Fintech",
+    "search_path": "https://bookface.ycombinator.com/company/32650"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SfN-risklytics-insurance-for-the-frontier"
+  },
+  {
+   "id": 110367,
+   "title": "Shiraz AI: Robots that learn on the job",
+   "tagline": "Deploy robots that learn new tasks from a single human demonstration in the factory",
+   "slug": "Si7-shiraz-ai-robots-that-learn-on-the-job",
+   "created_at": "2026-08-12T20:00:00.186Z",
+   "total_vote_count": 62,
+   "company": {
+    "id": 33053,
+    "model_type": "Company",
+    "model_id": 33053,
+    "name": "Shiraz AI",
+    "url": "https://shiraz.ai",
+    "slug": "shiraz-ai",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/93d2ffb0a884b8a3781f59266189d89f4b30d975.png",
+    "tags": [
+     "Generative AI",
+     "Robotics",
+     "Manufacturing"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33053"
+   },
+   "search_path": "https://www.ycombinator.com/launches/Si7-shiraz-ai-robots-that-learn-on-the-job"
+  },
+  {
+   "id": 110139,
+   "title": "OS3: Intelligence and Machines for Physical Labor",
+   "tagline": "Semi-humanoid hardware & Model based on 150k hours of Videos. Preorders Live Now",
+   "slug": "SeR-os3-intelligence-and-machines-for-physical-labor",
+   "created_at": "2026-08-11T19:00:00.126Z",
+   "total_vote_count": 7,
+   "company": {
+    "id": 30728,
+    "model_type": "Company",
+    "model_id": 30728,
+    "name": "OS3",
+    "url": "https://os3robotics.com/",
+    "slug": "os3",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/bd88161755dbb4d7513a2dc91e69b26930313524.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Hardware",
+     "Robotics",
+     "B2B"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/30728"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SeR-os3-intelligence-and-machines-for-physical-labor"
+  },
+  {
+   "id": 109880,
+   "title": "Enact: post-training infrastructure for robotics models",
+   "tagline": "Enact generates the data and evaluations needed to make robotics models reliable in the real world.",
+   "slug": "SaG-enact-post-training-infrastructure-for-robotics-models",
+   "created_at": "2026-08-11T14:30:00.204Z",
+   "total_vote_count": 16,
+   "company": {
+    "id": 32156,
+    "model_type": "Company",
+    "model_id": 32156,
+    "name": "Enact",
+    "url": "https://enact.company",
+    "slug": "enact",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/6f79f9bbc22f20d6e3465ca66081c4a646834064.png",
+    "tags": [
+     "Reinforcement Learning",
+     "Robotics",
+     "AI"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32156"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SaG-enact-post-training-infrastructure-for-robotics-models"
+  },
+  {
+   "id": 109885,
+   "title": "Derya: Your supply chain autopilot for mapping, planning, and execution.",
+   "tagline": "We build agents that help hardware companies design supply chain processes and eliminate friction.",
+   "slug": "SaL-derya-your-supply-chain-autopilot-for-mapping-planning-and-execution",
+   "created_at": "2026-08-10T19:30:00.323Z",
+   "total_vote_count": 7,
+   "company": {
+    "id": 33050,
+    "model_type": "Company",
+    "model_id": 33050,
+    "name": "Derya",
+    "url": "http://usederya.com",
+    "slug": "derya",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/e0512b453e994207fdf56052eb221e687d29dc51.png",
+    "tags": [
+     "AIOps",
+     "Logistics",
+     "Supply Chain",
+     "Procurement",
+     "Automation"
+    ],
+    "batch": "Summer 2026",
+    "industry": "B2B",
+    "search_path": "https://bookface.ycombinator.com/company/33050"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SaL-derya-your-supply-chain-autopilot-for-mapping-planning-and-execution"
+  },
+  {
+   "id": 109550,
+   "title": "Neuromorphic - Building an embodiment-agnostic \u201cbrain\u201d that makes robots fast to deploy",
+   "tagline": "We make robots smarter, and faster to deploy. Starting with wet labs!",
+   "slug": "SUw-neuromorphic-building-an-embodiment-agnostic-brain-that-makes-robots-fast-to-deploy",
+   "created_at": "2026-08-10T15:00:00.364Z",
+   "total_vote_count": 73,
+   "company": {
+    "id": 32716,
+    "model_type": "Company",
+    "model_id": 32716,
+    "name": "Neuromorphic",
+    "url": "https://www.neuromorphic.vision/",
+    "slug": "neuromorphic",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/470f3b57cd018aad9c127e64e5b952d32a64d435.png",
+    "tags": [
+     "Hard Tech",
+     "Robotics",
+     "B2B",
+     "Biotech",
+     "AI"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32716"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SUw-neuromorphic-building-an-embodiment-agnostic-brain-that-makes-robots-fast-to-deploy"
+  },
+  {
+   "id": 109711,
+   "title": "Hebbian Robotics - APIs for searching and analyzing Physical AI data at scale",
+   "tagline": "We enable evaluation of data quality without training a robotics model",
+   "slug": "SXX-hebbian-robotics-apis-for-searching-and-analyzing-physical-ai-data-at-scale",
+   "created_at": "2026-08-09T03:00:00.116Z",
+   "total_vote_count": 81,
+   "company": {
+    "id": 33279,
+    "model_type": "Company",
+    "model_id": 33279,
+    "name": "Hebbian Robotics",
+    "url": "https://hebbianrobotics.com/",
+    "slug": "hebbian-robotics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/4e7272f21860060f8aa33bb297af6d18fab5ffdc.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Robotics",
+     "Data Science",
+     "Data Engineering",
+     "Databases"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33279"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SXX-hebbian-robotics-apis-for-searching-and-analyzing-physical-ai-data-at-scale"
+  },
+  {
+   "id": 109744,
+   "title": "Dawn Industries - Automatic Diagnosis & Fix for Industrial Automation",
+   "tagline": "AI that understands the entire industrial cell and stages the fix in minutes.",
+   "slug": "SY4-dawn-industries-automatic-diagnosis-fix-for-industrial-automation",
+   "created_at": "2026-08-08T16:00:00.916Z",
+   "total_vote_count": 11,
+   "company": {
+    "id": 33344,
+    "model_type": "Company",
+    "model_id": 33344,
+    "name": "Dawn Industries",
+    "url": "https://www.dawnxr.com",
+    "slug": "dawn-industries",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/be237324cf82c0125a34763f99ffb0cf35ca384d.png",
+    "tags": [
+     "Artificial Intelligence"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33344"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SY4-dawn-industries-automatic-diagnosis-fix-for-industrial-automation"
+  },
+  {
+   "id": 109471,
+   "title": "Praxis AI - Training Data for Robotics",
+   "tagline": "Praxis offers labs the most diverse environments, SOTA hardware, and rigorous post processing to train their models",
+   "slug": "STf-praxis-ai-training-data-for-robotics",
+   "created_at": "2026-08-06T22:30:00.618Z",
+   "total_vote_count": 11,
+   "company": {
+    "id": 33022,
+    "model_type": "Company",
+    "model_id": 33022,
+    "name": "Praxis Robotics",
+    "url": "https://www.praxisrobotics.io",
+    "slug": "praxis-robotics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/9bc18b804ad9a5d92ef1db88e90491f98e0204a7.png",
+    "tags": [
+     "Hard Tech",
+     "Reinforcement Learning",
+     "Robotic Process Automation"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/33022"
+   },
+   "search_path": "https://www.ycombinator.com/launches/STf-praxis-ai-training-data-for-robotics"
+  },
+  {
+   "id": 109426,
+   "title": "Aktoria Robotics is the teleoperation layer to speed up robot deployments",
+   "tagline": "A 24-hour global network of trained operators, powered by our low-latency teleop software.",
+   "slug": "SSw-aktoria-robotics-is-the-teleoperation-layer-to-speed-up-robot-deployments",
+   "created_at": "2026-08-06T15:00:00.066Z",
+   "total_vote_count": 6,
+   "company": {
+    "id": 32621,
+    "model_type": "Company",
+    "model_id": 32621,
+    "name": "Aktoria Robotics",
+    "url": "https://aktoria.com/",
+    "slug": "aktoria-robotics",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/87a10d62adb927072657a9be3281af92a78ab9c6.png",
+    "tags": [
+     "Robotics",
+     "Enterprise Software"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Industrials",
+    "search_path": "https://bookface.ycombinator.com/company/32621"
+   },
+   "search_path": "https://www.ycombinator.com/launches/SSw-aktoria-robotics-is-the-teleoperation-layer-to-speed-up-robot-deployments"
+  },
+  {
+   "id": 109455,
+   "title": "Florin: A full-stack insurance company with 0 underwriters",
+   "tagline": "Autonomously places hard-to-price risks in seconds",
+   "slug": "STP-florin-a-full-stack-insurance-company-with-0-underwriters",
+   "created_at": "2026-08-06T14:23:00.075Z",
+   "total_vote_count": 195,
+   "company": {
+    "id": 33282,
+    "model_type": "Company",
+    "model_id": 33282,
+    "name": "Florin",
+    "url": "https://florin.inc",
+    "slug": "florin",
+    "logo": "https://bookface-images.s3.amazonaws.com/small_logos/48074691217afbc59a4443c6ffa2379a823efda9.png",
+    "tags": [
+     "Artificial Intelligence",
+     "Fintech",
+     "Insurance"
+    ],
+    "batch": "Summer 2026",
+    "industry": "Fintech",
+    "search_path": "https://bookface.ycombinator.com/company/33282"
+   },
+   "search_path": "https://www.ycombinator.com/launches/STP-florin-a-full-stack-insurance-company-with-0-underwriters"
+  }
+ ],
+ "nbHits": 224,
+ "page": 0,
+ "nbPages": 3,
+ "hitsPerPage": 100,
+ "_fixture_note": "GET https://www.ycombinator.com/launches?query=robot&hitsPerPage=100 with header Accept: application/json ; trimmed to first 30 of 100 returned hits (nbHits 224)"
+}

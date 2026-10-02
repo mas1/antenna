@@ -1,0 +1,650 @@
+[
+ {
+  "id": 216702829,
+  "editor_v2": false,
+  "publication_id": 1063960,
+  "title": "Arm & SoftBank: Part 1- Masa comes calling, bearing gifts",
+  "social_title": "Arm & SoftBank: Part 1- Masa comes calling, bearing gifts",
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "arm-and-softbank-part-1-masa-comes",
+  "post_date": "2026-09-25T22:30:58.124Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://thechipletter.substack.com/p/arm-and-softbank-part-1-masa-comes",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "❤": 23
+  },
+  "restacks": 5,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "Part 1 of an extended discussion, covering the Softbank takeover of Arm in 2016",
+  "cover_image": "https://substack-post-media.s3.amazonaws.com/public/images/96c40782-7f80-4def-a6fd-cfc14e83230e_2047x1365.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 216702829,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Part 1 of an extended discussion, covering the Softbank takeover of Arm in 2016",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "Today, something a little different: a joint post in the form of a conversation between Jon Metzler and Babbage.",
+  "wordcount": 2525,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     115.73076923076921,
+     123.57692307692308,
+     139.26923076923077
+    ],
+    "population": 0
+   },
+   "DarkVibrant": {
+    "rgb": [
+     60.18,
+     64.26,
+     72.42
+    ],
+    "population": 0
+   },
+   "LightVibrant": {
+    "rgb": [
+     182.57999999999998,
+     186.66,
+     194.82
+    ],
+    "population": 0
+   },
+   "Muted": {
+    "rgb": [
+     134,
+     133,
+     126
+    ],
+    "population": 235
+   },
+   "DarkMuted": {
+    "rgb": [
+     84,
+     68,
+     60
+    ],
+    "population": 1
+   },
+   "LightMuted": {
+    "rgb": [
+     184,
+     188,
+     196
+    ],
+    "population": 176
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 102722254,
+    "name": "Babbage",
+    "handle": "thechipletter",
+    "photo_url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F82525b9c-ee3c-4996-916c-54267a4d354b_416x416.png",
+    "bio": "Computer history and architecture",
+    "profile_set_up_at": "2022-08-28T13:07:25.701Z",
+    "reader_installed_at": "2022-10-20T11:45:48.505Z",
+    "publicationUsers": [
+     {
+      "id": 1012118,
+      "user_id": 102722254,
+      "publication_id": 1063960,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1063960,
+       "name": "The Chip Letter",
+       "subdomain": "thechipletter",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "Computer history and architecture",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/ffe682d7-ab93-463b-b714-8f98c0c072d2_1280x1280.png",
+       "author_id": 102722254,
+       "primary_user_id": 102722254,
+       "theme_var_background_pop": "#FF6B00",
+       "created_at": "2022-08-28T13:07:52.879Z",
+       "email_from_name": "The Chip Letter",
+       "copyright": "The Chip Letter",
+       "founding_plan_name": "Founding Member",
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "is_guest": false,
+    "bestseller_tier": 100,
+    "status": {
+     "bestsellerTier": 100,
+     "subscriberTier": 1,
+     "leaderboard": null,
+     "vip": false,
+     "badge": {
+      "type": "bestseller",
+      "tier": 100
+     },
+     "subscriber": null
+    }
+   },
+   {
+    "id": 11111028,
+    "name": "Jon Metzler",
+    "handle": "jonmetzler",
+    "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/1e44db0b-0e16-4fc7-a184-51980e7ca37d_400x400.jpeg",
+    "bio": "Continuing Professional Faculty, UC Berkeley. Teach Strategy for the Networked Economy and Opportunity Recognition. Also: Clusters; Business in Japan; Strategy. Media in US and Japan, then wireless, then services, now teach/train/advise/research.",
+    "profile_set_up_at": "2022-05-23T21:16:57.342Z",
+    "reader_installed_at": "2022-07-10T01:17:45.792Z",
+    "is_guest": true,
+    "bestseller_tier": null,
+    "status": {
+     "bestsellerTier": null,
+     "subscriberTier": 5,
+     "leaderboard": null,
+     "vip": false,
+     "badge": {
+      "type": "subscriber",
+      "tier": 5,
+      "accent_colors": null
+     },
+     "subscriber": null
+    },
+    "primaryPublicationId": 919950,
+    "primaryPublicationName": "Connect",
+    "primaryPublicationUrl": "https://jonmetzler.substack.com",
+    "primaryPublicationSubscribeUrl": "https://jonmetzler.substack.com/subscribe?"
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 23,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+   {
+    "post_id": 216702829,
+    "voice_id": "en-GB-OllieMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/216702829/tts/88b7a6bf-7cb8-4f8b-8951-ba49c4dc0324/en-GB-OllieMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 214278803,
+  "editor_v2": false,
+  "publication_id": 1063960,
+  "title": "The Air Computer",
+  "social_title": null,
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "the-air-computer",
+  "post_date": "2026-09-13T04:01:33.657Z",
+  "audience": "everyone",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "should_send_free_preview": false,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://thechipletter.substack.com/p/the-air-computer",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "❤": 36
+  },
+  "restacks": 6,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "Can you build a computer with water, air and clever geometry?",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!DyS6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07aba7d4-249d-4c2c-b6c6-a91b20f1e557_902x676.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 214278803,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Can you build a computer with water, air and clever geometry?",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": false,
+  "truncated_body_text": "I’m delighted to share a post from one of my favourite Substack writers, Jordan Taylor, otherwise known as Incautious Optimism. Jordan covers a wide range of engineering topics from Hypersonic Flight to Nuclear Power and much more, with a unique blend of insight and humour. I highly recommend that y",
+  "wordcount": 3688,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [],
+  "teaser_post_eligible": true,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     89,
+     119,
+     178
+    ],
+    "population": 245
+   },
+   "DarkVibrant": {
+    "rgb": [
+     43,
+     74,
+     120
+    ],
+    "population": 12
+   },
+   "LightVibrant": {
+    "rgb": [
+     164.41728395061725,
+     180.78765432098763,
+     212.98271604938276
+    ],
+    "population": 0
+   },
+   "Muted": {
+    "rgb": [
+     84,
+     105,
+     149
+    ],
+    "population": 419
+   },
+   "DarkMuted": {
+    "rgb": [
+     49,
+     60,
+     94
+    ],
+    "population": 8
+   },
+   "LightMuted": {
+    "rgb": [
+     137,
+     153,
+     198
+    ],
+    "population": 14
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 102722254,
+    "name": "Babbage",
+    "handle": "thechipletter",
+    "photo_url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F82525b9c-ee3c-4996-916c-54267a4d354b_416x416.png",
+    "bio": "Computer history and architecture",
+    "profile_set_up_at": "2022-08-28T13:07:25.701Z",
+    "reader_installed_at": "2022-10-20T11:45:48.505Z",
+    "publicationUsers": [
+     {
+      "id": 1012118,
+      "user_id": 102722254,
+      "publication_id": 1063960,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1063960,
+       "name": "The Chip Letter",
+       "subdomain": "thechipletter",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "Computer history and architecture",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/ffe682d7-ab93-463b-b714-8f98c0c072d2_1280x1280.png",
+       "author_id": 102722254,
+       "primary_user_id": 102722254,
+       "theme_var_background_pop": "#FF6B00",
+       "created_at": "2022-08-28T13:07:52.879Z",
+       "email_from_name": "The Chip Letter",
+       "copyright": "The Chip Letter",
+       "founding_plan_name": "Founding Member",
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "is_guest": false,
+    "bestseller_tier": 100,
+    "status": {
+     "bestsellerTier": 100,
+     "subscriberTier": 1,
+     "leaderboard": null,
+     "vip": false,
+     "badge": {
+      "type": "bestseller",
+      "tier": 100
+     },
+     "subscriber": null
+    }
+   },
+   {
+    "id": 112988060,
+    "name": "Incautious Optimism",
+    "handle": "jordanwtaylor",
+    "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/08c2ccf2-82d1-472a-ba18-736cf2324120_400x400.jpeg",
+    "bio": "Hard tech without the bytes: A technical blog for curious creatures.",
+    "profile_set_up_at": "2022-11-28T13:41:41.224Z",
+    "reader_installed_at": "2024-11-25T14:22:48.758Z",
+    "is_guest": true,
+    "bestseller_tier": 100,
+    "status": {
+     "bestsellerTier": 100,
+     "subscriberTier": null,
+     "leaderboard": null,
+     "vip": false,
+     "badge": {
+      "type": "bestseller",
+      "tier": 100
+     },
+     "subscriber": null
+    },
+    "primaryPublicationId": 1215728,
+    "primaryPublicationName": "Incautious Optimism",
+    "primaryPublicationUrl": "https://jordanwtaylor2.substack.com",
+    "primaryPublicationSubscribeUrl": "https://jordanwtaylor2.substack.com/subscribe?"
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 36,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+   {
+    "post_id": 214278803,
+    "voice_id": "en-GB-OllieMultilingualNeural",
+    "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/214278803/tts/d816fd1e-b124-4cd1-bbb2-0607d24a42ca/en-GB-OllieMultilingualNeural.mp3",
+    "type": "tts",
+    "status": "completed"
+   }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ },
+ {
+  "id": 211287179,
+  "editor_v2": false,
+  "publication_id": 1063960,
+  "title": "The Innovative HP Computer Behind a Hedge Fund Pioneer",
+  "social_title": "The Innovative HP Computer Behind a Hedge Fund Pioneer",
+  "search_engine_title": null,
+  "search_engine_description": null,
+  "type": "newsletter",
+  "slug": "the-innovative-hp-computer-behind",
+  "post_date": "2026-09-06T00:00:57.925Z",
+  "audience": "only_paid",
+  "podcast_duration": null,
+  "video_upload_id": null,
+  "podcast_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "should_send_free_preview": true,
+  "free_unlock_required": false,
+  "default_comment_sort": null,
+  "canonical_url": "https://thechipletter.substack.com/p/the-innovative-hp-computer-behind",
+  "section_id": null,
+  "top_exclusions": [],
+  "pins": [],
+  "is_section_pinned": false,
+  "section_slug": null,
+  "section_name": null,
+  "reactions": {
+   "❤": 34
+  },
+  "restacks": 2,
+  "restacked_post_id": null,
+  "restacked_post_slug": null,
+  "restacked_pub_name": null,
+  "restacked_pub_logo_url": null,
+  "subtitle": "A Machine for All Markets?",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!zSsn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4924665d-c290-47ce-ab8a-0653a3f05252_820x787.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "podcast_url": null,
+  "videoUpload": null,
+  "podcastFields": {
+   "post_id": 211287179,
+   "podcast_episode_number": null,
+   "podcast_season_number": null,
+   "podcast_episode_type": null,
+   "should_syndicate_to_other_feed": null,
+   "syndicate_to_section_id": null,
+   "hide_from_feed": false,
+   "free_podcast_url": null,
+   "free_podcast_duration": null,
+   "preview_contains_ad": false,
+   "was_imported_self_serve_sync": false,
+   "draft_free_podcast_url": null,
+   "draft_free_podcast_duration": null
+  },
+  "podcast_preview_upload_id": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "A Machine for All Markets?",
+  "body_json": null,
+  "body_html": null,
+  "has_dynamic_content": true,
+  "truncated_body_text": "Edward O. Thorp is one of those people who really should be better known. His Wikipedia entry describes him as ‘an American mathematics professor, author, hedge fund manager, and blackjack researcher’ before elaborating that he ‘… pioneered the modern applications of probability theory, including th",
+  "wordcount": 3605,
+  "post_preview_limit": null,
+  "language": "en",
+  "postTags": [],
+  "teaser_post_eligible": false,
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+   "Vibrant": {
+    "rgb": [
+     220,
+     156,
+     102
+    ],
+    "population": 4
+   },
+   "DarkVibrant": {
+    "rgb": [
+     106,
+     26,
+     27
+    ],
+    "population": 102
+   },
+   "LightVibrant": {
+    "rgb": [
+     233,
+     182,
+     132
+    ],
+    "population": 19
+   },
+   "Muted": {
+    "rgb": [
+     144,
+     135,
+     127
+    ],
+    "population": 274
+   },
+   "DarkMuted": {
+    "rgb": [
+     78,
+     76,
+     67
+    ],
+    "population": 11
+   },
+   "LightMuted": {
+    "rgb": [
+     217,
+     209,
+     177
+    ],
+    "population": 91
+   }
+  },
+  "publishedBylines": [
+   {
+    "id": 102722254,
+    "name": "Babbage",
+    "handle": "thechipletter",
+    "photo_url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F82525b9c-ee3c-4996-916c-54267a4d354b_416x416.png",
+    "bio": "Computer history and architecture",
+    "profile_set_up_at": "2022-08-28T13:07:25.701Z",
+    "reader_installed_at": "2022-10-20T11:45:48.505Z",
+    "publicationUsers": [
+     {
+      "id": 1012118,
+      "user_id": 102722254,
+      "publication_id": 1063960,
+      "role": "admin",
+      "public": true,
+      "is_primary": true,
+      "publication": {
+       "id": 1063960,
+       "name": "The Chip Letter",
+       "subdomain": "thechipletter",
+       "custom_domain": null,
+       "custom_domain_optional": false,
+       "hero_text": "Computer history and architecture",
+       "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/ffe682d7-ab93-463b-b714-8f98c0c072d2_1280x1280.png",
+       "author_id": 102722254,
+       "primary_user_id": 102722254,
+       "theme_var_background_pop": "#FF6B00",
+       "created_at": "2022-08-28T13:07:52.879Z",
+       "email_from_name": "The Chip Letter",
+       "copyright": "The Chip Letter",
+       "founding_plan_name": "Founding Member",
+       "community_enabled": true,
+       "invite_only": false,
+       "payments_state": "enabled",
+       "language": null,
+       "explicit": false,
+       "homepage_type": "magaziney",
+       "is_personal_mode": false,
+       "logo_url_wide": null
+      }
+     }
+    ],
+    "is_guest": false,
+    "bestseller_tier": 100,
+    "status": {
+     "bestsellerTier": 100,
+     "subscriberTier": 1,
+     "leaderboard": null,
+     "vip": false,
+     "badge": {
+      "type": "bestseller",
+      "tier": 100
+     },
+     "subscriber": null
+    }
+   }
+  ],
+  "reaction": null,
+  "reaction_count": 34,
+  "comment_count": 3,
+  "child_comment_count": 2,
+  "audio_items": [
+   {
+    "post_id": 211287179,
+    "voice_id": "en-GB-OllieMultilingualNeural",
+    "audio_url": null,
+    "type": "tts",
+    "status": "paywalled"
+   }
+  ],
+  "is_geoblocked": false,
+  "hidden": true,
+  "is_editor_preview": false,
+  "hasCashtag": false
+ }
+]

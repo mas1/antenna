@@ -1,0 +1,1027 @@
+{
+ "jobs": [
+  {
+   "id": "067fef83-0fe8-4f2f-81c4-f72115256782",
+   "title": "R&D Technician (electrical assembly)",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-06-09T20:25:19.473+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/067fef83-0fe8-4f2f-81c4-f72115256782",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/067fef83-0fe8-4f2f-81c4-f72115256782/application",
+   "descriptionHtml": "<h2><strong>About the role</strong></h2><p style=\"min-height:1.5em\">As a R&amp;D Engineering Technician at Charge Robotics, you’ll play a major role in building, testing, and deploying our next generation of solar installation robots.</p><p style=\"min-height:1.5em\"></p><h3><strong>What you’ll be working on:</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Supporting the me …[truncated for fixture]",
+   "descriptionPlain": "ABOUT THE ROLE\n\nAs a R&D Engineering Technician at Charge Robotics, you’ll play a major role in building, testing, and deploying our next generation of solar installation robots.\n\n\n\n\nWHAT YOU’LL BE WORKING ON:\n\n - Supporting the mechanical + software engineering teams in assembly, testing, and support of new robotic systems\n\n - Maintaining and organizing the workshop\n\n - Developing and maintaining …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$36 – $43 per hour • Offers Equity",
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [
+     {
+      "id": "57394d86-8400-4a74-b2fc-f534d59df7be",
+      "tierSummary": "$36 – $43 per hour • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "752af2f1-56d2-4af5-9d70-1082bb765164",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "c21a2c77-a772-4acd-9766-7dc9276e446d",
+        "summary": "$36 – $43 per hour",
+        "compensationType": "Salary",
+        "interval": "1 HOUR",
+        "currencyCode": "USD",
+        "minValue": 36,
+        "maxValue": 43
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 HOUR",
+      "currencyCode": "USD",
+      "minValue": 36,
+      "maxValue": 43
+     }
+    ]
+   }
+  },
+  {
+   "id": "46d16888-59dc-4c9c-84d0-96efb56cf575",
+   "title": "Lead R&D Technician",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-06-19T17:06:02.138+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/46d16888-59dc-4c9c-84d0-96efb56cf575",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/46d16888-59dc-4c9c-84d0-96efb56cf575/application",
+   "descriptionHtml": "<h2><strong>About the role</strong></h2><p style=\"min-height:1.5em\">As the Lead R&amp;D Engineering Technician at Charge Robotics, you'll lead our technician team (~8) in building, testing, and deploying our next generation of solar installation robots. You'll be the connective tissue between the engineering teams and the technicians on the floor — owning build execution while developing the peopl …[truncated for fixture]",
+   "descriptionPlain": "ABOUT THE ROLE\n\nAs the Lead R&D Engineering Technician at Charge Robotics, you'll lead our technician team (~8) in building, testing, and deploying our next generation of solar installation robots. You'll be the connective tissue between the engineering teams and the technicians on the floor — owning build execution while developing the people who make it happen.\n\nWhat you'll be working on:\n\n - Le …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$90K – $120K",
+    "scrapeableCompensationSalarySummary": "$90K - $120K",
+    "compensationTiers": [
+     {
+      "id": "e86702bd-b177-4257-bd17-67e814fba1ae",
+      "tierSummary": "$90K – $120K",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "ec80643c-d3ee-4509-8eca-ee931753c7b5",
+        "summary": "$90K – $120K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 90000,
+        "maxValue": 120000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 90000,
+      "maxValue": 120000
+     }
+    ]
+   }
+  },
+  {
+   "id": "0958d939-77eb-4336-bff9-d8c0f24844de",
+   "title": "R&D Technician, Manager",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-07-24T18:59:32.630+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/0958d939-77eb-4336-bff9-d8c0f24844de",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/0958d939-77eb-4336-bff9-d8c0f24844de/application",
+   "descriptionHtml": "<h2><strong>About the role</strong></h2><p style=\"min-height:1.5em\">As the Manager of the R&amp;D Engineering Technician team at Charge Robotics, you'll lead our technician team (~8) in building, testing, and deploying our next generation of solar installation robots. You'll be the connective tissue between the engineering teams and the technicians on the floor — owning build execution while devel …[truncated for fixture]",
+   "descriptionPlain": "ABOUT THE ROLE\n\nAs the Manager of the R&D Engineering Technician team at Charge Robotics, you'll lead our technician team (~8) in building, testing, and deploying our next generation of solar installation robots. You'll be the connective tissue between the engineering teams and the technicians on the floor — owning build execution while developing the people who make it happen.\n\nWhat you'll be wor …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$90K – $120K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$90K - $120K",
+    "compensationTiers": [
+     {
+      "id": "fd935dde-bdc8-492d-ac55-4d8b3b3880c8",
+      "tierSummary": "$90K – $120K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "88da44bb-5728-4894-8b26-9c22f4173a48",
+        "summary": "$90K – $120K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 90000,
+        "maxValue": 120000
+       },
+       {
+        "id": "64a3cd0b-41a0-49f5-9b5f-ff913bb2f28c",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 90000,
+      "maxValue": 120000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "d106977e-5fbf-4d12-bd39-e59f721bd65a",
+   "title": "Head of Manufacturing",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:11:38.066+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/d106977e-5fbf-4d12-bd39-e59f721bd65a",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/d106977e-5fbf-4d12-bd39-e59f721bd65a/application",
+   "descriptionHtml": "<h2><strong>About Charge</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (one-fifth of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-height:1. …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (one-fifth of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we developed robots to directly address this bottleneck and speed up the wor …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$180K – $280K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$180K - $280K",
+    "compensationTiers": [
+     {
+      "id": "a7a59c16-61e1-4653-9913-1fbec3e254a9",
+      "tierSummary": "$180K – $280K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "23c67a90-bfc6-41a8-af37-c66a3c7e62ce",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "794b07c3-28f9-42cd-b4dc-b28c28b221d7",
+        "summary": "$180K – $280K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 180000,
+        "maxValue": 280000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 180000,
+      "maxValue": 280000
+     }
+    ]
+   }
+  },
+  {
+   "id": "5ffdb18b-4bfe-42c8-a017-54b49ad21c9f",
+   "title": "Mechanical Engineer (all levels)",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:07:40.846+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/5ffdb18b-4bfe-42c8-a017-54b49ad21c9f",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/5ffdb18b-4bfe-42c8-a017-54b49ad21c9f/application",
+   "descriptionHtml": "<h2><strong>About Charge Robotics:</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-hei …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE ROBOTICS:\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we started working on robots to directly address this bottleneck and s …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$130K – $190K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$130K - $190K",
+    "compensationTiers": [
+     {
+      "id": "3ea925dc-2827-4ef3-a376-32a787287097",
+      "tierSummary": "$130K – $190K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "21323f3f-9403-465a-b699-ebaf91f75c61",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "5f78f721-b84d-4c79-9b9a-ec0fc7bcaae8",
+        "summary": "$130K – $190K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 130000,
+        "maxValue": 190000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 130000,
+      "maxValue": 190000
+     }
+    ]
+   }
+  },
+  {
+   "id": "42dc4b39-752b-4bf2-a986-b09f46387477",
+   "title": "Head of Engineering",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:16:18.249+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/42dc4b39-752b-4bf2-a986-b09f46387477",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/42dc4b39-752b-4bf2-a986-b09f46387477/application",
+   "descriptionHtml": "<h2><strong>About Charge</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (one-fifth of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-height:1. …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (one-fifth of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we developed robots to directly address this bottleneck and speed up the wor …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$180K – $300K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$180K - $300K",
+    "compensationTiers": [
+     {
+      "id": "10e3f4da-e502-4f55-95b3-65f5c8e15d00",
+      "tierSummary": "$180K – $300K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "8746c9c5-d1e5-4a5f-9cdb-1f9afb1d90a3",
+        "summary": "$180K – $300K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 180000,
+        "maxValue": 300000
+       },
+       {
+        "id": "a04535b1-ccd1-4e67-bf7f-571486f4196f",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 180000,
+      "maxValue": 300000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "2c88036f-3124-416c-b58a-2ae28efefb22",
+   "title": "Robotic Factory Operator",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Field",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:19:30.806+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Arizona",
+     "addressCountry": "United States",
+     "addressLocality": "Phoenix"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/2c88036f-3124-416c-b58a-2ae28efefb22",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/2c88036f-3124-416c-b58a-2ae28efefb22/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">As a Robotics Factory Operator at Charge Robotics, you’ll be <strong>full-time in the field</strong> working on the most critical operation at our company: running, troubleshooting, and improving our robotic factory that installs utility-scale solar farms. You'll work closely with both engineering and field operations teams to deploy a first-of-its-kind robotic solar in …[truncated for fixture]",
+   "descriptionPlain": "As a Robotics Factory Operator at Charge Robotics, you’ll be full-time in the field working on the most critical operation at our company: running, troubleshooting, and improving our robotic factory that installs utility-scale solar farms. You'll work closely with both engineering and field operations teams to deploy a first-of-its-kind robotic solar installation system that will install gigawatts …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$110K – $155K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$110K - $155K",
+    "compensationTiers": [
+     {
+      "id": "60c7bcea-5373-499d-b069-15493ae769b6",
+      "tierSummary": "$110K – $155K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "f3b88df5-7f53-4bf6-9946-3487e173084b",
+        "summary": "$110K – $155K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 110000,
+        "maxValue": 155000
+       },
+       {
+        "id": "af390b86-ff27-4dbc-90bd-3c59e360489b",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 110000,
+      "maxValue": 155000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "6f407593-4b5f-424b-9a53-c0e2c30a5408",
+   "title": "Manufacturing Engineer",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:23:00.984+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/6f407593-4b5f-424b-9a53-c0e2c30a5408",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/6f407593-4b5f-424b-9a53-c0e2c30a5408/application",
+   "descriptionHtml": "<h2><strong>About Charge Robotics:</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-hei …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE ROBOTICS:\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we started working on robots to directly address this bottleneck and s …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$150K – $190K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$150K - $190K",
+    "compensationTiers": [
+     {
+      "id": "c0b6d900-3ff7-4a3c-a4b3-61d8e0f6b5d7",
+      "tierSummary": "$150K – $190K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "fd5b33dc-b5b7-4dbb-9615-bdb5967e7c58",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "e7d44abc-ee48-493c-b73e-fe061d8c33f0",
+        "summary": "$150K – $190K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 150000,
+        "maxValue": 190000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 150000,
+      "maxValue": 190000
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2dd1643-7e5f-49a7-b63c-b1effdc6ae10",
+   "title": "Senior Robotics Integration Engineer",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:26:44.641+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/c2dd1643-7e5f-49a7-b63c-b1effdc6ae10",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/c2dd1643-7e5f-49a7-b63c-b1effdc6ae10/application",
+   "descriptionHtml": "<h2><strong>About Charge Robotics:</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-hei …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE ROBOTICS:\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we started working on robots to directly address this bottleneck and s …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$150K – $190K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$150K - $190K",
+    "compensationTiers": [
+     {
+      "id": "2cda0d58-ac2a-4861-becb-0db9b695782e",
+      "tierSummary": "$150K – $190K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "cd5d4cdd-886e-48ee-b3cc-fa1735a76c0d",
+        "summary": "$150K – $190K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 150000,
+        "maxValue": 190000
+       },
+       {
+        "id": "44615b52-21cf-42b2-8cb7-bf9cbf2373cd",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 150000,
+      "maxValue": 190000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "653c091b-0068-4396-a07d-db5df60f1cc1",
+   "title": "Senior Electrical Engineer",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:30:06.452+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/653c091b-0068-4396-a07d-db5df60f1cc1",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/653c091b-0068-4396-a07d-db5df60f1cc1/application",
+   "descriptionHtml": "<h2><strong>About Charge Robotics:</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-hei …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE ROBOTICS:\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we started working on robots to directly address this bottleneck and s …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$165K – $220K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$165K - $220K",
+    "compensationTiers": [
+     {
+      "id": "fb359e8d-1b53-436f-a1f3-95344c8e3410",
+      "tierSummary": "$165K – $220K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "a083e925-698f-4791-a405-6e86880d8918",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "4103cc83-e3ba-4ee5-bdaa-eb77ae25a835",
+        "summary": "$165K – $220K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 165000,
+        "maxValue": 220000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 165000,
+      "maxValue": 220000
+     }
+    ]
+   }
+  },
+  {
+   "id": "aab6f62c-a84c-4b60-95a3-f62723197669",
+   "title": "Electrical Design Engineer",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:33:20.725+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/aab6f62c-a84c-4b60-95a3-f62723197669",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/aab6f62c-a84c-4b60-95a3-f62723197669/application",
+   "descriptionHtml": "<h2><strong>About Charge Robotics:</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-hei …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE ROBOTICS:\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we started working on robots to directly address this bottleneck and s …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$165K – $220K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$165K - $220K",
+    "compensationTiers": [
+     {
+      "id": "7ccac180-880e-4dc0-aa5d-161a7d6a3d35",
+      "tierSummary": "$165K – $220K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "b37f93c1-ab2c-4738-95fd-f250aa40e7b0",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "6b2db237-b160-4b9d-87d4-9024f795d506",
+        "summary": "$165K – $220K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 165000,
+        "maxValue": 220000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 165000,
+      "maxValue": 220000
+     }
+    ]
+   }
+  },
+  {
+   "id": "880468c1-5080-4f40-8e40-8b5cdf4051e0",
+   "title": "Solar Site Superintendent - Mechanical Foreman",
+   "department": "Field Operations",
+   "team": "Field Operations",
+   "employmentType": "FullTime",
+   "location": "Field",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:36:09.855+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Arizona",
+     "addressCountry": "United States",
+     "addressLocality": "Phoenix"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/880468c1-5080-4f40-8e40-8b5cdf4051e0",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/880468c1-5080-4f40-8e40-8b5cdf4051e0/application",
+   "descriptionHtml": "<h2><strong>About this role:</strong></h2><p style=\"min-height:1.5em\">We are a robotics startup on a mission to transform how utility-scale solar farms are built. Our technology automates the mechanical installation processes that have traditionally relied on massive manual labor forces—and we need experienced construction leaders who understand that work inside and out to help us deploy it.</p><p …[truncated for fixture]",
+   "descriptionPlain": "ABOUT THIS ROLE:\n\nWe are a robotics startup on a mission to transform how utility-scale solar farms are built. Our technology automates the mechanical installation processes that have traditionally relied on massive manual labor forces—and we need experienced construction leaders who understand that work inside and out to help us deploy it.\n\nAs our Site Superintendent, you will serve as the on-sit …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$120K – $150K • Offers Equity • Offers Bonus",
+    "scrapeableCompensationSalarySummary": "$120K - $150K",
+    "compensationTiers": [
+     {
+      "id": "0daac1ac-6c6b-40f7-976f-3119f2ab8924",
+      "tierSummary": "$120K – $150K • Offers Equity • Offers Bonus",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "601c1fc9-2010-4f9f-809b-523afa599929",
+        "summary": "$120K – $150K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 120000,
+        "maxValue": 150000
+       },
+       {
+        "id": "eafb6d25-fee1-4070-b5a0-192d76471d89",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "ec3905ce-4781-4f4e-b7c3-48b7eeea1d72",
+        "summary": "Offers Bonus",
+        "compensationType": "Bonus",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 120000,
+      "maxValue": 150000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Bonus",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "8e8f71fe-6f1f-455e-8067-ec392a5c31de",
+   "title": "Technical Project Manager",
+   "department": "G&A",
+   "team": "G&A",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:39:33.130+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/8e8f71fe-6f1f-455e-8067-ec392a5c31de",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/8e8f71fe-6f1f-455e-8067-ec392a5c31de/application",
+   "descriptionHtml": "<h2><strong>About Charge</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (one-fifth of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-height:1. …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (one-fifth of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we developed robots to directly address this bottleneck and speed up the wor …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$150K – $190K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$150K - $190K",
+    "compensationTiers": [
+     {
+      "id": "227057a9-2678-46d7-abad-a4f131e2c69f",
+      "tierSummary": "$150K – $190K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "ccc99729-2a84-4167-a4dc-ab9de82a1763",
+        "summary": "$150K – $190K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 150000,
+        "maxValue": 190000
+       },
+       {
+        "id": "d4fe0a0d-bfa9-4278-84b9-a8504867aac0",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 150000,
+      "maxValue": 190000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "f89930a2-0d5c-4e2a-a8a6-2a851ac762a1",
+   "title": "Senior Robotics Software Engineer",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "San Leandro HQ",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-28T22:42:54.617+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "California",
+     "addressCountry": "United States",
+     "addressLocality": "San Leandro"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/charge-robotics/f89930a2-0d5c-4e2a-a8a6-2a851ac762a1",
+   "applyUrl": "https://jobs.ashbyhq.com/charge-robotics/f89930a2-0d5c-4e2a-a8a6-2a851ac762a1/application",
+   "descriptionHtml": "<h2><strong>About Charge Robotics:</strong></h2><p style=\"min-height:1.5em\">Charge Robotics is a Series A startup building robots that build solar farms.</p><p style=\"min-height:1.5em\">Demand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.</p><p style=\"min-hei …[truncated for fixture]",
+   "descriptionPlain": "ABOUT CHARGE ROBOTICS:\n\nCharge Robotics is a Series A startup building robots that build solar farms.\n\nDemand for new solar projects is booming (1 ⁄ 5 of all the solar that exists in the US was installed last year!), but today’s construction companies can’t keep up due to limited labor resources.\n\nWe thought this was insane, so we started working on robots to directly address this bottleneck and s …[truncated for fixture]",
+   "compensation": {
+    "compensationTierSummary": "$175K – $200K • Offers Equity",
+    "scrapeableCompensationSalarySummary": "$175K - $200K",
+    "compensationTiers": [
+     {
+      "id": "b2802e6c-acfd-4bd0-aee3-79158379201a",
+      "tierSummary": "$175K – $200K • Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "89348f40-ea9a-4b3b-8e4f-c91b37027ac0",
+        "summary": "$175K – $200K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 175000,
+        "maxValue": 200000
+       },
+       {
+        "id": "730dc6b0-3a24-484f-bc43-1ccd46b75723",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 175000,
+      "maxValue": 200000
+     },
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   }
+  }
+ ],
+ "apiVersion": "1"
+}

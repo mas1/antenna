@@ -1,0 +1,5683 @@
+{
+ "_fixture": {
+  "fetched_at": "2026-10-01T23:56Z..2026-10-02T00:30Z",
+  "note": "Raw sample responses for the per-domain probes (all for skild.ai unless stated) plus a derived 69-domain panel matrix built from the live responses. TXT token values are redacted (keys kept); everything else is verbatim."
+ },
+ "tranco_list_meta": {
+  "endpoint": "GET https://tranco-list.eu/api/lists/date/latest",
+  "response": {
+   "list_id": "Q2K34",
+   "available": true,
+   "failed": false,
+   "download": "https://tranco-list.eu/download/Q2K34/1000000",
+   "created_on": "2026-09-30T22:00:02.491576",
+   "configuration": {
+    "listPrefix": "1000000",
+    "combinationMethod": "dowdall",
+    "isDailyList": true,
+    "providers": [
+     "crux",
+     "farsight",
+     "majestic",
+     "radar",
+     "umbrella"
+    ],
+    "filterTLD": "false",
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-30",
+    "filterPLD": "on"
+   }
+  }
+ },
+ "rdap": {
+  "endpoint": "GET https://rdap.org/domain/skild.ai -> 302 https://rdap.identitydigital.services/rdap/domain/skild.ai",
+  "response": {
+   "rdapConformance": [
+    "rdap_level_0",
+    "icann_rdap_response_profile_1",
+    "icann_rdap_technical_implementation_guide_1"
+   ],
+   "notices": [
+    {
+     "title": "Terms of Service",
+     "description": [
+      "Access to RDAP information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital or, if the record pertains to a TLD not operated by Identity Digital, then the corresponding primary Registry Operator for informational purposes only, and neither Identity Digital nor the Registry Operator guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Identity Digital, a Registrar, or Registry Operator except as reasonably necessary to register domain names or modify existing registrations. When using the RDAP service, please consider the following: the RDAP service is not a replacement for standard EPP commands to the SRS service. RDAP is not considered authoritative for registered domain objects. The RDAP service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the RDAP services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of RDAP service access. Abuse of the RDAP system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the RDAP records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to the data provided by Identity Digital can be requested by submitting a request via the form found at https://www.identity.digital/about/policies/whois-layered-access/ Identity Digital Inc. and, if applicable, the primary Registry Operators reserve the right to modify these terms at any time. By submitting this query, you agree to abide by this policy."
+     ],
+     "links": [
+      {
+       "value": "https://rdap.identitydigital.services/rdap/domain/skild.ai",
+       "rel": "terms-of-service",
+       "href": "https://www.identity.digital/policies/rdds-access-policy",
+       "type": "text/html"
+      }
+     ]
+    },
+    {
+     "title": "Status Codes",
+     "description": [
+      "For more information on domain status codes, please visit https://icann.org/epp"
+     ],
+     "links": [
+      {
+       "value": "https://rdap.identitydigital.services/rdap/domain/skild.ai",
+       "rel": "glossary",
+       "href": "https://icann.org/epp",
+       "type": "application/rdap+json"
+      }
+     ]
+    },
+    {
+     "title": "RDDS Inaccuracy Complaint Form",
+     "description": [
+      "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+     ],
+     "links": [
+      {
+       "value": "https://rdap.identitydigital.services/rdap/domain/skild.ai",
+       "rel": "help",
+       "href": "https://icann.org/wicf",
+       "type": "application/rdap+json"
+      }
+     ]
+    }
+   ],
+   "ldhName": "skild.ai",
+   "unicodeName": "skild.ai",
+   "nameservers": [
+    {
+     "ldhName": "garrett.ns.cloudflare.com",
+     "unicodeName": "garrett.ns.cloudflare.com",
+     "objectClassName": "nameserver",
+     "handle": "2a233de53f0948c39b02aa6a98b0ef65-DONUTS",
+     "status": [
+      "associated"
+     ]
+    },
+    {
+     "ldhName": "journey.ns.cloudflare.com",
+     "unicodeName": "journey.ns.cloudflare.com",
+     "objectClassName": "nameserver",
+     "handle": "a4dd0ac082434b5a9d278243dc8884eb-DONUTS",
+     "status": [
+      "associated"
+     ]
+    }
+   ],
+   "secureDNS": {
+    "delegationSigned": false,
+    "maxSigLife": 1
+   },
+   "objectClassName": "domain",
+   "handle": "38d41d55bc954579985bd28db7ecdb50-DONUTS",
+   "status": [
+    "client transfer prohibited"
+   ],
+   "events": [
+    {
+     "eventAction": "expiration",
+     "eventDate": "2033-02-07T16:11:12Z"
+    },
+    {
+     "eventAction": "registration",
+     "eventDate": "2023-02-07T16:11:12Z"
+    },
+    {
+     "eventAction": "last changed",
+     "eventDate": "2026-08-12T09:31:42.451Z"
+    },
+    {
+     "eventAction": "last update of RDAP database",
+     "eventDate": "2026-10-02T00:01:48.869Z"
+    }
+   ],
+   "entities": [
+    {
+     "vcardArray": [
+      "vcard",
+      [
+       [
+        "version",
+        {},
+        "text",
+        "4.0"
+       ],
+       [
+        "fn",
+        {},
+        "text",
+        "Redacted for Privacy Purposes"
+       ],
+       [
+        "org",
+        {
+         "type": "work"
+        },
+        "text",
+        "Privacy service provided by WITHHELD FOR PRIVACY LLC"
+       ],
+       [
+        "tel",
+        {
+         "type": "voice"
+        },
+        "uri",
+        "tel:+1.3022061391"
+       ],
+       [
+        "email",
+        {},
+        "text",
+        "2fe9c218f726408c9991aa8d789ce8e9.protect@withheldforprivacy.com"
+       ],
+       [
+        "adr",
+        {
+         "cc": "US"
+        },
+        "text",
+        [
+         "",
+         "",
+         [
+          "16192 Coastal Highway",
+          "",
+          ""
+         ],
+         "Lewes",
+         "Delaware",
+         "19958",
+         ""
+        ]
+       ]
+      ]
+     ],
+     "roles": [
+      "technical"
+     ],
+     "objectClassName": "entity",
+     "handle": "a6bdec6b36d04ec197841779cd51157c-DONUTS"
+    },
+    {
+     "vcardArray": [
+      "vcard",
+      [
+       [
+        "version",
+        {},
+        "text",
+        "4.0"
+       ],
+       [
+        "fn",
+        {},
+        "text",
+        "Redacted for Privacy Purposes"
+       ],
+       [
+        "org",
+        {
+         "type": "work"
+        },
+        "text",
+        "Privacy service provided by WITHHELD FOR PRIVACY LLC"
+       ],
+       [
+        "tel",
+        {
+         "type": "voice"
+        },
+        "uri",
+        "tel:+1.3022061391"
+       ],
+       [
+        "email",
+        {},
+        "text",
+        "2fe9c218f726408c9991aa8d789ce8e9.protect@withheldforprivacy.com"
+       ],
+       [
+        "adr",
+        {
+         "cc": "US"
+        },
+        "text",
+        [
+         "",
+         "",
+         [
+          "16192 Coastal Highway",
+          "",
+          ""
+         ],
+         "Lewes",
+         "Delaware",
+         "19958",
+         ""
+        ]
+       ]
+      ]
+     ],
+     "roles": [
+      "administrative"
+     ],
+     "objectClassName": "entity",
+     "handle": "2726118d7b854858842d8eb82b668f5b-DONUTS"
+    },
+    {
+     "vcardArray": [
+      "vcard",
+      [
+       [
+        "version",
+        {},
+        "text",
+        "4.0"
+       ],
+       [
+        "fn",
+        {},
+        "text",
+        "Redacted for Privacy Purposes"
+       ],
+       [
+        "org",
+        {
+         "type": "work"
+        },
+        "text",
+        "Privacy service provided by WITHHELD FOR PRIVACY LLC"
+       ],
+       [
+        "tel",
+        {
+         "type": "voice"
+        },
+        "uri",
+        "tel:+1.3022061391"
+       ],
+       [
+        "email",
+        {},
+        "text",
+        "2fe9c218f726408c9991aa8d789ce8e9.protect@withheldforprivacy.com"
+       ],
+       [
+        "adr",
+        {
+         "cc": "US"
+        },
+        "text",
+        [
+         "",
+         "",
+         [
+          "16192 Coastal Highway",
+          "",
+          ""
+         ],
+         "Lewes",
+         "Delaware",
+         "19958",
+         ""
+        ]
+       ]
+      ]
+     ],
+     "roles": [
+      "registrant"
+     ],
+     "objectClassName": "entity",
+     "handle": "a89b18c92e01498bb57c0544782e1a33-DONUTS"
+    },
+    {
+     "vcardArray": [
+      "vcard",
+      [
+       [
+        "version",
+        {},
+        "text",
+        "4.0"
+       ],
+       [
+        "fn",
+        {},
+        "text",
+        "NameCheap, Inc."
+       ]
+      ]
+     ],
+     "roles": [
+      "registrar"
+     ],
+     "publicIds": [
+      {
+       "type": "IANA Registrar ID",
+       "identifier": "1068"
+      }
+     ],
+     "objectClassName": "entity",
+     "handle": "1068",
+     "entities": [
+      {
+       "vcardArray": [
+        "vcard",
+        [
+         [
+          "version",
+          {},
+          "text",
+          "4.0"
+         ],
+         [
+          "fn",
+          {},
+          "text",
+          ""
+         ],
+         [
+          "tel",
+          {
+           "type": "voice"
+          },
+          "uri",
+          "tel:+1.9854014545"
+         ],
+         [
+          "email",
+          {},
+          "text",
+          "abuse@namecheap.com"
+         ]
+        ]
+       ],
+       "roles": [
+        "abuse"
+       ],
+       "objectClassName": "entity"
+      }
+     ],
+     "links": [
+      {
+       "value": "https://rdap.identitydigital.services/rdap/entity/1068",
+       "rel": "self",
+       "href": "https://rdap.identitydigital.services/rdap/entity/1068",
+       "type": "application/rdap+json"
+      },
+      {
+       "value": "https://rdap.namecheap.com/",
+       "rel": "about",
+       "href": "https://rdap.namecheap.com/",
+       "type": "application/rdap+json"
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "value": "https://rdap.identitydigital.services/rdap/domain/skild.ai",
+     "rel": "related",
+     "href": "https://rdap.namecheap.com/domain/skild.ai",
+     "type": "application/rdap+json"
+    },
+    {
+     "value": "https://rdap.identitydigital.services/rdap/domain/skild.ai",
+     "rel": "self",
+     "href": "https://rdap.identitydigital.services/rdap/domain/skild.ai",
+     "type": "application/rdap+json"
+    }
+   ]
+  }
+ },
+ "wayback_sparkline": {
+  "endpoint": "GET https://web.archive.org/__wb/sparkline?output=json&url=skild.ai&collection=web",
+  "response": {
+   "years": {
+    "2024": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     3,
+     19,
+     5,
+     10,
+     3,
+     4,
+     9
+    ],
+    "2025": [
+     19,
+     14,
+     14,
+     3,
+     4,
+     5,
+     3,
+     5,
+     4,
+     2,
+     4,
+     3
+    ],
+    "2026": [
+     10,
+     7,
+     9,
+     7,
+     14,
+     3,
+     1,
+     8,
+     7,
+     0,
+     0,
+     0
+    ]
+   },
+   "first_ts": "20240102125903",
+   "last_ts": "20260927080413",
+   "status": {
+    "2024": "342442222222",
+    "2025": "222222222222",
+    "2026": "222222222444"
+   }
+  }
+ },
+ "wayback_cdx_home_monthly": {
+  "endpoint": "GET https://web.archive.org/cdx/search/cdx?url=skild.ai&output=json&fl=timestamp,statuscode,digest,length&collapse=timestamp:6&from=2023",
+  "response": [
+   [
+    "timestamp",
+    "statuscode",
+    "digest",
+    "length"
+   ],
+   [
+    "20240102125903",
+    "301",
+    "HLNR6AWVWYCU3YAENY3HYHLIPNWN66X7",
+    "756"
+   ],
+   [
+    "20240308054954",
+    "200",
+    "DOU7K4LXDJKO4I72MGKQSFZQTLXMHKRS",
+    "1467"
+   ],
+   [
+    "20240613184725",
+    "302",
+    "3TG2BD2POYAF452Z2FKLI2ANUUDHAAHM",
+    "281"
+   ],
+   [
+    "20240709212124",
+    "200",
+    "IYV3HPNTHNKFAWMKFZBZNW63XRWIA6X2",
+    "5118"
+   ],
+   [
+    "20240812010743",
+    "200",
+    "X4ON74M2JYOBGLQMOWN7L27I6NJ3PRT7",
+    "6434"
+   ],
+   [
+    "20240906085652",
+    "308",
+    "U7Q5IIFOZCJMNYWZ5J4GVGZFGNAXZQOR",
+    "838"
+   ],
+   [
+    "20241004065508",
+    "200",
+    "LCMB72A3I55LTHOZGWXG4TFWA7QDFS3T",
+    "6325"
+   ],
+   [
+    "20241107202446",
+    "200",
+    "2EVDVFA2ZYQMEDAOMBZW7IFJGNUMV32Q",
+    "6615"
+   ],
+   [
+    "20241203053347",
+    "200",
+    "42CYHYTCF7TQLFLE2JX6JYE26HQRTTJ4",
+    "5420"
+   ],
+   [
+    "20250104005228",
+    "308",
+    "U7Q5IIFOZCJMNYWZ5J4GVGZFGNAXZQOR",
+    "975"
+   ],
+   [
+    "20250206195914",
+    "200",
+    "X6HLPTD4YOMCUXI5AYUEOBYONT7X7266",
+    "6751"
+   ],
+   [
+    "20250302095750",
+    "308",
+    "U7Q5IIFOZCJMNYWZ5J4GVGZFGNAXZQOR",
+    "955"
+   ],
+   [
+    "20250409020836",
+    "200",
+    "B45C2IZ7B7JTH53WHZ3B6QETM2OJCABL",
+    "7157"
+   ],
+   [
+    "20250505124107",
+    "200",
+    "RA2ET6VF3BG3BWNF6J6HDOFMABFIPN5O",
+    "6690"
+   ],
+   [
+    "20250612033608",
+    "200",
+    "H4KAT2IKC3435UPGCAAGNLYUU3LM2QIV",
+    "6984"
+   ],
+   [
+    "20250713115723",
+    "200",
+    "HIIXBQKKV3F7W5XIFUQCQO4X62K3MZC4",
+    "6465"
+   ],
+   [
+    "20250801025833",
+    "200",
+    "COTXP6ZLGENFQAP7APSZUX3Q7AWJKCSU",
+    "6594"
+   ],
+   [
+    "20250906050850",
+    "200",
+    "ORPNSJ2XFWE3VCOC33VPZ6YLH6OTPYRD",
+    "6071"
+   ],
+   [
+    "20251013102437",
+    "200",
+    "5PVD5FIJ5MZO3AJYT2ER4KX6UBA3RFQH",
+    "6065"
+   ],
+   [
+    "20251101124256",
+    "200",
+    "I5CH3DTCYE7DP2P6AZTMKIY2UHYYCJ3Y",
+    "5414"
+   ],
+   [
+    "20251203205313",
+    "200",
+    "EV76SUM75KOSU72JBRV4GJDRPVAPAA4D",
+    "7008"
+   ],
+   [
+    "20260101185756",
+    "200",
+    "USTRP65FHKLWQC7L2FBQEG7Y4PBXYFHS",
+    "7113"
+   ],
+   [
+    "20260206185516",
+    "200",
+    "AQDB4CXBUSWNAQR2LVCCJKHHXSUWDP5Z",
+    "8658"
+   ],
+   [
+    "20260301142044",
+    "200",
+    "CWKS5Z7GRS5IKZ7G5VS5ZDUB62RSQ5LZ",
+    "7298"
+   ],
+   [
+    "20260401155721",
+    "200",
+    "4BLZGN2SOC2AXNFNPG65WF633OWOWSSG",
+    "9121"
+   ],
+   [
+    "20260504184313",
+    "200",
+    "NC5KHIQ5CBMZKL7KGIEGSXGL6O4QBHY6",
+    "8771"
+   ],
+   [
+    "20260608045338",
+    "200",
+    "532TNEBAN24YPD7R4SG2L7GTQHEOOUOM",
+    "9521"
+   ],
+   [
+    "20260707185323",
+    "200",
+    "SGMN7GX53NR6Z6RAXTXCQNZZFNEH7JBO",
+    "9541"
+   ],
+   [
+    "20260812214723",
+    "200",
+    "3IRLFIPVROIGMYB6J6F32NLEHJW5CJ4L",
+    "9132"
+   ],
+   [
+    "20260901094541",
+    "200",
+    "RJ7E4F74P5U7XS5D2QN6WJWVXDC2UPTK",
+    "9430"
+   ]
+  ]
+ },
+ "wayback_cdx_unique_html_urls": {
+  "endpoint": "GET https://web.archive.org/cdx/search/cdx?url=skild.ai&matchType=domain&output=json&fl=timestamp,original&collapse=urlkey&filter=statuscode:200&filter=mimetype:text/html&limit=1500",
+  "response": [
+   [
+    "timestamp",
+    "original"
+   ],
+   [
+    "20240308054954",
+    "https://www.skild.ai/"
+   ],
+   [
+    "20250114163455",
+    "https://www.skild.ai/?utm_source=Klaviyo&utm_medium=campaign&_kx=oT6YasGMonVQNiUMOx8M0Q.YpRwe2"
+   ],
+   [
+    "20250226190504",
+    "https://www.skild.ai/?_rsc=1szxc"
+   ],
+   [
+    "20260519190214",
+    "https://www.skild.ai/?ref=AiAgents.Directory"
+   ],
+   [
+    "20251224170331",
+    "https://www.skild.ai/?ref=bm"
+   ],
+   [
+    "20250129213756",
+    "https://www.skild.ai/?ref=cosmico.org"
+   ],
+   [
+    "20260124093120",
+    "https://www.skild.ai/?ref=failory"
+   ],
+   [
+    "20250209055406",
+    "https://www.skild.ai/?ref=feedtheai.com"
+   ],
+   [
+    "20260317114441",
+    "https://www.skild.ai/?ref=labellerr.com"
+   ],
+   [
+    "20250320214436",
+    "https://www.skild.ai/?ref=maginative.com"
+   ],
+   [
+    "20241208080526",
+    "https://www.skild.ai/?ref=startups.gallery"
+   ],
+   [
+    "20250208062310",
+    "https://www.skild.ai/?ref=upmarket.co"
+   ],
+   [
+    "20250328110547",
+    "https://www.skild.ai/?source=post_page-----185b6add183a---------------------------------------"
+   ],
+   [
+    "20240713034834",
+    "https://www.skild.ai/?trk=article-ssr-frontend-pulse_little-text-block"
+   ],
+   [
+    "20250130023153",
+    "https://www.skild.ai/?utm_source=Twitter&utm_medium=social&utm_campaign=01-29-25-%F0%9F%A4%96%F0%9F%9A%80-Skild-"
+   ],
+   [
+    "20250620123006",
+    "https://www.skild.ai/?utm_source=www.chiefaioffice.xyz&utm_medium=referral&utm_campaign=15-ai-startups-raise-450m"
+   ],
+   [
+    "20260124083206",
+    "https://www.skild.ai/?utm_source=aientrepreneurs.standout.digital&utm_medium=referral&utm_campaign=ai-meets-atom-openai-partners-with-oppenheimer-s-lab"
+   ],
+   [
+    "20260219073002",
+    "https://www.skild.ai/?utm_source=scalable.news&utm_medium=referral&utm_campaign=culture-strategy"
+   ],
+   [
+    "20241007051752",
+    "https://www.skild.ai/?utm_source=whogotfunded.club&utm_medium=referral&utm_campaign=helsing-planqc-lemon-markets-and-lleverage"
+   ],
+   [
+    "20251013082644",
+    "https://www.skild.ai/?utm_source=www.theneurondaily.com&utm_medium=referral&utm_campaign=microsoft-claude-office-ial"
+   ],
+   [
+    "20250418222848",
+    "https://www.skild.ai/?utm_source=www.futureblueprint.xyz&utm_medium=referral&utm_campaign=microsoft-leaves-openai"
+   ],
+   [
+    "20251013081220",
+    "https://www.skild.ai/?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-18th-2024"
+   ],
+   [
+    "20241007041402",
+    "https://www.skild.ai/?utm_source=www.onemorethinginai.com&utm_medium=newsletter&utm_campaign=newsletter26"
+   ],
+   [
+    "20251013100339",
+    "https://www.skild.ai/?utm_source=www.superpowerdaily.com&utm_medium=referral&utm_campaign=openai-blocks-access-in-china"
+   ],
+   [
+    "20251206131323",
+    "https://www.skild.ai/?utm_source=newsletter.kingscrowd.com&utm_medium=newsletter&utm_campaign=opening-the-doors-retail-allocations-in-ipos"
+   ],
+   [
+    "20250114150609",
+    "https://www.skild.ai/?utm_source=techdrop&utm_medium=newsletter&utm_campaign=recapitulando-suas-ferias"
+   ],
+   [
+    "20250906045954",
+    "https://www.skild.ai/?utm_source=datarootlabs&utm_medium=blog&utm_campaign=research"
+   ],
+   [
+    "20241208091219",
+    "https://www.skild.ai/?utm_source=thesummary.ai&utm_medium=referral&utm_campaign=samsung-ai-power-play"
+   ],
+   [
+    "20241208095534",
+    "https://www.skild.ai/?utm_source=the-vision-debugged.beehiiv.com&utm_medium=referral&utm_campaign=secret-ai-tool-used-by-ivy-league-students-turbolearn-ai"
+   ],
+   [
+    "20250114162625",
+    "https://www.skild.ai/?utm_source=newsletter.kistudio.ch&utm_medium=referral&utm_campaign=wie-steht-es-eigentlich-um-ki-roboter"
+   ],
+   [
+    "20260320215029",
+    "https://www.skild.ai/?utm_source=substack&utm_medium=email"
+   ],
+   [
+    "20250910054323",
+    "https://www.skild.ai/?utm_source=altools.ai"
+   ],
+   [
+    "20250116141217",
+    "https://www.skild.ai/?utm_source=rivalsense.co"
+   ],
+   [
+    "20250320215443",
+    "https://www.skild.ai/?utm_source=theneuron"
+   ],
+   [
+    "20240911114225",
+    "https://www.skild.ai/?utm_source=www.onemorethinginai.com%5Cu0026utm_medium%3Dnewsletter%5Cu0026utm_campaign%3Dnewsletter26"
+   ],
+   [
+    "20260815023344",
+    "https://www.skild.ai/%5C%5C%5C"
+   ],
+   [
+    "20240812111310",
+    "https://www.skild.ai/blogs"
+   ],
+   [
+    "20240709210352",
+    "https://www.skild.ai/blogs/announcing-our-300m-series-a"
+   ],
+   [
+    "20241208090322",
+    "https://www.skild.ai/blogs/announcing-our-300m-series-a?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--PChA-PmMEKM6nNL57xElvflnwlDxDV5Sq2kxmxwYJVU8kg0gGwVFMbTJoU5HEeqGEgV99"
+   ],
+   [
+    "20240718045845",
+    "https://www.skild.ai/blogs/announcing-our-300m-series-a?utm_campaign=Pittsburgh%20Curated%20Email&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9KAZTWV2Cr2GxhoHBdWyOAi2a2Ywy6xfQAE6g2v95jjJDL2WCKGMfa_uLAwiH9aJOTTuwi"
+   ],
+   [
+    "20250209040731",
+    "https://www.skild.ai/blogs/announcing-our-300m-series-a?utm_source=thedeepview&utm_medium=newsletter&utm_campaign=managing-partner-of-microsoft-m12-says-we-re-living-through-2-ai-bubbles"
+   ],
+   [
+    "20241208102637",
+    "https://www.skild.ai/blogs/announcing-our-300m-series-a?utm_source=thesummary.ai&utm_medium=referral&utm_campaign=samsung-ai-power-play"
+   ],
+   [
+    "20241007234849",
+    "https://www.skild.ai/blogs/announcing-our-300m-series-a?utm_source=substack&utm_medium=email"
+   ],
+   [
+    "20260220051649",
+    "https://www.skild.ai/blogs/bengaluru"
+   ],
+   [
+    "20250730015429",
+    "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain"
+   ],
+   [
+    "20250731212431",
+    "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text"
+   ],
+   [
+    "20251013081803",
+    "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain?utm_source=robotnews.therundown.ai&utm_medium=newsletter&utm_campaign=skild-s-robotic-hive-mind"
+   ],
+   [
+    "20250731051742",
+    "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain?utm_source=perplexity"
+   ],
+   [
+    "20250730151519",
+    "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain%5C"
+   ],
+   [
+    "20260214000031",
+    "https://www.skild.ai/blogs/learning-by-watching"
+   ],
+   [
+    "20260117125722",
+    "https://www.skild.ai/blogs/learning-by-watching?utm_source=substack&utm_medium=email"
+   ],
+   [
+    "20260830143352",
+    "https://www.skild.ai/blogs/learning-by-watching%5C"
+   ],
+   [
+    "20260308195801",
+    "https://www.skild.ai/blogs/learning-by-watching%5C%5C%5C"
+   ],
+   [
+    "20250925114940",
+    "https://www.skild.ai/blogs/omni-bodied"
+   ],
+   [
+    "20251101101723",
+    "https://www.skild.ai/blogs/omni-bodied%0A"
+   ],
+   [
+    "20260514071855",
+    "https://www.skild.ai/blogs/omni-bodied?ref=katecarruthers.com"
+   ],
+   [
+    "20250806225124",
+    "https://www.skild.ai/blogs/one-policy-all-scenarios"
+   ],
+   [
+    "20260923204806",
+    "https://www.skild.ai/blogs/physical-self-play"
+   ],
+   [
+    "20260320033725",
+    "https://www.skild.ai/blogs/reindustrial-revolution"
+   ],
+   [
+    "20260511022716",
+    "https://www.skild.ai/blogs/reindustrial-revolution?_rsc=1szxc"
+   ],
+   [
+    "20260825174901",
+    "https://www.skild.ai/blogs/s1"
+   ],
+   [
+    "20260114181408",
+    "https://www.skild.ai/blogs/series-c"
+   ],
+   [
+    "20260511022705",
+    "https://www.skild.ai/blogs/series-c?_rsc=1szxc"
+   ],
+   [
+    "20260118030913",
+    "https://www.skild.ai/blogs/series-c?email_hash=0d7a7050906b225db2718485ca0f3472"
+   ],
+   [
+    "20260117130722",
+    "https://www.skild.ai/blogs/series-c?email_hash=0d7a7050906b225db2718485ca0f3472&utm_source=Sailthru&utm_medium=email&utm_campaign=DailyTechInsider_01.16.26_Freshworks_86b7xk2rx&utm_term=daily-tech-insider-active"
+   ],
+   [
+    "20260221071146",
+    "https://www.skild.ai/blogs/series-c?email_hash=23463b99b62a72f26ed677cc556c44e8"
+   ],
+   [
+    "20260117102557",
+    "https://www.skild.ai/blogs/series-c?email_hash=9f37dd47e3c12d5b147f853b5072502e&utm_source=Sailthru&utm_medium=email&utm_campaign=DailyTechInsider_01.16.26_Freshworks_86b7xk2rx&utm_term=daily-tech-insider-active"
+   ],
+   [
+    "20260514064351",
+    "https://www.skild.ai/blogs/series-c?ref=thestack.technology"
+   ],
+   [
+    "20260115154336",
+    "https://www.skild.ai/blogs/series-c?utm_source=robotnews.therundown.ai&utm_medium=newsletter&utm_campaign=1x-now-has-a-world-model"
+   ],
+   [
+    "20260219062611",
+    "https://www.skild.ai/blogs/series-c?utm_source=empires.theresanaiforthat.com&utm_medium=referral&utm_campaign=build-less-grow-faster"
+   ],
+   [
+    "20260117121839",
+    "https://www.skild.ai/blogs/series-c?utm_source=substack&utm_medium=email"
+   ],
+   [
+    "20260222155309",
+    "https://www.skild.ai/blogs/series-c%5C%5C%5C"
+   ],
+   [
+    "20260911080135",
+    "https://www.skild.ai/blogs/skild-crosses-100m-arr"
+   ],
+   [
+    "20260416012748",
+    "https://www.skild.ai/blogs/skild-zebra"
+   ],
+   [
+    "20240709223639",
+    "https://www.skild.ai/career"
+   ],
+   [
+    "20250226190503",
+    "https://www.skild.ai/career?_rsc=1szxc"
+   ],
+   [
+    "20241208095337",
+    "https://www.skild.ai/career?ref=startups.gallery"
+   ],
+   [
+    "20260414030636",
+    "https://www.skild.ai/career?trk=organization_guest_main-feed-card-text"
+   ],
+   [
+    "20260410094800",
+    "https://www.skild.ai/career?trk=public_post_embed_reshare-text"
+   ],
+   [
+    "20251013091443",
+    "https://www.skild.ai/career?utm_source=aistartup.jobs&utm_medium=referral&utm_campaign=new-ai-startup-jobs-week-ending-july-18th-2024"
+   ],
+   [
+    "20240812101553",
+    "https://www.skild.ai/cdn-cgi/l/email-protection"
+   ],
+   [
+    "20250212162704",
+    "https://control.skild.ai/"
+   ],
+   [
+    "20241113043437",
+    "https://dev.skild.ai/"
+   ]
+  ]
+ },
+ "doh_mx": {
+  "endpoint": "GET https://dns.google/resolve?name=skild.ai&type=MX",
+  "response": {
+   "Status": 0,
+   "TC": false,
+   "RD": true,
+   "RA": true,
+   "AD": false,
+   "CD": false,
+   "Question": [
+    {
+     "name": "skild.ai.",
+     "type": 15
+    }
+   ],
+   "Answer": [
+    {
+     "name": "skild.ai.",
+     "type": 15,
+     "TTL": 300,
+     "data": "10 aspmx3.googlemail.com."
+    },
+    {
+     "name": "skild.ai.",
+     "type": 15,
+     "TTL": 300,
+     "data": "1 aspmx.l.google.com."
+    },
+    {
+     "name": "skild.ai.",
+     "type": 15,
+     "TTL": 300,
+     "data": "5 alt2.aspmx.l.google.com."
+    },
+    {
+     "name": "skild.ai.",
+     "type": 15,
+     "TTL": 300,
+     "data": "5 alt1.aspmx.l.google.com."
+    },
+    {
+     "name": "skild.ai.",
+     "type": 15,
+     "TTL": 300,
+     "data": "10 aspmx2.googlemail.com."
+    }
+   ],
+   "Comment": "Response from 108.162.194.3."
+  }
+ },
+ "doh_txt": {
+  "endpoint": "GET https://dns.google/resolve?name=skild.ai&type=TXT",
+  "response": {
+   "Status": 0,
+   "TC": false,
+   "RD": true,
+   "RA": true,
+   "AD": false,
+   "CD": false,
+   "Question": [
+    {
+     "name": "skild.ai.",
+     "type": 16
+    }
+   ],
+   "Answer": [
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "apple-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "ZOOM_verify_<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "00Dao00001UbYmC=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "adobe-idp-site-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "atlassian-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "TAILSCALE-<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "slack-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "openai-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "hcp-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "linear-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "cursor-domain-verification-y036nb=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "miro-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "v=spf1 redirect=skild.ai.hosted.spf-report.com"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "anthropic-domain-verification-gv86ay=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "linear-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "google-site-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "atlassian-sending-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "notion-domain-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "MS=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "netdata-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "google-site-verification=<redacted>"
+    },
+    {
+     "name": "skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "TAILSCALE-<redacted>"
+    }
+   ],
+   "Comment": "Response from 172.64.34.3."
+  }
+ },
+ "doh_dmarc": {
+  "endpoint": "GET https://dns.google/resolve?name=_dmarc.skild.ai&type=TXT",
+  "response": {
+   "Status": 0,
+   "TC": false,
+   "RD": true,
+   "RA": true,
+   "AD": false,
+   "CD": false,
+   "Question": [
+    {
+     "name": "_dmarc.skild.ai.",
+     "type": 16
+    }
+   ],
+   "Answer": [
+    {
+     "name": "_dmarc.skild.ai.",
+     "type": 16,
+     "TTL": 300,
+     "data": "v=DMARC1; p=reject;"
+    }
+   ],
+   "Comment": "Response from 172.64.34.3."
+  }
+ },
+ "hackertarget_hostsearch": {
+  "endpoint": "GET https://api.hackertarget.com/hostsearch/?q=skild.ai",
+  "content_type": "text/plain (host,ip per line)",
+  "response": "assets.skild.ai,3.168.102.71\nauth.skild.ai,104.21.52.101\nbuf.skild.ai,34.49.228.102\ncontrol.skild.ai,3.133.63.68\ntunneling.skild.ai,3.137.9.14\nvpn.skild.ai,96.236.214.151\nwebrtc.skild.ai,3.23.190.245\nwww.skild.ai,172.67.198.17\n"
+ },
+ "subdomain_center": {
+  "endpoint": "GET https://api.subdomain.center/?domain=skild.ai",
+  "response": [
+   "auth.skild.ai",
+   "www.tunneling.skild.ai",
+   "devvd.skild.ai",
+   "dev.skild.ai",
+   "tunneling.skild.ai",
+   "www.control.skild.ai",
+   "www.webrtc.skild.ai",
+   "controls.skild.ai",
+   "www.skild.ai",
+   "skild.ai",
+   "wwwa.vpn.skild.ai",
+   "control.skild.ai",
+   "www.auth.skild.ai",
+   "webrtc.skild.ai",
+   "www.dev.skild.ai",
+   "www.vpn.skild.ai",
+   "vpn.skild.ai"
+  ]
+ },
+ "majestic_million_csv": {
+  "endpoint": "GET https://downloads.majestic.com/majestic_million.csv",
+  "header": [
+   "GlobalRank",
+   "TldRank",
+   "Domain",
+   "TLD",
+   "RefSubNets",
+   "RefIPs",
+   "IDN_Domain",
+   "IDN_TLD",
+   "PrevGlobalRank",
+   "PrevTldRank",
+   "PrevRefSubNets",
+   "PrevRefIPs"
+  ],
+  "sample_row": {
+   "GlobalRank": "114006",
+   "TldRank": "387",
+   "Domain": "skild.ai",
+   "TLD": "ai",
+   "RefSubNets": "830",
+   "RefIPs": "1306",
+   "IDN_Domain": "skild.ai",
+   "IDN_TLD": "ai",
+   "PrevGlobalRank": "108585",
+   "PrevTldRank": "371",
+   "PrevRefSubNets": "847",
+   "PrevRefIPs": "1285"
+  }
+ },
+ "panel_69_domains": [
+  {
+   "domain": "valaratomics.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1562564,
+    "2026-09-01": 1826253,
+    "2026-07-01": 2396009,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "499590",
+    "RefSubNets": "371",
+    "RefIPs": "476",
+    "PrevGlobalRank": "515284",
+    "PrevRefSubNets": "361",
+    "PrevRefIPs": "459"
+   },
+   "rdap": {
+    "registration": "2023-07-04T16:46:36Z",
+    "expiration": "2027-07-04T16:46:36Z",
+    "last_changed": "2026-06-20T06:19:12Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20240407005559",
+    "last_ts": "20260922051450",
+    "captures_last12m": 58,
+    "captures_prev12m": 40,
+    "total": 120
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365"
+    ],
+    "txt_count": 2,
+    "txt_tools": [
+     "apple"
+    ],
+    "spf_tools": [
+     "microsoft_365"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns-cloud-d1.googledomains.com.",
+     "ns-cloud-d2.googledomains.com.",
+     "ns-cloud-d3.googledomains.com.",
+     "ns-cloud-d4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "git": []
+    }
+   }
+  },
+  {
+   "domain": "aalo.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1358119,
+    "2026-09-01": 1900353,
+    "2026-07-01": 2230420,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "326509",
+    "RefSubNets": "473",
+    "RefIPs": "1962",
+    "PrevGlobalRank": "330979",
+    "PrevRefSubNets": "466",
+    "PrevRefIPs": "1829"
+   },
+   "rdap": {
+    "registration": "2002-03-28T21:38:33Z",
+    "expiration": "2027-03-28T20:38:33Z",
+    "last_changed": "2026-03-29T16:33:01Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20020330101333",
+    "last_ts": "20260914065050",
+    "captures_last12m": 59,
+    "captures_prev12m": 60,
+    "total": 262
+   },
+   "dns": {
+    "mx_provider": [],
+    "txt_count": 15,
+    "txt_tools": [
+     "adobe",
+     "apple",
+     "autodesk",
+     "google_gws_recovery",
+     "google_site_verification",
+     "ms_tenant",
+     "notion",
+     "openai",
+     "rippling"
+    ],
+    "spf_tools": [],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns1-36.azuregov-dns.us.",
+     "ns2-36.azuregov-dns.us.",
+     "ns3-36.azuregov-dns.us.",
+     "ns4-36.azuregov-dns.us."
+    ],
+    "ns_govcloud": true,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "portal": [
+      "azure"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "radiantnuclear.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1303675,
+    "2026-09-01": 1378905,
+    "2026-07-01": 1408003,
+    "2025-10-01": 2394658
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "374963",
+    "RefSubNets": "437",
+    "RefIPs": "550",
+    "PrevGlobalRank": "374113",
+    "PrevRefSubNets": "434",
+    "PrevRefIPs": "546"
+   },
+   "rdap": {
+    "registration": "2019-04-10T05:53:24Z",
+    "expiration": "2027-04-10T05:53:24Z",
+    "last_changed": "2026-03-11T09:27:02Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20190917161955",
+    "last_ts": "20260925061256",
+    "captures_last12m": 210,
+    "captures_prev12m": 93,
+    "total": 465
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 23,
+    "txt_tools": [
+     "1password",
+     "adobe",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "autodesk",
+     "docusign",
+     "google_site_verification",
+     "ms_tenant",
+     "slack",
+     "zoom"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "cleo.ns.cloudflare.com.",
+     "nora.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": []
+    }
+   }
+  },
+  {
+   "domain": "pacificfusion.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1530069,
+    "2026-09-01": 1950621,
+    "2026-07-01": 2397181,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "390790",
+    "RefSubNets": "426",
+    "RefIPs": "1576",
+    "PrevGlobalRank": "383739",
+    "PrevRefSubNets": "427",
+    "PrevRefIPs": "1362"
+   },
+   "rdap": {
+    "registration": "2008-09-25T18:15:59Z",
+    "expiration": "2027-09-25T18:15:59Z",
+    "last_changed": "2026-08-21T18:19:56Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "first_ts": "19981212020240",
+    "last_ts": "20260910200827",
+    "captures_last12m": 43,
+    "captures_prev12m": 62,
+    "total": 207
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "docusign",
+     "google_site_verification",
+     "linear",
+     "rippling",
+     "smartsheet"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "google_workspace",
+     "greenhouse",
+     "mailchimp",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-1457.awsdns-54.org.",
+     "ns-1684.awsdns-18.co.uk.",
+     "ns-228.awsdns-28.com.",
+     "ns-554.awsdns-05.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "support": [
+      "aws_elb"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "thea.energy",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-10-12T23:23:05.149Z",
+    "expiration": "2027-10-12T23:23:05.149Z",
+    "last_changed": "2026-09-28T09:38:29.815Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20230726064350",
+    "last_ts": "20260923151201",
+    "captures_last12m": 57,
+    "captures_prev12m": 87,
+    "total": 229
+   },
+   "dns": {
+    "mx_provider": [],
+    "txt_count": 6,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "rippling",
+     "slack"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-cloud-b1.googledomains.com.",
+     "ns-cloud-b2.googledomains.com.",
+     "ns-cloud-b3.googledomains.com.",
+     "ns-cloud-b4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "castelion.com",
+   "tranco_full_rank": {
+    "2026-09-30": 2133149,
+    "2026-09-01": 3382818,
+    "2026-07-01": 2891738,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "523681",
+    "RefSubNets": "361",
+    "RefIPs": "513",
+    "PrevGlobalRank": "651692",
+    "PrevRefSubNets": "317",
+    "PrevRefIPs": "410"
+   },
+   "rdap": {
+    "registration": "2023-07-06T14:22:21Z",
+    "expiration": "2035-07-06T14:22:21Z",
+    "last_changed": "2026-05-26T20:17:25Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "first_ts": "20180807225340",
+    "last_ts": "20260917093755",
+    "captures_last12m": 76,
+    "captures_prev12m": 92,
+    "total": 227
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 21,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "asana",
+     "autodesk",
+     "box",
+     "google_site_verification",
+     "jetbrains",
+     "ms_tenant",
+     "openai",
+     "perplexity",
+     "rippling",
+     "smartsheet",
+     "zoom"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns1-37.azuregov-dns.us.",
+     "ns2-37.azuregov-dns.us.",
+     "ns3-37.azuregov-dns.us.",
+     "ns4-37.azuregov-dns.us."
+    ],
+    "ns_govcloud": true,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "portal": [],
+     "mail": [],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "cx2.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "1999-07-27T18:52:10Z",
+    "expiration": "2028-07-27T18:52:07Z",
+    "last_changed": "2026-04-14T18:04:41Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "19961223152239",
+    "last_ts": "20260330053800",
+    "captures_last12m": 14,
+    "captures_prev12m": 43,
+    "total": 138
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "box",
+     "google_site_verification",
+     "ms_tenant",
+     "zoom"
+    ],
+    "spf_tools": [],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns37.domaincontrol.com.",
+     "ns38.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "neros.tech",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2023-08-26T17:46:53.000Z",
+    "expiration": "2030-08-26T23:59:59.000Z",
+    "last_changed": "2026-03-18T19:00:38.909Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20231101221922",
+    "last_ts": "20260928140426",
+    "captures_last12m": 32,
+    "captures_prev12m": 48,
+    "total": 111
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 16,
+    "txt_tools": [
+     "airtable",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "box",
+     "docusign",
+     "figma",
+     "google_site_verification",
+     "jamf",
+     "ms_tenant",
+     "notion",
+     "slack"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high",
+     "salesforce",
+     "zendesk"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns17.domaincontrol.com.",
+     "ns18.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "vpn": [],
+     "git": []
+    }
+   }
+  },
+  {
+   "domain": "machindustries.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1994005,
+    "2026-09-01": 2220189,
+    "2026-07-01": 3186865,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "683123",
+    "RefSubNets": "312",
+    "RefIPs": "417",
+    "PrevGlobalRank": "681920",
+    "PrevRefSubNets": "309",
+    "PrevRefIPs": "394"
+   },
+   "rdap": {
+    "registration": "2016-05-27T18:29:12Z",
+    "expiration": "2027-05-27T18:29:12Z",
+    "last_changed": "2026-04-27T20:34:02Z",
+    "registrar": "Name.com, Inc."
+   },
+   "wayback": {
+    "first_ts": "20010404075705",
+    "last_ts": "20260922135257",
+    "captures_last12m": 55,
+    "captures_prev12m": 59,
+    "total": 199
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 28,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "autodesk",
+     "box",
+     "cursor",
+     "docusign",
+     "google_site_verification",
+     "jamf",
+     "ms_tenant",
+     "openai",
+     "rippling",
+     "salesforce_like_org_id",
+     "slack",
+     "smartsheet"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns1.vercel-dns.com.",
+     "ns2.vercel-dns.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": true,
+    "live_subdomains": {}
+   }
+  },
+  {
+   "domain": "hadrian.co",
+   "tranco_full_rank": {
+    "2026-09-30": 1128561,
+    "2026-09-01": 1425758,
+    "2026-07-01": 1868731,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "348165",
+    "RefSubNets": "456",
+    "RefIPs": "1973",
+    "PrevGlobalRank": "343653",
+    "PrevRefSubNets": "456",
+    "PrevRefIPs": "1863"
+   },
+   "rdap": {
+    "registration": "2020-09-03T18:59:43.0Z",
+    "expiration": "2027-09-03T23:59:59.0Z",
+    "last_changed": "2026-09-02T10:04:05.0Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20130515043019",
+    "last_ts": "20260926060828",
+    "captures_last12m": 45,
+    "captures_prev12m": 81,
+    "total": 276
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod",
+     "proofpoint"
+    ],
+    "txt_count": 21,
+    "txt_tools": [
+     "adobe",
+     "airtable",
+     "anthropic",
+     "apple",
+     "asana",
+     "atlassian",
+     "autodesk",
+     "cursor",
+     "google_site_verification",
+     "have_i_been_pwned",
+     "jetbrains",
+     "ms_tenant",
+     "openai",
+     "slack"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "google_workspace",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-1224.awsdns-25.org.",
+     "ns-1570.awsdns-04.co.uk.",
+     "ns-347.awsdns-43.com.",
+     "ns-554.awsdns-05.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "docs": [
+      "aws_elb",
+      "aws_govcloud"
+     ],
+     "auth": []
+    }
+   }
+  },
+  {
+   "domain": "skild.ai",
+   "tranco_full_rank": {
+    "2026-09-30": 449531,
+    "2026-09-01": 1133223,
+    "2026-07-01": 1155116,
+    "2025-10-01": 2538996
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "114006",
+    "RefSubNets": "830",
+    "RefIPs": "1306",
+    "PrevGlobalRank": "108585",
+    "PrevRefSubNets": "847",
+    "PrevRefIPs": "1285"
+   },
+   "rdap": {
+    "registration": "2023-02-07T16:11:12Z",
+    "expiration": "2033-02-07T16:11:12Z",
+    "last_changed": "2026-08-12T09:31:42.451Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20240102125903",
+    "last_ts": "20260927080413",
+    "captures_last12m": 75,
+    "captures_prev12m": 87,
+    "total": 201
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 22,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "cursor",
+     "google_site_verification",
+     "hashicorp_hcp",
+     "linear",
+     "miro",
+     "ms_tenant",
+     "netdata",
+     "notion",
+     "openai",
+     "salesforce_like_org_id",
+     "slack",
+     "tailscale",
+     "zoom"
+    ],
+    "spf_tools": [
+     "spf_flattener_hosted"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "garrett.ns.cloudflare.com.",
+     "journey.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "auth": [],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "physicalintelligence.company",
+   "tranco_full_rank": {
+    "2026-09-30": 700864,
+    "2026-09-01": 752278,
+    "2026-07-01": 978590,
+    "2025-10-01": 1617372
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "190206",
+    "RefSubNets": "649",
+    "RefIPs": "914",
+    "PrevGlobalRank": "189025",
+    "PrevRefSubNets": "648",
+    "PrevRefIPs": "905"
+   },
+   "rdap": {
+    "registration": "2024-02-25T21:36:51.064Z",
+    "expiration": "2027-02-25T21:36:51.064Z",
+    "last_changed": "2026-08-12T04:52:53.308Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20240312205420",
+    "last_ts": "20260923133904",
+    "captures_last12m": 69,
+    "captures_prev12m": 123,
+    "total": 223
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "anthropic",
+     "cursor",
+     "google_site_verification",
+     "linear",
+     "notion",
+     "openai",
+     "rippling",
+     "slack"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "mailgun"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-cloud-c1.googledomains.com.",
+     "ns-cloud-c2.googledomains.com.",
+     "ns-cloud-c3.googledomains.com.",
+     "ns-cloud-c4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "foundation.bot",
+   "tranco_full_rank": {
+    "2026-09-30": 2185763,
+    "2026-09-01": 2381236,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "775364",
+    "RefSubNets": "292",
+    "RefIPs": "362",
+    "PrevGlobalRank": "769285",
+    "PrevRefSubNets": "290",
+    "PrevRefIPs": "354"
+   },
+   "rdap": {
+    "registration": "2024-02-06T15:32:03.103Z",
+    "expiration": "2027-02-06T15:32:03.103Z",
+    "last_changed": "2026-07-22T08:01:01Z",
+    "registrar": "NameCheap, Inc"
+   },
+   "wayback": {
+    "first_ts": "20240417123659",
+    "last_ts": "20260929024544",
+    "captures_last12m": 297,
+    "captures_prev12m": 175,
+    "total": 485
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 4,
+    "txt_tools": [
+     "atlassian",
+     "google_site_verification",
+     "rippling"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": null,
+    "ns": [
+     "dns1.registrar-servers.com.",
+     "dns2.registrar-servers.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "framer"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "k2space.com",
+   "tranco_full_rank": {
+    "2026-09-30": 865579,
+    "2026-09-01": 980202,
+    "2026-07-01": 1152966,
+    "2025-10-01": 2927106
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "992338",
+    "RefSubNets": "259",
+    "RefIPs": "332",
+    "PrevGlobalRank": "942461",
+    "PrevRefSubNets": "262",
+    "PrevRefIPs": "327"
+   },
+   "rdap": {
+    "registration": "2016-08-10T04:40:19Z",
+    "expiration": "2027-08-10T04:40:19Z",
+    "last_changed": "2026-08-10T10:20:53Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20040325083101",
+    "last_ts": "20260924182133",
+    "captures_last12m": 36,
+    "captures_prev12m": 62,
+    "total": 198
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 16,
+    "txt_tools": [
+     "anthropic",
+     "atlassian",
+     "autodesk",
+     "box",
+     "google_site_verification",
+     "ms_tenant",
+     "rippling",
+     "slack",
+     "smartsheet",
+     "zapier"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "google_workspace",
+     "mailchimp",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-105.awsdns-13.com.",
+     "ns-1441.awsdns-52.org.",
+     "ns-1734.awsdns-24.co.uk.",
+     "ns-743.awsdns-28.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "reflectorbital.com",
+   "tranco_full_rank": {
+    "2026-09-30": 495718,
+    "2026-09-01": 460725,
+    "2026-07-01": 722787,
+    "2025-10-01": 1604258
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": 1000000,
+   "majestic": {
+    "GlobalRank": "192681",
+    "RefSubNets": "644",
+    "RefIPs": "818",
+    "PrevGlobalRank": "200928",
+    "PrevRefSubNets": "624",
+    "PrevRefIPs": "789"
+   },
+   "rdap": {
+    "registration": "2022-10-08T05:55:09Z",
+    "expiration": "2027-10-08T05:55:09Z",
+    "last_changed": "2026-09-25T23:09:30Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20230316030909",
+    "last_ts": "20260927182455",
+    "captures_last12m": 68,
+    "captures_prev12m": 69,
+    "total": 227
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "1password",
+     "anthropic",
+     "apple",
+     "google_site_verification",
+     "ms_tenant",
+     "notion",
+     "rippling",
+     "tailscale"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "hubspot"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "pdns1.registrar-servers.com.",
+     "pdns2.registrar-servers.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "mail": []
+    }
+   }
+  },
+  {
+   "domain": "northwoodspace.io",
+   "tranco_full_rank": {
+    "2026-09-30": 505708,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-08-29T14:37:08.02Z",
+    "expiration": "2027-08-29T14:37:08.02Z",
+    "last_changed": "2026-08-19T23:22:01.55Z",
+    "registrar": "Key-Systems GmbH"
+   },
+   "wayback": {
+    "first_ts": "20230924234007",
+    "last_ts": "20260831140214",
+    "captures_last12m": 43,
+    "captures_prev12m": 72,
+    "total": 170
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365"
+    ],
+    "txt_count": 12,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "google_site_verification",
+     "ms_tenant",
+     "openai",
+     "rippling",
+     "smartsheet"
+    ],
+    "spf_tools": [
+     "microsoft_365"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "naomi.ns.cloudflare.com.",
+     "vin.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "api": [],
+     "docs": [],
+     "auth": [
+      "auth0"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "basepowercompany.com",
+   "tranco_full_rank": {
+    "2026-09-30": 377241,
+    "2026-09-01": 452424,
+    "2026-07-01": 536323,
+    "2025-10-01": 1080646
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": 814582,
+   "crux_bucket": 500000,
+   "majestic": {
+    "GlobalRank": "445825",
+    "RefSubNets": "394",
+    "RefIPs": "515",
+    "PrevGlobalRank": "462942",
+    "PrevRefSubNets": "383",
+    "PrevRefIPs": "505"
+   },
+   "rdap": {
+    "registration": "2023-06-14T02:28:57Z",
+    "expiration": "2027-06-14T02:28:57Z",
+    "last_changed": "2026-05-30T11:48:09Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20230715200000",
+    "last_ts": "20260917093808",
+    "captures_last12m": 35,
+    "captures_prev12m": 79,
+    "total": 157
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 15,
+    "txt_tools": [
+     "anthropic",
+     "autodesk",
+     "cursor",
+     "google_site_verification",
+     "hubspot",
+     "openai",
+     "perplexity",
+     "stripe",
+     "zapier"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "greenhouse",
+     "hubspot",
+     "sendgrid"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "glen.ns.cloudflare.com.",
+     "mona.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "api": [],
+     "help": []
+    }
+   }
+  },
+  {
+   "domain": "substrate.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "1997-07-30T04:00:00Z",
+    "expiration": "2027-07-29T04:00:00Z",
+    "last_changed": "2025-07-31T20:39:16Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "error": "URLError"
+   },
+   "dns": {
+    "mx_provider": [],
+    "txt_count": 3,
+    "txt_tools": [],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "blue.foundationdns.com.",
+     "blue.foundationdns.net.",
+     "blue.foundationdns.org."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": []
+    }
+   }
+  },
+  {
+   "domain": "atomicsemi.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-11-01T18:07:07Z",
+    "expiration": "2026-11-01T18:07:07Z",
+    "last_changed": "2025-10-02T06:08:53Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20130329012106",
+    "last_ts": "20260726101058",
+    "captures_last12m": 22,
+    "captures_prev12m": 38,
+    "total": 137
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 8,
+    "txt_tools": [
+     "1password",
+     "apple",
+     "ms_tenant",
+     "notion",
+     "rippling",
+     "slack"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "dns1.registrar-servers.com.",
+     "dns2.registrar-servers.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": []
+    }
+   }
+  },
+  {
+   "domain": "diode.computer",
+   "tranco_full_rank": {
+    "2026-09-30": 2475885,
+    "2026-09-01": null,
+    "2026-07-01": 1443547,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "790801",
+    "RefSubNets": "289",
+    "RefIPs": "361",
+    "PrevGlobalRank": "800556",
+    "PrevRefSubNets": "284",
+    "PrevRefIPs": "349"
+   },
+   "rdap": {
+    "registration": "2024-07-26T21:21:32.516Z",
+    "expiration": "2027-07-26T21:21:32.516Z",
+    "last_changed": "2026-08-13T20:28:39.249Z",
+    "registrar": "Spaceship, Inc."
+   },
+   "wayback": {
+    "first_ts": "20240728070440",
+    "last_ts": "20260907022147",
+    "captures_last12m": 42,
+    "captures_prev12m": 66,
+    "total": 127
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 6,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "google_site_verification",
+     "ms_tenant",
+     "tailscale",
+     "zoom"
+    ],
+    "spf_tools": [],
+    "dmarc_policy": "none",
+    "ns": [
+     "launch1.spaceship.net.",
+     "launch2.spaceship.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "app": [
+      "vercel"
+     ],
+     "api": [],
+     "store": [
+      "shopify"
+     ],
+     "blog": [
+      "vercel"
+     ],
+     "console": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "rangeview.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2001-10-21T18:39:30Z",
+    "expiration": "2030-10-21T18:39:30Z",
+    "last_changed": "2024-10-21T21:25:54Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "error": "URLError"
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 3,
+    "txt_tools": [
+     "jetbrains",
+     "rippling"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "santino.ns.cloudflare.com.",
+     "sharon.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "api": [],
+     "shop": [
+      "shopify"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "chariotdefense.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2024-05-18T21:14:16Z",
+    "expiration": "2027-05-18T21:14:16Z",
+    "last_changed": "2024-05-18T21:14:16Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20240518212844",
+    "last_ts": "20260913015123",
+    "captures_last12m": 11,
+    "captures_prev12m": 18,
+    "total": 35
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "airtable",
+     "anthropic",
+     "atlassian",
+     "autodesk"
+    ],
+    "spf_tools": [
+     "microsoft_365"
+    ],
+    "dmarc_policy": null,
+    "ns": [
+     "ns67.domaincontrol.com.",
+     "ns68.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "picogrid.com",
+   "tranco_full_rank": {
+    "2026-09-30": 548656,
+    "2026-09-01": 1007344,
+    "2026-07-01": 1207670,
+    "2025-10-01": 2216578
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2008-06-19T05:18:44Z",
+    "expiration": "2027-06-19T05:18:44Z",
+    "last_changed": "2026-06-04T16:59:52Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20110207130852",
+    "last_ts": "20260724115349",
+    "captures_last12m": 60,
+    "captures_prev12m": 53,
+    "total": 209
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 16,
+    "txt_tools": [
+     "1password",
+     "airtable",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant",
+     "openai",
+     "slack",
+     "stripe"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "aliza.ns.cloudflare.com.",
+     "tanner.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "app": [],
+     "api": [
+      "cloudfront"
+     ],
+     "docs": [],
+     "status": [
+      "betterstack",
+      "statuspage"
+     ],
+     "vpn": [
+      "aws_elb",
+      "aws_govcloud"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "saronic.com",
+   "tranco_full_rank": {
+    "2026-09-30": 591883,
+    "2026-09-01": 606933,
+    "2026-07-01": 720008,
+    "2025-10-01": 2972892
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "322232",
+    "RefSubNets": "477",
+    "RefIPs": "616",
+    "PrevGlobalRank": "327821",
+    "PrevRefSubNets": "469",
+    "PrevRefIPs": "605"
+   },
+   "rdap": {
+    "registration": "2007-05-03T18:47:53Z",
+    "expiration": "2027-05-03T18:47:53Z",
+    "last_changed": "2026-05-16T01:23:19Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "first_ts": "19970625213952",
+    "last_ts": "20260917093854",
+    "captures_last12m": 64,
+    "captures_prev12m": 90,
+    "total": 313
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 25,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "autodesk",
+     "box",
+     "docusign",
+     "figma",
+     "google_site_verification",
+     "jamf",
+     "linear",
+     "openai",
+     "slack",
+     "smartsheet",
+     "tailscale"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "microsoft_365_gcc_high",
+     "salesforce"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-1274.awsdns-31.org.",
+     "ns-1851.awsdns-39.co.uk.",
+     "ns-217.awsdns-27.com.",
+     "ns-913.awsdns-50.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "cloudfront"
+     ],
+     "portal": [
+      "cloudfront"
+     ],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "lastenergy.com",
+   "tranco_full_rank": {
+    "2026-09-30": 2193812,
+    "2026-09-01": 2294169,
+    "2026-07-01": 2218169,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "441590",
+    "RefSubNets": "396",
+    "RefIPs": "881",
+    "PrevGlobalRank": "524755",
+    "PrevRefSubNets": "357",
+    "PrevRefIPs": "550"
+   },
+   "rdap": {
+    "registration": "2011-01-16T19:35:03Z",
+    "expiration": "2027-01-16T19:35:03Z",
+    "last_changed": "2026-01-01T20:11:56Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20100513182525",
+    "last_ts": "20260710103505",
+    "captures_last12m": 33,
+    "captures_prev12m": 73,
+    "total": 244
+   },
+   "dns": {
+    "mx_provider": [
+     "proofpoint"
+    ],
+    "txt_count": 5,
+    "txt_tools": [
+     "anthropic",
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-cloud-c1.googledomains.com.",
+     "ns-cloud-c2.googledomains.com.",
+     "ns-cloud-c3.googledomains.com.",
+     "ns-cloud-c4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "zenopower.com",
+   "tranco_full_rank": {
+    "2026-09-30": 2896499,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "573252",
+    "RefSubNets": "343",
+    "RefIPs": "1750",
+    "PrevGlobalRank": "563674",
+    "PrevRefSubNets": "343",
+    "PrevRefIPs": "1635"
+   },
+   "rdap": {
+    "registration": "2015-10-31T01:30:23Z",
+    "expiration": "2027-10-31T01:30:23Z",
+    "last_changed": "2026-10-01T04:26:43Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "first_ts": "20130719084226",
+    "last_ts": "20260908003921",
+    "captures_last12m": 27,
+    "captures_prev12m": 43,
+    "total": 128
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 9,
+    "txt_tools": [
+     "apple",
+     "atlassian",
+     "ms_tenant",
+     "openai",
+     "rippling"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "kia.ns.cloudflare.com.",
+     "tosana.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "support": []
+    }
+   }
+  },
+  {
+   "domain": "deepfission.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1895986,
+    "2026-09-01": 1911661,
+    "2026-07-01": 2285269,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "699544",
+    "RefSubNets": "308",
+    "RefIPs": "399",
+    "PrevGlobalRank": "711448",
+    "PrevRefSubNets": "302",
+    "PrevRefIPs": "394"
+   },
+   "rdap": {
+    "registration": "2023-03-03T19:28:03Z",
+    "expiration": "2030-03-03T19:28:03Z",
+    "last_changed": "2026-02-03T18:08:09Z",
+    "registrar": "Automattic Inc."
+   },
+   "wayback": {
+    "first_ts": "20230303193011",
+    "last_ts": "20260909103901",
+    "captures_last12m": 51,
+    "captures_prev12m": 45,
+    "total": 130
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "1password",
+     "anthropic",
+     "autodesk",
+     "google_site_verification",
+     "hubspot",
+     "ms_tenant"
+    ],
+    "spf_tools": [
+     "microsoft_365"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns1.wordpress.com.",
+     "ns2.wordpress.com.",
+     "ns3.wordpress.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": true,
+    "live_subdomains": {}
+   }
+  },
+  {
+   "domain": "generalmatter.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2019-01-31T16:06:08Z",
+    "expiration": "2031-01-31T16:06:08Z",
+    "last_changed": "2025-06-19T17:09:51Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20180806162437",
+    "last_ts": "20260914064927",
+    "captures_last12m": 34,
+    "captures_prev12m": 41,
+    "total": 92
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 6,
+    "txt_tools": [
+     "atlassian",
+     "google_site_verification",
+     "ms_tenant",
+     "openai",
+     "rippling"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "rosa.ns.cloudflare.com.",
+     "rustam.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": []
+    }
+   }
+  },
+  {
+   "domain": "exowatt.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2021-12-22T14:43:17Z",
+    "expiration": "2026-12-22T14:43:17Z",
+    "last_changed": "2026-05-06T22:06:02Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20180805045748",
+    "last_ts": "20260929043216",
+    "captures_last12m": 30,
+    "captures_prev12m": 42,
+    "total": 97
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 2,
+    "txt_tools": [
+     "anthropic"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ali.ns.cloudflare.com.",
+     "lewis.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "terraformindustries.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2021-07-02T15:10:17Z",
+    "expiration": "2027-07-02T15:10:17Z",
+    "last_changed": "2026-06-02T10:19:48Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20110306155937",
+    "last_ts": "20260925130813",
+    "captures_last12m": 24,
+    "captures_prev12m": 50,
+    "total": 220
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 5,
+    "txt_tools": [
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": null,
+    "ns": [
+     "ns.phx2.nearlyfreespeech.net.",
+     "ns.phx3.nearlyfreespeech.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "blog": []
+    }
+   }
+  },
+  {
+   "domain": "marathonfusion.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-10-05T14:22:13Z",
+    "expiration": "2027-10-05T14:22:13Z",
+    "last_changed": "2026-09-20T19:37:20Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20211214160316",
+    "last_ts": "20260918223053",
+    "captures_last12m": 21,
+    "captures_prev12m": 66,
+    "total": 139
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 1,
+    "txt_tools": [],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-cloud-b1.googledomains.com.",
+     "ns-cloud-b2.googledomains.com.",
+     "ns-cloud-b3.googledomains.com.",
+     "ns-cloud-b4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "zapenergy.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1350558,
+    "2026-09-01": 1358449,
+    "2026-07-01": 1404864,
+    "2025-10-01": 1872766
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "402427",
+    "RefSubNets": "419",
+    "RefIPs": "519",
+    "PrevGlobalRank": "403035",
+    "PrevRefSubNets": "415",
+    "PrevRefIPs": "512"
+   },
+   "rdap": {
+    "registration": "2007-11-14T20:33:53Z",
+    "expiration": "2027-11-14T20:33:53Z",
+    "last_changed": "2026-04-21T22:16:03Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20040316125229",
+    "last_ts": "20260822003226",
+    "captures_last12m": 45,
+    "captures_prev12m": 113,
+    "total": 448
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365",
+     "proofpoint"
+    ],
+    "txt_count": 5,
+    "txt_tools": [
+     "brevo",
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-104.awsdns-13.com.",
+     "ns-1437.awsdns-51.org.",
+     "ns-1897.awsdns-45.co.uk.",
+     "ns-909.awsdns-49.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "staging": []
+    }
+   }
+  },
+  {
+   "domain": "avalanchefusion.com",
+   "tranco_full_rank": {
+    "2026-09-30": 2586117,
+    "2026-09-01": 3114986,
+    "2026-07-01": 2442596,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "491710",
+    "RefSubNets": "374",
+    "RefIPs": "1558",
+    "PrevGlobalRank": "502378",
+    "PrevRefSubNets": "366",
+    "PrevRefIPs": "1450"
+   },
+   "rdap": {
+    "registration": "2023-06-23T19:01:45Z",
+    "expiration": "2028-06-23T19:01:45Z",
+    "last_changed": "2025-06-29T02:43:24Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "first_ts": "20240111215147",
+    "last_ts": "20260618202912",
+    "captures_last12m": 50,
+    "captures_prev12m": 71,
+    "total": 156
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 2,
+    "txt_tools": [
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-1161.awsdns-17.org.",
+     "ns-1738.awsdns-25.co.uk.",
+     "ns-254.awsdns-31.com.",
+     "ns-878.awsdns-45.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "peakenergy.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1561108,
+    "2026-09-01": 1759736,
+    "2026-07-01": 1964736,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "497275",
+    "RefSubNets": "372",
+    "RefIPs": "483",
+    "PrevGlobalRank": "510205",
+    "PrevRefSubNets": "363",
+    "PrevRefIPs": "478"
+   },
+   "rdap": {
+    "registration": "1997-10-01T04:00:00Z",
+    "expiration": "2031-09-30T04:00:00Z",
+    "last_changed": "2026-09-10T00:22:04Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "19990125102045",
+    "last_ts": "20260918210318",
+    "captures_last12m": 58,
+    "captures_prev12m": 111,
+    "total": 575
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365"
+    ],
+    "txt_count": 8,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "autodesk",
+     "google_site_verification",
+     "ms_tenant",
+     "openai"
+    ],
+    "spf_tools": [
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "dns1.registrar-servers.com.",
+     "dns2.registrar-servers.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "framer"
+     ],
+     "jobs": []
+    }
+   }
+  },
+  {
+   "domain": "periodic.com",
+   "tranco_full_rank": {
+    "2026-09-30": 2504339,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "835732",
+    "RefSubNets": "281",
+    "RefIPs": "358",
+    "PrevGlobalRank": "841561",
+    "PrevRefSubNets": "277",
+    "PrevRefIPs": "341"
+   },
+   "rdap": {
+    "registration": "1997-05-12T04:00:00Z",
+    "expiration": "2034-05-13T04:00:00Z",
+    "last_changed": "2026-09-02T21:46:44Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "19981207000708",
+    "last_ts": "20260917090352",
+    "captures_last12m": 54,
+    "captures_prev12m": 6,
+    "total": 108
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 6,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "google_site_verification",
+     "openai"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "addyson.ns.cloudflare.com.",
+     "cleo.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "framer"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "atomic.industries",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2019-11-06T00:08:29.74Z",
+    "expiration": "2026-11-06T00:08:29.74Z",
+    "last_changed": "2026-08-12T03:57:20.462Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20210410214910",
+    "last_ts": "20260921104715",
+    "captures_last12m": 30,
+    "captures_prev12m": 35,
+    "total": 168
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 6,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "greenhouse",
+     "salesforce"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-cloud-c1.googledomains.com.",
+     "ns-cloud-c2.googledomains.com.",
+     "ns-cloud-c3.googledomains.com.",
+     "ns-cloud-c4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "blog": [
+      "substack"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "diracinc.com",
+   "tranco_full_rank": {
+    "2026-09-30": 3902508,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-10-01T05:05:36Z",
+    "expiration": "2027-10-01T05:05:36Z",
+    "last_changed": "2026-09-16T07:34:31Z",
+    "registrar": "Squarespace Domains LLC"
+   },
+   "wayback": {
+    "first_ts": "20221001164442",
+    "last_ts": "20260914183213",
+    "captures_last12m": 35,
+    "captures_prev12m": 67,
+    "total": 136
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 10,
+    "txt_tools": [
+     "apple",
+     "google_site_verification",
+     "ms_tenant"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "hubspot",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-cloud-b1.googledomains.com.",
+     "ns-cloud-b2.googledomains.com.",
+     "ns-cloud-b3.googledomains.com.",
+     "ns-cloud-b4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "cloudfront"
+     ],
+     "app": [],
+     "api": [],
+     "status": [
+      "instatus"
+     ],
+     "trust": [
+      "vanta_trust"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "senrasystems.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2023-03-07T00:33:56Z",
+    "expiration": "2027-03-07T00:33:56Z",
+    "last_changed": "2025-03-10T19:12:44Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "first_ts": "20240503082237",
+    "last_ts": "20250713132724",
+    "captures_last12m": 0,
+    "captures_prev12m": 8,
+    "total": 11
+   },
+   "dns": {
+    "mx_provider": [],
+    "txt_count": 1,
+    "txt_tools": [],
+    "spf_tools": [],
+    "dmarc_policy": "reject",
+    "ns": [
+     "dimitris.ns.cloudflare.com.",
+     "joan.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {}
+   }
+  },
+  {
+   "domain": "salientmotion.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-09-21T01:30:16Z",
+    "expiration": "2032-09-21T01:30:16Z",
+    "last_changed": "2024-06-14T00:58:12Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20230306223033",
+    "last_ts": "20260720204713",
+    "captures_last12m": 15,
+    "captures_prev12m": 55,
+    "total": 92
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 6,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "cursor",
+     "ms_tenant"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-cloud-c1.googledomains.com.",
+     "ns-cloud-c2.googledomains.com.",
+     "ns-cloud-c3.googledomains.com.",
+     "ns-cloud-c4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "app": [],
+     "docs": [
+      "gitbook"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "allencontrolsystems.com",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-06-29T15:45:33Z",
+    "expiration": "2027-06-29T15:45:33Z",
+    "last_changed": "2026-09-26T00:28:28Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "error": "URLError"
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "ms_tenant",
+     "openai",
+     "rippling"
+    ],
+    "spf_tools": [
+     "microsoft_365"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns-118.awsdns-us-gov-14.org.",
+     "ns-1452.awsdns-us-gov-53.com.",
+     "ns-1865.awsdns-us-gov-41.net.",
+     "ns-524.awsdns-us-gov-01.us."
+    ],
+    "ns_govcloud": true,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "app": []
+    }
+   }
+  },
+  {
+   "domain": "theseus.us",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2023-12-29T00:00:15Z",
+    "expiration": "2026-12-29T00:00:15Z",
+    "last_changed": "2026-01-04T18:04:05Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20180810213345",
+    "last_ts": "20260722215530",
+    "captures_last12m": 14,
+    "captures_prev12m": 35,
+    "total": 70
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 1,
+    "txt_tools": [],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "huxley.ns.cloudflare.com.",
+     "reza.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "docs": [
+      "gitbook"
+     ],
+     "dashboard": [
+      "cloudflare_pages"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "launchfirestorm.com",
+   "tranco_full_rank": {
+    "2026-09-30": 4497387,
+    "2026-09-01": 3390646,
+    "2026-07-01": 4039462,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-04-28T21:46:20Z",
+    "expiration": "2028-04-28T21:46:20Z",
+    "last_changed": "2026-04-29T14:33:21Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20221004005520",
+    "last_ts": "20260830053031",
+    "captures_last12m": 39,
+    "captures_prev12m": 81,
+    "total": 161
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 7,
+    "txt_tools": [
+     "apple",
+     "google_site_verification",
+     "ms_tenant"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns19.domaincontrol.com.",
+     "ns20.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": []
+    }
+   }
+  },
+  {
+   "domain": "hermeus.com",
+   "tranco_full_rank": {
+    "2026-09-30": 912392,
+    "2026-09-01": 1003593,
+    "2026-07-01": 1072859,
+    "2025-10-01": 1058022
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "215221",
+    "RefSubNets": "601",
+    "RefIPs": "1701",
+    "PrevGlobalRank": "212084",
+    "PrevRefSubNets": "603",
+    "PrevRefIPs": "1286"
+   },
+   "rdap": {
+    "registration": "2018-10-13T13:34:51Z",
+    "expiration": "2027-10-13T13:34:51Z",
+    "last_changed": "2026-09-16T19:31:58Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "error": "URLError"
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 13,
+    "txt_tools": [
+     "airtable",
+     "atlassian",
+     "openai"
+    ],
+    "spf_tools": [
+     "mailgun",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "art.ns.cloudflare.com.",
+     "wally.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "shop": []
+    }
+   }
+  },
+  {
+   "domain": "antaresindustries.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1394635,
+    "2026-09-01": 1513946,
+    "2026-07-01": 3857319,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "422103",
+    "RefSubNets": "407",
+    "RefIPs": "537",
+    "PrevGlobalRank": "415864",
+    "PrevRefSubNets": "407",
+    "PrevRefIPs": "545"
+   },
+   "rdap": {
+    "registration": "2023-03-21T23:36:45Z",
+    "expiration": "2027-03-21T23:36:45Z",
+    "last_changed": "2026-05-15T15:59:27Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "first_ts": "20110209221541",
+    "last_ts": "20260920020210",
+    "captures_last12m": 48,
+    "captures_prev12m": 57,
+    "total": 149
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 6,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "ms_tenant",
+     "slack",
+     "tailscale"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns-1194.awsdns-21.org.",
+     "ns-1769.awsdns-29.co.uk.",
+     "ns-34.awsdns-04.com.",
+     "ns-588.awsdns-09.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "framer"
+     ],
+     "git": [
+      "aws_govcloud"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "apexspace.com",
+   "tranco_full_rank": {
+    "2026-09-30": 2094459,
+    "2026-09-01": 2324798,
+    "2026-07-01": 3611808,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "721769",
+    "RefSubNets": "303",
+    "RefIPs": "379",
+    "PrevGlobalRank": "686121",
+    "PrevRefSubNets": "308",
+    "PrevRefIPs": "384"
+   },
+   "rdap": {
+    "registration": "2020-01-24T20:10:38Z",
+    "expiration": "2032-01-24T20:10:38Z",
+    "last_changed": "2024-05-18T04:28:40Z",
+    "registrar": "Squarespace Domains II LLC"
+   },
+   "wayback": {
+    "first_ts": "20110210023716",
+    "last_ts": "20260925060918",
+    "captures_last12m": 48,
+    "captures_prev12m": 108,
+    "total": 367
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 10,
+    "txt_tools": [
+     "apple",
+     "atlassian",
+     "google_site_verification",
+     "ms_tenant",
+     "rippling"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "mailgun",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-cloud-a1.googledomains.com.",
+     "ns-cloud-a2.googledomains.com.",
+     "ns-cloud-a3.googledomains.com.",
+     "ns-cloud-a4.googledomains.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "store": [
+      "shopify"
+     ],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "varda.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1106209,
+    "2026-09-01": 1205643,
+    "2026-07-01": 1333452,
+    "2025-10-01": 1784531
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "319806",
+    "RefSubNets": "479",
+    "RefIPs": "634",
+    "PrevGlobalRank": "313481",
+    "PrevRefSubNets": "481",
+    "PrevRefIPs": "632"
+   },
+   "rdap": {
+    "registration": "2000-09-26T11:45:42Z",
+    "expiration": "2027-09-26T11:45:42Z",
+    "last_changed": "2022-10-31T12:07:36Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20000620222820",
+    "last_ts": "20260922161840",
+    "captures_last12m": 173,
+    "captures_prev12m": 239,
+    "total": 924
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 22,
+    "txt_tools": [
+     "1password",
+     "adobe",
+     "airtable",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "docusign",
+     "google_site_verification",
+     "jamf",
+     "ms_tenant",
+     "slack",
+     "smartsheet"
+    ],
+    "spf_tools": [
+     "mailgun",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns49.domaincontrol.com.",
+     "ns50.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "shop": [],
+     "blog": [
+      "substack"
+     ],
+     "dashboard": [
+      "okta"
+     ],
+     "vpn": [],
+     "staging": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "stokespace.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1109623,
+    "2026-09-01": 1244097,
+    "2026-07-01": 871499,
+    "2025-10-01": 1918450
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "299823",
+    "RefSubNets": "497",
+    "RefIPs": "647",
+    "PrevGlobalRank": "299310",
+    "PrevRefSubNets": "494",
+    "PrevRefIPs": "642"
+   },
+   "rdap": {
+    "registration": "2018-10-18T17:10:18Z",
+    "expiration": "2032-10-18T17:10:18Z",
+    "last_changed": "2023-09-06T18:36:45Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20210826165042",
+    "last_ts": "20260921180651",
+    "captures_last12m": 70,
+    "captures_prev12m": 102,
+    "total": 567
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 12,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "cursor",
+     "docusign",
+     "google_site_verification",
+     "linear",
+     "ms_tenant",
+     "slack",
+     "stripe",
+     "zoom"
+    ],
+    "spf_tools": [
+     "hubspot",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-1436.awsdns-51.org.",
+     "ns-1606.awsdns-08.co.uk.",
+     "ns-437.awsdns-54.com.",
+     "ns-796.awsdns-35.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "shop": [
+      "shopify"
+     ],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "impulsespace.com",
+   "tranco_full_rank": {
+    "2026-09-30": 494732,
+    "2026-09-01": 620561,
+    "2026-07-01": 488420,
+    "2025-10-01": 695503
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "441958",
+    "RefSubNets": "396",
+    "RefIPs": "543",
+    "PrevGlobalRank": "429957",
+    "PrevRefSubNets": "399",
+    "PrevRefIPs": "537"
+   },
+   "rdap": {
+    "registration": "2021-06-17T20:49:01Z",
+    "expiration": "2027-06-17T20:49:01Z",
+    "last_changed": "2026-05-18T04:20:43Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "first_ts": "20210918062948",
+    "last_ts": "20260911135142",
+    "captures_last12m": 35,
+    "captures_prev12m": 124,
+    "total": 419
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 16,
+    "txt_tools": [
+     "apple",
+     "atlassian",
+     "autodesk",
+     "box",
+     "canva",
+     "docusign",
+     "ms_tenant",
+     "slack",
+     "wiz",
+     "zoom"
+    ],
+    "spf_tools": [
+     "amazon_ses",
+     "mailchimp",
+     "mailgun",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "daisy.ns.cloudflare.com.",
+     "syeef.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "status": [],
+     "shop": [
+      "shopify"
+     ],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "albedo.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1561200,
+    "2026-09-01": 1979152,
+    "2026-07-01": 2186262,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "392099",
+    "RefSubNets": "425",
+    "RefIPs": "1947",
+    "PrevGlobalRank": "382122",
+    "PrevRefSubNets": "428",
+    "PrevRefIPs": "1783"
+   },
+   "rdap": {
+    "registration": "2002-07-03T23:44:49Z",
+    "expiration": "2029-07-03T23:50:18Z",
+    "last_changed": "2024-03-26T04:17:54Z",
+    "registrar": "GoDaddy Online Services Cayman Islands Ltd."
+   },
+   "wayback": {
+    "first_ts": "19990125093117",
+    "last_ts": "20260915151327",
+    "captures_last12m": 33,
+    "captures_prev12m": 82,
+    "total": 525
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 18,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "cursor",
+     "google_site_verification",
+     "jetbrains",
+     "linear",
+     "notion",
+     "openai",
+     "perplexity",
+     "rippling",
+     "slack",
+     "smartsheet",
+     "zapier",
+     "zoom"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "daniella.ns.cloudflare.com.",
+     "hunts.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "api": [],
+     "trust": [
+      "vanta_trust"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "generalistai.com",
+   "tranco_full_rank": {
+    "2026-09-30": 589132,
+    "2026-09-01": 1305986,
+    "2026-07-01": 1770791,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": 1000000,
+   "majestic": {
+    "GlobalRank": "267527",
+    "RefSubNets": "530",
+    "RefIPs": "759",
+    "PrevGlobalRank": "266417",
+    "PrevRefSubNets": "528",
+    "PrevRefIPs": "739"
+   },
+   "rdap": {
+    "registration": "2022-12-03T16:37:11Z",
+    "expiration": "2034-12-03T16:37:11Z",
+    "last_changed": "2025-11-03T23:02:52Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20240622210450",
+    "last_ts": "20260908040807",
+    "captures_last12m": 37,
+    "captures_prev12m": 23,
+    "total": 63
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 7,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365",
+     "zendesk"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-1454.awsdns-53.org.",
+     "ns-1896.awsdns-45.co.uk.",
+     "ns-473.awsdns-59.com.",
+     "ns-522.awsdns-01.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "staging": []
+    }
+   }
+  },
+  {
+   "domain": "dyna.co",
+   "tranco_full_rank": {
+    "2026-09-30": 2245213,
+    "2026-09-01": 3570843,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "775753",
+    "RefSubNets": "292",
+    "RefIPs": "352",
+    "PrevGlobalRank": "779376",
+    "PrevRefSubNets": "288",
+    "PrevRefIPs": "352"
+   },
+   "rdap": {
+    "registration": "2022-10-04T17:00:17.0Z",
+    "expiration": "2029-10-04T23:59:59.0Z",
+    "last_changed": "2026-05-13T22:34:32.0Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20160623094424",
+    "last_ts": "20260827161800",
+    "captures_last12m": 40,
+    "captures_prev12m": 40,
+    "total": 97
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 4,
+    "txt_tools": [
+     "google_site_verification"
+    ],
+    "spf_tools": [],
+    "dmarc_policy": null,
+    "ns": [
+     "ns33.domaincontrol.com.",
+     "ns34.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "reflexrobotics.com",
+   "tranco_full_rank": {
+    "2026-09-30": 4107665,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "789139",
+    "RefSubNets": "289",
+    "RefIPs": "958",
+    "PrevGlobalRank": "956343",
+    "PrevRefSubNets": "260",
+    "PrevRefIPs": "526"
+   },
+   "rdap": {
+    "registration": "2015-06-04T19:54:34Z",
+    "expiration": "2032-06-04T19:54:34Z",
+    "last_changed": "2026-06-09T21:04:12Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20110202151744",
+    "last_ts": "20260914222320",
+    "captures_last12m": 29,
+    "captures_prev12m": 34,
+    "total": 102
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 2,
+    "txt_tools": [
+     "google_site_verification"
+    ],
+    "spf_tools": [],
+    "dmarc_policy": null,
+    "ns": [
+     "ns51.domaincontrol.com.",
+     "ns52.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "api": []
+    }
+   }
+  },
+  {
+   "domain": "weaverobotics.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1453514,
+    "2026-09-01": 1586784,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "449995",
+    "RefSubNets": "392",
+    "RefIPs": "486",
+    "PrevGlobalRank": "439584",
+    "PrevRefSubNets": "394",
+    "PrevRefIPs": "489"
+   },
+   "rdap": {
+    "registration": "2023-05-21T18:02:08Z",
+    "expiration": "2027-05-21T18:02:08Z",
+    "last_changed": "2026-04-05T22:55:03Z",
+    "registrar": "Porkbun LLC"
+   },
+   "wayback": {
+    "first_ts": "20180806072700",
+    "last_ts": "20260805103557",
+    "captures_last12m": 45,
+    "captures_prev12m": 32,
+    "total": 85
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 2,
+    "txt_tools": [
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "megan.ns.cloudflare.com.",
+     "yadiel.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "auth": []
+    }
+   }
+  },
+  {
+   "domain": "co.bot",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": 3742870
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-03-20T19:28:27.875Z",
+    "expiration": "2028-03-20T19:28:27.875Z",
+    "last_changed": "2026-07-22T08:00:37Z",
+    "registrar": "EnCirca, Inc."
+   },
+   "wayback": {
+    "first_ts": "20220614123436",
+    "last_ts": "20260924201601",
+    "captures_last12m": 95,
+    "captures_prev12m": 76,
+    "total": 259
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 7,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "hubspot"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "standard3.encirca.net.",
+     "standard4.encirca.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "trust": [
+      "vanta_trust"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "personainc.ai",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2024-05-30T16:55:25Z",
+    "expiration": "2028-05-30T16:55:28Z",
+    "last_changed": "2026-08-12T12:06:10.153Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20240618215922",
+    "last_ts": "20260821150232",
+    "captures_last12m": 12,
+    "captures_prev12m": 31,
+    "total": 46
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 13,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "asana",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant",
+     "openai",
+     "slack",
+     "tailscale"
+    ],
+    "spf_tools": [
+     "hubspot"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns07.domaincontrol.com.",
+     "ns08.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {}
+   }
+  },
+  {
+   "domain": "mytra.ai",
+   "tranco_full_rank": {
+    "2026-09-30": null,
+    "2026-09-01": null,
+    "2026-07-01": null,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": null,
+   "rdap": {
+    "registration": "2022-06-09T22:37:44Z",
+    "expiration": "2030-06-09T22:37:44Z",
+    "last_changed": "2026-08-12T09:57:06.717Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20220714212744",
+    "last_ts": "20260918101001",
+    "captures_last12m": 26,
+    "captures_prev12m": 48,
+    "total": 110
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 14,
+    "txt_tools": [
+     "apple",
+     "box",
+     "cursor",
+     "google_site_verification",
+     "linear",
+     "ms_tenant",
+     "notion",
+     "slack",
+     "smartsheet"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "damian.ns.cloudflare.com.",
+     "donna.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "mail": [],
+     "staging": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "formic.co",
+   "tranco_full_rank": {
+    "2026-09-30": 1493698,
+    "2026-09-01": 1761005,
+    "2026-07-01": 2068515,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "436503",
+    "RefSubNets": "399",
+    "RefIPs": "530",
+    "PrevGlobalRank": "462941",
+    "PrevRefSubNets": "383",
+    "PrevRefIPs": "505"
+   },
+   "rdap": {
+    "registration": "2019-12-03T03:24:55.0Z",
+    "expiration": "2026-12-03T23:59:59.0Z",
+    "last_changed": "2026-01-30T08:31:02.0Z",
+    "registrar": "Key-Systems GmbH"
+   },
+   "wayback": {
+    "first_ts": "20130404080119",
+    "last_ts": "20260923195406",
+    "captures_last12m": 38,
+    "captures_prev12m": 94,
+    "total": 387
+   },
+   "dns": {
+    "mx_provider": [
+     "mimecast"
+    ],
+    "txt_count": 14,
+    "txt_tools": [
+     "adobe",
+     "airtable",
+     "apple",
+     "autodesk",
+     "docusign",
+     "google_site_verification",
+     "ms_tenant",
+     "salesforce_like_org_id"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "greenhouse",
+     "hubspot",
+     "salesforce",
+     "sendgrid"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "eloise.ns.cloudflare.com.",
+     "matt.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "quilter.ai",
+   "tranco_full_rank": {
+    "2026-09-30": 2012169,
+    "2026-09-01": 2265332,
+    "2026-07-01": 1347716,
+    "2025-10-01": 2457482
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "664227",
+    "RefSubNets": "317",
+    "RefIPs": "397",
+    "PrevGlobalRank": "630936",
+    "PrevRefSubNets": "323",
+    "PrevRefIPs": "394"
+   },
+   "rdap": {
+    "registration": "2021-02-02T15:08:58Z",
+    "expiration": "2027-02-02T15:08:58Z",
+    "last_changed": "2026-08-12T09:26:59.837Z",
+    "registrar": "NameCheap, Inc."
+   },
+   "wayback": {
+    "first_ts": "20210228090739",
+    "last_ts": "20260811001148",
+    "captures_last12m": 62,
+    "captures_prev12m": 81,
+    "total": 255
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 15,
+    "txt_tools": [
+     "1password",
+     "airtable",
+     "anthropic",
+     "apple",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant",
+     "openai",
+     "rippling"
+    ],
+    "spf_tools": [
+     "hubspot"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "delilah.ns.cloudflare.com.",
+     "huxley.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "app": [],
+     "docs": [
+      "gitbook"
+     ],
+     "status": [
+      "statuspage",
+      "vercel"
+     ],
+     "help": [],
+     "blog": [
+      "ghost"
+     ],
+     "auth": [
+      "auth0"
+     ],
+     "trust": [
+      "vanta_trust"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "extropic.ai",
+   "tranco_full_rank": {
+    "2026-09-30": 1867621,
+    "2026-09-01": 1987325,
+    "2026-07-01": 2246837,
+    "2025-10-01": null
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "600387",
+    "RefSubNets": "335",
+    "RefIPs": "430",
+    "PrevGlobalRank": "602854",
+    "PrevRefSubNets": "331",
+    "PrevRefIPs": "430"
+   },
+   "rdap": {
+    "registration": "2023-08-04T03:36:39Z",
+    "expiration": "2027-08-04T03:36:39Z",
+    "last_changed": "2026-08-12T04:34:01.141Z",
+    "registrar": "GoDaddy.com, LLC"
+   },
+   "wayback": {
+    "first_ts": "20231203135515",
+    "last_ts": "20260925124509",
+    "captures_last12m": 67,
+    "captures_prev12m": 68,
+    "total": 215
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 5,
+    "txt_tools": [
+     "1password",
+     "google_site_verification"
+    ],
+    "spf_tools": [
+     "google_workspace"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns23.domaincontrol.com.",
+     "ns24.domaincontrol.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "netlify"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "etched.com",
+   "tranco_full_rank": {
+    "2026-09-30": 934061,
+    "2026-09-01": 1123191,
+    "2026-07-01": 1419754,
+    "2025-10-01": 2211055
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "221744",
+    "RefSubNets": "590",
+    "RefIPs": "2401",
+    "PrevGlobalRank": "219212",
+    "PrevRefSubNets": "591",
+    "PrevRefIPs": "2214"
+   },
+   "rdap": {
+    "registration": "1998-01-04T05:00:00Z",
+    "expiration": "2027-01-03T05:00:00Z",
+    "last_changed": "2025-04-12T04:16:05Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "first_ts": "19991008150811",
+    "last_ts": "20260930171506",
+    "captures_last12m": 75,
+    "captures_prev12m": 94,
+    "total": 305
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 21,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant",
+     "openai",
+     "rippling",
+     "slack",
+     "smartsheet",
+     "tailscale",
+     "wrike"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "achiel.ns.cloudflare.com.",
+     "cecelia.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "lightmatter.co",
+   "tranco_full_rank": {
+    "2026-09-30": 971956,
+    "2026-09-01": 711566,
+    "2026-07-01": 863735,
+    "2025-10-01": 1334409
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "251471",
+    "RefSubNets": "549",
+    "RefIPs": "776",
+    "PrevGlobalRank": "251235",
+    "PrevRefSubNets": "546",
+    "PrevRefIPs": "757"
+   },
+   "rdap": {
+    "registration": "2012-02-06T22:00:17.0Z",
+    "expiration": "2027-02-05T23:59:59.0Z",
+    "last_changed": "2026-04-10T23:16:50.0Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "first_ts": "20180810024702",
+    "last_ts": "20260914204941",
+    "captures_last12m": 70,
+    "captures_prev12m": 114,
+    "total": 461
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 17,
+    "txt_tools": [
+     "1password",
+     "anthropic",
+     "apple",
+     "atlassian",
+     "box",
+     "cursor",
+     "google_site_verification",
+     "ms_tenant",
+     "slack",
+     "smartsheet",
+     "tailscale",
+     "zoom"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "hubspot",
+     "mailgun",
+     "sendgrid",
+     "zoho"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-1214.awsdns-23.org.",
+     "ns-1862.awsdns-40.co.uk.",
+     "ns-464.awsdns-58.com.",
+     "ns-737.awsdns-28.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "wpengine"
+     ],
+     "support": [
+      "zendesk"
+     ],
+     "help": []
+    }
+   }
+  },
+  {
+   "domain": "1x.tech",
+   "tranco_full_rank": {
+    "2026-09-30": 51872,
+    "2026-09-01": 126070,
+    "2026-07-01": 178910,
+    "2025-10-01": 422291
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": 1000000,
+   "majestic": {
+    "GlobalRank": "44094",
+    "RefSubNets": "1426",
+    "RefIPs": "2621",
+    "PrevGlobalRank": "43826",
+    "PrevRefSubNets": "1426",
+    "PrevRefIPs": "2599"
+   },
+   "rdap": {
+    "registration": "2023-03-02T15:50:07.000Z",
+    "expiration": "2027-03-02T23:59:59.000Z",
+    "last_changed": "2026-05-06T21:48:08.238Z",
+    "registrar": "Domeneshop AS dba domainnameshop.com"
+   },
+   "wayback": {
+    "error": "URLError"
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 22,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "autodesk",
+     "cursor",
+     "docusign",
+     "google_site_verification",
+     "jetbrains",
+     "ms_tenant",
+     "notion",
+     "openai",
+     "slack",
+     "tailscale",
+     "zoom"
+    ],
+    "spf_tools": [],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns1.hyp.net.",
+     "ns2.hyp.net.",
+     "ns3.hyp.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "mail": [],
+     "vpn": []
+    }
+   }
+  },
+  {
+   "domain": "figure.ai",
+   "tranco_full_rank": {
+    "2026-09-30": 113764,
+    "2026-09-01": 132761,
+    "2026-07-01": 134082,
+    "2025-10-01": 247264
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": 1000000,
+   "majestic": {
+    "GlobalRank": "28297",
+    "RefSubNets": "1865",
+    "RefIPs": "3435",
+    "PrevGlobalRank": "28498",
+    "PrevRefSubNets": "1851",
+    "PrevRefIPs": "3390"
+   },
+   "rdap": {
+    "registration": "2017-12-15T22:32:56Z",
+    "expiration": "2034-12-13T04:00:13Z",
+    "last_changed": "2026-08-12T03:22:00.788Z",
+    "registrar": "101domain GRS Limited"
+   },
+   "wayback": {
+    "first_ts": "20170517005044",
+    "last_ts": "20261001122821",
+    "captures_last12m": 160,
+    "captures_prev12m": 185,
+    "total": 1032
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 12,
+    "txt_tools": [
+     "anthropic",
+     "apple",
+     "atlassian",
+     "ms_tenant",
+     "openai",
+     "rippling",
+     "slack",
+     "tailscale",
+     "zoom"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "netsuite"
+    ],
+    "dmarc_policy": "none",
+    "ns": [
+     "ns1.vercel-dns.com.",
+     "ns2.vercel-dns.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": true,
+    "live_subdomains": {}
+   }
+  },
+  {
+   "domain": "apptronik.com",
+   "tranco_full_rank": {
+    "2026-09-30": 324237,
+    "2026-09-01": 321234,
+    "2026-07-01": 425201,
+    "2025-10-01": 1043037
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "98256",
+    "RefSubNets": "896",
+    "RefIPs": "1347",
+    "PrevGlobalRank": "100348",
+    "PrevRefSubNets": "883",
+    "PrevRefIPs": "1329"
+   },
+   "rdap": {
+    "registration": "2015-09-03T21:45:26Z",
+    "expiration": "2034-09-03T21:45:26Z",
+    "last_changed": "2024-09-11T21:42:09Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "first_ts": "20110210051640",
+    "last_ts": "20260922043340",
+    "captures_last12m": 63,
+    "captures_prev12m": 103,
+    "total": 709
+   },
+   "dns": {
+    "mx_provider": [
+     "mimecast"
+    ],
+    "txt_count": 27,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "asana",
+     "atlassian",
+     "autodesk",
+     "cursor",
+     "figma",
+     "google_site_verification",
+     "miro",
+     "openai",
+     "salesforce_like_org_id",
+     "tailscale",
+     "zapier"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "hubspot",
+     "salesforce"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "denver.ns.cloudflare.com.",
+     "naomi.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ],
+     "portal": [],
+     "support": []
+    }
+   }
+  },
+  {
+   "domain": "epirusinc.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1225772,
+    "2026-09-01": 1265918,
+    "2026-07-01": 1281614,
+    "2025-10-01": 1867634
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "344808",
+    "RefSubNets": "459",
+    "RefIPs": "591",
+    "PrevGlobalRank": "358761",
+    "PrevRefSubNets": "445",
+    "PrevRefIPs": "591"
+   },
+   "rdap": {
+    "registration": "2020-10-13T15:20:07Z",
+    "expiration": "2027-10-13T15:20:07Z",
+    "last_changed": "2026-09-08T15:24:11Z",
+    "registrar": "Amazon Registrar, Inc."
+   },
+   "wayback": {
+    "error": "URLError"
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 10,
+    "txt_tools": [
+     "atlassian",
+     "docusign",
+     "dynatrace",
+     "google_site_verification",
+     "jamf",
+     "ms_tenant",
+     "zoom"
+    ],
+    "spf_tools": [
+     "google_workspace",
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "ns-1364.awsdns-42.org.",
+     "ns-160.awsdns-20.com.",
+     "ns-1692.awsdns-19.co.uk.",
+     "ns-723.awsdns-26.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "webflow"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "ursamajor.com",
+   "tranco_full_rank": {
+    "2026-09-30": 1452488,
+    "2026-09-01": 1801875,
+    "2026-07-01": 1757344,
+    "2025-10-01": 1903518
+   },
+   "in_tranco_top1m": false,
+   "umbrella_rank": null,
+   "crux_bucket": null,
+   "majestic": {
+    "GlobalRank": "434705",
+    "RefSubNets": "400",
+    "RefIPs": "529",
+    "PrevGlobalRank": "428212",
+    "PrevRefSubNets": "400",
+    "PrevRefIPs": "528"
+   },
+   "rdap": {
+    "registration": "1995-10-07T04:00:00Z",
+    "expiration": "2035-10-06T04:00:00Z",
+    "last_changed": "2026-07-12T16:00:52Z",
+    "registrar": "Cloudflare, Inc."
+   },
+   "wayback": {
+    "first_ts": "19961208034130",
+    "last_ts": "20260913112253",
+    "captures_last12m": 53,
+    "captures_prev12m": 117,
+    "total": 730
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 11,
+    "txt_tools": [
+     "apple",
+     "atlassian",
+     "autodesk",
+     "google_site_verification",
+     "ms_tenant",
+     "wrike"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "anna.ns.cloudflare.com.",
+     "chuck.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "support": [],
+     "shop": [
+      "shopify"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "shield.ai",
+   "tranco_full_rank": {
+    "2026-09-30": 200690,
+    "2026-09-01": 210248,
+    "2026-07-01": 194867,
+    "2025-10-01": 364956
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": 980007,
+   "crux_bucket": 1000000,
+   "majestic": {
+    "GlobalRank": "68176",
+    "RefSubNets": "1102",
+    "RefIPs": "1965",
+    "PrevGlobalRank": "68901",
+    "PrevRefSubNets": "1090",
+    "PrevRefIPs": "1931"
+   },
+   "rdap": {
+    "registration": "2017-12-15T22:40:00Z",
+    "expiration": "2027-12-22T22:40:00Z",
+    "last_changed": "2026-09-19T01:04:56.74Z",
+    "registrar": "101domain GRS Limited"
+   },
+   "wayback": {
+    "first_ts": "20160912002233",
+    "last_ts": "20260926214745",
+    "captures_last12m": 183,
+    "captures_prev12m": 307,
+    "total": 1340
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 32,
+    "txt_tools": [
+     "adobe",
+     "anthropic",
+     "apple",
+     "asana",
+     "atlassian",
+     "cursor",
+     "docker",
+     "docusign",
+     "figma",
+     "google_site_verification",
+     "jamf",
+     "linear",
+     "ms_tenant",
+     "notion",
+     "openai",
+     "perplexity",
+     "zoom"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high",
+     "salesforce",
+     "zendesk"
+    ],
+    "dmarc_policy": "quarantine",
+    "ns": [
+     "fiona.ns.cloudflare.com.",
+     "kayden.ns.cloudflare.com."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [],
+     "docs": [
+      "azure"
+     ],
+     "store": [],
+     "trust": [
+      "safebase"
+     ]
+    }
+   }
+  },
+  {
+   "domain": "skydio.com",
+   "tranco_full_rank": {
+    "2026-09-30": 60603,
+    "2026-09-01": 63536,
+    "2026-07-01": 61979,
+    "2025-10-01": 113987
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": 358562,
+   "crux_bucket": 1000000,
+   "majestic": {
+    "GlobalRank": "46070",
+    "RefSubNets": "1390",
+    "RefIPs": "2332",
+    "PrevGlobalRank": "46390",
+    "PrevRefSubNets": "1379",
+    "PrevRefIPs": "2302"
+   },
+   "rdap": {
+    "registration": "1999-07-20T21:03:39Z",
+    "expiration": "2027-07-20T21:03:39Z",
+    "last_changed": "2026-06-15T21:08:00Z",
+    "registrar": "Gandi SAS"
+   },
+   "wayback": {
+    "first_ts": "20011127024613",
+    "last_ts": "20260925061521",
+    "captures_last12m": 1170,
+    "captures_prev12m": 1630,
+    "total": 5198
+   },
+   "dns": {
+    "mx_provider": [
+     "google_workspace"
+    ],
+    "txt_count": 16,
+    "txt_tools": [
+     "1password",
+     "adobe",
+     "anthropic",
+     "apple",
+     "docusign",
+     "facebook",
+     "google_site_verification",
+     "loom",
+     "mixpanel",
+     "ms_tenant",
+     "onetrust",
+     "openai",
+     "slack",
+     "zapier"
+    ],
+    "spf_tools": [
+     "spf_flattener_hosted"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ns-1364.awsdns-42.org.",
+     "ns-1724.awsdns-23.co.uk.",
+     "ns-62.awsdns-07.com.",
+     "ns-885.awsdns-46.net."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "vercel"
+     ],
+     "api": [],
+     "status": [
+      "statuspage"
+     ],
+     "portal": [],
+     "support": [
+      "zendesk"
+     ],
+     "shop": [
+      "shopify"
+     ],
+     "store": [],
+     "console": [],
+     "staging": []
+    }
+   }
+  },
+  {
+   "domain": "anduril.com",
+   "tranco_full_rank": {
+    "2026-09-30": 15793,
+    "2026-09-01": 13623,
+    "2026-07-01": 20617,
+    "2025-10-01": 60591
+   },
+   "in_tranco_top1m": true,
+   "umbrella_rank": 302398,
+   "crux_bucket": 500000,
+   "majestic": {
+    "GlobalRank": "27280",
+    "RefSubNets": "1909",
+    "RefIPs": "3436",
+    "PrevGlobalRank": "27559",
+    "PrevRefSubNets": "1889",
+    "PrevRefIPs": "3388"
+   },
+   "rdap": {
+    "registration": "2004-05-28T18:34:51Z",
+    "expiration": "2027-05-28T18:34:51Z",
+    "last_changed": "2025-04-26T11:21:13Z",
+    "registrar": "MarkMonitor Inc."
+   },
+   "wayback": {
+    "first_ts": "19981212012549",
+    "last_ts": "20260929153203",
+    "captures_last12m": 203,
+    "captures_prev12m": 387,
+    "total": 1690
+   },
+   "dns": {
+    "mx_provider": [
+     "microsoft_365_gcc_high_or_dod"
+    ],
+    "txt_count": 44,
+    "txt_tools": [
+     "anthropic",
+     "atlassian",
+     "docusign",
+     "google_site_verification",
+     "have_i_been_pwned",
+     "jamf",
+     "klaviyo",
+     "ms_tenant",
+     "salesforce_like_org_id",
+     "shopify",
+     "slack",
+     "webex",
+     "wiz",
+     "zoom"
+    ],
+    "spf_tools": [
+     "microsoft_365_gcc_high"
+    ],
+    "dmarc_policy": "reject",
+    "ns": [
+     "ha1.markmonitor.zone.",
+     "ha2.markmonitor.zone.",
+     "ha3.markmonitor.zone.",
+     "ha4.markmonitor.zone."
+    ],
+    "ns_govcloud": false,
+    "wildcard_dns_suspected": false,
+    "live_subdomains": {
+     "www": [
+      "cloudfront"
+     ],
+     "docs": [],
+     "careers": [],
+     "portal": [],
+     "store": [],
+     "blog": [],
+     "developer": [],
+     "staging": []
+    }
+   }
+  }
+ ]
+}

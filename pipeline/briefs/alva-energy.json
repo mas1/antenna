@@ -1,0 +1,89 @@
+{
+ "slug": "alva-energy",
+ "generatedAt": "2026-10-02",
+ "summary": "Alva Energy develops extended power uprates for existing U.S. pressurized water reactors and plans to deliver them as fixed-price projects. The package replaces the steam generators and adds a second turbine generator plant. The company website says each uprate adds 250 to 300 MWe for around $1 billion.",
+ "thesis": "A project-delivery bet on reactors that already hold licenses. If the NRC accepts Alva's position on the balance of plant changes, the company says the same package could repeat across the U.S. fleet, which it puts at 10 GWe.",
+ "stage": "Alva announced a $33 million Series A on 12 February 2026, led by Playground Global. The release names investors from an earlier round without giving its size. An EDGAR full-text search for the company name returned no filings. It is in NRC pre-application, with a closed meeting set for 7 October 2026 on a topical report still listed as a draft. No source read names a utility customer.",
+ "team": [
+  {
+   "name": "James Krellenstein",
+   "background": "Co-founder and CEO per the company site and press release. A podcast episode description calls him a physicist by training."
+  },
+  {
+   "name": "Garrett Wilkinson",
+   "background": "Co-founder and COO per the company's about page. No source read states his prior work."
+  },
+  {
+   "name": "W. Robb Stewart, PhD",
+   "background": "Co-founder and CTO. A company post says he first developed the COSMIC construction cost software at MIT."
+  },
+  {
+   "name": "Pat Gelsinger",
+   "background": "Board member. A company post describes him as a general partner at Playground Global and former CEO of Intel and VMware."
+  }
+ ],
+ "questions": [
+  "Which utilities and reactors have signed feasibility study agreements, are those studies paid, and what has to happen for a study to become a committed $1 billion project?",
+  "Who carries the fixed-price risk on an uprate (Alva, the EPC contractor or the utility), and how is each project financed?",
+  "Has the topical report been formally submitted, and what happens to the schedule if NRC staff want the balance of plant modifications inside the license amendment?",
+  "For a specific plant, what do the fuel, steam generator and accident analyses show, and who supplies the replacement steam generators and on what lead time?"
+ ],
+ "risks": [
+  "No customer is named. A September 2026 job post says multiple utility partnerships are underway, but no source read names a utility or plant as a customer.",
+  "The regulatory path is untested. Alva's filing says NRC-approved extended uprates have gone up to 20%. Alva targets more, and its topical report is still listed as a draft.",
+  "Each project is about $1 billion against a $33 million Series A. Alva is not the applicant or licensee. Every project depends on a utility filing the license amendment request."
+ ],
+ "unverified": [
+  "The company says each uprate adds 250 to 300 MWe for about $1 billion, with first projects online in five years. No completed project backs these claims.",
+  "A podcast episode description says Alva is \"already working exclusively with six operating reactors\". No primary source confirms this.",
+  "The size of the initial round and total funding to date are not disclosed in any source read."
+ ],
+ "sources": [
+  {
+   "title": "Alva Energy homepage",
+   "url": "https://alvaenergy.io"
+  },
+  {
+   "title": "Alva press release, 12 February 2026",
+   "url": "https://alvaenergy.io/alva-energy-launches-with-33-million-to-unlock-10-gwe-of-nuclear-power/"
+  },
+  {
+   "title": "NRC regulatory engagement plan, 7 January 2026",
+   "url": "https://www.nrc.gov/docs/ML2600/ML26009A086.pdf"
+  },
+  {
+   "title": "NRC closed meeting notice for 7 October 2026",
+   "url": "https://www.nrc.gov/docs/ML2626/ML26261A012.pdf"
+  },
+  {
+   "title": "Alva Energy about page",
+   "url": "https://alvaenergy.io/about/"
+  },
+  {
+   "title": "Alva post on Pat Gelsinger, 12 February 2026",
+   "url": "https://alvaenergy.io/pat-gelsinger-former-ceo-of-intel-and-vmware-joins-alvas-board-of-directors/"
+  },
+  {
+   "title": "Alva post on DOE report, 17 December 2024",
+   "url": "https://alvaenergy.io/alva-energy-collaborates-with-u-s-department-of-energy-on-its-advanced-nuclear-liftoff-report/"
+  },
+  {
+   "title": "Ashby job board for Alva Energy",
+   "url": "https://api.ashbyhq.com/posting-api/job-board/alva-energy"
+  },
+  {
+   "title": "Climate CEOs podcast description, 25 August 2026",
+   "url": "https://podcasts.apple.com/us/podcast/how-to-get-30-more-power-from-existing-nuclear-plants/id1561411048?i=1000785764684"
+  },
+  {
+   "title": "SEC EDGAR full-text search, no results",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Alva%20Energy%22"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2024-12-17",
+  "what": "Alva's own blog announced its contribution to the DOE Advanced Nuclear Liftoff report, the earliest dated company announcement found.",
+  "url": "https://web.archive.org/web/20250115144640/https://alvaenergy.io/alva-energy-acknowledged-in-does-nuclear-liftoff-report/"
+ }
+}

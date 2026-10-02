@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+/*
+  Design tokens. Measured from antifund.com so this reads as an Anti Fund
+  internal tool: warm paper, near-black ink, hairline rules, one green.
+*/
+:root {
+  --paper: #faf8f1;
+  --paper-2: #f1ede2;
+  --paper-3: #e9e3d4;
+  --ink: #141414;
+  --ink-2: #373631;
+  --ink-3: #59574f;
+  /* ink-4 still carries things worth reading (ages, stages, counts), so it
+     holds 5:1 on paper. ink-5 is for placeholders and key hints only. */
+  --ink-4: #6f6b5e;
+  --ink-5: #8a8576;
+  --rule: #cdc5b7;
+  --rule-2: #9f988a;
+  --signal: #1f7a3d;
+  --signal-2: #2f9d55;
+  --signal-wash: #e3eedd;
+  --heat: #b4421c;
+  --heat-wash: #f4e2d6;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-ink-4: var(--ink-4);
+  --color-ink-5: var(--ink-5);
+  --color-rule: var(--rule);
+  --color-rule-2: var(--rule-2);
+  --color-signal: var(--signal);
+  --color-signal-2: var(--signal-2);
+  --color-signal-wash: var(--signal-wash);
+  --color-heat: var(--heat);
+  --color-heat-wash: var(--heat-wash);
+
+  --font-serif: var(--font-source-serif), Georgia, serif;
+  --font-sans: var(--font-plex-sans), Arial, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  /* A row brought into view from the keyboard has to clear the sticky
+     header and the column heads under it. */
+  scroll-padding-top: 6.5rem;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-plex-sans), Arial, sans-serif;
+  font-feature-settings: "ss01", "cv05";
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Type roles, shared by every surface. */
+@utility display {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.04;
+}
+
+@utility label {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+@utility num {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* Focus is always visible and always ink. */
+:focus-visible {
+  outline: 1.5px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* The skip link lands on main. A ring round the whole page says nothing. */
+main:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*
+  Entrances. The element is whole in the HTML and the keyframe only says
+  where it starts from, so content shows whenever the animation does not run:
+  with scripts blocked, with reduced motion, on paper. The fill is backwards
+  and not both, because an animation that goes on filling keeps its element a
+  stacking context, and a hover card inside it would slip under its neighbour.
+*/
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* A chart line draws left to right: the path is one unit long (pathLength). */
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: rise 0.55s var(--ease-out) var(--d, 0s) backwards;
+  }
+
+  .meter-fill {
+    animation: grow 0.9s var(--ease-out) var(--d, 0s) backwards;
+  }
+
+  .draw-line {
+    stroke-dasharray: 1;
+    animation: draw var(--t, 0.9s) var(--ease-out) var(--d, 0s) backwards;
+  }
+
+  .pop-in {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pop 0.35s var(--ease-out) var(--d, 0s) backwards;
+  }
+
+  .fade-in {
+    animation: fade 0.6s ease var(--d, 0s) backwards;
+  }
+}
+
+/* Paper gets the finished page: nothing part-way in, nothing sliding. */
+@media print {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Thin scrollbars that sit on paper. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}

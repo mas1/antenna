@@ -1,0 +1,1176 @@
+{
+ "took": 13,
+ "timedOut": false,
+ "shardsTotal": 5,
+ "shardsSuccessful": 5,
+ "shardsSkipped": 0,
+ "shardsFailed": 0,
+ "hits": {
+  "totalValue": 39,
+  "totalRelation": "eq",
+  "maxScore": null,
+  "hits": [
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50139305",
+    "score": null,
+    "source": {
+     "id": "50139305",
+     "wordmark": "VERIDIS DEFENSE",
+     "markName": null,
+     "ownerName": [
+      "Veridis Defense LLC (LIMITED LIABILITY COMPANY; California, USA)"
+     ],
+     "ownerCity": "Beverly Hills",
+     "ownerStateCountryAddress": "California 90212, UNITED STATES",
+     "ownerEntity": "LIMITED LIABILITY COMPANY",
+     "filedDate": "2026-09-30T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Unmanned aerial vehicles (UAVs)."
+     ],
+     "internationalClass": [
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": null,
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-10-01T09:18:49",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50139089",
+    "score": null,
+    "source": {
+     "id": "50139089",
+     "wordmark": "HIGHWAY RAPID RESPONSE DRONE SYSTEM",
+     "markName": null,
+     "ownerName": [
+      "Tyrone Cornell Franklin (INDIVIDUAL; USA)"
+     ],
+     "ownerCity": "Oakland",
+     "ownerStateCountryAddress": "California 94612, UNITED STATES",
+     "ownerEntity": "INDIVIDUAL",
+     "filedDate": "2026-09-30T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones; Camera drones, other than toys; Military drones; Camera drones; Unmanned aerial vehicles (UAVs)."
+     ],
+     "internationalClass": [
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Harry B. Ray",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-10-01T09:18:49",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50136375",
+    "score": null,
+    "source": {
+     "id": "50136375",
+     "wordmark": "ALFI UAV",
+     "markName": null,
+     "ownerName": [
+      "MASSAGE CHAIR MAX, INC. (CORPORATION; Georgia, USA)"
+     ],
+     "ownerCity": "Lawrenceville",
+     "ownerStateCountryAddress": "Georgia 30044, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-29T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones; Unmanned aerial vehicles (UAVs); Camera drones, other than toys; Camera drones; Drones and structural parts therefor; Unmanned aerial vehicles (UAVs) and structural parts therefor."
+     ],
+     "internationalClass": [
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1a"
+     ],
+     "attorney": "Destini Martinez",
+     "firstUseAnyDate": "2026-07-27",
+     "markDescription": [
+      "Color is not claimed as a feature of the mark.",
+      "The mark consists of a stylized bird design positioned above the stylized wording \"ALFi\". Below \"ALFi\" appears the wording \"UAV\", with a horizontal line extending on each side of the wording \"UAV\"."
+     ],
+     "recordLoadDate": "2026-09-30T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50133479",
+    "score": null,
+    "source": {
+     "id": "50133479",
+     "wordmark": "AVX DEFENSE TECHNOLOGIES",
+     "markName": null,
+     "ownerName": [
+      "AVX Aircraft Company (CORPORATION; Maryland, USA)"
+     ],
+     "ownerCity": "Fort Worth",
+     "ownerStateCountryAddress": "Texas 76177, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-28T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Downloadable computer and mobile application software in the field of air, aerial, aerospace, rail, ground, and land transportation; Downloadable computer and mobile application software for use by government, defense, military, and armed forces in the field of air, aerial, aerospace, rail, ground, and land transportation; Downloadable computer and mobile application software for managing, overseeing, and optimizing air, aerial, aerospace, rail, ground, and land transportation services; Downloadable computer and mobile application software for use by government, defense, military, and armed forces for managing, overseeing, and optimizing air, aerial, aerospace, rail, ground, and land transportation services; Downloadable computer and mobile application software for use in air, aerial, aerospace, rail, ground, and land transportation management; Downloadable computer and mobile application software for use by government, defense, military, and armed forces for use in air, aerial, aerospace, rail, ground, and land transportation management; Downloadable computer and mobile application software for managing, overseeing, observing, servicing, maintaining, optimizing, and operating unmanned aerial systems, unmanned aerial vehicles, helicopters, aircraft, aerospace, rail, ground, and land transportation vehicles; Downloadable computer and mobile application software for use by government, defense, military, and armed forces for managing, overseeing, observing, servicing, maintaining, optimizing, and operating unmanned aerial systems, unmanned aerial vehicles, helicopters, aircraft, aerospace, rail, ground, and land transportation vehicles; Downloadable computer software for fleet management, fleet maintenance, and improving fleet operations in the field of air, aerial, aerospace, rail, ground, and land transportation; Downloadable computer software for use by government, defense, military, and armed forces for fleet management, fleet maintenance, and improving fleet operations in the field of air, aerial, aerospace, rail, ground, and land transportation; Downloadable computer and mobile application software for maintenance and management, servicing, ordering, delivering, and managing parts and inventory for helicopters, aircraft, unmanned aerial vehicles, unmanned aerial systems, and aerospace, rail, ground, and land transportation vehicles; Downloadable computer and mobile application software for use by government, defense, military, and armed forces for maintenance and management, servicing, ordering delivering, and managing parts and inventory for helicopters, aircraft, unmanned aerial vehicles, unmanned aerial systems, and aerospace, rail, ground, and land transportation vehicles; Downloadable computer software platforms for operating, maintaining, and managing helicopters, aircraft, unmanned aerial vehicles (UAVs), unmanned aerial systems, and aerospace, rail, ground, and land transportation vehicles; Downloadable computer software platforms for use by government, defense, military, and armed forces for operating, maintaining, and managing helicopters, aircraft, unmanned aerial vehicles (UAVs), unmanned aerial systems, and aerospace, rail, ground, and land transportation vehicles.",
+      "IC 012: Helicopters; Helicopters for government, defense, military, and armed forcesAircrafts; Aircrafts for government, defense, military, and armed forces; Aircrafts, namely unmanned aerial systems; Aircrafts, namely unmanned aerial systems for government, defense, military, and armed forces; Vertical take-off and landing (VTOL) aircraft; Vertical take-off and landing (VTOL) aircraft for government, defense, military, and armed forces; Unmanned aerial vehicles (UAVs); Unmanned aerial vehicles (UAVs) for government, defense, military, and armed forces; Aerospace vehicles in the nature of unmanned aerial vehicles (UAVs) and unmanned aerial systems; Aerospace vehicles in the nature of unmanned aerial vehicles (UAVs) and unmanned aerial systems for government, defense, military, and armed forces; Unmanned helicopters; Unmanned helicopters for government, defense, military, and armed forces; Structural parts for unmanned aerial vehicles (UAVs), unmanned aerial systems, helicopters, and aircraft; Structural parts for unmanned aerial vehicles (UAVs), unmanned aerial systems, helicopters, and aircraft for government, defense, military, and armed forces; Aircrafts.",
+      "IC 042: Design and development of operating software in the field of air, aerial, aerospace, rail, ground, and land transportation; Design and development of operating software for use by government, defense, military, and armed forces in the field of air, aerial, aerospace, rail, ground, and land transportation; Providing non-downloadable computer software and cloud services in the field of air, aerial, aerospace, rail, ground, and land transportation; Providing non-downloadable computer software and cloud services for use by government, defense, military, and armed forces in the field of air, aerial, aerospace, rail, ground, and land transportation; Providing non-downloadable computer software and cloud services for managing, overseeing, and optimizing air, aerial, aerospace, rail, ground, and land transportation services; Providing non-downloadable computer software and cloud services for use by government, defense, military, and armed forces for managing, overseeing, and optimizing air, aerial, aerospace, rail, ground, and land transportation services; Providing non-downloadable software and cloud services for use in air, aerial, aerospace, rail, ground, and land transportation management; Providing non-downloadable software and cloud services for use by government, defense, military, and armed forces for use in air, aerial, aerospace, rail, ground, and land transportation management; Providing non-downloadable software and cloud services for managing, overseeing, observing, servicing, maintaining, optimizing, and operating unmanned aerial systems, unmanned aerial vehicles, helicopters, aircraft, and aerospace, rail, ground, and land transportation vehicles; Providing non-downloadable software and cloud services for use by government, defense, military, and armed forces for managing, overseeing, observing, servicing, maintaining, optimizing, and operating unmanned aerial systems, unmanned aerial vehicles, helicopters, aircraft, and aerospace, rail, ground, and land transportation vehicles; Providing non-downloadable computer software for use in fleet management, fleet maintenance, and improving fleet operations in the field of air, aerial, aerospace, rail, ground, and land transportation; Providing non-downloadable computer software for use by government, defense, military, and armed forces for use in fleet management, fleet maintenance, and improving fleet operations in the field of air, aerial, aerospace, rail, ground, and land transportation; Providing non-downloadable software and cloud services for maintenance and management, servicing, ordering, delivering, and managing part and inventory for helicopters, aircraft, unmanned aerial vehicles, unmanned aerial systems, and aerospace rail, ground, and land transportation vehicles; Providing non-downloadable software and cloud services for use by government, defense, military, and armed forces for use in maintenance and management, servicing, ordering, delivering, and managing part and inventory for helicopters, aircraft, unmanned aerial vehicles, unmanned aerial systems, and aerospace rail, ground, and land transportation vehicles; Providing online non-downloadable computer software platforms for operating, maintaining, and managing helicopters, aircraft, unmanned aerial vehicles (UAVs), unmanned aerial systems, and aerospace rail, ground, and land transportation vehicles; Providing online non-downloadable computer software platforms for use by government, defense, military, and armed forces for operating, maintaining, and managing helicopters, aircraft, unmanned aerial vehicles (UAVs), unmanned aerial systems, and aerospace, rail, ground, and land transportation vehicles; Research, design, and development of aircraft, helicopters, unmanned aerial vehicles (UAVs), unmanned aerial systems, and aerospace rail, ground, and land transportation vehicles; Research, design, and development of aircraft, helicopters, unmanned aerial vehicles (UAVs), unmanned aerial systems, and aerospace rail, ground, and land transportation vehicles for government, defense, military, and armed forces; Engineering services; Engineering services for government, defense, military, and armed forces; Aircraft and aerospace engineering services; Aircraft and aerospace engineering services for government, defense, military, and armed forces; Consultation, research, and development in the field of aerospace engineering; Consultation, research, and development in the field of aerospace engineering for government, defense, military, and armed forces; Scientific research in the field of helicopters, aircraft, unmanned aerial vehicles (UAVs), unmanned aerial systems, aerospace, rail, ground, and land transportation vehicles, and other machines and apparatus; Scientific research in the field of helicopters, aircraft, unmanned aerial vehicles (UAVs), unmanned aerial systems, aerospace, rail, ground, and land transportation vehicles, and other machines and apparatus for government, defense, military, and armed forces."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Sabrina J. Danielson",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-29T09:20:23",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50131896",
+    "score": null,
+    "source": {
+     "id": "50131896",
+     "wordmark": "PEAKEEP",
+     "markName": null,
+     "ownerName": [
+      "US myehome LLC (LIMITED LIABILITY COMPANY; Florida, USA)"
+     ],
+     "ownerCity": "Jacksonville",
+     "ownerStateCountryAddress": "Florida 32259, UNITED STATES",
+     "ownerEntity": "LIMITED LIABILITY COMPANY",
+     "filedDate": "2026-09-28T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Photography drones; Camera drones; Drones; Unmanned aerial vehicles (UAVs); Camera drones, other than toys; Civilian drones."
+     ],
+     "internationalClass": [
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1a"
+     ],
+     "attorney": "VIVIAN   TANNER",
+     "firstUseAnyDate": "2025-03-25",
+     "markDescription": [],
+     "recordLoadDate": "2026-09-29T09:20:23",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50130520",
+    "score": null,
+    "source": {
+     "id": "50130520",
+     "wordmark": "WASP",
+     "markName": null,
+     "ownerName": [
+      "AEROVIRONMENT, INC. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Arlington",
+     "ownerStateCountryAddress": "Virginia 22202, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-25T00:00:00",
+     "goodsAndServices": [
+      "IC 009: avionics; communication systems; cameras; autopilots; radio transmitters; radio receivers; telemetry apparatus; antennas; flight controllers; electronic speed controllers; global positioning system apparatus; inertial measurement units; electronic sensors; optical sensors; apparatus for controlling and monitoring unmanned aerial vehicles; processors; guidance systems; antenna arrays; phased-array antennas; antenna feeds; phased-array antenna feeds; radio-frequency antenna systems comprised of antennas, antenna feeds, electronic beamformers, transmitters, receivers, transceivers, signal processors, and electronic controllers; electronically steerable antennas; satellite communications apparatus; radar apparatus; radio-frequency transmitters, receivers, and transceivers; electronic apparatus for suppressing radio-frequency interference; electronic warfare apparatus for detecting, monitoring, analyzing, and suppressing radio-frequency signals; intelligence, surveillance, and reconnaissance apparatus for receiving, processing, and analyzing radio-frequency signals.",
+      "IC 012: Unmanned aerial vehicles (UAVs) and structural parts thereof; Unmanned aerial vehicles (UAVs) and structural parts thereof, namely airframes, fuselages, wings, winglets, tail assemblies, empennages, control surfaces, ailerons, elevators, rudders, flaps, spoilers, landing gear, landing skids, structural booms, structural arms, struts, frames, braces, panels, fairings, cowlings, hatches, doors, and structural payload mounts, all specially adapted for unmanned aerial vehicles; Unmanned aerial vehicles (UAVs)."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Pejman Yedidsion",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-26T09:18:47",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50127161",
+    "score": null,
+    "source": {
+     "id": "50127161",
+     "wordmark": "PAVE AEROSPACE",
+     "markName": null,
+     "ownerName": [
+      "PAVE Aerospace, LLC (LIMITED LIABILITY COMPANY; North Carolina, USA)"
+     ],
+     "ownerCity": "Huntersville",
+     "ownerStateCountryAddress": "North Carolina 28078, UNITED STATES",
+     "ownerEntity": "LIMITED LIABILITY COMPANY",
+     "filedDate": "2026-09-24T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones; Military drones.",
+      "IC 009: Downloadable software for managing drone flight paths for use in connection with flight control systems using artificial intelligence (AI) and deep learning; Downloadable software for controlling the flight of aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft; Downloadable software for controlling and managing autopilot systems for aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft; Downloadable computer software platforms for managing drone flight paths for use in connection with flight control systems using artificial intelligence (AI) and deep learning; Recorded software for managing drone flight paths for use in connection with flight control systems using artificial intelligence (AI) and deep learning; Recorded software for controlling the flight of aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft; Recorded software for controlling and managing autopilot systems for aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft."
+     ],
+     "internationalClass": [
+      "IC 012",
+      "IC 009"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Sloan  Carpenter",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-25T09:19:59",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50128292",
+    "score": null,
+    "source": {
+     "id": "50128292",
+     "wordmark": null,
+     "markName": null,
+     "ownerName": [
+      "SYLUX INC. (CORPORATION; California, USA)"
+     ],
+     "ownerCity": "Goleta",
+     "ownerStateCountryAddress": "California 93117, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-24T00:00:00",
+     "goodsAndServices": [
+      "IC 042: Design of semiconductor chips; Motor vehicle parts design services; Design and development of computer hardware; Design and development of computer hardware for vehicle-mounted electronic systems and advanced driver assistance systems (ADAS); Engineering services in the field of automotive electronics and advanced driver assistance systems (ADAS); Consulting services in the field of design, selection, implementation and use of computer hardware and software systems for others; technological consulting services in the fields of automotive electronics, vehicle-mounted cameras, optical sensors, infrared imaging technology and advanced driver assistance systems (ADAS); research and development of new products for others in the fields of automotive electronics, optical sensing technology, infrared imaging technology and advanced driver assistance systems (ADAS); Research in the field of self-driving car technology; Computer software design; Computer software development; Updating of computer software; Maintenance of computer software; Design and development of computer software for processing and analyzing vehicle camera images and sensor data; design and development of computer software using artificial intelligence (AI) for image recognition, object detection, object identification and object classification; design and development of computer software for advanced driver assistance systems (ADAS); Software as a service (SAAS) services featuring software using artificial intelligence (AI) for processing and analyzing images and sensor data, detecting, recognizing, identifying and classifying objects in the driving environment, and providing driver assistance alerts; Software as a service (SAAS) services featuring software for processing and analyzing video images, vehicle data and sensor data for vehicle safety and advanced driver assistance systems (ADAS); Platform as a service (PAAS) featuring computer software platforms for collecting, processing, analyzing, transmitting and displaying vehicle camera and sensor data for use in advanced driver assistance systems (ADAS); platform as a service (PAAS) featuring computer software platforms using artificial intelligence (AI) for analyzing vehicle images and sensor data and detecting objects in the driving environment; cloud computing featuring software for processing and analyzing vehicle camera images and sensor data; cloud computing featuring software using artificial intelligence (AI) for image recognition, object detection and advanced driver assistance systems (ADAS); testing of computer hardware and software for advanced driver assistance systems (ADAS); product testing in the field of automotive electronic systems; Product safety testing; testing of vehicle-mounted electronic systems; Virtual testing of new product designs using computer simulations.",
+      "IC 009: Safety and driving assistant system for mobile vehicles and vessels comprised of electronic proximity sensors and switches, high-resolution cameras, integrated circuits for the purpose of imaging processing, and display monitors; Vehicle safety equipment, namely, an on-board vehicular surveillance system comprised of cameras and monitors for exposing and eliminating the blind spots on both sides of the vehicle; Vehicle location detection system comprised primarily of display monitors, computers, image sensors, and video cameras; Vehicle safety equipment, namely, electronic vibration, shock, motion, angle, temperature and voltage monitors; electronic tire pressure monitors; Vehicle safety equipment, namely, back-up sensors and cameras; Dashboard cameras; cameras for vehicles; Blind spot cameras for vehicles; Rearview cameras for vehicles; Video surveillance cameras for vehicles; Infrared cameras; Thermal imaging cameras; image sensors; Optical sensors; Motion sensors; Sensors for determining position; sensors for measuring speed; Sensors for determining acceleration; object detecting sensors; distance sensors; Ultrasonic sensors; electronic control units for advanced driver assistance systems (ADAS); computer hardware for processing digital images and sensor data for vehicle-mounted cameras and advanced driver assistance systems (ADAS); Semiconductor chips; Integrated circuits; Integrated circuit chips; Electric wire harnesses for automobiles; Recorded computer software using artificial intelligence (AI) for processing and analyzing images and sensor data, detecting, recognizing, identifying and classifying objects in the driving environment, and providing driver assistance alerts; Downloadable computer software using artificial intelligence (AI) for processing and analyzing images and sensor data, detecting, recognizing, identifying and classifying objects in the driving environment, and providing driver assistance alerts; Recorded computer software for processing digital images from vehicle-mounted cameras; Downloadable computer software for processing digital images from vehicle-mounted cameras; Recorded computer software for operating and controlling advanced driver assistance systems (ADAS); Downloadable computer software for operating and controlling advanced driver assistance systems (ADAS); on-board vehicular surveillance systems comprised of infrared cameras and monitors for monitoring vehicle interiors; infrared cameras for aircraft and unmanned aerial vehicles; Computer hardware for processing digital images and sensor data for aircraft and unmanned aerial vehicles.",
+      "IC 012: Land vehicles and structural parts therefor; Land vehicle structural parts for automobiles, trucks, buses, vans, motorcycles, motor scooters, all-terrain vehicles (ATVs), electric cars, autonomous land vehicles; Vehicle parts, namely, rearview mirrors, side-view mirrors, blind spot mirrors; Steering wheel attachment comprised of an electric motor and drive gear and a ring gear that when activated by an external controller, turns the steering wheel to effect automatic vehicle steering in straight or curved paths; Electric vehicles, namely, electric cars, electric trucks, electric buses, electric motorcycles, low-speed electric land vehicles; Bodyworks for motor vehicles; Automobile parts, namely, structural automobile body parts; Back-up warning alarms for vehicles; Motors for land vehicles; Self-driving transport vehicles; Autonomous land vehicles; Self-driving cars; Electric drives for vehicles; Aircraft; Unmanned aerial vehicles (UAVs); Drones; Camera drones; Civilian drones; Military drones; Delivery drones; Photography drones; Vehicle camera mount."
+     ],
+     "internationalClass": [
+      "IC 042",
+      "IC 009",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Daniel Lano",
+     "firstUseAnyDate": null,
+     "markDescription": [
+      "Color is not claimed as a feature of the mark.",
+      "The mark consists of an image of a bullseye design placed on top of a diamond-shaped design, with a dot appearing near the top of the innermost circle."
+     ],
+     "recordLoadDate": "2026-09-25T09:19:59",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50127173",
+    "score": null,
+    "source": {
+     "id": "50127173",
+     "wordmark": "PAVE AEROSPACE",
+     "markName": null,
+     "ownerName": [
+      "PAVE Aerospace, LLC (LIMITED LIABILITY COMPANY; North Carolina, USA)"
+     ],
+     "ownerCity": "Huntersville",
+     "ownerStateCountryAddress": "North Carolina 28078, UNITED STATES",
+     "ownerEntity": "LIMITED LIABILITY COMPANY",
+     "filedDate": "2026-09-24T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Downloadable software for managing drone flight paths for use in connection with flight control systems using artificial intelligence (AI) and deep learning; Downloadable software for controlling the flight of aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft; Downloadable software for controlling and managing autopilot systems for aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft; Downloadable computer software platforms for managing drone flight paths for use in connection with flight control systems using artificial intelligence (AI) and deep learning; Recorded software for managing drone flight paths for use in connection with flight control systems using artificial intelligence (AI) and deep learning; Recorded software for controlling the flight of aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft; Recorded software for controlling and managing autopilot systems for aircraft, unmanned aerial systems (UAS), drones, unmanned aerial vehicles (UAVS), and remote control (RC) aircraft.",
+      "IC 012: Drones; Military drones."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Sloan  Carpenter",
+     "firstUseAnyDate": null,
+     "markDescription": [
+      "Color is not claimed as a feature of the mark.",
+      "The mark consists of the term \"PAVE\" centered above the term \"AEROSPACE\"."
+     ],
+     "recordLoadDate": "2026-09-25T09:19:59",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50128238",
+    "score": null,
+    "source": {
+     "id": "50128238",
+     "wordmark": "SYLUX",
+     "markName": null,
+     "ownerName": [
+      "SYLUX INC. (CORPORATION; California, USA)"
+     ],
+     "ownerCity": "Goleta",
+     "ownerStateCountryAddress": "California 93117, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-24T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Safety and driving assistant system for mobile vehicles and vessels comprised of electronic proximity sensors and switches, high-resolution cameras, integrated circuits for the purpose of imaging processing, and display monitors; Vehicle safety equipment, namely, an on-board vehicular surveillance system comprised of cameras and monitors for exposing and eliminating the blind spots on both sides of the vehicle; Vehicle location detection system comprised primarily of display monitors, computers, image sensors, and video cameras; Vehicle safety equipment, namely, electronic vibration, shock, motion, angle, temperature and voltage monitors; electronic tire pressure monitors; Vehicle safety equipment, namely, back-up sensors and cameras; Dashboard cameras; cameras for vehicles; Blind spot cameras for vehicles; Rearview cameras for vehicles; Video surveillance cameras for vehicles; Infrared cameras; Thermal imaging cameras; image sensors; Optical sensors; Motion sensors; Sensors for determining position; sensors for measuring speed; Sensors for determining acceleration; object detecting sensors; distance sensors; Ultrasonic sensors; electronic control units for advanced driver assistance systems (ADAS); computer hardware for processing digital images and sensor data for vehicle-mounted cameras and advanced driver assistance systems (ADAS); Semiconductor chips; Integrated circuits; Integrated circuit chips; Electric wire harnesses for automobiles; Recorded computer software using artificial intelligence (AI) for processing and analyzing images and sensor data, detecting, recognizing, identifying and classifying objects in the driving environment, and providing driver assistance alerts; Downloadable computer software using artificial intelligence (AI) for processing and analyzing images and sensor data, detecting, recognizing, identifying and classifying objects in the driving environment, and providing driver assistance alerts; Recorded computer software for processing digital images from vehicle-mounted cameras; Downloadable computer software for processing digital images from vehicle-mounted cameras; Recorded computer software for operating and controlling advanced driver assistance systems (ADAS); Downloadable computer software for operating and controlling advanced driver assistance systems (ADAS); on-board vehicular surveillance systems comprised of infrared cameras and monitors for monitoring vehicle interiors; infrared cameras for aircraft and unmanned aerial vehicles; Computer hardware for processing digital images and sensor data for aircraft and unmanned aerial vehicles.",
+      "IC 042: Design of semiconductor chips; Motor vehicle parts design services; Design and development of computer hardware; Design and development of computer hardware for vehicle-mounted electronic systems and advanced driver assistance systems (ADAS); Engineering services in the field of automotive electronics and advanced driver assistance systems (ADAS); Consulting services in the field of design, selection, implementation and use of computer hardware and software systems for others; technological consulting services in the fields of automotive electronics, vehicle-mounted cameras, optical sensors, infrared imaging technology and advanced driver assistance systems (ADAS); research and development of new products for others in the fields of automotive electronics, optical sensing technology, infrared imaging technology and advanced driver assistance systems (ADAS); Research in the field of self-driving car technology; Computer software design; Computer software development; Updating of computer software; Maintenance of computer software; Design and development of computer software for processing and analyzing vehicle camera images and sensor data; design and development of computer software using artificial intelligence (AI) for image recognition, object detection, object identification and object classification; design and development of computer software for advanced driver assistance systems (ADAS); Software as a service (SAAS) services featuring software using artificial intelligence (AI) for processing and analyzing images and sensor data, detecting, recognizing, identifying and classifying objects in the driving environment, and providing driver assistance alerts; Software as a service (SAAS) services featuring software for processing and analyzing video images, vehicle data and sensor data for vehicle safety and advanced driver assistance systems (ADAS); Platform as a service (PAAS) featuring computer software platforms for collecting, processing, analyzing, transmitting and displaying vehicle camera and sensor data for use in advanced driver assistance systems (ADAS); platform as a service (PAAS) featuring computer software platforms using artificial intelligence (AI) for analyzing vehicle images and sensor data and detecting objects in the driving environment; cloud computing featuring software for processing and analyzing vehicle camera images and sensor data; cloud computing featuring software using artificial intelligence (AI) for image recognition, object detection and advanced driver assistance systems (ADAS); testing of computer hardware and software for advanced driver assistance systems (ADAS); product testing in the field of automotive electronic systems; Product safety testing; testing of vehicle-mounted electronic systems; Virtual testing of new product designs using computer simulations.",
+      "IC 012: Land vehicles and structural parts therefor; Land vehicle structural parts for automobiles, trucks, buses, vans, motorcycles, motor scooters, all-terrain vehicles (ATVs), electric cars, autonomous land vehicles; Vehicle parts, namely, rearview mirrors, side-view mirrors, blind spot mirrors; Steering wheel attachment comprised of an electric motor and drive gear and a ring gear that when activated by an external controller, turns the steering wheel to effect automatic vehicle steering in straight or curved paths; Electric vehicles, namely, electric cars, electric trucks, electric buses, electric motorcycles, low-speed electric land vehicles; Bodyworks for motor vehicles; Automobile parts, namely, structural automobile body parts; Back-up warning alarms for vehicles; Motors for land vehicles; Self-driving transport vehicles; Autonomous land vehicles; Self-driving cars; Electric drives for vehicles; Aircraft; Unmanned aerial vehicles (UAVs); Drones; Camera drones; Civilian drones; Military drones; Delivery drones; Photography drones; Vehicle camera mount."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 042",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Daniel Lano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-25T09:19:59",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50125699",
+    "score": null,
+    "source": {
+     "id": "50125699",
+     "wordmark": "AELIS",
+     "markName": null,
+     "ownerName": [
+      "Joby Aero, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Santa Cruz",
+     "ownerStateCountryAddress": "California 95060, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-23T00:00:00",
+     "goodsAndServices": [
+      "IC 038: Telecommunication services, namely, providing wireless 5G and non-terrestrial network (NTN) telecommunications connectivity and communication relay services via airborne payloads and aircraft; Relaying of messages and electronic data via airborne telecommunications systems; Telecommunications services, namely, leasing of telecommunications infrastructure, equipment, and airborne transmission space on aircraft, unmanned aerial vehicles (UAVs), and high-altitude platform stations (HAPS); Leasing access time and transmission capacity to communication networks for third-party payloads on airborne platforms; airborne relay services, namely, electronic transmission of voice, data, signals, and video via third-party telecommunication payloads integrated onto aircraft; Telecommunications services, namely, direct-to-device (D2D) telecommunications services via airborne platforms, high-altitude platform stations (HAPS), and aircraft; Telecommunications connectivity services provided directly to end-user mobile devices, smartphones, and user equipment (UE); Leasing telecommunications bandwidth, spectrum, and network transmission capacity to third-party telecommunications carriers and mobile network operators (MNOs); Wholesale telecommunications services, namely, providing cellular backhaul, airborne network coverage extension, and radio access network (RAN) capacity to mobile network operators; Leasing of airborne telecommunications infrastructure, base stations, and radio frequency transceivers to mobile network operators for transmission and distribution of mobile services to consumers; Providing telecommunications co-location and neutral-host telecommunications infrastructure services via airborne platforms.",
+      "IC 009: Aircraft payloads and airborne electronics, namely, telecommunications payloads comprising phased array antennas, radio transceivers, and beamforming antennas for 5G wireless connectivity and non-terrestrial network (NTN) communications; Electro-optical and infrared (EO/IR) imaging systems comprising optical cameras, infrared cameras, and optical sensors; Radar apparatus; Airborne electronic sensors for detecting, identifying, and tracking radio frequency (RF) signals; Electronic equipment for aircraft, namely, integrated communications and imaging payloads for intelligence, surveillance, and reconnaissance (ISR) and communication relay; Millimeter wave radio equipment, namely, E-band radio transceivers and antennas for point to point wireless backhaul aircraft to aircraft, and aircraft to ground; Free space optical communication equipment, namely laser communication terminals for transmitting data aircraft to aircraft and aircraft to ground; Downloadable computer software for flight planning, mission planning, and autonomous operation of aircraft.",
+      "IC 042: Aerial surveillance data analysis; Providing technological information and technical analysis of data gathered from airborne electro-optical and infrared (EO/IR) sensors, radar systems, and intelligence, surveillance, and reconnaissance (ISR) payloads for defense and government applications; Providing on-line non-downloadable software for flight planning, mission planning, and autonomous operation of aircraft.",
+      "IC 012: Aircraft; Autonomous aircraft; Hybrid hydrogen-electric aircraft; External payload pods, radomes, and sensor housings specially adapted as structural parts of aircraft; High altitude long endurance aircraft; High altitude platform station; Unmanned aerial vehicle; Unmanned aircraft system.",
+      "IC 036: Infrastructure leasing services, namely, leasing of physical mounting space, equipment bays, and external mounting points on aircraft for third-party payloads; Leasing of infrastructure space on airborne platforms to multiple tenants.",
+      "IC 039: Airborne transport services, namely, carrying, deploying, and hosting third-party payloads on aircraft; Transport and physical carriage of scientific, electronic, and communications equipment via airborne platforms; Leasing of aircraft, unmanned aerial vehicles (UAVs), and high-altitude platform stations (HAPS); Contractor-operated flight services in the nature of government-owned, contractor-operated (GOCO) aircraft operation; Aeronautical transport services, namely, airborne carriage, flight deployment, and flight operation of government-owned and third-party communications, intelligence, surveillance, reconnaissance (ISR), and defense payloads aboard contractor-operated aircraft; Leasing and sale of aircraft."
+     ],
+     "internationalClass": [
+      "IC 038",
+      "IC 009",
+      "IC 042",
+      "IC 012",
+      "IC 036",
+      "IC 039"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Bethany J. Whelan",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-24T09:19:14",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50123358",
+    "score": null,
+    "source": {
+     "id": "50123358",
+     "wordmark": "QUANTUM DRONES",
+     "markName": null,
+     "ownerName": [
+      "Quantum Drones Corporation (CORPORATION; Nevada, USA)"
+     ],
+     "ownerCity": "Norwalk",
+     "ownerStateCountryAddress": "Connecticut 06854, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-22T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Computer software for operating, controlling, navigating, monitoring and coordinating unmanned and autonomous vehicles; computer software for autonomous navigation, flight control, mission planning, path planning, fleet and swarm management, situational awareness, autonomous decision-making, and command and control; computer software using artificial intelligence for target detection, identification and classification, threat detection, situational awareness, autonomous decision-making, cooperative routing, and command and control; computer software for processing telemetry, image, video, sensor and geospatial data and for real-time mission analysis; computer operating system software; computer hardware with embedded operating system software; electronic command-and-control systems comprised primarily of computer hardware, displays, communications equipment and recorded software; ground-control stations for unmanned vehicles; portable command-and-control computer system; portable ground control system; radio transmitters and receivers; wireless communications equipment for transmitting data, video, commands and telemetry; antennas; electronic sensors and detection equipment; computer software for use with all of the foregoing.",
+      "IC 012: Drones; military drones; first-person-view (FPV) drones; surveillance drones; unmanned aerial vehicles (UAVs) and structural parts therefor; autonomous aerial vehicles; vertical takeoff and landing aircraft; tethered unmanned aerial vehicles; unmanned ground vehicles; autonomous ground vehicles; autonomous land vehicles; amphibious vehicles; unmanned surface vessels; structural parts and fittings for the foregoing; unmanned and autonomous vehicles incorporating embedded software for navigation, flight control, communications, sensing, autonomous operation, and command and control; embedded software for use in unmanned vehicles; embedded software for use in drones."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "David Bell",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-23T09:19:31",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50122141",
+    "score": null,
+    "source": {
+     "id": "50122141",
+     "wordmark": "SWRM GUARDIAN",
+     "markName": null,
+     "ownerName": [
+      "SWRM, Inc (CORPORATION; Arizona, USA)"
+     ],
+     "ownerCity": "Scottsdale",
+     "ownerStateCountryAddress": "Arizona 85258, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-22T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones; Camera drones; Autonomous air vehicles; Unmanned aerial vehicles (UAVs).",
+      "IC 045: Monitoring home security alarms; Home security alarm monitoring; Monitoring of burglar alarms; Home security monitoring using sensors, cameras, motion detectors, alarm systems, and drones; Monitoring of security alarm systems; Surveillance services by drone.",
+      "IC 009: Security alarms; Surveillance cameras; Electronic docking stations; Security cameras; Alarm monitoring systems; Alarm sensors; Security surveillance robots; Downloadable mobile applications for monitoring and managing security systems; Access control and alarm monitoring systems; Downloadable computer  application software for mobile phones, namely, software for monitoring and managing security systems; Downloadable computer application software for mobile phones, tablets, and handheld computers, namely, software for monitoring and managing security systems."
+     ],
+     "internationalClass": [
+      "IC 012",
+      "IC 045",
+      "IC 009"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Selina Garcia",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-23T09:19:31",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50122885",
+    "score": null,
+    "source": {
+     "id": "50122885",
+     "wordmark": "AIRBEAR",
+     "markName": null,
+     "ownerName": [
+      "Orygen Solutions, LLC (LIMITED LIABILITY COMPANY; Delaware, USA)"
+     ],
+     "ownerCity": "New York",
+     "ownerStateCountryAddress": "New York 10177, UNITED STATES",
+     "ownerEntity": "LIMITED LIABILITY COMPANY",
+     "filedDate": "2026-09-22T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Electronic navigational and positioning apparatus and instruments; Computer hardware; Computer networking hardware; Computer hardware for telecommunications; Computer hardware for collecting positioning data; Computer hardware for collecting location data; Computer hardware for detecting, identifying, locating, tracking and monitoring unmanned aerial vehicles; Radio-frequency receivers; Electronic detectors for observing and measuring the infrared spectrum, namely, infrared detectors; Radio-frequency antennas; Electronic devices for detecting and locating unmanned aerial vehicles using radio frequency; Computer-controlled apparatus for testing and measuring spectrum; Radio-frequency transmitters; Radio frequency (RF) amplifiers; Electric or electronic sensors for sensing radio frequency signals; Signal processors; Radio direction finders; Downloadable computer firmware for detecting, identifying, locating, tracking and monitoring unmanned aerial vehicles and receiving, analyzing, displaying, recording and transmitting radio frequency spectrum data and alerts concerning unmanned aerial vehicles; Electronic transmitters for jamming signals; Radar jamming apparatus; Downloadable computer software using artificial intelligence (AI) for analyzing radio frequency spectrum data and detecting, identifying and classifying radio frequency signals associated with unmanned aerial vehicles; Recorded computer software using artificial intelligence (AI) for analyzing radio frequency spectrum data and detecting, identifying and classifying radio frequency signals associated with unmanned aerial vehicles; Thermal imaging cameras; Infrared cameras; Thermal imaging systems, not for medical use; Radar apparatus; Radar object detectors for use on vehicles; Radar receivers with amplifiers; Radar antennas; Lidar apparatus; Wireless electronic devices for locating and tracking people; Downloadable computer software platforms for receiving, analyzing, displaying, recording and transmitting radio frequency spectrum data and information and alerts concerning unmanned aerial vehicles; Downloadable computer software for receiving, analyzing, displaying, recording and transmitting radio frequency spectrum data and information and alerts concerning unmanned aerial vehicles."
+     ],
+     "internationalClass": [
+      "IC 009"
+     ],
+     "currentBasis": [
+      "1a"
+     ],
+     "attorney": null,
+     "firstUseAnyDate": "2026-06-15",
+     "markDescription": [],
+     "recordLoadDate": "2026-09-23T09:19:31",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50123353",
+    "score": null,
+    "source": {
+     "id": "50123353",
+     "wordmark": null,
+     "markName": null,
+     "ownerName": [
+      "Quantum Drones Corporation (CORPORATION; Nevada, USA)"
+     ],
+     "ownerCity": "Norwalk",
+     "ownerStateCountryAddress": "Connecticut 06854, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-22T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Computer software for operating, controlling, navigating, monitoring and coordinating unmanned and autonomous vehicles; computer software for autonomous navigation, flight control, mission planning, path planning, fleet and swarm management, situational awareness, autonomous decision-making, and command and control; computer software using artificial intelligence for target detection, identification and classification, threat detection, situational awareness, autonomous decision-making, cooperative routing, and command and control; computer software for processing telemetry, image, video, sensor and geospatial data and for real-time mission analysis; computer operating system software; computer hardware with embedded operating system software; electronic command-and-control systems comprised primarily of computer hardware, displays, communications equipment and recorded software; ground-control stations for unmanned vehicles; portable command-and-control computer system; portable ground control system; radio transmitters and receivers; wireless communications equipment for transmitting data, video, commands and telemetry; antennas; electronic sensors and detection equipment; computer software for use with all of the foregoing.",
+      "IC 012: Drones; military drones; first-person-view (FPV) drones; surveillance drones; unmanned aerial vehicles (UAVs) and structural parts therefor; autonomous aerial vehicles; vertical takeoff and landing aircraft; tethered unmanned aerial vehicles; unmanned ground vehicles; autonomous ground vehicles; autonomous land vehicles; amphibious vehicles; unmanned surface vessels; structural parts and fittings for the foregoing; unmanned and autonomous vehicles incorporating embedded software for navigation, flight control, communications, sensing, autonomous operation, and command and control; embedded software for use in unmanned vehicles; embedded software for use in drones."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "David Bell",
+     "firstUseAnyDate": null,
+     "markDescription": [
+      "Color is not claimed as a feature of the mark.",
+      "The mark consists of a stylized letter \"Q\" in the shape of a square with rounded corners, featuring a diagonal bar extending from the upper left corner to the lower right corner."
+     ],
+     "recordLoadDate": "2026-09-23T09:19:31",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50123361",
+    "score": null,
+    "source": {
+     "id": "50123361",
+     "wordmark": "QUANTUM CYBER",
+     "markName": null,
+     "ownerName": [
+      "Quantum Drones Corporation (CORPORATION; Nevada, USA)"
+     ],
+     "ownerCity": "Norwalk",
+     "ownerStateCountryAddress": "Connecticut 06854, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-22T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Computer software for operating, controlling, navigating, monitoring and coordinating unmanned and autonomous vehicles; computer software for autonomous navigation, flight control, mission planning, path planning, fleet and swarm management, situational awareness, autonomous decision-making, and command and control; computer software using artificial intelligence for target detection, identification and classification, threat detection, situational awareness, autonomous decision-making, cooperative routing, and command and control; computer software for processing telemetry, image, video, sensor and geospatial data and for real-time mission analysis; computer operating system software; computer hardware with embedded operating system software; electronic command-and-control systems comprised primarily of computer hardware, displays, communications equipment and recorded software; ground-control stations for unmanned vehicles; portable command-and-control computer system; portable ground control system; radio transmitters and receivers; wireless communications equipment for transmitting data, video, commands and telemetry; antennas; electronic sensors and detection equipment; computer software for use with all of the foregoing.",
+      "IC 012: Drones; military drones; first-person-view (FPV) drones; surveillance drones; unmanned aerial vehicles (UAVs) and structural parts therefor; autonomous aerial vehicles; vertical takeoff and landing aircraft; tethered unmanned aerial vehicles; unmanned ground vehicles; autonomous ground vehicles; autonomous land vehicles; amphibious vehicles; unmanned surface vessels; structural parts and fittings for the foregoing; unmanned and autonomous vehicles incorporating embedded software for navigation, flight control, communications, sensing, autonomous operation, and command and control; embedded software for use in unmanned vehicles; embedded software for use in drones."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "David Bell",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-23T09:19:31",
+     "alive": true,
+     "markType": [
+      "TRADEMARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50121132",
+    "score": null,
+    "source": {
+     "id": "50121132",
+     "wordmark": "XCELL METAL",
+     "markName": null,
+     "ownerName": [
+      "Firestorm Labs, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "San Diego",
+     "ownerStateCountryAddress": "California 92123, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-21T00:00:00",
+     "goodsAndServices": [
+      "IC 040: Manufacturing services for others in the field of drones and unmanned aerial vehicles."
+     ],
+     "internationalClass": [
+      "IC 040"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Kari Moyer-Henry",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-22T09:19:22",
+     "alive": true,
+     "markType": [
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50120088",
+    "score": null,
+    "source": {
+     "id": "50120088",
+     "wordmark": null,
+     "markName": null,
+     "ownerName": [
+      "Asylon, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Norristown",
+     "ownerStateCountryAddress": "Pennsylvania 19401, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-21T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Tactical robots; Security surveillance robots; Security patrol robots; Unmanned aerial vehicles (drones) for commercial and industrial security and surveillance purposes.",
+      "IC 045: Autonomous drone-based security surveillance and monitoring services for commercial, industrial, and government facilities; remote security monitoring services using unmanned aerial vehicles.",
+      "IC 042: Software as a service (SaaS) featuring software for controlling, managing, and monitoring autonomous unmanned aerial vehicle operations for security and surveillance purposes; software as a service (SaaS) featuring software for planning and executing autonomous drone flight missions; software as a service (SaaS) featuring software for processing, analyzing, and displaying aerial surveillance data; design and development of unmanned aerial vehicle systems for security applications; Software as a service (SAAS) services featuring software for operating a security system using robots."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 045",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1a"
+     ],
+     "attorney": "Diana S. Bae",
+     "firstUseAnyDate": "2016-01-31",
+     "markDescription": [
+      "Color is not claimed as a feature of the mark.",
+      "The mark consists of four curved propeller blades radiating outwards from a central circular negative space, superimposed over a hollow diamond shape composed of four corner brackets pointing outwards."
+     ],
+     "recordLoadDate": "2026-09-22T09:19:22",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50120096",
+    "score": null,
+    "source": {
+     "id": "50120096",
+     "wordmark": "ASLYON ROBOTICS",
+     "markName": null,
+     "ownerName": [
+      "Asylon, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Norristown",
+     "ownerStateCountryAddress": "Pennsylvania 19401, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-21T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Tactical robots; Security surveillance robots; Security patrol robots; Unmanned aerial vehicles (drones) for commercial and industrial security and surveillance purposes.",
+      "IC 045: Autonomous drone-based security surveillance and monitoring services for commercial, industrial, and government facilities; remote security monitoring services using unmanned aerial vehicles.",
+      "IC 042: Software as a service (SaaS) featuring software for controlling, managing, and monitoring autonomous unmanned aerial vehicle operations for security and surveillance purposes; software as a service (SaaS) featuring software for planning and executing autonomous drone flight missions; software as a service (SaaS) featuring software for processing, analyzing, and displaying aerial surveillance data; design and development of unmanned aerial vehicle systems for security applications; Software as a service (SAAS) services featuring software for operating a security system using robots."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 045",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Diana S. Bae",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-22T09:19:22",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50121113",
+    "score": null,
+    "source": {
+     "id": "50121113",
+     "wordmark": "XCELL MUNITIONS",
+     "markName": null,
+     "ownerName": [
+      "Firestorm Labs, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "San Diego",
+     "ownerStateCountryAddress": "California 92123, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-21T00:00:00",
+     "goodsAndServices": [
+      "IC 040: Manufacturing services for others in the field of drones and unmanned aerial vehicles."
+     ],
+     "internationalClass": [
+      "IC 040"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Kari Moyer-Henry",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-22T09:19:22",
+     "alive": true,
+     "markType": [
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50120068",
+    "score": null,
+    "source": {
+     "id": "50120068",
+     "wordmark": "ASYLON",
+     "markName": null,
+     "ownerName": [
+      "Asylon, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Norristown",
+     "ownerStateCountryAddress": "Pennsylvania 19401, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-21T00:00:00",
+     "goodsAndServices": [
+      "IC 042: Software as a service (SaaS) featuring software for controlling, managing, and monitoring autonomous unmanned aerial vehicle operations for security and surveillance purposes; software as a service (SaaS) featuring software for planning and executing autonomous drone flight missions; software as a service (SaaS) featuring software for processing, analyzing, and displaying aerial surveillance data; design and development of unmanned aerial vehicle systems for security applications; Software as a service (SAAS) services featuring software for operating a security system using robots.",
+      "IC 009: Tactical robots; Security surveillance robots; Security patrol robots; Unmanned aerial vehicles (drones) for commercial and industrial security and surveillance purposes.",
+      "IC 045: Autonomous drone-based security surveillance and monitoring services for commercial, industrial, and government facilities; remote security monitoring services using unmanned aerial vehicles."
+     ],
+     "internationalClass": [
+      "IC 042",
+      "IC 009",
+      "IC 045"
+     ],
+     "currentBasis": [
+      "1a"
+     ],
+     "attorney": "Diana S. Bae",
+     "firstUseAnyDate": "2016-01-31",
+     "markDescription": [],
+     "recordLoadDate": "2026-09-22T09:19:22",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50121097",
+    "score": null,
+    "source": {
+     "id": "50121097",
+     "wordmark": "XCELL POLYMER",
+     "markName": null,
+     "ownerName": [
+      "Firestorm Labs, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "San Diego",
+     "ownerStateCountryAddress": "California 92123, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-21T00:00:00",
+     "goodsAndServices": [
+      "IC 040: Manufacturing services for others in the field of drones and unmanned aerial vehicles."
+     ],
+     "internationalClass": [
+      "IC 040"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Kari Moyer-Henry",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-22T09:19:22",
+     "alive": true,
+     "markType": [
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50111237",
+    "score": null,
+    "source": {
+     "id": "50111237",
+     "wordmark": "AUTUM",
+     "markName": null,
+     "ownerName": [
+      "Autum, Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Bloomington",
+     "ownerStateCountryAddress": "Indiana 47403, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-16T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Downloadable software for programming, operating, and controlling drones, unmanned aerial vehicles (UAVs), and unmanned aerial systems.",
+      "IC 042: Software as a service (SAAS) services featuring software for programming, operating, and controlling drones, unmanned aerial vehicles (UAVs), and unmanned aerial systems; Software as a service (SAAS) services featuring software for collecting and analyzing field conditions to generate crop scouting reports; Software as a service (SAAS) services featuring software using artificial intelligence (AI) for programming, operating, and controlling drones, unmanned aerial vehicles (UAVs), and unmanned aerial systems; Software as a service (SAAS) services featuring software using artificial intelligence (AI) for analyzing field conditions and providing information and advice regarding crop selection, crop nutrition, crop health, crop yield, and crop recommendations.",
+      "IC 012: Unmanned aerial vehicles (UAVs); Structural parts for unmanned aerial vehicles (UAVs); Drones; Structural parts for drones; Autonomous air vehicles."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 042",
+      "IC 012"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Samantha S. Thomas",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-17T09:19:14",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106704",
+    "score": null,
+    "source": {
+     "id": "50106704",
+     "wordmark": "THEMIS",
+     "markName": null,
+     "ownerName": [
+      "Flock Group Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Atlanta",
+     "ownerStateCountryAddress": "Georgia 30327, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Automated license plate reader systems primarily comprised of cameras and data processing hardware; audio detection systems comprised of acoustic sensors and cameras; video monitoring systems comprised of cameras, mobile trailers, and integrated computer hardware; downloadable computer software and downloadable mobile applications for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; downloadable computer software and downloadable mobile applications for providing role-based access to public safety information..",
+      "IC 012: Drones and structural parts therefore for security response, law enforcement, emergency response, and public safety; unmanned aerial vehicles (UAVS) for security response, law enforcement, emergency response, and public safety; unmanned aerial systems (UAS) comprised of a drone and drone docking station for security response, law enforcement, emergency response, and public safety; drones in the nature of unmanned aerial vehicles for the purposes of aerial photography, aerial videography, and sound recording for security response, law enforcement, emergency response, and public safety; drones for security response, law enforcement, emergency response, and public safety..",
+      "IC 042: Software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems; software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; software as a service (SAAS) services featuring software for providing role-based access to public safety information.."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Anthony A. Laurentano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106736",
+    "score": null,
+    "source": {
+     "id": "50106736",
+     "wordmark": "ASTRAYA",
+     "markName": null,
+     "ownerName": [
+      "Flock Group Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Atlanta",
+     "ownerStateCountryAddress": "Georgia 30327, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Automated license plate reader systems primarily comprised of cameras and data processing hardware; audio detection systems comprised of acoustic sensors and cameras; video monitoring systems comprised of cameras, mobile trailers, and integrated computer hardware; downloadable computer software and downloadable mobile applications for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; downloadable computer software and downloadable mobile applications for providing role-based access to public safety information..",
+      "IC 012: Drones and structural parts therefore for security response, law enforcement, emergency response, and public safety; unmanned aerial vehicles (UAVS) for security response, law enforcement, emergency response, and public safety; unmanned aerial systems (UAS) comprised of a drone and drone docking station for security response, law enforcement, emergency response, and public safety; drones in the nature of unmanned aerial vehicles for the purposes of aerial photography, aerial videography, and sound recording for security response, law enforcement, emergency response, and public safety; drones for security response, law enforcement, emergency response, and public safety..",
+      "IC 042: Software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems; software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; software as a service (SAAS) services featuring software for providing role-based access to public safety information.."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Anthony A. Laurentano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106121",
+    "score": null,
+    "source": {
+     "id": "50106121",
+     "wordmark": "IDES",
+     "markName": null,
+     "ownerName": [
+      "Veteran Drone Services LLC (LIMITED LIABILITY COMPANY; Kentucky, USA)"
+     ],
+     "ownerCity": "Cadiz",
+     "ownerStateCountryAddress": "Kentucky 42211, UNITED STATES",
+     "ownerEntity": "LIMITED LIABILITY COMPANY",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones; Trailers; Unmanned aerial vehicles (UAVs) and structural parts therefor.",
+      "IC 042: Providing a website featuring resources, namely, non-downloadable software for building, sustaining, and scaling unmanned aircraft systems and counter-unmanned aircraft systems."
+     ],
+     "internationalClass": [
+      "IC 012",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Trevor T Graves",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106727",
+    "score": null,
+    "source": {
+     "id": "50106727",
+     "wordmark": "HALCYON",
+     "markName": null,
+     "ownerName": [
+      "Flock Group Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Atlanta",
+     "ownerStateCountryAddress": "Georgia 30327, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Automated license plate reader systems primarily comprised of cameras and data processing hardware; audio detection systems comprised of acoustic sensors and cameras; video monitoring systems comprised of cameras, mobile trailers, and integrated computer hardware; downloadable computer software and downloadable mobile applications for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; downloadable computer software and downloadable mobile applications for providing role-based access to public safety information..",
+      "IC 012: Drones and structural parts therefore for security response, law enforcement, emergency response, and public safety; unmanned aerial vehicles (UAVS) for security response, law enforcement, emergency response, and public safety; unmanned aerial systems (UAS) comprised of a drone and drone docking station for security response, law enforcement, emergency response, and public safety; drones in the nature of unmanned aerial vehicles for the purposes of aerial photography, aerial videography, and sound recording for security response, law enforcement, emergency response, and public safety; drones for security response, law enforcement, emergency response, and public safety..",
+      "IC 042: Software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems; software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; software as a service (SAAS) services featuring software for providing role-based access to public safety information.."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Anthony A. Laurentano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106684",
+    "score": null,
+    "source": {
+     "id": "50106684",
+     "wordmark": "ADASTRA",
+     "markName": null,
+     "ownerName": [
+      "Flock Group Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Atlanta",
+     "ownerStateCountryAddress": "Georgia 30327, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones and structural parts therefore for security response, law enforcement, emergency response, and public safety; unmanned aerial vehicles (UAVS) for security response, law enforcement, emergency response, and public safety; unmanned aerial systems (UAS) comprised of a drone and drone docking station for security response, law enforcement, emergency response, and public safety; drones in the nature of unmanned aerial vehicles for the purposes of aerial photography, aerial videography, and sound recording for security response, law enforcement, emergency response, and public safety; drones for security response, law enforcement, emergency response, and public safety..",
+      "IC 009: Automated license plate reader systems primarily comprised of cameras and data processing hardware; audio detection systems comprised of acoustic sensors and cameras; video monitoring systems comprised of cameras, mobile trailers, and integrated computer hardware; downloadable computer software and downloadable mobile applications for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; downloadable computer software and downloadable mobile applications for providing role-based access to public safety information..",
+      "IC 042: Software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems; software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; software as a service (SAAS) services featuring software for providing role-based access to public safety information.."
+     ],
+     "internationalClass": [
+      "IC 012",
+      "IC 009",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Anthony A. Laurentano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106732",
+    "score": null,
+    "source": {
+     "id": "50106732",
+     "wordmark": "AVENTINE",
+     "markName": null,
+     "ownerName": [
+      "Flock Group Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Atlanta",
+     "ownerStateCountryAddress": "Georgia 30327, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 012: Drones and structural parts therefore for security response, law enforcement, emergency response, and public safety; unmanned aerial vehicles (UAVS) for security response, law enforcement, emergency response, and public safety; unmanned aerial systems (UAS) comprised of a drone and drone docking station for security response, law enforcement, emergency response, and public safety; drones in the nature of unmanned aerial vehicles for the purposes of aerial photography, aerial videography, and sound recording for security response, law enforcement, emergency response, and public safety; drones for security response, law enforcement, emergency response, and public safety..",
+      "IC 009: Automated license plate reader systems primarily comprised of cameras and data processing hardware; audio detection systems comprised of acoustic sensors and cameras; video monitoring systems comprised of cameras, mobile trailers, and integrated computer hardware; downloadable computer software and downloadable mobile applications for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; downloadable computer software and downloadable mobile applications for providing role-based access to public safety information..",
+      "IC 042: Software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems; software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; software as a service (SAAS) services featuring software for providing role-based access to public safety information.."
+     ],
+     "internationalClass": [
+      "IC 012",
+      "IC 009",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Anthony A. Laurentano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   },
+   {
+    "index": "tmsearch-index",
+    "type": "_doc",
+    "id": "50106749",
+    "score": null,
+    "source": {
+     "id": "50106749",
+     "wordmark": "MYELIN",
+     "markName": null,
+     "ownerName": [
+      "Flock Group Inc. (CORPORATION; Delaware, USA)"
+     ],
+     "ownerCity": "Atlanta",
+     "ownerStateCountryAddress": "Georgia 30327, UNITED STATES",
+     "ownerEntity": "CORPORATION",
+     "filedDate": "2026-09-14T00:00:00",
+     "goodsAndServices": [
+      "IC 009: Automated license plate reader systems primarily comprised of cameras and data processing hardware; audio detection systems comprised of acoustic sensors and cameras; video monitoring systems comprised of cameras, mobile trailers, and integrated computer hardware; downloadable computer software and downloadable mobile applications for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; downloadable computer software and downloadable mobile applications for providing role-based access to public safety information..",
+      "IC 012: Drones and structural parts therefore for security response, law enforcement, emergency response, and public safety; unmanned aerial vehicles (UAVS) for security response, law enforcement, emergency response, and public safety; unmanned aerial systems (UAS) comprised of a drone and drone docking station for security response, law enforcement, emergency response, and public safety; drones in the nature of unmanned aerial vehicles for the purposes of aerial photography, aerial videography, and sound recording for security response, law enforcement, emergency response, and public safety; drones for security response, law enforcement, emergency response, and public safety..",
+      "IC 042: Software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems; software as a service (SAAS) services featuring software for public safety and law enforcement agencies for integrating, aggregating, accessing, analyzing, searching, and managing data from multiple sources, namely, computer-aided dispatch (CAD) systems, records management systems (RMS), video systems, license plate recognition (LPR) systems, audio detection systems, sensors, cameras, public records, and other public safety information systems to assist law enforcement, public safety, and emergency response operations and investigative analysis; software as a service (SAAS) services featuring software for providing role-based access to public safety information.."
+     ],
+     "internationalClass": [
+      "IC 009",
+      "IC 012",
+      "IC 042"
+     ],
+     "currentBasis": [
+      "1b"
+     ],
+     "attorney": "Anthony A. Laurentano",
+     "firstUseAnyDate": null,
+     "markDescription": [],
+     "recordLoadDate": "2026-09-15T09:19:04",
+     "alive": true,
+     "markType": [
+      "TRADEMARK",
+      "SERVICE MARK"
+     ]
+    }
+   }
+  ]
+ }
+}

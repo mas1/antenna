@@ -1,0 +1,1958 @@
+{
+ "_note": "DERIVED, not a raw response: primary_doc.xml parsed by the recon parser for the 23 Form D filings (2026-09-01..09-30) that passed the thesis name filter. Shape = suggested normalized record.",
+ "records": [
+  {
+   "cik": "2074745",
+   "accession": "0002074745-26-000001",
+   "form": "D",
+   "filed": "20260909",
+   "name": "Viridian Metals Inc.",
+   "street": "3990 Old Almonte Road",
+   "city": "Almonte",
+   "state": "A6",
+   "zip": "K0A 1A0",
+   "phone": "6046844535",
+   "inc_juris": "BRITISH COLUMBIA, CANADA",
+   "entity_type": "Corporation",
+   "year_inc": "2021",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other",
+   "fund_type": null,
+   "revenue": "No Revenues",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-04",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType",
+    "isOptionToAcquireType"
+   ],
+   "other_sec": null,
+   "min_inv": "1",
+   "total_offering": "382446",
+   "sold": "382446",
+   "remaining": "0",
+   "n_investors": "4",
+   "non_accred": "false",
+   "signer": "Andrew Hunter",
+   "signer_title": "Corporate Secretary",
+   "sig_date": "2026-09-09",
+   "persons": [
+    {
+     "first": "Tyrell",
+     "middle": null,
+     "last": "Sutherland",
+     "city": "Toronto",
+     "state": "A6",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Sabino",
+     "middle": "Roberto",
+     "last": "Di Paola",
+     "city": "Orleans",
+     "state": "A6",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Lee",
+     "middle": "Phllip",
+     "last": "Bowles",
+     "city": "Toronto",
+     "state": "A6",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Alan",
+     "middle": null,
+     "last": "Grujic",
+     "city": "San Rafael",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Stacie",
+     "middle": null,
+     "last": "Clark",
+     "city": "Port Moody",
+     "state": "A1",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Andrew",
+     "middle": null,
+     "last": "Hunter",
+     "city": "Clarkston",
+     "state": "X0",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Sebastien",
+     "middle": null,
+     "last": "Charles",
+     "city": "Gatineau",
+     "state": "A8",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2152422",
+   "accession": "0002152422-26-000001",
+   "form": "D",
+   "filed": "20260923",
+   "name": "USX ROBOT CORP.",
+   "street": "20520 CARREY RD",
+   "city": "WALNUT",
+   "state": "CA",
+   "zip": "91789",
+   "phone": "917-428-5586",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2026",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-18",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "2000000",
+   "sold": "150000",
+   "remaining": "1850000",
+   "n_investors": "1",
+   "non_accred": "false",
+   "signer": "Chao Jiang",
+   "signer_title": "CEO",
+   "sig_date": "2026-09-23",
+   "persons": [
+    {
+     "first": "Chao",
+     "middle": null,
+     "last": "Jiang",
+     "city": "Walnut",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Yuan",
+     "middle": null,
+     "last": "Jiang",
+     "city": "Walnut",
+     "state": "CA",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Ting",
+     "middle": null,
+     "last": "Zhao",
+     "city": "Walnut",
+     "state": "CA",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2154122",
+   "accession": "0001213900-26-099351",
+   "form": "D",
+   "filed": "20260911",
+   "name": "STRIXDRONES USA Inc",
+   "street": "7790 S. WHEELING CT.",
+   "city": "CENTENNIAL",
+   "state": "CO",
+   "zip": "80112",
+   "phone": "303-502-5035",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2022",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-28",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "7199952",
+   "sold": "4999955",
+   "remaining": "2199997",
+   "n_investors": "3",
+   "non_accred": "false",
+   "signer": "Justin Steinke",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-11",
+   "persons": [
+    {
+     "first": "Justin",
+     "middle": null,
+     "last": "Steinke",
+     "city": "Centennial",
+     "state": "CO",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": "Chief Executive Officer and Director"
+    },
+    {
+     "first": "Niv",
+     "middle": null,
+     "last": "Aharoni",
+     "city": "Centennial",
+     "state": "CO",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "McKay",
+     "middle": null,
+     "last": "Dunn",
+     "city": "Centennial",
+     "state": "CO",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2155141",
+   "accession": "0002155141-26-000001",
+   "form": "D",
+   "filed": "20260916",
+   "name": "Gaia Dynamics Corp.",
+   "street": "195 PAGE MILL ROAD, SUITE 115",
+   "city": "PALO ALTO",
+   "state": "CA",
+   "zip": "94306",
+   "phone": "650-209-0959",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2024",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-01",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType",
+    "isSecurityToBeAcquiredType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "8585054",
+   "sold": "8585054",
+   "remaining": "0",
+   "n_investors": "6",
+   "non_accred": "false",
+   "signer": "Emil Stefanutti",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-16",
+   "persons": [
+    {
+     "first": "Emil",
+     "middle": null,
+     "last": "Stefanutti",
+     "city": "Palo Alto",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "David",
+     "middle": null,
+     "last": "Sobie",
+     "city": "Palo Alto",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "James",
+     "middle": "Gregory",
+     "last": "Johnston",
+     "city": "Palo Alto",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Thomas",
+     "middle": null,
+     "last": "Gould",
+     "city": "Palo Alto",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2074867",
+   "accession": "0001213900-26-101361",
+   "form": "D",
+   "filed": "20260918",
+   "name": "1st American Nuclear Co.",
+   "street": "310 E. 96TH STREET, SUITE 100",
+   "city": "INDIANAPOLIS",
+   "state": "IN",
+   "zip": "46240",
+   "phone": "844 813 2626",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2025",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Energy",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-03",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType",
+    "isDebtType"
+   ],
+   "other_sec": null,
+   "min_inv": "1000000",
+   "total_offering": "25000000",
+   "sold": "1000000",
+   "remaining": "24000000",
+   "n_investors": "1",
+   "non_accred": "false",
+   "signer": "Michael Reinboth",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-18",
+   "persons": [
+    {
+     "first": "Michael",
+     "middle": null,
+     "last": "Reinboth",
+     "city": "Indianapolis",
+     "state": "IN",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": "Chief Executive Officer"
+    },
+    {
+     "first": "Nicholas",
+     "middle": null,
+     "last": "Burnett",
+     "city": "Indianapolis",
+     "state": "IN",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": "Chief Operating Officer"
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2155302",
+   "accession": "0000891839-26-000413",
+   "form": "D",
+   "filed": "20260930",
+   "name": "Grex Defense, Inc.",
+   "street": "14317 SPYGLASS HILL PLACE",
+   "city": "COLORADO SPRINGS",
+   "state": "CO",
+   "zip": "80921",
+   "phone": "202-788-5515",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2026",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-18",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isOtherType"
+   ],
+   "other_sec": "SAFE (Simple Agreement for Future Equity)",
+   "min_inv": "0",
+   "total_offering": "3000000",
+   "sold": "525000",
+   "remaining": "2475000",
+   "n_investors": "8",
+   "non_accred": "false",
+   "signer": "Patric Reilly",
+   "signer_title": "VP, Corporate Development",
+   "sig_date": "2026-09-30",
+   "persons": [
+    {
+     "first": "Bradford",
+     "middle": null,
+     "last": "Powell",
+     "city": "Colorado Springs",
+     "state": "CO",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Brett",
+     "middle": null,
+     "last": "Plentl",
+     "city": "Colorado Springs",
+     "state": "CO",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "John",
+     "middle": null,
+     "last": "Harris",
+     "city": "Colorado Springs",
+     "state": "CO",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Patric",
+     "middle": null,
+     "last": "Reilly",
+     "city": "Colorado Springs",
+     "state": "CO",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2156622",
+   "accession": "0002156622-26-000001",
+   "form": "D",
+   "filed": "20260924",
+   "name": "Path Power, Inc.",
+   "street": "1230 5TH ST",
+   "city": "BERKELEY",
+   "state": "CA",
+   "zip": "94710",
+   "phone": "302-652-2900",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2025",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-09",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType",
+    "isOptionToAcquireType",
+    "isSecurityToBeAcquiredType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "11681997",
+   "sold": "11681997",
+   "remaining": "0",
+   "n_investors": "23",
+   "non_accred": "false",
+   "signer": "Zachary Judkins",
+   "signer_title": "CEO",
+   "sig_date": "2026-09-22",
+   "persons": [
+    {
+     "first": "Zachary",
+     "middle": null,
+     "last": "Judkins",
+     "city": "Berkeley",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Jack",
+     "middle": null,
+     "last": "Peurach",
+     "city": "Berkeley",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2153243",
+   "accession": "0002153243-26-000001",
+   "form": "D",
+   "filed": "20260902",
+   "name": "ForgeVista Inc.",
+   "street": "980 N. MICHIGAN AVENUE",
+   "city": "CHICAGO",
+   "state": "IL",
+   "zip": "60611",
+   "phone": "2482076041",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2026",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-06-18",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isOtherType"
+   ],
+   "other_sec": "Convertible Notes",
+   "min_inv": "0",
+   "total_offering": "Indefinite",
+   "sold": "550000",
+   "remaining": "Indefinite",
+   "n_investors": "1",
+   "non_accred": "false",
+   "signer": "Kyle Rasmussen",
+   "signer_title": "President",
+   "sig_date": "2026-09-02",
+   "persons": [
+    {
+     "first": "Kyle",
+     "middle": null,
+     "last": "Rasmussen",
+     "city": "Chicago",
+     "state": "IL",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": "President"
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "1938570",
+   "accession": "0001193125-26-401614",
+   "form": "D",
+   "filed": "20260925",
+   "name": "Blue Laser Fusion, Inc.",
+   "street": "6950 Hollister Ave.",
+   "city": "Goleta",
+   "state": "CA",
+   "zip": "93117",
+   "phone": "650-906-0323",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2022",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-04",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "50000000",
+   "sold": "25032287",
+   "remaining": "24967713",
+   "n_investors": "118",
+   "non_accred": "false",
+   "signer": "Richard Ogawa",
+   "signer_title": "General Counsel and Secretary",
+   "sig_date": "2026-09-24",
+   "persons": [
+    {
+     "first": "Richard",
+     "middle": null,
+     "last": "Ogawa",
+     "city": "Goleta",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Shuji",
+     "middle": null,
+     "last": "Nakamura",
+     "city": "Goleta",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Paul",
+     "middle": null,
+     "last": "Rudy",
+     "city": "Goleta",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Vanessa Ann",
+     "middle": null,
+     "last": "Truong",
+     "city": "Goleta",
+     "state": "CA",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Mathew",
+     "middle": null,
+     "last": "August",
+     "city": "Goleta",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Jeffrey",
+     "middle": null,
+     "last": "Shealy",
+     "city": "Goleta",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2155434",
+   "accession": "0002155434-26-000001",
+   "form": "D",
+   "filed": "20260921",
+   "name": "Parallel Robotics, Inc.",
+   "street": "3810 PACKARD STREET",
+   "city": "ANN ARBOR",
+   "state": "MI",
+   "zip": "48108",
+   "phone": "(518) 577-5500",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2026",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-28",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType",
+    "isOtherType"
+   ],
+   "other_sec": "Offering includes shares of preferred stock issued upon conversion of $6,310,206 in convertible promissory notes.",
+   "min_inv": "250000",
+   "total_offering": "11310187",
+   "sold": "7310193",
+   "remaining": "3999994",
+   "n_investors": "32",
+   "non_accred": "false",
+   "signer": "Shorya Awtar",
+   "signer_title": "CEO",
+   "sig_date": "2026-09-21",
+   "persons": [
+    {
+     "first": "Shorya",
+     "middle": null,
+     "last": "Awtar",
+     "city": "Ann Arbor",
+     "state": "MI",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": "CEO"
+    },
+    {
+     "first": "Omar",
+     "middle": null,
+     "last": "Roushdy",
+     "city": "Ann Arbor",
+     "state": "MI",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Shyam",
+     "middle": null,
+     "last": "Maheshwari",
+     "city": "Ann Arbor",
+     "state": "MI",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2155066",
+   "accession": "0002155066-26-000002",
+   "form": "D",
+   "filed": "20260916",
+   "name": "DVx Atomic Co.",
+   "street": "177 HUNTINGTON AVE",
+   "city": "BOSTON",
+   "state": "MA",
+   "zip": "02115",
+   "phone": "415-521-4529",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2023",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-01",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "18510980",
+   "sold": "18510980",
+   "remaining": "0",
+   "n_investors": "13",
+   "non_accred": "false",
+   "signer": "Michael Rossiter",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-16",
+   "persons": [
+    {
+     "first": "Michael",
+     "middle": null,
+     "last": "Rossiter",
+     "city": "BOSTON",
+     "state": "MA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Chris",
+     "middle": null,
+     "last": "Hutton",
+     "city": "BOSTON",
+     "state": "MA",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Jon",
+     "middle": null,
+     "last": "McNeill",
+     "city": "BOSTON",
+     "state": "MA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Ganesh",
+     "middle": null,
+     "last": "Srivats",
+     "city": "BOSTON",
+     "state": "MA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Adrian",
+     "middle": null,
+     "last": "Schauer",
+     "city": "BOSTON",
+     "state": "MA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Matt",
+     "middle": null,
+     "last": "McIlwain",
+     "city": "BOSTON",
+     "state": "MA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2146282",
+   "accession": "0002146282-26-000002",
+   "form": "D",
+   "filed": "20260902",
+   "name": "Radian Forge Inc.",
+   "street": "176 LINCOLN STREET",
+   "city": "PORTSMOUTH",
+   "state": "VA",
+   "zip": "23704",
+   "phone": "2512296924",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2025",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Manufacturing",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-27",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "250875",
+   "total_offering": "3000000",
+   "sold": "2301750",
+   "remaining": "698250",
+   "n_investors": "4",
+   "non_accred": "false",
+   "signer": "Jeffrey Yeager",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-02",
+   "persons": [
+    {
+     "first": "Jeffrey",
+     "middle": "Allen",
+     "last": "Yeager",
+     "city": "Portsmouth",
+     "state": "VA",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Jerry",
+     "middle": null,
+     "last": "Miller",
+     "city": "Portsmouth",
+     "state": "VA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Steven",
+     "middle": null,
+     "last": "McSweeney",
+     "city": "Portsmouth",
+     "state": "VA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Joshua",
+     "middle": null,
+     "last": "Weed",
+     "city": "Portsmouth",
+     "state": "VA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2125928",
+   "accession": "0002125928-26-000003",
+   "form": "D",
+   "filed": "20260904",
+   "name": "BlueCore Energy, Inc.",
+   "street": "1251 W PIER D ST.",
+   "city": "LONG BEACH",
+   "state": "FL",
+   "zip": "90802",
+   "phone": "5123636202",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2025",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Energy",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-20",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "21810060",
+   "sold": "19405042",
+   "remaining": "2405018",
+   "n_investors": "24",
+   "non_accred": "false",
+   "signer": "Kofi Asante",
+   "signer_title": "CEO",
+   "sig_date": "2026-09-03",
+   "persons": [
+    {
+     "first": "Kofi",
+     "middle": null,
+     "last": "Asante",
+     "city": "Long Beach",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Austin",
+     "middle": null,
+     "last": "Clements",
+     "city": "Long Beach",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2152327",
+   "accession": "0002152327-26-000001",
+   "form": "D",
+   "filed": "20260914",
+   "name": "Apex Munitions Holdings Inc",
+   "street": "71 REMINGTON RD",
+   "city": "SUNDANCE",
+   "state": "WY",
+   "zip": "82729",
+   "phone": "6032760561",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2022",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Manufacturing",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06c"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-07-31",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "50000",
+   "total_offering": "3300000",
+   "sold": "500000",
+   "remaining": "2800000",
+   "n_investors": "1",
+   "non_accred": "false",
+   "signer": "David Stark",
+   "signer_title": "CEO",
+   "sig_date": "2026-09-14",
+   "persons": [
+    {
+     "first": "David",
+     "middle": null,
+     "last": "Stark",
+     "city": "SUNDANCE",
+     "state": "WY",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2150288",
+   "accession": "0002150288-26-000001",
+   "form": "D",
+   "filed": "20260910",
+   "name": "Argo Energy Solutions, Inc., a Texas Corp",
+   "street": "875 NORTH CAPITAL #50307",
+   "city": "IDAHO FALLS",
+   "state": "ID",
+   "zip": "83405",
+   "phone": "208-589-9669",
+   "inc_juris": "TEXAS",
+   "entity_type": "Corporation",
+   "year_inc": "2026",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "No Revenues",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": null,
+   "yet_to_occur": "true",
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "10000",
+   "total_offering": "50000000",
+   "sold": "0",
+   "remaining": "50000000",
+   "n_investors": "0",
+   "non_accred": "true",
+   "signer": "Hillary Morgan",
+   "signer_title": "Secretary",
+   "sig_date": "2026-09-10",
+   "persons": [
+    {
+     "first": "Jennifer",
+     "middle": null,
+     "last": "Porter",
+     "city": "Idaho Falls",
+     "state": "ID",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": "President & CEO, Executive Chairman"
+    },
+    {
+     "first": "Hillary",
+     "middle": null,
+     "last": "Morgan",
+     "city": "Idaho Falls",
+     "state": "ID",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": "General Counsel & Secretary, Director"
+    },
+    {
+     "first": "Emily",
+     "middle": null,
+     "last": "Morgan",
+     "city": "Idaho Falls",
+     "state": "ID",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": "Chief Technology Officer, Director"
+    },
+    {
+     "first": "Ben",
+     "middle": null,
+     "last": "Mason",
+     "city": "Idaho Falls",
+     "state": "ID",
+     "roles": [
+      "Director"
+     ],
+     "clar": "Director"
+    },
+    {
+     "first": "Devan",
+     "middle": null,
+     "last": "Thompson",
+     "city": "Idaho Falls",
+     "state": "ID",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": "Chief Development Officer, Director"
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2154835",
+   "accession": "0002154835-26-000001",
+   "form": "D",
+   "filed": "20260914",
+   "name": "Voltwing Energy, Inc.",
+   "street": "300 STATE ST",
+   "city": "KNOXVILLE",
+   "state": "TN",
+   "zip": "37902",
+   "phone": "5162366661",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2026",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Energy",
+   "fund_type": null,
+   "revenue": "No Revenues",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-31",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isDebtType"
+   ],
+   "other_sec": null,
+   "min_inv": "100000",
+   "total_offering": "2000000",
+   "sold": "400000",
+   "remaining": "1600000",
+   "n_investors": "1",
+   "non_accred": "false",
+   "signer": "Ellie Sousa",
+   "signer_title": "Attorney",
+   "sig_date": "2026-09-14",
+   "persons": [
+    {
+     "first": "Donald",
+     "middle": "Michael",
+     "last": "DeRosa",
+     "city": "Knoxville",
+     "state": "TN",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "1999613",
+   "accession": "0001999613-26-000004",
+   "form": "D",
+   "filed": "20260909",
+   "name": "Faradyne Power System Corp.",
+   "street": "2828 CORAL WAY",
+   "city": "MIAMI",
+   "state": "FL",
+   "zip": "33145",
+   "phone": "305-600-9688",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2023",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "No Revenues",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2023-11-03",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "20000",
+   "total_offering": "2061087",
+   "sold": "2061087",
+   "remaining": "0",
+   "n_investors": "29",
+   "non_accred": "false",
+   "signer": "Paul Robert Burke",
+   "signer_title": "Director + CFO",
+   "sig_date": "2026-09-08",
+   "persons": [
+    {
+     "first": "Curtis",
+     "middle": null,
+     "last": "Pohl",
+     "city": "Miami",
+     "state": "FL",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Jose",
+     "middle": null,
+     "last": "Tost",
+     "city": "Miami",
+     "state": "FL",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Sam",
+     "middle": null,
+     "last": "Weaver",
+     "city": "Miami",
+     "state": "FL",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Lloyd",
+     "middle": "Blain",
+     "last": "Nicholls",
+     "city": "Miami",
+     "state": "FL",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Paul",
+     "middle": null,
+     "last": "Burke",
+     "city": "Miami",
+     "state": "FL",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Carlos",
+     "middle": null,
+     "last": "Tejera",
+     "city": "Miami",
+     "state": "FL",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Promoter"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2134746",
+   "accession": "0002134746-26-000002",
+   "form": "D",
+   "filed": "20260908",
+   "name": "Salem Robotics, Inc.",
+   "street": "415 COLORADO ST.",
+   "city": "AUSTIN",
+   "state": "TX",
+   "zip": "78701",
+   "phone": "505-699-5384",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2024",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-05-13",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isOtherType"
+   ],
+   "other_sec": "Simple Agreement for Future Equity",
+   "min_inv": "0",
+   "total_offering": "5100000",
+   "sold": "1819500",
+   "remaining": "3280500",
+   "n_investors": "5",
+   "non_accred": "false",
+   "signer": "Caleb Horan",
+   "signer_title": "CEO",
+   "sig_date": "2026-09-08",
+   "persons": [
+    {
+     "first": "Caleb",
+     "middle": null,
+     "last": "Horan",
+     "city": "Austin",
+     "state": "TX",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Janak",
+     "middle": null,
+     "last": "Panthi",
+     "city": "Austin",
+     "state": "TX",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2046192",
+   "accession": "0002046192-26-000004",
+   "form": "D",
+   "filed": "20260923",
+   "name": "Mojave Energy Systems, Inc.",
+   "street": "623 N PASTORIA AVE",
+   "city": "SUNNYVALE",
+   "state": "CA",
+   "zip": "94085",
+   "phone": "408-675-6020",
+   "inc_juris": "DELAWARE",
+   "entity_type": "Corporation",
+   "year_inc": "2022",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Technology",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-05-08",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "27271728",
+   "sold": "24976722",
+   "remaining": "2295006",
+   "n_investors": "12",
+   "non_accred": "false",
+   "signer": "Philip C. Farese",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-23",
+   "persons": [
+    {
+     "first": "Philip",
+     "middle": "C.",
+     "last": "Farese",
+     "city": "Sunnyvale",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Warren",
+     "middle": null,
+     "last": "Packard",
+     "city": "Sunnyvale",
+     "state": "CA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Anastasia",
+     "middle": null,
+     "last": "Istratova",
+     "city": "Sunnyvale",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Luke",
+     "middle": null,
+     "last": "Zhan",
+     "city": "Sunnyvale",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "John",
+     "middle": null,
+     "last": "Galbraith",
+     "city": "Sunnyvale",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "David",
+     "middle": null,
+     "last": "Evans",
+     "city": "Sunnyvale",
+     "state": "CA",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2098726",
+   "accession": "0002098726-26-000001",
+   "form": "D",
+   "filed": "20260916",
+   "name": "Varda Fusion Systems Inc.",
+   "street": "11564 - 149 STREET NW",
+   "city": "EDMONTON",
+   "state": "A0",
+   "zip": "T5M 1W7",
+   "phone": "825-842-7632",
+   "inc_juris": "ALBERTA, CANADA",
+   "entity_type": "Corporation",
+   "year_inc": "2025",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2025-08-11",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "33000",
+   "total_offering": "436667",
+   "sold": "436667",
+   "remaining": "0",
+   "n_investors": "1",
+   "non_accred": "false",
+   "signer": "Callum Hanton",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-16",
+   "persons": [
+    {
+     "first": "Mark",
+     "middle": "D.",
+     "last": "Johnson",
+     "city": "Excelsior",
+     "state": "MN",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Callum",
+     "middle": null,
+     "last": "Hanton",
+     "city": "Edmonton",
+     "state": "A0",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Paul",
+     "middle": "M.",
+     "last": "McNulty",
+     "city": "New York",
+     "state": "NY",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2098726",
+   "accession": "0002098726-26-000002",
+   "form": "D",
+   "filed": "20260916",
+   "name": "Varda Fusion Systems Inc.",
+   "street": "11564 - 149 STREET NW",
+   "city": "EDMONTON",
+   "state": "A0",
+   "zip": "T5M 1W7",
+   "phone": "825-842-7632",
+   "inc_juris": "ALBERTA, CANADA",
+   "entity_type": "Corporation",
+   "year_inc": "2025",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-07-13",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isEquityType"
+   ],
+   "other_sec": null,
+   "min_inv": "33000",
+   "total_offering": "302500",
+   "sold": "302500",
+   "remaining": "0",
+   "n_investors": "2",
+   "non_accred": "false",
+   "signer": "Callum Hanton",
+   "signer_title": "Chief Executive Officer",
+   "sig_date": "2026-09-16",
+   "persons": [
+    {
+     "first": "Mark",
+     "middle": "D.",
+     "last": "Johnson",
+     "city": "Excelsior",
+     "state": "MN",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Callum",
+     "middle": null,
+     "last": "Hanton",
+     "city": "Edmonton",
+     "state": "A0",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Paul",
+     "middle": "M.",
+     "last": "McNulty",
+     "city": "New York",
+     "state": "NY",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "2155507",
+   "accession": "0002155507-26-000001",
+   "form": "D",
+   "filed": "20260916",
+   "name": "Rise Energy Inc",
+   "street": "1200 HWY 65",
+   "city": "COLO",
+   "state": "IA",
+   "zip": "50056",
+   "phone": "5155203685",
+   "inc_juris": "IOWA",
+   "entity_type": "Corporation",
+   "year_inc": "2022",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Energy",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-09-15",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isDebtType"
+   ],
+   "other_sec": null,
+   "min_inv": "10000",
+   "total_offering": "3000000",
+   "sold": "500000",
+   "remaining": "2500000",
+   "n_investors": "2",
+   "non_accred": "false",
+   "signer": "Jordan Funkhouser",
+   "signer_title": "COO",
+   "sig_date": "2026-09-16",
+   "persons": [
+    {
+     "first": "Jordan",
+     "middle": null,
+     "last": "Funkhouser",
+     "city": "Colo",
+     "state": "IA",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  },
+  {
+   "cik": "1894954",
+   "accession": "0001903596-26-000343",
+   "form": "D",
+   "filed": "20260908",
+   "name": "Expion Energy, Inc.",
+   "street": "2025 SW DEERHOUND AVE",
+   "city": "REDMOND",
+   "state": "OR",
+   "zip": "97756",
+   "phone": "541 -797-6714",
+   "inc_juris": "NEVADA",
+   "entity_type": "Corporation",
+   "year_inc": "2021",
+   "within5": "true",
+   "yet_to_form": null,
+   "prev_names": [],
+   "industry": "Other Energy",
+   "fund_type": null,
+   "revenue": "Decline to Disclose",
+   "nav": null,
+   "exemptions": [
+    "06b"
+   ],
+   "is_amend": "false",
+   "first_sale": "2026-08-21",
+   "yet_to_occur": null,
+   "sec_types": [
+    "isDebtType",
+    "isOptionToAcquireType",
+    "isSecurityToBeAcquiredType"
+   ],
+   "other_sec": null,
+   "min_inv": "0",
+   "total_offering": "100000000",
+   "sold": "9000000",
+   "remaining": "91000000",
+   "n_investors": "3",
+   "non_accred": "false",
+   "signer": "Shawna Bowin",
+   "signer_title": "Vice President, Finance",
+   "sig_date": "2026-09-08",
+   "persons": [
+    {
+     "first": "Kevin",
+     "middle": null,
+     "last": "Sellers",
+     "city": "Redmond",
+     "state": "OR",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Scott",
+     "middle": null,
+     "last": "Burell",
+     "city": "Redmond",
+     "state": "OR",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "George",
+     "middle": null,
+     "last": "Lefevre",
+     "city": "Redmond",
+     "state": "OR",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Steven",
+     "middle": "M",
+     "last": "Shum",
+     "city": "Redmond",
+     "state": "OR",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Marc",
+     "middle": null,
+     "last": "Jarvis",
+     "city": "Redmond",
+     "state": "OR",
+     "roles": [
+      "Director"
+     ],
+     "clar": null
+    },
+    {
+     "first": "Robert",
+     "middle": null,
+     "last": "Winspear",
+     "city": "Redmond",
+     "state": "OR",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clar": null
+    }
+   ],
+   "n_issuers": 1
+  }
+ ]
+}

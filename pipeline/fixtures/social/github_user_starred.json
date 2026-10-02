@@ -1,0 +1,218 @@
+[
+ {
+  "starred_at": "2026-10-01T19:48:29Z",
+  "repo": {
+   "id": 1391117868,
+   "full_name": "Pantheon-Industries-Inc/argus",
+   "html_url": "https://github.com/Pantheon-Industries-Inc/argus",
+   "description": "Argus is an open source dataset-and-format-agnostic harness for the densest annotation of robot learning data.",
+   "homepage": "https://pantheon.inc/research/argus",
+   "stargazers_count": 17,
+   "forks_count": 5,
+   "created_at": "2026-09-27T16:20:11Z",
+   "pushed_at": "2026-10-01T17:47:00Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "Pantheon-Industries-Inc",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-10-01T19:18:26Z",
+  "repo": {
+   "id": 1167823778,
+   "full_name": "microsoft/azure-skills",
+   "html_url": "https://github.com/microsoft/azure-skills",
+   "description": "Official agent plugin providing skills and MCP server configurations for Azure scenarios.",
+   "homepage": "",
+   "stargazers_count": 1522,
+   "forks_count": 251,
+   "created_at": "2026-02-26T18:13:14Z",
+   "pushed_at": "2026-10-01T16:37:20Z",
+   "language": "Shell",
+   "topics": [
+    "agent-skills"
+   ],
+   "owner": {
+    "login": "microsoft",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-10-01T16:01:11Z",
+  "repo": {
+   "id": 1247864171,
+   "full_name": "TX-Leo/HumanEgo",
+   "html_url": "https://github.com/TX-Leo/HumanEgo",
+   "description": "HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos",
+   "homepage": "https://humanego-ai.github.io",
+   "stargazers_count": 559,
+   "forks_count": 55,
+   "created_at": "2026-05-23T22:10:35Z",
+   "pushed_at": "2026-09-22T19:38:43Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "TX-Leo",
+    "type": "User"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-10-01T15:28:32Z",
+  "repo": {
+   "id": 1028584297,
+   "full_name": "facebookresearch/sam-3d-body",
+   "html_url": "https://github.com/facebookresearch/sam-3d-body",
+   "description": "The repository provides code for running inference with the SAM 3D Body Model (3DB), links for downloading the trained model checkpoints and datasets, and example notebooks that show how to use the model.",
+   "homepage": "",
+   "stargazers_count": 3589,
+   "forks_count": 424,
+   "created_at": "2025-07-29T18:43:11Z",
+   "pushed_at": "2026-02-19T18:16:10Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "facebookresearch",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-10-01T15:28:21Z",
+  "repo": {
+   "id": 1066693881,
+   "full_name": "facebookresearch/sam-3d-objects",
+   "html_url": "https://github.com/facebookresearch/sam-3d-objects",
+   "description": "SAM 3D Objects",
+   "homepage": null,
+   "stargazers_count": 7481,
+   "forks_count": 887,
+   "created_at": "2025-09-29T20:46:40Z",
+   "pushed_at": "2026-06-02T21:16:44Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "facebookresearch",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-10-01T15:21:42Z",
+  "repo": {
+   "id": 1301052830,
+   "full_name": "NVlabs/SimFoundry",
+   "html_url": "https://github.com/NVlabs/SimFoundry",
+   "description": "Modular and Automated Scene Generation for Policy Learning and Evaluation",
+   "homepage": null,
+   "stargazers_count": 404,
+   "forks_count": 30,
+   "created_at": "2026-07-15T00:26:03Z",
+   "pushed_at": "2026-08-27T02:13:12Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "NVlabs",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-09-30T14:00:30Z",
+  "repo": {
+   "id": 438120777,
+   "full_name": "Replicable-MARL/MARLlib",
+   "html_url": "https://github.com/Replicable-MARL/MARLlib",
+   "description": "One repository is all that is necessary for Multi-agent Reinforcement Learning (MARL)",
+   "homepage": "https://marllib.readthedocs.io",
+   "stargazers_count": 1349,
+   "forks_count": 198,
+   "created_at": "2021-12-14T04:47:55Z",
+   "pushed_at": "2024-11-28T07:04:07Z",
+   "language": "Python",
+   "topics": [
+    "deep-reinforcement-learning",
+    "multi-agent-reinforcement-learning",
+    "pytorch",
+    "ray",
+    "rllib"
+   ],
+   "owner": {
+    "login": "Replicable-MARL",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-09-29T18:57:28Z",
+  "repo": {
+   "id": 108288256,
+   "full_name": "RunzheYang/MORL",
+   "html_url": "https://github.com/RunzheYang/MORL",
+   "description": "Multi-Objective Reinforcement Learning",
+   "homepage": null,
+   "stargazers_count": 310,
+   "forks_count": 55,
+   "created_at": "2017-10-25T15:21:01Z",
+   "pushed_at": "2021-08-10T09:42:41Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "RunzheYang",
+    "type": "User"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-09-29T18:52:59Z",
+  "repo": {
+   "id": 1143713032,
+   "full_name": "dynamicmobility/moplayground",
+   "html_url": "https://github.com/dynamicmobility/moplayground",
+   "description": null,
+   "homepage": "https://dynamicmobility.github.io/moplayground/",
+   "stargazers_count": 11,
+   "forks_count": 3,
+   "created_at": "2026-01-27T22:53:35Z",
+   "pushed_at": "2026-09-27T18:26:57Z",
+   "language": "Python",
+   "topics": [],
+   "owner": {
+    "login": "dynamicmobility",
+    "type": "Organization"
+   }
+  }
+ },
+ {
+  "starred_at": "2026-09-28T12:09:53Z",
+  "repo": {
+   "id": 1037367299,
+   "full_name": "ttktjmt/mjswan",
+   "html_url": "https://github.com/ttktjmt/mjswan",
+   "description": "MuJoco Simulation on WebAssembly with Neural networks",
+   "homepage": "https://mjswan.com",
+   "stargazers_count": 351,
+   "forks_count": 43,
+   "created_at": "2025-08-13T13:17:39Z",
+   "pushed_at": "2026-10-01T05:55:49Z",
+   "language": "Python",
+   "topics": [
+    "mjlab",
+    "mjswan",
+    "mujoco",
+    "mujoco-wasm",
+    "onnx",
+    "reinforcement-learning",
+    "robotics"
+   ],
+   "owner": {
+    "login": "ttktjmt",
+    "type": "User"
+   }
+  }
+ }
+]

@@ -1,0 +1,450 @@
+[
+ {
+  "org": "SpaceX",
+  "aliases": [
+   "Space Exploration Technologies",
+   "Space Exploration Technologies Corp",
+   "SpaceX Starlink",
+   "SpaceX Starship"
+  ],
+  "sector": "space",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Tesla",
+  "aliases": [
+   "Tesla Motors",
+   "Tesla, Inc.",
+   "Tesla Energy",
+   "Tesla Autopilot",
+   "Tesla Optimus",
+   "Tesla Gigafactory"
+  ],
+  "sector": "energy",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Anduril Industries",
+  "aliases": [
+   "Anduril",
+   "Anduril Industries, Inc."
+  ],
+  "sector": "defense",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Palantir Technologies",
+  "aliases": [
+   "Palantir",
+   "Palantir Technologies Inc."
+  ],
+  "sector": "defense",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Boston Dynamics",
+  "aliases": [
+   "Boston Dynamics, Inc.",
+   "Boston Dynamics AI Institute",
+   "RAI Institute",
+   "The AI Institute"
+  ],
+  "sector": "robotics",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Google DeepMind",
+  "aliases": [
+   "DeepMind",
+   "Google Brain",
+   "Google Brain Robotics",
+   "Robotics at Google",
+   "Everyday Robots",
+   "Google X",
+   "DeepMind Applied Robotics"
+  ],
+  "sector": "robotics",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "OpenAI",
+  "aliases": [
+   "OpenAI Robotics",
+   "OpenAI, Inc.",
+   "OpenAI LP"
+  ],
+  "sector": "robotics",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Physical Intelligence",
+  "aliases": [
+   "Physical Intelligence (pi)",
+   "physicalintelligence.company"
+  ],
+  "sector": "robotics",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Waymo",
+  "aliases": [
+   "Google Self-Driving Car Project",
+   "Waymo LLC",
+   "Google Chauffeur"
+  ],
+  "sector": "autonomy",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Skydio",
+  "aliases": [
+   "Skydio, Inc."
+  ],
+  "sector": "drones",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Shield AI",
+  "aliases": [
+   "Shield AI, Inc.",
+   "ShieldAI"
+  ],
+  "sector": "defense",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "NVIDIA",
+  "aliases": [
+   "Nvidia Corporation",
+   "NVIDIA Research",
+   "NVIDIA Robotics",
+   "NVIDIA Isaac",
+   "NVIDIA GEAR Lab"
+  ],
+  "sector": "semiconductors",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Carnegie Mellon",
+  "aliases": [
+   "CMU",
+   "CMU Robotics Institute",
+   "Carnegie Mellon Robotics Institute",
+   "Carnegie Mellon University",
+   "NREC",
+   "National Robotics Engineering Center"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "school"
+ },
+ {
+  "org": "MIT",
+  "aliases": [
+   "MIT Biomimetic Robotics Lab",
+   "MIT CSAIL",
+   "MIT Computer Science and Artificial Intelligence Laboratory",
+   "MIT PSFC",
+   "MIT Plasma Science and Fusion Center",
+   "Massachusetts Institute of Technology"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "school"
+ },
+ {
+  "org": "Stanford",
+  "aliases": [
+   "Stanford AI Lab",
+   "Stanford ILIAD",
+   "Stanford IRIS Lab",
+   "Stanford Robotics",
+   "Stanford University"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "school"
+ },
+ {
+  "org": "UC Berkeley",
+  "aliases": [
+   "BAIR",
+   "Berkeley AI Research",
+   "Berkeley DeepDrive",
+   "Berkeley Robot Learning Lab",
+   "University of California, Berkeley"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "school"
+ },
+ {
+  "org": "ETH Zurich",
+  "aliases": [
+   "Autonomous Systems Lab",
+   "ETH ASL",
+   "ETH Zurich Robotic Systems Lab",
+   "ETH Zürich",
+   "Robotic Systems Lab"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "school"
+ },
+ {
+  "org": "Commonwealth Fusion Systems",
+  "aliases": [
+   "Commonwealth Fusion"
+  ],
+  "sector": "energy",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "DARPA",
+  "aliases": [
+   "Defense Advanced Research Projects Agency",
+   "DARPA Program Manager",
+   "DARPA TTO",
+   "DARPA I2O"
+  ],
+  "sector": "defense",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "NASA Jet Propulsion Laboratory",
+  "aliases": [
+   "JPL",
+   "NASA JPL",
+   "Jet Propulsion Laboratory",
+   "Caltech JPL"
+  ],
+  "sector": "space",
+  "tier": 1,
+  "kind": "employer"
+ },
+ {
+  "org": "Apple",
+  "aliases": [
+   "Apple Inc.",
+   "Apple Special Projects Group",
+   "Apple SPG",
+   "Project Titan",
+   "Apple Hardware Engineering"
+  ],
+  "sector": "manufacturing",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Figure AI",
+  "aliases": [
+   "Figure AI, Inc."
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Blue Origin",
+  "aliases": [
+   "Blue Origin, LLC",
+   "Blue Origin Enterprises"
+  ],
+  "sector": "space",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Rocket Lab",
+  "aliases": [
+   "Rocket Lab USA",
+   "Rocket Lab USA, Inc."
+  ],
+  "sector": "space",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Relativity Space",
+  "aliases": [
+   "Relativity Space, Inc."
+  ],
+  "sector": "space",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Amazon Robotics",
+  "aliases": [
+   "Kiva Systems",
+   "Amazon Robotics LLC"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Zipline",
+  "aliases": [
+   "Zipline International",
+   "Zipline International Inc."
+  ],
+  "sector": "drones",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Cruise",
+  "aliases": [
+   "Cruise Automation",
+   "GM Cruise",
+   "Cruise LLC"
+  ],
+  "sector": "autonomy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Aurora Innovation",
+  "aliases": [
+   "Aurora Innovation, Inc.",
+   "Uber ATG",
+   "Uber Advanced Technologies Group"
+  ],
+  "sector": "autonomy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Toyota Research Institute",
+  "aliases": [
+   "Toyota Research Institute, Inc."
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Hugging Face",
+  "aliases": [
+   "Hugging Face LeRobot",
+   "LeRobot",
+   "huggingface/lerobot"
+  ],
+  "sector": "robotics",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Hadrian",
+  "aliases": [
+   "Hadrian Automation",
+   "Hadrian Automation, Inc."
+  ],
+  "sector": "manufacturing",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Lockheed Martin Skunk Works",
+  "aliases": [
+   "Lockheed Martin ADP",
+   "Lockheed Martin Advanced Development Programs",
+   "Skunk Works"
+  ],
+  "sector": "defense",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "US Navy Nuclear Propulsion Program",
+  "aliases": [
+   "Naval Reactors",
+   "Naval Nuclear Propulsion Program",
+   "Navy Nuclear Power School",
+   "Naval Nuclear Laboratory",
+   "US Navy Submarine Force"
+  ],
+  "sector": "energy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Sandia National Laboratories",
+  "aliases": [
+   "Sandia",
+   "Sandia National Labs"
+  ],
+  "sector": "energy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Lawrence Livermore National Laboratory",
+  "aliases": [
+   "LLNL",
+   "Lawrence Livermore",
+   "National Ignition Facility"
+  ],
+  "sector": "energy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Idaho National Laboratory",
+  "aliases": [
+   "Idaho National Lab",
+   "National Reactor Innovation Center",
+   "NRIC"
+  ],
+  "sector": "energy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Helion Energy",
+  "aliases": [
+   "Helion",
+   "Helion Energy, Inc."
+  ],
+  "sector": "energy",
+  "tier": 2,
+  "kind": "employer"
+ },
+ {
+  "org": "Georgia Tech",
+  "aliases": [
+   "GTRI",
+   "Georgia Institute of Technology",
+   "Georgia Tech Research Institute"
+  ],
+  "sector": "defense",
+  "tier": 2,
+  "kind": "school"
+ },
+ {
+  "org": "TSMC",
+  "aliases": [
+   "Taiwan Semiconductor Manufacturing Company",
+   "Taiwan Semiconductor",
+   "TSMC Arizona"
+  ],
+  "sector": "semiconductors",
+  "tier": 2,
+  "kind": "employer"
+ }
+]

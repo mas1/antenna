@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pGypzXXge+/mai2CMMu2nt9fiB4</id>
+  <title>arXiv Query: search_query=cat:cs.RO&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-10-01T23:56:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=cat:cs.RO&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>59589</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.40353v1</id>
+    <title>AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents</title>
+    <updated>2026-09-30T17:59:14Z</updated>
+    <link href="https://arxiv.org/abs/2609.40353v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.40353v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we introduce AssemblyWorld, an interactive 3D environment in which agents inspect rendered views and manipulate supplied rigid parts, guided by images or assembly manuals when available. Agents perceive part geometry through 2D views rather than direct access to mesh vertices or faces, while their resulting assemblies are evaluated geometrically. Building on this environment, we construct AssemblyWorldBench, comprising 100 assembly tasks across 80 objects spanning furniture, industrial assembly, and fracture reassembly. Evaluating eight agent systems reveals substantial differences in their capabilities. The strongest system achieves 80.9% part accuracy but 59.4% complete-assembly success. The evaluated open-source systems lag substantially behind their stronger closed-source peers in both execution reliability and assembly accuracy. Analyses of visual references, interaction trajectories, and failures show how agents revise assemblies while leaving residual positioning errors. AssemblyWorld provides a common setting for both assessing the capabilities of interactive assembly agents and characterizing the gap between approximate structure recovery and precise reconstruction.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T17:59:14Z</published>
+    <arxiv:comment>24 pages, 11 figures. Project page: https://assemblyworld.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiahao Zhang</name>
+    </author>
+    <author>
+      <name>Yeying Fan</name>
+    </author>
+    <author>
+      <name>Moitreya Chatterjee</name>
+    </author>
+    <author>
+      <name>Suhas Lohit</name>
+    </author>
+    <author>
+      <name>Bernhard Egger</name>
+    </author>
+    <author>
+      <name>Tim K. Marks</name>
+    </author>
+    <author>
+      <name>Anoop Cherian</name>
+    </author>
+    <author>
+      <name>Stephen Gould</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.40341v1</id>
+    <title>Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?</title>
+    <updated>2026-09-30T17:58:35Z</updated>
+    <link href="https://arxiv.org/abs/2609.40341v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.40341v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout the training pipeline. We present a systematic study of egocentric human data with different alignment and supervision under a unified world-action model framework. With the model backbone fixed, we disentangle the effects of human-robot alignment, data duration and task diversity, action supervision, and data usage strategies. We find that aligned human demonstrations substantially improve out-of-distribution generalization and reduce target-task robot data requirements; data duration and task diversity affect downstream capabilities differently; and video-only supervision remains effective without action labels, providing a strong foundation for subsequent video-action training. We validate these findings through closed-loop policy evaluation on both real robots and RoboDojo. Rather than treating data duration as the sole scaling axis, Ego4WAM shows how alignment, task diversity, available supervision, and usage strategy jointly shape the value of egocentric human data for robot learning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T17:58:35Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhihao Sun</name>
+    </author>
+    <author>
+      <name>Liu Liu</name>
+    </author>
+    <author>
+      <name>Xinjiang Wang</name>
+    </author>
+    <author>
+      <name>Haoyi Jiang</name>
+    </author>
+    <author>
+      <name>Wei Feng</name>
+    </author>
+    <author>
+      <name>Huiqiang Zhang</name>
+    </author>
+    <author>
+      <name>Xiaosong Jia</name>
+    </author>
+    <author>
+      <name>Zhizhong Su</name>
+    </author>
+    <author>
+      <name>Zuxuan Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.40306v1</id>
+    <title>DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents</title>
+    <updated>2026-09-30T17:52:09Z</updated>
+    <link href="https://arxiv.org/abs/2609.40306v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.40306v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on which system component should be revised. We propose DynaHarness, a dynamic physical harness that couples semantic reasoning with physical governance through a shared execution contract and turns failure evidence into validated capability revisions. To be more specific, the slow brain proposes capabilities and symbolic arguments, while the fast brain grounds and monitors commands, refuses unresolved actions, substitutes capabilities, and requests replans when needed. The physical execution contract bounds each accepted command and records execution evidence across analytic skills, recovery skills, and the frozen VLA. Failure attribution localizes faults in these records and directs targeted revisions of reusable capabilities or execution mechanisms. Paired regression checks govern admission or rejection, closing the self-evolution loop. On LIBERO-Pro, DynaHarness achieves 75.2% on 800 newly sampled initial states, compared with 17.5% for the frozen policy. With the same capability library, full dynamic execution reaches 74.0% versus 63.9% under nominal one-step replanning. This demonstrates the value of DynaHarness as a dynamic physical harness that governs how existing capabilities are grounded, monitored, and coordinated during execution. Our project page is at https://denghaoyuan123.github.io/Dynaharness_page/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T17:52:09Z</published>
+    <arxiv:comment>37 pages, 19 figures. Project page: https://denghaoyuan123.github.io/Dynaharness_page/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Haoyuan Deng</name>
+    </author>
+    <author>
+      <name>Jiebin Liu</name>
+    </author>
+    <author>
+      <name>Tengxiao Zhang</name>
+    </author>
+    <author>
+      <name>Langning Yan</name>
+    </author>
+    <author>
+      <name>Hongye Cao</name>
+    </author>
+    <author>
+      <name>Ziwei Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.40297v1</id>
+    <title>GPU-Accelerated Path-Dependent Marginal Information Gain for Autonomous Exploration</title>
+    <updated>2026-09-30T17:50:30Z</updated>
+    <link href="https://arxiv.org/abs/2609.40297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.40297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous exploration demands that robots continuously evaluate candidate viewpoints based on their expected information gain and execution cost. Sampling-based planners estimate this gain by volumetric raycasting and, due to its computational cost, evaluate candidates under an assumption of mutual independence, ignoring the overlap between viewpoints along the same path. This work presents a GPU-accelerated method for computing path-dependent marginal information gain, where instead of storing and merging the observed unknown voxels along each candidate path, previous observations are represented using depth buffers. Candidate rays are projected into the depth buffers of their ancestors to identify observation overlap and exclude regions expected to be observed. The planning tree is evaluated in depth order to maintain the dependency between viewpoints and their optimized yaws, while candidate nodes and rays at each level are processed in parallel on the GPU. The proposed method stays within 5-10% of the exact marginal gain computed using voxel hash maps, with speed-ups of up to 118x on a desktop GPU and 28x on an NVIDIA Jetson Orin NX. The method was integrated into two sampling-based exploration planners and evaluated in three simulation environments, where marginal gain reduced the time to 95% coverage in five of the six evaluated planner-environment combinations. Real-world experiments also showed a 30% reduction in the time to 95% coverage, as well as earlier exploration termination times.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T17:50:30Z</published>
+    <arxiv:comment>Submitted for review to IEEE ICRA 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>João Félix Mendes</name>
+    </author>
+    <author>
+      <name>Rodrigo Ventura</name>
+    </author>
+    <author>
+      <name>Meysam Basiri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.40269v1</id>
+    <title>Belief-Aware Multi-Agent Path Finding under Map Uncertainty</title>
+    <updated>2026-09-30T17:44:19Z</updated>
+    <link href="https://arxiv.org/abs/2609.40269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.40269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change unexpectedly due to fallen objects, spills, or other local disturbances. When such changes are spatially correlated, an observation can inform traversability estimates beyond the observed location. Prior approaches address uncertainty in traversability through contingent plans or replanning based on direct observations, but do not leverage this spatial dependence to infer the traversability of nearby unobserved locations. As a result, they cannot use one observation to anticipate nearby unobserved obstacles that may cause costly rerouting later. We focus on Belief-Aware MAPF, where map discrepancies are fixed during execution but initially unknown, and observations can be informative beyond the observed location. We propose Multi-Agent Gaussian belief Inference for Coordination (MAGIC), a framework that updates a shared belief about traversability online based on agents' observations. MAGIC uses a Gaussian Markov Random Field and Gaussian Belief Propagation to approximately infer traversability and construct detour-aware costs for standard MAPF planners. Our experiments on MAPF benchmarks show that MAGIC reduces the executed sum of costs compared to existing approaches on 96.3% of instances, across several planner families and teams of up to 800 agents, demonstrating its applicability to large-scale MAPF problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T17:44:19Z</published>
+    <arxiv:comment>Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Viraj Parimi</name>
+    </author>
+    <author>
+      <name>Shao-Hung Chan</name>
+    </author>
+    <author>
+      <name>Han Zhang</name>
+    </author>
+    <author>
+      <name>Jingkai Chen</name>
+    </author>
+    <author>
+      <name>Brian Williams</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,85 @@
+{
+ "slug": "robocurve",
+ "generatedAt": "2026-10-02",
+ "summary": "Robocurve, in San Francisco per the YC page, tests how well AI models control real robots and publishes the results. It describes itself as an independent third-party evaluator and says it is incorporated as a Public Benefit Corporation. It maintains Inspect Robots, an MIT-licensed evaluation framework that lists packages for several commercial robot platforms.",
+ "thesis": "If general-purpose robot policies keep improving, buyers, labs and regulators will need third-party measurement on real hardware. Robocurve is an early attempt to be that reference. It could give investors comparable performance data on models portfolio companies depend on.",
+ "stage": "Seed stage. The company blog announced a $10M seed round on 14 September 2026, led by Initialized Capital with Notable Capital, Decasonic, Y Combinator, Halcyon Futures and \"many others\". No valuation is given. An EDGAR full-text search on 2 October 2026 returned nothing for Robocurve. YC lists the Summer 2026 batch. The seed post dates incorporation to about three months before 14 September.",
+ "team": [
+  {
+   "name": "Jay Chooi",
+   "background": "Founder and CEO per the YC page. It lists a Harvard MA in Statistics, a Rhodes Scholarship and research at the UK AI Security Institute."
+  },
+  {
+   "name": "Aris Zhu",
+   "background": "Former co-founder (X bio reads \"prev cofounder @robocurve\"). YC partner Ankit Gupta's article lists Harvard's Computational Robotics Lab, Amazon Robotics, Amazon's AGI Lab and Yondu Robotics."
+  },
+  {
+   "name": "Edward Sun",
+   "background": "Member of Technical Staff per the NBC News video description of 23 September 2026. No source opened states prior background."
+  }
+ ],
+ "questions": [
+  "The pages opened disclose no price, contract or paying customer. What is revenue to date and who are the first paying counterparties?",
+  "When and why did Aris Zhu, presented as co-founder in July 2026, leave? What happened to the founder equity, and who now leads robotics hardware?",
+  "How does the charter define independence if evaluated labs are also customers, and do OpenAI or Anthropic have any role in reports on subdomains named after them?",
+  "Inspect Robots is MIT-licensed. What stops a lab, a university consortium or an existing evaluator such as METR from running the same benchmarks, and what is proprietary?"
+ ],
+ "risks": [
+  "No disclosed revenue model or customer. The framework is MIT-licensed and reports are published openly, so it may behave more like a research institute than a venture-scale business.",
+  "Co-founder change within about three months of incorporation. Aris Zhu now lists the role as previous on X, YC shows a single active founder, and no source opened explains why.",
+  "Independence and revenue may conflict if payers are the labs and robot makers being scored. Reports on OpenAI and Anthropic models sit on subdomains named after those labs."
+ ],
+ "unverified": [
+  "The company says Inspect Robots has 97k+ downloads, not reproduced. Pypistats shows 49,756 for the inspect-robots package including mirrors, 7 July to 1 October 2026.",
+  "The company reports 6M+ research views and sign-ups from 200+ institutions, not independently confirmed.",
+  "When and why Aris Zhu left is not stated in any source opened."
+ ],
+ "sources": [
+  {
+   "title": "Robocurve blog, seed announcement, 14 September 2026",
+   "url": "https://robocurve.org/blog/seed-raise/"
+  },
+  {
+   "title": "Y Combinator company page",
+   "url": "https://www.ycombinator.com/companies/robocurve"
+  },
+  {
+   "title": "Robocurve homepage",
+   "url": "https://robocurve.org/"
+  },
+  {
+   "title": "Aris Zhu LinkedIn post, 17 July 2026",
+   "url": "https://www.linkedin.com/posts/aris-zhu_im-excited-to-share-that-jay-chooi-and-i-activity-7483958710260629504-G63C"
+  },
+  {
+   "title": "Ankit Gupta X article, 23 July 2026",
+   "url": "https://x.com/agupta/status/2080343525762253253"
+  },
+  {
+   "title": "Aris Zhu X profile",
+   "url": "https://x.com/ariszotle"
+  },
+  {
+   "title": "GitHub, robocurve/inspect-robots",
+   "url": "https://github.com/robocurve/inspect-robots"
+  },
+  {
+   "title": "pypistats, inspect-robots downloads",
+   "url": "https://pypistats.org/api/packages/inspect-robots/overall"
+  },
+  {
+   "title": "SEC EDGAR full-text search, Robocurve",
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Robocurve%22&forms=D"
+  },
+  {
+   "title": "NBC News video, 23 September 2026",
+   "url": "https://www.nbcnews.com/video/new-research-shows-ai-behavior-can-be-less-safe-with-robots-270339653554"
+  }
+ ],
+ "searchedAnnouncement": true,
+ "announcement": {
+  "date": "2026-07-17",
+  "what": "Aris Zhu, then a co-founder, posted on LinkedIn that Zhu and Jay Chooi were in Y Combinator's Summer 2026 batch building Robocurve.",
+  "url": "https://www.linkedin.com/posts/aris-zhu_im-excited-to-share-that-jay-chooi-and-i-activity-7483958710260629504-G63C"
+ }
+}

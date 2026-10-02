@@ -1,0 +1,1070 @@
+{
+ "exhaustive": {
+  "nbHits": true
+ },
+ "exhaustiveNbHits": true,
+ "hits": [
+  {
+   "_tags": [
+    "story",
+    "author_anerli",
+    "story_49911995",
+    "launch_hn"
+   ],
+   "author": "anerli",
+   "created_at": "2026-09-30T17:37:40Z",
+   "created_at_i": 1790789860,
+   "num_comments": 96,
+   "objectID": "49911995",
+   "points": 191,
+   "story_id": 49911995,
+   "story_text": "Hey HN, Anders and Tom here. We&#x27;re building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp.<p>We&#x27;re both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case.<p>Inference engines today all make a performance tradeoff. They are either:<p>- Built for batched inference on datace",
+   "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+   "updated_at": "2026-10-01T23:26:46Z",
+   "url": "https://github.com/magnitudedev/magnitude"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_topaztee",
+    "story_49881505",
+    "launch_hn"
+   ],
+   "author": "topaztee",
+   "created_at": "2026-09-28T17:34:36Z",
+   "created_at_i": 1790616876,
+   "num_comments": 19,
+   "objectID": "49881505",
+   "points": 36,
+   "story_id": 49881505,
+   "story_text": "Hey HN! We&#x27;re Dudu and Topaz from Vespper (<a href=\"https:&#x2F;&#x2F;vespper.com\">https:&#x2F;&#x2F;vespper.com</a>). Vespper is an MCP that lets AI agents efficiently edit Word documents, powered by our fine-tuned model. It&#x27;s currently 3× faster, 2× cheaper and more accurate than the closest alternative. Check out an overview of how the product works here: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;odKxsgPjzzw\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;odKxsgPjzzw</a><p>We came to work on this problem after spending a year building an AI document editor for pharma companies. Bef",
+   "title": "Launch HN: Vespper (YC F24) – SOTA Docx MCP",
+   "updated_at": "2026-10-01T20:43:31Z",
+   "url": "https://www.vespper.com/blog/launching-vespper-docx-mcp"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_botacode",
+    "story_49804931",
+    "launch_hn"
+   ],
+   "author": "botacode",
+   "created_at": "2026-09-22T17:26:36Z",
+   "created_at_i": 1790097996,
+   "num_comments": 32,
+   "objectID": "49804931",
+   "points": 54,
+   "story_id": 49804931,
+   "story_text": "Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty corners of their lives. Max is a former Google&#x2F;Microsoft&#x2F;Two Sigma PM and Gabriel has been working in startups for over a decade.<p>We’re building Coverage Cat: a licensed insurance brokerage that helps you compare umbrella and home coverage side by side — with straight pricing, no sold leads, and a real broker on the other end. Our current focus is helping tech folks (t",
+   "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+   "updated_at": "2026-10-01T15:57:01Z",
+   "url": "https://www.coveragecat.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_cat-whisperer",
+    "story_49743049",
+    "launch_hn"
+   ],
+   "author": "cat-whisperer",
+   "created_at": "2026-09-17T16:22:15Z",
+   "created_at_i": 1789662135,
+   "num_comments": 62,
+   "objectID": "49743049",
+   "points": 68,
+   "story_id": 49743049,
+   "story_text": "Hey HN, we&#x27;re Nars &amp; Nishant, founders of Skillsync (<a href=\"https:&#x2F;&#x2F;skillsync.com\">https:&#x2F;&#x2F;skillsync.com</a>)<p>Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scattered across our agents. Though stored locally, these conversations use different formats. This is annoying because you cannot simply switch between agents without starting over. We get locked into a single provider and their agent as we invest in skills and memories over time. Skillsync acts as a universal converter. It mov",
+   "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+   "updated_at": "2026-10-01T14:38:45Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_anshchokshi",
+    "story_49552616",
+    "launch_hn"
+   ],
+   "author": "anshchokshi",
+   "created_at": "2026-09-03T16:24:13Z",
+   "created_at_i": 1788452653,
+   "num_comments": 8,
+   "objectID": "49552616",
+   "points": 28,
+   "story_id": 49552616,
+   "story_text": "Hi HN, I&#x27;m Ansh, founder of Mireye (<a href=\"https:&#x2F;&#x2F;www.mireye.com\">https:&#x2F;&#x2F;www.mireye.com</a>). I&#x27;m building the infrastructure AI agents use to make decisions about physical places: data, enrichment, tools, and signals for any US location, behind one API and MCP server.<p>Here&#x27;s a demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=haqO6UbUqU0\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=haqO6UbUqU0</a><p>To try it, paste <a href=\"https:&#x2F;&#x2F;www.mireye.com&#x2F;skills.md\">https:&#x2F;&#x2F;www.mireye.com&#x2F;skills",
+   "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+   "updated_at": "2026-09-24T20:34:24Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_lloydarmbrust",
+    "story_49543530",
+    "launch_hn"
+   ],
+   "author": "lloydarmbrust",
+   "created_at": "2026-09-02T22:36:04Z",
+   "created_at_i": 1788388564,
+   "num_comments": 82,
+   "objectID": "49543530",
+   "points": 119,
+   "story_id": 49543530,
+   "story_text": "Hi HN,<p>I’m Lloyd, one of two founders of RonanRx (<a href=\"https:&#x2F;&#x2F;ronanrx.com&#x2F;\">https:&#x2F;&#x2F;ronanrx.com&#x2F;</a>). We are building a vertically integrated pharmaceutical company with software for prescribing, telehealth, compounding, manufacturing, and delivery. We are starting with GLP-1s and peptides.<p>The path to RonanRx is fairly unconventional. During the pandemic, I built one of the largest mask manufacturing factories in the US. We could make a million masks in a day. We converted raw polypropylene pellets into finished pallets of masks.<p>I had a background in",
+   "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
+   "updated_at": "2026-09-11T11:15:40Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_AntonioLi",
+    "story_49525153",
+    "launch_hn"
+   ],
+   "author": "AntonioLi",
+   "created_at": "2026-09-01T17:35:10Z",
+   "created_at_i": 1788284110,
+   "num_comments": 66,
+   "objectID": "49525153",
+   "points": 201,
+   "story_id": 49525153,
+   "story_text": "Hey HN, I’m Antonio from Nori Robotics (<a href=\"https:&#x2F;&#x2F;norirobotics.com\">https:&#x2F;&#x2F;norirobotics.com</a>). We build a $1,688 bimanual mobile robot in San Francisco for robotics developers and researchers.<p>I started working on Nori while doing robotics research at Columbia. I was teaching robots through human demonstrations, but getting my hands on affordable hardware was difficult. Most labs have one or two expensive robots, which makes it hard to collect large datasets, run long experiments, or test across several robots.<p>So I built my own. After seven iterations the la",
+   "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
+   "updated_at": "2026-09-16T19:32:46Z",
+   "url": "https://www.norirobotics.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_kushagrchitkar",
+    "story_49511007",
+    "launch_hn"
+   ],
+   "author": "kushagrchitkar",
+   "created_at": "2026-08-31T15:34:34Z",
+   "created_at_i": 1788190474,
+   "num_comments": 48,
+   "objectID": "49511007",
+   "points": 59,
+   "story_id": 49511007,
+   "story_text": "Hi HN, I&#x27;m Kushagra, one of three founders of Almanac, a Hermes with a brain that knows everything about your company.<p>We started our journey with setting up Hermes for our company, thinking it must be easy. We wanted an agent that would know every context about our company, so we could ask questions and get context-appropriate responses to.<p>This started a very annoying and difficult journey. Setting up Hermes, getting it to talk right, building OAuth apps for every connector myself, then feeding it context myself, and ultimately struggling with Hermes&#x27;s default memory. At the sa",
+   "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+   "updated_at": "2026-09-21T20:30:46Z",
+   "url": "https://usealmanac.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_kstonekuan",
+    "story_49510632",
+    "launch_hn"
+   ],
+   "author": "kstonekuan",
+   "created_at": "2026-08-31T15:02:41Z",
+   "created_at_i": 1788188561,
+   "num_comments": 12,
+   "objectID": "49510632",
+   "points": 46,
+   "story_id": 49510632,
+   "story_text": "Hi HN, we’re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow</a>), an SDK that turns multimodal recordings from robots and human operators into standardized, quality-checked episodes and queryable dataset manifests. A recording can contain synchronized video, joint states, actions, timestamps, and metadata, and HFlow processes those streams together.<p>Here’s a demo of HFlow in action: <a href=\"https:&#x2F;&#x2F;www.youtube",
+   "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
+   "updated_at": "2026-09-07T02:39:12Z",
+   "url": "https://github.com/Hebbian-Robotics/hflow"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_Salem_robotics",
+    "story_49466715",
+    "launch_hn"
+   ],
+   "author": "Salem_robotics",
+   "created_at": "2026-08-27T15:46:04Z",
+   "created_at_i": 1787845564,
+   "num_comments": 31,
+   "objectID": "49466715",
+   "points": 49,
+   "story_id": 49466715,
+   "story_text": "Hi HN, we&#x27;re the founders of Salem Robotics (<a href=\"https:&#x2F;&#x2F;salemroboticsinc.com\">https:&#x2F;&#x2F;salemroboticsinc.com</a>). We give existing mobile robots the task-specific intelligence to carry out surveys and physically interactive inspections in hazardous industrial facilities.<p>Here&#x27;s a video of it running on real robot hardware with a few words from us:\n<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U_228h3NE7c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U_228h3NE7c</a><p>We came to Salem through robotics research at UT Austin and a co",
+   "title": "Launch HN: Salem Robotics (YC S26) – Software for industrial inspection robots",
+   "updated_at": "2026-09-04T19:52:53Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_AlexRisio",
+    "story_49451495",
+    "launch_hn"
+   ],
+   "author": "AlexRisio",
+   "created_at": "2026-08-26T16:06:01Z",
+   "created_at_i": 1787760361,
+   "num_comments": 25,
+   "objectID": "49451495",
+   "points": 54,
+   "story_id": 49451495,
+   "story_text": "Hi HN, we&#x27;re Sam and Alex, founders of Risklytics (<a href=\"https:&#x2F;&#x2F;risklytics.ai\">https:&#x2F;&#x2F;risklytics.ai</a>). We&#x27;re both on leave from Harvard, and we run an insurance brokerage for companies building robots, drones, autonomous systems and satellites. You describe your machine, we find the insurance companies willing to cover it, and we read everything before you sign.<p>Buying insurance for any frontier tech goes like this:<p>- your first customer or pilot requires coverage before your machine can work on their site<p>- a broker hands you an application written ",
+   "title": "Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies",
+   "updated_at": "2026-09-04T07:28:05Z",
+   "url": "https://www.risklytics.ai/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_yousefh409",
+    "story_49376038",
+    "launch_hn"
+   ],
+   "author": "yousefh409",
+   "created_at": "2026-08-20T15:29:52Z",
+   "created_at_i": 1787239792,
+   "num_comments": 22,
+   "objectID": "49376038",
+   "points": 61,
+   "story_id": 49376038,
+   "story_text": "Hi HN, we’re Yousef &amp; Nour, founders of Vendo (<a href=\"https:&#x2F;&#x2F;vendo.run\">https:&#x2F;&#x2F;vendo.run</a>). Vendo lets users create new features inside the software they already use. A user describes the dashboard, workflow, or small app they need, and Vendo builds it on top of the product’s existing data, API, and interface.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=VdpHehY64ls\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=VdpHehY64ls</a><p>We built Vendo because every SaaS eventually faces the same problem: every customer needs something ",
+   "title": "Launch HN: Vendo (YC S26) – Let users build features on top of your product",
+   "updated_at": "2026-08-22T16:42:35Z",
+   "url": "https://github.com/runvendo/vendo"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_guyb3",
+    "story_49363710",
+    "launch_hn"
+   ],
+   "author": "guyb3",
+   "created_at": "2026-08-19T16:29:02Z",
+   "created_at_i": 1787156942,
+   "num_comments": 37,
+   "objectID": "49363710",
+   "points": 88,
+   "story_id": 49363710,
+   "story_text": "Hi HN, Jonathan &amp; Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent.<p>Here’s what you can do with it:<p>1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox simply from the chat.<p>2. deterministic human in the loop approval in the chat itself for things that you need 100% control like sending an email or deleting the Linear ticket.<p>3. manage team policy in one place, enforced across every agent in the workspace<p>4. enjoy global connections at the t",
+   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+   "updated_at": "2026-09-21T19:14:15Z",
+   "url": "https://github.com/onecli/onecli"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_bwm",
+    "story_49348136",
+    "launch_hn"
+   ],
+   "author": "bwm",
+   "created_at": "2026-08-18T16:26:42Z",
+   "created_at_i": 1787070402,
+   "num_comments": 44,
+   "objectID": "49348136",
+   "points": 83,
+   "story_id": 49348136,
+   "story_text": "Hi HN! I’m Barnaby, founder of machine0 (<a href=\"https:&#x2F;&#x2F;machine0.io\">https:&#x2F;&#x2F;machine0.io</a>). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0.013&#x2F;hr up to 60 vCPU &#x2F; 240 GB RAM and GPUs (H100s, H200s etc), with 99.99% VM level uptime. Agents self drive via CLI or MCP.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=gyllkZ0M04E\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=gyllkZ0M04E</a><p>Agent workloads are moving from ephemeral to alw",
+   "title": "Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI",
+   "updated_at": "2026-09-20T20:03:25Z",
+   "url": "https://machine0.io"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_abdik",
+    "story_49332751",
+    "launch_hn"
+   ],
+   "author": "abdik",
+   "created_at": "2026-08-17T15:36:18Z",
+   "created_at_i": 1786980978,
+   "num_comments": 69,
+   "objectID": "49332751",
+   "points": 118,
+   "story_id": 49332751,
+   "story_text": "Hi HN! I&#x27;m Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=no2LY2gRh-c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=no2LY2gRh-c</a><p>Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS.<p>Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once,",
+   "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+   "updated_at": "2026-09-03T11:59:16Z",
+   "url": "https://speko.ai/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_adi1",
+    "story_49283063",
+    "launch_hn"
+   ],
+   "author": "adi1",
+   "created_at": "2026-08-13T08:14:30Z",
+   "created_at_i": 1786608870,
+   "num_comments": 89,
+   "objectID": "49283063",
+   "points": 121,
+   "story_id": 49283063,
+   "story_text": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent.<p>Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup success. We were going to use our skills optimizing stock pricing calculation speeds and agent document context to take over the world. So, Bullet started as an AI hedge fund, a browser-use agent, synthetic financial data (oof), a mobile IDE, and a bunch of other things. We wanted to build something people wanted, but it seemed like everything we built was just terrible, useles",
+   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+   "updated_at": "2026-09-11T18:40:29Z",
+   "url": "https://www.codewithbullet.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_advaith08",
+    "story_49269090",
+    "launch_hn"
+   ],
+   "author": "advaith08",
+   "created_at": "2026-08-12T07:51:20Z",
+   "created_at_i": 1786521080,
+   "num_comments": 37,
+   "objectID": "49269090",
+   "points": 162,
+   "story_id": 49269090,
+   "story_text": "Hey HN, we&#x27;re Advaith and Akash from Discovered Materials ( <a href=\"https:&#x2F;&#x2F;discoveredmaterials.com&#x2F;\">https:&#x2F;&#x2F;discoveredmaterials.com&#x2F;</a> ).  We build AI agents that discover new materials for the semiconductor industry.<p>GPUs today have a heat problem. Nvidia &amp; AMD are almost doubling the TDP (Thermal Design Power) in every chip they release - the H100 (released 2022) has a TDP of 700W, Blackwell (2024) gives out 1.2 kW and Rubin (2026) gives out at 2.3 kW of heat. This trend is expected to continue, and getting rid of this heat is one of the major re",
+   "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+   "updated_at": "2026-09-22T02:43:45Z",
+   "url": "https://discoveredmaterials.com/research/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_zackashen",
+    "story_49259309",
+    "launch_hn"
+   ],
+   "author": "zackashen",
+   "created_at": "2026-08-11T14:48:37Z",
+   "created_at_i": 1786459717,
+   "num_comments": 48,
+   "objectID": "49259309",
+   "points": 48,
+   "story_id": 49259309,
+   "story_text": "Hi HN! We’re Zack and Tommy the Co-Founders of Keet (<a href=\"https:&#x2F;&#x2F;trykeet.com\">https:&#x2F;&#x2F;trykeet.com</a>). We are building a mobile app that generates courses on any topic, with short videos for explanation and games for reinforcement. Courses mirror a real curriculum to help you learn over an extended period of time.<p>Tommy and I met in linear algebra class in college and spent the next 4 years taking classes together. Our friendship was formed around learning new things. In school, someone else designs the curriculum, delivers the content, and writes the assessments. A",
+   "title": "Launch HN: Keet (YC S24) – An app to create video courses on anything",
+   "updated_at": "2026-09-22T02:43:45Z",
+   "url": "https://www.trykeet.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_erenberke",
+    "story_49246057",
+    "launch_hn"
+   ],
+   "author": "erenberke",
+   "created_at": "2026-08-10T16:35:27Z",
+   "created_at_i": 1786379727,
+   "num_comments": 51,
+   "objectID": "49246057",
+   "points": 77,
+   "story_id": 49246057,
+   "story_text": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa (<a href=\"https:&#x2F;&#x2F;www.stoaexchange.com\">https:&#x2F;&#x2F;www.stoaexchange.com</a>), a marketplace for new and used GPUs and AI servers.<p>GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute.<p>If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller cloud or startup, terms get expensive fast, even with the same hardware as collateral.<p>The lender’s problem is pretty reasonable. If ",
+   "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+   "updated_at": "2026-09-22T02:43:45Z",
+   "url": "https://www.stoaexchange.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_willcarkner",
+    "story_49198464",
+    "launch_hn"
+   ],
+   "author": "willcarkner",
+   "created_at": "2026-08-06T15:59:15Z",
+   "created_at_i": 1786031955,
+   "num_comments": 156,
+   "objectID": "49198464",
+   "points": 237,
+   "story_id": 49198464,
+   "story_text": "Hey HN, we’re Will &amp; Johnny from ProvenMetal (<a href=\"https:&#x2F;&#x2F;provenmetal.com\">https:&#x2F;&#x2F;provenmetal.com</a>). You send us design files or specs and we give you assembled boards domestically in days.<p>The US produced 30% of PCBs globally in 2000, now they produce 4%. Chinese manufacturers have completely dominated this space at 55% of global production.<p>Now, the need for a domestic PCB supply chain is higher than ever before, yet the infrastructure has been dissolving over the last 2 decades. What is left is mostly small family run manufacturers (CMs) that have been o",
+   "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+   "updated_at": "2026-09-09T03:29:35Z",
+   "url": "https://provenmetal.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_shailendraht",
+    "story_49185389",
+    "launch_hn"
+   ],
+   "author": "shailendraht",
+   "created_at": "2026-08-05T16:47:15Z",
+   "created_at_i": 1785948435,
+   "num_comments": 51,
+   "objectID": "49185389",
+   "points": 69,
+   "story_id": 49185389,
+   "story_text": "Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production.<p>When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that logs don’t have.<p>All this saves time and effort for engineers who’d otherwise dig through logs and traces or redeploy with console.logs or print statements until they find the root cause.<p>Here is the link to the video that explains this: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ivV7I--t",
+   "title": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod",
+   "updated_at": "2026-09-08T01:37:00Z",
+   "url": "https://www.hyperprobe.co"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_Mzzzzz",
+    "story_49172936",
+    "launch_hn"
+   ],
+   "author": "Mzzzzz",
+   "created_at": "2026-08-04T18:36:02Z",
+   "created_at_i": 1785868562,
+   "num_comments": 34,
+   "objectID": "49172936",
+   "points": 39,
+   "story_id": 49172936,
+   "story_text": "We are Rui and Michael and we’re building EdotEnv (<a href=\"https:&#x2F;&#x2F;edotenv.com\" rel=\"nofollow\">https:&#x2F;&#x2F;edotenv.com</a>): self-improving RL environments from Quant Trading workflows.<p>With all the benchmaxxing around, evals saturate and become meaningless for model comparison. Useful benchmarks should increase in difficulty as models advance. Back in our Quant jobs, Michael and I saw that the market has exactly this property: markets became more efficient as people profited from trading inefficiencies, making new profitable strategies harder to find and old ones decay over",
+   "title": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research",
+   "updated_at": "2026-08-12T09:24:43Z",
+   "url": "https://edotenv.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_BenceRed",
+    "story_49157997",
+    "launch_hn"
+   ],
+   "author": "BenceRed",
+   "created_at": "2026-08-03T16:32:06Z",
+   "created_at_i": 1785774726,
+   "num_comments": 70,
+   "objectID": "49157997",
+   "points": 81,
+   "story_id": 49157997,
+   "story_text": "Hi HN, we’re Bence and Ryan, founders of Hoplite (<a href=\"https:&#x2F;&#x2F;hoplite.sh\">https:&#x2F;&#x2F;hoplite.sh</a>). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects ready to run in the cloud.<p>Here’s a demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;bnyktZ_9pjE\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;bnyktZ_9pjE</a><p>We got here after pivoting away from the idea we applied to YC with; AI for retail inve",
+   "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+   "updated_at": "2026-08-28T13:28:58Z",
+   "url": "https://hoplite.sh"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_marinoseliades",
+    "story_49109721",
+    "launch_hn"
+   ],
+   "author": "marinoseliades",
+   "created_at": "2026-07-30T13:29:03Z",
+   "created_at_i": 1785418143,
+   "num_comments": 59,
+   "objectID": "49109721",
+   "points": 79,
+   "story_id": 49109721,
+   "story_text": "Hi HN, we&#x27;re Marinos and Hudson, founders of Prized (<a href=\"https:&#x2F;&#x2F;prized.dev\">https:&#x2F;&#x2F;prized.dev</a>)! Prized lets non-engineer employees describe the internal tool they need and get a full-stack app, wired to their company’s data and deployed behind the company’s sign-in, without them ever juggling API keys or connectors.<p>Here&#x27;s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=730MuYOfZTY\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=730MuYOfZTY</a><p>The way Prized provides security is by limiting what the agent can reach at",
+   "title": "Launch HN: Prized (YC S26) – Let non-engineer staff build secure internal tools",
+   "updated_at": "2026-08-12T06:58:43Z",
+   "url": "https://prized.dev"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_rohaga",
+    "story_49099143",
+    "launch_hn"
+   ],
+   "author": "rohaga",
+   "created_at": "2026-07-29T15:55:27Z",
+   "created_at_i": 1785340527,
+   "num_comments": 63,
+   "objectID": "49099143",
+   "points": 71,
+   "story_id": 49099143,
+   "story_text": "Hi HN, Rohit here from Tokenless (<a href=\"https:&#x2F;&#x2F;usetokenless.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;usetokenless.com&#x2F;</a>), which I’m building alongside co-founders Andrew and Kev. We’re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI spend.<p>The cost of AI tokens is top-of-mind for many. Companies like Uber and Salesforce have been complaining about blowing their yearly AI spend faster than expected.<p>Frontier models are amazing for dev work, but are so expensive. Open-source models are cheap and rapid",
+   "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+   "updated_at": "2026-08-16T16:16:15Z",
+   "url": "https://usetokenless.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_george_rose25",
+    "story_49074817",
+    "launch_hn"
+   ],
+   "author": "george_rose25",
+   "created_at": "2026-07-27T19:58:22Z",
+   "created_at_i": 1785182302,
+   "num_comments": 38,
+   "objectID": "49074817",
+   "points": 85,
+   "story_id": 49074817,
+   "story_text": "Hi HN! This is George, Lucas, and Jona from Rise Reforming\n(<a href=\"https:&#x2F;&#x2F;www.rise-reforming.com&#x2F;\">https:&#x2F;&#x2F;www.rise-reforming.com&#x2F;</a>). We’re developing a process to convert gas produced at landfills, farms, and wastewater plants (“biogas”) into higher value chemicals. Our technology is modular, designed to be deployed and operated on-site. Think of us as a chemical project developer; we sit between biogas producers (suppliers) and chemical end users (customers). We pay biogas producers for their gas and we make money from selling our chemicals. We&#x27;re sta",
+   "title": "Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals",
+   "updated_at": "2026-08-14T08:57:21Z",
+   "url": "https://www.rise-reforming.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_louis030195",
+    "story_49024620",
+    "launch_hn"
+   ],
+   "author": "louis030195",
+   "created_at": "2026-07-23T16:48:38Z",
+   "created_at_i": 1784825318,
+   "num_comments": 67,
+   "objectID": "49024620",
+   "points": 88,
+   "story_id": 49024620,
+   "story_text": "Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href=\"https:&#x2F;&#x2F;screenpipe.com\">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you&#x27;ve seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on.<p>I made a HN-style demo video at <a href=\"https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-your-ai-second-brain-with-screenpipe-e1j7\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build",
+   "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+   "updated_at": "2026-08-03T04:40:25Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_adeelraza",
+    "story_49008901",
+    "launch_hn"
+   ],
+   "author": "adeelraza",
+   "created_at": "2026-07-22T16:02:03Z",
+   "created_at_i": 1784736123,
+   "num_comments": 40,
+   "objectID": "49008901",
+   "points": 56,
+   "story_id": 49008901,
+   "story_text": "Hi HN, We’re Adeel and Umair, co-founders of Unlayer (<a href=\"https:&#x2F;&#x2F;unlayer.com&#x2F;\">https:&#x2F;&#x2F;unlayer.com&#x2F;</a>). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, and documents inside your app, in three different ways: in code, visually, or with AI.<p>Here’s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0HsDtNkdMpM\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0HsDtNkdMpM</a>.<p>We started with an ",
+   "title": "Launch HN: Unlayer (YC W22) – Add email and document builders to your app",
+   "updated_at": "2026-08-15T18:07:10Z",
+   "url": "https://unlayer.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_alexsouthmayd",
+    "story_48981136",
+    "launch_hn"
+   ],
+   "author": "alexsouthmayd",
+   "created_at": "2026-07-20T16:32:10Z",
+   "created_at_i": 1784565130,
+   "num_comments": 107,
+   "objectID": "48981136",
+   "points": 102,
+   "story_id": 48981136,
+   "story_text": "Hi HN, I’m Alex Southmayd, the founder of Bloomy (<a href=\"https:&#x2F;&#x2F;bloomylearning.com\">https:&#x2F;&#x2F;bloomylearning.com</a>) – an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing).<p>How it works: we diagnose students’ skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a Socratic AI tutor that scaffolds their learning without just giving away the answer.<p>The goal is to solve the Bloom 2-sigma problem (",
+   "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+   "updated_at": "2026-08-07T04:06:40Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_XiaHua",
+    "story_48937020",
+    "launch_hn"
+   ],
+   "author": "XiaHua",
+   "created_at": "2026-07-16T16:52:16Z",
+   "created_at_i": 1784220736,
+   "num_comments": 28,
+   "objectID": "48937020",
+   "points": 44,
+   "story_id": 48937020,
+   "story_text": "Hey HN, we’re Xia and Varun, the founders of Traceforce (<a href=\"https:&#x2F;&#x2F;www.traceforce.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.traceforce.ai&#x2F;</a>). Traceforce provides visibility and control over AI apps such as ChatGPT, Claude etc directly on all devices (laptops, sandboxes, virtual machines) by discovering not just which apps are being used but also how they are connected to other data sources via MCPs. We also have an open-source dynamic MCP pentesting tool <a href=\"https:&#x2F;&#x2F;github.com&#x2F;traceforce&#x2F;mcp-xray\" rel=\"nofollow\">https:&#x2F;&#x2F;github.co",
+   "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+   "updated_at": "2026-07-29T16:16:54Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_nkov47",
+    "story_48922706",
+    "launch_hn"
+   ],
+   "author": "nkov47",
+   "created_at": "2026-07-15T15:51:20Z",
+   "created_at_i": 1784130680,
+   "num_comments": 26,
+   "objectID": "48922706",
+   "points": 44,
+   "story_id": 48922706,
+   "story_text": "Hey HN, we’re Nitish and Prateek, the founders of Coasty (<a href=\"https:&#x2F;&#x2F;coasty.ai&#x2F;computer-use\">https:&#x2F;&#x2F;coasty.ai&#x2F;computer-use</a>). We’re building computer-use agents that can complete workflows inside legacy desktop software and web applications without usable APIs.<p>Developers send Coasty a natural-language task either through our consumer app or through our API, select a machine or browser environment, and any relevant credentials or files. The agent then operates the interface through screenshots, mouse, and keyboard input, verifies the result, and return",
+   "title": "Launch HN: Coasty (YC S26) – An API for computer-use agents",
+   "updated_at": "2026-09-01T22:55:28Z",
+   "url": "https://coasty.ai/docs"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_laalshaitaan",
+    "story_48908950",
+    "launch_hn"
+   ],
+   "author": "laalshaitaan",
+   "created_at": "2026-07-14T16:06:18Z",
+   "created_at_i": 1784045178,
+   "num_comments": 52,
+   "objectID": "48908950",
+   "points": 85,
+   "story_id": 48908950,
+   "story_text": "Hey HN, we’re Shubham &amp; Parth, childhood friends building Agnost AI (<a href=\"https:&#x2F;&#x2F;agnost.ai\">https:&#x2F;&#x2F;agnost.ai</a>), product analytics for teams building chat and voice agents.<p>We read production conversations and find behavioral failures like users rageprompting (cursing at the agent), repeatedly rephrasing the same request, correcting the agent, asking for missing features, or leaving after an answer that was technically successful.<p>We have an interactive demo with no signup here: <a href=\"https:&#x2F;&#x2F;app.agnost.ai?demo=true\">https:&#x2F;&#x2F;app.agnost",
+   "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+   "updated_at": "2026-07-29T20:34:41Z",
+   "url": "https://agnost.ai"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_TheYahiaBakour",
+    "story_48847562",
+    "launch_hn"
+   ],
+   "author": "TheYahiaBakour",
+   "created_at": "2026-07-09T15:28:39Z",
+   "created_at_i": 1783610919,
+   "num_comments": 86,
+   "objectID": "48847562",
+   "points": 119,
+   "story_id": 48847562,
+   "story_text": "Hi Hacker News, I’m Yahia. I built Context.dev (<a href=\"https:&#x2F;&#x2F;www.context.dev&#x2F;\">https:&#x2F;&#x2F;www.context.dev&#x2F;</a>) to make it really easy to integrate web data into your products and agents.<p>Here’s a demo video: <a href=\"https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-faster-with-context-dev-apis-2cgl\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-faster-with-context-dev-api...</a><p>Since it’s an API, here are the docs: <a href=\"https:&#x2F;&#x2F;docs.context.dev&#x2F;quickstart\">https:&#x2F;&#x2F;docs.context.dev&#x2F;quickstart</a>.<p",
+   "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+   "updated_at": "2026-08-17T19:27:50Z",
+   "url": "https://www.context.dev"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_pzullo",
+    "story_48762862",
+    "launch_hn"
+   ],
+   "author": "pzullo",
+   "created_at": "2026-07-02T15:11:20Z",
+   "created_at_i": 1783005080,
+   "num_comments": 70,
+   "objectID": "48762862",
+   "points": 111,
+   "story_id": 48762862,
+   "story_text": "Hi HN, we are Pietro and Luigi, cofounders of Manufact (<a href=\"https:&#x2F;&#x2F;manufact.com\">https:&#x2F;&#x2F;manufact.com</a>), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;mcp-use&#x2F;mcp-use\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;mcp-use&#x2F;mcp-use</a>. We did a Show HN about that last year: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44747229\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44747229</a>.<p>Today we want to tell you ",
+   "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
+   "updated_at": "2026-07-29T20:34:41Z",
+   "url": "https://manufact.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_gergelycsegzi",
+    "story_48746752",
+    "launch_hn"
+   ],
+   "author": "gergelycsegzi",
+   "created_at": "2026-07-01T13:48:44Z",
+   "created_at_i": 1782913724,
+   "num_comments": 54,
+   "objectID": "48746752",
+   "points": 56,
+   "story_id": 48746752,
+   "story_text": "Hi all, it’s Greg and Max, founders of Parsewise here (<a href=\"https:&#x2F;&#x2F;www.parsewise.ai&#x2F;api\">https:&#x2F;&#x2F;www.parsewise.ai&#x2F;api</a>). Parsewise transforms a bucket of unstructured data into schema compliant data, retaining lineage for values resolved across documents.<p>Imagine giving Claude a bunch of files and asking for a CSV or JSON output. If you have tried this, you know both the system limitations (number of files, type of inputs, cost, latency) but also the human-facing challenge of having no way to validate the results quickly. We solve both.\nWe help tech team",
+   "title": "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API",
+   "updated_at": "2026-08-14T08:38:20Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_okwasniewski",
+    "story_48586299",
+    "launch_hn"
+   ],
+   "author": "okwasniewski",
+   "created_at": "2026-06-18T14:49:44Z",
+   "created_at_i": 1781794184,
+   "num_comments": 69,
+   "objectID": "48586299",
+   "points": 132,
+   "story_id": 48586299,
+   "story_text": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy (<a href=\"https:&#x2F;&#x2F;tester.army\">https:&#x2F;&#x2F;tester.army</a>). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your tests in natural language and handle everything in between. We&#x27;ve built the platform fully around agents. Our agent will reliably execute the tests, but your coding agent can manage everything in our platform, from defining tests in natural l",
+   "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+   "updated_at": "2026-07-18T16:29:01Z",
+   "url": "https://tester.army"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_zachdive",
+    "story_48572553",
+    "launch_hn"
+   ],
+   "author": "zachdive",
+   "created_at": "2026-06-17T16:14:04Z",
+   "created_at_i": 1781712844,
+   "num_comments": 97,
+   "objectID": "48572553",
+   "points": 215,
+   "story_id": 48572553,
+   "story_text": "Hey HN! I&#x27;m Zach from Adam (<a href=\"https:&#x2F;&#x2F;adam.new&#x2F;\">https:&#x2F;&#x2F;adam.new&#x2F;</a>). We&#x27;re building AI agents for mechanical CAD software. We’ve built the company on two fundamental beliefs:<p>- AI will be the primary medium for creating mechanical designs just like it is in software today.<p>- The best paradigm for CAD generation is to generate CAD as code (text -&gt; code -&gt; CAD).<p>We’re building CADAM, an open source Text to CAD platform. It&#x27;s a React app (TanStack Start) with a Supabase backend for auth, database, and file storage. Think of it li",
+   "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+   "updated_at": "2026-08-12T13:38:30Z",
+   "url": "https://github.com/Adam-CAD/CADAM"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_PrimalNick",
+    "story_48543908",
+    "launch_hn"
+   ],
+   "author": "PrimalNick",
+   "created_at": "2026-06-15T16:47:21Z",
+   "created_at_i": 1781542041,
+   "num_comments": 63,
+   "objectID": "48543908",
+   "points": 60,
+   "story_id": 48543908,
+   "story_text": "I’m Nick, founder of Drafted (<a href=\"https:&#x2F;&#x2F;www.drafted.ai\">https:&#x2F;&#x2F;www.drafted.ai</a>). We’re training models that generate residential architecture from structured design constraints.<p>Product demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8QkJ7jNU9y4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8QkJ7jNU9y4</a><p>Residential architecture is still one of the most expensive, slow, and inaccessible creative processes in the world. Designing a custom home typically costs $10,000–$50,000 or more, takes months, and requires making major deci",
+   "title": "Launch HN: Drafted (YC P26) – Models for residential architecture",
+   "updated_at": "2026-08-17T10:12:16Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_arcb",
+    "story_48506545",
+    "launch_hn"
+   ],
+   "author": "arcb",
+   "created_at": "2026-06-12T16:58:03Z",
+   "created_at_i": 1781283483,
+   "num_comments": 25,
+   "objectID": "48506545",
+   "points": 58,
+   "story_id": 48506545,
+   "story_text": "We’re Connor and Ambar from BitBoard (<a href=\"https:&#x2F;&#x2F;bitboard.work\">https:&#x2F;&#x2F;bitboard.work</a>). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI.<p>Today, we’re launching dashboards that you and your agents can work on together. You can connect your coding agent or AI chat to BitBoard and build live reporting. Here’s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=HPl0K565a7c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=HPl0K565a7c</a>.<p>AI tools treat data analysi",
+   "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+   "updated_at": "2026-06-18T18:49:11Z",
+   "url": "https://bitboard.work/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_nils_spatial",
+    "story_48463273",
+    "launch_hn"
+   ],
+   "author": "nils_spatial",
+   "created_at": "2026-06-09T16:28:28Z",
+   "created_at_i": 1781022508,
+   "num_comments": 19,
+   "objectID": "48463273",
+   "points": 56,
+   "story_id": 48463273,
+   "story_text": "Hi HN — we’re Julius, Jago, and Nils, and we’re building transload (<a href=\"https:&#x2F;&#x2F;transload.io\">https:&#x2F;&#x2F;transload.io</a>).<p>transload helps LTL trucking companies measure freight dimensions using the security cameras already installed in their terminals. Instead of sending shipments through a dedicated dimensioning station, we measure them automatically as they move through the normal dock workflow.<p>We’ve put together a small HN-specific demo site here: <a href=\"https:&#x2F;&#x2F;hn.transload.io\">https:&#x2F;&#x2F;hn.transload.io</a><p>In LTL trucking, dimensions matt",
+   "title": "Launch HN: Transload (YC P26) – Measuring freight items with CCTV",
+   "updated_at": "2026-07-16T19:01:25Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_fkilaiwi",
+    "story_48445171",
+    "launch_hn"
+   ],
+   "author": "fkilaiwi",
+   "created_at": "2026-06-08T13:35:27Z",
+   "created_at_i": 1780925727,
+   "num_comments": 58,
+   "objectID": "48445171",
+   "points": 117,
+   "story_id": 48445171,
+   "story_text": "Hey HN, we&#x27;re Faisal and Ahmad from Intuned (<a href=\"https:&#x2F;&#x2F;intunedhq.com\">https:&#x2F;&#x2F;intunedhq.com</a>). We’re building a platform for building, deploying, and maintaining browser automations.<p>Customers primarily use the Intuned AI agent to automate websites that don&#x27;t expose APIs. Common use-cases include scraping data, pulling reports, and submitting forms. As the website changes, our agent also helps automatically heal the automation.<p>On Intuned, browser automations are created by an AI agent and run as <i>code</i>. Our infra captures the context of every r",
+   "title": "Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code",
+   "updated_at": "2026-07-29T20:35:28Z",
+   "url": "https://intunedhq.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_guanming0717",
+    "story_48414869",
+    "launch_hn"
+   ],
+   "author": "guanming0717",
+   "created_at": "2026-06-05T16:33:00Z",
+   "created_at_i": 1780677180,
+   "num_comments": 16,
+   "objectID": "48414869",
+   "points": 63,
+   "story_id": 48414869,
+   "story_text": "Hey HN, Guanming and Bill here from General Instinct (<a href=\"https:&#x2F;&#x2F;general-instinct.com&#x2F;\">https:&#x2F;&#x2F;general-instinct.com&#x2F;</a>).<p>After years of working in robotics, we kept running into the same problem: the best models never fit the hardware we actually had available.<p>The models that performed best were usually designed around datacenter assumptions: large GPUs, lots of memory bandwidth, and reliable network access. But most physical systems have the opposite constraints.<p>That led us down the path of figuring out how much of a frontier model could be prese",
+   "title": "Launch HN: General Instinct (YC P26) – Frontier models on edge devices",
+   "updated_at": "2026-07-29T20:35:28Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_shalinshah",
+    "story_48387095",
+    "launch_hn"
+   ],
+   "author": "shalinshah",
+   "created_at": "2026-06-03T17:39:53Z",
+   "created_at_i": 1780508393,
+   "num_comments": 78,
+   "objectID": "48387095",
+   "points": 79,
+   "story_id": 48387095,
+   "story_text": "Hey HN, we’re Shalin &amp; Kanyes, best friends who&#x27;ve been hacking together for 10+yrs, and now founders of Hyper (<a href=\"https:&#x2F;&#x2F;heyhyper.ai&#x2F;\">https:&#x2F;&#x2F;heyhyper.ai&#x2F;</a>). Hyper is a shared “company brain” that plugs into information flowing inside a company to make AI agents and automations better and ultimately save people time.<p>Models have gotten good enough that they can (mostly) take on long-horizon, complex tasks. We believe the bottleneck now is that these smart-enough models often lack information about your company, which is scattered in people&#",
+   "title": "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
+   "updated_at": "2026-09-01T13:48:26Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_rishipankhaniya",
+    "story_48374528",
+    "launch_hn"
+   ],
+   "author": "rishipankhaniya",
+   "created_at": "2026-06-02T18:51:09Z",
+   "created_at_i": 1780426269,
+   "num_comments": 14,
+   "objectID": "48374528",
+   "points": 41,
+   "story_id": 48374528,
+   "story_text": "Hi HN, we’re Rishi and Sahil. We’ve developed Rudus (<a href=\"https:&#x2F;&#x2F;www.rudus.ai&#x2F;\">https:&#x2F;&#x2F;www.rudus.ai&#x2F;</a>), an AI-powered takeoff and estimation platform built for concrete subcontractors.<p>Takeoff is the process of measuring and quantifying materials from concrete plan sheets. Rudus identifies every concrete structure (footings, walls, columns, slabs), pulls in related details, and eliminates hours of manual quantity calculation. Here’s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PAMNDRWEdlI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.",
+   "title": "Launch HN: Rudus (YC P26) – AI for concrete contractors",
+   "updated_at": "2026-08-13T11:04:02Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_ismaeel_bashir",
+    "story_48356312",
+    "launch_hn"
+   ],
+   "author": "ismaeel_bashir",
+   "created_at": "2026-06-01T13:05:02Z",
+   "created_at_i": 1780319102,
+   "num_comments": 27,
+   "objectID": "48356312",
+   "points": 103,
+   "story_id": 48356312,
+   "story_text": "Hey HN, we’re Ismaeel, Eren, Yafet and Nikodem. We built Expanse (<a href=\"https:&#x2F;&#x2F;expanse.sh&#x2F;\">https:&#x2F;&#x2F;expanse.sh&#x2F;</a>) to increase the effective capacity of your HPC&#x2F;GPU clusters running schedulers&#x2F;orchestrators like Kubernetes and SLURM. We read the source code, job submission script, and the hardware a workload is about to run on to predict what the job actually needs before the cluster sees it. We also flag failures we think are about to happen and surface line-level optimisations the researcher can apply themselves.<p>The problem: Datacenters run a",
+   "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
+   "updated_at": "2026-08-25T05:02:19Z"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_fchishtie",
+    "story_48280729",
+    "launch_hn"
+   ],
+   "author": "fchishtie",
+   "created_at": "2026-05-26T14:57:27Z",
+   "created_at_i": 1779807447,
+   "num_comments": 64,
+   "objectID": "48280729",
+   "points": 105,
+   "story_id": 48280729,
+   "story_text": "Hey we’re Faiz and Saheed and we built Minicor so AI companies who need to integrate to desktop systems with no API can quickly build scalable desktop RPAs. Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=MD0GHZIJ1cw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=MD0GHZIJ1cw</a><p>Edit: RPA is an acronym for Robotic Process Automation - things like triggering mouse clicks and key strokes to perform tasks programmatically. Sorry if this wasn&#x27;t clear!<p>We were working on non-RPA integrations when a customer promised to sign a deal in 2 days if we could unblock",
+   "title": "Launch HN: Minicor (YC P26) – Windows desktop automations at scale",
+   "updated_at": "2026-07-23T20:57:22Z",
+   "url": "https://www.minicor.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_garygao",
+    "story_48267829",
+    "launch_hn"
+   ],
+   "author": "garygao",
+   "created_at": "2026-05-25T15:12:33Z",
+   "created_at_i": 1779721953,
+   "num_comments": 200,
+   "objectID": "48267829",
+   "points": 62,
+   "story_id": 48267829,
+   "story_text": "Hey HN! We’re Gary and Ian, and we’re building Chert (<a href=\"https:&#x2F;&#x2F;www.trychert.com&#x2F;\">https:&#x2F;&#x2F;www.trychert.com&#x2F;</a>), an API for businesses to send, receive, and automate iMessage conversations at scale. Check out our demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SRdwvVxMMoI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=SRdwvVxMMoI</a>.<p>We originally started by building products on top of iMessage because the blue bubble interface, typing indicators, and reactions made agentic conversations feel more human than ones on SMS&#x",
+   "title": "Launch HN: Chert (YC P26) – Twilio for iMessage",
+   "updated_at": "2026-07-29T20:35:58Z",
+   "url": "https://www.trychert.com"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_avipeltz",
+    "story_48236770",
+    "launch_hn"
+   ],
+   "author": "avipeltz",
+   "created_at": "2026-05-22T14:53:55Z",
+   "created_at_i": 1779461635,
+   "num_comments": 135,
+   "objectID": "48236770",
+   "points": 108,
+   "story_id": 48236770,
+   "story_text": "Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;superset-sh&#x2F;superset\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;superset-sh&#x2F;superset</a>), an open-source agentic IDE for running coding agents like Claude Code, Codex, OpenCode etc in parallel.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YWDHn7gUwfg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YWDHn7gUwfg</a><p>Try it: <a href=\"https:&#x2F;&#x2F;superset.sh&#x2F;\">https:&#x2F;&#x2F;superset.sh&#x2F;</a><p>We’re three engineers who’ve bu",
+   "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+   "updated_at": "2026-07-12T22:57:10Z",
+   "url": "https://github.com/superset-sh/superset"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_gustrigos",
+    "story_48225040",
+    "launch_hn"
+   ],
+   "author": "gustrigos",
+   "created_at": "2026-05-21T16:07:13Z",
+   "created_at_i": 1779379633,
+   "num_comments": 30,
+   "objectID": "48225040",
+   "points": 103,
+   "story_id": 48225040,
+   "story_text": "Hey HN, We&#x27;re Gus and Carlos from Runtime (<a href=\"https:&#x2F;&#x2F;runtm.com\">https:&#x2F;&#x2F;runtm.com</a>). We&#x27;re building infra that lets your whole team (including non-engineers) ship with Claude Code, Codex, and other agents without engineering having to handhold every session.<p>After Mentum (YC S21) was acquired, I personally shipped 4 full-stack products in 3 months using coding agents. When I tried to roll the same workflow out to the rest of the team, it fell apart: Most PRs were unmergeable slop - Every repo required an engineer doing one-off local setup. - Skills and",
+   "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+   "updated_at": "2026-08-25T05:02:19Z",
+   "url": "https://www.runtm.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_vc289",
+    "story_48124436",
+    "launch_hn"
+   ],
+   "author": "vc289",
+   "created_at": "2026-05-13T16:54:03Z",
+   "created_at_i": 1778691243,
+   "num_comments": 52,
+   "objectID": "48124436",
+   "points": 99,
+   "story_id": 48124436,
+   "story_text": "Hey HN! We’re Vikram and Evan from Ardent (<a href=\"https:&#x2F;&#x2F;tryardent.com\">https:&#x2F;&#x2F;tryardent.com</a>). We&#x27;re building database sandboxes for you and your coding agents.<p>In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building a",
+   "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
+   "updated_at": "2026-06-26T17:54:58Z",
+   "url": "https://www.tryardent.com/"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_ttpost",
+    "story_48109962",
+    "launch_hn"
+   ],
+   "author": "ttpost",
+   "created_at": "2026-05-12T15:45:20Z",
+   "created_at_i": 1778600720,
+   "num_comments": 22,
+   "objectID": "48109962",
+   "points": 59,
+   "story_id": 48109962,
+   "story_text": "Hey HN, we&#x27;re Alex and Tyler, co-founders of Voker.ai (<a href=\"https:&#x2F;&#x2F;voker.ai&#x2F;\">https:&#x2F;&#x2F;voker.ai&#x2F;</a>), an agent analytics platform for AI product teams. Voker gives full visibility into what users are asking of your agents, and whether your agents are delivering, without having to dig through logs. Our main product is a lightweight SDK that is LLM stack agnostic and purpose-built for agent products. (<a href=\"https:&#x2F;&#x2F;app.voker.ai&#x2F;docs\">https:&#x2F;&#x2F;app.voker.ai&#x2F;docs</a>)<p>Agent Engineers and AI product teams don’t have the right ",
+   "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
+   "updated_at": "2026-07-29T20:35:58Z",
+   "url": "https://voker.ai"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_alexblackwell_",
+    "story_47794514",
+    "launch_hn"
+   ],
+   "author": "alexblackwell_",
+   "created_at": "2026-04-16T15:19:54Z",
+   "created_at_i": 1776352794,
+   "num_comments": 84,
+   "objectID": "47794514",
+   "points": 100,
+   "story_id": 47794514,
+   "story_text": "Hey! I am Alex and together with my co-founder Tarun built Kampala (<a href=\"https:&#x2F;&#x2F;www.zatanna.ai&#x2F;kampala\">https:&#x2F;&#x2F;www.zatanna.ai&#x2F;kampala</a>). It’s a man-in-the-middle (MITM) style proxy that allows you to agentically reverse engineer existing workflows without brittle browser automation or computer use agents. It works for websites, mobile apps, desktop apps.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=z_PeostC-b4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=z_PeostC-b4</a>.\nMany people spend hours per day in legacy dashbo",
+   "title": "Launch HN: Kampala (YC W26) – Reverse-Engineer Apps into APIs",
+   "updated_at": "2026-07-29T20:35:58Z",
+   "url": "https://www.zatanna.ai/kampala"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_danoandco",
+    "story_47720418",
+    "launch_hn"
+   ],
+   "author": "danoandco",
+   "created_at": "2026-04-10T16:22:13Z",
+   "created_at_i": 1775838133,
+   "num_comments": 95,
+   "objectID": "47720418",
+   "points": 77,
+   "story_id": 47720418,
+   "story_text": "Hey HN, we&#x27;re Willy and Dan, co-founders of Twill.ai (<a href=\"https:&#x2F;&#x2F;twill.ai&#x2F;\">https:&#x2F;&#x2F;twill.ai&#x2F;</a>). Twill runs coding CLIs like Claude Code and Codex in isolated cloud sandboxes. You hand it work through Slack, GitHub, Linear, our web app or CLI, and it comes back with a PR, a review, a diagnosis, or a follow-up question. It loops you in when it needs your input, so you stay in control.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=oyfTMXVECbs\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=oyfTMXVECbs</a><p>Before Twill",
+   "title": "Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs",
+   "updated_at": "2026-07-29T20:35:58Z",
+   "url": "https://twill.ai"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_behat",
+    "story_47702647",
+    "launch_hn"
+   ],
+   "author": "behat",
+   "created_at": "2026-04-09T12:11:56Z",
+   "created_at_i": 1775736716,
+   "num_comments": 25,
+   "objectID": "47702647",
+   "points": 48,
+   "story_id": 47702647,
+   "story_text": "Hey HN! We are Bharath, and Simranjit from Relvy AI (<a href=\"https:&#x2F;&#x2F;www.relvy.ai\">https:&#x2F;&#x2F;www.relvy.ai</a>). Relvy automates on-call runbooks for software engineering teams. It is an AI agent equipped with tools that can analyze telemetry data and code at scale, helping teams debug and resolve production issues in minutes. Here’s a video: [[[<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BXr4_XlWXc0\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=BXr4_XlWXc0</a>]]]<p>A lot of teams are using AI in some form to reduce their on-call burden. You may b",
+   "title": "Launch HN: Relvy (YC F24) – On-call runbooks, automated",
+   "updated_at": "2026-05-14T13:37:09Z",
+   "url": "https://www.relvy.ai"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_benswerd",
+    "story_47663147",
+    "launch_hn"
+   ],
+   "author": "benswerd",
+   "created_at": "2026-04-06T16:32:11Z",
+   "created_at_i": 1775493131,
+   "num_comments": 158,
+   "objectID": "47663147",
+   "points": 322,
+   "story_id": 47663147,
+   "story_text": "We’re Ben and Jacob, cofounders of Freestyle (<a href=\"https:&#x2F;&#x2F;freestyle.sh\">https:&#x2F;&#x2F;freestyle.sh</a>). We’re building a cloud for  Coding Agents.<p>For the first generation of agents it looked like workflows with minimal tools. 2 years ago we published a package to let AI work in SQL, at that time GPT-4 could write simple scripts. Soon after the first AI App Builders started using AI to make whole websites; we supported that with a serverless deploy system.<p>But the current generation is going much further, instead of minimal tools and basic serverless apps AI can utilize",
+   "title": "Launch HN: Freestyle – Sandboxes for Coding Agents",
+   "updated_at": "2026-07-14T10:03:47Z",
+   "url": "https://www.freestyle.sh/"
+  }
+ ],
+ "hitsPerPage": 200,
+ "nbHits": 55,
+ "nbPages": 1,
+ "page": 0,
+ "params": "query=%22Launch+HN%22&advancedSyntax=true&tags=story&hitsPerPage=200&typoTolerance=false&restrictSearchableAttributes=title&numericFilters=created_at_i%3E1775347064&analyticsTags=backend",
+ "processingTimeMS": 5,
+ "processingTimingsMS": {
+  "_request": {
+   "roundTrip": 14
+  },
+  "afterFetch": {
+   "format": {
+    "highlighting": 15,
+    "total": 17
+   },
+   "merge": {
+    "mergeLoop": {
+     "prepareNextHit": 2,
+     "total": 2
+    },
+    "total": 2
+   },
+   "total": 2
+  },
+  "fetch": {
+   "total": 1
+  },
+  "total": 5
+ },
+ "query": "\"Launch HN\"",
+ "serverTimeMS": 23
+}
