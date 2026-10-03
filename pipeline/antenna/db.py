@@ -173,3 +173,34 @@ def insert_signals(conn: sqlite3.Connection, run_id: int, signals: Iterable[Sign
         )
     conn.commit()
     return emitted, inserted
+
+
+# Point events that a collector re-dates on every run (a job board whose
+# roles all carry today's date), so each run would leave a new row.
+_ONE_PER_SUBJECT = {("ats_jobs", "ats_board_created")}
+
+
+def prune_superseded(conn: sqlite3.Connection) -> int:
+    """Delete readings that a later reading has replaced. Returns how many.
+
+    A continuous measurement is meant to be one row that each run refreshes
+    (see `fingerprint`). Its key includes the company's domain or name, so
+    when a company first gains a domain the next reading lands in a new row
+    and the old one stays behind: counted twice by the scorer and shown
+    twice on the site. This keeps the row the latest run touched. It needs
+    signals to be resolved to entities first.
+    """
+    groups: dict[tuple, list[tuple[int, int]]] = {}
+    for r in conn.execute("SELECT id, run_id, entity_id, source, kind, metrics, series FROM signals"
+                          " WHERE entity_id IS NOT NULL"):
+        metrics = json.loads(r["metrics"] or "{}")
+        continuous = (bool(metrics.get("observed_only")) or bool(metrics.get("rolling"))
+                      or any("s" in p for p in json.loads(r["series"] or "[]")))
+        if not continuous and (r["source"], r["kind"]) not in _ONE_PER_SUBJECT:
+            continue
+        subject = str(metrics.get("repo") or metrics.get("subject") or metrics.get("ats_slug") or "")
+        groups.setdefault((r["entity_id"], r["source"], r["kind"], subject), []).append((r["run_id"] or 0, r["id"]))
+    stale = [sid for rows in groups.values() if len(rows) > 1 for _, sid in sorted(rows)[:-1]]
+    conn.executemany("DELETE FROM signals WHERE id=?", [(sid,) for sid in stale])
+    conn.commit()
+    return len(stale)

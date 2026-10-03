@@ -50,7 +50,7 @@ Every source is a public endpoint that needs no key and no account.
 | Reviewed | 414 |
 | Removed on review | 106 |
 | Ranked | 300, every one reviewed |
-| Corroborated by two or more families | 91 |
+| With signals in two or more families | 91 |
 | With a fact-checked brief | 24 |
 | On thesis and waiting for review | 335 |
 
@@ -89,8 +89,9 @@ docs/
 
 The board is built to be opened every morning.
 
-- The tiles are filters: new this week, corroborated, formation stage, with
-  a brief, starred, and what changed since the run you last looked at.
+- The tiles are filters: new this week, two or more sources, formation
+  stage, with a brief, starred, and what changed since the run you last
+  looked at.
 - Hover any of the eight family boxes on a row to see the signals behind it.
 - The signal under a company's name opens its source filing directly.
 - Filters live in the URL, so a view can be bookmarked or shared, and the
@@ -152,8 +153,8 @@ edge = momentum × thesis fit × earliness × team
 ```
 
 - **Momentum.** Each signal has a strength that halves on a schedule set by
-  its family. One family alone is capped and marked down, so the only way to
-  the top is corroboration across independent families.
+  its family. One family alone is capped and marked down, so a company
+  needs signals in more than one family to reach the top.
 - **Thesis fit.** A keyword model on purpose. You can read why a company
   matched and edit the list in `pipeline/antenna/config.py`.
 - **Earliness.** One minus consensus. Stars, press, traffic rank, headcount,

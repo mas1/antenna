@@ -13,20 +13,21 @@ type Props = {
 };
 
 const W = 880;
-const H = 240;
-const PAD = { l: 36, r: 16, t: 16, b: 44 };
+const H = 220;
+const PAD = { l: 2, r: 6, t: 16, b: 20 };
 
 /**
  * Edge over the last twelve weeks, with every dated signal marked on the
  * time axis so a rise can be read against what caused it. Markers are dated
- * events only: a standing reading has no place on a time axis.
+ * events only: an undated signal has no place on a time axis.
  */
 export function HistoryChart({ dates, values, markers }: Props) {
   const [hover, setHover] = useState<number | null>(null);
   if (values.length < 2) return null;
 
+  const last = dates.length - 1;
   const t0 = Date.parse(dates[0]);
-  const t1 = Date.parse(dates[dates.length - 1]);
+  const t1 = Date.parse(dates[last]);
   const top = Math.max(10, Math.ceil(Math.max(...values) / 10) * 10);
   const x = (iso: string) => PAD.l + ((Date.parse(iso) - t0) / (t1 - t0)) * (W - PAD.l - PAD.r);
   const y = (v: number) => H - PAD.b - (v / top) * (H - PAD.t - PAD.b);
@@ -42,93 +43,111 @@ export function HistoryChart({ dates, values, markers }: Props) {
   const latest = markers.reduce((max, m) => (m.t > max ? m.t : max), "");
   const ticks = [0, top / 2, top];
   const [lx, ly] = pts[pts.length - 1];
+  // Green is for a rise, by the same rule as the board's sparkline.
+  const rising = values[values.length - 1] > values[Math.max(0, values.length - 3)];
 
   return (
     <figure>
-      <svg
-        viewBox={`0 0 ${W} ${H}`}
-        className="h-auto w-full"
-        role="img"
-        aria-label={`Edge score from ${shortDate(dates[0])} to ${shortDate(dates[dates.length - 1])}, ending at ${values[values.length - 1].toFixed(0)}`}
-      >
-        <defs>
-          <linearGradient id="hist-fill" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="0%" stopColor="var(--ink)" stopOpacity="0.12" />
-            <stop offset="100%" stopColor="var(--ink)" stopOpacity="0" />
-          </linearGradient>
-        </defs>
+      {/* The axis labels are HTML beside the drawing, so they keep their size when the chart is scaled down to a phone. */}
+      <div className="pl-7">
+        <div className="relative">
+          <svg
+            viewBox={`0 0 ${W} ${H}`}
+            className="h-auto w-full"
+            role="img"
+            aria-label={`Edge score from ${shortDate(dates[0])} to ${shortDate(dates[last])}, ending at ${values[values.length - 1].toFixed(0)}`}
+          >
+            <defs>
+              <linearGradient id="hist-fill" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" stopColor="var(--ink)" stopOpacity="0.12" />
+                <stop offset="100%" stopColor="var(--ink)" stopOpacity="0" />
+              </linearGradient>
+            </defs>
 
-        {ticks.map((t) => (
-          <g key={t}>
-            <line x1={PAD.l} x2={W - PAD.r} y1={y(t)} y2={y(t)} stroke="var(--rule)" strokeWidth={1} strokeDasharray={t ? "2 4" : undefined} />
-            <text x={PAD.l - 8} y={y(t) + 3.5} textAnchor="end" fontSize={10.5} fill="var(--ink-4)" fontFamily="var(--font-plex-mono)">
-              {t}
-            </text>
-          </g>
-        ))}
+            {ticks.map((t) => (
+              <line key={t} x1={PAD.l} x2={W - PAD.r} y1={y(t)} y2={y(t)} stroke="var(--rule)" strokeWidth={1} strokeDasharray={t ? "2 4" : undefined} vectorEffect="non-scaling-stroke" />
+            ))}
 
-        {dates.map((d, i) =>
-          i % 3 === 0 || i === dates.length - 1 ? (
-            <text key={d} x={x(d)} y={H - 8} textAnchor={i === dates.length - 1 ? "end" : i === 0 ? "start" : "middle"} fontSize={10.5} fill="var(--ink-4)" fontFamily="var(--font-plex-mono)">
-              {i === dates.length - 1 ? "NOW" : shortDate(d, dates[dates.length - 1]).toUpperCase()}
-            </text>
-          ) : null,
-        )}
-
-        {/* Whole in the HTML; the entrances are CSS, so the chart shows without JavaScript and in print. */}
-        <path d={area} fill="url(#hist-fill)" className="fade-in" style={{ "--d": "0.6s" } as React.CSSProperties} />
-        <path
-          d={line}
-          pathLength={1}
-          fill="none"
-          stroke="var(--ink)"
-          strokeWidth={1.6}
-          strokeLinejoin="round"
-          strokeLinecap="round"
-          className="draw-line"
-          style={{ "--t": "1.1s" } as React.CSSProperties}
-        />
-
-        {/* Signal markers on the axis */}
-        {inRange.map((m, i) => {
-          const mx = x(m.t);
-          const on = hover === i;
-          return (
-            <g key={`${m.t}-${i}`} onMouseEnter={() => setHover(i)} onMouseLeave={() => setHover(null)}>
-              <line
-                x1={mx}
-                x2={mx}
-                y1={y(0)}
-                y2={y(0) + (on ? 14 : 9)}
-                stroke={on ? "var(--signal)" : "var(--ink)"}
-                strokeWidth={on ? 2 : 1.25}
-                className="fade-in"
-                style={{ "--d": `${(0.5 + ((mx - PAD.l) / W) * 0.8).toFixed(2)}s` } as React.CSSProperties}
+            {/* Whole in the HTML; the entrances are CSS, so the chart shows without JavaScript and in print. */}
+            <g>
+              <path d={area} fill="url(#hist-fill)" className="fade-in" style={{ "--d": "0.6s" } as React.CSSProperties} />
+              <path
+                d={line}
+                pathLength={1}
+                fill="none"
+                stroke="var(--ink)"
+                strokeWidth={1.6}
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                // Thicker on a phone, where the drawing is scaled to a third.
+                className="draw-line max-sm:[stroke-width:3.5]"
+                style={{ "--t": "1.1s" } as React.CSSProperties}
               />
-              {on && <line x1={mx} x2={mx} y1={PAD.t} y2={y(0)} stroke="var(--signal)" strokeWidth={1} strokeDasharray="2 3" />}
-              <rect x={mx - 6} y={PAD.t} width={12} height={H - PAD.t - 20} fill="transparent" />
             </g>
-          );
-        })}
 
-        <circle cx={lx} cy={ly} r={3.5} fill="var(--signal)" className="pop-in" style={{ "--d": "0.95s" } as React.CSSProperties} />
-      </svg>
-      <figcaption className="mt-2 flex min-h-5 items-baseline gap-3 text-[13px]">
+            {/* Signal markers on the axis */}
+            {inRange.map((m, i) => {
+              const mx = x(m.t);
+              const on = hover === i;
+              return (
+                <g key={`${m.t}-${i}`} onMouseEnter={() => setHover(i)} onMouseLeave={() => setHover(null)}>
+                  <line
+                    x1={mx}
+                    x2={mx}
+                    y1={y(0)}
+                    y2={y(0) + (on ? 14 : 9)}
+                    stroke="var(--ink)"
+                    strokeWidth={on ? 2 : 1.25}
+                    vectorEffect="non-scaling-stroke"
+                    className="fade-in"
+                    style={{ "--d": `${(0.5 + ((mx - PAD.l) / W) * 0.8).toFixed(2)}s` } as React.CSSProperties}
+                  />
+                  {on && <line x1={mx} x2={mx} y1={PAD.t} y2={y(0)} stroke="var(--ink)" strokeWidth={1} strokeDasharray="2 3" vectorEffect="non-scaling-stroke" />}
+                  <rect x={mx - 6} y={PAD.t} width={12} height={H - PAD.t} fill="transparent" />
+                </g>
+              );
+            })}
+
+            <circle cx={lx} cy={ly} r={3.5} fill={rising ? "var(--signal)" : "var(--ink)"} className="pop-in" style={{ "--d": "0.95s" } as React.CSSProperties} />
+          </svg>
+          {ticks.map((t) => (
+            <span
+              key={t}
+              aria-hidden
+              className="num absolute right-full mr-2 -translate-y-1/2 text-[11px] leading-none text-ink-4"
+              style={{ top: `${(y(t) / H) * 100}%` }}
+            >
+              {t}
+            </span>
+          ))}
+        </div>
+        {/* Every third week and today. A phone keeps the first, the middle and today. */}
+        <div aria-hidden className="relative mt-1.5 h-4">
+          {dates.map((d, i) =>
+            i % 3 === 0 || i === last ? (
+              <span
+                key={d}
+                className={`label absolute top-0 whitespace-nowrap !text-ink-4 ${
+                  i === last ? "-translate-x-full" : i === 0 ? "" : "-translate-x-1/2"
+                } ${i % 6 === 0 || i === last ? "" : "max-sm:hidden"}`}
+                style={{ left: `${(x(d) / W) * 100}%` }}
+              >
+                {i === last ? "Now" : shortDate(d, dates[last])}
+              </span>
+            ) : null,
+          )}
+        </div>
+      </div>
+      {/* Empty until a tick is hovered: the room for it is taken from the gap below, so the section ends level with the others. */}
+      <figcaption className={`mt-2 flex min-h-5 items-baseline gap-3 text-[13px] ${inRange.length ? "-mb-7" : ""}`}>
         {hover != null && inRange[hover] ? (
           <>
-            <span className="num text-[11px] text-ink-4">{shortDate(inRange[hover].t)}</span>
+            <span className="num text-[11px] text-ink-4">{shortDate(inRange[hover].t, dates[last])}</span>
             <span className="label">{FAMILY_LABEL[inRange[hover].family]}</span>
             <span className="truncate text-ink-2">{inRange[hover].title}</span>
           </>
-        ) : inRange.length > 0 ? (
-          <span className="label !text-ink-4">
-            {inRange.length} dated signal{inRange.length === 1 ? "" : "s"} on the axis. Hover a tick to read it.
-          </span>
         ) : (
-          <span className="label">
-            No dated signals in these twelve weeks
-            {latest && `. The latest was ${shortDate(latest, dates[dates.length - 1])}.`}
-          </span>
+          inRange.length === 0 && latest && <span className="label">Last signal {shortDate(latest, dates[last])}</span>
         )}
       </figcaption>
     </figure>

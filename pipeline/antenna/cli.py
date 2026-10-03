@@ -22,7 +22,7 @@ from . import http
 from .collectors import load_all
 from .collectors.base import Context
 from .config import DATA_DIR, DB_PATH, EXPORT_DIR, LOOKBACK_DAYS
-from .db import connect, insert_signals, now_iso
+from .db import connect, insert_signals, now_iso, prune_superseded
 from .export import export
 from .resolve import resolve
 from .score import score_all, thesis_of
@@ -149,6 +149,7 @@ def cmd_run(args) -> int:
                 " emitted, inserted, error FROM collector_runs WHERE run_id=?", (run_id, prev))
 
     n = resolve(conn)
+    prune_superseded(conn)
     scored = score_all(conn, run_id, today)
     meta = export(conn, run_id, today, collected=not args.no_collect)
     stats = {"entities": n, "scored": scored, "http": http.stats(), "totals": meta["totals"]}

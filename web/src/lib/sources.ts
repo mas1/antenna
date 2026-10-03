@@ -6,7 +6,7 @@ export type SourceInfo = {
   family: Family;
   /** What it watches. */
   watches: string;
-  /** Why it fires early. */
+  /** Why it counts. */
   early: string;
 };
 
@@ -42,9 +42,9 @@ export const SOURCES: SourceInfo[] = [
   },
   {
     slug: "fcc_els",
-    name: "FCC experimental licences",
+    name: "FCC experimental licenses",
     family: "regulatory",
-    watches: "Applications and grants for experimental radio licences, including those still pending.",
+    watches: "Applications and grants for experimental radio licenses, including those still pending.",
     early: "Anything that radiates (drones, radar, satellites) must file before it can be tested.",
   },
   {
@@ -52,7 +52,7 @@ export const SOURCES: SourceInfo[] = [
     name: "NRC pre-application dockets",
     family: "regulatory",
     watches: "New documents on reactor pre-application dockets in the NRC's public records.",
-    early: "A new docket marks the first formal contact with the regulator, long before a licence.",
+    early: "A new docket marks the first formal contact with the regulator, long before a license.",
   },
   {
     slug: "faa_uas",
@@ -72,42 +72,42 @@ export const SOURCES: SourceInfo[] = [
     slug: "github_velocity",
     name: "GitHub star velocity",
     family: "github",
-    watches: "Daily star history for thesis repositories, discounted when the stargazers look fake.",
-    early: "Acceleration shows up in days, and new organizations with a domain are companies forming in public.",
+    watches: "Daily star counts for repositories that match the thesis, discounted when the stars look fake.",
+    early: "Star growth shows within days. A new organization with its own domain is often a new company.",
   },
   {
     slug: "research_affil",
     name: "Research affiliations",
     family: "research",
     watches: "Recent papers where an author's affiliation is an organization no registry knows.",
-    early: "It is the moment a researcher first puts a company's name on their work.",
+    early: "The first time a researcher lists the company as their affiliation.",
   },
   {
     slug: "yc_directory",
     name: "Y Combinator directory",
     family: "launch",
     watches: "The three most recent batches and their launch posts, filtered to the thesis.",
-    early: "Teams of two to five that almost nobody has met yet.",
+    early: "Often the first public listing of a team of two to five.",
   },
   {
     slug: "hn_launch",
     name: "Show HN and Launch HN",
     family: "launch",
     watches: "Launch posts on Hacker News with their points and comments.",
-    early: "The one launch feed that catches builders outside any accelerator.",
+    early: "Covers launches from teams outside accelerators.",
   },
   {
     slug: "accelerators",
     name: "a16z speedrun, HAX and SOSV",
     family: "launch",
     watches: "Cohort lists and founder records from hard-tech accelerators.",
-    early: "The company exists here before it has press, including a flag when it is raising.",
+    early: "Listed before any press, sometimes with a note that the company is raising.",
   },
   {
     slug: "hn_hiring",
     name: "Who is hiring",
     family: "hiring",
-    watches: "The monthly Hacker News hiring thread, parsed for thesis companies.",
+    watches: "The monthly Hacker News hiring thread, filtered to the thesis.",
     early: "Teams of two to twenty post here before they have a careers page.",
   },
   {
@@ -122,7 +122,7 @@ export const SOURCES: SourceInfo[] = [
     name: "Developer attention",
     family: "social",
     watches: "Weekly Hacker News mentions of each company, and its lifetime total.",
-    early: "A rise from zero is attention arriving. A large total is consensus, and is scored against.",
+    early: "First mentions count for a company. A large lifetime total counts against it as already known.",
   },
   {
     slug: "web_presence",

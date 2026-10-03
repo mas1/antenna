@@ -255,7 +255,7 @@ class RegisteredSignal(unittest.TestCase):
         sig.validate()
         self.assertEqual(sig.kind, "domain_registered")
         self.assertEqual(sig.occurred_at, "2023-02-07")
-        self.assertEqual(sig.title, "Domain skild.ai was registered on 2023-02-07, 114 days ago")
+        self.assertEqual(sig.title, "Domain skild.ai was registered on 2023-02-07")
         self.assertEqual(sig.value, 114)
         self.assertEqual(sig.metrics["domain_age_days"], 114)
         self.assertEqual(sig.metrics["registrar"], "NameCheap, Inc.")
@@ -271,7 +271,7 @@ class RegisteredSignal(unittest.TestCase):
                 "nameservers": []}
         ent = {"name": "robocurve", "kind": "project", "github": "robocurve"}
         sig = df.registered_signal(ent, "robocurve.org", rdap, self.URL, TODAY, SINCE)
-        self.assertEqual(sig.title, "Domain robocurve.org was registered on 2026-06-24, 99 days ago")
+        self.assertEqual(sig.title, "Domain robocurve.org was registered on 2026-06-24")
         self.assertEqual(sig.entity.kind, "project")
         self.assertEqual(sig.strength, df.REGISTERED_STRENGTH_PROJECT)
         self.assertEqual(sig.metrics["expiry_horizon_days"], 266)
@@ -287,16 +287,17 @@ class RegisteredSignal(unittest.TestCase):
         rdap = {"registered": SINCE, "expires": None, "registrar": None, "nameservers": []}
         edge = df.registered_signal(SKILD, "x.com", rdap, self.URL, TODAY, SINCE)
         self.assertEqual(edge.occurred_at, SINCE.isoformat())
-        self.assertIn("120 days ago", edge.title)
+        self.assertEqual(edge.value, 120)
         rdap["registered"] = SINCE - timedelta(days=1)
         self.assertIsNone(df.registered_signal(SKILD, "x.com", rdap, self.URL, TODAY, SINCE))
         rdap["registered"] = TODAY
         new = df.registered_signal(SKILD, "x.com", rdap, self.URL, TODAY, SINCE)
-        self.assertIn("0 days ago", new.title)
+        self.assertEqual(new.value, 0)
+        self.assertNotIn("ago", new.title)
         # Flat: the scorer decays it, the collector does not decay it a second time.
         self.assertEqual(new.strength, edge.strength)
         rdap["registered"] = TODAY - timedelta(days=1)
-        self.assertIn("1 day ago", df.registered_signal(SKILD, "x.com", rdap, self.URL, TODAY, SINCE).title)
+        self.assertEqual(df.registered_signal(SKILD, "x.com", rdap, self.URL, TODAY, SINCE).value, 1)
 
     def test_missing_or_future_date_is_silent(self):
         rdap = {"registered": None, "expires": None, "registrar": None, "nameservers": []}

@@ -47,7 +47,7 @@ export function CommandPalette() {
         key: it.slug,
         href: `/c/${it.slug}/`,
         title: it.name,
-        meta: `${SECTOR_LABEL[it.sector]} · ${String(it.rank).padStart(2, "0")}`,
+        meta: `${SECTOR_LABEL[it.sector]} · #${it.rank}`,
         sub: it.oneLiner,
       }));
     return q ? [...companies, ...pages] : [...pages, ...companies];
@@ -162,7 +162,7 @@ export function CommandPalette() {
               role="dialog"
               aria-modal="true"
               aria-label="Search"
-              className="w-full max-w-[620px] border border-ink bg-paper shadow-[0_24px_60px_-20px_rgba(20,20,20,0.35)]"
+              className="w-full max-w-[620px] border border-ink bg-paper"
               initial={reduce ? false : { opacity: 0, y: -8, scale: 0.985 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -4, transition: { duration: 0.1 } }}
@@ -175,7 +175,7 @@ export function CommandPalette() {
                   setQuery(e.target.value);
                   setCursor(0);
                 }}
-                placeholder="Find a company or a page"
+                placeholder="Search companies and pages"
                 // The dialog's own border is the focus mark: the input is the
                 // only stop inside it, and the global ring would stick out
                 // past the frame.
@@ -204,20 +204,16 @@ export function CommandPalette() {
                       i === cursor ? "bg-paper-2" : ""
                     }`}
                   >
-                    <span className="min-w-0">
-                      <span className="font-serif text-[17px]">{r.title}</span>
-                      {r.sub && <span className="ml-3 hidden truncate text-[13px] text-ink-3 sm:inline">{r.sub}</span>}
+                    {/* The name is kept whole and the one-liner takes what is left. */}
+                    <span className="flex min-w-0 items-baseline gap-3">
+                      <span className="font-serif text-[17px] sm:max-w-full sm:shrink-0 sm:truncate">{r.title}</span>
+                      {r.sub && <span className="hidden min-w-0 truncate text-[13px] text-ink-3 sm:block">{r.sub}</span>}
                     </span>
                     <span className="label shrink-0">{r.meta}</span>
                   </li>
                 ))}
-                {results.length === 0 && <li className="px-5 py-6 text-[14px] text-ink-3">Nothing found.</li>}
+                {results.length === 0 && <li className="px-5 py-6 text-[14px] text-ink-3">Nothing matches.</li>}
               </ul>
-              <p className="label flex gap-5 border-t border-rule px-5 py-2.5 !text-ink-5">
-                <span>↑↓ move</span>
-                <span>↵ open</span>
-                <span>esc close</span>
-              </p>
             </motion.div>
           </motion.div>
         )}

@@ -800,11 +800,12 @@ def registered_signal(ent: dict, domain: str, rdap: dict, url: str, today: date,
     if rdap.get("expires"):
         metrics["expires"] = iso(rdap["expires"])
         metrics["expiry_horizon_days"] = (rdap["expires"] - today).days
-    day = "day" if age == 1 else "days"
     return Signal(
         source=SLUG, family=FAMILY, kind="domain_registered",
         entity=_hint(ent, domain),
-        title=f"Domain {domain} was registered on {iso(registered)}, {age} {day} ago",
+        # The age is the value, not part of the title: a title that says
+        # "13 days ago" is wrong the day after it is written.
+        title=f"Domain {domain} was registered on {iso(registered)}",
         occurred_at=iso(registered),
         url=url,
         value=age, unit="days since registration",

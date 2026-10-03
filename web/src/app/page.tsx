@@ -35,16 +35,10 @@ function forBoard(r: BoardRow): ClientRow {
 }
 
 export default function Page() {
-  const totals = {
-    signals: meta.totals.signals,
-    sources: meta.totals.sources,
-    entities: meta.totals.entities,
-    awaiting: meta.reviewed?.awaiting ?? 0,
-  };
   return (
     <>
       <h1 className="sr-only">Antenna: ranked companies</h1>
-      <Board rows={board.map(forBoard)} asOf={meta.asOf} totals={totals}>
+      <Board rows={board.map(forBoard)} asOf={meta.asOf}>
         <Leads rows={board} asOf={meta.asOf} />
       </Board>
     </>

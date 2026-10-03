@@ -7,7 +7,7 @@ import { StarButton } from "@/components/ui/StarButton";
 import { useStarred } from "@/lib/local";
 import { useBoardView } from "./boardView";
 
-type Neighbour = { slug: string; name: string; rank: number };
+type Neighbour = { slug: string; name: string };
 
 type Props = {
   slug: string;
@@ -20,17 +20,15 @@ type Props = {
   next?: Neighbour;
 };
 
-/** One arrow: where it leads, what the link says, and its hover title. */
-type Step = { slug: string; text: string; title: string; word?: boolean };
+/** One arrow: where it leads and its hover title. */
+type Step = { slug: string; title: string };
 
 const CRUMB = "label -m-2 whitespace-nowrap p-2 transition-colors hover:!text-ink";
-const pad = (n: number) => String(n).padStart(2, "0");
-
-const byRank = (n?: Neighbour): Step | undefined => n && { slug: n.slug, text: pad(n.rank), title: n.name };
-const inView = (slug: string | undefined, text: string): Step | undefined =>
-  slug ? { slug, text, title: `${text} in your view`, word: true } : undefined;
 // A phone has no room for "Previous" and "Next" beside "112 of 300": the arrow stands alone there.
-const said = (s: Step) => <span className={s.word ? "max-sm:sr-only" : undefined}>{s.text}</span>;
+const WORD = "max-sm:sr-only";
+
+const byRank = (n?: Neighbour): Step | undefined => n && { slug: n.slug, title: n.name };
+const inView = (slug: string | undefined, title: string): Step | undefined => (slug ? { slug, title } : undefined);
 
 /**
  * The crumbs above a dossier: back to the board, previous and next, where
@@ -46,8 +44,8 @@ export function DossierTools({ slug, name, rank, total, prev, next }: Props) {
   // The reader's list only counts when this company is on it.
   const list = view?.slugs.includes(slug) ? view.slugs : null;
   const at = list ? list.indexOf(slug) : -1;
-  const before = list ? inView(list[at - 1], "Previous") : byRank(prev);
-  const after = list ? inView(list[at + 1], "Next") : byRank(next);
+  const before = list ? inView(list[at - 1], "Previous in your view") : byRank(prev);
+  const after = list ? inView(list[at + 1], "Next in your view") : byRank(next);
   const left = before?.slug;
   const right = after?.slug;
 
@@ -74,22 +72,15 @@ export function DossierTools({ slug, name, rank, total, prev, next }: Props) {
       <div className="flex items-center gap-3 sm:gap-5">
         {before && (
           <Link href={`/c/${before.slug}/`} replace className={CRUMB} title={`${before.title} (left arrow)`}>
-            ← {said(before)}
+            ← <span className={WORD}>Previous</span>
           </Link>
         )}
         <span className="label whitespace-nowrap !text-ink">
-          {list ? (
-            <>
-              {at + 1} of {list.length}
-              <span className="max-sm:hidden"> in your view</span>
-            </>
-          ) : (
-            `Rank ${pad(rank)} of ${total}`
-          )}
+          {list ? `${at + 1} of ${list.length}` : `${rank} of ${total}`}
         </span>
         {after && (
           <Link href={`/c/${after.slug}/`} replace className={CRUMB} title={`${after.title} (right arrow)`}>
-            {said(after)} →
+            <span className={WORD}>Next</span> →
           </Link>
         )}
         <StarButton on={starred.includes(slug)} onToggle={() => toggle(slug)} name={name} size={16} />

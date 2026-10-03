@@ -123,8 +123,8 @@ export function Founders({ rows }: { rows: PersonRow[] }) {
             enterKeyHint="search"
             value={query}
             onChange={(e) => setQuery({ q: e.target.value })}
-            placeholder="Search a name, company, lab or background"
-            className="w-full border-b border-rule-2 bg-transparent py-2 text-[14px] outline-none transition-colors duration-200 placeholder:text-ink-4 focus:border-ink"
+            placeholder="Search name, company, lab"
+            className="w-full border-b border-rule-2 bg-transparent py-2 text-[14px] !outline-none transition-colors duration-200 placeholder:text-ink-5 focus:border-ink"
           />
         </label>
       </div>
@@ -149,13 +149,23 @@ export function Founders({ rows }: { rows: PersonRow[] }) {
                     href={r.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="font-serif text-[19px] leading-tight underline decoration-transparent decoration-1 underline-offset-4 transition-colors hover:decoration-ink"
+                    className="group/name font-serif text-[18px] leading-tight"
                   >
-                    {r.name}
+                    <span className="underline decoration-transparent decoration-1 underline-offset-4 transition-colors group-hover/name:decoration-ink">
+                      {r.name}
+                    </span>
+                    {/* A no-break space, so the arrow never wraps to a line of its own. */}
+                    {"\u00a0"}
+                    <span
+                      aria-hidden="true"
+                      className="font-sans text-[12px] text-ink-4 transition-colors group-hover/name:text-ink"
+                    >
+                      ↗
+                    </span>
                   </a>
                 ) : (
                   <p className="flex flex-wrap items-baseline gap-x-3">
-                    <span className="font-serif text-[19px] leading-tight">{r.name}</span>
+                    <span className="font-serif text-[18px] leading-tight">{r.name}</span>
                     <a
                       href={searchUrl(r)}
                       target="_blank"
@@ -179,7 +189,7 @@ export function Founders({ rows }: { rows: PersonRow[] }) {
                   {r.company}
                 </Link>
                 <p className="label mt-1">
-                  {SECTOR_LABEL[r.sector]} · Rank {String(r.rank).padStart(2, "0")}
+                  {SECTOR_LABEL[r.sector]} · #{r.rank}
                 </p>
               </div>
               <div className="col-span-12 space-y-1 sm:col-span-4 lg:col-span-6">
@@ -220,11 +230,10 @@ export function Founders({ rows }: { rows: PersonRow[] }) {
               <button
                 type="button"
                 onClick={() => setQuery({ view: "everyone" })}
-                className="text-ink underline decoration-1 underline-offset-4"
+                className="text-ink underline decoration-rule-2 decoration-1 underline-offset-4 transition-colors hover:decoration-ink"
               >
-                Look in everyone
+                Show everyone
               </button>
-              .
             </>
           ) : (
             "."
@@ -232,11 +241,8 @@ export function Founders({ rows }: { rows: PersonRow[] }) {
         </p>
       )}
 
-      <div className="mt-6 flex items-center justify-between">
-        <p className="label">
-          Showing {Math.min(shown, filtered.length)} of {filtered.length}
-        </p>
-        {filtered.length > shown && (
+      {filtered.length > shown && (
+        <div className="mt-6 flex justify-end">
           <button
             type="button"
             onClick={() => setPage({ key: viewKey, shown: shown + PAGE })}
@@ -244,8 +250,8 @@ export function Founders({ rows }: { rows: PersonRow[] }) {
           >
             Show {Math.min(PAGE, filtered.length - shown)} more
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }

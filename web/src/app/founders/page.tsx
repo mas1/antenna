@@ -8,14 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const rows = people();
-  const companies = new Set(rows.map((r) => r.slug)).size;
   return (
-    <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-      <h1 className="label pb-4 pt-6">
-        Founders · {rows.length.toLocaleString("en-US")} people across {companies} companies
-      </h1>
-      <Founders rows={rows} />
+    <div className="mx-auto max-w-[1320px] px-5 pt-6 sm:px-8">
+      <h1 className="sr-only">Founders</h1>
+      <Founders rows={people()} />
     </div>
   );
 }

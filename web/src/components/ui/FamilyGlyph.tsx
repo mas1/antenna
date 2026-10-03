@@ -3,17 +3,13 @@
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import {
-  FAMILY_BLURB,
-  FAMILY_CODE,
-  FAMILY_LABEL,
-  shortDate,
-} from "@/lib/format";
+import { FAMILY_BLURB, FAMILY_LABEL, shortDate } from "@/lib/format";
 import { FAMILIES, type Family } from "@/lib/types";
 
 export type FamilyDetail = {
   count: number;
-  items: { title: string; occurredAt: string }[];
+  /** `state` marks a reading with no date of its own. */
+  items: { title: string; occurredAt: string; state?: boolean }[];
 };
 
 type Props = {
@@ -76,8 +72,8 @@ export function FamilyGlyph({
   }, [active]);
   const firing = FAMILIES.filter((f) => families[f] >= FIRING);
   const label = firing.length
-    ? `Firing: ${firing.map((f) => FAMILY_LABEL[f]).join(", ")}`
-    : "No family firing";
+    ? `Signals: ${firing.map((f) => FAMILY_LABEL[f]).join(", ")}`
+    : "No signals";
   const detail = active ? details?.[active] : undefined;
   // Each cell sits in a taller hit area so a 9px box is not a 9px target.
   const pad = Math.max(4, Math.round((22 - size) / 2));
@@ -149,14 +145,17 @@ export function FamilyGlyph({
                 style={{
                   width: size,
                   height: size,
-                  background: on ? "var(--ink)" : "transparent",
-                  opacity: on ? 0.28 + 0.72 * Math.min(1, v) : 1,
+                  // Strength is in the fill, not in opacity, so the hover
+                  // ring below stays full ink on a weak family.
+                  background: on
+                    ? `color-mix(in srgb, var(--ink) ${Math.round((0.28 + 0.72 * Math.min(1, v)) * 100)}%, transparent)`
+                    : "transparent",
                   boxShadow: on ? "none" : "inset 0 0 0 1px var(--rule)",
                   outline:
                     active === f
-                      ? "1.5px solid var(--signal)"
-                      : "1.5px solid transparent",
-                  outlineOffset: 1.5,
+                      ? "1px solid var(--ink)"
+                      : "1px solid transparent",
+                  outlineOffset: 1,
                 }}
               />
             </span>
@@ -178,22 +177,17 @@ export function FamilyGlyph({
               }
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.16, ease: [0.16, 1, 0.3, 1] }}
-              className="pointer-events-none fixed z-[60] block w-[19rem] max-w-[calc(100vw-1rem)] border border-ink bg-paper px-3.5 py-3 text-left shadow-[0_14px_34px_-18px_rgba(20,20,20,0.45)]"
+              className="pointer-events-none fixed z-[60] block w-[19rem] max-w-[calc(100vw-1rem)] border border-ink bg-paper px-3.5 py-3 text-left"
               style={place}
             >
               <span className="flex items-baseline justify-between gap-3">
-                <span className="flex items-baseline gap-2">
-                  <span className="num text-[10.5px] text-ink-4">
-                    {FAMILY_CODE[active]}
-                  </span>
-                  <span className="text-[13.5px] font-medium normal-case tracking-normal text-ink">
-                    {FAMILY_LABEL[active]}
-                  </span>
+                <span className="text-[13.5px] font-medium normal-case tracking-normal text-ink">
+                  {FAMILY_LABEL[active]}
                 </span>
                 <span className="label">
                   {detail
                     ? `${detail.count} signal${detail.count === 1 ? "" : "s"}`
-                    : "Nothing on file"}
+                    : "No signals"}
                 </span>
               </span>
               {detail ? (
@@ -203,21 +197,20 @@ export function FamilyGlyph({
                       <span className="block text-[13px] leading-snug normal-case tracking-normal text-ink-2">
                         {it.title}
                       </span>
-                      <span className="num mt-0.5 block text-[10.5px] text-ink-4">
-                        {shortDate(it.occurredAt, asOf)}
+                      <span className="num mt-0.5 block text-[11px] text-ink-4">
+                        {it.state ? "Undated" : shortDate(it.occurredAt, asOf)}
                       </span>
                     </span>
                   ))}
                   {detail.count > detail.items.length && (
                     <span className="label !text-ink-4">
-                      and {detail.count - detail.items.length} more on the
-                      dossier
+                      and {detail.count - detail.items.length} more
                     </span>
                   )}
                 </span>
               ) : (
                 <span className="mt-1.5 block text-[12.5px] leading-snug normal-case tracking-normal text-ink-3">
-                  {FAMILY_BLURB[active]}. None seen for this company.
+                  {FAMILY_BLURB[active]}
                 </span>
               )}
             </motion.span>

@@ -82,7 +82,7 @@ Motion explains; it never performs. Use `motion/react`.
 
 ## Components (in `web/src/components/ui`)
 
-- `Shell` — header with wordmark and nav, footer with the run stamp.
+- `Shell` — header with wordmark, run stamp and nav; footer with the contact line.
 - `Sparkline` — draws itself; last point green when rising.
 - `FamilyGlyph` — eight cells, one per signal family, fixed order, ink
   opacity by strength. The signature mark of the product.

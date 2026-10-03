@@ -9,7 +9,7 @@ import { FamilyGlyph } from "@/components/ui/FamilyGlyph";
 import { RankDelta } from "@/components/ui/RankDelta";
 import { Sparkline } from "@/components/ui/Sparkline";
 import { StarButton } from "@/components/ui/StarButton";
-import { FAMILY_BLURB, FAMILY_CODE, FAMILY_LABEL, SECTOR_LABEL, ago, compact, shortDate } from "@/lib/format";
+import { FAMILY_BLURB, FAMILY_LABEL, SECTOR_LABEL, ago, compact, shortDate } from "@/lib/format";
 import { useLastRun, useStarred } from "@/lib/local";
 import { FAMILIES, SECTORS, type BoardRow, type Family, type Sector, type Why } from "@/lib/types";
 import { listParam, setQuery, toggleInList, useQuery } from "@/lib/urlState";
@@ -47,17 +47,17 @@ type Stage = NonNullable<BoardRow["stage"]>;
 /** Row flags from the pipeline, plus three that only this browser knows. */
 type Mark = BoardRow["flags"][number] | "brief" | "starred" | "changed";
 
-const SORTS: { key: SortKey; label: string }[] = [
+const SORTS: { key: SortKey; label: string; hint?: string }[] = [
   { key: "edge", label: "Edge" },
-  { key: "momentum", label: "Momentum" },
+  { key: "momentum", label: "Momentum", hint: "Strength of recent signals, before thesis fit, earliness and team" },
   { key: "mover", label: "Biggest movers" },
   { key: "recent", label: "Latest signal" },
 ];
 
 const STAGES: { key: Stage; label: string; hint: string }[] = [
-  { key: "formation", label: "Formation", hint: "Pre-seed or seed, under about two years old" },
+  { key: "formation", label: "Formation", hint: "Pre-seed or seed" },
   { key: "early", label: "Early", hint: "Series A or B" },
-  { key: "growth", label: "Growth", hint: "Later stage and already well known" },
+  { key: "growth", label: "Growth", hint: "Later stage, already well known" },
 ];
 const STAGE_LABEL: Record<Stage, string> = {
   formation: "Formation",
@@ -73,16 +73,12 @@ const MARK_LABEL: Record<Mark, string> = {
   pedigree: "Pedigree",
   brief: "Brief",
   starred: "Starred",
-  changed: "Changed",
+  changed: "Since last visit",
 };
-// The show-only toggles. Pre-consensus is left out: it selects almost exactly
-// the formation stage. A saved link that carries it still filters.
-const MARKS: { key: Mark; hint: string }[] = [
-  { key: "new", hint: "First signal in the last seven days" },
-  { key: "convergent", hint: "Two or more independent families firing" },
-  { key: "pedigree", hint: "Team from a top lab or company" },
-  { key: "brief", hint: "Has a fact-checked research brief" },
-];
+// The show-only toggles: the marks no tile filters by. Pre-consensus is left
+// out: it selects almost exactly the formation stage. A saved link that
+// carries it still filters.
+const MARKS: { key: Mark; hint: string }[] = [{ key: "pedigree", hint: "Team from a top lab or company" }];
 const ALL_MARKS: Mark[] = ["new", "convergent", "pre-consensus", "pedigree", "brief", "starred", "changed"];
 
 const PAGE = 60;
@@ -93,8 +89,6 @@ const EASE = [0.16, 1, 0.3, 1] as const;
 // the fixed columns crush the company.
 const COLS =
   "grid grid-cols-[2.25rem_minmax(0,1fr)_3.5rem] gap-x-3 max-sm:items-start sm:grid-cols-[2.5rem_2.75rem_minmax(0,1fr)_5.5rem_4rem] sm:items-center sm:gap-x-5 lg:grid-cols-[2.5rem_2.75rem_minmax(0,1fr)_9rem_5.5rem_6.5rem_4rem]";
-
-type Totals = { signals: number; sources: number; entities: number; awaiting: number };
 
 /** Places gained in a week. A company that was not ranked outranks any gain, in rank order. */
 function moved(r: ClientRow): number {
@@ -144,12 +138,10 @@ type Page = { key: string | null; shown: number; cursor: number };
 export function Board({
   rows,
   asOf,
-  totals,
   children,
 }: {
   rows: ClientRow[];
   asOf: string;
-  totals: Totals;
   /** Rendered between the quick filters and the table: the lead stories. */
   children?: React.ReactNode;
 }) {
@@ -362,14 +354,15 @@ export function Board({
   const exportCsv = () => {
     const head = [
       "rank", "company", "sector", "stage", "founded", "raised_usd", "location", "domain",
-      "edge", "momentum", "thesis_fit", "earliness", "families_firing", "flags",
+      "edge", "momentum", "thesis_fit", "earliness", "families", "marks",
       "top_signal", "top_signal_date", "last_signal", "dossier",
     ];
     const lines = filtered.map((r) =>
       [
         r.rank, r.name, r.sector, r.stage ?? "", r.founded, r.raisedUsd, r.location ?? "", r.domain ?? "",
         r.edge, r.momentum, r.fit, r.earliness,
-        FAMILIES.filter((f) => r.families[f] >= FIRING).join(" "), r.flags.join(" "),
+        FAMILIES.filter((f) => r.families[f] >= FIRING).map((f) => FAMILY_LABEL[f]).join("; "),
+        r.flags.filter((f) => f !== "pre-consensus").map((f) => MARK_LABEL[f]).join("; "),
         r.why[0]?.title ?? "", r.why[0]?.occurredAt ?? "", r.lastSignalAt,
         new URL(`c/${r.slug}/`, document.baseURI).href,
       ]
@@ -390,21 +383,37 @@ export function Board({
   const tiles: Tile[] = [
     { key: "all", label: "Ranked", value: rows.length, hint: "Every ranked company. Clears all filters.", active: !filtering, onClick: clearAll },
     { key: "new", label: "New this week", value: counts.byMark.new ?? 0, hint: "First signal in the last seven days", active: marks.has("new"), onClick: () => toggleMark("new") },
-    { key: "convergent", label: "2+ sources", value: counts.byMark.convergent ?? 0, hint: "Two or more independent signal families firing", active: marks.has("convergent"), onClick: () => toggleMark("convergent") },
-    { key: "formation", label: "Formation stage", value: counts.byStage.formation ?? 0, hint: "Reviewed as pre-seed or seed", active: stage === "formation", onClick: () => setQuery({ stage: stage === "formation" ? null : "formation" }) },
-    { key: "brief", label: "With a brief", value: counts.byMark.brief ?? 0, hint: "Has a fact-checked research brief", active: marks.has("brief"), onClick: () => toggleMark("brief") },
-    { key: "starred", label: "Starred", value: counts.byMark.starred ?? 0, hint: "Companies you starred in this browser. Use the star on a row, or press s.", active: marks.has("starred"), onClick: () => toggleMark("starred") },
+    { key: "convergent", label: "2+ sources", value: counts.byMark.convergent ?? 0, hint: "Signals in two or more families, such as capital and hiring", active: marks.has("convergent"), onClick: () => toggleMark("convergent") },
+    { key: "formation", label: "Formation stage", value: counts.byStage.formation ?? 0, hint: "Pre-seed or seed", active: stage === "formation", onClick: () => setQuery({ stage: stage === "formation" ? null : "formation" }) },
+    { key: "brief", label: "With a brief", value: counts.byMark.brief ?? 0, hint: "Research brief: summary, risks and open questions", active: marks.has("brief"), onClick: () => toggleMark("brief") },
   ];
+  // Two tiles depend on this browser: Starred once a company is starred, Since once there is an earlier visit.
+  // Starred also stays while its filter is on, so the filter can be switched off.
+  if (counts.byMark.starred || marks.has("starred")) {
+    tiles.push({
+      key: "starred",
+      label: "Starred",
+      value: counts.byMark.starred ?? 0,
+      hint: "Companies you starred in this browser",
+      active: marks.has("starred"),
+      onClick: () => toggleMark("starred"),
+    });
+  }
   if (lastRun) {
     tiles.push({
       key: "changed",
       label: `Since ${shortDate(lastRun, asOf)}`,
       value: counts.byMark.changed ?? 0,
-      hint: "Companies with a signal dated after the run you last looked at",
+      hint: "Companies with a new signal since your last visit",
       active: marks.has("changed"),
       onClick: () => toggleMark("changed"),
     });
   }
+  // The last tile takes what is left of its row, so the two- and three-column grids end on a full row.
+  const lastTile = [
+    tiles.length % 2 === 1 ? "max-sm:col-span-2" : "",
+    tiles.length % 3 === 1 ? "sm:max-lg:col-span-3" : tiles.length % 3 === 2 ? "sm:max-lg:col-span-2" : "",
+  ].join(" ");
 
   const activeLabels: string[] = [
     ...(sector !== "all" ? [SECTOR_LABEL[sector]] : []),
@@ -416,52 +425,31 @@ export function Board({
 
   return (
     <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-      {/* Run line and tiles */}
-      <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 pt-6">
-        <p className="label">
-          Run of {shortDate(asOf)} · {totals.signals.toLocaleString("en-US")} signals · {totals.sources} sources ·{" "}
-          {totals.entities.toLocaleString("en-US")} companies resolved
-        </p>
-        <p className="label">
-          {totals.awaiting > 0 && <>{totals.awaiting} awaiting review · </>}
-          <Link
-            href="/method/"
-            className="!text-ink underline decoration-rule-2 underline-offset-4 transition-colors hover:decoration-ink"
-          >
-            How it works
-          </Link>
-        </p>
-      </div>
-
+      {/* Tiles */}
       <div
-        className="mt-4 grid grid-cols-2 border-l border-t border-rule sm:grid-cols-3 lg:[grid-template-columns:repeat(var(--n),minmax(0,1fr))]"
+        className="mt-6 grid grid-cols-2 border-l border-t border-rule sm:grid-cols-3 lg:[grid-template-columns:repeat(var(--n),minmax(0,1fr))]"
         style={{ "--n": tiles.length } as React.CSSProperties}
         role="group"
         aria-label="Quick filters"
       >
-        {tiles.map((t) => (
+        {tiles.map((t, i) => (
           <button
             key={t.key}
             type="button"
             title={t.hint}
             aria-pressed={t.active}
             onClick={t.onClick}
-            className={`group relative border-b border-r border-rule px-4 py-3.5 text-left transition-colors duration-150 hover:bg-paper-2 ${
+            className={`group relative border-b border-r border-rule px-4 py-3.5 text-left transition-colors duration-150 hover:bg-paper-2 active:bg-paper-3 ${
               t.active ? "bg-paper-2" : ""
-            }`}
+            } ${i === tiles.length - 1 ? lastTile : ""}`}
           >
-            <span className={`label block transition-colors ${t.active ? "!text-ink" : "group-hover:!text-ink"}`}>
+            <span
+              className={`label block whitespace-nowrap transition-colors ${t.active ? "!text-ink" : "group-hover:!text-ink"}`}
+            >
               {t.label}
             </span>
             <span className="mt-1.5 block text-[26px] leading-none">
               <CountUp value={t.value} />
-            </span>
-            {/* What a click will do, shown on hover: these numbers are filters. */}
-            <span
-              aria-hidden
-              className="label absolute bottom-3 right-4 !text-ink-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100"
-            >
-              {t.key === "all" ? (t.active ? "" : "Show all") : t.active ? "Clear" : "Filter"}
             </span>
             {/* The bar across the top: ink when the filter is on, a lighter rule on hover. */}
             <span
@@ -480,7 +468,7 @@ export function Board({
       <section className="mt-10" aria-label="Ranked companies">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div className="flex flex-wrap gap-x-5 gap-y-2" role="group" aria-label="Sector">
-            <Chip active={sector === "all"} onClick={() => setQuery({ sector: null })} count={rows.length}>
+            <Chip active={sector === "all"} onClick={() => setQuery({ sector: null })}>
               All
             </Chip>
             {SECTORS.filter((s) => counts.bySector[s]).map((s) => (
@@ -505,7 +493,8 @@ export function Board({
               onChange={(e) => setQuery({ q: e.target.value })}
               onKeyDown={onSearchKey}
               placeholder="Search name, place, signal"
-              className="w-full border-b border-rule-2 bg-transparent py-2 pr-8 text-[14px] outline-none transition-colors duration-200 placeholder:text-ink-5 focus:border-ink"
+              title="Keys: / search, j and k move, enter open, o source, s star"
+              className="w-full border-b border-rule-2 bg-transparent py-2 pr-8 text-[14px] !outline-none transition-colors duration-200 placeholder:text-ink-5 focus:border-ink"
             />
             <kbd className="num pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 border border-rule px-1.5 text-[11px] text-ink-5">
               /
@@ -513,50 +502,54 @@ export function Board({
           </label>
         </div>
 
-        <div className="mt-5 flex flex-wrap items-center justify-between gap-x-8 gap-y-3 border-t border-rule pt-4">
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-2" role="group" aria-label="Stage">
-            <span className="label !text-ink-4">Stage</span>
-            <TextToggle active={stage === "any"} onClick={() => setQuery({ stage: null })}>
-              Any
-            </TextToggle>
-            {STAGES.map((st) => (
-              <TextToggle
-                key={st.key}
-                title={st.hint}
-                active={stage === st.key}
-                onClick={() => setQuery({ stage: stage === st.key ? null : st.key })}
-              >
-                {st.label}
-                <span className="num ml-1.5 !text-ink-4">{counts.byStage[st.key] ?? 0}</span>
+        {/* Ruled off only from lg: below that the search box sits right above, with an underline of its own. */}
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-x-8 gap-y-3 lg:border-t lg:border-rule lg:pt-4">
+          <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-3" role="group" aria-label="Stage">
+              <span className="label !text-ink-4">Stage</span>
+              <TextToggle active={stage === "any"} onClick={() => setQuery({ stage: null })}>
+                Any
               </TextToggle>
-            ))}
-          </div>
-          <div className="flex flex-wrap gap-x-5 gap-y-2" role="group" aria-label="Show only">
-            {MARKS.map((f) => (
-              <button
-                key={f.key}
-                type="button"
-                title={f.hint}
-                aria-pressed={marks.has(f.key)}
-                onClick={() => toggleMark(f.key)}
-                className={`label -my-2 flex items-center gap-2 py-2 transition-colors duration-150 hover:!text-ink ${
-                  marks.has(f.key) ? "!text-ink" : ""
-                }`}
-              >
-                <span
-                  className={`inline-block size-[9px] border transition-colors duration-150 ${
-                    marks.has(f.key) ? "border-ink bg-ink" : "border-rule-2"
+              {STAGES.map((st) => (
+                <TextToggle
+                  key={st.key}
+                  title={st.hint}
+                  active={stage === st.key}
+                  onClick={() => setQuery({ stage: stage === st.key ? null : st.key })}
+                  count={counts.byStage[st.key] ?? 0}
+                >
+                  {st.label}
+                </TextToggle>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-x-5 gap-y-3" role="group" aria-label="Show only">
+              {MARKS.map((f) => (
+                <button
+                  key={f.key}
+                  type="button"
+                  title={f.hint}
+                  aria-pressed={marks.has(f.key)}
+                  onClick={() => toggleMark(f.key)}
+                  className={`label -my-2 flex items-center gap-2 py-2 transition-colors duration-150 hover:!text-ink ${
+                    marks.has(f.key) ? "!text-ink" : ""
                   }`}
-                />
-                {MARK_LABEL[f.key]}
-              </button>
-            ))}
+                >
+                  <span
+                    className={`inline-block size-[9px] border transition-colors duration-150 ${
+                      marks.has(f.key) ? "border-ink bg-ink" : "border-rule-2"
+                    }`}
+                  />
+                  {MARK_LABEL[f.key]}
+                </button>
+              ))}
+            </div>
           </div>
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2" role="group" aria-label="Sort">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-3" role="group" aria-label="Sort">
             <span className="label !text-ink-4">Sort</span>
             {SORTS.map((s) => (
               <TextToggle
                 key={s.key}
+                title={s.hint}
                 active={sort === s.key}
                 onClick={() => setQuery({ sort: s.key === "edge" ? null : s.key })}
               >
@@ -568,32 +561,22 @@ export function Board({
 
         {/* Families: a filter, and the key to the eight boxes on each row. */}
         <div
-          className="mt-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 border-t border-rule pt-4"
+          className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-rule pt-4"
           role="group"
           aria-label="Signal family"
         >
-          <span className="label mr-3 !text-ink-4">Firing on</span>
-          {FAMILIES.map((f) => {
-            const on = fams.has(f);
-            return (
-              <button
-                key={f}
-                type="button"
-                title={FAMILY_BLURB[f]}
-                aria-pressed={on}
-                onClick={() => toggleInList(params, "fam", f)}
-                className={`flex items-center gap-2 border px-2.5 py-1.5 transition-colors duration-150 ${
-                  on ? "border-ink bg-ink text-paper" : "border-rule text-ink hover:border-ink"
-                }`}
-              >
-                <span className={`num text-[10.5px] ${on ? "text-paper/70" : "text-ink-4"}`}>{FAMILY_CODE[f]}</span>
-                <span className="text-[13px]">{FAMILY_LABEL[f]}</span>
-                <span className={`num text-[11px] ${on ? "text-paper/70" : "text-ink-4"}`}>
-                  {counts.byFamily[f] ?? 0}
-                </span>
-              </button>
-            );
-          })}
+          <span className="label !text-ink-4">Families</span>
+          {FAMILIES.map((f) => (
+            <TextToggle
+              key={f}
+              title={FAMILY_BLURB[f]}
+              active={fams.has(f)}
+              onClick={() => toggleInList(params, "fam", f)}
+              count={counts.byFamily[f] ?? 0}
+            >
+              {FAMILY_LABEL[f]}
+            </TextToggle>
+          ))}
         </div>
 
         {/* Table */}
@@ -606,8 +589,8 @@ export function Board({
               7d
             </span>
             <span role="columnheader" className="flex min-w-0 items-baseline gap-3">
-              {/* On a phone the summary of the active filters needs the room. */}
-              <span className={`label shrink-0 ${filtering ? "max-sm:hidden" : ""}`}>Company and why now</span>
+              {/* Below xl the summary of the active filters needs the room. */}
+              <span className={`label shrink-0 ${filtering ? "max-xl:hidden" : ""}`}>Company and why now</span>
               {filtering && (
                 <>
                   {/* The names give way first; the count always shows. */}
@@ -620,20 +603,20 @@ export function Board({
                   <button
                     type="button"
                     onClick={clearAll}
-                    className="label shrink-0 !text-ink underline decoration-1 underline-offset-4"
+                    className="label -my-2 shrink-0 py-2 !text-ink underline decoration-rule-2 decoration-1 underline-offset-4 transition-colors hover:decoration-ink"
                   >
                     Clear
                   </button>
                 </>
               )}
             </span>
-            <span role="columnheader" className="label hidden lg:block">
+            <span role="columnheader" className="label hidden lg:block" title="Stage, and total raised where known">
               Sector, stage
             </span>
             <span
               role="columnheader"
               className="label hidden sm:block"
-              title="One box per signal family. Hover a box to see its signals."
+              title="One box per family, in the order of the Families filter above. Darker is stronger."
             >
               Families
             </span>
@@ -642,12 +625,12 @@ export function Board({
               className="label hidden lg:block"
               title="Edge score over the last twelve weeks, each row drawn to its own scale"
             >
-              Edge, 12 wk
+              Edge, 12w
             </span>
             <span
               role="columnheader"
               className="label text-right"
-              title="100 × momentum × (0.25 + 0.75 × thesis fit) × (0.4 + 0.6 × earliness) × (0.85 + 0.15 × team), × 0.85 when fewer than two families are firing"
+              title="Score from 0 to 100: strength of recent signals, scaled by thesis fit, how early the company is, and team. The dossier shows the working."
             >
               Edge
             </span>
@@ -678,38 +661,40 @@ export function Board({
           {filtered.length === 0 && (
             <p className="border-b border-rule py-16 text-center text-[14px] text-ink-3">
               Nothing matches.{" "}
-              <button type="button" onClick={clearAll} className="text-ink underline decoration-1 underline-offset-4">
-                Clear the filters
+              <button
+                type="button"
+                onClick={clearAll}
+                className="text-ink underline decoration-rule-2 decoration-1 underline-offset-4 transition-colors hover:decoration-ink"
+              >
+                Clear filters
               </button>
-              .
             </p>
           )}
         </div>
 
-        <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
-          <p className="label">
-            Showing {visible.length} of {filtered.length}
-            <span className="hidden sm:inline"> · / search · j k move · enter open · o source · s star</span>
-          </p>
-          <div className="flex items-center gap-3">
+        <div className="mt-6 flex flex-wrap items-center justify-end gap-3">
+          {filtered.length > shown && (
+            <span className="label">
+              {visible.length} of {filtered.length}
+            </span>
+          )}
+          <button
+            type="button"
+            onClick={exportCsv}
+            className="label border border-rule px-4 py-2 transition-colors duration-150 hover:border-ink hover:!text-ink active:bg-paper-3"
+            title="All matching rows, not only those shown"
+          >
+            Export CSV
+          </button>
+          {filtered.length > shown && (
             <button
               type="button"
-              onClick={exportCsv}
-              className="label border border-rule px-4 py-2 transition-colors duration-150 hover:border-ink hover:!text-ink"
-              title="Download the rows in this view as a CSV file"
+              onClick={() => setPage((p) => ({ ...p, shown: p.shown + PAGE }))}
+              className="label border border-ink px-4 py-2 !text-ink transition-colors duration-150 hover:bg-ink hover:!text-paper"
             >
-              Export CSV
+              Show {Math.min(PAGE, filtered.length - shown)} more
             </button>
-            {filtered.length > shown && (
-              <button
-                type="button"
-                onClick={() => setPage((p) => ({ ...p, shown: p.shown + PAGE }))}
-                className="label border border-ink px-4 py-2 !text-ink transition-colors duration-150 hover:bg-ink hover:!text-paper"
-              >
-                Show {Math.min(PAGE, filtered.length - shown)} more
-              </button>
-            )}
-          </div>
+          )}
         </div>
       </section>
     </div>
@@ -764,7 +749,7 @@ const Row = memo(function Row({
       transition={{ layout: { duration: 0.45, ease: EASE }, opacity: { duration: 0.15 } }}
       // The row is a plain container: the name is the link, stretched over it,
       // and the source, the families and the star sit above that link.
-      className={`${COLS} group relative isolate border-b border-rule py-3.5 transition-colors duration-150 hover:z-10 hover:bg-paper-2 ${
+      className={`${COLS} group relative isolate border-b border-rule py-2.5 transition-colors duration-150 hover:z-10 hover:bg-paper-2 ${
         isCursor ? "bg-paper-2" : ""
       }`}
     >
@@ -780,22 +765,19 @@ const Row = memo(function Row({
               into view, and it has to clear both sticky bars. */}
           <Link
             href={`/c/${r.slug}/`}
-            className="flex min-w-0 scroll-mb-8 items-baseline gap-2 font-serif text-[18px] font-medium leading-tight tracking-[-0.015em] after:absolute after:inset-0"
+            className="flex min-w-0 scroll-mb-8 items-baseline gap-2 font-serif text-[17px] font-medium leading-tight tracking-[-0.015em] after:absolute after:inset-0"
           >
             {changed && (
               <span
                 role="img"
                 aria-label="New signal since your last visit"
                 title="New signal since your last visit"
-                className="relative z-10 inline-block size-[6px] shrink-0 -translate-y-[3px] rounded-full bg-signal"
+                className="relative z-10 inline-block size-[6px] shrink-0 -translate-y-[3px] bg-signal"
               />
             )}
             <span className="sm:truncate">{r.name}</span>
             {r.hasBrief && (
-              <span
-                className="num relative z-10 shrink-0 text-[10px] font-normal uppercase tracking-[0.08em] text-ink-4 max-sm:hidden"
-                title="Has a fact-checked research brief"
-              >
+              <span className="num shrink-0 text-[11px] font-normal uppercase tracking-[0.08em] text-ink-4 max-sm:hidden">
                 Brief
               </span>
             )}
@@ -804,9 +786,14 @@ const Row = memo(function Row({
             <span className="hidden min-w-0 flex-1 basis-0 truncate text-[13px] text-ink-3 md:block">{r.oneLiner}</span>
           )}
         </span>
-        <span className="mt-1 flex items-baseline gap-x-2 sm:hidden">
-          <RankDelta rank={r.rank} prev={r.rankPrev} isNew={isNew} />
-          <span className="label">
+        {/* Below lg, where the sector column is gone. On a phone it runs on
+            under the edge column, as the signal line does. */}
+        <span className="mt-1 flex items-baseline gap-x-2 max-sm:-mr-[4.25rem] lg:hidden">
+          {/* Only a change is printed here: with no column round it, the dash for none reads as a stray mark. */}
+          {r.rankPrev !== r.rank && (
+            <RankDelta rank={r.rank} prev={r.rankPrev} isNew={isNew} className="sm:hidden" />
+          )}
+          <span className="label whitespace-nowrap">
             {SECTOR_LABEL[r.sector]}
             {r.stage && ` · ${STAGE_LABEL[r.stage]}`}
           </span>
@@ -814,17 +801,15 @@ const Row = memo(function Row({
         {line && (
           // On a phone the line runs on under the edge column (its width plus
           // the gap), which is empty below the number.
-          <span className="mt-1 flex min-w-0 items-baseline gap-x-2 text-[13px] max-sm:-mr-[4.25rem]">
+          <span className="mt-0.5 flex min-w-0 items-baseline gap-x-2 text-[13px] max-sm:-mr-[4.25rem]">
             <a
               href={line.url}
               target="_blank"
               rel="noreferrer"
+              title={FAMILY_LABEL[line.family]}
               aria-label={`Open the source for: ${line.title}`}
               className="group/source relative z-10 flex min-w-0 items-baseline gap-x-2 text-ink-2 transition-colors duration-150 hover:text-ink"
             >
-              <span className="num shrink-0 text-[10.5px] text-ink-4" title={FAMILY_LABEL[line.family]}>
-                {FAMILY_CODE[line.family]}
-              </span>
               <span className="truncate underline decoration-transparent decoration-1 underline-offset-2 transition-colors duration-150 group-hover/source:decoration-ink">
                 {line.title}
               </span>
@@ -832,9 +817,9 @@ const Row = memo(function Row({
                 ↗
               </span>
             </a>
-            {/* An undated reading has no age: its date is only when it was read. */}
+            {/* An undated signal has no age: its date is only when it was read. */}
             <span className="num shrink-0 text-[11px] text-ink-4">
-              {line.state ? "reading" : ago(line.occurredAt, asOf)}
+              {line.state ? "undated" : ago(line.occurredAt, asOf)}
             </span>
           </span>
         )}
@@ -868,15 +853,16 @@ const Row = memo(function Row({
         on={isStarred}
         onToggle={() => onStar(r.slug)}
         name={r.name}
-        className={`absolute z-10 max-sm:-left-2.5 max-sm:top-9 max-sm:size-9 sm:-left-7 sm:top-1/2 sm:-translate-y-1/2 ${
+        className={`absolute z-10 max-sm:-left-2.5 max-sm:top-8 max-sm:size-9 sm:-left-7 sm:top-1/2 sm:-translate-y-1/2 ${
           isStarred
             ? "opacity-100"
             : "opacity-0 focus-visible:opacity-100 group-hover:opacity-100 max-sm:opacity-50 [@media(hover:none)]:opacity-50"
         }`}
       />
+      {/* The keyboard cursor. Hover is the wash alone. */}
       <span
         aria-hidden
-        className={`pointer-events-none absolute inset-y-0 left-0 w-px origin-top bg-ink transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-y-100 ${
+        className={`pointer-events-none absolute inset-y-0 left-0 w-px origin-top bg-ink transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
           isCursor ? "scale-y-100" : "scale-y-0"
         }`}
       />
@@ -919,17 +905,21 @@ function TextToggle({
   active,
   onClick,
   title,
+  count,
   children,
 }: {
   active: boolean;
   onClick: () => void;
   title?: string;
+  count?: number;
   children: React.ReactNode;
 }) {
+  // The count is in the hover: on the row itself it repeats what the tiles say.
+  const companies = count == null ? null : `${count} ${count === 1 ? "company" : "companies"}`;
   return (
     <button
       type="button"
-      title={title}
+      title={[title, companies].filter(Boolean).join(" · ") || undefined}
       aria-pressed={active}
       onClick={onClick}
       className={`label -my-2 whitespace-nowrap py-2 transition-colors duration-150 hover:!text-ink ${

@@ -25,8 +25,7 @@ const plexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: "Antenna",
-  description:
-    "A sourcing edge for the physical world: technical founders and breakout companies, surfaced from public signals before consensus forms.",
+  description: "Early hard-tech companies, ranked from public filings, code, papers and hiring.",
   // Shared by link. The briefs name real companies and people, so the site
   // asks search engines to stay out.
   robots: { index: false, follow: false },

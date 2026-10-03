@@ -28,7 +28,7 @@ export type PersonRow = {
   role: string | null;
   /** Which kind of person this is, for the views on the founders page. */
   group: RoleGroup;
-  /** Where the name came from, in plain words: "Named on SEC Form D". */
+  /** Where the name came from, when the role does not say: "Named on SEC Form D". */
   origin: string | null;
   company: string;
   slug: string;
@@ -45,7 +45,7 @@ export type PersonRow = {
   weight: number;
 };
 
-const BRIEF_ROLE = "Named in the brief";
+export const BRIEF_ROLE = "Named in the brief";
 
 /** Lower case, accents folded, punctuation to spaces. Letters of any script are kept, so "António" stays one word. */
 const squashName = (s: string) =>
@@ -76,31 +76,36 @@ const ROLE_WEIGHT: Record<RoleGroup, number> = { founder: 1.35, researcher: 1.1,
 const FORM_D_BOXES = "(?:Executive Officer|Director|Promoter)";
 const FORM_D_TITLE = new RegExp(`^${FORM_D_BOXES}(?:, ${FORM_D_BOXES})*\\s*\\((.+)\\)$`);
 
+/** Collector shorthand, said in full. */
+const ROLE_WORDS: Record<string, string> = {
+  Author: "Paper author",
+  "First author": "First author of a paper",
+  "Last author": "Last author of a paper",
+  "HN hiring post author": "Posted in Who is hiring on Hacker News",
+  "Launch HN author": "Launch HN post author",
+};
+
 /**
  * "Executive Officer, Director (Chief Executive Officer)" is Form D's checkboxes
  * around a title: keep the title. "Named in the brief" is where the name came
- * from, not a role, and the origin line already says it.
+ * from, not a role.
  */
-function shortRole(role: string | null): string | null {
+export function shortRole(role: string | null): string | null {
   if (!role || role === BRIEF_ROLE) return null;
-  return role.match(FORM_D_TITLE)?.[1] ?? role;
+  const title = (role.match(FORM_D_TITLE)?.[1] ?? role).replace(/\s*\(as stated in own HN hiring post\)$/, "");
+  return ROLE_WORDS[title] ?? title;
 }
 
-/** Where each collector finds a name, said the way a person would say it. */
+/**
+ * Where a collector finds a name, said the way a person would say it. Only for
+ * the collectors whose role does not already say it: an author, a top
+ * contributor or a principal investigator needs no second line.
+ */
 const ORIGIN: Record<string, string> = {
-  brief: "Named in the research brief",
   sec_form_d: "Named on SEC Form D",
-  yc_directory: "Listed as a founder by Y Combinator",
+  yc_directory: "Listed by Y Combinator",
   accelerators: "Listed by the accelerator",
-  hn_launch: "Posted the launch on Hacker News",
-  hn_hiring: "Posted the hiring notice on Hacker News",
-  github_velocity: "Top contributor to the repository",
-  research_affil: "Author on a paper under the company's name",
-  energy_grants: "Principal investigator on an NSF or ARPA-E award",
-  sbir_awards: "Principal investigator on an SBIR award",
-  nrc_adams: "Signed a submission to the NRC",
   fcc_els: "Contact on an FCC filing",
-  faa_uas: "Named on an FAA filing",
 };
 
 function origin(sources: string[]): string | null {

@@ -67,7 +67,9 @@ export type BoardRow = {
   /** Money raised in dollars, where a reviewer confirmed it from a source. */
   raisedUsd: number | null;
   /** Per family: how many signals, and the two strongest. Drives the glyph hover. */
-  bySignalFamily: Partial<Record<Family, { count: number; items: { title: string; occurredAt: string }[] }>>;
+  bySignalFamily: Partial<
+    Record<Family, { count: number; items: { title: string; occurredAt: string; state?: boolean }[] }>
+  >;
   signalCount: number;
   /** Dates of the first and latest dated events. Undated readings do not count. */
   firstSignalAt: string;

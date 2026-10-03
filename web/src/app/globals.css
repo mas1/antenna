@@ -18,13 +18,9 @@
   --rule: #cdc5b7;
   --rule-2: #9f988a;
   --signal: #1f7a3d;
-  --signal-2: #2f9d55;
-  --signal-wash: #e3eedd;
   --heat: #b4421c;
-  --heat-wash: #f4e2d6;
 
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 @theme inline {
@@ -39,16 +35,11 @@
   --color-rule: var(--rule);
   --color-rule-2: var(--rule-2);
   --color-signal: var(--signal);
-  --color-signal-2: var(--signal-2);
-  --color-signal-wash: var(--signal-wash);
   --color-heat: var(--heat);
-  --color-heat-wash: var(--heat-wash);
 
   --font-serif: var(--font-source-serif), Georgia, serif;
   --font-sans: var(--font-plex-sans), Arial, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, monospace;
-
-  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 html {

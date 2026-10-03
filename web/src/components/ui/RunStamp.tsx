@@ -39,11 +39,11 @@ export function RunStamp({ generatedAt, asOf, className }: Props) {
   );
   return (
     <p className={`label ${className ?? ""}`}>
-      Run {age ? localStamp(generatedAt) : shortDate(asOf, asOf)}
+      Updated {age ? localStamp(generatedAt) : shortDate(asOf, asOf)}
       {age === "stale" && (
         <>
           {" · "}
-          <span className="text-heat" title="This run is more than 36 hours old">
+          <span className="text-heat" title="Last updated more than 36 hours ago">
             Stale
           </span>
         </>

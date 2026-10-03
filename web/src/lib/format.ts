@@ -11,27 +11,15 @@ export const FAMILY_LABEL: Record<Family, string> = {
   traffic: "Traffic",
 };
 
-/** Two-letter codes for the dense glyph and the feed. */
-export const FAMILY_CODE: Record<Family, string> = {
-  capital: "CP",
-  regulatory: "RG",
-  github: "GH",
-  research: "RS",
-  hiring: "HR",
-  launch: "LN",
-  social: "AT",
-  traffic: "TR",
-};
-
 export const FAMILY_BLURB: Record<Family, string> = {
-  capital: "Form D filings, SBIR and federal awards",
-  regulatory: "FCC, FAA and other licences hardware cannot avoid",
-  github: "Star velocity and new organizations",
-  research: "Papers and the people leaving labs",
-  hiring: "Open roles and who is being hired",
+  capital: "SEC Form D filings and federal awards",
+  regulatory: "FCC, FAA and NRC filings, and trademark applications",
+  github: "GitHub stars gained and new repositories",
+  research: "Papers that name the company as an affiliation",
+  hiring: "Open roles and new job postings",
   launch: "Show HN, Launch HN and accelerator batches",
-  social: "Developer attention over time",
-  traffic: "Domain rank and infrastructure footprint",
+  social: "Mentions on Hacker News",
+  traffic: "Web rank, domain registration and DNS records",
 };
 
 export const SECTOR_LABEL: Record<Sector, string> = {

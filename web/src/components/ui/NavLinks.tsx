@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 // A phone header fits three links and the search. Method gives way: it is
-// in the search, and the board links to it.
+// in the search, and the footer links to it.
 const LINKS = [
   { href: "/", label: "Board", phone: true },
   { href: "/wire/", label: "Wire", phone: true },

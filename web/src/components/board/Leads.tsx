@@ -37,24 +37,32 @@ export function Leads({ rows, asOf }: { rows: BoardRow[]; asOf: string }) {
   const leads = pickLeads(rows, asOf);
   if (leads.length === 0) return null;
   return (
-    <section className="mt-9" aria-label="First look">
-      <div className="flex items-baseline justify-between border-b border-ink pb-2">
-        <h2 className="label !text-ink">First look</h2>
-        <p className="label hidden sm:block">Fresh signals from two or more sources</p>
+    <section className="mt-10" aria-label="First look">
+      <div className="flex border-b border-ink pb-2">
+        <h2
+          className="label !text-ink"
+          title="The highest-ranked companies with 2+ sources and a signal in the last three weeks, one per sector"
+        >
+          First look
+        </h2>
       </div>
       {/* Ruled cells, like the tiles above: each card is a cell that takes a wash on hover. */}
-      <div className="grid grid-cols-1 border-l border-rule md:grid-cols-3">
+      <div
+        className="grid grid-cols-1 border-l border-rule lg:[grid-template-columns:repeat(var(--n),minmax(0,1fr))]"
+        style={{ "--n": leads.length } as React.CSSProperties}
+      >
         {leads.map((r, i) => (
           <Reveal
             key={r.slug}
             delay={0.08 * i}
-            className="group relative border-b border-r border-rule px-5 py-5 transition-colors duration-200 hover:bg-paper-2 md:py-6"
+            className="group relative border-b border-r border-rule px-4 py-5 transition-colors duration-150 hover:bg-paper-2 active:bg-paper-3 lg:py-6"
           >
-            <p className="flex items-center gap-3">
-              <span className="label">{SECTOR_LABEL[r.sector]}</span>
+            {/* One line at every width: the gap tightens on a phone, and past that a long sector name gives way. */}
+            <p className="flex items-center gap-2 sm:gap-3">
+              <span className="label min-w-0 truncate">{SECTOR_LABEL[r.sector]}</span>
               <FamilyGlyph families={r.families} details={r.bySignalFamily} asOf={asOf} size={8} align="left" className="relative z-20" />
-              <span className="num ml-auto text-[13px] text-ink-3 transition-colors duration-200 group-hover:text-ink">
-                {String(r.rank).padStart(2, "0")} · {r.edge.toFixed(0)}
+              <span className="num ml-auto shrink-0 whitespace-nowrap text-[13px] text-ink-3 transition-colors duration-150 group-hover:text-ink">
+                #{r.rank} · Edge {r.edge.toFixed(0)}
               </span>
             </p>
             <h3 className="display mt-3 text-[26px] leading-[1.05] sm:text-[28px]">
@@ -70,7 +78,7 @@ export function Leads({ rows, asOf }: { rows: BoardRow[]; asOf: string }) {
               </Link>
             </h3>
             {r.oneLiner && (
-              <p className="mt-2 line-clamp-1 text-[13.5px] leading-snug text-ink-3">
+              <p className="mt-2 line-clamp-2 text-[13.5px] leading-snug text-ink-3">
                 {r.oneLiner}
               </p>
             )}
@@ -102,7 +110,7 @@ export function Leads({ rows, asOf }: { rows: BoardRow[]; asOf: string }) {
             </ol>
             <span
               aria-hidden
-              className="pointer-events-none absolute inset-x-0 -top-px h-[2px] origin-left scale-x-0 bg-ink transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-x-100"
+              className="pointer-events-none absolute inset-x-0 -top-px h-[2px] origin-left scale-x-0 bg-ink transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-x-100"
             />
           </Reveal>
         ))}

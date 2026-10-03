@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { meta } from "@/lib/data";
-import { shortDate } from "@/lib/format";
 import { CommandPalette } from "./CommandPalette";
 import { NavLinks } from "./NavLinks";
 import { RunStamp } from "./RunStamp";
@@ -19,7 +18,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-40 border-b border-rule bg-paper/90 backdrop-blur-sm">
         <div className="mx-auto flex h-14 max-w-[1320px] items-center justify-between px-5 sm:px-8">
           <div className="flex items-baseline gap-4">
-            <Link href="/" aria-label="Antenna, home">
+            <Link href="/" aria-label="Antenna, home" className="transition-colors duration-150 hover:text-ink-3">
               <span className="display text-[22px] tracking-[-0.02em]">Antenna</span>
             </Link>
             {/* Below this width the header has no room; the footer carries the run date. */}
@@ -35,12 +34,18 @@ export function Shell({ children }: { children: React.ReactNode }) {
         {children}
       </main>
       <footer className="mt-24 border-t border-rule">
-        <div className="mx-auto flex max-w-[1320px] flex-col gap-3 px-5 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <p className="label">
-            Run {shortDate(meta.asOf)} · {meta.totals.signals.toLocaleString("en-US")} signals ·{" "}
-            {meta.totals.sources} sources · public data only
-          </p>
-          <p className="label">
+        <div className="mx-auto flex max-w-[1320px] flex-col gap-3 px-5 py-8 sm:flex-row sm:items-center sm:px-8">
+          {/* What the header drops on a narrow screen: the stamp below md, Method below sm. */}
+          <div className="flex items-baseline justify-between gap-4 md:hidden">
+            <RunStamp generatedAt={meta.generatedAt} asOf={meta.asOf} />
+            <Link
+              href="/method/"
+              className="label -my-2 py-2 !text-ink underline decoration-rule-2 decoration-1 underline-offset-4 transition-colors hover:decoration-ink sm:hidden"
+            >
+              Method
+            </Link>
+          </div>
+          <p className="label sm:ml-auto">
             Mason Tilghman ·{" "}
             <a
               href="mailto:mason@alterity.systems"

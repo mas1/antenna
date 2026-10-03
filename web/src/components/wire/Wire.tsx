@@ -3,16 +3,17 @@
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { FAMILY_CODE, FAMILY_LABEL, daysBetween, shortDate } from "@/lib/format";
+import { FAMILY_LABEL, shortDate } from "@/lib/format";
 import { FAMILIES, type Family, type FeedItem } from "@/lib/types";
 import { setQuery, useQuery } from "@/lib/urlState";
 
 const PAGE = 120;
 const TOP = 50;
 const EASE = [0.16, 1, 0.3, 1] as const;
-// Code, company, signal, rank and stage, strength, source. The strength bar waits for a wide screen.
+// Family, company, signal, rank and stage, strength, source. On a phone the family
+// has a line of its own above the signal. The strength bar waits for a wide screen.
 const ROW =
-  "grid grid-cols-[1.75rem_minmax(0,1fr)_1.25rem] items-baseline gap-x-3 md:grid-cols-[2rem_11rem_minmax(0,1fr)_8.25rem_1.25rem] md:gap-x-5 lg:grid-cols-[2rem_12rem_minmax(0,1fr)_8.25rem_3.5rem_1.25rem]";
+  "grid grid-cols-[minmax(0,1fr)_1.25rem] items-baseline gap-x-3 md:grid-cols-[5rem_11rem_minmax(0,1fr)_8.25rem_1.25rem] md:gap-x-4 xl:grid-cols-[5rem_12rem_minmax(0,1fr)_8.25rem_3.5rem_1.25rem] xl:gap-x-5";
 
 type Stage = NonNullable<FeedItem["stage"]>;
 /** "young" is where the wire opens: everything but growth-stage and established companies. */
@@ -22,12 +23,12 @@ const STAGE_VIEWS: { key: StageView; label: string; hint: string }[] = [
   {
     key: "young",
     label: "Formation and early",
-    hint: "Hides growth-stage and established companies. Companies not yet reviewed stay in.",
+    hint: "Hides growth-stage and established companies; companies with no known stage stay in",
   },
-  { key: "formation", label: "Formation", hint: "Pre-seed or seed, under about two years old" },
+  { key: "formation", label: "Formation", hint: "Pre-seed or seed" },
   { key: "early", label: "Early", hint: "Series A or B" },
-  { key: "growth", label: "Growth", hint: "Later stage and established companies" },
-  { key: "any", label: "Any", hint: "Every company, whatever its stage" },
+  { key: "growth", label: "Growth", hint: "Growth-stage and established companies" },
+  { key: "any", label: "Any", hint: "" },
 ];
 const STAGE_LABEL: Record<Stage, string> = {
   formation: "Formation",
@@ -37,9 +38,9 @@ const STAGE_LABEL: Record<Stage, string> = {
 };
 
 const STRENGTHS: { key: string; min: number; label: string; hint: string }[] = [
-  { key: "0", min: 0, label: "Any", hint: "Every signal, whatever its strength" },
-  { key: "50", min: 0.5, label: "Solid", hint: "Strength 50 or more" },
-  { key: "70", min: 0.7, label: "Notable", hint: "Strength 70 or more" },
+  { key: "0", min: 0, label: "Any", hint: "" },
+  { key: "50", min: 0.5, label: "50+", hint: "" },
+  { key: "70", min: 0.7, label: "70+", hint: "" },
 ];
 
 function inStage(it: FeedItem, view: StageView): boolean {
@@ -50,13 +51,8 @@ function inStage(it: FeedItem, view: StageView): boolean {
   return it.stage === view;
 }
 
-/** "Today" and "Yesterday" count from the run, not from the reader's clock. */
-function relativeDay(iso: string, asOf: string): string | null {
-  const n = daysBetween(iso, asOf);
-  if (n <= 0) return "Today";
-  if (n === 1) return "Yesterday";
-  return null;
-}
+/** A toggle's count, for its hover title. */
+const signalCount = (n: number) => `${n} signal${n === 1 ? "" : "s"}`;
 
 export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
   const params = useQuery();
@@ -110,16 +106,12 @@ export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
   const [page, setPage] = useState({ key: "", shown: PAGE });
   const shown = page.key === viewKey ? page.shown : PAGE;
 
-  // A day's count is every signal in the view on that day, including any the
-  // page has not reached yet, so it does not change when more are shown.
   const groups = useMemo(() => {
-    const totals = new Map<string, number>();
-    for (const it of filtered) totals.set(it.occurredAt, (totals.get(it.occurredAt) ?? 0) + 1);
-    const out: { day: string; total: number; items: FeedItem[] }[] = [];
+    const out: { day: string; items: FeedItem[] }[] = [];
     for (const it of filtered.slice(0, shown)) {
       const last = out[out.length - 1];
       if (last && last.day === it.occurredAt) last.items.push(it);
-      else out.push({ day: it.occurredAt, total: totals.get(it.occurredAt) ?? 1, items: [it] });
+      else out.push({ day: it.occurredAt, items: [it] });
     }
     return out;
   }, [filtered, shown]);
@@ -160,10 +152,21 @@ export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
               </TextToggle>
             ))}
           </div>
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3 sm:gap-x-8">
+            {/* Always in the row, and first, so the controls after it do not move when it shows. */}
             <button
               type="button"
-              title={`Only companies ranked in the top ${TOP}`}
+              title="Back to the view the wire opens on"
+              onClick={reset}
+              className={`label -my-2 py-2 !text-ink underline decoration-rule-2 decoration-1 underline-offset-4 transition-colors hover:decoration-ink ${
+                narrowed ? "" : "invisible"
+              }`}
+            >
+              Clear
+            </button>
+            <button
+              type="button"
+              title={`Only companies ranked in the top ${TOP} · ${signalCount(counts.inTop)}`}
               aria-pressed={top}
               onClick={() => setQuery({ top: top ? null : "1" })}
               className={`label -my-2 flex items-center gap-2 py-2 transition-colors duration-150 hover:!text-ink ${
@@ -176,10 +179,11 @@ export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
                 }`}
               />
               Top {TOP}
-              <span className="num text-ink-4">{counts.inTop}</span>
             </button>
             <div className="flex flex-wrap items-center gap-x-4 gap-y-3" role="group" aria-label="Minimum strength">
-              <span className="label !text-ink-4">Strength</span>
+              <span className="label !text-ink-4" title="Signal strength, 0 to 100">
+                Strength
+              </span>
               {STRENGTHS.map((o) => (
                 <TextToggle
                   key={o.key}
@@ -192,16 +196,6 @@ export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
                 </TextToggle>
               ))}
             </div>
-            {narrowed && (
-              <button
-                type="button"
-                title="Back to the view the wire opens on"
-                onClick={reset}
-                className="label -my-2 py-2 !text-ink underline decoration-1 underline-offset-4"
-              >
-                Reset
-              </button>
-            )}
           </div>
         </div>
       </div>
@@ -214,80 +208,78 @@ export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
           exit={reduce ? undefined : { opacity: 0, transition: { duration: 0.1 } }}
           transition={{ duration: 0.35, ease: EASE }}
         >
-          {groups.map((g) => {
-            const relative = relativeDay(g.day, asOf);
-            return (
-              <section key={g.day} className="grid grid-cols-12 gap-x-6 border-b border-rule">
-                <h2 className="col-span-12 pt-5 lg:col-span-2 lg:py-5">
-                  <span className="label !text-ink">{relative ?? shortDate(g.day, asOf)}</span>{" "}
-                  <span className="num ml-3 text-[11px] text-ink-3 lg:ml-0 lg:mt-1 lg:block">
-                    {relative && `${shortDate(g.day, asOf)} · `}
-                    {g.total} signal{g.total === 1 ? "" : "s"}
-                  </span>
-                </h2>
-                <ol className="col-span-12 py-2 lg:col-span-10">
-                  {g.items.map((it, i) => (
-                    <li key={it.id + i} className={`${ROW} py-2.5`}>
-                      <span className="num text-[11px] text-ink-4" title={FAMILY_LABEL[it.family]}>
-                        {FAMILY_CODE[it.family]}
-                      </span>
-                      <Link
-                        href={`/c/${it.slug}/`}
-                        className="hidden truncate font-serif text-[16px] underline decoration-transparent decoration-1 underline-offset-4 transition-colors hover:decoration-ink md:block"
-                      >
-                        {it.name}
+          {groups.map((g) => (
+            <section key={g.day} className="grid grid-cols-12 gap-x-6 border-b border-rule">
+              <h2 className="col-span-12 pt-5 lg:col-span-2 lg:py-5">
+                <span className="label !text-ink">{shortDate(g.day, asOf)}</span>
+              </h2>
+              <ol className="col-span-12 py-2.5 lg:col-span-10">
+                {g.items.map((it, i) => (
+                  <li key={it.id + i} className={`${ROW} py-2.5`}>
+                    <span className="label col-span-2 md:col-span-1">{FAMILY_LABEL[it.family]}</span>
+                    <Link
+                      href={`/c/${it.slug}/`}
+                      title={it.name}
+                      className="hidden truncate font-serif text-[17px] underline decoration-transparent decoration-1 underline-offset-4 transition-colors hover:decoration-ink md:block"
+                    >
+                      {it.name}
+                    </Link>
+                    <span className="min-w-0 text-[14px] leading-snug text-ink-2">
+                      <span className="num text-[11px] text-ink-3 md:hidden">#{it.rank} </span>
+                      <Link href={`/c/${it.slug}/`} className="font-serif text-[15px] text-ink md:hidden">
+                        {it.name}.{" "}
                       </Link>
-                      <span className="min-w-0 text-[14px] leading-snug text-ink-2">
-                        <span className="num text-[11px] text-ink-3 md:hidden">#{it.rank} </span>
-                        <Link href={`/c/${it.slug}/`} className="font-serif text-[15px] text-ink md:hidden">
-                          {it.name}.{" "}
-                        </Link>
-                        {it.title}
-                      </span>
-                      <span
-                        className="label hidden whitespace-nowrap md:block"
-                        title={`Rank ${it.rank} on the board, ${it.stage ? `${STAGE_LABEL[it.stage].toLowerCase()} stage` : "stage not yet reviewed"}`}
-                      >
-                        <span className="num text-ink">#{it.rank}</span>
-                        {it.stage && ` · ${STAGE_LABEL[it.stage]}`}
-                      </span>
-                      <span className="hidden lg:block" title={`Strength ${Math.round(it.strength * 100)}`}>
-                        <span className="relative block h-[3px] w-full bg-paper-3">
-                          <span className="absolute inset-y-0 left-0 bg-ink" style={{ width: `${it.strength * 100}%` }} />
-                        </span>
-                      </span>
                       <a
                         href={it.url}
                         target="_blank"
                         rel="noreferrer"
-                        aria-label={`Open the source for: ${it.title}`}
-                        className="-m-2 p-2 text-[12px] text-ink-4 transition-colors hover:text-ink"
+                        className="underline decoration-transparent decoration-1 underline-offset-2 transition-colors hover:decoration-ink"
                       >
-                        ↗
+                        {it.title}
                       </a>
-                    </li>
-                  ))}
-                </ol>
-              </section>
-            );
-          })}
+                    </span>
+                    <span className="label hidden whitespace-nowrap md:block" title={it.stage ? undefined : "Stage unknown"}>
+                      <span className="num text-ink">#{it.rank}</span>
+                      {it.stage && ` · ${STAGE_LABEL[it.stage]}`}
+                    </span>
+                    <span className="hidden xl:block" title={`Strength ${Math.round(it.strength * 100)}`}>
+                      <span className="relative block h-[3px] w-full bg-paper-3">
+                        <span className="absolute inset-y-0 left-0 bg-ink" style={{ width: `${it.strength * 100}%` }} />
+                      </span>
+                    </span>
+                    {/* The same link as the signal text, for a pointer only: one tab stop per source. */}
+                    <a
+                      href={it.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      tabIndex={-1}
+                      aria-hidden="true"
+                      className="-m-2 p-2 text-[12px] text-ink-4 transition-colors hover:text-ink"
+                    >
+                      ↗
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))}
           {filtered.length === 0 && (
             <p className="border-b border-rule py-16 text-center text-[14px] text-ink-3">
               No signals match.{" "}
-              <button type="button" onClick={reset} className="text-ink underline decoration-1 underline-offset-4">
-                Reset the filters
+              <button
+                type="button"
+                onClick={reset}
+                className="text-ink underline decoration-rule-2 decoration-1 underline-offset-4 transition-colors hover:decoration-ink"
+              >
+                Clear filters
               </button>
-              .
             </p>
           )}
         </motion.div>
       </AnimatePresence>
 
-      <div className="mt-6 flex items-center justify-between">
-        <p className="label">
-          Showing {Math.min(shown, filtered.length)} of {filtered.length}
-        </p>
-        {filtered.length > shown && (
+      {filtered.length > shown && (
+        <div className="mt-6 flex justify-end">
           <button
             type="button"
             onClick={() => setPage({ key: viewKey, shown: shown + PAGE })}
@@ -295,8 +287,8 @@ export function Wire({ items, asOf }: { items: FeedItem[]; asOf: string }) {
           >
             Show {Math.min(PAGE, filtered.length - shown)} more
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -330,7 +322,7 @@ function FilterButton({
   );
 }
 
-/** A mono text option with its count. The padding is click area, not layout. */
+/** A mono text option. Its count is in the hover title. The padding is click area, not layout. */
 function TextToggle({
   active,
   onClick,
@@ -347,13 +339,14 @@ function TextToggle({
   return (
     <button
       type="button"
-      title={title}
+      title={[title, signalCount(count)].filter(Boolean).join(" · ")}
       aria-pressed={active}
       onClick={onClick}
-      className="label -my-2 py-2 transition-colors duration-150 hover:!text-ink"
+      className={`label -my-2 whitespace-nowrap py-2 transition-colors duration-150 hover:!text-ink ${
+        active ? "!text-ink underline decoration-1 underline-offset-4" : ""
+      }`}
     >
-      <span className={active ? "text-ink underline decoration-1 underline-offset-4" : ""}>{children}</span>
-      <span className="num ml-1.5 text-ink-4">{count}</span>
+      {children}
     </button>
   );
 }

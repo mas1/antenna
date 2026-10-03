@@ -12,11 +12,11 @@ export function RankDelta({ rank, prev, isNew = false, className }: Props) {
     // Unranked a week ago is not the same as new: a company can enter on a
     // signal that is months old. Green "New" is kept for a first signal.
     return isNew ? (
-      <span className={`label !text-signal ${className ?? ""}`} title="First signal in the last week">
+      <span className={`label !text-signal ${className ?? ""}`} title="First signal in the last seven days">
         New
       </span>
     ) : (
-      <span className={`label !text-ink ${className ?? ""}`} title="Not ranked a week ago">
+      <span className={`label !text-ink ${className ?? ""}`} title="Not on the board seven days ago">
         In
       </span>
     );
@@ -24,7 +24,7 @@ export function RankDelta({ rank, prev, isNew = false, className }: Props) {
   const d = prev - rank;
   if (d === 0) {
     return (
-      <span className={`num text-[11px] text-ink-4 ${className ?? ""}`} title="No change in a week">
+      <span className={`num text-[11px] text-ink-4 ${className ?? ""}`} title="No change in seven days">
         –
       </span>
     );
@@ -33,7 +33,7 @@ export function RankDelta({ rank, prev, isNew = false, className }: Props) {
   return (
     <span
       className={`num text-[11px] ${up ? "text-signal" : "text-ink-4"} ${className ?? ""}`}
-      title={`${up ? "Up" : "Down"} ${Math.abs(d)} in a week (was ${prev})`}
+      title={`${up ? "Up" : "Down"} ${Math.abs(d)} in seven days (was #${prev})`}
     >
       {up ? "▲" : "▼"}
       {Math.abs(d)}

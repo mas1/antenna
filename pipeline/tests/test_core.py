@@ -15,7 +15,7 @@ from antenna.collectors.base import (
     parse_date,
     squash,
 )
-from antenna.db import connect, insert_signals
+from antenna.db import connect, insert_signals, prune_superseded
 from antenna.models import EntityHint, Person, Signal
 from antenna.resolve import resolve
 from antenna.score import (
@@ -233,6 +233,32 @@ class Resolution(unittest.TestCase):
         row = self.conn.execute("SELECT * FROM scores").fetchone()
         self.assertGreater(row["edge"], 20)
         self.assertEqual(row["sector"], "autonomy")
+
+    def test_a_reading_replaced_by_a_later_one_is_pruned(self):
+        # Run one knows the company by name only. By run two it has a domain,
+        # so the same lifetime count lands under a new key.
+        count = dict(source="hn_attention", family="social", kind="hn_baseline", strength=0.0)
+        insert_signals(self.conn, self.run, [
+            sig("Alva Energy", when="2026-09-30", metrics={"observed_only": True, "hn_mentions_total": 1}, **count),
+            sig("Alva Energy", domain="alvaenergy.io"),
+        ])
+        later = self.conn.execute("INSERT INTO runs (started_at) VALUES ('y')").lastrowid
+        insert_signals(self.conn, later, [
+            sig("Alva Energy", domain="alvaenergy.io", when="2026-10-01",
+                metrics={"observed_only": True, "hn_mentions_total": 3}, **count),
+            # Two subjects are two readings: both stay.
+            sig("Alva Energy", domain="alvaenergy.io", source="ats_jobs", family="hiring", kind="hiring_velocity",
+                metrics={"rolling": True, "subject": "lever"}, url="https://example.org/a"),
+            sig("Alva Energy", domain="alvaenergy.io", source="ats_jobs", family="hiring", kind="hiring_velocity",
+                metrics={"rolling": True, "subject": "ashby"}, url="https://example.org/b"),
+        ])
+        self.assertEqual(resolve(self.conn), 1)
+        self.assertEqual(prune_superseded(self.conn), 1)
+        kept = [dict(r) for r in self.conn.execute("SELECT kind, metrics FROM signals ORDER BY id")]
+        self.assertEqual([k["kind"] for k in kept], ["form_d", "hn_baseline", "hiring_velocity", "hiring_velocity"])
+        self.assertIn('"hn_mentions_total": 3', kept[1]["metrics"])
+        # Dated events are never pruned, and a second pass finds nothing.
+        self.assertEqual(prune_superseded(self.conn), 0)
 
 
 if __name__ == "__main__":
