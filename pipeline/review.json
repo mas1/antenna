@@ -59,7 +59,7 @@
   "founded": 2014,
   "raised_usd": 74200000.0,
   "source": "https://www.cbinsights.com/company/accion-systems",
-  "note": "This is the 12-year-old MIT electrospray-thruster company, now trading as Revolution Space and majority-owned by Tracker Capital since 2021, with about $74M raised; it is established, not a find. The trademark signal is real and mildly interesting (USPTO shows six intent-to-use filings between 29 Jul and 25 Aug 2026…",
+  "note": "The 12-year-old MIT electrospray-thruster company, now trading as Revolution Space and majority-owned by Tracker Capital since 2021, with about $74M raised.",
   "name": "Revolution Space (Accion Systems)",
   "domain": "revolutionspace.com",
   "reviewed": true
@@ -68,7 +68,7 @@
   "stage": "early",
   "founded": 2019,
   "source": "https://tracxn.com/d/companies/addiguru/__i9ls_bKmw1zJBoEpw4m4C8Xi7XWi3HJpyySfKSIp8aU",
-  "note": "Founded 2019 by Shuchi 'SK' Khurana; Tracxn lists it as seed stage with one undisclosed round (Jan 2020, investors include The Idea Village). No priced venture round found; it does not fit 'formation' because it is seven years old. USAspending shows 12 SBIR/STTR prime contracts since Nov 2020 totalling about $4.1M…",
+  "note": "Founded 2019 by Shuchi 'SK' Khurana; Tracxn lists it as seed stage with one undisclosed round (Jan 2020, investors include The Idea Village). No priced venture round found. The company is seven years old.",
   "name": "Addiguru",
   "reviewed": true
  },
@@ -122,7 +122,7 @@
  "aerovec": {
   "stage": "formation",
   "source": "https://aerovec.com/vision/",
-  "note": "Pre-seed by funding (search results report a StartEngine Reg CF raise of about $140K at a roughly $3M valuation closed July 2025, and an August 2022 founding by Julie Hetey and Sean Gartland), but I could not open Crunchbase or Kingscrowd to confirm, and the site copyright reads 2021-2026, so the company is around…",
+  "note": "Pre-seed by funding (search results report a StartEngine Reg CF raise of about $140K at a roughly $3M valuation closed July 2025, and an August 2022 founding by Julie Hetey and Sean Gartland); Crunchbase and Kingscrowd could not be opened to confirm. The site copyright reads 2021-2026, so the company is around four years old.",
   "name": "Aerovec",
   "reviewed": true
  },
@@ -196,7 +196,7 @@
  },
  "american-ccp": {
   "source": "https://tsdr.uspto.gov/statusview/sn50064770",
-  "note": "Nothing found beyond the registry trail: a Georgia LLC (active, principal office 90 Highlands Lane, Oxford, GA 30054 per a Georgia SOS mirror seen as a search snippet) and an intent-to-use trademark AMERICAN COMBINED COOLING AND POWER filed 21 Aug 2026 for 'alternative energy generation power plants', via a small…",
+  "note": "Nothing found beyond the registry trail: a Georgia LLC (active, principal office in Oxford, GA) and an intent-to-use trademark AMERICAN COMBINED COOLING AND POWER filed 21 Aug 2026 for 'alternative energy generation power plants'. No website, press, people, funding or product found.",
   "name": "American Combined Cooling and Power (American CCP, LLC)",
   "location": "Oxford, GA",
   "reviewed": true
@@ -240,7 +240,7 @@
   "founded": 2021,
   "raised_usd": 42200000.0,
   "source": "https://www.sec.gov/Archives/edgar/data/1992691/000199269126000001/primary_doc.xml",
-  "note": "SEC Form D opened: Antaris, Inc., 153 2nd St Suite 103, Los Altos CA, Delaware, incorporated 2021, previous name Astira, Inc. (so the alias merge is correct); $12,701,363 sold of $28,050,894 Series A preferred, 19 investors, first sale 2026-03-16. TSDR serial 50026989 opened: MAESTRO, satellite mission and…",
+  "note": "SEC Form D: Antaris, Inc., Los Altos CA, a Delaware corporation incorporated 2021 and previously named Astira, Inc.; $12,701,363 sold of $28,050,894 Series A preferred, 19 investors, first sale 2026-03-16.",
   "drop_people": [
    "Gaurav Manglik"
   ],
@@ -298,12 +298,22 @@
   "domain": "archeryx.ai",
   "reviewed": true
  },
+ "areo": {
+  "reviewed": true,
+  "founded": 2023,
+  "source": "https://news.ycombinator.com/item?id=49933507",
+  "note": "Founded January 2023 in Bremen (AREO GmbH, share capital EUR 25,000); no funding round found. It sells StoreLink, restocking software for supermarkets. The robotics lab is new and it is hiring its first Head of Robotics. Its Hacker News mentions are its own hiring posts.",
+  "name": "AREO",
+  "domain": "goareo.com",
+  "location": "Bremen, Germany",
+  "stage": "formation"
+ },
  "aseon-labs": {
   "stage": "formation",
   "founded": 2026,
   "raised_usd": 10000000.0,
   "source": "https://www.ycombinator.com/companies/aseon-labs",
-  "note": "YC Spring 2026 batch, founded 2026, team of 5, Redwood City (YC directory; YC lists aseonlabs.com while aseon.com serves the same company). $10M seed announced 26 Jun 2026, led by Crane Venture Partners with YC and Expa…",
+  "note": "YC Spring 2026 batch, founded 2026, team of 5, Redwood City (YC directory; YC lists aseonlabs.com while aseon.com serves the same company). $10M seed announced 26 Jun 2026, led by Crane Venture Partners with YC and Expa. No customers signed yet, per TechCrunch.",
   "domain": "aseon.com",
   "location": "Redwood City, CA",
   "reviewed": true
@@ -311,7 +321,7 @@
  "asim": {
   "stage": "formation",
   "source": "https://www.ycombinator.com/companies/asim-group",
-  "note": "YC directory: Fall 2026 batch, team size 4, San Francisco, tags Robotics / Deep Learning; no founding year or funding stated, so both are left blank. Domain asim-group.com registered 2026-07-29 (Verisign RDAP). Homepage says 'Backed by Y Combinator'; no other round found. LinkedIn lists 2-10 employees.",
+  "note": "YC directory: Fall 2026 batch, team size 4, San Francisco, tags Robotics / Deep Learning; no founding year or funding stated. Domain asim-group.com registered 2026-07-29 (Verisign RDAP). Homepage says 'Backed by Y Combinator'; no other round found. LinkedIn lists 2-10 employees.",
   "domain": "asim-group.com",
   "location": "San Francisco, CA, USA",
   "reviewed": true
@@ -361,7 +371,7 @@
   "reviewed": true,
   "founded": 2019,
   "source": "https://aurelia-aerospace.com/pages/about-us",
-  "note": "aurelia-aerospace.com About page opened: designs and manufactures modular heavy-lift multirotor drones (ArduPilot/PX4) for agriculture, mapping, inspection, defense and research. Address 6185 S Pecos Rd Suite 201, Las Vegas NV per Commercial UAV News supplier directory. Founded 2019 per its LinkedIn company page as…",
+  "note": "Designs and manufactures modular heavy-lift multirotor drones (ArduPilot/PX4) for agriculture, mapping, inspection, defense and research, per its About page. Las Vegas NV address per the Commercial UAV News supplier directory.",
   "name": "Aurelia Aerospace",
   "domain": "aurelia-aerospace.com",
   "location": "Las Vegas, Nevada"
@@ -395,7 +405,7 @@
   "reviewed": true
  },
  "autum": {
-  "note": "A Delaware corporation at 992 South Kirby Rd, Bloomington, Indiana (beside Monroe County Airport) that filed AUTUM through Polsinelli for drones, drone-control software and AI crop-scouting SaaS; I found no website, press, funding or federal award, so it is genuinely unknown. The TSDR record (serial 50111237) matches…",
+  "note": "A Delaware corporation at 992 South Kirby Rd, Bloomington, Indiana (beside Monroe County Airport) that filed AUTUM through Polsinelli for drones, drone-control software and AI crop-scouting SaaS. No website, press, funding or federal award found.",
   "reviewed": true
  },
  "avol": {
@@ -429,7 +439,7 @@
   "stage": "formation",
   "founded": 2026,
   "source": "https://www.tech360.tv/ai-software-addresses-fusion-energy-development-bottleneck-2026-22-06",
-  "note": "\"In April, Xie founded VeloAlpha, a Beijing-based start-up\" building the FusionAlpha tokamak simulator ( June 2026); no funding or investor is mentioned anywhere I could find.",
+  "note": "\"In April, Xie founded VeloAlpha, a Beijing-based start-up\" building the FusionAlpha tokamak simulator (press, June 2026). No funding or investor found.",
   "name": "VeloAlpha",
   "reviewed": true
  },
@@ -461,7 +471,7 @@
   "stage": "formation",
   "founded": 2024,
   "source": "https://www.ivc-online.com/Google-Card?id=ec90b06c-284f-ef11-b817-00505695cd29",
-  "note": "Five-person Israeli seed-stage startup (founded 2024) making friend-or-foe identification beacons for infantry; the FCC filing was made by its own CEO for a USSOCOM experimentation event in North Carolina, which is a real and early signal, but it is a foreign company and the row must say Israel. Do not confuse it with…",
+  "note": "Five-person Israeli seed-stage startup (founded 2024) making friend-or-foe identification beacons for infantry; the FCC filing was made by its own CEO for a USSOCOM experimentation event in North Carolina.",
   "location": "Atzmon, Israel",
   "reviewed": true
  },
@@ -514,6 +524,12 @@
   "source": "https://github.com/muellerberndt/cadence",
   "note": "GitHub repo muellerberndt/cadence is a GPL-3.0 personal research project (experimental brain-like learning framework) owned by an individual user account; no company, product or site behind it. Owner Bernhard Mueller's profile lists 'Pragma Research' (floatingpragma.io), his own label."
  },
+ "cadenceslicer": {
+  "reviewed": true,
+  "exclude": "One person's two-day-old open-source repository, not a company.",
+  "source": "https://github.com/HMITCHR/CadenceSlicer",
+  "note": "GitHub API shows the owner HMITCHR is a personal user account created March 2026 with 2 followers and no name, company, site or location; the repo was created 1 Oct 2026, has 26 stars, 3 forks and 6 commits from a single contributor, AGPL-3.0."
+ },
  "camden-space": {
   "stage": "formation",
   "founded": 2025,
@@ -544,7 +560,7 @@
   "stage": "formation",
   "raised_usd": 4600000.0,
   "source": "https://www.sbir.gov/awards/220830",
-  "note": "UC San Diego spinout; $2.5M Seed+ led by True Ventures announced June 2026, bringing total to $4.6M after a $2.1M seed (Defined Ventures, Old Line Capital Partners). Founding year not stated in any source I opened.",
+  "note": "UC San Diego spinout; $2.5M Seed+ led by True Ventures announced June 2026, bringing total to $4.6M after a $2.1M seed (Defined Ventures, Old Line Capital Partners). Founding year not stated.",
   "location": "Del Mar, California (San Diego area)"
  },
  "chaos-industries": {
@@ -552,7 +568,7 @@
   "founded": 2022,
   "raised_usd": 1000000000.0,
   "source": "https://www.chaosinc.com/news/chaos-industries-raises-510-million-led-by-valor-equity-partners-to-accelerate-next-generation-defense-systems",
-  "note": "One of the best-funded US defense startups (radar and counter-drone, $4.5B valuation, over $1B raised, Reuters and Aviation Week coverage), shown on the board with no founding year, no funding and no domain; it is in no sense an early find. The VESPID intent-to-use trademark (filed 2026-08-25, counter-drone systems…",
+  "note": "One of the best-funded US defense startups: radar and counter-drone, a $4.5B valuation and over $1B raised, covered by Reuters and Aviation Week.",
   "name": "CHAOS Industries",
   "sector": "defense",
   "domain": "chaosinc.com",
@@ -590,7 +606,7 @@
   "founded": 2011,
   "raised_usd": 81450000.0,
   "source": "https://www.cbinsights.com/company/cohere-technologies",
-  "note": "Not a find: a 15-year-old, Series E wireless software company (inventor of the OTFS waveform; backers include NEA, Lightspeed, Intel Capital, Vodafone, Telstra, Bell) whose main business is 4G/5G spectrum software for carriers. The $28.5M Army prototype OT is real (FPDS: $28,536,386 signed 2026-06-29 by ACC Picatinny…",
+  "note": "A 15-year-old, Series E wireless software company (inventor of the OTFS waveform; backers include NEA, Lightspeed, Intel Capital, Vodafone, Telstra, Bell) whose main business is 4G/5G spectrum software for carriers.",
   "domain": "cohere-tech.com",
   "reviewed": true
  },
@@ -617,7 +633,7 @@
  },
  "cornerstone-precision-technologies": {
   "source": "https://www.buzzfile.com/business/Cornerstone-Precision-Technologies,-Inc.-410-258-3716",
-  "note": "Tiny Maryland RF/electronic-warfare hardware shop in a county incubator with one $75K AFWERX Phase I for a reconfigurable EW test payload; essentially unknown publicly (no website found). A same-named Delaware-addressed entity sold RF cable to the Navy in 2023, so 'first federal award' should not be stated as fact.",
+  "note": "Tiny Maryland RF and electronic-warfare hardware shop in a county incubator with one $75K AFWERX Phase I for a reconfigurable EW test payload; no website found. A same-named Delaware-addressed entity sold RF cable to the Navy in 2023, so this may not be its first federal award.",
   "reviewed": true
  },
  "corvus-robotics": {
@@ -649,7 +665,7 @@
  },
  "creature-technologies": {
   "reviewed": true,
-  "note": "No founding date, funding, founders or press found. Only public traces are the trademark (first use Jun 17, 2026, Delaware corporation at 2387 Bering Dr, San Jose) and a product site at creaturetec.com. Nothing found is often a good sign for an early company; I could not rule out that it is the US arm of an overseas…",
+  "note": "No founding date, funding, founders or press found. The only public traces are the trademark (first use Jun 17, 2026, Delaware corporation at 2387 Bering Dr, San Jose) and a product site at creaturetec.com.",
   "name": "Creature",
   "domain": "creaturetec.com"
  },
@@ -663,7 +679,7 @@
  "darkflite": {
   "stage": "early",
   "source": "https://dronelife.com/2025/09/05/darkflite-announces-new-sbir-from-air-force-for-logistics-drone/",
-  "note": "Darkflite describes itself as built on 'its affiliate company, blueflite'; blueflite was founded in 2018. Darkflite's own formation date not found; darkflite.com was registered 2022-06-21. Funding is SBIR contracts and a Michigan grant only, as far as I could find.",
+  "note": "Darkflite describes itself as built on 'its affiliate company, blueflite'; blueflite was founded in 2018. Darkflite's own formation date not found; darkflite.com was registered 2022-06-21. Funding found is SBIR contracts and a Michigan grant only.",
   "name": "Darkflite",
   "reviewed": true
  },
@@ -769,7 +785,7 @@
   "founded": 2024,
   "raised_usd": 143500000.0,
   "source": "https://www.prnewswire.com/news-releases/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-the-path-to-physical-artificial-general-intelligence-302556817.html",
-  "note": "Robot foundation-model company (DYNA-1, DYNA-2) founded in 2024 by the Caper AI founders and an ex-DeepMind researcher; $143.5M raised at a $600M+ valuation, so already well known to robotics investors. Both signals check out (Ashby board shows 24 roles, 1 posted in the last 30 days and 6 in the 30 before); the row is…",
+  "note": "Robot foundation-model company (DYNA-1, DYNA-2) founded in 2024 by the Caper AI founders and an ex-DeepMind researcher; $143.5M raised at a $600M+ valuation, so already well known to robotics investors.",
   "domain": "dyna.co",
   "reviewed": true
  },
@@ -796,7 +812,7 @@
   "founded": 2014,
   "raised_usd": 202000000.0,
   "source": "https://tracxn.com/d/companies/echodyne/__pUN32qxOyIcug3WQd9pydVSi5JEM59Ci-CwFQv9dUGA",
-  "note": "Echodyne is a well-known 12-year-old metamaterial radar maker (EchoGuard, EchoShield) backed by Bill Gates, NEA, Madrona and Northrop Grumman with roughly $200M raised and about 300 staff; it is not a find and the row shows no founding year or funding. All three FCC signals check out against the forms…",
+  "note": "A well-known 12-year-old metamaterial radar maker (EchoGuard, EchoShield) backed by Bill Gates, NEA, Madrona and Northrop Grumman, with roughly $200M raised and about 300 staff.",
   "reviewed": true
  },
  "edgedyne": {
@@ -928,7 +944,7 @@
   "stage": "early",
   "founded": 2016,
   "source": "https://www.evolvedynamics.com/about/",
-  "note": "'Mike founded Evolve Dynamics in 2016' per and Companies House shows EVOLVE DYNAMICS LIMITED (10489160) incorporated 21 Nov 2016; first institutional round was in April 2020 led by Cass Entrepreneurship Fund with FSE Group, and a Foresight investor now sits on the board; I could not confirm a total raised.",
+  "note": "Founded 2016; Companies House shows EVOLVE DYNAMICS LIMITED (10489160) incorporated 21 Nov 2016. First institutional round in April 2020, led by Cass Entrepreneurship Fund with FSE Group; a Foresight investor now sits on the board. Total raised not confirmed.",
   "reviewed": true
  },
  "exclaim-robotics": {
@@ -1030,7 +1046,7 @@
  "fluxara": {
   "reviewed": true,
   "source": "https://tsdr.uspto.gov/statusview/sn50060418",
-  "note": "TSDR serial 50060418 opened: mark FLUXPILOT, SaaS for sizing utility-scale battery energy storage systems, intent to use, owner Fluxara LLC, Illinois LLC, 2501 Chatham Rd Ste N, Springfield IL, filed through outside counsel (Stone Levy LLC). Only one of the two applications was opened. Web search found no website…",
+  "note": "USPTO TSDR serial 50060418: mark FLUXPILOT, SaaS for sizing utility-scale battery energy storage systems, intent to use, owner Fluxara LLC, an Illinois LLC at 2501 Chatham Rd Ste N, Springfield IL, filed through outside counsel (Stone Levy LLC).",
   "location": "Unknown (Illinois LLC; Springfield address is a registered agent)"
  },
  "flybrain-robot-bridge": {
@@ -1222,7 +1238,7 @@
   "founded": 2024,
   "raised_usd": 26000000.0,
   "source": "https://aviationweek.com/defense/budget-policy-operations/grid-aero-raises-20-million-lifter-lite-cargo-aircraft",
-  "note": "San Leandro maker of the Lifter-Lite autonomous long-range cargo aircraft for contested military logistics; founded 2024 by ex-Joby/Xwing/Northrop people, $26M raised through a Series A. Already out of stealth and covered by Aviation Week and National Defense, so not an unknown; the record shows no founding year or…",
+  "note": "San Leandro maker of the Lifter-Lite autonomous long-range cargo aircraft for contested military logistics; founded 2024 by ex-Joby/Xwing/Northrop people, $26M raised through a Series A. Already out of stealth and covered by Aviation Week and National Defense.",
   "reviewed": true
  },
  "grit-teleop-deploy": {
@@ -1337,7 +1353,7 @@
   "stage": "growth",
   "founded": 2015,
   "source": "https://hpj.com/2025/04/04/american-drone-maker-prospers-amid-pressures-on-producers/",
-  "note": "Founded 2015 by Arthur Erickson at UT Austin, sales growing every year since 2018, building a Richmond, Texas factory; search snippets from PitchBook report a $12M later-stage VC round on 1 Jun 2026, which I could not open to confirm.",
+  "note": "Founded 2015 by Arthur Erickson at UT Austin, sales growing every year since 2018, building a Richmond, Texas factory. PitchBook search snippets report a $12M later-stage VC round on 1 Jun 2026 (not confirmed).",
   "reviewed": true
  },
  "hyphen-innovations": {
@@ -1345,7 +1361,7 @@
   "stage": "formation",
   "founded": 2022,
   "source": "https://www.imts.com/read/article-details.cfm?articleid=1963&type=1",
-  "note": "USAspending API opened for FA864926P0245: HYPHEN INNOVATIONS LLC, Beavercreek OH, $110,000, Department of the Air Force, signed 2026-06-17, 'Hybrid electric turbine engine for sustainable aviation'. hyphenmade.com opened: additive manufacturing R&D, EDGE equipment, iDAMP damping technology, fatigue testing; 3250…",
+  "note": "USAspending, award FA864926P0245: HYPHEN INNOVATIONS LLC, Beavercreek OH, $110,000, Department of the Air Force, signed 2026-06-17, 'Hybrid electric turbine engine for sustainable aviation'. hyphenmade.com: additive manufacturing R&D, EDGE equipment, iDAMP damping technology, fatigue testing.",
   "sector": "manufacturing",
   "domain": "hyphenmade.com",
   "location": "Moraine, Ohio (Dayton area; SAM address Beavercreek, Ohio)"
@@ -1460,7 +1476,7 @@
   "founded": 2023,
   "raised_usd": 1400000.0,
   "source": "https://www.junopropulsion.com/news/juno-raises-pre-seed-round",
-  "note": "GeekWire (geekwire.com/2026/juno-propulsion-nsf-non-toxic-space-propulsion/, search snippet; page itself returned 403): founded 2023 by Alexis Harroun (CEO) and Ari Martinez (CTO), who met during Purdue PhDs. $1.4M pre-seed led by SOSV with Hypernova, Leslie Ventures, Activate, Collab Fund, Safar Partners…",
+  "note": "GeekWire (search snippet; the page returned 403): founded 2023 by Alexis Harroun (CEO) and Ari Martinez (CTO), who met during Purdue PhDs. $1.4M pre-seed led by SOSV, plus a $1.2M NSF SBIR Phase II in Sep 2026. Team of about four.",
   "sector": "space",
   "domain": "junopropulsion.com",
   "location": "Tukwila, WA",
@@ -1496,7 +1512,7 @@
  },
  "kettering-industries": {
   "source": "https://www.faa.gov/sites/faa.gov/files/107W-2026-01594-Ansel-Kim-CoW.pdf",
-  "note": "Nothing found beyond the FAA waiver itself: exact-phrase Google search for \"Kettering Industries\" + \"Ansel Kim\" returns only the FAA PDF. ketteringindustries.com is an 'under construction' placeholder that I could not tie to this entity. Waiver address '6615 Grand Ave #367, Gurnee, IL 60031' is a numbered mailbox.…",
+  "note": "Nothing found beyond the FAA waiver itself: an exact-phrase search for \"Kettering Industries\" and \"Ansel Kim\" returns only the FAA PDF. ketteringindustries.com is an 'under construction' placeholder not tied to this entity. The waiver address is a numbered mailbox in Gurnee, IL.",
   "location": "Gurnee, Illinois",
   "reviewed": true
  },
@@ -1655,7 +1671,7 @@
   "stage": "early",
   "founded": 2020,
   "source": "https://lionpowerusa.com/about",
-  "note": "No funding round disclosed anywhere I could find (Crunchbase profile exists, amounts not visible). Founding year 2020 comes from search-result snippets only: a PR Newswire release of 12 Sep 2025 ('Lion Power was Incorporated in 2020, and is located in Greenville, SC') and chairman Tom Lynch's LinkedIn ('a startup…",
+  "note": "No funding round disclosed (a Crunchbase profile exists, amounts not visible). Founding year 2020 comes from search snippets only: a PR Newswire release of 12 Sep 2025 ('Lion Power was Incorporated in 2020, and is located in Greenville, SC') and chairman Tom Lynch's LinkedIn.",
   "domain": "lionpowerusa.com",
   "location": "Greenville, SC",
   "reviewed": true
@@ -1675,7 +1691,7 @@
   "founded": 2017,
   "raised_usd": 326200000.0,
   "source": "https://research.contrary.com/company/loft-orbital",
-  "note": "Loft Orbital is a nine-year-old, roughly 350-person satellite-as-a-service unicorn (Series C $170M, BlackRock/Temasek/Tikehau) with offices in San Francisco, Golden CO, Toulouse and Abu Dhabi - widely known, not a find. All four signals check out (17 HN hits, Tranco 1,098,448 to 997,021, 60 Lever roles with ~20 posted…",
+  "note": "A nine-year-old, roughly 350-person satellite-as-a-service unicorn (Series C $170M, BlackRock/Temasek/Tikehau) with offices in San Francisco, Golden CO, Toulouse and Abu Dhabi. Widely known.",
   "location": "San Francisco, CA",
   "reviewed": true
  },
@@ -1683,8 +1699,19 @@
   "reviewed": true,
   "stage": "formation",
   "source": "https://textiles.ncsu.edu/news/2024/09/loom3d-wilson-college-of-textiles-ph-d-student-founds-sustainable-startup/",
-  "note": "NC State Wilson College of Textiles spinout founded by Ph.D. student Jeanine Fry; funding found is non-dilutive only: NC IDEA MICRO grant ($10K), a $2K Venture Pack Challenge award and the $124,485 Army prototype OT. No founding year or equity round stated in any source I opened.",
+  "note": "NC State Wilson College of Textiles spinout founded by Ph.D. student Jeanine Fry; funding found is non-dilutive only: NC IDEA MICRO grant ($10K), a $2K Venture Pack Challenge award and the $124,485 Army prototype OT. No founding year or equity round stated.",
   "sector": "manufacturing"
+ },
+ "ludofact": {
+  "reviewed": true,
+  "exclude": "Off thesis and an incumbent: an established family-owned German maker of board games and puzzles, matched only because one employee co-authored a university paper on automating its own packing line.",
+  "stage": "incumbent",
+  "founded": 1995,
+  "source": "https://ludofactusa.com/about/",
+  "note": "Ludo Fact USA's about page: 'The company was founded in 1995 by Horst Walz'; the group site describes a family-run board game and puzzle manufacturer with about 700 employees. Another listing gives 1992 as the founding year.",
+  "name": "Ludo Fact GmbH",
+  "domain": "ludofact.de",
+  "location": "Jettingen-Scheppach, Germany"
  },
  "lumen-labs": {
   "stage": "formation",
@@ -1880,7 +1907,7 @@
  },
  "microventus": {
   "source": "https://tsdr.uspto.gov/statusview/sn50131835",
-  "note": "Unknown company with no website, press or Hacker News mention that I could find; its only footprint is a three-day-old intent-to-use trademark covering semiconductors, air cooling apparatus for semiconductors and engineering services, filed from the UT Dallas startup incubator address. That suggests a brand-new…",
+  "note": "No website, press or Hacker News mention found; its only footprint is a three-day-old intent-to-use trademark covering semiconductors, air cooling apparatus for semiconductors and engineering services, filed from the UT Dallas startup incubator address.",
   "reviewed": true
  },
  "mightyfly": {
@@ -2042,14 +2069,14 @@
  },
  "nexara-technologies": {
   "source": "https://tsdr.uspto.gov/statusview/sn50107282",
-  "note": "The only evidence is one intent-to-use logo trademark (a flame design) for entertainment humanoid robots, filed from a Manhattan apartment address by a Delaware shell through a high-volume trademark filing service; I could not find a product, team, funding or any press. A search-engine snippet for…",
+  "note": "The only evidence is one intent-to-use logo trademark (a flame design) for entertainment humanoid robots, filed from a Manhattan apartment address by a Delaware shell through a high-volume trademark filing service. No product, team, funding or press found.",
   "reviewed": true
  },
  "nori": {
   "stage": "formation",
   "founded": 2026,
   "source": "https://www.ycombinator.com/companies/noril1",
-  "note": "Nori Robotics is a YC S26 company selling a $1,688 wheeled bimanual robot assembled in San Francisco; solo founder Antonio Sitong Li (Columbia). The Launch HN (201 points, 66 comments, the author's only HN story), the 16-vote YC launch, the domain date and the Tranco entry all check out. One fix: the two people…",
+  "note": "Nori Robotics is a YC S26 company selling a $1,688 wheeled bimanual robot assembled in San Francisco; solo founder Antonio Sitong Li (Columbia).",
   "name": "Nori Robotics",
   "reviewed": true
  },
@@ -2198,7 +2225,7 @@
   "location": "Santa Maria, CA"
  },
  "pantheon-design": {
-  "note": "A Maryland LLC at what looks like a home address in Clarksville, Maryland that filed BLUE SPOTTED RAY for military unmanned underwater vehicles through a Washington government-contracts lawyer; I found no website, press, funding or federal award, so it is unknown. Do not confuse it with Pantheon Design Ltd, the…",
+  "note": "A Maryland LLC at what looks like a home address in Clarksville, Maryland that filed BLUE SPOTTED RAY for military unmanned underwater vehicles through a Washington government-contracts lawyer. No website, press, funding or federal award found.",
   "sector": "defense",
   "reviewed": true
  },
@@ -2266,7 +2293,7 @@
   "stage": "formation",
   "founded": 2026,
   "source": "https://www.linkedin.com/company/physica-ai",
-  "note": "USPTO TSDR sn99894796: PHYSICA LAB filed 2026-06-19, intent to use, by Physica AI Inc. (Delaware), 480 Cowper Street Suite 100, Palo Alto, counsel Mintz (I opened only this one of the three applications). physicaai.com: 'From real-world data to robotics deployment', domain registered 2025-12-21. LinkedIn company page…",
+  "note": "USPTO TSDR sn99894796: PHYSICA LAB filed 2026-06-19, intent to use, by Physica AI Inc. (Delaware), 480 Cowper Street Suite 100, Palo Alto, counsel Mintz; one of three applications. physicaai.com: 'From real-world data to robotics deployment', domain registered 2025-12-21.",
   "location": "Palo Alto, California",
   "reviewed": true
  },
@@ -2279,7 +2306,7 @@
   "reviewed": true
  },
  "ponchi": {
-  "note": "A Delaware LLC housed at the Missouri Innovation Center incubator on the University of Missouri campus (1601 S Providence Rd, Columbia) that has filed nine intent-to-use marks since April 2026 for AI-inference and \"magnetic computing\" chip sets (PONCHI, SURAHI, HIVE, BUMBLE, WASP, HONEY, HONEYCOMB, HONEYCOMB INSIDE)…",
+  "note": "A Delaware LLC housed at the Missouri Innovation Center incubator on the University of Missouri campus that has filed nine intent-to-use marks since April 2026 for AI-inference and \"magnetic computing\" chip sets. No funding, press, team or federal awards found.",
   "reviewed": true
  },
  "poseidon-aerospace": {
@@ -2316,7 +2343,7 @@
  "praxiom-partners": {
   "reviewed": true,
   "source": "https://tsdr.uspto.gov/statusview/sn50057807",
-  "note": "USPTO TSDR serial 50057807 opened: PRAXIOM, filed 2026-08-18, intent to use, owner PRAXIOM Partners, LLC, 117 S Lexington St Suite 100, Harrisonville MO, Missouri LLC, filed without an attorney. No website, press, funding or founders found by web search; the 'Praxiom Partners' that appears in search is an unrelated…",
+  "note": "USPTO TSDR serial 50057807: PRAXIOM, filed 2026-08-18, intent to use, owner PRAXIOM Partners, LLC, 117 S Lexington St Suite 100, Harrisonville MO, a Missouri LLC, filed without an attorney. No website, press, funding or founders found.",
   "location": "Harrisonville, Missouri"
  },
  "principal-mineral-co": {
@@ -2419,7 +2446,7 @@
   "founded": 2020,
   "raised_usd": 19000000.0,
   "source": "https://www.ibj.com/articles/2025-innovation-issue-startups-to-watch-quasistatics-inc-d-b-a-ixana",
-  "note": "This is Ixana, a Purdue spin-out (Shreyas Sen) making Wi-R body-area communication chips; the ixana.ai footer reads '(c) 2026 Quasistatics Inc.', so the merge is right but the row shows the legal name. It is a chip company, not autonomy, and is already known: $19M raised, CES press, an NSF Phase II ($863K) and a…",
+  "note": "Ixana is a Purdue spin-out (Shreyas Sen) making Wi-R body-area communication chips; the ixana.ai footer reads '(c) 2026 Quasistatics Inc.', its legal name.",
   "name": "Ixana",
   "sector": "semiconductors",
   "reviewed": true
@@ -2480,10 +2507,21 @@
   "note": "UC Berkeley spinout using engineered microbes to recover and separate rare earth elements without acid hydrometallurgy; grant-funded (Activate fellowship, NSF SBIR Phase I of $303,808 confirmed on sbir.gov and USAspending) and little known. The address is a campus lab building (Koshland Hall), and the PI Nathan Good…",
   "reviewed": true
  },
+ "re-build-applied-logix": {
+  "reviewed": true,
+  "exclude": "Subsidiary of Re:Build Manufacturing, a large well-funded industrial roll-up, and an engineering-services firm rather than a product startup.",
+  "stage": "incumbent",
+  "founded": 2006,
+  "source": "https://rebuildmanufacturing.com/newsroom/news/rebuild-manufacturing-announces-the-acquisition-of-appliedlogix/",
+  "note": "Re:Build's own announcement dated 21 Nov 2022 says AppliedLogix was established in 2006 in Rochester, NY and was acquired by Re:Build Manufacturing, its 11th acquisition since November 2020.",
+  "name": "Re:Build AppliedLogix",
+  "domain": "appliedlogix.rebuildmanufacturing.com",
+  "location": "Rochester, NY"
+ },
  "reach-power": {
   "stage": "early",
   "source": "https://www.finsmes.com/2022/12/reach-raises-30m-in-series-b-funding.html",
-  "note": "Y Combinator Summer 2015 company ( team size 45, founder Christopher Davlantes). $9M Series A led by DCVC in Nov 2018 and $30M Series B led by DCVC in Dec 2022 (FinSMEs), so at least $39M raised; no source I opened states a total or a founding year, so both are left blank. Investors listed on its site: DCVC…",
+  "note": "Y Combinator Summer 2015 company (team size 45, founder Christopher Davlantes). $9M Series A led by DCVC in Nov 2018 and $30M Series B led by DCVC in Dec 2022 (FinSMEs), so at least $39M raised; no source states a total or a founding year.",
   "sector": "energy",
   "domain": "reachpower.com",
   "location": "Redwood City, CA",
@@ -2493,7 +2531,7 @@
   "stage": "early",
   "founded": 2017,
   "source": "https://www.highergov.com/awardee/recon-rf-inc-10088335/",
-  "note": "HigherGov: founded 6 Apr 2017, Delaware corp, HQ San Diego; PitchBook and Tracxn snippets also say founded 2017, ~15 employees. No venture round found; funded by SBIR and DLA contracts, so 'early' is the closest label for a 9-year-old bootstrapped small business. USAspending confirms the cited order FA864926P0275…",
+  "note": "HigherGov: founded 6 Apr 2017, Delaware corp, HQ San Diego; PitchBook and Tracxn snippets also say founded 2017, about 15 employees. No venture round found; funded by SBIR and DLA contracts. A nine-year-old bootstrapped small business.",
   "sector": "semiconductors",
   "location": "San Diego, California",
   "reviewed": true
@@ -2759,6 +2797,26 @@
   "domain": "shiftersai.com",
   "location": "Yavne, Israel"
  },
+ "sigma-defense-systems": {
+  "reviewed": true,
+  "exclude": "Established private-equity-owned defense contractor (founded 2006, about 800 staff in 2024), not a startup.",
+  "stage": "incumbent",
+  "founded": 2006,
+  "source": "https://www.prnewswire.com/news-releases/sagewind-capital-invests-in-sigma-defense-systems-301201926.html",
+  "note": "Press release of 6 Jan 2021 says 'Founded in 2006' and announces private-equity firm Sagewind Capital's investment; Defense Daily, 22 Apr 2024: 'Sigma Defense, a portfolio company of Sagewind Capital, now has nearly 800 employees'.",
+  "name": "Sigma Defense",
+  "domain": "sigmadefense.com",
+  "location": "Perry, GA"
+ },
+ "silica": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2026,
+  "source": "https://www.ycombinator.com/companies/silica",
+  "note": "YC directory lists Silica in the Fall 2026 batch, founded 2026, team size 1, San Francisco; its homepage says 'Backed by Y Combinator, Founders Inc. and UP.Partners' with no amount given.",
+  "domain": "silicamachines.com",
+  "location": "San Francisco, CA"
+ },
  "singularity-defense": {
   "stage": "early",
   "founded": 2023,
@@ -2780,7 +2838,7 @@
   "founded": 2014,
   "raised_usd": 825000000.0,
   "source": "https://tracxn.com/d/companies/skydio/__z1KXfwRL66HqbZoc40bpJPf2L7G4_LkQYdVL0_-9lj8",
-  "note": "Skydio is the largest US drone maker (founded 2014, about $825M raised, $4.4B valuation in April 2026, hundreds of millions in revenue) and is as widely known as a private drone company gets. All signals belong to it and check out, but the row shows no founding year or funding and the location is a hiring-post string…",
+  "note": "The largest US drone maker: founded 2014, about $825M raised, a $4.4B valuation in April 2026 and hundreds of millions in revenue.",
   "location": "San Mateo, CA",
   "reviewed": true
  },
@@ -2872,7 +2930,7 @@
  },
  "stealth-labs": {
   "source": "https://www.stealthlabshq.com/",
-  "note": "StealthLabs is a small Los Angeles-area (Glendale) outfit selling an NVIDIA Orin-based open research drone, a ground vehicle and robotic arms, with a team it says comes from JPL, Caltech and Lockheed. I found no funding, press or named founders, so it appears genuinely unknown; the trademark (serial 50101770…",
+  "note": "A small Los Angeles-area (Glendale) outfit selling an NVIDIA Orin-based open research drone, a ground vehicle and robotic arms, with a team it says comes from JPL, Caltech and Lockheed. No funding, press or named founders found.",
   "name": "StealthLabs",
   "domain": "stealthlabshq.com",
   "reviewed": true
@@ -2882,7 +2940,7 @@
   "stage": "formation",
   "founded": 2026,
   "source": "https://www.ycombinator.com/companies/streamline-systems",
-  "note": "YC Fall 2026 batch, founded 2026, team of 2. No funding amount stated anywhere I found beyond YC backing. Site footer reads 'Streamline Systems Incorporated, Backed by Y Combinator'."
+  "note": "YC Fall 2026 batch, founded 2026, team of 2. No funding amount stated beyond YC backing. Site footer reads 'Streamline Systems Incorporated, Backed by Y Combinator'."
  },
  "strixdrones": {
   "stage": "early",
@@ -2935,7 +2993,7 @@
  },
  "swrm": {
   "source": "https://opencorporates.com/companies/us_az/25097151",
-  "note": "A Scottsdale security-systems company with one intent-to-use trademark and no product, site or funding I could find; the trademark address (9393 N 90th St Ste 102 Box 462) is a mailbox and the state registry classes it as security systems services, so it may turn out to be a drone-security service operator rather than…",
+  "note": "A Scottsdale security-systems company with one intent-to-use trademark. No product, site or funding found.",
   "reviewed": true
  },
  "sylux": {
@@ -2965,7 +3023,7 @@
   "founded": 2020,
   "raised_usd": 1500000.0,
   "source": "https://tracxn.com/d/companies/tangram-vision/__5sAwH72X-zQHMfjg6_nkQRBkW0Pe7BpeJ1pyAflr3ww",
-  "note": "Homepage opened: MetriCal multi-sensor calibration suite (camera, LiDAR, radar, IMU). HN hiring post 49927351 opened via the Algolia API: posted 2026-10-01 by ThatGeoGuy, Calibration Engineer, cites a NASA Phase II SBIR for operator-free lunar calibration (AutoCal). Tracxn page opened: founded 2020, $1.5M total, one…",
+  "note": "Makes MetriCal, a multi-sensor calibration suite (camera, LiDAR, radar, IMU). Its Hacker News hiring post of 2026-10-01, for a Calibration Engineer, cites a NASA Phase II SBIR for operator-free lunar calibration (AutoCal).",
   "domain": "tangramvision.com",
   "location": "Boulder, Colorado (remote-first)"
  },
@@ -3083,7 +3141,7 @@
  "trace-uas": {
   "stage": "growth",
   "source": "https://vantagerobotics.com/about/",
-  "note": "\"Trace\" is a nano drone product of Vantage Robotics, a San Leandro company whose About page says the team has worked on this for \"the last fifteen years\" and which launched Trace in September 2024; search summaries report founding in 2013 and roughly $42M raised but I did not open a page stating that.",
+  "note": "\"Trace\" is a nano drone product of Vantage Robotics, a San Leandro company whose About page says the team has worked on this for \"the last fifteen years\" and which launched Trace in September 2024. Search summaries report founding in 2013 and roughly $42M raised (not confirmed).",
   "name": "Vantage Robotics",
   "reviewed": true
  },
@@ -3190,7 +3248,7 @@
   "stage": "early",
   "founded": 2018,
   "source": "https://finance.yahoo.com/energy/articles/valgotech-announces-indiana-battery-production-171000158.html",
-  "note": "Valgotech is an eight-year-old Indiana lithium-sulfur battery maker (founder David Olawale) selling to drone and defense users, funded so far by SBIR/STTR awards rather than venture capital. The $75K Air Force order and '5 prior awards' both check out on USASpending (3 prior Air Force contracts plus 2 NSF STTR…",
+  "note": "An eight-year-old Indiana lithium-sulfur battery maker (founder David Olawale) selling to drone and defense users, funded so far by SBIR/STTR awards rather than venture capital.",
   "name": "Valgotech",
   "sector": "energy",
   "reviewed": true
@@ -3406,7 +3464,7 @@
  "zeeno-robotics": {
   "reviewed": true,
   "source": "https://zeenorobotics.com/company/",
-  "note": "Homepage and contact page opened: 3150 Arden Road NW, Atlanta GA plus a Tel Aviv office; matches the trademark owner address (TSDR serial 50010420, Georgia LLC). Founded by Dr. Marc Lemchen and Todd Blankenbecler (Dolphin Imaging, EasyRx veterans), with Chester Wang named in trade press; operating by Aug 2023 (Dolphin…",
+  "note": "3150 Arden Road NW, Atlanta GA plus a Tel Aviv office, matching the trademark owner address (TSDR serial 50010420, Georgia LLC). Founded by Dr. Marc Lemchen and Todd Blankenbecler (Dolphin Imaging, EasyRx veterans), with Chester Wang named in trade press.",
   "domain": "zeenorobotics.com",
   "location": "Atlanta, Georgia (second office in Tel Aviv)"
  }

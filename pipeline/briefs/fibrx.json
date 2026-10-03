@@ -2,6 +2,7 @@
  "slug": "fibrx",
  "generatedAt": "2026-10-02",
  "summary": "FibrX builds a structural health and corrosion monitoring system that pairs fiber optic sensors with cloud software (a platform-as-a-service, per its site). The sensing method comes from Naval Surface Warfare Center, Port Hueneme Division, and JumpStart says the company operates under a partially exclusive U.S. Navy license. Federal awards list Henderson, Nevada.",
+ "oneLiner": "Structural health and corrosion monitoring that pairs fiber optic sensors with cloud software",
  "thesis": "FibrX is trying to turn a Navy-patented method for detecting corrosion under coatings into a monitoring product for defense, aerospace and energy. It holds two small Defense Department R&D awards. The case rests on whether three people can field hardware.",
  "stage": "USAspending shows two federal awards to FibrX Inc, both signed in June 2026: an Air Force purchase order for $105,392 (ended 24 September 2026) and a NAVSEA contract labelled SBIR Phase I with $136,573 obligated and $234,840 including options (to 21 June 2027). Chloe Capital announced an investment on 17 February 2026, no amount stated. EDGAR has no filer named FibrX Inc, so no Form D is on record.",
  "team": [

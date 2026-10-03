@@ -2,6 +2,7 @@
  "slug": "valstad-shipworks",
  "generatedAt": "2026-10-02",
  "summary": "Valstad Shipworks (Austin, Texas) builds robotic fabrication cells and structural panel kits for ship production and repair. Its site describes modular robot cells, laser welding of thick structural steel, and planning software that turns a 3D model into a build sequence. A 14 April 2026 company article says \"We're still in R&D.\"",
+ "oneLiner": "Builds robotic fabrication cells and structural panel kits for ship production and repair",
  "thesis": "Blue Water Autonomy's May 2026 release names Valstad as one of four partners for scaling production of its autonomous vessels, with no commercial terms given. A hiring post says it built its own software stack and runs on FANUC robots.",
  "stage": "A Form D filed 14 August 2026 reports $8,621,043 sold of an $11,300,146 equity offering to 15 investors, first sale 3 August 2026. It says the amount sold includes converted SAFEs, so new cash is not stated. No investors are named. The only announced prior round is a $2.6M pre-seed led by N49P, posted by the company on 10 July 2025. No announcement of the 2026 round was found.",
  "team": [

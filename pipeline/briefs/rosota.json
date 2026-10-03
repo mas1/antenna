@@ -2,6 +2,7 @@
  "slug": "rosota",
  "generatedAt": "2026-10-02",
  "summary": "Rosota is a Seoul startup, described by press and its own site as a spin-off of the MediSC lab at Seoul National University Hospital. Press reports say it is developing SurgiLogger, a device that attaches to existing laparoscopic instruments and records motion, force and video, to train a surgical robotics foundation model.",
+ "oneLiner": "A Seoul spin-off reported to be developing SurgiLogger, a recorder of motion, force and video for laparoscopic instruments",
  "thesis": "The fit is robotics, not defense, energy or manufacturing. A preprint under review reports a policy trained on 849 logger-recorded demonstrations completing an appendectomy in three of four live rabbits, with the surgeon selecting each surgical phase.",
  "stage": "Seed stage. On 2 July 2026 Korean press reported a KRW 1.5 billion seed round led by FuturePlay with Schmidt and ZDVC (WowTale's English edition gives $965K). No valuation or terms were reported. Press later reported selection for a Seoul Business Agency Silicon Valley accelerator program with 500 Global (4 August 2026) and for the TIPS R&D general track (2 October 2026, amount not stated).",
  "team": [

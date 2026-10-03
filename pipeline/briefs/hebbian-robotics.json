@@ -2,6 +2,7 @@
  "slug": "hebbian-robotics",
  "generatedAt": "2026-10-02",
  "summary": "Hebbian Robotics (San Francisco, per the YC directory) builds software that checks the quality of robot and egocentric video data before it is used to train models. Its main product is HFlow, an Apache-2.0 SDK (pre-v1). It also offers hosted checks and models in preview, and Pareto, a dataset curation tool in public beta.",
+ "oneLiner": "Software that checks the quality of robot and egocentric video data before it is used to train models",
  "thesis": "Hebbian targets a step before training, for both vendors who collect robot data and teams who train on it. It is a tooling bet on robot learning rather than on one robot. Evidence so far is open source activity only.",
  "stage": "Formation stage. YC lists the company in its Summer 2026 batch. A founder's LinkedIn post of 14 September 2026 refers to YC Demo Day as already held. No round size is disclosed on any page read. EDGAR returned no company named \"hebbian\" and no full-text hit for \"Hebbian Robotics\" on 2 October 2026. Founder Factor listed it among 25 YC S26 startups it backed (LinkedIn, 21 September 2026).",
  "team": [

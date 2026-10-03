@@ -2,6 +2,7 @@
  "slug": "robocurve",
  "generatedAt": "2026-10-02",
  "summary": "Robocurve, in San Francisco per the YC page, tests how well AI models control real robots and publishes the results. It describes itself as an independent third-party evaluator and says it is incorporated as a Public Benefit Corporation. It maintains Inspect Robots, an MIT-licensed evaluation framework that lists packages for several commercial robot platforms.",
+ "oneLiner": "Tests how well AI models control real robots and publishes the results",
  "thesis": "If general-purpose robot policies keep improving, buyers, labs and regulators will need third-party measurement on real hardware. Robocurve is an early attempt to be that reference. It could give investors comparable performance data on models portfolio companies depend on.",
  "stage": "Seed stage. The company blog announced a $10M seed round on 14 September 2026, led by Initialized Capital with Notable Capital, Decasonic, Y Combinator, Halcyon Futures and \"many others\". No valuation is given. An EDGAR full-text search on 2 October 2026 returned nothing for Robocurve. YC lists the Summer 2026 batch. The seed post dates incorporation to about three months before 14 September.",
  "team": [

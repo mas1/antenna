@@ -2,6 +2,7 @@
  "slug": "aloft-sensing",
  "generatedAt": "2026-10-02",
  "summary": "Aloft Sensing (Ann Arbor, Michigan) builds compact software-defined radar payloads for uncrewed vehicles, with a stated focus on stratospheric platforms (long-endurance aircraft, airships and balloons). NASA describes its HALE InSAR instrument as weighing less than 15 pounds (seven kilograms), using fewer than 300 watts, and locating itself from its own radar signals without GPS.",
+ "oneLiner": "Compact software-defined radar payloads for uncrewed vehicles, with a focus on stratospheric platforms",
  "thesis": "A radar NASA puts at seven kilograms that positions itself without GPS fits long-endurance stratospheric surveillance. Task orders funded by the Air Force Research Laboratory through NASA Ames pay for demonstrations on the BAE PHASA-35 and Aerostar Thunderhead balloon.",
  "stage": "No venture round was found: EDGAR searches return no match and no page opened names an investor. USAspending lists eight contracts starting between January 2022 and September 2025 totalling $5,806,113.94, plus three NASA grants totalling $8,763,972. The SAM record (mirrored) gives a start date of 5 November 2019. The FCC granted three special temporary authorities for radar operation at 55 to 75 kft from 8 to 30 September 2026.",
  "team": [

@@ -2,6 +2,7 @@
  "slug": "copperhead",
  "generatedAt": "2026-10-02",
  "summary": "Copperhead is an open-source command-line AI agent for PCB design. It takes a product brief or change request, edits KiCad schematic and board files in the user's git repository and runs KiCad's ERC and DRC checks until they pass. It runs locally, and the careers page describes a small team in Bengaluru.",
+ "oneLiner": "An open-source command-line AI agent for PCB design",
  "thesis": "Copperhead applies a coding-agent loop to PCB design on KiCad files, a step before any robotics, defense or energy hardware build. The founder's Hacker News account said it is also building a design house to eventually deliver assembled boards.",
  "stage": "Formation stage, no funding round found. The site names no investor or amount, and searches of Google News, Hacker News and SEC EDGAR Form D filings on 2 October 2026 returned no round. The GitHub repository was created on 18 July 2026. A Show HN on 8 September 2026 stands at 250 points and 115 comments. The homepage prices a Cloud tier at $49 per user per month.",
  "team": [
