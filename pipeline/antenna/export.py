@@ -11,6 +11,7 @@ from pathlib import Path
 from .collectors.base import parse_date
 from .config import (
     BRIEFS_DIR,
+    DATA_DIR,
     EXPORT_DIR,
     FAMILY_WEIGHTS,
     HALF_LIFE_DAYS,
@@ -80,6 +81,14 @@ def _lead(sigs: list[dict], dropped: set, announcement: dict | None) -> dict | N
         "announcementUrl": announcement.get("url") or "",
         "days": (announced - first[0]).days,
     }
+
+
+def _last_generated(out_dir: Path) -> str:
+    """When data was last collected, from the export already on disk."""
+    try:
+        return json.loads((out_dir / "meta.json").read_text())["generatedAt"]
+    except (OSError, ValueError, KeyError):
+        return now_iso()
 
 
 def _year(value) -> int | None:
@@ -152,7 +161,10 @@ def _signal_out(s: dict, today: date) -> dict:
     return out
 
 
-def export(conn: sqlite3.Connection, run_id: int, today: date, out_dir: Path = EXPORT_DIR) -> dict:
+def export(conn: sqlite3.Connection, run_id: int, today: date, out_dir: Path = EXPORT_DIR,
+           collected: bool = True) -> dict:
+    """Write the site's JSON. `collected` is False for a re-score of stored
+    signals: the site's run stamp then keeps the time data was last gathered."""
     rows = conn.execute(
         "SELECT e.*, s.breakdown FROM entities e JOIN scores s ON s.entity_id = e.id"
         " WHERE s.run_id = ?", (run_id,)
@@ -345,7 +357,7 @@ def export(conn: sqlite3.Connection, run_id: int, today: date, out_dir: Path = E
     by_source = {r["source"]: r["n"] for r in conn.execute(
         "SELECT source, COUNT(*) n FROM signals GROUP BY source")}
     meta = {
-        "generatedAt": now_iso(),
+        "generatedAt": now_iso() if collected else _last_generated(out_dir),
         "asOf": today.isoformat(),
         "lookbackDays": LOOKBACK_DAYS,
         "totals": {
@@ -377,6 +389,9 @@ def export(conn: sqlite3.Connection, run_id: int, today: date, out_dir: Path = E
     _write(out_dir / "entities.json", dossiers)
     _write(out_dir / "feed.json", feed)
     _write(out_dir / "meta.json", meta)
+    # The review queue stays on this machine: names nobody has looked at yet
+    # do not belong on the site. `antenna report` prints the top of it.
+    _write(DATA_DIR / "awaiting.json", sorted(awaiting, key=lambda a: -a["edge"]))
     # The search palette loads this on first use, so it is not inlined into
     # every page of the static export.
     _write(out_dir.parents[1] / "public" / "palette.json",

@@ -21,7 +21,7 @@ from datetime import date, datetime, timezone
 from . import http
 from .collectors import load_all
 from .collectors.base import Context
-from .config import DB_PATH, EXPORT_DIR, LOOKBACK_DAYS
+from .config import DATA_DIR, DB_PATH, EXPORT_DIR, LOOKBACK_DAYS
 from .db import connect, insert_signals, now_iso
 from .export import export
 from .resolve import resolve
@@ -150,7 +150,7 @@ def cmd_run(args) -> int:
 
     n = resolve(conn)
     scored = score_all(conn, run_id, today)
-    meta = export(conn, run_id, today)
+    meta = export(conn, run_id, today, collected=not args.no_collect)
     stats = {"entities": n, "scored": scored, "http": http.stats(), "totals": meta["totals"]}
     conn.execute("UPDATE runs SET finished_at=?, stats=? WHERE id=?", (now_iso(), json.dumps(stats), run_id))
     conn.commit()
@@ -205,6 +205,15 @@ def cmd_report(args) -> int:
         fams = "".join(f[0].upper() if v >= 0.12 else "." for f, v in b["families"].items())
         print(f"{b['rank']:>3} {b['edge']:>5.1f}  {fams}  {b['sector']:<14} {b['name'][:34]:<34} "
               f"{(b['why'][0]['title'] if b['why'] else '')[:80]}")
+    # Companies that scored on thesis but have not been reviewed are not
+    # ranked. Show the strongest so a reviewer knows where to start.
+    queue_path = DATA_DIR / "awaiting.json"
+    if queue_path.exists():
+        queue = json.loads(queue_path.read_text())
+        if queue:
+            print(f"\n{len(queue)} awaiting review. Strongest:")
+            for q in queue[:10]:
+                print(f"      {q['edge']:>5.1f}  {q['name'][:50]:<50} {q['slug']}")
     return 0
 
 

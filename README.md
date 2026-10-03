@@ -112,6 +112,15 @@ That collects, resolves, scores and writes four JSON files into
 pacing against government sites; a warm run takes a few.
 
 ```bash
+pipeline/tools/refresh.sh --publish
+```
+
+The morning refresh in one command: runs the pipeline, prints the top of the
+board and the strongest companies still waiting for review, commits the new
+data and pushes it, which redeploys the site. Without `--publish` it stops
+after the local commit.
+
+```bash
 python3 -m antenna probe fcc_els
 ```
 
