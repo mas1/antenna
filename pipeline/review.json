@@ -418,6 +418,12 @@
   "location": "St. Louis, Missouri",
   "reviewed": true
  },
+ "b20-labs": {
+  "reviewed": true,
+  "exclude": "No hard-tech product or team could be found; the only B20 Labs with a public footprint is a holding company for ad-tech, gaming and streaming businesses.",
+  "source": "https://b20labs.com/",
+  "note": "The only B20 Labs with a public footprint is a holding company for ad-tech, gaming and video-streaming businesses. No product, team or site could be tied to the Florida company that received the Air Force order."
+ },
  "beacon-ai": {
   "stage": "early",
   "founded": 2021,
@@ -743,6 +749,15 @@
   "location": "Hangzhou, China",
   "reviewed": true
  },
+ "discovery-2-scale": {
+  "reviewed": true,
+  "stage": "formation",
+  "source": "https://discovery2scale.com/team.html",
+  "note": "Founder and CEO Saryu Fensin previously led materials research programs at Los Alamos National Laboratory, where work on the company's robotic arc-melting platform began. Its site lists a core team of seven PhDs. No venture funding was found; the Army agreement is its first federal contract.",
+  "sector": "manufacturing",
+  "domain": "discovery2scale.com",
+  "location": "Los Alamos, NM"
+ },
  "draupnir-systems": {
   "reviewed": true,
   "source": "https://tsdr.uspto.gov/statusview/sn99923172",
@@ -881,6 +896,16 @@
   "note": "An open-source robot manipulation research release from a Chinese multi-university group led out of Tsinghua, not a company. The listed person 'yqcccc' is a commit-author name; the actual GitHub account is YuuuuuQingChi, a student author of the paper.",
   "name": "EMERGE-Policy",
   "reviewed": true
+ },
+ "empower-battery-technology": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2021,
+  "source": "https://empowerbatterytechnology.com/about",
+  "note": "Founded in 2021 to commercialize the Glass Anode invented by its founder Anne Co. Funding so far is grants and contracts: ARPA-E EVs4ALL with Ohio State and Honda in 2023, an Army SBIR in 2025, and the Air Force order and a Rev1 Ventures concept contract in 2026. No venture round was found.",
+  "name": "emPOWER Battery Technology",
+  "sector": "energy",
+  "location": "Gahanna, OH"
  },
  "endurosat": {
   "stage": "growth",
@@ -1555,6 +1580,16 @@
   "name": "Kilsar",
   "sector": "defense"
  },
+ "kingkong-robotics": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2017,
+  "raised_usd": 14000000.0,
+  "source": "https://autonews.gasgoo.com/articles/icv/seeds-kingkong-tech-secures-nearly-100-million-yuan-in-series-a-funding-2036686457085788161",
+  "note": "Beijing KingKong Technology, founded in 2017, makes magnetic encoders for robot joints and reported shipping more than 5,000 a day in 2025. It closed a Series A of nearly 100 million yuan, about $14M, led by Yuanyi Investment in March 2026. Jumper is its open-source crab robot.",
+  "name": "KingKong Tech",
+  "location": "Beijing, China"
+ },
  "kmb-telematics": {
   "stage": "early",
   "founded": 2018,
@@ -2184,6 +2219,18 @@
   "note": "GitHub API: hardcoreerik/OrcSDR was created 2026-08-07, AGPL-3.0, 178 stars, 16 forks, owned by a personal user account ('Hardcoreerik', no company, no website, no bio, 23 followers). The README describes a personal experiment in how far an ESP32-P4 (M5Stack Tab5) can be pushed as an RTL-SDR host. No company, website…",
   "reviewed": true
  },
+ "organicore-nuclear": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2025,
+  "raised_usd": 14999924.0,
+  "source": "https://www.sec.gov/Archives/edgar/data/2148566/000214856626000001/xslFormDX01/primary_doc.xml",
+  "note": "Form D gives year of incorporation 2025, first sale 2026-07-29 and $14,999,924 sold of $65,000,003 in equity from 11 investors. Its OC-80 is an organic-cooled small modular reactor, and it holds a FY-2026 GAIN voucher with Oak Ridge National Laboratory for coolant nuclear data.",
+  "drop_people": [
+   "A. Khandros"
+  ],
+  "location": "Reston, VA"
+ },
  "origami-space-development": {
   "stage": "formation",
   "founded": 2024,
@@ -2297,6 +2344,16 @@
   "location": "Palo Alto, California",
   "reviewed": true
  },
+ "physical-sciences": {
+  "reviewed": true,
+  "exclude": "Employee-owned contract research firm founded in 1973 with about 300 staff, not a startup.",
+  "stage": "incumbent",
+  "founded": 1973,
+  "source": "https://www.psicorp.com/?p=3438",
+  "note": "The company's own history says it was founded in 1973 and has been wholly owned by its employee stock plan since 2011; its CEO's 2023 biography gives about 300 staff and more than $90M in annual revenue.",
+  "name": "Physical Sciences Inc.",
+  "location": "Andover, MA"
+ },
  "polymaterials-app": {
   "stage": "early",
   "founded": 2017,
@@ -2345,6 +2402,17 @@
   "source": "https://tsdr.uspto.gov/statusview/sn50057807",
   "note": "USPTO TSDR serial 50057807: PRAXIOM, filed 2026-08-18, intent to use, owner PRAXIOM Partners, LLC, 117 S Lexington St Suite 100, Harrisonville MO, a Missouri LLC, filed without an attorney. No website, press, funding or founders found.",
   "location": "Harrisonville, Missouri"
+ },
+ "primordiant": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2026,
+  "source": "https://www.ycombinator.com/companies/primordiant",
+  "note": "YC directory lists Primordiant (formerly SuperRadiant) in the Fall 2026 batch, founded 2026, team of 3 in San Francisco. The three founders hold or are finishing Brown PhDs in physics and computer science. No funding amount is published.",
+  "drop_signals": [
+   "https://www.ycombinator.com/companies/superradiant"
+  ],
+  "location": "San Francisco, CA"
  },
  "principal-mineral-co": {
   "stage": "growth",
@@ -2974,7 +3042,8 @@
   "source": "https://www.ycombinator.com/companies/superradiant",
   "note": "YC directory lists SuperRadiant in Fall 2026, founded 2026, team of 3, San Francisco. Homepage superradiant.co confirms 'Embodied Scientific Intelligence' and YC F26 backing. Domain registered 28 Aug 2026. No funding amount stated by any source beyond YC participation.",
   "sector": "robotics",
-  "reviewed": true
+  "reviewed": true,
+  "merge_into": "primordiant"
  },
  "surtr-defense-systems": {
   "stage": "formation",
@@ -3198,6 +3267,15 @@
   "name": "Tuojing Intelligence (拓境智能, TuojingAI)",
   "location": "China"
  },
+ "turion-space": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2021,
+  "raised_usd": 81700000.0,
+  "source": "https://www.ocbj.com/defense-2/turion-space-raises-75m/",
+  "note": "Founded in 2021 in Irvine, California. It announced a Series B of more than $75M led by Washington Harbour Partners on 2026-04-15, and its CEO put total funding at $81.7M with that round. The round is meant to raise output from eight spacecraft a year toward 40.",
+  "location": "Irvine, CA"
+ },
  "twenty-technologies": {
   "stage": "growth",
   "founded": 2024,
@@ -3309,6 +3387,13 @@
   "location": "Santa Fe Springs, California",
   "reviewed": true
  },
+ "velocor-industries": {
+  "reviewed": true,
+  "stage": "formation",
+  "source": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0268_9700_-NONE-_-NONE-",
+  "note": "Two Air Force SBIR Phase I orders signed 2026-07-08, about $110K each, are its first federal awards: one for the Airwolf hybrid VTOL drone, one for an AI model for orbital warfare. It applied for the AIRWOLF trademark in March 2025. No team, product page or outside funding could be found.",
+  "location": "West Palm Beach, FL"
+ },
  "verde-technologies": {
   "stage": "early",
   "founded": 2018,
@@ -3362,6 +3447,15 @@
   "domain": "volatusaerospace.com",
   "location": "Ontario, Canada (US subsidiary: 6171 Airport Rd, Syracuse, NY)",
   "reviewed": true
+ },
+ "voltair": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2025,
+  "source": "https://www.ycombinator.com/companies/voltair",
+  "note": "YC directory lists Voltair in the Winter 2026 batch, founded 2025, team of 5 in San Francisco. It builds long-range drones that recharge on pads mounted on utility poles, starting with power-line inspection. The company has not published a funding amount.",
+  "domain": "voltairlabs.com",
+  "location": "San Francisco, CA"
  },
  "voltx": {
   "source": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&q=PIID:%22H92419269E015%22%20MODIFICATION_NUMBER:%220%22",
