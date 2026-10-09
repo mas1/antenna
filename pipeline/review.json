@@ -126,6 +126,19 @@
   "name": "Aerovec",
   "reviewed": true
  },
+ "aetherlabs-ai": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2026,
+  "raised_usd": 20000000.0,
+  "source": "https://thenextweb.com/news/aether-ai-causal-world-models-20m-seed-physical-ai",
+  "note": "Founded in 2026 by UC San Diego professor Biwei Huang to build causal world models, first as a decision layer for robots. It announced a $20M seed led by MPCi on 2026-06-18. The Video2World repository is the code release for a benchmark paper by its researchers.",
+  "name": "Aether AI",
+  "drop_people": [
+   "Marcus.AI"
+  ],
+  "location": "San Diego, CA"
+ },
  "agmen-space": {
   "stage": "formation",
   "source": "https://companylaunchtracker.substack.com/p/company-launch-tracker-106",
@@ -3340,6 +3353,15 @@
   "name": "Valinor Enterprises (Dispatch)",
   "domain": "valinor.co",
   "reviewed": true
+ },
+ "valinor-enterprises": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2024,
+  "raised_usd": 85000000.0,
+  "source": "https://www.vcaonline.com/news/2026010806/valinor-enterprises-85-million-raised-to-scale-new-operating-model-for-defense",
+  "note": "Valinor Enterprises is already tracked through its Dispatch subsidiary; the trademark filings belong to the same company.",
+  "merge_into": "valinor-dispatch"
  },
  "valoros": {
   "stage": "early",
