@@ -454,6 +454,15 @@
   "name": "Bedrock Ocean",
   "reviewed": true
  },
+ "bedrock-robotics": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2024,
+  "raised_usd": 350000000.0,
+  "source": "https://www.vcaonline.com/news/2026020407/bedrock-robotics-raises-270-million-in-series-b-funding-to-accelerate-the-future-of-autonomous-construction/",
+  "note": "Founded in 2024 by former Waymo autonomy leaders to retrofit excavators and other heavy equipment for autonomous operation. It announced a $270M Series B on 2026-02-04, co-led by CapitalG and the Valor Atreides AI Fund, taking total funding past $350M.",
+  "location": "San Francisco, CA"
+ },
  "beijing-veloalpha-technology": {
   "stage": "formation",
   "founded": 2026,
@@ -1320,6 +1329,16 @@
   "source": "https://www.sec.gov/Archives/edgar/data/2053146/000205314626000005/xslFormDX01/primary_doc.xml",
   "note": "University of Michigan spinout; Form D states incorporated 2024 and $15.25M sold of a $17.8M equity offering (first sale 31 Mar 2026, 3 investors). Secondary sources report an earlier $3.0M seed in January 2025 with U-M's Accelerate Blue Fund (not included in the figure below, which is the Form D amount only). NSF…",
   "location": "Ann Arbor, MI"
+ },
+ "heaviside-industries": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2024,
+  "raised_usd": 28000000.0,
+  "source": "https://dot.la/heaviside-autonomous-precision-munitions-funding-2676900687.html",
+  "note": "Founded in 2024 by CEO Phillip Walker and out of stealth in May 2026 with a $28M Series A led by Interlagos. It builds autonomous aerial and underwater munitions, TYR among them, and reports more than 50 staff across Los Angeles and Oslo.",
+  "sector": "defense",
+  "location": "Marina Del Rey, CA"
  },
  "hebbian-robotics": {
   "stage": "formation",
@@ -2956,6 +2975,12 @@
   "sector": "energy",
   "reviewed": true
  },
+ "solvecraft": {
+  "reviewed": true,
+  "exclude": "One individual's open-source CAD project on a personal GitHub account, not a company.",
+  "source": "https://github.com/bherbruck/solvecraft",
+  "note": "The repository sits on an individual's GitHub account and describes an open-source reimplementation of a commercial CAD program; no company is named."
+ },
  "somewear-labs": {
   "reviewed": true,
   "stage": "early",
@@ -3183,6 +3208,14 @@
   "domain": "thewhiskeyprojectgroup.com",
   "location": "Sydney, Australia (US manufacturing hub in Edenton, NC)",
   "reviewed": true
+ },
+ "theseus-robotics": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2026,
+  "source": "https://www.ycombinator.com/companies/theseus-robotics",
+  "note": "YC directory lists Theseus Robotics in the Fall 2026 batch, founded 2026, team of 7 in Switzerland. Its three founders trained at ETH Zurich and Carnegie Mellon. No funding amount or named retail pilot is published.",
+  "location": "Zurich, Switzerland"
  },
  "thinkorbital": {
   "stage": "early",
@@ -3452,6 +3485,21 @@
   "note": "TSDR sn50094769: owner VilladeLiu LLC, Florida LLC, no attorney, gmail correspondents, classes include import-export agencies and wholesale electronics distributorship. Justia owner page lists marks AFK, ROBOCAMEL, FOREVER55, FOREVER55 ROBOTS, FOREVER AGE, ROBOT REGISTRY, AFK ROBOT WORLD, ROBOT MONKS, OUR SACRED…",
   "location": "Champions Gate, Florida (mailbox address 8297 Champions Gate Blvd #635)",
   "reviewed": true
+ },
+ "visto-360-ai": {
+  "reviewed": true,
+  "stage": "early",
+  "source": "https://www.visto360.ai/",
+  "note": "The same company as Visto360; the Space Development Agency agreement was filed under its legal name.",
+  "merge_into": "visto360-ai"
+ },
+ "visto360-ai": {
+  "reviewed": true,
+  "stage": "early",
+  "source": "https://www.visto360.ai/",
+  "note": "Builds Sarify, an AI model that turns raw radar signals into detections and motion tracks on edge hardware. Registered for federal contracting since 2022, with a Space Development Agency prototype agreement in March 2026. Funding aggregators list a seed round of about $2.9M in August 2025.",
+  "name": "Visto360",
+  "location": "Ann Arbor, MI"
  },
  "volanti": {
   "exclude": "Not a company: a one-month open-hardware project by a single engineering student (Agam Rossen, University of York, UK). No legal entity, team or product for sale; explicitly 'detection and alert only' under open licences.",
