@@ -583,6 +583,15 @@
   "location": "Portola Valley, California",
   "reviewed": true
  },
+ "cesiumastro": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2017,
+  "raised_usd": 470000000.0,
+  "source": "https://cesiumastro.com/press-release/cesiumastro-closes-470m-series-c",
+  "note": "Founded in 2017 in Austin, Texas. It closed $470M of Series C capital on 2026-02-02: $270M of equity led by Trousdale Ventures and $200M of financing from EXIM and J.P. Morgan, partly to fund a 270,000-square-foot headquarters and factory.",
+  "location": "Austin, TX"
+ },
  "channel-robotics": {
   "reviewed": true,
   "stage": "formation",
@@ -1373,6 +1382,13 @@
   "note": "YC Summer 2026 (partner Jared Friedman). Form D filings show HILstart, Inc. incorporated in Delaware in 2026: $1.08M sold of a $1.5M SAFE offering (first sale 13 Jul 2026, 3 investors) and a separate $500K SAFE offering fully sold (first sale 11 Aug 2026, 2 investors). Total below is the sum of the two filings.",
   "location": "San Francisco Bay Area, CA"
  },
+ "hitchhiker-orbital": {
+  "reviewed": true,
+  "stage": "formation",
+  "source": "https://careercenter.aiaa.org/profile/hitchhiker-orbital-inc/2065572/",
+  "note": "Founder David Palmer left a 38-year Wall Street career to start the company, which plans modular hosted-payload platforms in low Earth orbit for research and in-space manufacturing. It is advertising for a CEO able to raise $20M or more. No funding round was found.",
+  "location": "New York, NY"
+ },
  "homeostasis-systems": {
   "stage": "formation",
   "founded": 2022,
@@ -1691,6 +1707,12 @@
   "source": "https://github.com/llros007/lerobot_android",
   "note": "This is a single pseudonymous developer's open-source side project with 28 stars, not a company. Remove from a list shown to partners.",
   "reviewed": true
+ },
+ "lewam": {
+  "reviewed": true,
+  "exclude": "An academic paper's code release on a personal GitHub account, not a company.",
+  "source": "https://github.com/MinghaoFu/lewam",
+  "note": "The repository is the code release for arXiv paper 2610.12818 on world and action modeling, hosted on a doctoral student's personal GitHub account; no company is named."
  },
  "licap-technologies": {
   "stage": "growth",
@@ -2769,6 +2791,14 @@
   "location": "Los Gatos, CA",
   "reviewed": true
  },
+ "rodeo-robotics": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2026,
+  "source": "https://www.ycombinator.com/companies/rodeo-robotics",
+  "note": "YC directory lists Rodeo Robotics in the Fall 2026 batch, founded 2026, team of 2 in San Francisco. Both founders came from Applied Intuition. It is building a robotic technician for fleet maintenance, starting with oil changes at depots; no funding amount or customer is published.",
+  "location": "San Francisco, CA"
+ },
  "rogue-wolf-advanced-research": {
   "exclude": "Self-described consulting firm run by a single principal, not a product company. Its own About page calls it \"an established consulting vehicle\" for human-factors and R&D consulting.",
   "founded": 2020,
@@ -2859,6 +2889,12 @@
   "sector": "defense",
   "domain": "seismicscience.tech",
   "reviewed": true
+ },
+ "semiconductor-manufacturing-introduction": {
+  "reviewed": true,
+  "exclude": "An individual's open educational book about semiconductor manufacturing, not a company.",
+  "source": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+  "note": "The repository is an open beginner's book on semiconductor manufacturing, published on an individual's GitHub account under a non-commercial licence; its own disclaimer says it is not affiliated with any semiconductor company."
  },
  "sentrycs": {
   "exclude": "Subsidiary of a public company: Ondas Holdings (NASDAQ: ONDS) completed its acquisition of Sentrycs on 18 Nov 2025. It is an Israeli counter-UAS firm founded in 2017 (formerly Convexum), not an undiscovered startup.",
@@ -3604,6 +3640,12 @@
   "source": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
   "note": "Founded 2024 by Philipp Wu and Fred Shentu; $70M Series A in June 2026 (Thrive, a16z, Lux, Spark) and reported in talks for a Series B at about $1.2B valuation.",
   "reviewed": true
+ },
+ "xpolicylab": {
+  "reviewed": true,
+  "exclude": "A university-led open-source research tool for evaluating robot policies, not a company.",
+  "source": "https://github.com/XPolicyLab/XPolicyLab",
+  "note": "The project describes itself as a collaborative open-source effort led by university labs at the University of Hong Kong and Tsinghua, accompanying arXiv paper 2608.09892; no company is behind it."
  },
  "xyz-storage-technology": {
   "exclude": "Subsidiary of a Chinese state-owned utility group: XYZ Storage is the energy-storage platform of China Power International / State Power Investment Corporation (SPIC), established July 2021 with RMB 500M registered capital, a top-five Chinese storage…",
