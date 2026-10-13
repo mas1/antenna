@@ -996,6 +996,13 @@
   "location": "Scottsdale, Arizona",
   "reviewed": true
  },
+ "every-electric": {
+  "reviewed": true,
+  "stage": "formation",
+  "source": "https://jobs.gusto.com/boards/every-electric-8fd10edb-0105-4929-9b96-60db16882c01",
+  "note": "Describes itself as an early-stage grid technology company that runs a virtual power plant of residential battery packs in New York City with Con Edison, backed by NYSERDA, Activate and Breakthrough Energy. Its trademark filing claims first use in May 2026. No funding amount is published.",
+  "location": "Brooklyn, NY"
+ },
  "evolve-dynamics": {
   "stage": "early",
   "founded": 2016,
@@ -2241,6 +2248,13 @@
   "note": "Completed its SPAC merger with Hennessy Capital Investment Corp. VII on 2026-09-23 and trades on Nasdaq as ONEN; its own homepage carries the HVII business-combination disclosure.",
   "reviewed": true
  },
+ "open-edge-platform": {
+  "reviewed": true,
+  "exclude": "An open-source software organization run by Intel, not a startup.",
+  "stage": "incumbent",
+  "source": "https://github.com/open-edge-platform/physical-ai-studio",
+  "note": "Open Edge Platform is an open-source software organization on GitHub run by Intel; its top contributors list Intel as their employer."
+ },
  "open-reality": {
   "stage": "formation",
   "founded": 2026,
@@ -2775,6 +2789,21 @@
   "location": "San Francisco, California (virtual mailbox); team operates from Japan and Malaysia",
   "reviewed": true
  },
+ "roboparty": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2025,
+  "raised_usd": 69000000.0,
+  "source": "https://autonews.gasgoo.com/articles/news/seeds-roboparty-raises-nearly-500-million-yuan-catl-exclusively-leads-pre-a-round-2077393070516568065",
+  "note": "Shanghai RoboParty Technology was founded in 2025 by Harbin Institute of Technology roboticists and open-sourced its Roboto Origin humanoid in January 2026. Chinese press reports nearly 500 million yuan, about $69M, across Angel++ and Pre-A rounds in 2026, with CATL as the Pre-A investor.",
+  "location": "Shanghai, China",
+  "drop_people": [
+   "Xuewang01",
+   "liyitang22",
+   "Cloud",
+   "tcmofashi"
+  ]
+ },
  "robot-harness": {
   "exclude": "One Alibaba employee's personal open-source repo (sole contributor, three weeks old, no license), not a company.",
   "source": "https://github.com/xiao-yang25/robot-harness",
@@ -2969,6 +2998,15 @@
   "note": "Tracxn lists Skild as founded in 2023 with $1.81B raised over 4 rounds, the latest a $1.4B Series C on 2026-01-14; the Series C valued it above $14B.",
   "reviewed": true
  },
+ "skillmaker": {
+  "reviewed": true,
+  "exclude": "A workforce-training software company (extended-reality courses for auto technicians), outside the hardware thesis.",
+  "stage": "early",
+  "source": "https://wilmingtonbiz.com/technology/2026/06/10/carolina_beach_startup_skillmaker_closes_45m_seed_round/27569",
+  "note": "Skillmaker.ai sells extended-reality training for auto technicians, with NAPA Auto Care as its first client, and closed a $4.5M seed round in June 2026.",
+  "name": "Skillmaker",
+  "location": "Carolina Beach, NC"
+ },
  "skydio": {
   "stage": "growth",
   "founded": 2014,
@@ -3010,6 +3048,12 @@
   "note": "A 2022 University of Louisville spin-out making tin-oxide and nickel-oxide nanoparticle inks for perovskite solar cells; it announced a $6M seed in July 2026 with trade-press coverage, so it is known in solar circles though not on Hacker News. The two capital signals are the same NSF grant counted twice (nsf.gov and…",
   "sector": "energy",
   "reviewed": true
+ },
+ "solidcraft": {
+  "reviewed": true,
+  "exclude": "One individual's open-source CAD project on a personal GitHub account, not a company.",
+  "source": "https://github.com/bherbruck/solidcraft",
+  "note": "The repository, renamed from solvecraft, sits on an individual's GitHub account and is an open-source parametric CAD program; it has passed 1,600 stars and reached the Hacker News front page, but no company, foundation or commercial offering is named."
  },
  "solvecraft": {
   "reviewed": true,
@@ -3341,6 +3385,12 @@
   "note": "Nothing found on the web for this company beyond the affiliation line on two arXiv papers of 2026-09-19; no site, funding or registry record located, which is itself the early-signal case.",
   "reviewed": true
  },
+ "tsmc": {
+  "reviewed": true,
+  "exclude": "A drone operator holding an FAA waiver, not a maker of drones.",
+  "source": "https://www.faa.gov/sites/faa.gov/files/107W-2026-01618-Sarah-Parker-CoW.pdf",
+  "note": "The only signal is an FAA waiver to fly drones beyond visual line of sight; the holder operates drones and does not make them."
+ },
  "tuojing-intelligence": {
   "reviewed": true,
   "stage": "formation",
@@ -3484,6 +3534,15 @@
   "source": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0268_9700_-NONE-_-NONE-",
   "note": "Two Air Force SBIR Phase I orders signed 2026-07-08, about $110K each, are its first federal awards: one for the Airwolf hybrid VTOL drone, one for an AI model for orbital warfare. It applied for the AIRWOLF trademark in March 2025. No team, product page or outside funding could be found.",
   "location": "West Palm Beach, FL"
+ },
+ "venus-aerospace": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2020,
+  "raised_usd": 171000000.0,
+  "source": "https://payloadspace.com/venus-aerospace-raises-91m-series-b-to-scale-rdre-production/",
+  "note": "Founded in 2020 in Houston by Sassie and Andrew Duggleby. It flew a rotating detonation rocket engine in May 2025 on about $80M of investment, then closed a $91M Series B led by Mercury Fund in mid-2026, with Lockheed Martin Ventures among the investors.",
+  "location": "Houston, TX"
  },
  "verde-technologies": {
   "stage": "early",
