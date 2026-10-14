@@ -808,6 +808,15 @@
   "domain": "driftamp.com",
   "reviewed": true
  },
+ "drone-round": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2025,
+  "source": "https://militarytimes.com/news/your-military/2026/08/03/meet-drone-round-the-company-supplying-marines-with-anti-drone-ammo",
+  "note": "Founded in October 2025 in Gilbert, Arizona by people from Unlimited Ammo, Freedom Munitions and Ammo Load, it makes 5.56mm rounds that split into several projectiles to hit small drones. The Marine Corps says it has bought 400,000 rounds and plans to buy a million more. No outside funding was found.",
+  "sector": "defense",
+  "location": "Gilbert, AZ"
+ },
  "dronedeploy": {
   "stage": "growth",
   "founded": 2013,
@@ -1242,6 +1251,14 @@
   "name": "GennFlex",
   "domain": "gennflex.com",
   "location": "Wheeling, Illinois"
+ },
+ "geooptics": {
+  "reviewed": true,
+  "exclude": "A 20-year-old commercial weather-data company with satellites in orbit since 2019, not an early-stage startup.",
+  "stage": "incumbent",
+  "founded": 2006,
+  "source": "https://www.gpsworld.com/geooptics-upgrades-cicero-constellation-to-track-climate-change/",
+  "note": "Founded in 2006 by former JPL scientist Tom Yunck, it has flown its CICERO radio-occultation satellites since 2019 and sold weather data to NOAA under the Commercial Weather Data Pilot."
  },
  "gigaai": {
   "stage": "growth",
@@ -2042,6 +2059,12 @@
   "note": "A months-old Maine engineering-services startup that tests, commissions and maintains utility-scale solar and storage sites for developers and EPCs; it is hiring commissioning engineers in South Portland. The claims are accurate (trademark filed 2026-09-24, site live, no Hacker News mentions under name or domain) but…",
   "reviewed": true
  },
+ "mmrisc-2": {
+  "reviewed": true,
+  "exclude": "One individual's hobby chip-design repository, not a company.",
+  "source": "https://github.com/munetomo-maruyama/mmRISC-2",
+  "note": "A hobby RISC-V core on the personal GitHub account of a chip designer and electronics writer, with a single contributor; no company is named."
+ },
  "moby-robotics": {
   "stage": "formation",
   "founded": 2025,
@@ -2396,6 +2419,14 @@
   "source": "https://tsdr.uspto.gov/statusview/sn50140337",
   "note": "Only trace is the 1 Oct 2026 intent-to-use trademark MARTEL (drones, military drones, delivery drones, aircraft; drone piloting, delivery and rental) filed by Philadelphia Helicopter Corporation, a Texas corporation, with no attorney of record. Web searches for the company and the mark returned nothing: no site, no…"
  },
+ "phoenix-semiconductor": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2023,
+  "source": "https://spectrum.ieee.org/phoenix-semiconductors-legacy-chips-oems",
+  "note": "Founded in 2023 in Austin, it makes drop-in replacements for discontinued chips in military systems by packaging new dies to match the old part. It won a Defense Logistics Agency SBIR Phase II in June 2026 and has a strategic investment from Lockheed Martin Ventures; no amount is published.",
+  "location": "Austin, TX"
+ },
  "phoenix-tailings": {
   "stage": "growth",
   "founded": 2019,
@@ -2524,6 +2555,12 @@
   "reviewed": true,
   "source": "https://tsdr.uspto.gov/statusview/sn50000461",
   "note": "USPTO record confirmed: serial 50000461, filed Jul 18 2026, PROTEAN ROBOTICS, owner Protean Robotics LLC (New Jersey LLC), 23 Cambridge Rd, Lafayette NJ, self-filed with correspondent email at proteanrobotics.com, which ties the trademark to the website. Goods cover air/land/sea robots, autonomous drones…"
+ },
+ "protoforge": {
+  "reviewed": true,
+  "exclude": "One individual's open-source software project, not a company.",
+  "source": "https://github.com/suoten/ProtoForge",
+  "note": "A software simulator of industrial network protocols on a personal GitHub account with four contributors; no company is named."
  },
  "proxima-fusion": {
   "stage": "growth",
@@ -2788,6 +2825,12 @@
   "note": "Company site states RoboFounders, Inc. was established in Delaware on June 12, 2026 and RoboFounders Co., Ltd. in Japan on August 19, 2026. Its own press text calls it a 'San Francisco-based robotics startup studio'. Founder and CEO Mariel Asami Fukase; COO Takeshi Kanamori (former VC). No funding announced; selected…",
   "location": "San Francisco, California (virtual mailbox); team operates from Japan and Malaysia",
   "reviewed": true
+ },
+ "roboharness": {
+  "reviewed": true,
+  "exclude": "One individual's open-source repository, not a company.",
+  "source": "https://github.com/BinceQu/RoboHarness",
+  "note": "The repository was created on 2026-10-07 on a personal GitHub account with one follower and two contributors; no company is named."
  },
  "roboparty": {
   "reviewed": true,
