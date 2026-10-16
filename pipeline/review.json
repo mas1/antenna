@@ -538,6 +538,13 @@
   ],
   "reviewed": true
  },
+ "bwxt-advanced-technologies": {
+  "reviewed": true,
+  "exclude": "Subsidiary of BWX Technologies, a listed nuclear manufacturer, not a startup.",
+  "stage": "incumbent",
+  "source": "https://www.bwxt.com/",
+  "note": "BWXT Advanced Technologies is a Lynchburg, Virginia subsidiary of BWX Technologies, the listed maker of naval nuclear reactors; mPower is the small modular reactor design BWXT developed in the 2010s."
+ },
  "cable": {
   "stage": "formation",
   "founded": 2025,
@@ -1333,6 +1340,12 @@
   "location": "Brooklyn, New York",
   "reviewed": true
  },
+ "groundingpi": {
+  "reviewed": true,
+  "exclude": "An academic paper's model and code release, not a company.",
+  "source": "https://github.com/groundingpi/GroundingPI",
+  "note": "The repository is the code and model release for arXiv paper 2609.39601, written by 26 academic and industry researchers led from Peking University; no company is behind it."
+ },
  "hadron-energy": {
   "exclude": "Public company: listed on Nasdaq as HDRN since 26 May 2026 after merging with GigCapital7. A venture firm cannot treat a listed company as an early find, and the row shows none of this.",
   "stage": "incumbent",
@@ -1596,6 +1609,16 @@
   "note": "Founded 2022 in New York by Nikhil Reddy and KJ Shah; $21M Series A announced 2025-10-30 led by NEA with a16z, 776, Accel and Carpenter Capital, $35M raised in total. FPDS confirms the $15M Army OT W912CH269A034, signed 2026-05-08, described as 'CSO - OTA Unified Counter Drone Marketplace', vendor at 17 W 20th St, New…",
   "name": "Kaizen",
   "domain": "kaizenlabs.co"
+ },
+ "katalyst-space-technologies": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2020,
+  "raised_usd": 12000000.0,
+  "source": "https://evertiq.com/news/2026-06-25-katalyst-raises-12m-to-send-space-robot-for-satellite-servicing",
+  "note": "Founded in 2020 by CEO Ghonhee Lee, it built a spacecraft in eight months to boost NASA's Swift observatory and raised a $12M Series A led by Geodesic Capital in June 2026 for a robotic servicing mission to geostationary orbit in 2027.",
+  "name": "Katalyst Space",
+  "location": "Flagstaff, AZ"
  },
  "kepler-computing": {
   "stage": "growth",
@@ -2709,6 +2732,16 @@
   "location": "San Diego, California",
   "reviewed": true
  },
+ "reditus-space": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2024,
+  "raised_usd": 7100000.0,
+  "source": "https://hypepotamus.com/startup-news/reditus-space-microgravity-as-a-service-funding/",
+  "note": "Founded in 2024 by Georgia Tech aerospace engineers Stef Crum and Will Sherman, it went through YC Winter 2025 and closed a $7.1M seed round backed by Y Combinator and Antler in late 2025. It has built ENOS, a 200 kg reusable reentry vehicle for manufacturing and research in orbit.",
+  "sector": "space",
+  "location": "Atlanta, GA"
+ },
  "reei-company": {
   "stage": "formation",
   "source": "https://reeitech.com",
@@ -3104,6 +3137,12 @@
   "source": "https://github.com/bherbruck/solvecraft",
   "note": "The repository sits on an individual's GitHub account and describes an open-source reimplementation of a commercial CAD program; no company is named."
  },
+ "soma": {
+  "reviewed": true,
+  "exclude": "One individual's open-source software project, not a company.",
+  "source": "https://github.com/Kai-Jungsthoefel/SOMA",
+  "note": "A desktop CAD app on an individual engineer's GitHub account, created 2026-10-10 with a single contributor; no company is named."
+ },
  "somewear-labs": {
   "reviewed": true,
   "stage": "early",
@@ -3322,6 +3361,12 @@
   "domain": "theamericandronecompany.com",
   "location": "Woodstock, Georgia",
   "reviewed": true
+ },
+ "the-knoch-group": {
+  "reviewed": true,
+  "exclude": "Demonstrates and integrates another maker's radars (Echodyne's EchoGuard and EchoShield); no product of its own was found.",
+  "source": "https://apps.fcc.gov/oetcf/els/reports/GetApplicationInfo.cfm?id_file_num=2128-EX-ST-2026",
+  "note": "Its FCC filings are for demonstrating EchoGuard and EchoShield radars, which are Echodyne products, to end customers; no product of its own was found."
  },
  "the-whiskey-project-group": {
   "stage": "growth",
