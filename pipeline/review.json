@@ -720,6 +720,16 @@
   "location": "El Segundo, CA",
   "reviewed": true
  },
+ "d-orbit-space": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2011,
+  "raised_usd": 200000000.0,
+  "source": "https://www.satellitetoday.com/finance/2024/07/10/d-orbit-goes-after-us-market-with-new-subsidiary/",
+  "note": "D-Orbit Space is the Boulder, Colorado arm of D-Orbit, a Milan space-logistics company founded in 2011 that says it has raised more than $200M, including a €150M Series C in 2024. It won a $24M Deorbit-as-a-Service award from DIU and the Space Development Agency in August 2026.",
+  "name": "D-Orbit",
+  "location": "Boulder, CO"
+ },
  "darkflite": {
   "stage": "early",
   "source": "https://dronelife.com/2025/09/05/darkflite-announces-new-sbir-from-air-force-for-logistics-drone/",
@@ -1018,6 +1028,12 @@
   "source": "https://jobs.gusto.com/boards/every-electric-8fd10edb-0105-4929-9b96-60db16882c01",
   "note": "Describes itself as an early-stage grid technology company that runs a virtual power plant of residential battery packs in New York City with Con Edison, backed by NYSERDA, Activate and Breakthrough Energy. Its trademark filing claims first use in May 2026. No funding amount is published.",
   "location": "Brooklyn, NY"
+ },
+ "evobot": {
+  "reviewed": true,
+  "exclude": "One individual's open-source research repository, not a company.",
+  "source": "https://github.com/ABC12345anouys/EvoBot",
+  "note": "A robot-manipulation research repository on a personal GitHub account with a single contributor; no company is named."
  },
  "evolve-dynamics": {
   "stage": "early",
@@ -1581,6 +1597,12 @@
   "location": "Richmond, VA (waiver address 8401 Mayland Dr Ste A; site says it serves the Mid-Atlantic / Northern Virginia data-center corridor)",
   "reviewed": true
  },
+ "jumpstart-3d": {
+  "reviewed": true,
+  "exclude": "One individual's copy of an open-source CAD program, not a company.",
+  "source": "https://github.com/MaxSikorski/jumpstart-3d",
+  "note": "A community-maintained copy of another developer's browser CAD program, published on a personal GitHub account; no company is named."
+ },
  "juno-propulsion": {
   "stage": "formation",
   "founded": 2023,
@@ -1937,6 +1959,17 @@
   "location": "San Francisco, CA",
   "reviewed": true
  },
+ "mara-solutions": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2024,
+  "raised_usd": 7000000.0,
+  "source": "https://runtimewire.com/article/mara-raises-7m-spike-counter-fpv-drone-defense",
+  "note": "Founded in October 2024 by Daniel Kofman and Sriram Raghu, Mara builds Spike, a ground-based system of sensors and small tube-launched interceptors against FPV drones. It raised a $7M pre-seed led by Khosla Ventures, announced on 2026-08-26.",
+  "name": "Mara",
+  "sector": "defense",
+  "location": "San Francisco, CA"
+ },
  "marcum-swerling-defense": {
   "source": "https://tsdr.uspto.gov/statusview/sn99940460",
   "note": "USPTO TSDR serial 99940460 (word mark) confirmed: filed 14 Jul 2026, intent to use, owner Marcum & Swerling Defense LLC, a North Carolina LLC at 180 One Down St, Southern Pines; self-filed with no attorney and Gmail correspondents. The second filing is the logo, serial 99940471 (seen on Justia only). Goods are…",
@@ -2247,6 +2280,13 @@
   "domain": "letsnosh.io",
   "location": "San Francisco Bay Area, CA (engineering and legacy entity in Bengaluru, India); Lewes, DE is the registered-agent address",
   "reviewed": true
+ },
+ "nova-measuring-instruments": {
+  "reviewed": true,
+  "exclude": "US arm of Nova, a listed semiconductor metrology company, not a startup.",
+  "stage": "incumbent",
+  "source": "https://www.novami.com/",
+  "note": "Nova Measuring Instruments, Inc. is the US arm of Nova, the Nasdaq-listed Israeli maker of semiconductor metrology equipment."
  },
  "nurb": {
   "exclude": "A free open-source side project by one person (Josh Pigford, a well-known indie software founder: Baremetrics, Maybe), published under his personal LLC. Not a company, no commercial offering.",
@@ -2742,6 +2782,13 @@
   "sector": "space",
   "location": "Atlanta, GA"
  },
+ "redwire-defense-tech-holdings": {
+  "reviewed": true,
+  "exclude": "Subsidiary of Redwire, a listed space and defense company, not a startup.",
+  "stage": "incumbent",
+  "source": "https://redwirespace.com/",
+  "note": "Redwire Defense Tech Holdings is a San Luis Obispo unit of Redwire, the listed space and defense company, which bought the drone maker Edge Autonomy there in 2025."
+ },
  "reei-company": {
   "stage": "formation",
   "source": "https://reeitech.com",
@@ -2827,6 +2874,12 @@
   "name": "Riven Systems",
   "domain": "rivensystems.ai",
   "reviewed": true
+ },
+ "rk-technology-systems": {
+  "reviewed": true,
+  "exclude": "Makes insulated food and beverage containers for the Army, outside the hardware thesis.",
+  "source": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&q=PIID:%22W911QY269A029%22%20MODIFICATION_NUMBER:%220%22",
+  "note": "Its only signal is a $128K Army prototype agreement for lightweight, collapsible insulated food and beverage containers."
  },
  "rl-token-pi05-open": {
   "exclude": "One individual's open-source reimplementation of someone else's paper (Physical Intelligence's RL Token on pi0.5), not a company. Owner S.W.Zheng lists 'FeisiLab', Changsha, with 6 followers; the work was done with ZTE-provided equipment. 43 stars and no…",
@@ -3285,6 +3338,12 @@
   "name": "TAKTO ONE",
   "location": "Koethen (Anhalt), Germany",
   "reviewed": true
+ },
+ "tangency-labs": {
+  "reviewed": true,
+  "exclude": "An open-source CAD project, now under a GitHub organization named Tangency Labs; no company, team or funding was found.",
+  "source": "https://github.com/tangency-labs/solidcraft",
+  "note": "SolidCraft, an open-source CAD program first published as solvecraft on an individual's GitHub account, moved on 2026-10-16 to a new GitHub organization named Tangency Labs and passed 6,000 stars. No incorporated company, team, funding or paid product was found."
  },
  "tangram-vision": {
   "reviewed": true,
