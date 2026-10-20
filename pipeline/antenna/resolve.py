@@ -210,12 +210,17 @@ def _apply_review(conn: sqlite3.Connection) -> int:
     Scoring corrections are applied later, in score.py.
     """
     merged = 0
-    by_slug = {r["slug"]: r["id"] for r in conn.execute("SELECT id, slug FROM entities")}
+    rows = conn.execute("SELECT id, slug, aliases FROM entities").fetchall()
+    by_slug = {r["slug"]: r["id"] for r in rows}
+    moves = review.carry_over(
+        (r["slug"], {slugify(a) for a in json.loads(r["aliases"] or "[]")}) for r in rows)
+    # An entry keyed by an old slug finds the company under its new one.
+    by_key = {**by_slug, **{key: by_slug[slug] for slug, key in moves.items()}}
     for slug, rev in review.load().items():
-        eid = by_slug.get(slug)
+        eid = by_key.get(slug)
         if eid is None:
             continue
-        target = by_slug.get(rev.get("merge_into") or "")
+        target = by_key.get(rev.get("merge_into") or "")
         if target and target != eid:
             conn.execute("UPDATE signals SET entity_id=? WHERE entity_id=?", (target, eid))
             conn.execute("DELETE FROM entities WHERE id=?", (eid,))

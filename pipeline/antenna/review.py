@@ -26,6 +26,7 @@ and argued with. In a fund this file is where partner feedback would land.
 from __future__ import annotations
 
 import json
+from collections.abc import Iterable
 from functools import lru_cache
 
 from .config import REVIEW_PATH
@@ -44,5 +45,41 @@ def load() -> dict[str, dict]:
     return {k: v for k, v in data.items() if isinstance(v, dict)}
 
 
+_carried: dict[str, str] = {}
+
+
+def carry_over(rows: Iterable[tuple[str, Iterable[str]]]) -> dict[str, str]:
+    """Let an entry follow a company whose slug changed. Returns the moves.
+
+    Entries are keyed by the slug a company had when it was reviewed. A
+    rename gives it a new slug (a GitHub project moved to another account,
+    a company that took a new name), and its old names stay among its
+    aliases. An entry whose slug no row holds any more applies to the one
+    row that lists the old name as an alias; with two claimants it applies
+    to neither. A row's own entry always wins.
+
+    `rows` is (slug, alias slugs) for every entity. Resolution calls this
+    each run, before anything looks an entry up.
+    """
+    entries = load()
+    rows = [(slug, set(aliases)) for slug, aliases in rows]
+    current = {slug for slug, _ in rows}
+    claims: dict[str, set[str]] = {}
+    for slug, aliases in rows:
+        if slug in entries:
+            continue
+        for key in sorted(aliases):
+            if key in entries and key not in current:
+                claims.setdefault(key, set()).add(slug)
+    moves: dict[str, str] = {}
+    for key, slugs in sorted(claims.items()):
+        if len(slugs) == 1:
+            moves.setdefault(next(iter(slugs)), key)
+    _carried.clear()
+    _carried.update(moves)
+    return dict(moves)
+
+
 def for_slug(slug: str) -> dict:
-    return load().get(slug, {})
+    entries = load()
+    return entries.get(slug) or entries.get(_carried.get(slug, ""), {})
