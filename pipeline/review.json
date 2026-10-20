@@ -1068,6 +1068,12 @@
   "location": "San Francisco, CA",
   "reviewed": true
  },
+ "extrudo": {
+  "reviewed": true,
+  "exclude": "One individual's open-source CAD project, not a company.",
+  "source": "https://github.com/zoltanf/extrudo",
+  "note": "A browser CAD program for 3D printing on an individual consultant's GitHub account, with a single contributor; no company is named."
+ },
  "falcon-unmanned-systems": {
   "exclude": "A real LLC, but a drone survey services operator in Dyer, Indiana that flies other makers' aircraft; it builds no product or technology, so it is off thesis for a venture list. Classed not-a-company as the closest bucket (operator, like a dealer).",
   "source": "https://www.falconunmannedsystems.com/whatwedo",
@@ -2288,6 +2294,12 @@
   "source": "https://www.novami.com/",
   "note": "Nova Measuring Instruments, Inc. is the US arm of Nova, the Nasdaq-listed Israeli maker of semiconductor metrology equipment."
  },
+ "noxaero": {
+  "reviewed": true,
+  "exclude": "A drone operator holding an FAA waiver; no product of its own was found.",
+  "source": "https://www.faa.gov/sites/faa.gov/files/107W-2026-02332-Sean-Brown-CoW.pdf",
+  "note": "The only signal is an FAA waiver to fly drones beyond visual line of sight; nothing shows that it makes them."
+ },
  "nurb": {
   "exclude": "A free open-source side project by one person (Josh Pigford, a well-known indie software founder: Baremetrics, Maybe), published under his personal LLC. Not a company, no commercial offering.",
   "source": "https://github.com/Shpigford/nurb",
@@ -2326,6 +2338,12 @@
   "sector": "manufacturing",
   "domain": "olympianmotors.com",
   "reviewed": true
+ },
+ "onair": {
+  "reviewed": true,
+  "exclude": "One individual's open-source radio software, not a company.",
+  "source": "https://github.com/adswill/OnAir",
+  "note": "A free software radio receiver on an individual's GitHub account, created 2026-10-01; no company is named."
  },
  "one-nuclear-energy": {
   "exclude": "Public company (Nasdaq: ONEN, about $1bn equity value at announcement) and a develop-own-operate power project developer using third-party SMRs and Rolls-Royce gas generators, not a technology builder a venture firm could enter early.",
@@ -2743,6 +2761,14 @@
   "note": "UC Berkeley spinout using engineered microbes to recover and separate rare earth elements without acid hydrometallurgy; grant-funded (Activate fellowship, NSF SBIR Phase I of $303,808 confirmed on sbir.gov and USAspending) and little known. The address is a campus lab building (Koshland Hall), and the PI Nathan Good…",
   "reviewed": true
  },
+ "ravn-group": {
+  "reviewed": true,
+  "exclude": "A 30-year-old contract flight-training operator, not a startup.",
+  "stage": "incumbent",
+  "founded": 1994,
+  "source": "https://en.wikipedia.org/wiki/Ravn_Aerospace",
+  "note": "RAVN Aerospace, formerly AirUSA, was founded in 1994 and flies retired military jets for adversary-air and close-air-support training for the Department of Defense from Houston Spaceport."
+ },
  "re-build-applied-logix": {
   "reviewed": true,
   "exclude": "Subsidiary of Re:Build Manufacturing, a large well-funded industrial roll-up, and an engineering-services firm rather than a product startup.",
@@ -3153,6 +3179,12 @@
   "name": "Skyfront",
   "reviewed": true
  },
+ "skyports-drone-services": {
+  "reviewed": true,
+  "exclude": "A drone services operator holding an FAA waiver, not a maker of drones.",
+  "source": "https://www.faa.gov/sites/faa.gov/files/107W-2026-02375-James-Greenway-CoW.pdf",
+  "note": "The only signal is an FAA waiver to fly drones beyond visual line of sight; Skyports runs drone delivery and inspection services."
+ },
  "skytrax": {
   "stage": "formation",
   "founded": 2024,
@@ -3160,6 +3192,12 @@
   "note": "Florida Sunbiz: SKYTRAX LLC, document L24000371412, filed 08/16/2024, active; principal address, mailing address and registered agent are all Mark B. Foley at 79 Flatwoods Forest Loop, Santa Rosa Beach (a residential address). USAspending flags it as a sole proprietorship, veteran-owned small business, and…",
   "name": "Skytrax",
   "reviewed": true
+ },
+ "skyworx-drone-shows": {
+  "reviewed": true,
+  "exclude": "A drone light-show operator, not a maker of drones.",
+  "source": "https://apps.fcc.gov/oetcf/els/reports/GetApplicationInfo.cfm?id_file_num=2152-EX-ST-2026",
+  "note": "Skyworx stages drone light shows; its FCC filing is for show operations."
  },
  "smarter-reality": {
   "exclude": "A contract software and game development studio and repeat Air Force SBIR awardee (12 awards since 2019), not a product company on thesis. The $110K award is for a virtual training simulator about counter-drone defense; it makes no drones, autonomy or C-UAS…",
