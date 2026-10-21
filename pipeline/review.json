@@ -764,6 +764,15 @@
   "note": "Company's own About page gives a 2025 founding; Tracxn lists a seed round on 10 Aug 2026 with strategic investor Solaris Energy Infrastructure (NYSE: SEI), amount undisclosed.",
   "reviewed": true
  },
+ "dexforce": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2021,
+  "raised_usd": 140000000.0,
+  "source": "https://autonews.gasgoo.com/articles/news/seeds-dexforce-closes-1-billion-yuan-series-b-financing-round-valuation-exceeds-10-billion-yuan-2072327242154561537",
+  "note": "DexForce Technology was founded in Shenzhen in June 2021 by Kui Jia, a professor at CUHK-Shenzhen, and trains robots on simulated data. It closed a 1 billion yuan Series B, about $140M, at a valuation above 10 billion yuan, and has been reported to be weighing a Hong Kong listing.",
+  "location": "Shenzhen, China"
+ },
  "dexmal": {
   "stage": "early",
   "founded": 2025,
@@ -1200,6 +1209,14 @@
    "Bryan Davison"
   ],
   "reviewed": true
+ },
+ "fourth-state-communications": {
+  "reviewed": true,
+  "stage": "formation",
+  "source": "https://cheyenneleads.org/member/fourth-state-communications-llc/",
+  "note": "A Cheyenne company developing ETSS, a software-defined system for steadying radio propagation through the atmosphere to carry data beyond line of sight without satellites. Its FCC filing is for experiments with the Navy's NIWC Pacific. No funding or founding date was found.",
+  "location": "Cheyenne, WY",
+  "sector": "defense"
  },
  "fpf-defense": {
   "stage": "formation",
@@ -2191,6 +2208,13 @@
   "note": "MyRadar is a long-established consumer weather app (released 2012, tens of millions of downloads, its own Wikipedia page) run by Andy Green's ACME AtronOmatic in Orlando; it builds small HORIS earth-observation satellites in-house for wildfire detection. The FCC filing is accurate (Form 442 for file 0967-EX-CN-2026…",
   "reviewed": true
  },
+ "nano-nuclear-energy": {
+  "reviewed": true,
+  "exclude": "A Nasdaq-listed nuclear company, not a private startup.",
+  "stage": "incumbent",
+  "source": "https://nanonuclearenergy.com/",
+  "note": "Nano Nuclear Energy is listed on Nasdaq and is developing the KRONOS and other microreactor designs."
+ },
  "natura-resources": {
   "reviewed": true,
   "stage": "growth",
@@ -3171,6 +3195,15 @@
   "location": "San Mateo, CA",
   "reviewed": true
  },
+ "skyfish": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2014,
+  "raised_usd": 20000000.0,
+  "source": "https://www.suasnews.com/2021/06/american-drone-maker-skyfish-secures-over-20-million-in-series-seed-funding-appoints-cell-tower-industry-veteran-steven-bernstein-to-its-board-of-directors/",
+  "note": "Founded in 2014 and based in Stevensville, Montana, Skyfish builds its own drones and software for inspecting and 3D-modelling towers, bridges and power lines. It raised a $20M seed round in June 2021, led by Bayshore Capital and SBA Communications director Steven Bernstein; no later round was found.",
+  "location": "Stevensville, MT"
+ },
  "skyfront": {
   "stage": "early",
   "founded": 2014,
@@ -3326,6 +3359,14 @@
   "note": "Sudo Technology, Shanghai, registered 2025-05-19; Pre-A round of $500M on 2026-04-20 at a valuation above $2B from CATL, Alibaba, Tencent, Hillhouse/Gaoling and IDG ( and Hengdian Capital confirms the $2B valuation at ). Founder Hao Su, formerly a tenured UC San Diego professor, now at Fudan. Sudo AI GmbH is a Zurich…",
   "domain": "sudo.ai",
   "location": "Shanghai, China (Sudo AI GmbH registered in Zurich, Switzerland)"
+ },
+ "super-powers-mobility-spm": {
+  "reviewed": true,
+  "stage": "formation",
+  "founded": 2023,
+  "source": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
+  "note": "YC directory lists Super Powers Mobility in the Fall 2026 batch, founded 2023, team of 4 in Pittsburgh. Founder Jonathan Powers was a senior mechanical design engineer on Tesla's Cybertruck. It moved from electric off-road vehicles to selling battery packs and power export, including to the military.",
+  "location": "Pittsburgh, PA"
  },
  "superradiant": {
   "stage": "formation",
@@ -3910,6 +3951,15 @@
   "name": "Yan Fusion (岩超聚能)",
   "domain": "yanfusion.com",
   "reviewed": true
+ },
+ "zadar-labs": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2019,
+  "raised_usd": 5600000.0,
+  "source": "https://autotechinsight.spglobal.com/news/5259233/radar-startup-zadar-labs-raises-usd56-million-in-seed-funding",
+  "note": "Founded in 2019 by Lyft Level 5 veterans Mahmoud Saadat and Mo Emadi, it builds software-defined 4D imaging radar. Its documented funding is a $5.6M seed round led by Zoox founder Tim Kentley-Klay; a 2026 Series A appears only in funding aggregators.",
+  "sector": "autonomy"
  },
  "zeeno-robotics": {
   "reviewed": true,
