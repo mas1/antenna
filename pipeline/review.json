@@ -471,6 +471,14 @@
   "name": "VeloAlpha",
   "reviewed": true
  },
+ "birdstop": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2018,
+  "raised_usd": 2300000.0,
+  "source": "https://insideunmannedsystems.com/birdstop-raises-funding-to-expand-network-ofbvlos-drones-across-america/",
+  "note": "Founded in 2018 by CEO Keith Miao, a former Google data scientist, Birdstop runs autonomous drones that watch power grids and telecom sites. It raised a $2.3M round led by Lerer Hippeau in 2023; funding aggregators list about $7M in total."
+ },
  "blue-energy-global": {
   "stage": "growth",
   "founded": 2023,
@@ -720,6 +728,16 @@
   "location": "El Segundo, CA",
   "reviewed": true
  },
+ "d-fend-solutions-ad": {
+  "reviewed": true,
+  "stage": "early",
+  "raised_usd": 67000000.0,
+  "source": "https://www.calcalistech.com/ctechnews/article/ry5y0jcxyx",
+  "note": "D-Fend Solutions AD is the US arm, in McLean, Virginia, of D-Fend Solutions, an Israeli maker of cyber counter-drone systems led by CEO Zohar Halachmi. It closed a $31M round led by Israel Growth Partners in late 2024, taking its total to about $67M.",
+  "name": "D-Fend Solutions",
+  "location": "McLean, VA",
+  "sector": "defense"
+ },
  "d-orbit-space": {
   "reviewed": true,
   "stage": "growth",
@@ -805,6 +823,13 @@
   "domain": "diffrobot.com",
   "location": "Hangzhou, China",
   "reviewed": true
+ },
+ "dillon-aero": {
+  "reviewed": true,
+  "exclude": "An established weapons manufacturer, not a startup.",
+  "stage": "incumbent",
+  "source": "https://www.dillonaero.com/",
+  "note": "Dillon Aero makes the M134D minigun and says it has fielded more than 6,500 weapons systems in more than 50 countries."
  },
  "discovery-2-scale": {
   "reviewed": true,
@@ -998,6 +1023,15 @@
   "note": "Founded 2020 in Rochester (formerly Solena Systems, Inc. per the USPTO owner record) and listed as unfunded by Tracxn; it runs on about $9.7M of DoD SBIR-type contracts since 2024 per USAspending, with no priced round found.",
   "sector": "defense",
   "reviewed": true
+ },
+ "epirus": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2018,
+  "raised_usd": 550000000.0,
+  "source": "https://www.epirusinc.com/press-releases/epirus-closes-250m-series-d-to-hyperscale-leonidas-production-capability-for-critical-asset-protection",
+  "note": "Founded in 2018, Epirus builds the Leonidas high-power microwave system against drone swarms. It closed a $250M Series D led by 8VC and Washington Harbour Partners on 2025-03-05, taking its total venture funding past $550M.",
+  "location": "Torrance, CA"
  },
  "epropelled": {
   "stage": "growth",
@@ -1757,6 +1791,14 @@
   "location": "Shenzhen, China",
   "reviewed": true
  },
+ "kymeta": {
+  "reviewed": true,
+  "exclude": "A 14-year-old satellite-terminal maker selling products for years, past the early stage.",
+  "stage": "incumbent",
+  "founded": 2012,
+  "source": "https://en.wikipedia.org/wiki/Kymeta",
+  "note": "Kymeta was spun out of Intellectual Ventures in 2012 and has sold flat-panel satellite terminals for years; it is a mature, heavily funded company."
+ },
  "kyoto-fusioneering-europe": {
   "reviewed": true,
   "exclude": "Wholly owned European subsidiary of Kyoto Fusioneering Ltd, a well-funded and well-known Japanese fusion company; not an independent startup.",
@@ -2344,6 +2386,15 @@
   "note": "Ocean Atomics is designing a standardized water-cooled nuclear power plant for civilian ships; founders are William Cahill (ex-NSC maritime lead, 20-year Coast Guard officer) and Akemi Reed, with Nick Touran (15 years at TerraPower) as CTO. It has no disclosed funding and no Hacker News or major press coverage, yet…",
   "reviewed": true
  },
+ "odys-aviation": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2019,
+  "raised_usd": 38400000.0,
+  "source": "https://www.businesswire.com/news/home/20251009680128/en",
+  "note": "Founded in 2019 as Craft Aerospace and a YC Summer 2021 company, it is building a hybrid-electric VTOL aircraft at Long Beach Airport. It raised a $12.4M seed in 2022 and a $26M Series A led by Nova Threshold in October 2025.",
+  "location": "Long Beach, CA"
+ },
  "oklo": {
   "exclude": "Public company (NYSE: OKLO, multi-billion-dollar market cap, founded 2013); a venture firm cannot treat it as an early find.",
   "stage": "incumbent",
@@ -2655,6 +2706,14 @@
   "domain": "prometheus.co",
   "location": "San Francisco, California",
   "reviewed": true
+ },
+ "propel-aero": {
+  "reviewed": true,
+  "stage": "formation",
+  "raised_usd": 15400000.0,
+  "source": "https://www.bostonglobe.com/2025/06/03/business/yet-ming-chiang-propel-aero-airplane-clean-energy",
+  "note": "Formed inside MIT's incubator The Engine to commercialize Yet-Ming Chiang's sodium-air fuel cell for aircraft; Chiang and Venkat Viswanathan are officers. Its first Form D, filed 2026-10-21, reports $10.5M of equity sold in full to 16 investors, with a second filing showing $4.9M sold of $12M.",
+  "location": "Sunnyvale, CA"
  },
  "protean-robotics": {
   "reviewed": true,
@@ -3312,6 +3371,14 @@
   "note": "Company press release dated 2026-02-06 announces a $20.2M Series A led by Jack Abraham (Atomic) and says Sparkz was founded in 2020.",
   "reviewed": true
  },
+ "specter-aerospace": {
+  "reviewed": true,
+  "stage": "early",
+  "founded": 2013,
+  "source": "https://www.builtinboston.com/company/specter-aerospace",
+  "note": "A venture-backed company north of Boston developing supersonic and hypersonic vehicles and plasma-assisted combustion, founded in 2013 according to its job listings. Funding aggregators list a 2023 Series A and about $12.9M in total; no announcement was found.",
+  "location": "Peabody, MA"
+ },
  "starcloud": {
   "stage": "growth",
   "founded": 2024,
@@ -3457,6 +3524,17 @@
   "source": "https://tracxn.com/d/companies/tera-ai/__aOrQeuAXuMZPeAxlcZiSLa2wleeSromW0-DZ7WV0fUY",
   "note": "Seed-stage camera-only, GPS-denied navigation software for air, ground and sea vehicles, founded 2023 by ex-Google X ML lead Tony Zhang; $7.8M seed from Felicis and Inovia with Naval Ravikant, covered by TechCrunch in March 2025, so it is already on VC radar. Homepage confirmed as this company (offices in San…",
   "reviewed": true
+ },
+ "teradar": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2021,
+  "raised_usd": 150000000.0,
+  "source": "https://techcrunch.com/2025/11/12/teradar-exits-stealth-with-an-all-weather-sensor-for-autonomy-and-150m-in-funding/",
+  "note": "Founded in Boston around 2021 by CEO Matt Carey, Teradar builds a terahertz vision sensor for vehicles. It came out of stealth in November 2025 with a $150M Series B led by VXI Capital, with Lockheed Martin Ventures and The Engine among the investors.",
+  "name": "Teradar",
+  "sector": "autonomy",
+  "location": "Boston, MA"
  },
  "terminal-missile-defense": {
   "stage": "formation",
@@ -3806,6 +3884,13 @@
   "note": "TSDR sn50094769: owner VilladeLiu LLC, Florida LLC, no attorney, gmail correspondents, classes include import-export agencies and wholesale electronics distributorship. Justia owner page lists marks AFK, ROBOCAMEL, FOREVER55, FOREVER55 ROBOTS, FOREVER AGE, ROBOT REGISTRY, AFK ROBOT WORLD, ROBOT MONKS, OUR SACRED…",
   "location": "Champions Gate, Florida (mailbox address 8297 Champions Gate Blvd #635)",
   "reviewed": true
+ },
+ "virgin-galactic-holdings": {
+  "reviewed": true,
+  "exclude": "A listed space company, not a private startup.",
+  "stage": "incumbent",
+  "source": "https://www.virgingalactic.com/",
+  "note": "Virgin Galactic Holdings is listed on the New York Stock Exchange."
  },
  "visto-360-ai": {
   "reviewed": true,
