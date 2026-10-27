@@ -565,6 +565,16 @@
   "domain": "babsco.com",
   "location": "Elkhart, IN"
  },
+ "backplane": {
+  "reviewed": true,
+  "exclude": "An open-source circuit-design project maintained by an individual, not a company.",
+  "source": "https://backplane.works/"
+ },
+ "backplane-2": {
+  "reviewed": true,
+  "exclude": "An open-source circuit-design project maintained by an individual, not a company.",
+  "source": "https://backplane.works/"
+ },
  "beacon-ai": {
   "stage": "early",
   "founded": 2021,
@@ -765,6 +775,12 @@
   "note": "One-founder University of Michigan spinout (Dr. Grant Miars) commercializing a palm-sized patented Spacecraft Charge Detector that senses electrostatic charging on satellites; the $110K award (confirmed, $109,870, first on record) is a Space Force/SpaceWERX Phase I STTR with U-M as research partner. Very early and…",
   "domain": "camdenspace.io",
   "reviewed": true
+ },
+ "care-center-deutschland": {
+  "reviewed": true,
+  "exclude": "An orthopaedic care provider, outside the hardware thesis.",
+  "source": "https://doi.org/10.33137/cpoj.v9i2.47795",
+  "location": "Bochum, Germany"
  },
  "casimir": {
   "reviewed": true,
@@ -1040,6 +1056,11 @@
   "note": "Darkflite describes itself as built on 'its affiliate company, blueflite'; blueflite was founded in 2018. Darkflite's own formation date not found; darkflite.com was registered 2022-06-21. Funding found is SBIR contracts and a Michigan grant only.",
   "name": "Darkflite",
   "reviewed": true
+ },
+ "davian-robotics": {
+  "reviewed": true,
+  "exclude": "A university research lab, not a company.",
+  "source": "https://davian-robotics.github.io/"
  },
  "dcubed": {
   "reviewed": true,
@@ -1557,6 +1578,13 @@
   "name": "FibrX",
   "reviewed": true
  },
+ "fidelity-technology-services": {
+  "reviewed": true,
+  "exclude": "Part of a defense contract manufacturer founded in 1987, not a startup.",
+  "stage": "incumbent",
+  "source": "https://fidelitytech.com/about-us/",
+  "location": "Reading, PA"
+ },
  "fieldai": {
   "reviewed": true,
   "stage": "growth",
@@ -1775,6 +1803,11 @@
   "domain": "freeform.co",
   "location": "Hawthorne, CA",
   "reviewed": true
+ },
+ "fusion-research-atlas": {
+  "reviewed": true,
+  "exclude": "One individual's open-source project on a personal GitHub account, not a company.",
+  "source": "https://github.com/ZWY-research/Fusion-Research-Atlas"
  },
  "gallatin-ai": {
   "reviewed": true,
@@ -2000,6 +2033,12 @@
   "stage": "formation",
   "source": "https://www.sbir.gov/awards/220856",
   "note": "sbir.gov confirms a $305,000 NSF SBIR Phase I dated 2026-06-29 to HaloGen Power, Inc, 123 N Gilbert Ave, La Grange IL, PI Haining Gao. Homepage lists co-founders Haining Gao (MIT PhD 2022) and Betar Gallant (MIT mechanical engineering professor). Search results show it in Argonne's Chain Reaction Innovations…"
+ },
+ "havik-solutions": {
+  "reviewed": true,
+  "exclude": "A military training-simulator business, outside the hardware thesis.",
+  "source": "https://www.army-technology.com/news/special-operations-command-acquires-havik-virtual-reality-system/",
+  "location": "San Diego, CA"
  },
  "hawkeye-360": {
   "reviewed": true,
@@ -2511,6 +2550,11 @@
   "source": "https://github.com/SAMS0N1TE/LakeShark",
   "note": "GitHub repo owned by personal account SAMS0N1TE (bio 'Ex-Florida man', blog TerminalBay.com), who made all 201 commits; GPL-3.0 firmware for a third-party LilyGO T-Display P4 board, 133 stars, no product for sale, no company named.",
   "reviewed": true
+ },
+ "lambda-humanoid": {
+  "reviewed": true,
+  "exclude": "An academic paper's code and data release, not a company.",
+  "source": "https://github.com/LambdaHumanoid/openlambda"
  },
  "land-satellite-technologies": {
   "reviewed": true,
@@ -3160,6 +3204,13 @@
   "source": "https://github.com/bubblebabyboi/museRISC",
   "note": "A repository on an individual's personal GitHub account (bubblebabyboi), with no company named on the account or the project page."
  },
+ "muuv": {
+  "reviewed": true,
+  "exclude": "An established orthopaedic medical-supply business, outside the hardware thesis.",
+  "stage": "incumbent",
+  "source": "https://www.getbaito.com/de/orga/muuv-gmbh",
+  "location": "Münster, Germany"
+ },
  "mxene": {
   "stage": "formation",
   "source": "https://drexel.edu/engineering/news-events/news/archive/2024/July/materials-startups-innovation-fund/",
@@ -3256,6 +3307,11 @@
   "note": "Incorporated 18 Dec 2024 (NY Dept of State via bizprofile). Cornell spinout out of Nikolaos Bouklas' lab; CEO Steven Yang was a 2024 Cornell Ignite Fellow for New Ventures. Address 350 Duffield Hall is Cornell's Praxis incubator. NSF award verified via api.nsf.gov (id 2537440, $1,555,000, start 1 Aug 2026) and No…",
   "location": "Ithaca, NY",
   "reviewed": true
+ },
+ "neurband": {
+  "reviewed": true,
+  "exclude": "One individual's open-source project on a personal GitHub account, not a company.",
+  "source": "https://github.com/jlcjak/neurband"
  },
  "newcleo-americas": {
   "exclude": "US subsidiary of a Paris-headquartered, now Nasdaq-listed (NWCL) nuclear developer with 900+ employees and a $2.35B SPAC valuation. Not an undiscovered startup.",
@@ -4030,6 +4086,14 @@
   "location": "Redwood City, CA",
   "reviewed": true
  },
+ "rebellion-defense": {
+  "reviewed": true,
+  "stage": "growth",
+  "founded": 2019,
+  "raised_usd": 150000000.0,
+  "source": "https://www.executivebiz.com/articles/ai-startup-rebellion-defense-brings-in-150m",
+  "location": "Washington, DC"
+ },
  "recon-rf": {
   "stage": "early",
   "founded": 2017,
@@ -4453,6 +4517,11 @@
   "note": "YC directory lists Silica in the Fall 2026 batch, founded 2026, team size 1, San Francisco; its homepage says 'Backed by Y Combinator, Founders Inc. and UP.Partners' with no amount given.",
   "domain": "silicamachines.com",
   "location": "San Francisco, CA"
+ },
+ "silkreel": {
+  "reviewed": true,
+  "exclude": "One individual's open-source project on a personal GitHub account, not a company.",
+  "source": "https://github.com/hridaya423/silkreel"
  },
  "silvus-technologies": {
   "reviewed": true,
@@ -4921,6 +4990,12 @@
   "source": "https://apps.fcc.gov/oetcf/els/reports/GetApplicationInfo.cfm?id_file_num=2128-EX-ST-2026",
   "note": "Its FCC filings are for demonstrating EchoGuard and EchoShield radars, which are Echodyne products, to end customers; no product of its own was found."
  },
+ "the-leapfrog-group": {
+  "reviewed": true,
+  "stage": "formation",
+  "source": "https://macventurecapital.com/portfolio/leapfrog-nuclear/",
+  "name": "Leapfrog Nuclear"
+ },
  "the-whiskey-project-group": {
   "stage": "growth",
   "founded": 2019,
@@ -5083,6 +5158,11 @@
   "name": "TYLsemi",
   "reviewed": true
  },
+ "uas-logisitcs": {
+  "reviewed": true,
+  "exclude": "A drone operator holding an FAA waiver; no product of its own was found.",
+  "source": "https://www.faa.gov/sites/faa.gov/files/107W-2026-02910-Toby-Woods-CoW.pdf"
+ },
  "umbra-lab": {
   "stage": "growth",
   "founded": 2015,
@@ -5165,6 +5245,11 @@
   "source": "https://www.sec.gov/Archives/edgar/data/2149540/000214954026000001/xslFormDX01/primary_doc.xml",
   "note": "Form D gives year of incorporation 2024 and $8,621,043 sold of $11,300,146 from 15 investors, with the clarification that the amount sold includes conversion of SAFEs; the company announced a $2.6M pre-seed led by N49P in 2025.",
   "reviewed": true
+ },
+ "vantage-mission-technologies": {
+  "reviewed": true,
+  "exclude": "A drone operator holding an FAA waiver; no product of its own was found.",
+  "source": "https://www.faa.gov/sites/faa.gov/files/107W-2026-02523-Robert-Kuhn-CoW.pdf"
  },
  "varda-space-industries": {
   "stage": "growth",
